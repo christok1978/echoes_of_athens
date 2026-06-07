@@ -1581,6 +1581,7 @@ let userMarker;
 let poiMarkers = [];
 let userLocation = { lat: 37.9710, lng: 23.7240 }; // Start slightly south-west of Acropolis
 let isSimulatedMode = true;
+let shouldPanToUser = false;
 let activePOI = null;
 let synth = window.speechSynthesis;
 let utterance = null;
@@ -1715,6 +1716,7 @@ function setupGPS() {
         } else {
             gpsToggleBtn.classList.add("active");
             gpsStatusText.textContent = "Real GPS Active";
+            shouldPanToUser = true;
             startRealGeolocation();
         }
     });
@@ -1759,6 +1761,11 @@ function startRealGeolocation() {
 function updateUserLocation(lat, lng) {
     userLocation = { lat, lng };
     userMarker.setLatLng([lat, lng]);
+
+    if (shouldPanToUser) {
+        map.setView([lat, lng], 16);
+        shouldPanToUser = false;
+    }
 
     // Check distances to POIs
     POIs.forEach(poi => {
