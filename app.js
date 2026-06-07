@@ -1728,17 +1728,32 @@ function startRealGeolocation() {
         return;
     }
 
-    watchId = navigator.geolocation.watchPosition(
-        (position) => {
-            updateUserLocation(position.coords.latitude, position.coords.longitude);
-        },
-        (error) => {
-            console.error("GPS Error:", error);
-            alert("Unable to retrieve GPS location. Reverting to Simulation Mode.");
-            document.getElementById("gps-toggle").click();
-        },
-        { enableHighAccuracy: true, timeout: 5000, maximumAge: 0 }
-    );
+    const options = { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 };
+
+    function success(position) {
+        updateUserLocation(position.coords.latitude, position.coords.longitude);
+    }
+
+    function error(err) {
+        console.warn("High accuracy GPS failed:", err);
+        if (options.enableHighAccuracy) {
+            // Fall back to low accuracy (Wi-Fi/IP location) which is fast and works indoors/on desktop
+            options.enableHighAccuracy = false;
+            options.timeout = 15000;
+            if (watchId) navigator.geolocation.clearWatch(watchId);
+            watchId = navigator.geolocation.watchPosition(success, finalError, options);
+        } else {
+            finalError(err);
+        }
+    }
+
+    function finalError(err) {
+        console.error("Final Geolocation Error:", err);
+        alert("Unable to retrieve GPS location. Reverting to Simulation Mode.");
+        document.getElementById("gps-toggle").click();
+    }
+
+    watchId = navigator.geolocation.watchPosition(success, error, options);
 }
 
 function updateUserLocation(lat, lng) {
