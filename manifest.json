@@ -1,6 +1,6 @@
 {
-    "name": "Echoes of Greece Audio Guide",
-    "short_name": "Echoes of Greece",
+    "name": "Echoes of Athens Audio Guide",
+    "short_name": "Echoes of Athens",
     "description": "Interactive, gamified geolocation audio guide PWA for Greek archaeological ruins.",
     "start_url": "./index.html",
     "display": "standalone",
