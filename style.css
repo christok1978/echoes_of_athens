@@ -162,6 +162,40 @@ body {
     }
 }
 
+/* Recenter Button Styling */
+.btn-recenter {
+    position: absolute;
+    bottom: 90px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+    background-color: var(--surface);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 5;
+    transition: var(--transition);
+}
+
+.btn-recenter:hover {
+    transform: scale(1.05);
+    border-color: var(--primary-light);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+}
+
+.btn-recenter svg {
+    fill: var(--primary-color);
+    transition: var(--transition);
+}
+
+.btn-recenter:hover svg {
+    fill: var(--primary-light);
+}
+
 /* Content panes */
 .app-content {
     flex: 1;

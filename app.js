@@ -1720,6 +1720,14 @@ function setupGPS() {
             startRealGeolocation();
         }
     });
+
+    // Recenter map on user location
+    const recenterBtn = document.getElementById("recenter-btn");
+    recenterBtn.addEventListener("click", () => {
+        if (userLocation && map) {
+            map.setView([userLocation.lat, userLocation.lng], 16);
+        }
+    });
 }
 
 let watchId = null;
