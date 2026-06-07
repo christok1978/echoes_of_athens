@@ -1889,6 +1889,50 @@ function triggerPOI(poi) {
     }
 }
 
+// Helper to expand dates, numbers, and abbreviations to ensure perfect English pronunciation
+function preprocessAudioText(text) {
+    let processed = text;
+    // Replace BC/AD
+    processed = processed.replace(/\bBC\b/g, 'B.C.');
+    processed = processed.replace(/\bAD\b/g, 'A.D.');
+    // Replace common ordinals
+    processed = processed.replace(/\b5th\b/g, 'fifth');
+    processed = processed.replace(/\b6th\b/g, 'sixth');
+    processed = processed.replace(/\b10th\b/g, 'tenth');
+    processed = processed.replace(/\b11th\b/g, 'eleventh');
+    processed = processed.replace(/\b19th\b/g, 'nineteenth');
+    processed = processed.replace(/\b20th\b/g, 'twentieth');
+    // Replace specific years and numbers to prevent mispronunciation
+    processed = processed.replace(/\b51\b/g, 'fifty-one');
+    processed = processed.replace(/\b50\b/g, 'fifty');
+    processed = processed.replace(/\b131\b/g, 'one hundred thirty-one');
+    processed = processed.replace(/\b144\b/g, 'one hundred forty-four');
+    processed = processed.replace(/\b277\b/g, 'two hundred seventy-seven');
+    processed = processed.replace(/\b334\b/g, 'three hundred thirty-four');
+    processed = processed.replace(/\b335\b/g, 'three hundred thirty-five');
+    processed = processed.replace(/\b399\b/g, 'three hundred ninety-nine');
+    processed = processed.replace(/\b449\b/g, 'four hundred forty-nine');
+    processed = processed.replace(/\b507\b/g, 'five hundred seven');
+    processed = processed.replace(/\b1050\b/g, 'ten fifty');
+    processed = processed.replace(/\b1687\b/g, 'sixteen eighty-seven');
+    processed = processed.replace(/\b1759\b/g, 'seventeen fifty-nine');
+    processed = processed.replace(/\b1829\b/g, 'eighteen twenty-nine');
+    processed = processed.replace(/\b1837\b/g, 'eighteen thirty-seven');
+    processed = processed.replace(/\b1843\b/g, 'eighteen forty-three');
+    processed = processed.replace(/\b1852\b/g, 'eighteen fifty-two');
+    processed = processed.replace(/\b1887\b/g, 'eighteen eighty-seven');
+    processed = processed.replace(/\b1888\b/g, 'eighteen eighty-eight');
+    processed = processed.replace(/\b1896\b/g, 'eighteen ninety-six');
+    processed = processed.replace(/\b1979\b/g, 'nineteen seventy-nine');
+    processed = processed.replace(/\b1996\b/g, 'nineteen ninety-six');
+    processed = processed.replace(/\b50,000\b/g, 'fifty thousand');
+    processed = processed.replace(/\b17,000\b/g, 'seventeen thousand');
+    processed = processed.replace(/\b5,000\b/g, 'five thousand');
+    processed = processed.replace(/\b6,000\b/g, 'six thousand');
+    processed = processed.replace(/\b24\/7\b/g, 'twenty-four seven');
+    return processed;
+}
+
 // --- Audio Player Controller (Web Speech API Synthesis) ---
 function playAudio() {
     if (!activePOI) return;
@@ -1900,13 +1944,31 @@ function playAudio() {
 
     // Reset Speech synthesis
     synth.cancel();
-    utterance = new SpeechSynthesisUtterance(activePOI.audioText);
+    
+    // Preprocess text to expand years, numbers, and abbreviations
+    const cleanText = preprocessAudioText(activePOI.audioText);
+    utterance = new SpeechSynthesisUtterance(cleanText);
+    
+    // Force English language tag so browsers default to English TTS engine
+    utterance.lang = 'en-US';
     utterance.rate = 0.95; // Steady, cinematic guide tempo
     
-    // Attempt to load standard Greek accented English or warm English voices
+    // Find the best English voice (prioritizing high-quality Google/Apple natural voices)
     const voices = synth.getVoices();
-    const englishVoice = voices.find(voice => voice.lang.includes('en-GB') || voice.lang.includes('en-US'));
-    if (englishVoice) utterance.voice = englishVoice;
+    let selectedVoice = null;
+    
+    // 1. Try to find a premium/natural English voice
+    selectedVoice = voices.find(v => v.lang.startsWith('en') && 
+        (v.name.includes('Google') || v.name.includes('Natural') || v.name.includes('Premium')));
+        
+    // 2. Fall back to standard en-US/en-GB or any English voice
+    if (!selectedVoice) selectedVoice = voices.find(v => v.lang.includes('en-US'));
+    if (!selectedVoice) selectedVoice = voices.find(v => v.lang.includes('en-GB'));
+    if (!selectedVoice) selectedVoice = voices.find(v => v.lang.startsWith('en'));
+    
+    if (selectedVoice) {
+        utterance.voice = selectedVoice;
+    }
 
     utterance.onend = () => {
         stopAudio();
