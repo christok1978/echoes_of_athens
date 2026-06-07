@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echoes of Greece | Geolocation Audio Guide</title>
+    <meta name="description" content="Explore ancient Greek ruins with immersive audio stories, gamified trivia quizzes, and local rewards.">
+    <!-- PWA Settings -->
+    <meta name="theme-color" content="#0d2f64">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet Map CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- App Header -->
+        <header class="app-header">
+            <div class="logo">
+                <span class="logo-ancient">E C H O E S</span>
+                <span class="logo-subtitle">of Greece</span>
+            </div>
+            <div class="mode-selector">
+                <button id="gps-toggle" class="btn-mode active" title="Switch between real GPS and Simulation Mode">
+                    <span class="icon-gps"></span>
+                    <span id="gps-status-text">Simulated GPS</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="app-content">
+            <!-- TAB 1: MAP VIEW -->
+            <section id="tab-map" class="tab-pane active">
+                <div id="map-container"></div>
+                <div class="map-instruction">
+                    <p>📍 Tap on a pin to explore, or click anywhere to simulate walking there!</p>
+                </div>
+            </section>
+
+            <!-- TAB 2: TOURS / STORIES -->
+            <section id="tab-tours" class="tab-pane">
+                <div class="tours-header">
+                    <h2>Acropolis Archaeological Tour</h2>
+                    <p class="tour-meta">⏳ 45 Mins • 5 Points of Interest</p>
+                </div>
+
+                <div class="poi-list" id="poi-list-container">
+                    <!-- Loaded dynamically via JavaScript -->
+                </div>
+            </section>
+
+            <!-- TAB 3: REWARDS & QUIZ -->
+            <section id="tab-rewards" class="tab-pane">
+                <div class="rewards-hero">
+                    <div class="trophy-icon">🏆</div>
+                    <h2>Your Greek Odysseys</h2>
+                    <p>Complete quizzes at historical sites to unlock local rewards, traditional Greek coffee vouchers, and souvenir discounts!</p>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-num" id="stat-points">0</span>
+                        <span class="stat-label">Drachmas (XP)</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num" id="stat-completed">0/5</span>
+                        <span class="stat-label">Sites Explored</span>
+                    </div>
+                </div>
+
+                <div class="coupons-section">
+                    <h3>Unlocked Rewards</h3>
+                    <div class="coupons-list" id="coupons-list-container">
+                        <!-- Loaded dynamically -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Bottom Navigation Bar -->
+        <nav class="app-nav">
+            <button class="nav-item active" data-tab="tab-map">
+                <svg viewBox="0 0 24 24" width="24" height="24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                <span>Map Guide</span>
+            </button>
+            <button class="nav-item" data-tab="tab-tours">
+                <svg viewBox="0 0 24 24" width="24" height="24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+                <span>Stories</span>
+            </button>
+            <button class="nav-item" data-tab="tab-rewards">
+                <svg viewBox="0 0 24 24" width="24" height="24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/></svg>
+                <span>Quizzes</span>
+            </button>
+        </nav>
+    </div>
+
+    <!-- Active Media & Story Drawer (Slides up from bottom) -->
+    <div id="media-drawer" class="media-drawer">
+        <div class="drawer-handle"></div>
+        <div class="drawer-header">
+            <button id="close-drawer" class="btn-close">&times;</button>
+            <span class="poi-badge">POI <span id="drawer-poi-index">1</span></span>
+            <h3 id="drawer-title">Parthenon</h3>
+        </div>
+        <div class="drawer-body">
+            <img id="drawer-image" class="drawer-hero-img hidden" src="" alt="Monument">
+            <div class="audio-panel">
+                <div class="audio-visualization" id="audio-viz">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="audio-controls">
+                    <button id="audio-play-btn" class="btn-play">
+                        <svg viewBox="0 0 24 24" width="32" height="32" id="play-icon"><path d="M8 5v14l11-7z"/></svg>
+                        <svg viewBox="0 0 24 24" width="32" height="32" id="pause-icon" class="hidden"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                    </button>
+                    <div class="audio-status">
+                        <span id="audio-time">0:00</span> / <span id="audio-duration">1:15</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="story-content">
+                <p id="drawer-description">The ultimate symbol of Classical Greece. Let the gods tell you the story of Athena's triumph.</p>
+            </div>
+
+            <div class="quiz-panel" id="quiz-container">
+                <hr>
+                <h4 class="quiz-title">✨ Site Challenge</h4>
+                <p class="quiz-question" id="quiz-question">Which goddess was the Parthenon dedicated to?</p>
+                <div class="quiz-options" id="quiz-options">
+                    <!-- Loaded dynamically -->
+                </div>
+                <div id="quiz-feedback" class="quiz-feedback hidden"></div>
+            </div>
+
+            <div class="transcript-panel" id="transcript-panel">
+                <hr>
+                <h4 class="quiz-title">📖 Full Narration Transcript</h4>
+                <p class="story-content" id="drawer-transcript" style="font-weight: 300; font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary); margin-bottom: 20px;"></p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Lightbox Modal for Full Image View -->
+    <div id="image-lightbox" class="lightbox-modal hidden">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" src="" alt="Full View">
+        <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="app.js"></script>
+    <script>
+        // Register Service Worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+                .then(() => console.log('Service Worker Registered'));
+        }
+    </script>
+</body>
+</html>
