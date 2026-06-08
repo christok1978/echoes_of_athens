@@ -1573,6 +1573,430 @@ const POIs = [
             "provider": "Kafenio Anafiotika",
             "code": "ANAFOCOFFEE"
         }
+    },
+    {
+        "id": 63,
+        "name": "Byzantine and Christian Museum",
+        "lat": 37.97472,
+        "lng": 23.74444,
+        "image": "images/byzantine_museum.png",
+        "description": "One of the world's most important museums of Byzantine art, housed in the historic Villa Ilissia, featuring a vast collection of icons, scriptures, and frescoes.",
+        "audioText": "Welcome to the Byzantine and Christian Museum of Athens. Established in 1914, this museum is housed in the Villa Ilissia, a lovely mid-19th-century palace built for the Duchess of Plaisance. The museum is dedicated to the collection, study, and conservation of Byzantine and post-Byzantine art from the 3rd century AD to the modern era. Its treasures include over 30,000 items, including portable icons, wall paintings, liturgical textiles, manuscripts, ceramics, and mosaics. Walking through its peaceful gardens and galleries, you can trace how classical antiquity evolved into the spiritual art of the Byzantine Empire.",
+        "quiz": {
+            "question": "In which historic 19th-century residence is the Byzantine and Christian Museum housed?",
+            "options": [
+                "Villa Ilissia",
+                "The Palace of Ilion",
+                "The Old Parliament House",
+                "Hadrian's Palace"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The museum is housed in the Villa Ilissia, constructed for the Duchess of Plaisance in 1848."
+        },
+        "reward": {
+            "title": "15% off at the Museum Café and Gardens",
+            "provider": "Ilissia Café, Byzantine Museum",
+            "code": "BYZANTINE15"
+        }
+    },
+    {
+        "id": 64,
+        "name": "War Museum of Athens",
+        "lat": 37.97528,
+        "lng": 23.74528,
+        "image": "images/war_museum.png",
+        "description": "Dedicated to the military history of Greece, showcasing weapons, uniforms, armor, and aircraft from antiquity to modern times.",
+        "audioText": "Stand before the War Museum of Athens, inaugurated in 1975. The museum's mission is to collect, preserve, and exhibit military relics and documentation, honoring Greece's struggles for freedom throughout history. The exhibits span all periods, from the prehistoric and classical eras—featuring hoplite armor and ancient spearheads—through the Byzantine era, the Greek War of Independence of 1821, the Balkan Wars, and both World Wars. In the courtyard outside, you can explore historic military aircraft, artillery guns, and naval torpedoes that served in the Greek armed forces.",
+        "quiz": {
+            "question": "Which historical period is covered by the displays in the War Museum?",
+            "options": [
+                "Only World War II",
+                "From antiquity to modern times",
+                "Only the Greek War of Independence",
+                "Only the Roman Era"
+            ],
+            "answer": 1,
+            "feedback": "Correct! The War Museum covers military history from prehistoric times to the modern era."
+        },
+        "reward": {
+            "title": "Free historical military postcard set",
+            "provider": "Athens War Museum Gift Shop",
+            "code": "WARMUSEUM"
+        }
+    },
+    {
+        "id": 65,
+        "name": "Numismatic Museum of Athens",
+        "lat": 37.9778,
+        "lng": 23.7354,
+        "image": "images/numismatic_museum.png",
+        "description": "Housed in the majestic Iliou Melathron, the former residence of Heinrich Schliemann, it features one of the world's greatest collections of ancient and modern coins.",
+        "audioText": "Welcome to the Numismatic Museum of Athens, housed in the Iliou Melathron, or the 'Palace of Troy.' This stunning neoclassical mansion was designed by Ernst Ziller in 1880 as the private residence of Heinrich Schliemann, the archaeologist who excavated Troy and Mycenae. The museum houses a collection of over 500,000 coins, medals, weights, and stamps dating from the 6th century BC to the present day. Ancient Greek coins form the core of the collection, illustrating the spread of trade and artistic styles across the Mediterranean.",
+        "quiz": {
+            "question": "Who was the original owner of the mansion (Iliou Melathron) housing the Numismatic Museum?",
+            "options": [
+                "Emperor Hadrian",
+                "Heinrich Schliemann",
+                "Lord Byron",
+                "King Otto"
+            ],
+            "answer": 1,
+            "feedback": "Correct! The mansion was built for Heinrich Schliemann, the famous excavator of Troy."
+        },
+        "reward": {
+            "title": "10% off coin replica souvenirs",
+            "provider": "Numismatic Museum Shop",
+            "code": "NUMISMATIC10"
+        }
+    },
+    {
+        "id": 66,
+        "name": "Hellenic Motor Museum",
+        "lat": 37.9913,
+        "lng": 23.7299,
+        "image": "images/motor_museum.png",
+        "description": "A unique museum displaying a vast collection of classic, vintage, and modern automobiles, charting the history of the wheel.",
+        "audioText": "Explore the Hellenic Motor Museum, located near the National Archaeological Museum. Occupying three floors of the modern Capitol Mall building, it showcases a rotation of more than 110 classic and vintage cars. The collection, compiled by Theodore Charagionis, includes antique models from the late 19th century, classic sports cars, and legendary performance vehicles. A spiral ramp inside the building guides visitors through the history of the wheel, starting from ancient stone wheels up to modern racing tires.",
+        "quiz": {
+            "question": "What does the Hellenic Motor Museum primarily display?",
+            "options": [
+                "Historic steam trains",
+                "Vintage and classic automobiles",
+                "Ancient Greek warships",
+                "Bicycles and horse carriages"
+            ],
+            "answer": 1,
+            "feedback": "Correct! The museum houses a beautiful private collection of classic and vintage motorcars."
+        },
+        "reward": {
+            "title": "15% off admission tickets",
+            "provider": "Hellenic Motor Museum Box Office",
+            "code": "WHEELHISTORY"
+        }
+    },
+    {
+        "id": 67,
+        "name": "National Gallery – Alexandros Soutsos Museum",
+        "lat": 37.97556,
+        "lng": 23.74917,
+        "image": "images/national_gallery.png",
+        "description": "The premier art museum of Greece, showcasing an extensive collection of post-Byzantine and modern Greek paintings, sculptures, and drawings.",
+        "audioText": "Stand before the newly renovated National Gallery of Greece, founded in 1900. It houses a collection of over 20,000 works of art, including paintings, sculptures, drawings, and prints. The permanent collection focuses on post-Byzantine Greek art, documenting how local painting styles transitioned from religious Byzantine iconography to Western European artistic movements after Greek independence. You will find masterpieces by El Greco, Nikolaos Gyzis, and Yannis Tsarouchis, reflecting the cultural identity of modern Greece.",
+        "quiz": {
+            "question": "Which famous post-Byzantine master painter has works exhibited in the National Gallery?",
+            "options": [
+                "El Greco",
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Vincent van Gogh"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Masterpieces by El Greco (Domenikos Theotokopoulos) are among the most famous works displayed at the National Gallery."
+        },
+        "reward": {
+            "title": "10% off art prints and books",
+            "provider": "National Gallery Bookstore",
+            "code": "ARTGALLERY10"
+        }
+    },
+    {
+        "id": 68,
+        "name": "Rhamnous Archaeological Site",
+        "lat": 38.2178,
+        "lng": 24.0258,
+        "image": "images/rhamnous.png",
+        "description": "The best-preserved ancient Athenian deme, overlooking the sea, featuring the sanctuary of Nemesis, goddess of divine retribution.",
+        "audioText": "Welcome to the archaeological site of Rhamnous. Located in a remote, pristine landscape overlooking the Euboean Gulf, this was one of the most important demes of ancient Attica. Rhamnous is celebrated for its Sanctuary of Nemesis, the goddess of retribution who punished human arrogance. According to legend, the Persians brought a large block of Parian marble, intending to carve a victory monument after conquering Athens. However, after their defeat at Marathon, the sculptor Agoracritus carved this very marble block into the cult statue of Nemesis, showing the goddess's justice. The site also includes well-preserved ancient houses, fortifications, and graves, offering a rare glimpse into a classical provincial town.",
+        "quiz": {
+            "question": "Which goddess of retribution was primarily worshipped at Rhamnous?",
+            "options": [
+                "Nemesis",
+                "Aphrodite",
+                "Artemis",
+                "Athena"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Nemesis, the goddess of divine retribution, was the patron deity of Rhamnous."
+        },
+        "reward": {
+            "title": "15% off local history books",
+            "provider": "Marathon Cultural Bookstore",
+            "code": "NEMESIS15"
+        }
+    },
+    {
+        "id": 69,
+        "name": "Aigosthena Fortress",
+        "lat": 38.1528,
+        "lng": 23.2306,
+        "image": "images/aigosthena.png",
+        "description": "A spectacular ancient fortress with towering stone walls and towers, representing the pinnacle of ancient military architecture.",
+        "audioText": "Stand before the massive walls of Aigosthena. Situated on the slopes of Mount Kithairon overlooking the Corinthian Gulf, this is the best-preserved ancient fortress in Greece. Built in the late 4th century BC, Aigosthena served as a crucial border fortress between Attica and Megaris. The fortress features a monumental stone citadel with several tall towers. The main three-story tower stands almost entirely to its original height of nearly 18 meters, featuring openings for archers and ancient catapults. Exploring this remote site shows the incredible engineering skill ancient Greeks brought to defensive warfare.",
+        "quiz": {
+            "question": "In which century BC was the Aigosthena Fortress constructed?",
+            "options": [
+                "1st Century BC",
+                "4th Century BC",
+                "8th Century BC",
+                "12th Century BC"
+            ],
+            "answer": 1,
+            "feedback": "Correct! The fortress was built in the late 4th century BC to defend the strategic border."
+        },
+        "reward": {
+            "title": "Free local organic olive oil sample",
+            "provider": "Porto Germeno Cooperatives",
+            "code": "AIGOSTHENA"
+        }
+    },
+    {
+        "id": 70,
+        "name": "Sanctuary of Aphaia",
+        "lat": 37.7547,
+        "lng": 23.5312,
+        "image": "images/aphaia.png",
+        "description": "A magnificent Doric temple on Aegina Island, forming the ancient Sacred Triangle with the Parthenon and Sounion.",
+        "audioText": "Visit the Sanctuary of Aphaia, perched on a pine-covered hill on Aegina Island. Built around 500 BC, this Doric temple is dedicated to Aphaia, a local goddess associated with fertility and agricultural cycles. The temple is famous for its elegant columns made of local limestone, coated with thin marble stucco. Architecturally, it represents the transition between archaic and classical style. Together with the Parthenon in Athens and the Temple of Poseidon at Cape Sounion, the Temple of Aphaia forms an equilateral triangle, known in antiquity as the Sacred Triangle, highlighting the mathematical harmony of ancient Greek sacred geography.",
+        "quiz": {
+            "question": "Which three temples form the ancient equilateral 'Sacred Triangle' of Attica?",
+            "options": [
+                "Parthenon, Temple of Poseidon (Sounion), and Temple of Aphaia",
+                "Temple of Zeus, Temple of Hephaestus, and Erechtheion",
+                "Delphi Temple, Olympia Temple, and Epidaurus Temple"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Parthenon, Sounion, and Aphaia temples form a perfect geometric alignment."
+        },
+        "reward": {
+            "title": "10% off traditional Aegina Pistachios",
+            "provider": "Aegina Artisanal Pistachio Shop",
+            "code": "APHAIAEG"
+        }
+    },
+    {
+        "id": 71,
+        "name": "Lake Vouliagmeni",
+        "lat": 37.8075,
+        "lng": 23.7856,
+        "image": "images/lake_vouliagmeni.png",
+        "description": "A natural thermal spa lake fed by underground springs, situated in a collapsed limestone cave along the Athenian Riviera.",
+        "audioText": "Welcome to Lake Vouliagmeni, a geological wonder of the Athenian Riviera. This brackish lake is fed by natural thermal springs flowing from deep underground, maintaining a year-round temperature between 22 and 29 degrees Celsius. The lake was formed in prehistoric times when a massive underground hot spring cavern collapsed. The resulting basin is flanked by a high cliff and connects to the sea via underwater tunnels. The lake is home to small Doctor Fish, which gently exfoliate the skin of bathers. It has served as a natural therapeutic spa for centuries.",
+        "quiz": {
+            "question": "What geological event formed the basin of Lake Vouliagmeni?",
+            "options": [
+                "The collapse of a massive hot spring cavern roof",
+                "A sudden volcanic eruption",
+                "An impact from a prehistoric meteor",
+                "An artificial excavation by Roman soldiers"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The lake was formed when the roof of a large hot cavern collapsed."
+        },
+        "reward": {
+            "title": "15% off thermal bath entry",
+            "provider": "Lake Vouliagmeni Reception",
+            "code": "THERMALSPA"
+        }
+    },
+    {
+        "id": 72,
+        "name": "Marathon Dam",
+        "lat": 38.1506,
+        "lng": 23.9031,
+        "image": "images/marathon_dam.png",
+        "description": "The only marble-faced dam in the world, built in the 1920s with white Pentelic marble to secure the water supply of Athens.",
+        "audioText": "Observe the Marathon Dam, a landmark of modern engineering and civic pride. Constructed between 1926 and 1929 by the American Ulen company, this dam is unique as the only dam in the world faced entirely with white Pentelic marble—the very same marble used by the ancient Greeks to build the Parthenon. This choice of facing material was made to show respect for the classical heritage of Athens. The dam created Lake Marathon, which served as the capital's main water reservoir for decades, solving a chronic water shortage that had plagued the city since antiquity.",
+        "quiz": {
+            "question": "What unique material was used to face the Marathon Dam?",
+            "options": [
+                "White Pentelic marble",
+                "Imported red granite",
+                "Volcanic basalt blocks",
+                "Bronze plates"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The dam is faced with Pentelic marble to echo the classical architecture of Athens."
+        },
+        "reward": {
+            "title": "Free coffee with a panoramic view",
+            "provider": "Lake Marathon Café",
+            "code": "MARATHONDAM"
+        }
+    },
+    {
+        "id": 73,
+        "name": "Koutouki Cave",
+        "lat": 37.9602,
+        "lng": 23.8315,
+        "image": "images/koutouki_cave.png",
+        "description": "A spectacular subterranean cave in Paiania filled with rich stalactite, stalagmite, and stone curtain formations.",
+        "audioText": "Step underground into Koutouki Cave, located on the eastern slopes of Mount Hymettus. Discovered accidentally in 1926 by a local farmer whose goat fell through a hole, this cave consists of a single large chamber measuring approximately 60 by 60 meters. The cave features a dense forest of limestone formations, including towering stalactites, stalagmites, columns, and delicate stone curtains. The cave was developed for tourism in the 1960s, and today modern lighting highlights the natural red, yellow, and white colors of the mineral deposits.",
+        "quiz": {
+            "question": "How was the Koutouki Cave discovered in 1926?",
+            "options": [
+                "A farmer's goat fell through a hole in the ground",
+                "Archaeologists searching for ancient tombs found it",
+                "A military excavation for a bunker revealed it",
+                "An earthquake cracked the mountain open"
+            ],
+            "answer": 0,
+            "feedback": "Correct! A lost goat falling through the natural vertical shaft led to the cave's discovery."
+        },
+        "reward": {
+            "title": "10% off regional guides",
+            "provider": "Paiania Tourism Office",
+            "code": "KOUTOUKI"
+        }
+    },
+    {
+        "id": 74,
+        "name": "Eleutherae Ancient Fortress",
+        "lat": 38.1800,
+        "lng": 23.3768,
+        "image": "images/eleutherae.png",
+        "description": "A spectacular 4th-century BC border fortress guarding the pass between Attica and Boeotia, with well-preserved stone walls and towers.",
+        "audioText": "Welcome to the ancient fortress of Eleutherae, also known as Gyphtokastro. Perched on a rocky ridge guarding the main pass between Attica and Boeotia, this fortress stands as a testament to classical military architecture. Built in the 4th century BC, it features walls over two meters thick and is reinforced by multiple rectangular towers. The positioning allowed garrisoned soldiers to monitor troop movements in the valley below. Today, walking along its stone battlements offers an immersive view into the strategic defense networks that protected the ancient city-state of Athens.",
+        "quiz": {
+            "question": "What strategic pass does the Eleutherae Fortress guard?",
+            "options": [
+                "The pass between Attica and Boeotia",
+                "The entrance to the Peloponnese",
+                "The path to Mount Olympus",
+                "The shipping channel of Evia"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The fortress was built to control the strategic pass between Attica and Boeotia."
+        },
+        "reward": {
+            "title": "10% off regional wine and snacks",
+            "provider": "Cithaeron Mountain Inn",
+            "code": "ELEUTHERAE"
+        }
+    },
+    {
+        "id": 75,
+        "name": "Phyle Fortress",
+        "lat": 38.1362,
+        "lng": 23.6346,
+        "image": "images/phyle.png",
+        "description": "A historic fortress on Mount Parnitha where general Thrasybulus gathered democratic forces to overthrow the Thirty Tyrants.",
+        "audioText": "Explore the historic ruins of Phyle Fortress, situated on a dramatic cliff on the southern slopes of Mount Parnitha. Built in the 4th century BC, the fortress played a pivotal role in Athenian history. In 404 BC, following Athens' defeat in the Peloponnesian War, a Spartan-backed oligarchy known as the Thirty Tyrants ruled the city. The democratic general Thrasybulus fled to Phyle with a small band of supporters, using this remote fortress as his base to launch a campaign that successfully restored democracy. The site preserves beautiful ashlar masonry and offers panoramic views of the Athenian basin.",
+        "quiz": {
+            "question": "Which historical leader used Phyle Fortress as his base to restore democracy in 404 BC?",
+            "options": [
+                "General Thrasybulus",
+                "Pericles",
+                "Themistocles",
+                "Solon"
+            ],
+            "answer": 0,
+            "feedback": "Correct! General Thrasybulus gathered democratic forces here to overthrow the oligarchy."
+        },
+        "reward": {
+            "title": "Free local herb guide brochure",
+            "provider": "Parnitha National Park Information Center",
+            "code": "DEMOCRACY404"
+        }
+    },
+    {
+        "id": 76,
+        "name": "Mount Penteli Ancient Quarries",
+        "lat": 38.0494,
+        "lng": 23.8824,
+        "image": "images/penteli_quarries.png",
+        "description": "The historic source of white Pentelic marble used to build the Parthenon, featuring the mystical Daveli Cave.",
+        "audioText": "Stand in the ancient marble quarries of Mount Penteli, the source of the famous white Pentelic marble. It was from these steep rock faces that ancient stonemasons quarried the marble blocks used to construct the Parthenon, the Propylaea, and countless classical statues. The site includes the Daveli Cave, named after a 19th-century bandit who hid here. The cave entrance features two small Byzantine chapels built directly into the rock face during the Middle Ages. You can still see ancient cut marks in the stone and the slides used to transport massive marble blocks down the mountain.",
+        "quiz": {
+            "question": "What famous classical building was constructed using marble from the Penteli quarries?",
+            "options": [
+                "The Parthenon",
+                "The Roman Colosseum",
+                "The Temple of Artemis at Ephesus",
+                "The Knossos Palace"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Parthenon was built using Pentelic marble, famous for its white color and golden-iron patina."
+        },
+        "reward": {
+            "title": "15% off marble souvenir carvings",
+            "provider": "Penteli Stonemasons Association",
+            "code": "PENTELIC"
+        }
+    },
+    {
+        "id": 77,
+        "name": "Piraeus Archaeological Museum & Ship Sheds",
+        "lat": 37.9367,
+        "lng": 23.6442,
+        "image": "images/piraeus_museum.png",
+        "description": "A museum housing famous classical bronze statues and the ruins of ancient stone ship sheds where Athenian triremes were parked.",
+        "audioText": "Welcome to Piraeus, the historic naval port of classical Athens. The Archaeological Museum of Piraeus houses an extraordinary collection of artifacts, most notably the famous Piraeus Bronzes—including larger-than-life statues of Athena and Apollo discovered accidentally by municipal workers in 1959. Outside the museum, near Zea Harbour, you can explore the remains of the ancient stone ship sheds, or neosoikoi. These sloping slips housed the Athenian navy's triremes, the fast warships that defended democratic Athens and secured its maritime empire.",
+        "quiz": {
+            "question": "What unique ancient treasures are displayed in the Piraeus Archaeological Museum?",
+            "options": [
+                "The famous Piraeus Bronze statues",
+                "The gold Mask of Agamemnon",
+                "The Antikythera Mechanism",
+                "The Elgin Marbles"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The museum houses the rare, beautifully preserved classical bronze statues found in Piraeus harbor in 1959."
+        },
+        "reward": {
+            "title": "10% off harbor cruises",
+            "provider": "Zea Yachting Agency",
+            "code": "PIRAEUSNAVY"
+        }
+    },
+    {
+        "id": 78,
+        "name": "Schinias National Park",
+        "lat": 38.1503,
+        "lng": 24.0150,
+        "image": "images/schinias.png",
+        "description": "A beautiful coastal national park with a rare pine forest, wetland, and the historic marsh where the Persians retreated.",
+        "audioText": "Explore Schinias National Park, one of the most important natural wetlands in Attica. The park features a unique coastal forest of stone pine trees running alongside a sandy beach, bordered by a large freshwater marsh. Historically, this area is the site of the Battle of Marathon in 490 BC. According to accounts by Herodotus, the defeated Persian forces retreated into these very wetlands, where they became trapped and suffered heavy losses. Today, the park is a protected sanctuary for hundreds of bird species and a popular spot for windsurfing and nature walks.",
+        "quiz": {
+            "question": "Which historic battle took place in the area of Schinias National Park?",
+            "options": [
+                "Battle of Marathon",
+                "Battle of Thermopylae",
+                "Battle of Salamis",
+                "Peloponnesian War"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Battle of Marathon in 490 BC took place on the plains and marshes of Schinias."
+        },
+        "reward": {
+            "title": "Free kayak rental for one hour",
+            "provider": "Schinias Watersports Club",
+            "code": "SCHINIASMARSH"
+        }
+    },
+    {
+        "id": 79,
+        "name": "Saint John the Hunter Monastery",
+        "lat": 37.9942,
+        "lng": 23.8214,
+        "image": "images/st_john_hunter.png",
+        "description": "A beautiful 12th-century Byzantine monastery perched on a high ridge of Mount Hymettus, offering spectacular panoramic views.",
+        "audioText": "Stand before the Monastery of Saint John the Hunter, also known as Aghios Ioannis Kynigos. Perched on a high ridge on the northern edge of Mount Hymettus, this 12th-century Byzantine monastery has served as a place of spiritual retreat and safety for centuries. Its small church features typical Byzantine brickwork and a dome supported by ancient column drums. The monastery's position offers panoramic views over both the Athens basin to the west and the Mesogeia plain to the east, making it a favorite starting point for hikers exploring the mountain's trails.",
+        "quiz": {
+            "question": "On which mountain ridge is the Monastery of Saint John the Hunter located?",
+            "options": [
+                "Mount Hymettus",
+                "Mount Penteli",
+                "Mount Parnitha",
+                "Mount Olympus"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The monastery is perched on the northern ridge of Mount Hymettus."
+        },
+        "reward": {
+            "title": "10% off local organic mountain herbs",
+            "provider": "Hymettus Monastic Apothecary",
+            "code": "HUNTER12"
+        }
     }
 ];
 
