@@ -22,7 +22,7 @@ const POIs = [
         "reward": {
             "title": "20% off Traditional Greek Frappe",
             "provider": "Dioskouroi Cafe, Plaka",
-            "code": "PARTHENON20"
+            "codeHash": "061072f3e7f02b6c8cc4772271ffd117d4bfc26deb747b91a2bc1aa6c495bcd6"
         }
     },
     {
@@ -47,7 +47,7 @@ const POIs = [
         "reward": {
             "title": "Free Loukoumades with any drink",
             "provider": "LUKUMADES, Monastiraki",
-            "code": "SWEETCARYATID"
+            "codeHash": "4dac3a95b8e95dc4e42b22631a9063d8cb19d87a9a722f32ba8e2cb3313e946b"
         }
     },
     {
@@ -72,7 +72,7 @@ const POIs = [
         "reward": {
             "title": "15% off traditional Souvlaki meal",
             "provider": "O Thanasis, Monastiraki",
-            "code": "OLYMPIANZEUS15"
+            "codeHash": "65c7e1e75aced303e4d5cb9e06e780de0c9f8e1232ce23d367e1ee91d82a5d04"
         }
     },
     {
@@ -97,7 +97,7 @@ const POIs = [
         "reward": {
             "title": "Free Glass of Greek Wine with dinner",
             "provider": "Strofi Tavern, Acropolis area",
-            "code": "HEPHAESTUSWINE"
+            "codeHash": "64e01f99c63adbe986808ba096cc5e54c57d306371a0be56d47b89a2ba60c64e"
         }
     },
     {
@@ -122,7 +122,7 @@ const POIs = [
         "reward": {
             "title": "15% off Greek handmade leather sandals",
             "provider": "The Poet Sandalmaker, Psirri",
-            "code": "MARBLESTADIUM"
+            "codeHash": "ef62b444944ba68787f4dfea813bf8df107fa277cbed778295ceacb1a46b1edd"
         }
     },
     {
@@ -147,7 +147,7 @@ const POIs = [
         "reward": {
             "title": "Free traditional Greek dessert with coffee",
             "provider": "Asty Cafe, Roman Agora",
-            "code": "WINDTOWER50"
+            "codeHash": "616c08f07d15dec0aecaad465ce9cc88ebf1209c4a61e0723597c06e6d7f6216"
         }
     },
     {
@@ -172,7 +172,7 @@ const POIs = [
         "reward": {
             "title": "20% discount on local philosophy guides",
             "provider": "Pnyx Bookstore, Monastiraki",
-            "code": "HADRIANBOOKS"
+            "codeHash": "c1f0e6372823a6467a7754828e8bf2222464fc0b02f028a47b3eabe34f18ff97"
         }
     },
     {
@@ -197,7 +197,7 @@ const POIs = [
         "reward": {
             "title": "15% off tickets to modern Greek tragedy plays",
             "provider": "Athens Open Air Stage, Plaka",
-            "code": "DIONYSUSPLAY"
+            "codeHash": "e1bf40b7d69820e20aae6898c978b6051d9e947fbbaa359efe618fa23f23718d"
         }
     },
     {
@@ -222,7 +222,7 @@ const POIs = [
         "reward": {
             "title": "10% off entry to the Athens Concert Hall",
             "provider": "Megaron Box Office",
-            "code": "ODEONMUSIC"
+            "codeHash": "4c02c0b5f9ec85da2ee5c4b9f264dd5c546a360a8eb5d648ffb7bd36df5b9029"
         }
     },
     {
@@ -247,7 +247,7 @@ const POIs = [
         "reward": {
             "title": "Free Greek Coffee with breakfast",
             "provider": "Acropolis View Cafe",
-            "code": "HADRIANARCH"
+            "codeHash": "7ff4d4976cf0a13861ba70269029f1989054e75b7dc313e7625c157e1c6e0802"
         }
     },
     {
@@ -272,7 +272,7 @@ const POIs = [
         "reward": {
             "title": "10% off local organic herb blends",
             "provider": "Plaka Spice Bazaar",
-            "code": "MUSEHILL"
+            "codeHash": "d849406e0fe2f44fe54e851fc16d4dccd7829980de32d5de5cad698db0b931ca"
         }
     },
     {
@@ -297,7 +297,7 @@ const POIs = [
         "reward": {
             "title": "Free organic Greek herbal tea",
             "provider": "Aura Cafe, Plaka",
-            "code": "MARSHILL51"
+            "codeHash": "0304a2dfac99e8fae3bcd22001dd545fa3b9d64c146de0944f8ce4889d2c65fd"
         }
     },
     {
@@ -322,7 +322,7 @@ const POIs = [
         "reward": {
             "title": "15% off historic tour guides",
             "provider": "Athens City Center Tours",
-            "code": "EKKLESIA"
+            "codeHash": "550ad0f72dd828fcc720640bbc19ab033f40a6162a2e4e9ba63710161586dcd8"
         }
     },
     {
@@ -346,7 +346,7 @@ const POIs = [
         "reward": {
             "title": "10% off a theatrical dinner experience",
             "provider": "Dionysos Zonar's",
-            "code": "CHOREGOS"
+            "codeHash": "8815b5be81d54d392539cd2b67fb609b4d1e8e44a78a32dbc7b895344ed68a8f"
         }
     },
     {
@@ -371,7 +371,7 @@ const POIs = [
         "reward": {
             "title": "Free philosophy booklet with a purchase",
             "provider": "Plaka Antiquarian Book Store",
-            "code": "SOCRATESCAVE"
+            "codeHash": "a2bca3d125b66051a0aeed8d1f9e43e6d79efc8451e97ac50a74713e96178d4f"
         }
     },
     {
@@ -396,7 +396,7 @@ const POIs = [
         "reward": {
             "title": "Free dessert with meal",
             "provider": "Avenue Bistro, Syntagma",
-            "code": "SYNTAGMA1843"
+            "codeHash": "9e6f6a7cb03cb32f76641ae836ee877bf6c523b664504b4a897ffb81450e1028"
         }
     },
     {
@@ -421,7 +421,7 @@ const POIs = [
         "reward": {
             "title": "10% off traditional Greek street food",
             "provider": "Bairaktaris Souvlaki, Monastiraki",
-            "code": "LITTLEMONASTERY"
+            "codeHash": "f2c1f2c58b6992bb9bf2efb9a019590d492ad9921c8bce205e2731c3c3d8361a"
         }
     },
     {
@@ -446,7 +446,7 @@ const POIs = [
         "reward": {
             "title": "10% discount on standard souvenir cards",
             "provider": "Ermou souvenir station",
-            "code": "KAPNIKAREA"
+            "codeHash": "739d2785d20fef5ebd9ad36a5a067981005664fd862666331b41c04bdbbda4b0"
         }
     },
     {
@@ -471,7 +471,7 @@ const POIs = [
         "reward": {
             "title": "Free espresso upgrade",
             "provider": "Zappeion Garden Cafe",
-            "code": "ZAPPEION1896"
+            "codeHash": "7d9b9a90058b129f58c1fabe14d564c5ac9187ad9dcc1232227ffd757c443e37"
         }
     },
     {
@@ -496,7 +496,7 @@ const POIs = [
         "reward": {
             "title": "15% discount on philosophy books",
             "provider": "Athens Lyceum Shop",
-            "code": "PERIPATETIC"
+            "codeHash": "64e4e38409afc989cd66d73280a3d4493fade0cecd12afff80cdd79476882f35"
         }
     },
     {
@@ -521,7 +521,7 @@ const POIs = [
         "reward": {
             "title": "10% discount on handmade clay pottery",
             "provider": "Kerameikos Art Workshop",
-            "code": "POTTERSCLAY"
+            "codeHash": "0beb047fe89225c7b4dae1eb5f3601d4274e586f0db69055862ab28fc01b0744"
         }
     },
     {
@@ -546,7 +546,7 @@ const POIs = [
         "reward": {
             "title": "Free bookmark with purchase",
             "provider": "Academy Bookstore",
-            "code": "ACADEMY1887"
+            "codeHash": "a3e398d2b6f297275725fa3ae919d52fbb23ab9e19cf29b8dcad149a22b08f0b"
         }
     },
     {
@@ -571,7 +571,7 @@ const POIs = [
         "reward": {
             "title": "Free postcard pack",
             "provider": "Trilogy Gift Shop",
-            "code": "NATIONALLIBRARY"
+            "codeHash": "b20ed49c7a707eb2f0034188c55dde05cffe9ee84b9f47dcc2449bef17a666d7"
         }
     },
     {
@@ -596,7 +596,7 @@ const POIs = [
         "reward": {
             "title": "10% off student coffee blends",
             "provider": "Panepistimio Hub Cafe",
-            "code": "UNIVERSE1837"
+            "codeHash": "07ba405b301ecc76d98bd545e6b548326089c243e2752a65a6f84b9c50f24e87"
         }
     },
     {
@@ -621,7 +621,7 @@ const POIs = [
         "reward": {
             "title": "10% off at the summit cafe",
             "provider": "Lycabettus Horizon",
-            "code": "LYCABETTUS"
+            "codeHash": "e8d4969d343c4a5a55b9efbc80066e6d631240699bd164a1e7e988d5194176db"
         }
     },
     {
@@ -646,7 +646,7 @@ const POIs = [
         "reward": {
             "title": "10% off museum guide booklets",
             "provider": "Museum Souvenir Shop",
-            "code": "ANTIKYTHERA"
+            "codeHash": "2b11581ff0625f996e8001d80eb6b72f4572b45f55f3d673096bad58fb9bd40c"
         }
     },
     {
@@ -671,7 +671,7 @@ const POIs = [
         "reward": {
             "title": "Free historic map brochure",
             "provider": "Mets District Tourism",
-            "code": "HALEPAS"
+            "codeHash": "aa79babffa2af4c9907213866ff9d3febaf26e5bac0b45aa8f224bcf9519fd17"
         }
     },
     {
@@ -696,7 +696,7 @@ const POIs = [
         "reward": {
             "title": "10% off traditional Greek mezze",
             "provider": "Agora Traditional Bistro",
-            "code": "STOICAGORA"
+            "codeHash": "5d02cbf99c38d2076ba10b2e9d6467163c80d9e59a46fa876afa88a29a344941"
         }
     },
     {
@@ -721,7 +721,7 @@ const POIs = [
         "reward": {
             "title": "10% off Roman Agora tour books",
             "provider": "Agora Book Hub",
-            "code": "ROMANAGORA"
+            "codeHash": "a97df1563c2c32d2de2064ad99a823b577426fc991f1e3dfecdc332dedd9e388"
         }
     },
     {
@@ -746,7 +746,7 @@ const POIs = [
         "reward": {
             "title": "Free mineral water with meal",
             "provider": "Dexameni Bistro",
-            "code": "DEXAMENIWATER"
+            "codeHash": "91542a1a6240fc56ce3781df786d6353f35bc0302a385096e069004f209e3f8f"
         }
     },
     {
@@ -771,7 +771,7 @@ const POIs = [
         "reward": {
             "title": "15% off Byzantine Art books",
             "provider": "Solaki Book Shop",
-            "code": "APOSTLES10"
+            "codeHash": "53dda29b79cc283f4cc5dba6a70359cced95e134f3777b69c93b080315f1119e"
         }
     },
     {
@@ -796,7 +796,7 @@ const POIs = [
         "reward": {
             "title": "Free candle souvenir",
             "provider": "Mitropolis Ecclesiastical Shop",
-            "code": "TINYMETROPOLIS"
+            "codeHash": "1f3825f493b98d838d4c2f13c032fc904c55abd60b239e56b5dcb6f3c55df43c"
         }
     },
     {
@@ -821,7 +821,7 @@ const POIs = [
         "reward": {
             "title": "10% off traditional icon replicas",
             "provider": "Cathedral Square Crafts",
-            "code": "MITROPOLI"
+            "codeHash": "da7679020b1d298aed1e5ff6a75ac76f574b2be2d13a62b47bcf9318d3f45778"
         }
     },
     {
@@ -846,7 +846,7 @@ const POIs = [
         "reward": {
             "title": "15% off Agora Museum guides",
             "provider": "Stoa Bookstore",
-            "code": "ATTALOS"
+            "codeHash": "d21500895b057acaa689cce08cc5d8669c1f1756ecd059b56ae491967922d396"
         }
     },
     {
@@ -871,7 +871,7 @@ const POIs = [
         "reward": {
             "title": "10% off custom postcard sets",
             "provider": "Kerameikos Shop",
-            "code": "KERAMEIKOSMUSEUM"
+            "codeHash": "49fafd875d11c072544c78c811922f8f82fbca20f99e96daae73b6c7e74b272c"
         }
     },
     {
@@ -896,7 +896,7 @@ const POIs = [
         "reward": {
             "title": "10% off local organic olive oil",
             "provider": "Daphni Cooperatives",
-            "code": "DAPHNIMOSAIC"
+            "codeHash": "2f9e1978d9bb5054addc9f7142c91236eaf150a233ea0d1cb975236335f56eba"
         }
     },
     {
@@ -921,7 +921,7 @@ const POIs = [
         "reward": {
             "title": "15% off Eleusis historical guidebooks",
             "provider": "Eleusis Antiquities Shop",
-            "code": "ELEUSISMYST"
+            "codeHash": "fd7ae9a11ed23646be4d5395dc49ee9bd1ce455fc659e2397083fd643b8a66b6"
         }
     },
     {
@@ -946,7 +946,7 @@ const POIs = [
         "reward": {
             "title": "10% off local organic honey",
             "provider": "Oropos Beekeepers Association",
-            "code": "AMPHIARAUS"
+            "codeHash": "6b7dd086a7008927859b6346f46e0c5c1f49b57f8687fac75d08972d8f7ee7a6"
         }
     },
     {
@@ -971,7 +971,7 @@ const POIs = [
         "reward": {
             "title": "15% off Marathon Running gear",
             "provider": "Marathon Sports Hub",
-            "code": "PHEIDIPPIDES"
+            "codeHash": "1338d7d1579acfe7dccbd223d2816d30cbdf82f1f72766dcb003229213162dd6"
         }
     },
     {
@@ -996,7 +996,7 @@ const POIs = [
         "reward": {
             "title": "Free organic herbal soap",
             "provider": "Vravrona Herb Farm",
-            "code": "BRAURONIA"
+            "codeHash": "1fe472cdfcff44619a17c6fe3d193ba79932d5433d559c521170b920047ca7c2"
         }
     },
     {
@@ -1021,7 +1021,7 @@ const POIs = [
         "reward": {
             "title": "10% off regional map guides",
             "provider": "Lavrio Travel Desk",
-            "code": "THORIKOS"
+            "codeHash": "63ea561db03cfe3d191f23db5b61de96c2814e2ddbb9321ef2b98ced6d216e91"
         }
     },
     {
@@ -1046,7 +1046,7 @@ const POIs = [
         "reward": {
             "title": "15% off mineral and rock tours",
             "provider": "Lavrion Mineralogical Museum",
-            "code": "SILVERMINES"
+            "codeHash": "e47528ea692f22fd974ac5bc319849f0d29b2d3a5e1c8fb26fe167fb8e3fcf6c"
         }
     },
     {
@@ -1071,7 +1071,7 @@ const POIs = [
         "reward": {
             "title": "Free organic tea with any order",
             "provider": "Hymettus Forest Kiosk",
-            "code": "KAISARIANI"
+            "codeHash": "09f3089650febb1c352bd7996c584d9224daf72a7ed9f9ebfac598ebc40a8659"
         }
     },
     {
@@ -1096,7 +1096,7 @@ const POIs = [
         "reward": {
             "title": "10% off hand-painted icon replicas",
             "provider": "Asteriou Monastic Workshop",
-            "code": "ASTERIOU"
+            "codeHash": "fd2d9e59599071791e32d195e210e9ce836520fa7a41a0bc70ee124b249d819f"
         }
     },
     {
@@ -1121,7 +1121,7 @@ const POIs = [
         "reward": {
             "title": "Free hot chocolate with pastry",
             "provider": "Bafi Mountain Refuge",
-            "code": "PARNITHAPARK"
+            "codeHash": "1b5e17a61f13ee9d0706a619749b142e27e10f4440c1f7503a3d2c6c3f19086c"
         }
     },
     {
@@ -1146,7 +1146,7 @@ const POIs = [
         "reward": {
             "title": "15% off seafood lunch with view",
             "provider": "Sounion Cape Restaurant",
-            "code": "SOUNIONCAP"
+            "codeHash": "36d9a065af638ae4fc68fea587016a3dbe806c416fef6f7119e4f3f062f2c61d"
         }
     },
     {
@@ -1171,7 +1171,7 @@ const POIs = [
         "reward": {
             "title": "10% off tickets to summer theater events",
             "provider": "Dionysia Stage Plaka",
-            "code": "THRASYLLUS"
+            "codeHash": "c81c5560fa9c416d6f86644be74fbb8b35cf180dae89a1849fd90bae1730f0d8"
         }
     },
     {
@@ -1196,7 +1196,7 @@ const POIs = [
         "reward": {
             "title": "Free map of the Acropolis complex",
             "provider": "Acropolis Entrance Desk",
-            "code": "AGRIPPA"
+            "codeHash": "556568fa71af5492b4447d77e48f168e21415909d4e7958991e5bbe5881fbc02"
         }
     },
     {
@@ -1221,7 +1221,7 @@ const POIs = [
         "reward": {
             "title": "10% off traditional Greek cookies",
             "provider": "Mitropoleos Bakery",
-            "code": "AGIADYNAMI"
+            "codeHash": "e7e73197fa1f323723e07710f5717eda3da2f40cac2b478ab9917811909b904f"
         }
     },
     {
@@ -1246,7 +1246,7 @@ const POIs = [
         "reward": {
             "title": "Free bottled spring water",
             "provider": "Loumbardiaris kiosk",
-            "code": "CANNONEER"
+            "codeHash": "69cf2edbf360072bd36b5fa60360a3cf8714b76417867456959b68bfabca7941"
         }
     },
     {
@@ -1271,7 +1271,7 @@ const POIs = [
         "reward": {
             "title": "10% off classical theater booklets",
             "provider": "Eumenes Books Plaka",
-            "code": "EUMENES"
+            "codeHash": "e99911134e911e0a620a5c818f4188f73c57f90bd28b0e8a3b31ea41e325781e"
         }
     },
     {
@@ -1296,7 +1296,7 @@ const POIs = [
         "reward": {
             "title": "Free historical postcard",
             "provider": "Acropolis Museum Shop",
-            "code": "PELASGIAN"
+            "codeHash": "6a9f15a95b112fa00b72278fc218891e92b08b2b88576fd26ba85cc65a09ed4a"
         }
     },
     {
@@ -1321,7 +1321,7 @@ const POIs = [
         "reward": {
             "title": "15% off organic herbal extracts",
             "provider": "Plaka Apothecary",
-            "code": "ASCLEPIUS"
+            "codeHash": "a509b45b04080d528be4e77734132064adb31bccae74be659756de8dfe9f82cd"
         }
     },
     {
@@ -1346,7 +1346,7 @@ const POIs = [
         "reward": {
             "title": "10% off history guides",
             "provider": "Agora Museum Shop",
-            "code": "METROUM"
+            "codeHash": "c0141808aad2e78b5fc7f01682945c456747348aa1c31de62f0a0c8a45b2f432"
         }
     },
     {
@@ -1371,7 +1371,7 @@ const POIs = [
         "reward": {
             "title": "15% off democracy history books",
             "provider": "Plaka Book Emporium",
-            "code": "BOULEUTERION"
+            "codeHash": "53d93bf8fe4aaee2bf8c7ef4ef9d9f44d463c25f8d8d64ce6ee7a9d236e2d81a"
         }
     },
     {
@@ -1396,7 +1396,7 @@ const POIs = [
         "reward": {
             "title": "Free bottled beverage with lunch",
             "provider": "Tholos Traditional Grill",
-            "code": "THOLOSROUND"
+            "codeHash": "ba30aafe5badf3d9759c0dac9b9db7b60e54b40f0c7b219d872bd0a0a4f3fd8a"
         }
     },
     {
@@ -1421,7 +1421,7 @@ const POIs = [
         "reward": {
             "title": "Free city walking map",
             "provider": "Agora Information Desk",
-            "code": "ZEROPOINT"
+            "codeHash": "4cdf4a850d51f3c314fcb2a5af3c85e0e9e25753746c1afa1fa65b9691aba20c"
         }
     },
     {
@@ -1446,7 +1446,7 @@ const POIs = [
         "reward": {
             "title": "10% off traditional Greek snacks",
             "provider": "South Stoa Tavern",
-            "code": "SOUTHSTOA"
+            "codeHash": "dd556a8b8d40b2112e314769f3b28c63faeb5e4834037ace0dce72b21b8ff8cc"
         }
     },
     {
@@ -1471,7 +1471,7 @@ const POIs = [
         "reward": {
             "title": "10% off museum cafe",
             "provider": "Acropolis Museum Café",
-            "code": "ACROPOLISMUSEUM"
+            "codeHash": "97e144515dfe7ab5ee107ee4200ee3d8b0b92537dfef9825ab4b8b0de4d90022"
         }
     },
     {
@@ -1496,7 +1496,7 @@ const POIs = [
         "reward": {
             "title": "Free entry ticket for a child",
             "provider": "Museum of Cycladic Art",
-            "code": "CYCLADICCHILD"
+            "codeHash": "f8d21e76a3a92d1c144c6ec9be7be59a8fd1161fe6b9d3b7d01f36994a0b2579"
         }
     },
     {
@@ -1521,7 +1521,7 @@ const POIs = [
         "reward": {
             "title": "15% off museum shop",
             "provider": "Benaki Museum Store",
-            "code": "BENAKI15"
+            "codeHash": "fb735bd9f4f302cce0e8dc560dde549f3b88bedb6328d360d0165fb8ba4b90b4"
         }
     },
     {
@@ -1546,7 +1546,7 @@ const POIs = [
         "reward": {
             "title": "Free guided tour",
             "provider": "EMST Tours",
-            "code": "EMSTGUIDE"
+            "codeHash": "2693895237926577d31d4bb9e26b2145e5ebe0d4ce329b00ad6eff103f6abe90"
         }
     },
     {
@@ -1571,7 +1571,7 @@ const POIs = [
         "reward": {
             "title": "5% off coffee at a local café",
             "provider": "Kafenio Anafiotika",
-            "code": "ANAFOCOFFEE"
+            "codeHash": "d8bdc2d8a3f80f6bbbfe1a295814036457b40bf32e025e78238624ec22dcab69"
         }
     },
     {
@@ -1596,7 +1596,7 @@ const POIs = [
         "reward": {
             "title": "15% off at the Museum Café and Gardens",
             "provider": "Ilissia Café, Byzantine Museum",
-            "code": "BYZANTINE15"
+            "codeHash": "8782351b6beb8f218d359ed993d2726e6da4327da69d06a850e36792f0130480"
         }
     },
     {
@@ -1621,7 +1621,7 @@ const POIs = [
         "reward": {
             "title": "Free historical military postcard set",
             "provider": "Athens War Museum Gift Shop",
-            "code": "WARMUSEUM"
+            "codeHash": "506624712e79eb0b6fa13dec49143aeee67a54baf1f6e01bd08fe3066afcce5b"
         }
     },
     {
@@ -1646,7 +1646,7 @@ const POIs = [
         "reward": {
             "title": "10% off coin replica souvenirs",
             "provider": "Numismatic Museum Shop",
-            "code": "NUMISMATIC10"
+            "codeHash": "9196425a4b01f5195bd6c701815d127594d6b493e6936a113cc9eb95972f3917"
         }
     },
     {
@@ -1671,7 +1671,7 @@ const POIs = [
         "reward": {
             "title": "15% off admission tickets",
             "provider": "Hellenic Motor Museum Box Office",
-            "code": "WHEELHISTORY"
+            "codeHash": "002ed84ca669f31136230ea8eb079f4f79c44e2df0a3b3f12772e2b4d1daf7c9"
         }
     },
     {
@@ -1696,7 +1696,7 @@ const POIs = [
         "reward": {
             "title": "10% off art prints and books",
             "provider": "National Gallery Bookstore",
-            "code": "ARTGALLERY10"
+            "codeHash": "f265dc443a69248f4c55521fe22ef259b22cdae8d5d727cea555003130ca0f80"
         }
     },
     {
@@ -1721,7 +1721,7 @@ const POIs = [
         "reward": {
             "title": "15% off local history books",
             "provider": "Marathon Cultural Bookstore",
-            "code": "NEMESIS15"
+            "codeHash": "36802436e30fc36e011f7879315a375dbabf163a3b88e418ea282edb735af273"
         }
     },
     {
@@ -1746,7 +1746,7 @@ const POIs = [
         "reward": {
             "title": "Free local organic olive oil sample",
             "provider": "Porto Germeno Cooperatives",
-            "code": "AIGOSTHENA"
+            "codeHash": "3200f17c3d049aabb60fc9896967772ce219c2108c2d5301780ebfaab69f1303"
         }
     },
     {
@@ -1770,7 +1770,7 @@ const POIs = [
         "reward": {
             "title": "10% off traditional Aegina Pistachios",
             "provider": "Aegina Artisanal Pistachio Shop",
-            "code": "APHAIAEG"
+            "codeHash": "a70d5961c6c9d414f9286e14f2ed62b3bc24464e3434f8a8db1f5fd6f533815d"
         }
     },
     {
@@ -1795,7 +1795,7 @@ const POIs = [
         "reward": {
             "title": "15% off thermal bath entry",
             "provider": "Lake Vouliagmeni Reception",
-            "code": "THERMALSPA"
+            "codeHash": "900b6a9569d78901d541bcc46241a941a467903f6b1bb011be7f091a23267f36"
         }
     },
     {
@@ -1820,7 +1820,7 @@ const POIs = [
         "reward": {
             "title": "Free coffee with a panoramic view",
             "provider": "Lake Marathon Café",
-            "code": "MARATHONDAM"
+            "codeHash": "308838e0c91f3f7f06b3f410342fdba2bdb63b6c5e02fd6d538837196e2f84cf"
         }
     },
     {
@@ -1845,7 +1845,7 @@ const POIs = [
         "reward": {
             "title": "10% off regional guides",
             "provider": "Paiania Tourism Office",
-            "code": "KOUTOUKI"
+            "codeHash": "74df928a72e72501155015587d3d9ddc034af941dee36dce822211d7aa7aaa50"
         }
     },
     {
@@ -1870,7 +1870,7 @@ const POIs = [
         "reward": {
             "title": "10% off regional wine and snacks",
             "provider": "Cithaeron Mountain Inn",
-            "code": "ELEUTHERAE"
+            "codeHash": "f509b20af401682192f608ca494fa7dc92558d92bb287411ec474b9f8b414198"
         }
     },
     {
@@ -1895,7 +1895,7 @@ const POIs = [
         "reward": {
             "title": "Free local herb guide brochure",
             "provider": "Parnitha National Park Information Center",
-            "code": "DEMOCRACY404"
+            "codeHash": "2194f911398255647072e504a08cc927ba71e244c5cbc520c48afe4c65af6064"
         }
     },
     {
@@ -1920,7 +1920,7 @@ const POIs = [
         "reward": {
             "title": "15% off marble souvenir carvings",
             "provider": "Penteli Stonemasons Association",
-            "code": "PENTELIC"
+            "codeHash": "ed3b0e45b96a0de2c3c9d1e2a9030d4d572c578cb0e6179d494fbc44890aad89"
         }
     },
     {
@@ -1945,7 +1945,7 @@ const POIs = [
         "reward": {
             "title": "10% off harbor cruises",
             "provider": "Zea Yachting Agency",
-            "code": "PIRAEUSNAVY"
+            "codeHash": "b2ce7b14e60dc715728b170a05ad71da9b978c4bc20fc9fe09688afbf2d4eaf0"
         }
     },
     {
@@ -1970,7 +1970,7 @@ const POIs = [
         "reward": {
             "title": "Free kayak rental for one hour",
             "provider": "Schinias Watersports Club",
-            "code": "SCHINIASMARSH"
+            "codeHash": "1fd4fd4a2692d3fa2da1532414fd1c4d5ed246c4a5d94778812ba7ecf3381361"
         }
     },
     {
@@ -1995,7 +1995,7 @@ const POIs = [
         "reward": {
             "title": "10% off local organic mountain herbs",
             "provider": "Hymettus Monastic Apothecary",
-            "code": "HUNTER12"
+            "codeHash": "5f63cc5dde64fd120ecce654e4080e59dbe55d1acd7cc19f32fdaedc5f6fe979"
         }
     },
     {
@@ -2015,7 +2015,7 @@ const POIs = [
         "reward": {
             "title": "10% off philosophy books",
             "provider": "Academy Bookstore",
-            "code": "PLATO387"
+            "codeHash": "7828ecec87d75f6c00ebc73fdd69ddba6b10af27c6e74a1b9df5efa5c62a919c"
         }
     },
     {
@@ -2035,7 +2035,7 @@ const POIs = [
         "reward": {
             "title": "Free guide booklet on philosophy",
             "provider": "Koukaki Cultural Center",
-            "code": "CYNICGYM"
+            "codeHash": "002e9c6f23904201aa77a0b138b97bfe14ddd1405c9820855087f6f211f8b3f3"
         }
     },
     {
@@ -2055,7 +2055,7 @@ const POIs = [
         "reward": {
             "title": "15% off classic theater tickets",
             "provider": "Athens Municipal Theater",
-            "code": "SOPHOCLES15"
+            "codeHash": "5bdc693ff0bd8fb3cbb6fe63bf8717ca92378db4acc9838c4ccf4a861b805248"
         }
     },
     {
@@ -2075,7 +2075,7 @@ const POIs = [
         "reward": {
             "title": "Free entry to Astir Beach area",
             "provider": "Astir Beach Reception",
-            "code": "APOLLOZOSTER"
+            "codeHash": "27d4d22e9840f3f8635496e0aa8e447e11e912ae740722d39f34be8b091262a9"
         }
     },
     {
@@ -2095,7 +2095,7 @@ const POIs = [
         "reward": {
             "title": "10% off entry to the Kolona Museum",
             "provider": "Kolona Archaeological Site",
-            "code": "KOLONAPOLLO"
+            "codeHash": "a53be4c7367dd37e1f8defb8e2219d688bc9bdda7803114b76923b3c9bbab434"
         }
     },
     {
@@ -2115,7 +2115,7 @@ const POIs = [
         "reward": {
             "title": "Free historical guide leaflet",
             "provider": "Phaleron Library",
-            "code": "CAPTIVES"
+            "codeHash": "da2c4a5020cc6f699484e03f543c129a9e4404926d192e4e4ee8497c56830c97"
         }
     },
     {
@@ -2135,7 +2135,7 @@ const POIs = [
         "reward": {
             "title": "10% off sea-salt seasoning blends",
             "provider": "Voula Organic Market",
-            "code": "HALAISALT"
+            "codeHash": "58f351aeb83ac25e3d6d246e9b115486820537a454704b76d20567e53246fe16"
         }
     },
     {
@@ -2160,7 +2160,7 @@ const POIs = [
         "reward": {
             "title": "Free hiking map of the Fyli region",
             "provider": "Fyli Municipality Information Office",
-            "code": "DEMAWALL"
+            "codeHash": "ba1f93880403c45b16a927583818fd40b22a3e764f20d9f765ba201f0a4993d9"
         }
     },
     {
@@ -2180,7 +2180,7 @@ const POIs = [
         "reward": {
             "title": "15% off Lavrion Mine tours",
             "provider": "Lavreotiki Historical Tours",
-            "code": "AGRILEZA15"
+            "codeHash": "b9d4fa031013def6f30ae7dd43ff45b5a870cfeb4d4e05f412ddb87358303d4c"
         }
     },
     {
@@ -2205,7 +2205,7 @@ const POIs = [
         "reward": {
             "title": "10% off coffee with a view",
             "provider": "Philopappou Hill Kiosk",
-            "code": "DIATEICHISMA"
+            "codeHash": "8537da1329df78be616d22aa828097fb82b873dc22b16e848276c23c847ea746"
         }
     },
     {
@@ -2225,7 +2225,7 @@ const POIs = [
         "reward": {
             "title": "Free organic goat cheese snack with lunch",
             "provider": "Marathon Country Tavern",
-            "code": "PANIC490"
+            "codeHash": "dab45d150fc2d019abc496f08e130895153ff2b2fe21b5a59ec17f62ae6d1d7d"
         }
     },
     {
@@ -2245,7 +2245,7 @@ const POIs = [
         "reward": {
             "title": "10% off Mount Hymettus wildflower honey",
             "provider": "Hymettus Honey Stall",
-            "code": "RAINBRINGER"
+            "codeHash": "ed740445e63fc1785d7ae08e09b7b1aed4a76553b77a10b47c71279c5466d2b0"
         }
     },
     {
@@ -2265,7 +2265,7 @@ const POIs = [
         "reward": {
             "title": "Free bottled organic juice",
             "provider": "Drafi Oasis Kiosk",
-            "code": "VALANARIS"
+            "codeHash": "cf84456fd74be705fb7f4e60b515b9ea7122b56359eb9c1b61f1510501f4a1a8"
         }
     },
     {
@@ -2285,7 +2285,7 @@ const POIs = [
         "reward": {
             "title": "10% off local organic herb blends",
             "provider": "Kaisariani Herb Shop",
-            "code": "HERBGARDEN"
+            "codeHash": "8b561aa691955c44229c5815ea44ac6bc21d34f9cb16b374c35195d227693b76"
         }
     },
     {
@@ -2305,7 +2305,7 @@ const POIs = [
         "reward": {
             "title": "Free organic herbal tea with breakfast",
             "provider": "Mets District Café",
-            "code": "AGROTERA"
+            "codeHash": "2b9ed13db705a280cbcf2840365dc575a66b8ad6b67b2faf2c456266230188b9"
         }
     },
     {
@@ -2325,7 +2325,7 @@ const POIs = [
         "reward": {
             "title": "10% off entry to the Acropolis slopes",
             "provider": "South Slope Ticket Office",
-            "code": "NIKIAS320"
+            "codeHash": "aa260a8fe78212f2d9c78a7df52b483dec76fa949b4a4af55bf58bd0f0a6dddf"
         }
     },
     {
@@ -2345,7 +2345,7 @@ const POIs = [
         "reward": {
             "title": "Free standard coffee with pastry",
             "provider": "Kifisia Plaza Café",
-            "code": "ERITHASEOS"
+            "codeHash": "cd65af9e1099c804a44186990329c23f1d0815269b26a241d564aebd3fba6581"
         }
     },
     {
@@ -2365,7 +2365,7 @@ const POIs = [
         "reward": {
             "title": "10% off museum guide booklets",
             "provider": "Megara Museum Gift Shop",
-            "code": "MEGARAMUSEUM"
+            "codeHash": "386c11ffd59f8918c94b2663224afb7dfbb2ee94afd0d90b23d8ff080e33a51d"
         }
     },
     {
@@ -2385,7 +2385,7 @@ const POIs = [
         "reward": {
             "title": "Free guide brochure of Mount Parnitha trails",
             "provider": "Kleiston Information Kiosk",
-            "code": "KLEISTON11"
+            "codeHash": "5978cbd20befb65bc4d3bfe36b364e0369e6672b8409ce47487703d5c3657039"
         }
     },
     {
@@ -2410,7 +2410,7 @@ const POIs = [
         "reward": {
             "title": "10% off local traditional sweets",
             "provider": "Aegina Port Bakery",
-            "code": "MARKELLOS"
+            "codeHash": "67e57ff6b7498562a824047a163c458824b44d27c4065a96372e54484f6d9472"
         }
     },
     {
@@ -2435,7 +2435,7 @@ const POIs = [
         "reward": {
             "title": "10% off museum guidebooks",
             "provider": "National Historical Museum Shop",
-            "code": "PARLIAMENT10"
+            "codeHash": "fcc4c5649b7b47ec745157bb41b168e43bc914921bfd500de8c74abbb17798d4"
         }
     },
     {
@@ -2460,7 +2460,7 @@ const POIs = [
         "reward": {
             "title": "15% off evening telescope tours",
             "provider": "Observatory Box Office",
-            "code": "OBSERVATORY15"
+            "codeHash": "1406cdc7ad5ea08fb084bdb3376bb5b377f82b6546f371d3d9ed60fdd1e13362"
         }
     },
     {
@@ -2485,7 +2485,7 @@ const POIs = [
         "reward": {
             "title": "10% off exhibition tickets",
             "provider": "Technopolis Entrance Desk",
-            "code": "GAZITECH10"
+            "codeHash": "666d7321bae4a95679f99932530e9ced069cc38d38f6f9a83ad9e2049658f9a2"
         }
     },
     {
@@ -2510,7 +2510,7 @@ const POIs = [
         "reward": {
             "title": "15% off spa wellness packages",
             "provider": "Athens Hammam Baths",
-            "code": "ROMANSPAPACK"
+            "codeHash": "608da01b4369bfbf0fb580718168db78dd77abd4c1afb173022166351c6fe3b5"
         }
     },
     {
@@ -2535,7 +2535,7 @@ const POIs = [
         "reward": {
             "title": "20% off philosophy book titles",
             "provider": "Agora Book Center",
-            "code": "STOICISM300"
+            "codeHash": "caa12196a0c6251656f1e8076c4985890b9ab630b12fa98475f6c3a3dabbd7a9"
         }
     },
     {
@@ -2560,7 +2560,7 @@ const POIs = [
         "reward": {
             "title": "10% off concert hall entries",
             "provider": "Athens Symphony Hall",
-            "code": "AGRIPPAPLAY"
+            "codeHash": "5358ce7211f3c9ada368587cb85d0568158adb0029734c445c7ad4752b74f62b"
         }
     },
     {
@@ -2585,7 +2585,7 @@ const POIs = [
         "reward": {
             "title": "Free Greek coffee upgrade",
             "provider": "Aeolou Street Bakery",
-            "code": "AGIAIRENE"
+            "codeHash": "9f237196784dfc375b99259919cf4ac7afa90ed25e54f19dd41829e008cee2c5"
         }
     },
     {
@@ -2610,7 +2610,7 @@ const POIs = [
         "reward": {
             "title": "Free organic juice bottle",
             "provider": "Dexameni Bistro Cafe",
-            "code": "HADRIANWATER"
+            "codeHash": "933b9a5593134c2980e19ee0a6558be820c276155cea4c38989eb144c572082e"
         }
     },
     {
@@ -2635,7 +2635,7 @@ const POIs = [
         "reward": {
             "title": "10% off entry tickets",
             "provider": "Kerameikos Archaeological Museum",
-            "code": "SACREDGATE"
+            "codeHash": "6afcdd12c4f098b9b2544af2a3893f37bf07eeac0d32122f023911aa6468bb73"
         }
     },
     {
@@ -2660,7 +2660,7 @@ const POIs = [
         "reward": {
             "title": "15% off historic tour guides",
             "provider": "Agora Center Tours",
-            "code": "TEMPLEOFWAR"
+            "codeHash": "3dd469d4e34cfd2dba6f7e5bc1473965472fd5a20a91c149e98c2d6cd9d36cb6"
         }
     },
     {
@@ -2685,7 +2685,7 @@ const POIs = [
         "reward": {
             "title": "Free historic guide brochure",
             "provider": "Thiseio District Tourism",
-            "code": "ASOMATOI"
+            "codeHash": "8e790367e50cfa1154588b076d66899093677ad07653be6067013b33b7c501a9"
         }
     },
     {
@@ -2710,7 +2710,7 @@ const POIs = [
         "reward": {
             "title": "10% off traditional Greek mezze",
             "provider": "Syntagma Square Bistro",
-            "code": "HOPLITETOMB"
+            "codeHash": "60a66a09624872fd5a965822a55546d188406d4854e2daf7903ef5087f4badc7"
         }
     },
     {
@@ -2735,7 +2735,7 @@ const POIs = [
         "reward": {
             "title": "15% off archaeology booklets",
             "provider": "Bookshop of First Cemetery",
-            "code": "SCHLIEMANN"
+            "codeHash": "cbd8ab87f1f8f384ebe08848eeb55dea968df4affec706cdff680d1e147332c9"
         }
     },
     {
@@ -2760,7 +2760,7 @@ const POIs = [
         "reward": {
             "title": "Free historic postcard pack",
             "provider": "Mets Cultural Association",
-            "code": "KOLOKOTRONIS"
+            "codeHash": "221341c384728150771ac245202e237a38ad54b30cf75d66358c40b56e08ae5d"
         }
     },
     {
@@ -2785,7 +2785,7 @@ const POIs = [
         "reward": {
             "title": "10% off traditional Greek herbal tea",
             "provider": "Agora Herb Kiosk",
-            "code": "HYPOCAUST"
+            "codeHash": "e21e9b2331d8e42d54f83b17edd9c9944758588e4acea56852ec77a24c3d6498"
         }
     },
     {
@@ -2810,7 +2810,7 @@ const POIs = [
         "reward": {
             "title": "15% off Greek tragedy dinners",
             "provider": "Plaka Theater Bistro",
-            "code": "TRIPODSTREET"
+            "codeHash": "6756a0f3090dc0e45208130088c5742d17fca63ca817447ccacbb07b048c3726"
         }
     },
     {
@@ -2835,7 +2835,7 @@ const POIs = [
         "reward": {
             "title": "Free coffee with dessert purchase",
             "provider": "Agora Clock Cafe",
-            "code": "CLEPSYDRA"
+            "codeHash": "b69e587dc086d14560b0352e829fb2bf0ca1b2913058f50297fca784178b9d21"
         }
     },
     {
@@ -2860,7 +2860,7 @@ const POIs = [
         "reward": {
             "title": "Free organic tea with muffin",
             "provider": "Mars Hill Corner Cafe",
-            "code": "PAULSERMON"
+            "codeHash": "8b9b1f9c851641f7f4dccdb41f4bfb44e3499dc5e4266f9fe236ee078333bfc9"
         }
     },
     {
@@ -2885,7 +2885,7 @@ const POIs = [
         "reward": {
             "title": "Free espresso upgrade",
             "provider": "National Garden Kiosk",
-            "code": "GARDENMOSAIC"
+            "codeHash": "c539ecb65587389e74bd1d9bddc4203d2a5e99b5e9c8cbdada2d92dc74cc84a5"
         }
     },
     {
@@ -2910,7 +2910,7 @@ const POIs = [
         "reward": {
             "title": "15% off historic tour tickets",
             "provider": "Athens Democratic Tours",
-            "code": "PNYXBEMA"
+            "codeHash": "fe234a8f2efd80bd3a809248ddf2586324d48d1caa03c8b832271ac5a47915a3"
         }
     },
     {
@@ -2935,7 +2935,7 @@ const POIs = [
         "reward": {
             "title": "10% off museum guidebooks",
             "provider": "Agora Museum Bookstore",
-            "code": "KLEROTERION"
+            "codeHash": "45ea3c923b9d47ac6e085b5daaf887564e919046c14daf488afaf4f87bfd2cb4"
         }
     },
     {
@@ -2960,7 +2960,7 @@ const POIs = [
         "reward": {
             "title": "10% off city walking tour guides",
             "provider": "Athens Democracy Tours",
-            "code": "EPONYMOUS"
+            "codeHash": "0733cd7b024984f42ea2c5c9b36e45f631cb7b752dae3f2f3af91512b5a4b7d7"
         }
     },
     {
@@ -2985,7 +2985,7 @@ const POIs = [
         "reward": {
             "title": "15% off Kerameikos guide booklets",
             "provider": "Kerameikos Bookshop",
-            "code": "STREETTOMBS"
+            "codeHash": "c65f8710893f7ab0a4c5d252d32f3c18f1da01fc57bba4ff2c1a8e8a8d8397c4"
         }
     },
     {
@@ -3010,7 +3010,7 @@ const POIs = [
         "reward": {
             "title": "10% off traditional Greek sweets",
             "provider": "Monastiraki Traditional Bakery",
-            "code": "TZISTARAKIS"
+            "codeHash": "9380f155b0f3b91f233b3879a5221d6fe1f0b0f3e5249c71cfec59f2ab2e5a82"
         }
     },
     {
@@ -3035,7 +3035,7 @@ const POIs = [
         "reward": {
             "title": "10% off local handmade items",
             "provider": "Plaka Souvenir Station",
-            "code": "ADRIANOU"
+            "codeHash": "dea5af24912c7e6384c9875f0240717ece6600fa8106417b3cc8c583af09f841"
         }
     },
     {
@@ -3060,7 +3060,7 @@ const POIs = [
         "reward": {
             "title": "Free public transit map booklet",
             "provider": "Syntagma Info Kiosk",
-            "code": "METROARCHAE"
+            "codeHash": "2de88d599f481f93c42e62eb33d93c969bd42e6420f128e7e1fce4bf6d9d4ca1"
         }
     },
     {
@@ -3085,7 +3085,7 @@ const POIs = [
         "reward": {
             "title": "Free architecture postcard",
             "provider": "Philopappos Rest Pavilion",
-            "code": "PIKIONIS"
+            "codeHash": "f4aec251fac32d52581da79a1936828dc1f6e514be8e25adb7db12a82b3d97ba"
         }
     },
     {
@@ -3110,7 +3110,7 @@ const POIs = [
         "reward": {
             "title": "10% off concert merchandise",
             "provider": "Lycabettus Summit Shop",
-            "code": "ZENETOS65"
+            "codeHash": "1d0ef4414dab6e978e54a7cbf6ac263e6a8eb7e12769f29d5b378b52c33b7e3e"
         }
     },
     {
@@ -3135,7 +3135,7 @@ const POIs = [
         "reward": {
             "title": "15% off Acropolis history books",
             "provider": "Acropolis Slope Bookshop",
-            "code": "BOUPHONIA"
+            "codeHash": "4e018f77dba78387b136cb72a77d3b98bd96ea648c958b046327c25e5c0ca6cf"
         }
     },
     {
@@ -3160,7 +3160,7 @@ const POIs = [
         "reward": {
             "title": "10% off entry tickets",
             "provider": "Athens Open Air Theater",
-            "code": "MELINAMARBLE"
+            "codeHash": "da56d753030f270741624b735336f2954ba2165c6a58d884a08375e211f093ed"
         }
     },
     {
@@ -3185,7 +3185,7 @@ const POIs = [
         "reward": {
             "title": "Free philosophy booklet",
             "provider": "Academy Park Information Center",
-            "code": "SACREDHOUSE"
+            "codeHash": "bb83ffcee32384712090107cc259a9cd38ff5adc5242941cdaee6b82d7c2e4f9"
         }
     },
     {
@@ -3210,7 +3210,7 @@ const POIs = [
         "reward": {
             "title": "10% off traditional Greek mezze",
             "provider": "Apollo Tavern Plaka",
-            "code": "PATROOS"
+            "codeHash": "7c57e7bd427e36107f3d7763acc38956ee9b1c78b5ca3d1b88e756574873284e"
         }
     },
     {
@@ -3235,7 +3235,7 @@ const POIs = [
         "reward": {
             "title": "15% off regional travel guides",
             "provider": "East Agora Tourism Desk",
-            "code": "HYMETTIAN"
+            "codeHash": "3b7bd13abad6abd118385c7e45127d401c06361ea7111908e70244831e2543d8"
         }
     },
     {
@@ -3260,7 +3260,7 @@ const POIs = [
         "reward": {
             "title": "Free organic tea with pastry",
             "provider": "Nymphs Hill Cafe",
-            "code": "NYMPHSHRINE"
+            "codeHash": "64b070e305d525eddf45c36e8073b12c135db6573579ca97a056dee5d8b0c09b"
         }
     },
     {
@@ -3285,7 +3285,7 @@ const POIs = [
         "reward": {
             "title": "Free historic map brochure",
             "provider": "First Cemetery Visitors Desk",
-            "code": "ZILLERTOMB"
+            "codeHash": "19cc43d5996c342395463c007bffa6352d2ed95841f8f155a56b8e4b5bc4927e"
         }
     },
     {
@@ -3310,7 +3310,7 @@ const POIs = [
         "reward": {
             "title": "Free traditional Greek coffee",
             "provider": "Grigoroussa Bakery Plaza",
-            "code": "GRIGOROUSSA"
+            "codeHash": "883fac0ab62d11704b7d2274ce4ce540272048009d4539630443e1421a4aabc8"
         }
     },
     {
@@ -3335,7 +3335,7 @@ const POIs = [
         "reward": {
             "title": "10% off university publications",
             "provider": "University Bookstore",
-            "code": "UNIVERSITYAULA"
+            "codeHash": "d054e7f749975850dfc20bf9818fdaf5326ed38e5f3eed0497a070f872a586cb"
         }
     },
     {
@@ -3360,7 +3360,7 @@ const POIs = [
         "reward": {
             "title": "10% off museum guidebooks",
             "provider": "Museum Bookstore",
-            "code": "AGAMEMNON"
+            "codeHash": "69c6ad746b142494540dc8c88a78ef900c0a619530f593170f1a29d82392e99c"
         }
     },
     {
@@ -3385,7 +3385,7 @@ const POIs = [
         "reward": {
             "title": "15% off sunset dinner orders",
             "provider": "Sounion Sunset Tavern",
-            "code": "AEGEANSEA"
+            "codeHash": "4b4ddb424fd1414f5174188d414f406c0ab61f5d5a632df7ac374034f65623e6"
         }
     },
     {
@@ -3410,7 +3410,7 @@ const POIs = [
         "reward": {
             "title": "Free historic guide brochure",
             "provider": "First Cemetery Info Office",
-            "code": "SOPHIATOMB"
+            "codeHash": "05ca9534a46e28c9959170de3974683b348c5df4396ab60da66e269021eacab8"
         }
     },
     {
@@ -3435,7 +3435,7 @@ const POIs = [
         "reward": {
             "title": "10% off local guidebook guides",
             "provider": "Nymphs Hill Gift Shop",
-            "code": "AGIAMARINA"
+            "codeHash": "f4ece7d37baa0702eb65abf5e3adf5e63e758827543fb04c4c079a09e2b139b2"
         }
     },
     {
@@ -3460,7 +3460,7 @@ const POIs = [
         "reward": {
             "title": "15% off spa entrance tickets",
             "provider": "Athens Turkish Baths",
-            "code": "HAMMAMWINDS"
+            "codeHash": "38184c5564a7b26ceb20189d6bf3975fb81cdf933e8ccaebe9d6097ac29f1a62"
         }
     },
     {
@@ -3485,7 +3485,7 @@ const POIs = [
         "reward": {
             "title": "10% off museum guidebooks",
             "provider": "Kerameikos Entrance Shop",
-            "code": "POMPEION"
+            "codeHash": "e0109d2d4f96ec351c46fcc885f3b1de5babd65b9b25ff7671c82b84f2740377"
         }
     },
     {
@@ -3510,7 +3510,7 @@ const POIs = [
         "reward": {
             "title": "15% off philosophy books",
             "provider": "Agora Book Center",
-            "code": "ROYALSTOA"
+            "codeHash": "802b866f777f26c7112d8caa2781d66c32b98c2eabc022fe5b9cd106473d79e1"
         }
     },
     {
@@ -3535,7 +3535,7 @@ const POIs = [
         "reward": {
             "title": "Free traditional pastry with coffee",
             "provider": "Ragavas Square Bakery",
-            "code": "RAGAVAS1944"
+            "codeHash": "c71f7a9868bb38d818281d3065a60f73c1f96018e9a2578dac3f86de48852ba0"
         }
     },
     {
@@ -3560,7 +3560,7 @@ const POIs = [
         "reward": {
             "title": "10% off traditional souvlaki",
             "provider": "O Thanasis Restaurant",
-            "code": "FALLENCOLUMN"
+            "codeHash": "c4f1ff08bb36a4a8054f68f0d07e021c7359a9edc17b54ccaef421cf7847f72e"
         }
     },
     {
@@ -3585,7 +3585,7 @@ const POIs = [
         "reward": {
             "title": "Free historic guide brochure",
             "provider": "First Cemetery Information Desk",
-            "code": "HALEPASART"
+            "codeHash": "020caff11614df9e47295f3f9eb57e82f03aa5fbd7555e316785e2bdf95ed448"
         }
     },
     {
@@ -3610,7 +3610,7 @@ const POIs = [
         "reward": {
             "title": "15% off athletic merchandise",
             "provider": "Kallimarmaro Souvenir Shop",
-            "code": "AVEROOFF1896"
+            "codeHash": "334808e4b8801bd379b99a78d232cf07a76e34faf90c3eda3bcb34cb7439fb53"
         }
     },
     {
@@ -3635,7 +3635,7 @@ const POIs = [
         "reward": {
             "title": "Free historic guide map booklet",
             "provider": "Mets District Tourism Desk",
-            "code": "PAPANDREOU"
+            "codeHash": "7016dbf1e2c1dfec97e4c3ddfe7cb6755c40f8283bc9a6c4c38da1ea416e8e06"
         }
     },
     {
@@ -3660,7 +3660,7 @@ const POIs = [
         "reward": {
             "title": "15% off regional history guides",
             "provider": "Phaleron Cultural Center",
-            "code": "CYLONCOUP"
+            "codeHash": "16cd0aae88e224ccae240579cae3d5809d79ac710eae0764e1c4e2132071de86"
         }
     },
     {
@@ -3685,7 +3685,7 @@ const POIs = [
         "reward": {
             "title": "Free philosophy booklet",
             "provider": "Academy Park Info Kiosk",
-            "code": "ACADEMYGYM"
+            "codeHash": "af0b2173db684cef31b964af151736b1e2d0c2346bef3ccabe7ca562e37ce4a8"
         }
     },
     {
@@ -3710,7 +3710,7 @@ const POIs = [
         "reward": {
             "title": "10% off museum entry tickets",
             "provider": "Kerameikos Archaeological Desk",
-            "code": "SPARTANTOMB"
+            "codeHash": "7a16dbb7becfd9f4c6b5adb89dc2e28dab9f2500cb169397edd1e6ee11ed6318"
         }
     },
     {
@@ -3735,7 +3735,7 @@ const POIs = [
         "reward": {
             "title": "15% off Acropolis souvenirs",
             "provider": "Acropolis Museum Store",
-            "code": "PANDION"
+            "codeHash": "e35bf3a18c95ae2bd8ebdca3d2fee50aa66f6d8ae7132f701da1d8e3cf731ad2"
         }
     },
     {
@@ -3760,7 +3760,7 @@ const POIs = [
         "reward": {
             "title": "10% off history guides",
             "provider": "Agora Museum Shop",
-            "code": "ATTALOS2"
+            "codeHash": "4dcd2c8e03bba7174929c37b7d47a6b2bb7c348245159b510f198cb9d26bda4c"
         }
     },
     {
@@ -3785,7 +3785,7 @@ const POIs = [
         "reward": {
             "title": "Free Greek coffee with pastry",
             "provider": "Hadrian Arch View Cafe",
-            "code": "THESEUSARCH"
+            "codeHash": "28fd8b2a44a2a898fe7e74f32712e422ec697c92d6c17d28bc0ee9f201f76cee"
         }
     },
     {
@@ -3810,7 +3810,7 @@ const POIs = [
         "reward": {
             "title": "15% off tickets to concert events",
             "provider": "Athens Classical Concerts",
-            "code": "TRITONPORCH"
+            "codeHash": "243d0a794184b422e81f0665eb0d8261ca7c9170b45b58c01c2cf5a1c92db873"
         }
     },
     {
@@ -3835,7 +3835,7 @@ const POIs = [
         "reward": {
             "title": "10% off exhibition entrance",
             "provider": "Gazi Industrial Museum",
-            "code": "RETORTHOUSE"
+            "codeHash": "376d5aec8782c9665355776b740a9bd02ced9893bbe769910039cb5ce40ebf17"
         }
     },
     {
@@ -3860,7 +3860,7 @@ const POIs = [
         "reward": {
             "title": "10% off souvenir figurines",
             "provider": "Museum Souvenir Shop",
-            "code": "CYCLADICMARBLE"
+            "codeHash": "1df6abc8c9d96343e971dc1e1d7fea4102382ed8b6d3c07e10c09ca23d7cfbcb"
         }
     },
     {
@@ -3885,7 +3885,7 @@ const POIs = [
         "reward": {
             "title": "15% off seafood orders",
             "provider": "Sounion Port Restaurant",
-            "code": "SOUNIONSEA"
+            "codeHash": "33f9f8522b95d8a156c5f0fdef74aef48ae897976d3c93d2b13dea30a941822f"
         }
     },
     {
@@ -3910,7 +3910,7 @@ const POIs = [
         "reward": {
             "title": "10% off history publications",
             "provider": "Agora Bookstore Desk",
-            "code": "ARESMARKS"
+            "codeHash": "29f1d71be72993818fde4ae7364b80494af8fad5692f96c376df12ba80451536"
         }
     }
 ];
@@ -4368,7 +4368,7 @@ function setupQuiz(poi) {
     const feedbackDiv = document.getElementById("quiz-feedback");
 
     feedbackDiv.classList.add("hidden");
-    optionsDiv.innerHTML = "";
+    optionsDiv.replaceChildren();
 
     // Set text
     document.getElementById("quiz-question").textContent = poi.quiz.question;
@@ -4427,7 +4427,7 @@ function unlockReward(poi) {
         poiId: poi.id,
         title: poi.reward.title,
         provider: poi.reward.provider,
-        code: poi.reward.code
+        codeHash: poi.reward.codeHash
     });
     
     userStats.points += 50; // Extra XP for correct quiz
@@ -4438,7 +4438,7 @@ function unlockReward(poi) {
 // --- Dashboard Stats renderers ---
 function renderPOIList() {
     const list = document.getElementById("poi-list-container");
-    list.innerHTML = "";
+    list.replaceChildren();
 
     POIs.forEach((poi, index) => {
         const card = document.createElement("div");
@@ -4453,46 +4453,80 @@ function renderPOIList() {
 
         const isDiscovered = userStats.explored.includes(poi.id);
         const statusIcon = isDiscovered ? "✅" : "🔒";
-        const imgTag = poi.image ? `<img class="poi-card-thumb" src="${poi.image}" alt="${poi.name}">` : `<div class="poi-card-num">${index + 1}</div>`;
 
-        card.innerHTML = `
-            ${imgTag}
-            <div class="poi-card-info">
-                <h4>${poi.name}</h4>
-                <p>${poi.description.substring(0, 100)}...</p>
-            </div>
-            <div class="poi-card-status">${statusIcon}</div>
-        `;
+        if (poi.image) {
+            const img = document.createElement("img");
+            img.className = "poi-card-thumb";
+            img.src = poi.image;
+            img.alt = poi.name;
+            card.appendChild(img);
+        } else {
+            const numDiv = document.createElement("div");
+            numDiv.className = "poi-card-num";
+            numDiv.textContent = (index + 1).toString();
+            card.appendChild(numDiv);
+        }
+
+        const infoDiv = document.createElement("div");
+        infoDiv.className = "poi-card-info";
+
+        const h4 = document.createElement("h4");
+        h4.textContent = poi.name;
+        infoDiv.appendChild(h4);
+
+        const p = document.createElement("p");
+        p.textContent = `${poi.description.substring(0, 100)}...`;
+        infoDiv.appendChild(p);
+
+        card.appendChild(infoDiv);
+
+        const statusDiv = document.createElement("div");
+        statusDiv.className = "poi-card-status";
+        statusDiv.textContent = statusIcon;
+        card.appendChild(statusDiv);
+
         list.appendChild(card);
     });
 }
 
 function renderRewardsTab() {
     const container = document.getElementById("coupons-list-container");
-    container.innerHTML = "";
+    container.replaceChildren();
 
     POIs.forEach(poi => {
         const unlockedReward = userStats.rewards.find(r => r.poiId === poi.id);
         const card = document.createElement("div");
         
+        const infoDiv = document.createElement("div");
+        infoDiv.className = "coupon-info";
+
+        const h4 = document.createElement("h4");
+        infoDiv.appendChild(h4);
+
+        const p = document.createElement("p");
+        infoDiv.appendChild(p);
+
+        card.appendChild(infoDiv);
+
         if (unlockedReward) {
             card.className = "coupon-card unlocked";
-            card.innerHTML = `
-                <div class="coupon-info">
-                    <h4>${poi.reward.title}</h4>
-                    <p>🎫 At ${poi.reward.provider}</p>
-                </div>
-                <div class="coupon-code">${poi.reward.code}</div>
-            `;
+            h4.textContent = poi.reward.title;
+            p.textContent = `🎫 At ${poi.reward.provider}`;
+
+            const codeDiv = document.createElement("div");
+            codeDiv.className = "coupon-code";
+            const hashVal = poi.reward.codeHash || unlockedReward.codeHash || "";
+            codeDiv.textContent = hashVal ? `Hash: ${hashVal.substring(0, 8)}...` : "N/A";
+            card.appendChild(codeDiv);
         } else {
             card.className = "coupon-card";
-            card.innerHTML = `
-                <div class="coupon-info">
-                    <h4>${poi.name} Reward</h4>
-                    <p>Solve the quiz at the site to unlock this voucher.</p>
-                </div>
-                <div class="coupon-locked-badge">🔒 Locked</div>
-            `;
+            h4.textContent = `${poi.name} Reward`;
+            p.textContent = "Solve the quiz at the site to unlock this voucher.";
+
+            const lockedDiv = document.createElement("div");
+            lockedDiv.className = "coupon-locked-badge";
+            lockedDiv.textContent = "🔒 Locked";
+            card.appendChild(lockedDiv);
         }
         container.appendChild(card);
     });

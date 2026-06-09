@@ -6,6 +6,7 @@
     <title>Echoes of Athens | Geolocation Audio Guide</title>
     <meta name="description" content="Explore ancient Greek ruins with immersive audio stories, gamified trivia quizzes, and local rewards.">
     <!-- PWA Settings -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://unpkg.com https://a.tile.openstreetmap.org https://b.tile.openstreetmap.org https://c.tile.openstreetmap.org; connect-src 'self' https://unpkg.com https://*.tile.openstreetmap.org;">
     <meta name="theme-color" content="#0d2f64">
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="icon-192.png">
@@ -48,6 +49,9 @@
                 </button>
                 <div class="map-instruction">
                     <p>📍 Tap on a pin to explore, or click anywhere to simulate walking there!</p>
+                    <p style="font-size: 0.7rem; opacity: 0.9; margin-top: 4px; border-top: 1px solid rgba(255,255,255,0.25); padding-top: 4px; display: flex; align-items: center; justify-content: center; gap: 4px;">
+                        <span>🔒</span> Geolocation data is processed entirely client-side and is never sent to any server.
+                    </p>
                 </div>
             </section>
 
