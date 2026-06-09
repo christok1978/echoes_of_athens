@@ -1997,6 +1997,421 @@ const POIs = [
             "provider": "Hymettus Monastic Apothecary",
             "code": "HUNTER12"
         }
+    },
+    {
+        "id": 80,
+        "name": "Plato's Academy Archaeological Park",
+        "lat": 37.9922,
+        "lng": 23.7083,
+        "image": "images/academy_athens.png",
+        "description": "The physical birthplace of Western higher learning, where Plato founded his famous school in 387 BC.",
+        "audioText": "Welcome to Plato's Academy Archaeological Park. Here, in a grove of olive trees outside the ancient walls of Athens, the philosopher Plato established the Academy in 387 BC. It was not a school in the modern sense, but a sanctuary for intellectual exploration and debate. The Academy flourished for over 900 years, attracting scholars from across the Greek world, including Plato's most famous student, Aristotle. Walking through these quiet ruins, you stand at the very foundations of Western philosophy, science, and education.",
+        "quiz": {
+            "question": "In which year did Plato found the Academy?",
+            "options": ["387 BC", "507 BC", "146 BC", "335 BC"],
+            "answer": 0,
+            "feedback": "Correct! Plato founded the Academy in 387 BC, establishing a center of learning that lasted for centuries."
+        },
+        "reward": {
+            "title": "10% off philosophy books",
+            "provider": "Academy Bookstore",
+            "code": "PLATO387"
+        }
+    },
+    {
+        "id": 81,
+        "name": "Kynosarges Archaeological Site",
+        "lat": 37.9628,
+        "lng": 23.7314,
+        "image": "images/aristotle_s_lyceum.jpg",
+        "description": "The ancient gymnasium dedicated to Heracles, famous as the birthplace of Cynic Philosophy under Antisthenes.",
+        "audioText": "Explore the ruins of Kynosarges, situated south of the Acropolis. In ancient times, this area housed a famous gymnasium dedicated to Heracles, which was reserved for people of mixed Athenian and foreign ancestry. It was here, in the early 4th century BC, that the philosopher Antisthenes began teaching his followers. His teachings laid the foundation for Cynic philosophy, which advocated for a life of virtue lived in accordance with nature, free from societal conventions. The name Kynosarges means 'white dog,' commemorating a myth of a dog stealing a sacrifice.",
+        "quiz": {
+            "question": "Which philosophical school was founded at Kynosarges?",
+            "options": ["Cynic philosophy", "Stoic philosophy", "Epicurean philosophy", "Platonic philosophy"],
+            "answer": 0,
+            "feedback": "Correct! Antisthenes taught at Kynosarges, leading to the birth of Cynic philosophy."
+        },
+        "reward": {
+            "title": "Free guide booklet on philosophy",
+            "provider": "Koukaki Cultural Center",
+            "code": "CYNICGYM"
+        }
+    },
+    {
+        "id": 82,
+        "name": "Tomb of Sophocles",
+        "lat": 38.1403,
+        "lng": 23.7917,
+        "image": "images/first_cemetery_of_athens.jpg",
+        "description": "The ancient burial mound of the great tragic playwright Sophocles, situated in his ancestral deme near Varibobi.",
+        "audioText": "Stand before the Tomb of Sophocles, located near the modern suburb of Varibobi. This large earth and stone burial mound marks the final resting place of one of ancient Greece's greatest tragic playwrights. Sophocles, who wrote masterpieces like Oedipus Rex and Antigone, died in 406 BC at the age of 90. According to legend, the Spartan general Lysander, who was besieging Athens, allowed the playwright's funeral procession to pass safely through military lines out of respect for his genius. The tomb is a monument to the high status of playwrights in classical society.",
+        "quiz": {
+            "question": "Which famous play was written by the tragic playwright Sophocles?",
+            "options": ["Oedipus Rex", "The Iliad", "The Frogs", "Medea"],
+            "answer": 0,
+            "feedback": "Correct! Sophocles wrote Oedipus Rex, one of the most famous tragedies in theatrical history."
+        },
+        "reward": {
+            "title": "15% off classic theater tickets",
+            "provider": "Athens Municipal Theater",
+            "code": "SOPHOCLES15"
+        }
+    },
+    {
+        "id": 83,
+        "name": "Temple of Apollo Zoster",
+        "lat": 37.8139,
+        "lng": 23.7744,
+        "image": "images/hephaestus.png",
+        "description": "A 6th-century BC temple discovered in 1924 under the sand of a popular beach, dedicated to Apollo.",
+        "audioText": "Observe the Temple of Apollo Zoster, located on the Astir beach in Vouliagmeni. Constructed in the late 6th century BC, this temple was lost for centuries until it was discovered in 1924 by orphanage children playing in the sand. The sanctuary was dedicated to Apollo Zoster, meaning 'Apollo of the Girdle.' According to mythology, when Leto was pregnant with Apollo and Artemis, she believed she was about to give birth here and loosened her golden girdle. The temple remains a unique example of an ancient sacred site preserved on the modern coastline.",
+        "quiz": {
+            "question": "What does the name 'Zoster' mean in the temple's title?",
+            "options": ["Girdle or belt", "Sun god", "Archer", "Golden chariot"],
+            "answer": 0,
+            "feedback": "Correct! 'Zoster' means girdle, commemorating where Leto loosened her girdle before giving birth."
+        },
+        "reward": {
+            "title": "Free entry to Astir Beach area",
+            "provider": "Astir Beach Reception",
+            "code": "APOLLOZOSTER"
+        }
+    },
+    {
+        "id": 84,
+        "name": "Archaeological Site of Kolona",
+        "lat": 37.7492,
+        "lng": 23.4242,
+        "image": "images/hephaestus.png",
+        "description": "The prehistoric acropolis of Aegina Island, dominated by a single standing column of a Temple of Apollo.",
+        "audioText": "Visit the archaeological site of Kolona, the historic acropolis of Aegina Island. Occupied continuously since the Neolithic era, the hill contains layers of ancient fortifications and residential streets. Today, the site is dominated by a single, tall limestone column (kolona) standing on the hilltop. This column is the sole survivor of a grand Doric Temple of Apollo built around 510 BC. The hill offers spectacular views of the Saronic Gulf and houses a museum showing Aegina's early prehistoric pottery and bronze treasures.",
+        "quiz": {
+            "question": "Which god was the main classical temple at Kolona dedicated to?",
+            "options": ["Apollo", "Zeus", "Athena", "Poseidon"],
+            "answer": 0,
+            "feedback": "Correct! The single standing column is the ruin of the Temple of Apollo."
+        },
+        "reward": {
+            "title": "10% off entry to the Kolona Museum",
+            "provider": "Kolona Archaeological Site",
+            "code": "KOLONAPOLLO"
+        }
+    },
+    {
+        "id": 85,
+        "name": "Phaleron Delta Ancient Cemetery (Phaleron Captives)",
+        "lat": 37.9405,
+        "lng": 23.6883,
+        "image": "images/first_cemetery_of_athens.jpg",
+        "description": "A massive archaic cemetery famous for the discovery of bound skeletons linked to Cylon's ancient conspiracy.",
+        "audioText": "Stand near the Phaleron Delta, the location of a massive ancient cemetery dating from the 8th to the 4th centuries BC. The site gained global attention during excavations when archaeologists discovered a set of skeletons bound in iron shackles. Known as the 'Phaleron Captives,' these individuals were executed and buried in mass graves. Historians link these executions to Cylon's failed coup attempt in 632 BC, when supporters of the noble Cylon were slaughtered. The site offers a grim look into political violence and capital punishment in archaic Athens.",
+        "quiz": {
+            "question": "What historic discovery was made at the Phaleron Delta Cemetery?",
+            "options": ["Shackled skeletons (captives)", "A golden royal chariot", "The tomb of Pericles", "The lost library of Aristotle"],
+            "answer": 0,
+            "feedback": "Correct! The discovery of bound skeletons shed new light on ancient capital punishment and historical events."
+        },
+        "reward": {
+            "title": "Free historical guide leaflet",
+            "provider": "Phaleron Library",
+            "code": "CAPTIVES"
+        }
+    },
+    {
+        "id": 86,
+        "name": "Ancient Deme of Halai Aixonides",
+        "lat": 37.8394,
+        "lng": 23.7558,
+        "image": "images/ancient_agora_of_athens.jpg",
+        "description": "An archaeological site in Voula showing the marketplace and residential streets of a classical coastal deme.",
+        "audioText": "Explore the ruins of the Ancient Deme of Halai Aixonides, located in modern Voula. This classical township was one of the key coastal demes of Athens. Archaeological excavations have uncovered the remains of the deme's marketplace (agora), a small theater, residential houses, and salt-pans. The deme played an important economic role in producing salt and exporting fish to Athens. Walking through these stone foundations highlights the daily life of ancient citizens who lived outside the main city center.",
+        "quiz": {
+            "question": "What economic product was the deme of Halai Aixonides famous for producing?",
+            "options": ["Salt", "Silver coins", "Bronze weapons", "Purple dye"],
+            "answer": 0,
+            "feedback": "Correct! The coastal deme was known for its salt-pans and fishing industry."
+        },
+        "reward": {
+            "title": "10% off sea-salt seasoning blends",
+            "provider": "Voula Organic Market",
+            "code": "HALAISALT"
+        }
+    },
+    {
+        "id": 87,
+        "name": "The Dema Wall",
+        "lat": 38.0694,
+        "lng": 23.6931,
+        "image": "images/parthenon.png",
+        "description": "A massive 4.5 km long ancient fortification wall built in the 4th century BC to defend the pass between Athens and Boeotia.",
+        "audioText": "Observe the Dema Wall, a monumental defensive fortification spanning the narrow pass between Mount Aegaleo and Mount Parnitha. Constructed in the 4th century BC, this stone and earth wall is 4.5 kilometers long. It was designed to block invading armies from Boeotia or the Peloponnese from marching directly into the plain of Athens. The wall features multiple towers, gates, and crenellations. It stands as a prime example of Athens' investment in large-scale frontier fortifications to protect its democratic state from regional rivals.",
+        "quiz": {
+            "question": "What was the primary purpose of the Dema Wall?",
+            "options": [
+                "To block invading armies from entering the Athenian plain",
+                "To serve as an aqueduct to supply water",
+                "To mark the border of a sacred temple sanctuary",
+                "To act as a track for ancient athletic races"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Dema Wall was a fortification built to defend the northern mountain pass."
+        },
+        "reward": {
+            "title": "Free hiking map of the Fyli region",
+            "provider": "Fyli Municipality Information Office",
+            "code": "DEMAWALL"
+        }
+    },
+    {
+        "id": 88,
+        "name": "Agrileza Silver Workshops",
+        "lat": 37.6744,
+        "lng": 24.015,
+        "image": "images/olympian_zeus.png",
+        "description": "The ancient industrial workshops where Lavrion silver ore was washed and processed by slaves in antiquity.",
+        "audioText": "Welcome to the Agrileza ancient silver workshops, located in the Lavreotiki national park. Here, the silver ore mined from the earth was crushed and washed using stone tables. The washing tables allowed the heavy silver-bearing lead particles to settle while the lighter stone was washed away. This industrial process was carried out under brutal conditions by thousands of enslaved laborers. The wealth generated here funded the expansion of the Athenian navy and built the monumental buildings of Athens' Golden Age, linking the glory of democracy to the exploitation of slave labor.",
+        "quiz": {
+            "question": "What industrial process was carried out at the Agrileza workshops?",
+            "options": ["Washing and separating silver ore", "Minting silver coins", "Smelting iron weapons", "Carving marble columns"],
+            "answer": 0,
+            "feedback": "Correct! The workshops used flat stone tables to wash and concentrate silver ore."
+        },
+        "reward": {
+            "title": "15% off Lavrion Mine tours",
+            "provider": "Lavreotiki Historical Tours",
+            "code": "AGRILEZA15"
+        }
+    },
+    {
+        "id": 89,
+        "name": "The Diateichisma Wall",
+        "lat": 37.9708,
+        "lng": 23.7203,
+        "image": "images/parthenon.png",
+        "description": "A late 4th-century BC defensive wall built along the ridges of the Pnyx and Nymphs hills to shorten Athens' defense perimeter.",
+        "audioText": "Walk along the remnants of the Diateichisma Wall, situated along the ridges of the Pnyx, Nymphs, and Muses hills. Built in the late 4th century BC following the Macedonian victory at Chaeronea, this fortification wall was constructed to shorten the defensive perimeter of Athens. By cutting across these hills, the Athenians could defend their city with fewer soldiers. The wall was built using massive stone blocks and featured defensive towers. Today, its foundations are visible along the popular walking paths of Philopappou Hill.",
+        "quiz": {
+            "question": "Why was the Diateichisma Wall constructed?",
+            "options": [
+                "To shorten the city's defensive perimeter",
+                "To supply spring water to the Acropolis",
+                "To build a grand stadium for races",
+                "To create a marketplace divider"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The wall was built to consolidate defenses and shorten the city walls."
+        },
+        "reward": {
+            "title": "10% off coffee with a view",
+            "provider": "Philopappou Hill Kiosk",
+            "code": "DIATEICHISMA"
+        }
+    },
+    {
+        "id": 90,
+        "name": "Cave of Pan",
+        "lat": 38.1561,
+        "lng": 23.9458,
+        "image": "images/koutouki_cave.png",
+        "description": "A mystical cave of stalactites near Marathon where worship of Pan began after the Battle of Marathon.",
+        "audioText": "Step into the Cave of Pan, located in the gorge of Oinoi near Marathon. This natural stalactite cave became a sacred sanctuary dedicated to the goat-god Pan. According to legend, during the Battle of Marathon in 490 BC, Pan caused 'panic' among the invading Persian soldiers, helping the Greeks secure their victory. In gratitude, the Athenians established his cult in this cave. The cave features a narrow entrance leading to multiple chambers filled with stalactites, where ancient worshippers left clay lamps and figurines.",
+        "quiz": {
+            "question": "Which god was worshipped in this stalactite cave near Marathon?",
+            "options": ["Pan, the goat-god", "Zeus, the king of gods", "Apollo, the sun god", "Poseidon, the sea god"],
+            "answer": 0,
+            "feedback": "Correct! The cave was dedicated to Pan to thank him for his help in the Battle of Marathon."
+        },
+        "reward": {
+            "title": "Free organic goat cheese snack with lunch",
+            "provider": "Marathon Country Tavern",
+            "code": "PANIC490"
+        }
+    },
+    {
+        "id": 91,
+        "name": "Sanctuary of Zeus Ombrios",
+        "lat": 37.9483,
+        "lng": 23.8156,
+        "image": "images/olympian_zeus.png",
+        "description": "A mountain-top sanctuary on Hymettus where ancient farmers offered sacrifices to Zeus for rain.",
+        "audioText": "Climb to the Sanctuary of Zeus Ombrios, located on a high ridge of Mount Hymettus. The name Ombrios means 'the Rainbringer.' In ancient times, this high peak was a sacred site where Athenian farmers came during droughts to pray, make vows, and offer sacrifices to Zeus, asking him to send rain for their crops. Archaeologists have discovered thousands of ancient pottery vessels and offering tables at this site, illustrating the deep connection between ancient religion and agricultural survival.",
+        "quiz": {
+            "question": "What does the epithet 'Ombrios' mean in Zeus's title at this sanctuary?",
+            "options": ["The Rainbringer", "The Thunderer", "The Earthshaker", "The Protector"],
+            "answer": 0,
+            "feedback": "Correct! Zeus Ombrios was worshipped specifically as the sender of rain."
+        },
+        "reward": {
+            "title": "10% off Mount Hymettus wildflower honey",
+            "provider": "Hymettus Honey Stall",
+            "code": "RAINBRINGER"
+        }
+    },
+    {
+        "id": 92,
+        "name": "Valanaris Waterfall",
+        "lat": 38.0347,
+        "lng": 23.9786,
+        "image": "images/lake_vouliagmeni.png",
+        "description": "A beautiful, hidden natural waterfall and stream creating a lush green oasis on the slopes of Penteli.",
+        "audioText": "Discover the Valanaris Waterfall, a hidden natural gem located on the eastern slopes of Mount Penteli near Drafi. Fed by a small mountain stream, the water falls over a six-meter cliff, forming a natural pool surrounded by trees. The name Valanaris comes from the oak trees (valanidies) that once covered the area. This stream flows year-round, creating a lush green oasis in the dry Attica landscape that serves as a sanctuary for local birds, frogs, and tortoises.",
+        "quiz": {
+            "question": "Where does the name 'Valanaris' originate from?",
+            "options": ["From the oak trees (valanidies)", "From an ancient stream god", "From a marble quarry owner", "From a Byzantine general"],
+            "answer": 0,
+            "feedback": "Correct! The name honors the oak forest that historically covered the mountain."
+        },
+        "reward": {
+            "title": "Free bottled organic juice",
+            "provider": "Drafi Oasis Kiosk",
+            "code": "VALANARIS"
+        }
+    },
+    {
+        "id": 93,
+        "name": "Kaisariani Botanical Garden",
+        "lat": 37.961,
+        "lng": 23.7972,
+        "image": "images/aristotle_s_lyceum.jpg",
+        "description": "A conservation park on Mount Hymettus dedicated to preserving native Greek herbs and wildflowers.",
+        "audioText": "Stroll through the Kaisariani Botanical Garden, situated next to the historic monastery on Mount Hymettus. Established to preserve the native flora of Attica, the garden contains a vast collection of aromatic, medicinal, and historic plants, including wild thyme, sage, oregano, and rare orchids. In antiquity, the honey produced on Mount Hymettus from these aromatic herbs was famous across the Mediterranean. The garden offers peaceful walking paths and serves as a living museum of Greek botanical heritage.",
+        "quiz": {
+            "question": "What product from Mount Hymettus was famous in antiquity due to its aromatic herbs?",
+            "options": ["Wildflower honey", "White marble", "Red wine", "Olive oil"],
+            "answer": 0,
+            "feedback": "Correct! The honey of Hymettus was famous for its flavor, derived from the mountain's aromatic herbs."
+        },
+        "reward": {
+            "title": "10% off local organic herb blends",
+            "provider": "Kaisariani Herb Shop",
+            "code": "HERBGARDEN"
+        }
+    },
+    {
+        "id": 94,
+        "name": "Temple of Artemis Agrotera",
+        "lat": 37.9697,
+        "lng": 23.7369,
+        "image": "images/hephaestus.png",
+        "description": "The ruined foundations of an ancient temple overlooking the Ilissos River where the goddess of the hunt was worshipped.",
+        "audioText": "Observe the ruins of the Temple of Artemis Agrotera, located in the Mets district near the Panathenaic Stadium. Constructed in the 5th century BC, this temple was dedicated to Artemis of the Hunt (Agrotera). According to historical accounts, the Athenians sacrificed 500 goats at this temple each year to thank Artemis for her aid in their victory over the Persians at the Battle of Marathon. The temple was built in the elegant Ionic style, but today only its foundations remain visible.",
+        "quiz": {
+            "question": "Which battle's victory did the Athenians celebrate with annual sacrifices at this temple?",
+            "options": ["Battle of Marathon", "Battle of Salamis", "Battle of Thermopylae", "Peloponnesian War"],
+            "answer": 0,
+            "feedback": "Correct! The sacrifices commemorated the victory at Marathon in 490 BC."
+        },
+        "reward": {
+            "title": "Free organic herbal tea with breakfast",
+            "provider": "Mets District Café",
+            "code": "AGROTERA"
+        }
+    },
+    {
+        "id": 95,
+        "name": "Choragic Monument of Nikias",
+        "lat": 37.9703,
+        "lng": 23.7251,
+        "image": "images/theatre_dionysus.png",
+        "description": "A monumental gateway on the south slope of the Acropolis constructed by Nikias to celebrate a theatrical victory.",
+        "audioText": "Stand near the ruins of the Choragic Monument of Nikias, located on the south slope of the Acropolis. Built in 320 BC by the wealthy sponsor Nikias, this monument celebrated his victory in a dramatic contest at the Theatre of Dionysus. It was designed like a small temple with Doric columns. In the 3rd century AD, following a destructive invasion, the monument was dismantled, and its marble blocks were reused to construct the Beulé Gate, which served as the fortified entrance to the Acropolis.",
+        "quiz": {
+            "question": "What fortified Acropolis structure was built using the dismantled stones of this monument?",
+            "options": ["The Beulé Gate", "The Propylaea", "The Erechtheion", "The Parthenon steps"],
+            "answer": 0,
+            "feedback": "Correct! The stones of Nikias's monument were reused to construct the defensive Beulé Gate."
+        },
+        "reward": {
+            "title": "10% off entry to the Acropolis slopes",
+            "provider": "South Slope Ticket Office",
+            "code": "NIKIAS320"
+        }
+    },
+    {
+        "id": 96,
+        "name": "Temple of Apollo Erithaseos",
+        "lat": 38.0833,
+        "lng": 23.8167,
+        "image": "images/hephaestus.png",
+        "description": "The archaeological remains of a rustic sanctuary of Apollo nestled in the northern suburb of Kifisia.",
+        "audioText": "Visit the site of the Temple of Apollo Erithaseos in Kifisia. Nestled in a wooded valley, this ancient sanctuary was dedicated to Apollo in his role as a rustic deity of harvest and agriculture. Archaeologists have uncovered the temple foundations, ancient boundary stones, and inscriptions recording religious laws. The site demonstrates how the worship of major Olympic gods extended into the rural demes of Attica, providing local farmers with a place of worship and community.",
+        "quiz": {
+            "question": "What role did Apollo serve at this rustic sanctuary in Kifisia?",
+            "options": ["Deity of harvest and agriculture", "God of naval warfare", "Patron of theater and comedy", "Messenger of the underworld"],
+            "answer": 0,
+            "feedback": "Correct! Apollo was worshipped here as a rural protector of crops and harvest."
+        },
+        "reward": {
+            "title": "Free standard coffee with pastry",
+            "provider": "Kifisia Plaza Café",
+            "code": "ERITHASEOS"
+        }
+    },
+    {
+        "id": 97,
+        "name": "Archaeological Museum of Megara",
+        "lat": 37.995,
+        "lng": 23.3422,
+        "image": "images/national_archaeological_museum.jpg",
+        "description": "A museum displaying ancient sculptures, gravestones, and votive offerings from the independent city-state of Megara.",
+        "audioText": "Enter the Archaeological Museum of Megara, housed in a historic 19th-century building in Megara town. The museum displays discoveries from the ancient city-state of Megara and its surroundings, spanning from the geometric period to Roman times. The exhibits include marble sculptures, detailed grave monuments, and clay figurines. Look for the marble victory monuments and pottery illustrating Megara's history as a major colonial power that founded cities like Byzantium.",
+        "quiz": {
+            "question": "Which famous historic city did colonizers from Megara establish?",
+            "options": ["Byzantium (later Constantinople)", "Rome", "Alexandria", "Carthage"],
+            "answer": 0,
+            "feedback": "Correct! Megarian colonists founded Byzantium in 657 BC."
+        },
+        "reward": {
+            "title": "10% off museum guide booklets",
+            "provider": "Megara Museum Gift Shop",
+            "code": "MEGARAMUSEUM"
+        }
+    },
+    {
+        "id": 98,
+        "name": "Monastery of Kleiston",
+        "lat": 38.1256,
+        "lng": 23.6303,
+        "image": "images/erechtheion.png",
+        "description": "A historic 11th-century Byzantine monastery built on the edge of a deep gorge on Mount Parnitha.",
+        "audioText": "Explore the Monastery of Kleiston, located on a cliff overlooking the deep gorge of Gouras on Mount Parnitha. Founded in the late 11th century, this historic monastery was named Kleiston, meaning 'the enclosed,' due to its dramatic location surrounded by high mountains. The monastery features a small Byzantine church, a central courtyard, and fortified walls that protected it from raids. It offers a tranquil escape and acts as a historic starting point for hikes into the national park.",
+        "quiz": {
+            "question": "Around which century was the Monastery of Kleiston founded?",
+            "options": ["11th Century AD", "5th Century BC", "15th Century AD", "19th Century AD"],
+            "answer": 0,
+            "feedback": "Correct! The monastery was established during the middle Byzantine era in the 11th century."
+        },
+        "reward": {
+            "title": "Free guide brochure of Mount Parnitha trails",
+            "provider": "Kleiston Information Kiosk",
+            "code": "KLEISTON11"
+        }
+    },
+    {
+        "id": 99,
+        "name": "Tower of Markellos",
+        "lat": 37.7472,
+        "lng": 23.4286,
+        "image": "images/tower_winds.png",
+        "description": "A pink Venetian watchtower on Aegina Island that served as the seat of the first Greek government.",
+        "audioText": "Stand before the Tower of Markellos in Aegina town. This distinctive pink-colored watchtower was constructed in the late 17th century by the Venetians to defend the harbor from pirate attacks. In 1826, during the Greek War of Independence, the tower served as the headquarters and seat of the first Greek revolutionary government under Ioannis Kapodistrias, before Athens was liberated. Today, the tower stands as a historical monument to the birth of the modern Greek state.",
+        "quiz": {
+            "question": "What administrative role did the Tower of Markellos serve in 1826?",
+            "options": [
+                "The seat of the first Greek revolutionary government",
+                "A vault for storing silver bullion",
+                "The private residence of King Otto",
+                "A naval customs station"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The tower served as the capital seat for the first Greek government under Kapodistrias."
+        },
+        "reward": {
+            "title": "10% off local traditional sweets",
+            "provider": "Aegina Port Bakery",
+            "code": "MARKELLOS"
+        }
     }
 ];
 
