@@ -4022,13 +4022,25 @@ function initMap() {
             fillOpacity: 0.8
         }).addTo(map);
 
-        marker.bindPopup(`
-            <div class="map-popup">
-                <h4>${poi.name}</h4>
-                <p>Click details to explore the stories.</p>
-                <button onclick="triggerPOIById(${poi.id})">Open Story</button>
-            </div>
-        `);
+        const popupContent = document.createElement("div");
+        popupContent.className = "map-popup";
+
+        const h4 = document.createElement("h4");
+        h4.textContent = poi.name;
+        popupContent.appendChild(h4);
+
+        const p = document.createElement("p");
+        p.textContent = "Click details to explore the stories.";
+        popupContent.appendChild(p);
+
+        const button = document.createElement("button");
+        button.textContent = "Open Story";
+        button.addEventListener("click", () => {
+            triggerPOIById(poi.id);
+        });
+        popupContent.appendChild(button);
+
+        marker.bindPopup(popupContent);
 
         poiMarkers.push({ id: poi.id, marker: marker });
     });
