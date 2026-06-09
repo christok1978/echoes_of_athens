@@ -2912,6 +2912,1006 @@ const POIs = [
             "provider": "Athens Democratic Tours",
             "code": "PNYXBEMA"
         }
+    },
+    {
+        "id": 120,
+        "name": "Museum of the Ancient Agora",
+        "lat": 37.9752,
+        "lng": 23.7238,
+        "image": "images/agora_museum.jpg",
+        "description": "Located inside the reconstructed Stoa of Attalos, this museum contains artifacts directly related to Athenian democracy, such as voting tokens and lottery machines.",
+        "audioText": "Step inside the Museum of the Ancient Agora, housed within the magnificent reconstructed Stoa of Attalos. The museum's collection is unique because it focuses directly on the daily civic life and democratic institutions of ancient Athens. Here you can see bronze ballots used by jurors to cast their votes, clay water clocks used to time speeches in court, and the kleroterion—a stone machine used to randomly select jurors and magistrates. These artifacts offer concrete evidence of how the Greeks turned abstract democratic ideals into physical, practical tools of government.",
+        "quiz": {
+            "question": "What random-allotment device, used for selecting jurors by lottery, is displayed in this museum?",
+            "options": [
+                "Kleroterion",
+                "Clepsydra",
+                "Ostrakon",
+                "Pnyx dial"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Kleroterion was a stone slab with slots used with colored balls to randomly assign citizens to public offices and juries."
+        },
+        "reward": {
+            "title": "10% off museum guidebooks",
+            "provider": "Agora Museum Bookstore",
+            "code": "KLEROTERION"
+        }
+    },
+    {
+        "id": 121,
+        "name": "Monument of the Eponymous Heroes",
+        "lat": 37.9752,
+        "lng": 23.7220,
+        "image": "images/eponymous_heroes.jpg",
+        "description": "A public monument in the Agora featuring statues representing the ten tribes of Athens. It served as the official public noticeboard for legislative proposals and military drafts.",
+        "audioText": "Observe the long stone base of the Monument of the Eponymous Heroes. In ancient Athens, the reformer Cleisthenes divided the citizens into ten tribes, each named after a legendary hero. This monument displayed bronze statues of those ten heroes. Its primary function was civic; the sides of the monument served as the official public noticeboard. Proposed laws, court notices, and military conscription lists were written on whitened wooden boards and placed here. Every citizen walking through the Agora would stop by this monument to read the latest state news.",
+        "quiz": {
+            "question": "What civic function did the Monument of the Eponymous Heroes serve?",
+            "options": [
+                "Official public noticeboard for laws and military drafts",
+                "A treasury vault for the city's gold reserves",
+                "A temple for worshipping the founding kings",
+                "A marketplace for trading olive oil"
+            ],
+            "answer": 0,
+            "feedback": "Correct! It was the central point where citizens read official notices, proposed laws, and draft lists."
+        },
+        "reward": {
+            "title": "10% off city walking tour guides",
+            "provider": "Athens Democracy Tours",
+            "code": "EPONYMOUS"
+        }
+    },
+    {
+        "id": 122,
+        "name": "Street of Tombs (Kerameikos)",
+        "lat": 37.9782,
+        "lng": 23.7163,
+        "image": "images/street_of_tombs.jpg",
+        "description": "The main ceremonial avenue in the ancient cemetery, lined with grand marble monuments and relief sculptures erected by wealthy Athenian families.",
+        "audioText": "Walk along the Street of Tombs in the Kerameikos. This was the main avenue of the city's ancient cemetery, reserved for the graves of Athens' wealthiest and most prominent citizens. As you walk, observe the large marble monuments, or steles, decorated with reliefs showing the deceased in everyday scenes—often saying farewell to their families or holding cherished items. These monuments were not only memorials but also status symbols, demonstrating the wealth, lineage, and civic contributions of the families who erected them.",
+        "quiz": {
+            "question": "What type of monumental stone slabs were used to mark graves on this street?",
+            "options": [
+                "Steles (relief-carved stone slabs)",
+                "Obelisks",
+                "Pyramids",
+                "Sarcophagi vaults"
+            ],
+            "answer": 0,
+            "feedback": "Correct! 'Steles' are upright stone slabs carved with reliefs and inscriptions to mark graves."
+        },
+        "reward": {
+            "title": "15% off Kerameikos guide booklets",
+            "provider": "Kerameikos Bookshop",
+            "code": "STREETTOMBS"
+        }
+    },
+    {
+        "id": 123,
+        "name": "Tzistarakis Mosque",
+        "lat": 37.9760,
+        "lng": 23.7259,
+        "image": "images/tzistarakis_mosque.jpg",
+        "description": "An 18th-century Ottoman mosque in Monastiraki Square. According to legend, the builder used a column from the Temple of Olympian Zeus for its plaster, bringing a curse of famine.",
+        "audioText": "Look at the Tzistarakis Mosque, which dominates Monastiraki Square. Built in 1759 by the Ottoman governor of Athens, Mustapha Agha Tzistarakis, the mosque represents the city's Ottoman heritage. A local legend states that the governor destroyed an ancient column—either from the Temple of Olympian Zeus or the Library of Hadrian—to burn it for lime to make the mosque's plaster. The destruction of ancient monuments was considered sacrilege, and when a plague broke out shortly after, the citizens blamed the governor's actions, leading to his removal.",
+        "quiz": {
+            "question": "Which ancient monument's column was supposedly destroyed to make lime for this mosque?",
+            "options": [
+                "The Temple of Olympian Zeus (or Hadrian's Library)",
+                "The Parthenon temple",
+                "The Erechtheion porch",
+                "Hadrian's Arch"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The governor was accused of destroying a column from the Temple of Olympian Zeus (or Hadrian's Library) to make lime, causing local outrage."
+        },
+        "reward": {
+            "title": "10% off traditional Greek sweets",
+            "provider": "Monastiraki Traditional Bakery",
+            "code": "TZISTARAKIS"
+        }
+    },
+    {
+        "id": 124,
+        "name": "Adrianou Street (Plaka)",
+        "lat": 37.9743,
+        "lng": 23.7288,
+        "image": "images/adrianou_street.jpg",
+        "description": "The oldest street in Athens still in continuous use, maintaining the exact same layout and alignment since antiquity.",
+        "audioText": "Stroll down Adrianou Street, the commercial spine of the Plaka district. This street is historically significant as the oldest continuously used street in Athens, keeping its ancient layout and direction for over 2,500 years. In antiquity, it linked the residential quarters of Athens with the Agora and the Academy. Today, walking along Adrianou, you follow in the footsteps of ancient merchants, philosophers, and citizens who have traversed this pathway through the centuries.",
+        "quiz": {
+            "question": "What makes Adrianou Street unique among Athenian roadways?",
+            "options": [
+                "It is the oldest street in continuous use",
+                "It was built entirely of white marble",
+                "It is the widest avenue in the historic center",
+                "It was designed as an ancient racetrack"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Adrianou Street has maintained its exact alignment and function since the classical era."
+        },
+        "reward": {
+            "title": "10% off local handmade items",
+            "provider": "Plaka Souvenir Station",
+            "code": "ADRIANOU"
+        }
+    },
+    {
+        "id": 125,
+        "name": "Syntagma Metro Station Exhibition",
+        "lat": 37.9754,
+        "lng": 23.7358,
+        "image": "images/syntagma_metro.jpg",
+        "description": "A museum-like exhibition inside the metro station displaying a geological cross-section of Athens and artifacts found during subway construction.",
+        "audioText": "Enter Syntagma Metro Station and observe the large archaeological exhibition on display. During the construction of the Athens Metro system in the 1990s, workers excavated thousands of historic artifacts. Inside the station, a massive glass wall displays a cross-section of the city's soil layers, showing ancient tombs, water pipes, and walls from different periods, ranging from the classical era to the Byzantine age. It represents a literal timeline of Athenian history preserved under the modern city.",
+        "quiz": {
+            "question": "What is showcased behind the large glass panel inside the Syntagma Metro station?",
+            "options": [
+                "A geological cross-section showing archaeological layers and ancient graves",
+                "A collection of modern paintings depicting the Olympics",
+                "The engine of the first Greek steam train",
+                "A map of the ancient sewer networks"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The station displays a preserved stratigraphic wall showing the layers of soil and ruins accumulated over millennia."
+        },
+        "reward": {
+            "title": "Free public transit map booklet",
+            "provider": "Syntagma Info Kiosk",
+            "code": "METROARCHAE"
+        }
+    },
+    {
+        "id": 126,
+        "name": "Pikionis Landscaping (Philopappos)",
+        "lat": 37.9698,
+        "lng": 23.7210,
+        "image": "images/pikionis_path.jpg",
+        "description": "The beautifully paved stone pathways and rest areas winding up the hills, designed in the 1950s by renowned architect Dimitris Pikionis using recycled masonry.",
+        "audioText": "Walk along the stone pathways winding up Philopappos Hill and the slopes of the Acropolis. Designed in the 1950s by the prominent Greek architect Dimitris Pikionis, this landscaping project is a masterpiece of organic architecture. Pikionis paved the paths using stone blocks, marble fragments, and ceramic tiles salvaged from demolished neoclassical houses of Athens, weaving them into designs that harmonize with the natural landscape. The paths are designed to encourage slow, thoughtful walks, offering viewpoints of the ancient ruins.",
+        "quiz": {
+            "question": "What material did architect Dimitris Pikionis use to pave the pathways on Philopappos Hill?",
+            "options": [
+                "Recycled stone, marble, and tile fragments from demolished houses",
+                "Modern smooth asphalt and concrete blocks",
+                "Imported red granite from Egypt",
+                "Laminated wooden planks"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Pikionis created a collage of recycled stones and marbles from demolished buildings to link history with modern landscaping."
+        },
+        "reward": {
+            "title": "Free architecture postcard",
+            "provider": "Philopappos Rest Pavilion",
+            "code": "PIKIONIS"
+        }
+    },
+    {
+        "id": 127,
+        "name": "Lycabettus Open Air Theatre",
+        "lat": 37.9825,
+        "lng": 23.7445,
+        "image": "images/lycabettus_theater.jpg",
+        "description": "A modern amphitheater constructed in 1965 in a former quarry at the summit, designed by Takis Zenetos and famous for hosting legendary concerts.",
+        "audioText": "Look at the Lycabettus Open Air Theatre, situated in a former quarry near the summit of Lycabettus Hill. Built in 1965 at the initiative of actress Anna Synodinou and designed by the modernist architect Takis Zenetos, the theater features a lightweight steel structure that resembles a shell nestled in the rocks. It became one of Athens' premier cultural venues, hosting historic concerts by Greek and international musicians, and offers a panoramic backdrop of the city below.",
+        "quiz": {
+            "question": "In what type of site was the Lycabettus Open Air Theatre constructed?",
+            "options": [
+                "An inactive stone quarry",
+                "An ancient pine grove",
+                "A natural volcanic crater",
+                "An old military ammunition dump"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The theater was built inside a hollow quarry at the top of the hill, creating a dramatic acoustic setting."
+        },
+        "reward": {
+            "title": "10% off concert merchandise",
+            "provider": "Lycabettus Summit Shop",
+            "code": "ZENETOS65"
+        }
+    },
+    {
+        "id": 128,
+        "name": "Sanctuary of Zeus Polieus (Acropolis)",
+        "lat": 37.9721,
+        "lng": 23.7278,
+        "image": "images/zeus_polieus.jpg",
+        "description": "The open-air sanctuary on the Acropolis where the ancient ritual of Bouphonia (the murder of the ox) took place.",
+        "audioText": "Observe the cut foundations of the Sanctuary of Zeus Polieus, located at the eastern end of the Acropolis. This was an open-air sanctuary dedicated to Zeus as the protector of the city. The site is famous for the ritual of Bouphonia, which took place during the Diipolia festival. In this ceremony, an ox ate grain from the altar of Zeus and was sacrificed. The priest who struck the ox immediately dropped his axe and fled. In a subsequent symbolic trial, the axe itself was found guilty of murder and thrown into the sea, illustrating the sacredness of the animal's life.",
+        "quiz": {
+            "question": "Which object was put on trial and found guilty of murder during the Bouphonia ritual?",
+            "options": [
+                "The sacrificial axe used to strike the ox",
+                "The priest who ran away",
+                "The altar where the grain was placed",
+                "The crown of the temple priest"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The axe was blamed, tried, and thrown into the sea to absolve the citizens of guilt for the animal's death."
+        },
+        "reward": {
+            "title": "15% off Acropolis history books",
+            "provider": "Acropolis Slope Bookshop",
+            "code": "BOUPHONIA"
+        }
+    },
+    {
+        "id": 129,
+        "name": "Tomb of Melina Mercouri",
+        "lat": 37.9631,
+        "lng": 23.7385,
+        "image": "images/melina_mercouri_tomb.jpg",
+        "description": "The final resting place of the legendary Greek actress, activist, and Minister of Culture who pioneered the campaign for the return of the Parthenon Marbles.",
+        "audioText": "Stand before the tomb of Melina Mercouri, located in the First Cemetery of Athens. Mercouri was a world-famous actress who starred in films like 'Never on Sunday' before entering politics. As the first female Minister of Culture of Greece, she initiated the international campaign demanding the return of the Parthenon Marbles from the British Museum to Athens. Her tomb is visited by admirers from around the world who honor her contribution to Greece's cultural heritage.",
+        "quiz": {
+            "question": "Which cultural campaign did Melina Mercouri initiate as Minister of Culture?",
+            "options": [
+                "The return of the Parthenon Marbles from the British Museum",
+                "The funding of the first modern Olympic stadium",
+                "The excavation of the Ancient Agora",
+                "The restoration of the Byzantine monasteries"
+            ],
+            "answer": 0,
+            "feedback": "Correct! She began the campaign for the return of the Parthenon sculptures, declaring that they are the essence of Greek identity."
+        },
+        "reward": {
+            "title": "10% off entry tickets",
+            "provider": "Athens Open Air Theater",
+            "code": "MELINAMARBLE"
+        }
+    },
+    {
+        "id": 130,
+        "name": "Plato's Academy Sacred House",
+        "lat": 37.9926,
+        "lng": 23.7088,
+        "image": "images/academy_sacred_house.jpg",
+        "description": "The ruins of an Early Helladic house discovered inside the park of Plato's Academy, showing habitation long before the school was founded.",
+        "audioText": "Explore the ruins of the Sacred House inside the archaeological park of Plato's Academy. Excavated in the mid-20th century, this building dates to the Early Helladic period, around 2500 BC. The structure, featuring mud-brick walls and a hearth, shows that this district of Athens was inhabited long before Plato established his Academy here in 387 BC. The site was preserved by later generations as a sacred space, showing the long history of the area.",
+        "quiz": {
+            "question": "Around which millennium BC was the Sacred House at Plato's Academy built?",
+            "options": [
+                "3rd Millennium BC (around 2500 BC)",
+                "1st Millennium BC (around 500 BC)",
+                "1st Millennium AD (around 800 AD)",
+                "2nd Millennium BC (around 1500 BC)"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The house dates to the Bronze Age in the 3rd Millennium BC, showing early habitation on the academy grounds."
+        },
+        "reward": {
+            "title": "Free philosophy booklet",
+            "provider": "Academy Park Information Center",
+            "code": "SACREDHOUSE"
+        }
+    },
+    {
+        "id": 131,
+        "name": "Temple of Apollo Patroos",
+        "lat": 37.9753,
+        "lng": 23.7222,
+        "image": "images/apollo_patroos.jpg",
+        "description": "A small Ionic temple in the Agora dedicated to Apollo as the father and protector of the Ionian Greeks.",
+        "audioText": "Observe the foundations of the Temple of Apollo Patroos, built in the 4th century BC. This temple was dedicated to Apollo in his role as 'Patroos,' meaning father or ancestor. According to myth, Apollo was the father of Ion, the founder of the Ionian race, to which the Athenians belonged. The temple housed a famous cult statue of Apollo playing the lyre, sculpted by Euphranor. It was an important site where citizens registered their citizenship, linking civic identity with religious worship.",
+        "quiz": {
+            "question": "What did the title 'Patroos' signify when applied to Apollo at this temple?",
+            "options": [
+                "Apollo as the father and ancestor of the Ionian Greeks",
+                "Apollo as the god of poetry and music",
+                "Apollo as the healer of plagues",
+                "Apollo as the archer of light"
+            ],
+            "answer": 0,
+            "feedback": "Correct! 'Patroos' refers to Apollo as the mythical ancestor and father of the Athenians."
+        },
+        "reward": {
+            "title": "10% off traditional Greek mezze",
+            "provider": "Apollo Tavern Plaka",
+            "code": "PATROOS"
+        }
+    },
+    {
+        "id": 132,
+        "name": "Roman Agora East Propylon",
+        "lat": 37.9745,
+        "lng": 23.7268,
+        "image": "images/roman_agora_east.jpg",
+        "description": "The monumental eastern gateway of the Roman Agora, constructed of grey Hymettian marble in the Ionic style.",
+        "audioText": "Stand before the ruins of the East Propylon, the eastern monumental entrance to the Roman Agora. Built in the late 1st century BC under Roman patronage, this gateway was constructed using grey marble from the nearby Mount Hymettus. The propylon featured four Ionic columns and led directly to the commercial street that connected the market with the rest of the Roman city. It stands in contrast to the western Gate of Athena Archegetis, showing the Roman combination of Greek architectural styles.",
+        "quiz": {
+            "question": "What type of marble was used to construct the columns of the East Propylon?",
+            "options": [
+                "Grey Hymettian marble",
+                "White Pentelic marble",
+                "Green Karystian marble",
+                "Red Peloponnesian marble"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The gateway was built using grey marble from Mount Hymettus, known for its distinctive color."
+        },
+        "reward": {
+            "title": "15% off regional travel guides",
+            "provider": "East Agora Tourism Desk",
+            "code": "HYMETTIAN"
+        }
+    },
+    {
+        "id": 133,
+        "name": "Shrine of the Nymphs (Hill of Nymphs)",
+        "lat": 37.9730,
+        "lng": 23.7180,
+        "image": "images/shrine_nymphs.jpg",
+        "description": "The ancient sanctuary cut into the bedrock near the observatory, where inscriptions dedicated to the Nymphs and Demeter were found.",
+        "audioText": "Explore the rock-cut niches of the Shrine of the Nymphs, located near the National Observatory. This ancient outdoor sanctuary was cut into the limestone bedrock of the hill during the classical period. Archaeologists found inscriptions carved on the rock dedicated to the Nymphs, the nature deities of water and forests, and to Demeter, the goddess of agriculture. The rock-cut niches were used by worshippers to place small statues, clay offerings, and oil lamps, showing the simple nature of rural worship.",
+        "quiz": {
+            "question": "What were the rock-cut niches at this sanctuary used for by ancient worshippers?",
+            "options": [
+                "To place small statues, clay offerings, and oil lamps",
+                "To store public grain and olive oil",
+                "To lock up prisoners of war",
+                "To channel clean drinking water"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Worshippers placed their offerings (votive statues, lamps, coins) inside these niches to honor the Nymphs."
+        },
+        "reward": {
+            "title": "Free organic tea with pastry",
+            "provider": "Nymphs Hill Cafe",
+            "code": "NYMPHSHRINE"
+        }
+    },
+    {
+        "id": 134,
+        "name": "First Cemetery (Tomb of Andreas Syngros)",
+        "lat": 37.9622,
+        "lng": 23.7392,
+        "image": "images/syngros_tomb.jpg",
+        "description": "The monumental neoclassical mausoleum built for the wealthy banker and philanthropist Andreas Syngros, designed by Ernst Ziller.",
+        "audioText": "Observe the mausoleum of Andreas Syngros, located in the First Cemetery of Athens. Built in the late 19th century and designed by the prominent German architect Ernst Ziller, this marble tomb is a masterpiece of neoclassical funerary architecture. Syngros was a wealthy banker and philanthropist who funded major civic projects in Athens, including the completion of the Corinth Canal and the building of hospitals. The tomb, designed like a classical temple, reflects the wealth and architectural tastes of late 19th-century Athens.",
+        "quiz": {
+            "question": "Which architect designed this neoclassical mausoleum for Andreas Syngros?",
+            "options": [
+                "Ernst Ziller",
+                "Theophil Hansen",
+                "Lysandros Kaftanzoglou",
+                "Dimitris Pikionis"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Ernst Ziller, who designed many of Athens' iconic neoclassical mansions, designed this temple-like tomb."
+        },
+        "reward": {
+            "title": "Free historic map brochure",
+            "provider": "First Cemetery Visitors Desk",
+            "code": "ZILLERTOMB"
+        }
+    },
+    {
+        "id": 135,
+        "name": "Panagia Grigoroussa Church",
+        "lat": 37.9751,
+        "lng": 23.7275,
+        "image": "images/panagia_grigoroussa.jpg",
+        "description": "A historic Byzantine church in Plaka, dedicated to the Virgin Mary 'who answers prayers quickly.'",
+        "audioText": "Step inside the Church of Panagia Grigoroussa in Plaka. Rebuilt in the 19th century on the foundations of an 11th-century Byzantine church, its name translates to 'the quick-answering' Virgin Mary, reflecting the local belief that she grants prayers rapidly. The church is a quiet sanctuary in the middle of Plaka, preserving historic icons and murals that show the evolution of Orthodox art from the Byzantine era to the modern period.",
+        "quiz": {
+            "question": "What does the nickname 'Grigoroussa' translate to in English?",
+            "options": [
+                "She who answers quickly / Swift helper",
+                "The Queen of Angels",
+                "The protector of sailors",
+                "The silent guardian"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The name refers to the quickness with which the Virgin Mary is believed to answer prayers."
+        },
+        "reward": {
+            "title": "Free traditional Greek coffee",
+            "provider": "Grigoroussa Bakery Plaza",
+            "code": "GRIGOROUSSA"
+        }
+    },
+    {
+        "id": 136,
+        "name": "University of Athens Great Hall",
+        "lat": 37.9812,
+        "lng": 23.7340,
+        "image": "images/university_hall.jpg",
+        "description": "The grand ceremonial hall inside the neoclassical University, decorated with gold-leaf ornaments and murals depicting history.",
+        "audioText": "Look at the Great Hall, or Aula, of the University of Athens. Situated inside the central building designed by Christian Hansen, the hall is the ceremonial heart of the university. The interior features gold-leaf details, ionic columns, and a large painted frieze depicting the rebirth of sciences and arts in Greece. The hall has hosted key political events, academic ceremonies, and speeches by visiting international leaders, representing the intellectual heritage of modern Greece.",
+        "quiz": {
+            "question": "What is the name of the main ceremonial assembly hall of the University?",
+            "options": [
+                "The Aula",
+                "The Agora Assembly",
+                "The Metroum",
+                "The Propylaea"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The 'Aula' is the official name of the university's grand ceremonial hall."
+        },
+        "reward": {
+            "title": "10% off university publications",
+            "provider": "University Bookstore",
+            "code": "UNIVERSITYAULA"
+        }
+    },
+    {
+        "id": 137,
+        "name": "Mycenaean Golden Gallery",
+        "lat": 37.9890,
+        "lng": 23.7325,
+        "image": "images/mycenaean_gallery.jpg",
+        "description": "Room 4 of the National Archaeological Museum, containing the treasure trove of gold masks, cups, and daggers excavated by Schliemann.",
+        "audioText": "Welcome to the Mycenaean Golden Gallery, Room 4 of the National Archaeological Museum. This gallery houses the treasures of the Mycenaean civilization, which dominated Greece in the late Bronze Age. The centerpiece of the collection is the golden 'Mask of Agamemnon,' discovered in a shaft grave at Mycenae by Heinrich Schliemann in 1876. The gallery also displays gold cups, bronze daggers decorated with hunting scenes, and jewelry, showing the artistry of this ancient civilization.",
+        "quiz": {
+            "question": "Which famous golden mask is the centerpiece of the Mycenaean Gallery?",
+            "options": [
+                "The Mask of Agamemnon",
+                "The Mask of Priam",
+                "The Mask of Theseus",
+                "The Mask of Minos"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The 'Mask of Agamemnon' is the most famous Bronze Age gold artifact displayed in the gallery."
+        },
+        "reward": {
+            "title": "10% off museum guidebooks",
+            "provider": "Museum Bookstore",
+            "code": "AGAMEMNON"
+        }
+    },
+    {
+        "id": 138,
+        "name": "Cape Sounion Geological Cliffs",
+        "lat": 37.6498,
+        "lng": 24.0242,
+        "image": "images/sounion_cliffs.jpg",
+        "description": "The sheer cliffs of Cape Sounion dropping into the Aegean, where King Aegeus leapt to his death, giving the Aegean Sea its name.",
+        "audioText": "Stand at the edge of the cliffs of Cape Sounion. These sheer limestone cliffs drop 60 meters into the water below. According to Greek myth, King Aegeus of Athens stood on these cliffs watching for the return of his son Theseus, who had sailed to Crete to fight the Minotaur. Theseus forgot to change his ship's black sails to white to signal his victory. Believing his son was dead, Aegeus threw himself from these cliffs into the water, which was named the Aegean Sea in his memory.",
+        "quiz": {
+            "question": "According to Greek mythology, who leapt from these cliffs to give the Aegean Sea its name?",
+            "options": [
+                "King Aegeus",
+                "Theseus",
+                "King Minos",
+                "Icarus"
+            ],
+            "answer": 0,
+            "feedback": "Correct! King Aegeus threw himself from the Sounion cliffs, naming the sea after himself."
+        },
+        "reward": {
+            "title": "15% off sunset dinner orders",
+            "provider": "Sounion Sunset Tavern",
+            "code": "AEGEANSEA"
+        }
+    },
+    {
+        "id": 139,
+        "name": "Tomb of Sophia Schliemann",
+        "lat": 37.9624,
+        "lng": 23.7387,
+        "image": "images/sophia_schliemann_tomb.jpg",
+        "description": "Located beside her husband Heinrich's tomb, it honors the Greek philanthropist and archaeologist who worked alongside him.",
+        "audioText": "Visit the tomb of Sophia Schliemann, located beside her husband Heinrich's monument. Born Sophia Engastromenos in Athens, she married Heinrich Schliemann and worked alongside him during his excavations at Troy and Mycenae, famously wearing the ancient golden jewels discovered there. Following his death, she continued to fund archaeological research and supported charitable organizations in Athens, contributing to the development of public health and education.",
+        "quiz": {
+            "question": "Who is buried alongside Heinrich Schliemann in his neoclassical tomb?",
+            "options": [
+                "His wife, Sophia Schliemann",
+                "His architect Ernst Ziller",
+                "His patron Georgios Sinas",
+                "His assistant Wilhelm Dorpfeld"
+            ],
+            "answer": 0,
+            "feedback": "Correct! His wife Sophia Schliemann is buried with him, honoring her partnership in his archaeological career."
+        },
+        "reward": {
+            "title": "Free historic guide brochure",
+            "provider": "First Cemetery Info Office",
+            "code": "SOPHIATOMB"
+        }
+    },
+    {
+        "id": 140,
+        "name": "Church of Agia Marina (Nymphs Hill)",
+        "lat": 37.9737,
+        "lng": 23.7185,
+        "image": "images/agia_marina.jpg",
+        "description": "A picturesque church on the Hill of the Nymphs, built partially over an ancient cave-sanctuary containing rock-cut inscriptions and 13th-century murals.",
+        "audioText": "Stand before the Church of Agia Marina on the Hill of the Nymphs. The present-day church, built in 1922, features a distinctive dome and stone architecture. However, its most unique feature lies inside: it is constructed directly over a much older cave-sanctuary cut into the rock. This ancient cave was used in Byzantine times as a chapel, and archaeologists have discovered 13th-century religious murals painted on the damp rock walls. Long before that, the cave and surrounding hill were associated with ancient rural fertility deities, showing how sacred spots were reused through the centuries.",
+        "quiz": {
+            "question": "What type of ancient site was the Church of Agia Marina built over?",
+            "options": [
+                "An ancient cave-sanctuary",
+                "A Roman military barracks",
+                "A subterranean storage vault",
+                "An ancient silver refinery"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The church incorporates a medieval Byzantine cave chapel cut directly into the hill's rock."
+        },
+        "reward": {
+            "title": "10% off local guidebook guides",
+            "provider": "Nymphs Hill Gift Shop",
+            "code": "AGIAMARINA"
+        }
+    },
+    {
+        "id": 141,
+        "name": "Bath House of the Winds",
+        "lat": 37.9745,
+        "lng": 23.7276,
+        "image": "images/bath_house_winds.jpg",
+        "description": "The only surviving public bathhouse of Athens from the Ottoman period, operating from the 15th century until 1965, located near the Roman Agora.",
+        "audioText": "Explore the Bath House of the Winds, situated in Plaka. Built in the late 15th century shortly after the Ottoman conquest, this is the only public bathhouse, or hammam, that survives in Athens. It followed the typical three-stage Roman bath layout: a changing room, a warm room, and a hot room heated by underfloor furnaces. The hammam was a vital social center for both men and women during the Ottoman and early modern periods, operating continuously for nearly 500 years until it was closed in 1965 and converted into a museum.",
+        "quiz": {
+            "question": "During which historical period was this surviving public bathhouse established?",
+            "options": [
+                "Ottoman Period",
+                "Classical Greek Era",
+                "Roman Imperial Age",
+                "Byzantine Period"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The bathhouse was established under Ottoman rule in the 15th century and served the public for five centuries."
+        },
+        "reward": {
+            "title": "15% off spa entrance tickets",
+            "provider": "Athens Turkish Baths",
+            "code": "HAMMAMWINDS"
+        }
+    },
+    {
+        "id": 142,
+        "name": "The Pompeion (Kerameikos)",
+        "lat": 37.9784,
+        "lng": 23.7165,
+        "image": "images/pompeion.jpg",
+        "description": "A monumental building located between the Sacred and Dipylon Gates, used to store ceremonial equipment and organize the Panathenaic Procession.",
+        "audioText": "Stand near the foundations of the Pompeion, located in the Kerameikos archaeological site. Built in the late 5th century BC, this large building with a central columned courtyard served a crucial civic function. It was the place where ceremonial items were stored and where the citizens gathered to organize the Panathenaic Procession. During this grand annual festival, the citizens carried a new sacred robe, or peplos, across the city to the statue of Athena on the Acropolis. The Pompeion was destroyed during the Roman sack of Athens in 86 BC, but its ruins show the scale of ancient festivals.",
+        "quiz": {
+            "question": "Which grand annual festival procession was organized inside the Pompeion?",
+            "options": [
+                "Panathenaic Procession",
+                "Eleusinian Mysteries Procession",
+                "Dionysian Drama Procession",
+                "Olympic Torch Procession"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Pompeion was the staging ground where the Panathenaic procession was prepared before marching along the Panathenaic Way."
+        },
+        "reward": {
+            "title": "10% off museum guidebooks",
+            "provider": "Kerameikos Entrance Shop",
+            "code": "POMPEION"
+        }
+    },
+    {
+        "id": 143,
+        "name": "Royal Stoa (Stoa Basileios)",
+        "lat": 37.9756,
+        "lng": 23.7219,
+        "image": "images/royal_stoa.jpg",
+        "description": "The headquarters of the King Archon in the Agora, where the laws of Solon were displayed and where Socrates was formally indicted.",
+        "audioText": "Look at the foundations of the Royal Stoa, or Stoa Basileios, located at the northwest corner of the Agora. Built in the late 6th century BC, this small but highly important building was the headquarters of the King Archon, the magistrate who oversaw religious matters and laws. The stone columns displayed the laws of Solon, which laid the foundation of Athenian democracy. Most famously, this is the building where Socrates came in 399 BC to receive his formal indictment for impiety and corrupting the youth, leading to the trial that ended his life.",
+        "quiz": {
+            "question": "Which famous philosopher was indicted for impiety at the Royal Stoa?",
+            "options": [
+                "Socrates",
+                "Plato",
+                "Aristotle",
+                "Epicurus"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Socrates was indicted here in 399 BC before going to trial."
+        },
+        "reward": {
+            "title": "15% off philosophy books",
+            "provider": "Agora Book Center",
+            "code": "ROYALSTOA"
+        }
+    },
+    {
+        "id": 144,
+        "name": "Agios Nikolaos Ragavas Church",
+        "lat": 37.9729,
+        "lng": 23.7291,
+        "image": "images/agios_nikolaos_ragavas.jpg",
+        "description": "An 11th-century Byzantine church in Plaka. Its bell was the first to ring in 1944 to celebrate the liberation of Athens from Axis occupation.",
+        "audioText": "Visit the Church of Agios Nikolaos Ragavas, situated in Plaka near the Acropolis. Constructed in the 11th century during the Byzantine Golden Age of Athens, the church features elegant stone construction, decorative bricks, and a small Byzantine dome. The church has a special place in modern Greek history: its bell was the first to ring on October 12, 1944, to announce the withdrawal of German forces and the liberation of Athens. It stands as a monument to both Byzantine heritage and modern freedom.",
+        "quiz": {
+            "question": "Which historic event in 1944 did the bell of this church first celebrate?",
+            "options": [
+                "The liberation of Athens from Axis occupation",
+                "The end of the Greek Civil War",
+                "The return of the royal family",
+                "The signing of the Constitution"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The church bell was the first to ring out across Athens to announce the city's liberation in 1944."
+        },
+        "reward": {
+            "title": "Free traditional pastry with coffee",
+            "provider": "Ragavas Square Bakery",
+            "code": "RAGAVAS1944"
+        }
+    },
+    {
+        "id": 145,
+        "name": "The Fallen Column (Olympian Zeus)",
+        "lat": 37.9691,
+        "lng": 23.7334,
+        "image": "images/fallen_column.jpg",
+        "description": "The massive column that was blown down by a violent storm in 1852, lying in neat stone segments across the grass ever since.",
+        "audioText": "Observe the segments of the fallen column lying on the grass within the sanctuary of Olympian Zeus. On October 26, 1852, a violent storm and gale swept across Athens, blowing down one of the temple's 17-meter-tall Corinthian columns. The column did not break into random pieces; instead, its massive marble drums collapsed in a neat, chronological row, showing the structural construction of these colossal ancient pillars. It has been left exactly where it fell, offering visitors a unique look at the inner drums of ancient architecture.",
+        "quiz": {
+            "question": "In which year was this massive column blown down by a violent storm?",
+            "options": [
+                "1852",
+                "1912",
+                "1759",
+                "1687"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The column fell during a severe storm in 1852, leaving its drums arranged on the ground."
+        },
+        "reward": {
+            "title": "10% off traditional souvlaki",
+            "provider": "O Thanasis Restaurant",
+            "code": "FALLENCOLUMN"
+        }
+    },
+    {
+        "id": 146,
+        "name": "Tomb of Yannoulis Halepas",
+        "lat": 37.9626,
+        "lng": 23.7383,
+        "image": "images/halepas_tomb.jpg",
+        "description": "The final resting place in the First Cemetery of the legendary Greek sculptor who carved the famous 'Sleeping Maiden' monument.",
+        "audioText": "Visit the tomb of Yannoulis Halepas, located in the First Cemetery of Athens. Halepas was one of the most prominent sculptors of modern Greece, known for his expressive marble works. His most famous sculpture is the 'Sleeping Maiden' (Koimomeni), a realistic marble figure of a young girl lying in sleep, which serves as a grave monument in this cemetery. Halepas struggled with mental illness for decades before returning to sculpture later in life, and his tomb is a place of pilgrimage for lovers of romantic art.",
+        "quiz": {
+            "question": "Which famous sculpture did Yannoulis Halepas carve?",
+            "options": [
+                "The Sleeping Maiden (Koimomeni)",
+                "The Winged Victory",
+                "The bronze statue of Poseidon",
+                "The bust of Pericles"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The 'Sleeping Maiden' is a landmark of modern Greek sculpture, located inside this very cemetery."
+        },
+        "reward": {
+            "title": "Free historic guide brochure",
+            "provider": "First Cemetery Information Desk",
+            "code": "HALEPASART"
+        }
+    },
+    {
+        "id": 147,
+        "name": "Tomb of George Averoff",
+        "lat": 37.9620,
+        "lng": 23.7395,
+        "image": "images/averoff_tomb.jpg",
+        "description": "A grand marble mausoleum honoring the wealthy benefactor who funded the reconstruction of the Panathenaic Stadium for the 1896 Olympics.",
+        "audioText": "Stand before the mausoleum of George Averoff, one of Greece's greatest national benefactors. Averoff was a wealthy businessman who funded the reconstruction of the Panathenaic Stadium in solid white marble, allowing Athens to host the first modern Olympic Games in 1896. His tomb is a monumental structure decorated with reliefs and statues, reflecting his status and contribution to the modern Greek state. His legacy is also preserved in the naval cruiser Georgios Averoff, which served as the flagship of the Greek navy.",
+        "quiz": {
+            "question": "Which stadium's reconstruction did George Averoff famously fund?",
+            "options": [
+                "Panathenaic Stadium (Kallimarmaro)",
+                "The Olympic Stadium of Athens (OAKA)",
+                "The Stadium of Olympia",
+                "The Roman Stadium of Herodes Atticus"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Averoff funded the marble reconstruction of the Panathenaic Stadium for the 1896 Olympics."
+        },
+        "reward": {
+            "title": "15% off athletic merchandise",
+            "provider": "Kallimarmaro Souvenir Shop",
+            "code": "AVEROOFF1896"
+        }
+    },
+    {
+        "id": 148,
+        "name": "Tomb of Andreas Papandreou",
+        "lat": 37.9628,
+        "lng": 23.7390,
+        "image": "images/papandreou_tomb.jpg",
+        "description": "The tomb of the highly influential three-time Prime Minister of Greece and founder of the Panhellenic Socialist Movement (PASOK).",
+        "audioText": "Observe the tomb of Andreas Papandreou, one of the most dominant political figures of late 20th-century Greece. Papandreou, a former economics professor in the United States, returned to Greece and founded the Panhellenic Socialist Movement, or PASOK, in 1974. He served as Prime Minister for three terms, introducing major social and legal reforms, including the legalization of civil marriage and the recognition of the national resistance during WWII. His funeral in 1996 was attended by hundreds of thousands of citizens, showing his influence on modern Greek society.",
+        "quiz": {
+            "question": "What political party did Andreas Papandreou famously found in 1974?",
+            "options": [
+                "PASOK (Panhellenic Socialist Movement)",
+                "New Democracy",
+                "Syriza",
+                "Liberal Party"
+            ],
+            "answer": 0,
+            "feedback": "Correct! He founded PASOK, which became one of the main political parties in modern Greece."
+        },
+        "reward": {
+            "title": "Free historic guide map booklet",
+            "provider": "Mets District Tourism Desk",
+            "code": "PAPANDREOU"
+        }
+    },
+    {
+        "id": 149,
+        "name": "Phaleron Captives Grave Site",
+        "lat": 37.9408,
+        "lng": 23.6885,
+        "image": "images/phaleron_captives.jpg",
+        "description": "The archaeological discovery of 80 chained skeletons in the Phaleron Delta, believed to be the executed followers of Cylon's failed coup (632 BC).",
+        "audioText": "Learn about the Phaleron Captives, one of the most dramatic archaeological discoveries in Greece. Excavated in 2016 in the Phaleron Delta, this mass grave contains the skeletons of 80 young men who were executed and buried in chains. Historians believe these captives were the followers of Cylon, a noble who attempted a coup to become tyrant of Athens in 632 BC. The coup failed, and despite seeking sanctuary, his followers were executed. The discovery offers a look at political violence and law enforcement in early archaic Athens.",
+        "quiz": {
+            "question": "Which ancient conspiracy coup are these chained skeletons linked to?",
+            "options": [
+                "Cylonian Conspiracy (failed coup of 632 BC)",
+                "The conspiracy of the Tyrannicides",
+                "The Sicilian Expedition revolt",
+                "The Peisistratid coup"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The skeletons are widely believed to be the executed supporters of Cylon's failed coup."
+        },
+        "reward": {
+            "title": "15% off regional history guides",
+            "provider": "Phaleron Cultural Center",
+            "code": "CYLONCOUP"
+        }
+    },
+    {
+        "id": 150,
+        "name": "Plato's Academy Gymnasium Ruins",
+        "lat": 37.9920,
+        "lng": 23.7080,
+        "image": "images/academy_gymnasium.jpg",
+        "description": "The excavated remains of the ancient exercise ground where Plato's students practiced sports and discussed philosophy.",
+        "audioText": "Explore the ruins of the Gymnasium inside the park of Plato's Academy. In ancient Greece, a gymnasium was not just a sports facility, but a place for intellectual discussion, combining physical and mental training. When Plato founded his school in 387 BC, he used this quiet park and its gymnasium buildings to teach his students, walking along the pathways while discussing ethics, mathematics, and politics. The concrete foundations you see today show the layout of this ancient school.",
+        "quiz": {
+            "question": "What type of facility were these ruins originally used as before Plato's school?",
+            "options": [
+                "A Gymnasium (exercise ground)",
+                "A naval shipyard",
+                "A theatrical stage",
+                "A silver refinery vault"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The site was originally a public gymnasium before Plato established his Academy nearby."
+        },
+        "reward": {
+            "title": "Free philosophy booklet",
+            "provider": "Academy Park Info Kiosk",
+            "code": "ACADEMYGYM"
+        }
+    },
+    {
+        "id": 151,
+        "name": "Tomb of the Lacedaemonians",
+        "lat": 37.9788,
+        "lng": 23.7160,
+        "image": "images/lacedaemonian_tomb.jpg",
+        "description": "The mass grave in the Kerameikos containing the remains of Spartan officers who fell fighting the Athenians in 403 BC.",
+        "audioText": "Observe the mass grave known as the Tomb of the Lacedaemonians. Located in the Kerameikos cemetery, this tomb contains the remains of Spartan (Lacedaemonian) soldiers and officers who died in 403 BC during the fighting that followed the Peloponnesian War. The Spartan dead, including two generals, were buried here with public honors by the Athenians, showing the respect given to enemy soldiers in ancient Greece. An inscription carved on the stone still marks the location.",
+        "quiz": {
+            "question": "Which city-state did the soldiers buried in this mass grave belong to?",
+            "options": [
+                "Sparta (Lacedaemonia)",
+                "Thebes",
+                "Corinth",
+                "Argos"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The tomb houses the remains of Spartan soldiers who fell in battle near Athens."
+        },
+        "reward": {
+            "title": "10% off museum entry tickets",
+            "provider": "Kerameikos Archaeological Desk",
+            "code": "SPARTANTOMB"
+        }
+    },
+    {
+        "id": 152,
+        "name": "Sanctuary of Pandion (Acropolis)",
+        "lat": 37.9710,
+        "lng": 23.7275,
+        "image": "images/sanctuary_pandion.jpg",
+        "description": "The ancient open-air sanctuary on the southeast corner of the Acropolis summit, dedicated to Pandion, a legendary king of Athens.",
+        "audioText": "Stand near the ruins of the Sanctuary of Pandion, located on the southeast corner of the Acropolis summit. This open-air sanctuary, dating to the 5th century BC, was dedicated to Pandion, one of the mythical founding kings of Athens who was later worshipped as a hero. The sanctuary consisted of a wall enclosing a courtyard where sacrifices took place. It was the location where the members of the Pandionis tribe gathered during festivals, showing how kinship and state organization were linked with Acropolis worship.",
+        "quiz": {
+            "question": "To which legendary Athenian king was this sanctuary dedicated?",
+            "options": [
+                "King Pandion",
+                "King Theseus",
+                "King Cecrops",
+                "King Erechtheus"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The sanctuary was dedicated to Pandion, one of the legendary kings of ancient Athens."
+        },
+        "reward": {
+            "title": "15% off Acropolis souvenirs",
+            "provider": "Acropolis Museum Store",
+            "code": "PANDION"
+        }
+    },
+    {
+        "id": 153,
+        "name": "Stoa of Attalos Colonnade",
+        "lat": 37.9751,
+        "lng": 23.7239,
+        "image": "images/stoa_attalos_columns.jpg",
+        "description": "The impressive double-story covered walkway in the Agora, built by King Attalos II of Pergamum as a gift to the city of Athens.",
+        "audioText": "Walk under the shaded columns of the Stoa of Attalos. Built around 150 BC by King Attalos II of Pergamum as a tribute to his education in Athens, this double-story colonnade is 115 meters long and featured 21 shops on each floor. Reconstructed in the 1950s by the American School of Classical Studies, the building showcases the combination of Doric columns on the ground floor and Ionic columns on the upper level, serving as a center of commerce and daily life.",
+        "quiz": {
+            "question": "Which King of Pergamum presented this stoa as a gift to Athens?",
+            "options": [
+                "King Attalos II",
+                "King Eumenes II",
+                "King Lysimachus",
+                "King Mithridates"
+            ],
+            "answer": 0,
+            "feedback": "Correct! King Attalos II built this stoa to express his gratitude to the city where he studied philosophy."
+        },
+        "reward": {
+            "title": "10% off history guides",
+            "provider": "Agora Museum Shop",
+            "code": "ATTALOS2"
+        }
+    },
+    {
+        "id": 154,
+        "name": "Hadrian's Arch (Theseus Inscription)",
+        "lat": 37.9702,
+        "lng": 23.7323,
+        "image": "images/hadrian_arch_inscription.jpg",
+        "description": "The classical inscription on the west facade of the arch which reads: 'This is Athens, the ancient city of Theseus.'",
+        "audioText": "Look closely at the west facade of Hadrian's Arch, facing the Acropolis. Carved into the marble above the archway is a Greek inscription: 'This is Athens, the ancient city of Theseus.' Conversely, the east side facing the Temple of Zeus reads: 'This is the city of Hadrian, and not of Theseus.' These inscriptions served as a symbolic boundary marker, separating the old classical city founded by the mythical hero Theseus from the new Roman extension built by Emperor Hadrian.",
+        "quiz": {
+            "question": "Which mythical founder of Athens is named on the west inscription of the arch?",
+            "options": [
+                "Theseus",
+                "Cecrops",
+                "Erechtheus",
+                "Aegeus"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The inscription names Theseus as the founder of the ancient city of Athens."
+        },
+        "reward": {
+            "title": "Free Greek coffee with pastry",
+            "provider": "Hadrian Arch View Cafe",
+            "code": "THESEUSARCH"
+        }
+    },
+    {
+        "id": 155,
+        "name": "Odeon of Agrippa Tritons Porch",
+        "lat": 37.9750,
+        "lng": 23.7228,
+        "image": "images/odeon_tritons.jpg",
+        "description": "The monumental entrance gate of the concert hall featuring detailed giant statues representing the sea god Triton.",
+        "audioText": "Observe the giant statues standing on the tall stone pedestals in the Agora. These figures, half-human and half-fish, represent the sea god Triton. They originally served as columns supporting the grand entrance porch of the Odeon of Agrippa, constructed around 15 BC. Following a fire in the 2nd century AD, the building was reconstructed, and these colossal figures were added to the facade, standing as a landmark of Roman-era architectural styling in the Agora.",
+        "quiz": {
+            "question": "Which sea-god is represented by the fish-tailed giant statues at the porch?",
+            "options": [
+                "Triton",
+                "Poseidon",
+                "Nereus",
+                "Proteus"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The statues represent Tritons, the mythical sea-messengers and sons of Poseidon."
+        },
+        "reward": {
+            "title": "15% off tickets to concert events",
+            "provider": "Athens Classical Concerts",
+            "code": "TRITONPORCH"
+        }
+    },
+    {
+        "id": 156,
+        "name": "Gazi Retort House (Technopolis)",
+        "lat": 37.9782,
+        "lng": 23.7142,
+        "image": "images/gazi_retort_house.jpg",
+        "description": "The central industrial hall of the Gazi factory where coal was heated to high temperatures to extract the gas.",
+        "audioText": "Step inside the Retort House, the heart of the Gazi gas factory. Built in the late 19th century, this building housed the large brick furnaces and iron retorts where coal was heated to high temperatures without oxygen. This process extracted the coal gas, which was then purified and stored in the large gasometers nearby. The Retort House retains its original metal frameworks, coal hoppers, and furnaces, showing the industrial technology that powered Athens' development.",
+        "quiz": {
+            "question": "What raw material was heated inside the Retort House to extract gas?",
+            "options": [
+                "Coal",
+                "Wood",
+                "Crude oil",
+                "Natural gas"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Coal was heated inside the retorts to extract the gas used for street lighting."
+        },
+        "reward": {
+            "title": "10% off exhibition entrance",
+            "provider": "Gazi Industrial Museum",
+            "code": "RETORTHOUSE"
+        }
+    },
+    {
+        "id": 157,
+        "name": "National Museum Cycladic Figurines",
+        "lat": 37.9892,
+        "lng": 23.7328,
+        "image": "images/cycladic_figurines.jpg",
+        "description": "The gallery inside the National Museum displaying Bronze Age white marble idols, famous for their flat, minimalist, modern look.",
+        "audioText": "Explore the Cycladic Art gallery inside the National Archaeological Museum. The collection features prehistoric white marble figurines carved in the Cyclades islands during the 3rd Millennium BC. These figures, mostly representing stylized female forms with folded arms and tilted heads, are famous for their flat, minimalist design. Originally painted with bright colors, their clean marble look has inspired modern artists like Picasso and Modigliani.",
+        "quiz": {
+            "question": "What material was used to carve these prehistoric Cycladic figurines?",
+            "options": [
+                "White Marble",
+                "Bronze",
+                "Clay",
+                "Terracotta"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The figurines were carved from local white marble found on the Cyclades islands."
+        },
+        "reward": {
+            "title": "10% off souvenir figurines",
+            "provider": "Museum Souvenir Shop",
+            "code": "CYCLADICMARBLE"
+        }
+    },
+    {
+        "id": 158,
+        "name": "Cape Sounion Sanctuary Precinct",
+        "lat": 37.6502,
+        "lng": 24.0248,
+        "image": "images/sounion_sanctuary.jpg",
+        "description": "The fortified boundary wall and temple ruins protecting the sacred clifftop sanctuary of Poseidon from naval raids.",
+        "audioText": "Walk along the fortified walls surrounding the Temple of Poseidon at Sounion. Built during the Peloponnesian War in 413 BC, these stone walls protected the temple and the garrison from naval attacks. The precinct included ship sheds at the base of the cliffs and military quarters, showing how the sacred sanctuary served a vital role in defending the sea routes that carried grain and silver to Athens.",
+        "quiz": {
+            "question": "Which Olympian god of the sea was this clifftop precinct dedicated to?",
+            "options": [
+                "Poseidon",
+                "Apollo",
+                "Zeus",
+                "Hermes"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The temple and fortified precinct at Sounion were dedicated to Poseidon, the god of the sea."
+        },
+        "reward": {
+            "title": "15% off seafood orders",
+            "provider": "Sounion Port Restaurant",
+            "code": "SOUNIONSEA"
+        }
+    },
+    {
+        "id": 159,
+        "name": "Temple of Ares Relocation Block",
+        "lat": 37.9753,
+        "lng": 23.7227,
+        "image": "images/temple_ares_blocks.jpg",
+        "description": "The exposed foundations showing Roman numbers carved on the stone blocks, used to guide reassembly after transport from Pallene.",
+        "audioText": "Observe the foundation blocks of the Temple of Ares in the Agora. If you look closely, you can see Roman letters and numbers carved into the stone. These marks were made by Roman builders when they dismantled the temple in the rural town of Pallene. Each block was numbered to show its position in the temple architecture, acting as a guide to reassemble the building correctly when it was transported and rebuilt in the Agora.",
+        "quiz": {
+            "question": "What did the Roman builders carve on the temple stones to guide their reassembly?",
+            "options": [
+                "Roman letters and numbers",
+                "Names of building sponsors",
+                "Prayers to the god Ares",
+                "Images of historic battles"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The stones were marked with letters and numbers to guide the reassembly of the relocated temple."
+        },
+        "reward": {
+            "title": "10% off history publications",
+            "provider": "Agora Bookstore Desk",
+            "code": "ARESMARKS"
+        }
     }
 ];
 
