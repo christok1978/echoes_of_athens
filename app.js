@@ -2412,6 +2412,506 @@ const POIs = [
             "provider": "Aegina Port Bakery",
             "code": "MARKELLOS"
         }
+    },
+    {
+        "id": 100,
+        "name": "National Historical Museum",
+        "lat": 37.9775,
+        "lng": 23.7328,
+        "image": "images/national_historical_museum.jpg",
+        "description": "Housed in the Old Parliament House, this museum covers Greek history from the fall of Constantinople in 1453 through the 20th century.",
+        "audioText": "Step inside the Old Parliament House, home to the National Historical Museum. Established in 1882, the museum documents the modern history of the Greek nation. The collection includes weapons, personal items of revolutionary heroes, traditional costumes, and documents from the Byzantine period, the Ottoman era, and the Greek War of Independence of 1821. Standing in the grand assembly hall where historic debates took place, you are surrounded by the legacy of the people who shaped modern Greek democracy.",
+        "quiz": {
+            "question": "Which King of Greece was assassinated in Thessaloniki, and has his ceremonial sword displayed in this museum?",
+            "options": [
+                "King George I",
+                "King Otto",
+                "King Constantine I",
+                "King Paul"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The ceremonial sword of King George I, who was assassinated in 1913, is one of the museum's prominent relics."
+        },
+        "reward": {
+            "title": "10% off museum guidebooks",
+            "provider": "National Historical Museum Shop",
+            "code": "PARLIAMENT10"
+        }
+    },
+    {
+        "id": 101,
+        "name": "National Observatory of Athens",
+        "lat": 37.9733,
+        "lng": 23.7183,
+        "image": "images/national_observatory.jpg",
+        "description": "Situated on the Hill of the Nymphs, this is the oldest research institution in Greece and the Balkans, founded in 1842.",
+        "audioText": "Welcome to the National Observatory of Athens, located on the Hill of the Nymphs. Founded in 1842 by the Greek benefactor Georgios Sinas and designed by Danish architect Theophil Hansen, this neoclassical building served as the birthplace of modern scientific research in Greece. The Hill of the Nymphs has astronomical links dating back to antiquity, as it was the location where Meton made some of the earliest recorded observations of the summer solstice in 432 BC. Today, the observatory remains a center of research, housing historical telescopes, astronomical maps, and clocks.",
+        "quiz": {
+            "question": "Which hill is the National Observatory of Athens situated upon?",
+            "options": [
+                "Hill of the Nymphs",
+                "Lycabettus Hill",
+                "Areopagus Hill",
+                "Philopappos Hill"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The observatory is situated on the historic Hill of the Nymphs, which has hosted astronomical study since ancient times."
+        },
+        "reward": {
+            "title": "15% off evening telescope tours",
+            "provider": "Observatory Box Office",
+            "code": "OBSERVATORY15"
+        }
+    },
+    {
+        "id": 102,
+        "name": "Technopolis (Gazi)",
+        "lat": 37.9783,
+        "lng": 23.7144,
+        "image": "images/technopolis.jpg",
+        "description": "A major industrial museum and cultural hub housed in a former 19th-century gasworks factory in the Gazi district.",
+        "audioText": "Explore Technopolis in the Gazi district. This major cultural venue occupies a former coal gas factory built in 1857 under Ottoman rule, which supplied Athens with gas light for over 120 years. Reopened as a museum in 1999, the factory retains its original industrial equipment, high chimneys, gasifiers, and iron reservoirs. The site stands as a preservation of industrial architecture, showing how old factories can be converted into modern cultural hubs.",
+        "quiz": {
+            "question": "What type of utility did the Gazi factory supply to Athens before its conversion?",
+            "options": [
+                "Coal gas for street lighting and heating",
+                "Silver minting for national currency",
+                "Steam locomotives for railways",
+                "Textile weaving for military uniforms"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Gazi factory produced coal gas to illuminate the streets of Athens starting in the 19th century."
+        },
+        "reward": {
+            "title": "10% off exhibition tickets",
+            "provider": "Technopolis Entrance Desk",
+            "code": "GAZITECH10"
+        }
+    },
+    {
+        "id": 103,
+        "name": "Roman Baths at Zappeion",
+        "lat": 37.9705,
+        "lng": 23.7366,
+        "image": "images/roman_baths_zappeion.jpg",
+        "description": "A well-preserved Roman bath complex excavated during the construction of the Athens Metro, located outside the National Gardens.",
+        "audioText": "Look at the excavated ruins of the Roman Baths by the Zappeion. Discovered in the late 19th century and fully excavated during the building of the Athens Metro in 1996, this complex dates to the 3rd century AD. The bathhouse featured a typical Roman layout with a cold room (frigidarium), warm room (tepidarium), and hot room (caldarium), heated by underfloor brick pillars known as hypocausts. The baths were situated outside the ancient city walls, serving locals and travelers visiting the nearby Olympeion.",
+        "quiz": {
+            "question": "During which modern infrastructure project were these Roman baths excavated?",
+            "options": [
+                "The construction of the Athens Metro",
+                "The expansion of the National Gardens",
+                "The building of the Zappeion Exhibition Hall",
+                "The laying of the city tramway line"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The baths were fully uncovered and preserved during excavations for the Athens Metro."
+        },
+        "reward": {
+            "title": "15% off spa wellness packages",
+            "provider": "Athens Hammam Baths",
+            "code": "ROMANSPAPACK"
+        }
+    },
+    {
+        "id": 104,
+        "name": "Stoa Poikile (Painted Stoa)",
+        "lat": 37.9758,
+        "lng": 23.7224,
+        "image": "images/stoa_poikile.jpg",
+        "description": "Located in the Ancient Agora, this painted colonnade is the birthplace of Stoic philosophy founded by Zeno of Citium.",
+        "audioText": "Welcome to the site of the Stoa Poikile, or Painted Stoa, built in the 5th century BC. This public colonnade was famous for the paintings that decorated its walls, showing historical and mythological battles like the Battle of Marathon. Around 300 BC, the philosopher Zeno of Citium gathered his students here to debate ideas. Because they met at the Stoa, his followers became known as the Stoics. The Stoa Poikile is thus the birthplace of Stoic philosophy, which emphasizes virtue, reason, and self-control.",
+        "quiz": {
+            "question": "Which major philosophical school held its classes at the Painted Stoa?",
+            "options": [
+                "Stoicism",
+                "Epicureanism",
+                "Skepticism",
+                "Cynicism"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Stoicism takes its name from this very Stoa where Zeno of Citium taught."
+        },
+        "reward": {
+            "title": "20% off philosophy book titles",
+            "provider": "Agora Book Center",
+            "code": "STOICISM300"
+        }
+    },
+    {
+        "id": 105,
+        "name": "Odeon of Agrippa",
+        "lat": 37.9751,
+        "lng": 23.7229,
+        "image": "images/odeon_agrippa.jpg",
+        "description": "A large ancient concert hall built in the Ancient Agora by Marcus Vipsanius Agrippa, famous for its surviving colossal giant statues.",
+        "audioText": "Stand before the colossal statues of the Odeon of Agrippa. Constructed around 15 BC by the Roman general Marcus Vipsanius Agrippa, this massive two-story concert hall could seat 1,000 spectators and featured a timber roof. The roof collapsed in the 2nd century AD, and the building was rebuilt with a smaller capacity. During the reconstruction, colossal pillars carved as giants with fish tails (Tritons) and human figures were added to the entrance facade, three of which still stand today.",
+        "quiz": {
+            "question": "What mythical figures are sculpted on the colossal pillars remaining at the entrance of this Odeon?",
+            "options": [
+                "Giants and Tritons (sea gods)",
+                "Caryatids and Centaurs",
+                "Sphinxes and Griffins",
+                "Gorgons and Harpies"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The massive figures represent giants and sea-god Tritons, which supported the porch roof."
+        },
+        "reward": {
+            "title": "10% off concert hall entries",
+            "provider": "Athens Symphony Hall",
+            "code": "AGRIPPAPLAY"
+        }
+    },
+    {
+        "id": 106,
+        "name": "Agia Irene Church (Aeolou)",
+        "lat": 37.9769,
+        "lng": 23.7289,
+        "image": "images/agia_irene.jpg",
+        "description": "The historic church on Aeolou street that served as the metropolitan cathedral of Athens before the construction of the Metropolis.",
+        "audioText": "Step into Agia Irene Church, located on Aeolou street. Constructed between 1847 and 1850 by the architect Lysandros Kaftanzoglou on the site of a ruined Byzantine church, Agia Irene is a masterpiece of neoclassical church design. In the early years of the modern Greek kingdom, it served as the metropolitan cathedral of Athens. It hosted key political and religious ceremonies, including the coronation of King Otto and the funeral of the national hero Theodoros Kolokotronis.",
+        "quiz": {
+            "question": "Which historic event was hosted in Agia Irene church in 1843?",
+            "options": [
+                "The coronation of King Otto",
+                "The declaration of the Greek Revolution",
+                "The signing of the Treaty of Lausanne",
+                "The launch of the first modern Olympic Games"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Agia Irene served as the royal church and hosted the coronation celebrations of King Otto."
+        },
+        "reward": {
+            "title": "Free Greek coffee upgrade",
+            "provider": "Aeolou Street Bakery",
+            "code": "AGIAIRENE"
+        }
+    },
+    {
+        "id": 107,
+        "name": "Hadrian’s Aqueduct (Dexameni)",
+        "lat": 37.9791,
+        "lng": 23.7420,
+        "image": "images/hadrian_aqueduct.jpg",
+        "description": "The remaining stone archway at the base of Lycabettus Hill that marked the reservoir entry point of Hadrian's 2nd-century Roman aqueduct.",
+        "audioText": "Observe the Roman stone archway at Dexameni Square. Built by the Roman Emperor Hadrian and completed under Antoninus Pius in 140 AD, this was the entrance to the Hadrianic Aqueduct's reservoir. The aqueduct carried fresh spring water from Mount Parnitha to the city, running entirely underground for over 20 kilometers. It was so well designed that it supplied Athens with clean drinking water for centuries, showing the engineering skill of Roman city planners.",
+        "quiz": {
+            "question": "Which mountain did Hadrian's Aqueduct collect water from?",
+            "options": [
+                "Mount Parnitha",
+                "Mount Olympus",
+                "Mount Hymettus",
+                "Mount Penteli"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The aqueduct collected fresh water from springs on Mount Parnitha, routing it underground to Athens."
+        },
+        "reward": {
+            "title": "Free organic juice bottle",
+            "provider": "Dexameni Bistro Cafe",
+            "code": "HADRIANWATER"
+        }
+    },
+    {
+        "id": 108,
+        "name": "Sacred Gate (Kerameikos)",
+        "lat": 37.9786,
+        "lng": 23.7167,
+        "image": "images/sacred_gate.jpg",
+        "description": "The gateway from which the Sacred Way ran, leading initiates from Athens directly to the Eleusinian Mysteries.",
+        "audioText": "Explore the ruins of the Sacred Gate in the Kerameikos. Built in the 5th century BC as part of the Themistoclean city wall, this gate served as the starting point of the Sacred Way, or Iera Odos. Each year, a procession of initiates walked along this road from Athens to the Sanctuary of Demeter in Eleusis to participate in the Eleusinian Mysteries, which offered initiates hope for a happy afterlife. The gate is situated next to the Eridanos riverbed, which still flows through the site today.",
+        "quiz": {
+            "question": "Which ancient road started at the Sacred Gate in Kerameikos?",
+            "options": [
+                "The Sacred Way (Iera Odos)",
+                "The Panathenaic Way",
+                "The Roman Appian Way",
+                "The Marathon Highway"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Sacred Way connected the city of Athens directly with the mysteries sanctuary in Eleusis."
+        },
+        "reward": {
+            "title": "10% off entry tickets",
+            "provider": "Kerameikos Archaeological Museum",
+            "code": "SACREDGATE"
+        }
+    },
+    {
+        "id": 109,
+        "name": "Temple of Ares (Agora)",
+        "lat": 37.9754,
+        "lng": 23.7226,
+        "image": "images/temple_ares.jpg",
+        "description": "A classical temple dedicated to the god of war, which was completely dismantled and moved from rural Pallene to the Agora during Augustus's reign.",
+        "audioText": "Look at the foundations of the Temple of Ares in the Agora. This temple was originally constructed around 440 BC in the rural deme of Pallene. During the reign of the Roman Emperor Augustus, the entire temple was dismantled, and each marble block was numbered. The blocks were moved to the Agora and reconstructed here, where it was rededicated to Ares, the god of war, and Augustus's grandson. This reflects the Roman practice of relocating classic monuments to urban centers.",
+        "quiz": {
+            "question": "How did the Temple of Ares arrive in the Ancient Agora?",
+            "options": [
+                "It was dismantled and relocated from rural Pallene",
+                "It was built from scratch using marble imported from Rome",
+                "It was a gift from the citizens of Sparta",
+                "It was originally a temple to Athena converted to Ares"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The temple was moved block-by-block from Pallene to the Agora under Roman direction."
+        },
+        "reward": {
+            "title": "15% off historic tour guides",
+            "provider": "Agora Center Tours",
+            "code": "TEMPLEOFWAR"
+        }
+    },
+    {
+        "id": 110,
+        "name": "Church of Agioi Asomatoi",
+        "lat": 37.9778,
+        "lng": 23.7214,
+        "image": "images/agioi_asomatoi.jpg",
+        "description": "A 11th-century Byzantine church in Thiseio, known for its traditional cross-in-square brick design and Islamic-inspired decorative friezes.",
+        "audioText": "Stand before the Church of Agioi Asomatoi in Thiseio. Constructed in the late 11th century, this small church dedicated to the bodiless angels is a beautiful example of Byzantine architecture. The walls feature typical Athenian brickwork, and the external decorations include clay tiles inspired by Arabic calligraphy, showing cultural connections with the wider Mediterranean. The church was restored in 1960 to remove later additions, returning it to its original medieval form.",
+        "quiz": {
+            "question": "Which cultural style inspired the decorative clay tiles on the church's exterior?",
+            "options": [
+                "Arabic calligraphy (Kufic-inspired decoration)",
+                "Roman mosaic portraits",
+                "Ancient Egyptian hieroglyphs",
+                "Gothic pointed arch carvings"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Byzantine builders incorporated Islamic-inspired Kufic designs into the clay brick decorations."
+        },
+        "reward": {
+            "title": "Free historic guide brochure",
+            "provider": "Thiseio District Tourism",
+            "code": "ASOMATOI"
+        }
+    },
+    {
+        "id": 111,
+        "name": "Tomb of the Unknown Soldier (Relief)",
+        "lat": 37.9754,
+        "lng": 23.7363,
+        "image": "images/unknown_soldier_relief.jpg",
+        "description": "The central military monument at Syntagma, depicting a dying ancient Greek hoplite, dedicated to all soldiers who died for Greece.",
+        "audioText": "Observe the carved relief behind the Tomb of the Unknown Soldier in Syntagma Square. Unveiled in 1932, the relief sculpture depicts a dying ancient Greek hoplite wearing a helmet and carrying a shield, connecting modern struggles for independence with classical history. The monument is inscribed with phrases from Pericles's Funeral Oration, reminding visitors of the sacrifice made by those who defended their freedom.",
+        "quiz": {
+            "question": "What type of warrior is depicted in the central relief carving of this monument?",
+            "options": [
+                "An ancient Greek hoplite",
+                "A Byzantine knight",
+                "A modern revolutionary soldier",
+                "A Roman gladiator"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The relief depicts a dying classical hoplite, linking ancient and modern military sacrifices."
+        },
+        "reward": {
+            "title": "10% off traditional Greek mezze",
+            "provider": "Syntagma Square Bistro",
+            "code": "HOPLITETOMB"
+        }
+    },
+    {
+        "id": 112,
+        "name": "Tomb of Heinrich Schliemann",
+        "lat": 37.9625,
+        "lng": 23.7388,
+        "image": "images/schliemann_tomb.jpg",
+        "description": "The monumental tomb in the First Cemetery designed like a Trojan temple, honoring the pioneer archaeologist who excavated Troy.",
+        "audioText": "Visit the tomb of Heinrich Schliemann in the First Cemetery of Athens. Designed by the German architect Ernst Ziller in 1892, this marble mausoleum resembles a classical temple. The marble frieze running around the tomb depicts scenes from Homer's Iliad and Schliemann's excavations at Troy and Mycenae. Schliemann, a pioneer of field archaeology, spent his life searching for historical evidence behind ancient myths, discovering the ruins of Troy and the Mycenaean golden treasures.",
+        "quiz": {
+            "question": "Which ancient archaeological site did Heinrich Schliemann famously discover and excavate?",
+            "options": [
+                "Troy (and Mycenae)",
+                "Pompeii",
+                "Alexandria",
+                "Knossos Palace"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Schliemann excavated Troy and Mycenae, confirming the historical reality behind Homer's poems."
+        },
+        "reward": {
+            "title": "15% off archaeology booklets",
+            "provider": "Bookshop of First Cemetery",
+            "code": "SCHLIEMANN"
+        }
+    },
+    {
+        "id": 113,
+        "name": "Tomb of Theodoros Kolokotronis",
+        "lat": 37.9627,
+        "lng": 23.7380,
+        "image": "images/kolokotronis_tomb.jpg",
+        "description": "The final resting place of the supreme commander of the Greek forces in the Greek War of Independence of 1821.",
+        "audioText": "Stand before the tomb of Theodoros Kolokotronis, one of the most prominent leaders of the Greek War of Independence against the Ottoman Empire. Known as the 'Old Man of the Morea,' Kolokotronis led Greek forces to crucial victories, such as the Battle of Dervenakia. His marble tomb is topped by a bronze bust of the general wearing his iconic helmet. He remains a national symbol of liberty and military strategy.",
+        "quiz": {
+            "question": "What nickname was Theodoros Kolokotronis known by during the War of Independence?",
+            "options": [
+                "The Old Man of the Morea (Peloponnese)",
+                "The Liberator of Athens",
+                "The General of the Sea",
+                "The Knight of Mystras"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Kolokotronis was affectionately called 'The Old Man of the Morea' due to his leadership in the Peloponnese."
+        },
+        "reward": {
+            "title": "Free historic postcard pack",
+            "provider": "Mets Cultural Association",
+            "code": "KOLOKOTRONIS"
+        }
+    },
+    {
+        "id": 114,
+        "name": "Roman Bath of the Ancient Agora",
+        "lat": 37.9748,
+        "lng": 23.7235,
+        "image": "images/roman_bath_agora.jpg",
+        "description": "A 5th-century Roman bathhouse located next to the Stoa of Attalos, showcasing underfloor heating systems.",
+        "audioText": "Observe the ruins of the Roman Bath inside the Ancient Agora. Dating to the late Roman and early Byzantine period in the 5th century AD, this bathhouse shows how public life evolved in Athens. You can see the circular brick pillars of the hypocaust, which supported the raised floor. Hot air from a furnace was circulated underneath to heat the water and the steam rooms, providing citizens with a warm social space.",
+        "quiz": {
+            "question": "What was the purpose of the circular brick pillars visible in these ruins?",
+            "options": [
+                "To support a raised floor and circulate hot air (hypocaust)",
+                "To store public grain supplies",
+                "To serve as columns holding up a grand temple roof",
+                "To act as defensive towers against barbarian raids"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The brick pillars supported the floor, creating a hypocaust space for heating the baths."
+        },
+        "reward": {
+            "title": "10% off traditional Greek herbal tea",
+            "provider": "Agora Herb Kiosk",
+            "code": "HYPOCAUST"
+        }
+    },
+    {
+        "id": 115,
+        "name": "Lysicrates Square (Street of Tripods)",
+        "lat": 37.9712,
+        "lng": 23.7301,
+        "image": "images/lysicrates_square.jpg",
+        "description": "The historic street leading from the Agora to the Theater of Dionysus, once lined with monuments displaying theatrical awards.",
+        "audioText": "Walk through Lysicrates Square in Plaka. This square lies along the ancient Street of the Tripods, which was the main road connecting the Agora with the Theatre of Dionysus. In ancient times, wealthy citizens who sponsored winning theatrical plays were awarded bronze tripods. They displayed these trophies on top of elaborate marble monuments built along this street, of which the Choragic Monument of Lysicrates is the sole survivor.",
+        "quiz": {
+            "question": "What did the ancient monuments built along the Street of the Tripods traditionally display?",
+            "options": [
+                "Bronze tripod trophies awarded for theatrical victories",
+                "Statues of winning Olympic athletes",
+                "Sacrificial altars to the twelve Olympic gods",
+                "Public laws carved in bronze tablets"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The street was lined with choragic monuments built to display theatrical trophies."
+        },
+        "reward": {
+            "title": "15% off Greek tragedy dinners",
+            "provider": "Plaka Theater Bistro",
+            "code": "TRIPODSTREET"
+        }
+    },
+    {
+        "id": 116,
+        "name": "Tower of the Winds (Clepsydra Inlet)",
+        "lat": 37.9741,
+        "lng": 23.7270,
+        "image": "images/tower_winds_clepsydra.jpg",
+        "description": "The outdoor water-pipe ruins that routed spring water directly down from the Acropolis to power the internal water clock inside the Tower.",
+        "audioText": "Look at the circular annex on the south side of the Tower of the Winds. This structure served as the water reservoir for the internal water clock, or clepsydra. Fresh water was routed down through an aqueduct from the Klepsydra spring on the Acropolis. The water flowed into the reservoir and fed the clock mechanism, which measured time by water displacement on days when the sun did not shine on the external sundials.",
+        "quiz": {
+            "question": "How did the internal clock inside the Tower of the Winds keep time on cloudy days?",
+            "options": [
+                "Using a water-powered clock (clepsydra)",
+                "Using a mechanical pendulum",
+                "Using a large sand hourglass",
+                "Using oil-burning lamps"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Tower of the Winds housed a water clock fed by spring water from the Acropolis."
+        },
+        "reward": {
+            "title": "Free coffee with dessert purchase",
+            "provider": "Agora Clock Cafe",
+            "code": "CLEPSYDRA"
+        }
+    },
+    {
+        "id": 117,
+        "name": "Areopagus Hill (Paul's Sermon Plaque)",
+        "lat": 37.9723,
+        "lng": 23.7239,
+        "image": "images/areopagus_plaque.jpg",
+        "description": "The bronze plaque mounted at the base of Mars Hill, containing the exact Greek transcript of the Apostle Paul's famous sermon in 51 AD.",
+        "audioText": "Observe the bronze plaque installed at the base of Areopagus Hill. The plaque contains the text of the Apostle Paul's Sermon on the Unknown God, as recorded in the Biblical book of Acts, chapter 17. During his visit to Athens in 51 AD, Paul debated with Stoic and Epicurean philosophers in the Agora, who invited him to speak at the high court on the Areopagus. His speech introduced Christianity to the intellectual center of the Greek world.",
+        "quiz": {
+            "question": "Which Biblical passage is transcribed on the bronze plaque at Mars Hill?",
+            "options": [
+                "Acts chapter 17 (Paul's Sermon to the Athenians)",
+                "Gospel of Matthew (The Sermon on the Mount)",
+                "Letter to the Galatians",
+                "Revelation chapter 1"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The plaque contains the Greek text of Acts 17, detailing Paul's address to the Athenians."
+        },
+        "reward": {
+            "title": "Free organic tea with muffin",
+            "provider": "Mars Hill Corner Cafe",
+            "code": "PAULSERMON"
+        }
+    },
+    {
+        "id": 118,
+        "name": "National Garden (Roman Mosaic Floor)",
+        "lat": 37.9725,
+        "lng": 23.7378,
+        "image": "images/national_garden_mosaic.jpg",
+        "description": "The exposed remains of an ancient Roman villa's mosaic floor, discovered inside the National Gardens.",
+        "audioText": "Stroll inside the National Gardens to find the ruins of a Roman villa's mosaic floor. Dating to the 4th century AD, the mosaic was discovered during the landscaping of the royal gardens in the 19th century. The floor features complex geometric patterns and circular motifs typical of late Roman domestic architecture. The discovery shows that this quiet park area was once a wealthy residential district outside the historic Athens city walls.",
+        "quiz": {
+            "question": "What type of structure did the mosaic floor in the National Garden originally belong to?",
+            "options": [
+                "A wealthy Roman residential villa",
+                "A public temple to Apollo",
+                "A military guard post",
+                "An ancient olive oil refinery"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The mosaic floor belonged to the central courtyard of a luxurious Roman villa."
+        },
+        "reward": {
+            "title": "Free espresso upgrade",
+            "provider": "National Garden Kiosk",
+            "code": "GARDENMOSAIC"
+        }
+    },
+    {
+        "id": 119,
+        "name": "Pnyx Hill Orator's Bema",
+        "lat": 37.9717,
+        "lng": 23.7196,
+        "image": "images/pnyx_bema.jpg",
+        "description": "The three-stepped stone speaker's platform from which Pericles and Demosthenes addressed the assembly of democratic Athens.",
+        "audioText": "Stand before the orator's platform, or Bema, on Pnyx Hill. Carved directly out of the living rock, this three-stepped podium served as the stage where the citizens of democratic Athens stood to address the assembly, or Ekklesia. From this stone platform, famous statesmen like Themistocles, Pericles, and Demosthenes delivered speeches that shaped the history of Greece. The platform faces the Acropolis, allowing speakers and audiences to view the temple of their patron goddess.",
+        "quiz": {
+            "question": "What is the ancient Greek term for the stone orator's platform on the Pnyx?",
+            "options": [
+                "Bema",
+                "Agora",
+                "Stoa",
+                "Propylaea"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The 'Bema' was the designated speaking platform for public addresses in democratic assemblies."
+        },
+        "reward": {
+            "title": "15% off historic tour tickets",
+            "provider": "Athens Democratic Tours",
+            "code": "PNYXBEMA"
+        }
     }
 ];
 
