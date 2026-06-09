@@ -4,16 +4,35 @@ const ASSETS_TO_CACHE = [
     'index.html',
     'style.css',
     'app.js',
-    'https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Outfit:wght@300;400;600;700&display=swap',
-    'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
-    'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'
+    'fonts/fonts.css',
+    'fonts/cinzel-500.ttf',
+    'fonts/cinzel-700.ttf',
+    'fonts/cinzel-800.ttf',
+    'fonts/outfit-300.ttf',
+    'fonts/outfit-400.ttf',
+    'fonts/outfit-600.ttf',
+    'fonts/outfit-700.ttf'
+];
+
+const EXTERNAL_ASSETS_TO_CACHE = [
+    new Request('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css', {
+        integrity: 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=',
+        mode: 'cors'
+    }),
+    new Request('https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', {
+        integrity: 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=',
+        mode: 'cors'
+    })
 ];
 
 // Install Event
 self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME).then((cache) => {
-            return cache.addAll(ASSETS_TO_CACHE);
+            return Promise.all([
+                cache.addAll(ASSETS_TO_CACHE),
+                cache.addAll(EXTERNAL_ASSETS_TO_CACHE)
+            ]);
         })
     );
 });
@@ -52,8 +71,17 @@ self.addEventListener('fetch', (event) => {
                     });
                 }
                 return networkResponse;
-            }).catch(() => {
-                // Offline fallback (can serve a specific offline.html if needed)
+            }).catch((err) => {
+                // Offline fallback response instead of returning undefined
+                const acceptHeader = event.request.headers.get('accept');
+                if (acceptHeader && acceptHeader.includes('text/html')) {
+                    return caches.match('index.html');
+                }
+                return new Response('Network connection failed or resource unavailable', {
+                    status: 503,
+                    statusText: 'Service Unavailable',
+                    headers: new Headers({ 'Content-Type': 'text/plain' })
+                });
             });
         })
     );

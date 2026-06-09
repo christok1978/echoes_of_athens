@@ -59,9 +59,9 @@ async function loadPOIs() {
   const content = await readFileAsync(appPath, 'utf8');
   const match = content.match(/const POIs = (\[([\s\S]*?)\]);/);
   if (!match) throw new Error('Unable to locate POIs array in app.js');
-  // Evaluate the array safely using Function constructor.
+  // Parse the array safely using JSON.parse().
   const arrayText = match[1];
-  const POIs = new Function('return ' + arrayText)();
+  const POIs = JSON.parse(arrayText);
   return POIs;
 }
 

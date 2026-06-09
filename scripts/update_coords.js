@@ -38,7 +38,7 @@ if (!match) {
 }
 
 const originalArrayText = match[1];
-const POIs = new Function('return ' + originalArrayText)();
+const POIs = JSON.parse(originalArrayText);
 
 // Apply corrections
 for (const poi of POIs) {
