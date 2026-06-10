@@ -3912,6 +3912,506 @@ const POIs = [
             "provider": "Agora Bookstore Desk",
             "codeHash": "29f1d71be72993818fde4ae7364b80494af8fad5692f96c376df12ba80451536"
         }
+    },
+    {
+        "id": 160,
+        "name": "Metropolitan Cathedral (Saint Philothei Shrine)",
+        "lat": 37.97529,
+        "lng": 23.73007,
+        "image": "images/cathedral_philothei.jpg",
+        "description": "The reliquary containing the holy remains of Saint Philothei, the patron saint of Athens, housed inside the Metropolitan Cathedral.",
+        "audioText": "Step inside the Metropolitan Cathedral of Athens, also known as the Metropolis. Near the altar, you will find the silver reliquary containing the remains of Saint Philothei, the patron saint of Athens. Born into a wealthy Athenian family in 1522 under Ottoman rule, she became a nun and used her vast inheritance to build schools, shelters, and hospitals. She is most celebrated for establishing a underground network to help Greek and foreign women escape slavery, which led to her arrest and martyrdom in 1589. She remains a symbol of humanitarian aid, freedom, and courage.",
+        "quiz": {
+            "question": "Which historic role did Saint Philothei play in 16th-century Athens?",
+            "options": [
+                "Established shelters and helped women escape slavery",
+                "Designed the architecture of the cathedral",
+                "Served as the first female mayor of the city",
+                "Translated classical philosophy texts"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Saint Philothei used her wealth to establish shelters, hospitals, and escape networks for slaves."
+        },
+        "reward": {
+            "title": "Free historic guide brochure",
+            "provider": "Cathedral Information Desk",
+            "codeHash": "5f9f0371af3b728977b05688304371b7d605252ed48d90233e301e0e2e54bbca"
+        }
+    },
+    {
+        "id": 161,
+        "name": "Tomb of George Seferis",
+        "lat": 37.9628,
+        "lng": 23.7381,
+        "image": "images/seferis_tomb.jpg",
+        "description": "The simple white marble tomb in the First Cemetery of George Seferis, the Nobel laureate poet and diplomat.",
+        "audioText": "Visit the grave of George Seferis in the First Cemetery of Athens. Seferis was one of the most important Greek poets of the 20th century, receiving the Nobel Prize in Literature in 1963 for his works that combined classical Greek themes with modern lyricism. He also served as a diplomat, representing Greece during critical periods. His funeral in 1971, during the military dictatorship, turned into a massive public demonstration for freedom as the crowd sang his banned poem, 'Refusal.' His tomb stands as a monument to poetry and civic resistance.",
+        "quiz": {
+            "question": "In which year did George Seferis receive the Nobel Prize in Literature?",
+            "options": [
+                "1963",
+                "1979",
+                "1950",
+                "1988"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Seferis won the Nobel Prize in Literature in 1963, representing the generation of poets who revived modern Greek letters."
+        },
+        "reward": {
+            "title": "15% off poetry anthologies",
+            "provider": "Mets Literary Bookshop",
+            "codeHash": "14b24945acbce1c2b787cd3c2b6b92919abc18df276b4d9f03d331e89dfb7839"
+        }
+    },
+    {
+        "id": 162,
+        "name": "Church of Saint John the Theologian",
+        "lat": 37.9733,
+        "lng": 23.7299,
+        "image": "images/st_john_theologian.jpg",
+        "description": "A beautiful 11th-century Byzantine church in Plaka, famous for its elegant brickwork and well-preserved medieval murals.",
+        "audioText": "Stand before the Church of Saint John the Theologian, located at the intersection of Erotokritou and Clepsydras streets in Plaka. Built in the late 11th century, this small, cross-in-square Byzantine church is one of the most charming medieval monuments in Athens. The walls feature elegant Athenian brickwork, and the interior preserves outstanding 13th-century frescoes, including depictions of the Virgin Mary and saints. The church has survived fires and urban reconstruction, keeping its medieval character intact.",
+        "quiz": {
+            "question": "Around which century was the Church of Saint John the Theologian constructed?",
+            "options": [
+                "11th Century AD",
+                "5th Century BC",
+                "15th Century AD",
+                "19th Century AD"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The church was built during the middle Byzantine era in the late 11th century."
+        },
+        "reward": {
+            "title": "Free traditional Greek coffee",
+            "provider": "Plaka Square Cafe",
+            "codeHash": "c898caa12b26d0f994093708e0ce98d15ce4acd491779aded94bf5db65d6277c"
+        }
+    },
+    {
+        "id": 163,
+        "name": "Sanctuary of Aphrodite Pandemos",
+        "lat": 37.9712,
+        "lng": 23.7253,
+        "image": "images/aphrodite_pandemos.jpg",
+        "description": "The ruins of the ancient sanctuary dedicated to Aphrodite Pandemos, the goddess of love for all the people, on the Acropolis slope.",
+        "audioText": "Explore the ruins of the Sanctuary of Aphrodite Pandemos, located on the southwest slope of the Acropolis. Established by Theseus to celebrate the unification of the Athenian demes, the title 'Pandemos' signifies Aphrodite as the goddess of love for 'all the people,' representing civic harmony and democratic unity. The sanctuary featured a temple decorated with relief carvings of doves. Today, only stone foundations and inscriptions remain, showing how religious worship was linked with political unity.",
+        "quiz": {
+            "question": "What did the title 'Pandemos' signify for the goddess Aphrodite at this sanctuary?",
+            "options": [
+                "Love for all the people (representing civic unity)",
+                "Goddess of the sea and sailors",
+                "Protector of military fortifications",
+                "Goddess of hunting and wildlife"
+            ],
+            "answer": 0,
+            "feedback": "Correct! 'Pandemos' means 'common to all the people,' symbolizing Aphrodite's role in bringing the unified citizens together in love and harmony."
+        },
+        "reward": {
+            "title": "10% off organic herb blends",
+            "provider": "Acropolis Slope Apothecary",
+            "codeHash": "42a03d2ac5d07087a9c4b7ca5a77353a3eaf444bfb106c251f407396838acff1"
+        }
+    },
+    {
+        "id": 164,
+        "name": "Heliaia (Ancient Supreme Court)",
+        "lat": 37.9744,
+        "lng": 23.7226,
+        "image": "images/heliaia.jpg",
+        "description": "The ruins of the Heliaia, the largest and most important public courthouse of ancient democratic Athens.",
+        "audioText": "Observe the large rectangular foundations of the Heliaia, situated at the southern end of the Agora. Built in the 6th century BC, this was the largest public court in Athens, where cases were decided by popular juries. Juries were exceptionally large—ranging from 201 to 1,501 citizens chosen by lot—to prevent bribery. The trials were timed using water clocks, and jurors cast their votes using bronze ballots. Standing before these foundations, you are looking at the location where some of the most historic legal battles of democratic Athens took place.",
+        "quiz": {
+            "question": "Why did the Athenian courts use exceptionally large popular juries?",
+            "options": [
+                "To prevent bribery and corruption",
+                "Because there were no judges",
+                "To allow tourists to participate",
+                "To represent the different cities of Greece"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Having hundreds of jurors chosen at the last minute by lottery made it nearly impossible to bribe or influence the court."
+        },
+        "reward": {
+            "title": "15% off history publications",
+            "provider": "Agora Court Bookshop",
+            "codeHash": "27c8afffd114f81ecdd6f3771838a11b39d507895776acbd0271518e0eac7d6d"
+        }
+    },
+    {
+        "id": 165,
+        "name": "Philopappos Hill Quarry Paths",
+        "lat": 37.9692,
+        "lng": 23.7203,
+        "image": "images/philopappos_quarry.jpg",
+        "description": "Traces of ancient marble quarries and rock-cut pathways visible along the western slopes of Philopappos Hill.",
+        "audioText": "Walk along the western slopes of Philopappos Hill and observe the rock faces. This area was once an ancient stone quarry, from which limestone and schist were extracted to build the houses and public monuments of Athens. If you look closely at the rock, you can still see the markings left by ancient chisels and wedges. The pathways here were cut directly into the rock to transport the stone blocks down to the city, illustrating the ancient industrial activity that supported Athens' construction.",
+        "quiz": {
+            "question": "What activity left the vertical markings visible on the rock faces of this hill?",
+            "options": [
+                "Ancient stone quarrying and extraction",
+                "Erosion from ancient water aqueducts",
+                "Military fortifications built during the Persian war",
+                "Carved religious inscriptions to the muses"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The markings are the traces left by ancient stonemasons extracting blocks from the quarry."
+        },
+        "reward": {
+            "title": "Free historic guide brochure",
+            "provider": "Philopappos Paths Kiosk",
+            "codeHash": "16d2d990c9611fccabd0b0d8ae519a78fc4497605a676a3745e2af9e1733d306"
+        }
+    },
+    {
+        "id": 166,
+        "name": "Church of the Pantanassa (Monastiraki)",
+        "lat": 37.97607,
+        "lng": 23.72583,
+        "image": "images/pantanassa_church.jpg",
+        "description": "The 10th-century Byzantine church in Monastiraki Square, which originally served as the chapel of a large monastery complex.",
+        "audioText": "Observe the small Byzantine church standing in Monastiraki Square, dedicated to the Dormition of the Virgin Mary. Built in the 10th century, this church was historically known as the Pantanassa. Following the Greek war of independence, the surrounding monastery buildings were dismantled, leaving only the small chapel standing. The citizens began calling it the 'Monastiraki' or 'little monastery,' which eventually gave the entire square and district its modern name.",
+        "quiz": {
+            "question": "Which historic church gave the Monastiraki district its modern name?",
+            "options": [
+                "Church of the Pantanassa (little monastery)",
+                "Church of Kapnikarea",
+                "Metropolitan Cathedral of Athens",
+                "Agia Irene Church"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Pantanassa monastery chapel was nicknamed 'Monastiraki,' which eventually named the entire neighborhood."
+        },
+        "reward": {
+            "title": "Free traditional Greek coffee",
+            "provider": "Monastiraki Square Cafe",
+            "codeHash": "51622fe98eace4f6fd169fac0c50e7784e1d31a77a35e895fa5f7864d4f95fdd"
+        }
+    },
+    {
+        "id": 167,
+        "name": "Tomb of Dexileos (Kerameikos)",
+        "lat": 37.9781,
+        "lng": 23.7161,
+        "image": "images/dexileos_tomb.jpg",
+        "description": "The famous grave monument in the Kerameikos commemorating the young Athenian cavalryman Dexileos, who fell in battle in 394 BC.",
+        "audioText": "Stand before the Monument of Dexileos in the Kerameikos. This classical grave relief, carved in 394 BC, commemorates Dexileos, a 20-year-old Athenian cavalryman who died fighting in the Corinthian War. The relief depicts Dexileos on a rearing horse, striking down a fallen Spartan enemy. The monument is historically significant because the inscription records his exact birth and death years, showing that even during intense wars, individual soldiers were honored with detailed, artistic memorials by their families.",
+        "quiz": {
+            "question": "What military role did the young Dexileos serve during the Corinthian War?",
+            "options": [
+                "A cavalryman on horseback",
+                "A hoplite infantryman",
+                "A trireme naval commander",
+                "An archer in the light forces"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Dexileos is famously depicted as a mounted cavalry officer striking down a Spartan enemy."
+        },
+        "reward": {
+            "title": "10% off museum entry tickets",
+            "provider": "Kerameikos Museum Desk",
+            "codeHash": "dd6d28989f1dbdab97e300e02769176e3a3c2b1da6814c48b1ab7b98ae406db5"
+        }
+    },
+    {
+        "id": 168,
+        "name": "National Garden Botanical Museum",
+        "lat": 37.9729,
+        "lng": 23.7370,
+        "image": "images/botanical_museum.jpg",
+        "description": "The historic neoclassical pavilion inside the National Garden displaying plant specimens and historical landscaping records.",
+        "audioText": "Stroll to the neoclassical pavilion inside the National Garden, which houses the Botanical Museum. Built in the 19th century during the creation of the Royal Gardens by Queen Amalia, the museum displays a collection of seeds, pressed leaves, and wood specimens from the park's diverse flora. It also preserves historical documents and maps showing how this lush green park was designed, illustrating the botanical history of the city's central green space.",
+        "quiz": {
+            "question": "Which queen of Greece famously established the Royal Gardens (now National Garden) in the 19th century?",
+            "options": [
+                "Queen Amalia",
+                "Queen Olga",
+                "Queen Sophia",
+                "Queen Frederica"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Queen Amalia oversaw the landscaping and planting of the Royal Gardens starting in 1838."
+        },
+        "reward": {
+            "title": "Free organic herbal tea",
+            "provider": "National Garden Coffee Stand",
+            "codeHash": "ad476296a6e0c168544c187329aa2b303bc07ea9a2441056fa434e1ba483c75d"
+        }
+    },
+    {
+        "id": 169,
+        "name": "Antikythera Mechanism Gallery",
+        "lat": 37.9891,
+        "lng": 23.7327,
+        "image": "images/antikythera_gallery.jpg",
+        "description": "The dedicated display inside the National Archaeological Museum showcasing the fragments of the world's oldest analog computer.",
+        "audioText": "Welcome to the gallery displaying the Antikythera Mechanism. Discovered by sponge divers in a shipwreck off the island of Antikythera in 1901, this complex bronze device dates to the 2nd century BC. It is widely considered the world's oldest analog computer, featuring a system of more than 30 interlocking gearwheels. The mechanism was used by ancient astronomers to calculate astronomical positions, solar eclipses, and the calendar cycle of the Olympic Games, showing the advanced level of Greek engineering.",
+        "quiz": {
+            "question": "What primary function did the Antikythera Mechanism serve?",
+            "options": [
+                "Calculating astronomical positions and solar eclipses",
+                "Measuring depth and speed of warships",
+                "Refining silver and gold bullion purity",
+                "Weighing agricultural cargo at ports"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The mechanism was an analog computer designed to track the movements of the sun, moon, and planets."
+        },
+        "reward": {
+            "title": "15% off science history booklets",
+            "provider": "Museum Book Store",
+            "codeHash": "2b8eb70aaf1b1f049fa39bd9624f659cad0109fd35e0709f3d2796cb89d3bc3f"
+        }
+    },
+    {
+        "id": 170,
+        "name": "Gazi Purifier Building (Technopolis)",
+        "lat": 37.9784,
+        "lng": 23.7140,
+        "image": "images/gazi_purifier.jpg",
+        "description": "The industrial purifier hall inside Technopolis where gas was filtered and chemically cleaned before storage.",
+        "audioText": "Step near the Gazi Purifier Building inside Technopolis. Constructed in the late 19th century, this building served a critical role in the gas manufacturing process. The coal gas produced in the furnaces contained impurities like sulfur and tar, which would clog pipes and release toxic fumes. In this building, the gas was passed through chemical filters containing lime and iron oxide to purify it before it was routed to the gasometers. The preserved equipment shows the chemical engineering methods of the industrial revolution.",
+        "quiz": {
+            "question": "What chemical filter substance was used to clean impurities from the coal gas?",
+            "options": [
+                "Lime and iron oxide",
+                "Liquid charcoal and salt",
+                "Sulfuric acid and lead",
+                "Crushed marble dust"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Lime and iron oxide filters were used to scrub sulfur and other toxic impurities from the gas."
+        },
+        "reward": {
+            "title": "10% off exhibition tickets",
+            "provider": "Technopolis Ticket Office",
+            "codeHash": "7598e97cb1cc0321ced8576c5a631eba1587606267503d91c0dd1d4c46848899"
+        }
+    },
+    {
+        "id": 171,
+        "name": "Plato's Academy Peristyle Building",
+        "lat": 37.9924,
+        "lng": 23.7084,
+        "image": "images/academy_peristyle.jpg",
+        "description": "The ruins of the square peristyle building inside Plato's Academy park, traditionally linked to the school's central teaching halls.",
+        "audioText": "Observe the rectangular foundations of the Peristyle Building inside Plato's Academy park. Dating to the Hellenistic period, this structure featured a square central courtyard surrounded by colonnades, or peristyles. Historians believe this building served as the central classroom and meeting hall for the philosophers who studied at the Academy. Standing before these stone foundations, you are looking at the birthplace of academic institutions, where scholars gathered to debate geometry, ethics, and logic.",
+        "quiz": {
+            "question": "What architectural layout characterizes the Peristyle Building?",
+            "options": [
+                "A square central courtyard surrounded by colonnades",
+                "A circular dome built over a water spring",
+                "A tall watchtower with defensive walls",
+                "A long single-aisled marketplace stoa"
+            ],
+            "answer": 0,
+            "feedback": "Correct! A peristyle refers to a continuous porch formed by a row of columns surrounding a courtyard."
+        },
+        "reward": {
+            "title": "Free philosophy booklet",
+            "provider": "Academy Park Information Desk",
+            "codeHash": "c45ec4f1320fc29498dd7d81880bbed508352e1de1f95fcba5cfed20bc192ea1"
+        }
+    },
+    {
+        "id": 172,
+        "name": "Tomb of Odysseas Elytis",
+        "lat": 37.9625,
+        "lng": 23.7383,
+        "image": "images/elytis_tomb.jpg",
+        "description": "The simple white marble grave in the First Cemetery of Odysseas Elytis, the Nobel laureate poet of the Aegean.",
+        "audioText": "Visit the grave of Odysseas Elytis in the First Cemetery of Athens. One of the most celebrated Greek poets, Elytis received the Nobel Prize in Literature in 1979. His poetry is famous for celebrating the light, landscape, and sea of the Aegean, with his masterpiece, 'Axion Esti,' becoming a national anthem of hope and resilience set to music by Mikis Theodorakis. His tomb is a simple marble grave inscribed with his verse, representing the poetic spirit of modern Greece.",
+        "quiz": {
+            "question": "In which year did Odysseas Elytis receive the Nobel Prize in Literature?",
+            "options": [
+                "1979",
+                "1963",
+                "1950",
+                "1996"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Elytis won the Nobel Prize in Literature in 1979, noted for his poetry depicting the Aegean sun."
+        },
+        "reward": {
+            "title": "15% off poetry booklets",
+            "provider": "Mets Books and Prints",
+            "codeHash": "36f275ef729ffc30b16148e32822b62d12271aaba3f9815a700c7d7fef665c9f"
+        }
+    },
+    {
+        "id": 173,
+        "name": "Stoa of the Herms (Agora)",
+        "lat": 37.9755,
+        "lng": 23.7224,
+        "image": "images/stoa_herms.jpg",
+        "description": "The archaeological site of the Stoa of the Herms, where ancient marble boundary posts were displayed in the Agora.",
+        "audioText": "Observe the ruins of the Stoa of the Herms, located at the northern edge of the Agora. Built in the 5th century BC, this colonnade was famous for housing a large number of Herms—marble pillars topped with a bust of the god Hermes, which served as boundary markers and protectors of public spaces. The Herms were highly revered by citizens. In 415 BC, on the eve of the Sicilian Expedition, the citizens awoke to find that nearly all the Herms in the city had been mutilated, causing a massive religious scandal and political panic.",
+        "quiz": {
+            "question": "Which god was represented on the marble pillars (Herms) housed in this stoa?",
+            "options": [
+                "Hermes, the messenger god and protector of boundaries",
+                "Apollo, god of light and arts",
+                "Zeus, king of the gods",
+                "Ares, god of war"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Herms were pillars topped with the head of Hermes, serving as civic boundary markers."
+        },
+        "reward": {
+            "title": "10% off city walking maps",
+            "provider": "Agora Information Center",
+            "codeHash": "a7328dc678d42f9cfbf1905bde81caac23aa784f5563419ceb6701a93d25fce5"
+        }
+    },
+    {
+        "id": 174,
+        "name": "Hadrian's Arch (Hadrian Inscription)",
+        "lat": 37.9702,
+        "lng": 23.7324,
+        "image": "images/hadrian_arch_east.jpg",
+        "description": "The classical inscription on the east facade of the arch which reads: 'This is the city of Hadrian, and not of Theseus.'",
+        "audioText": "Observe the east facade of Hadrian's Arch, facing the Temple of Olympian Zeus. Carved above the archway is the Greek inscription: 'This is the city of Hadrian, and not of Theseus.' This inscription stands in direct contrast to the west side. It represents a bold declaration by the Roman Emperor Hadrian, marking the newly constructed Roman quarters of Athens as his own imperial city, distinct from the ancient classical city founded by Theseus.",
+        "quiz": {
+            "question": "Which Roman Emperor declared his ownership of the new quarters on this side of the arch?",
+            "options": [
+                "Emperor Hadrian",
+                "Emperor Augustus",
+                "Emperor Constantine",
+                "Emperor Nero"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Hadrian declared the new extension of Athens as his city, marking the Roman expansion."
+        },
+        "reward": {
+            "title": "Free Greek coffee with breakfast",
+            "provider": "Hadrian View Cafe",
+            "codeHash": "a009a7063188661e922d9d70f6217944ccbdb54a290a6a4988c4375d8e62d63b"
+        }
+    },
+    {
+        "id": 175,
+        "name": "Odeon of Agrippa Giants Pillars",
+        "lat": 37.9750,
+        "lng": 23.7229,
+        "image": "images/agrippa_giants.jpg",
+        "description": "The monumental structural pillars carved as human figures (Giants) that stood at the entrance of the Odeon of Agrippa.",
+        "audioText": "Look closely at the tall stone pillars carved as human figures in the Agora. These represent Giants, the mythical earth-born enemies of the gods. Together with the fish-tailed Tritons, these colossal figures served as decorative pillars supporting the entrance porch of the rebuilt Odeon of Agrippa in the 2nd century AD. The carving detail, showing muscular human torsos, illustrates the Roman revival of classical sculpture styles to decorate public concert halls.",
+        "quiz": {
+            "question": "What mythical figures are represented by the human-torso pillars at the Odeon?",
+            "options": [
+                "Giants (earth-born enemies of the gods)",
+                "Caryatids (female figures)",
+                "Centaurs (half-horse figures)",
+                "Satyrs (goat-like figures)"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The pillars represent Giants, contrasting with the fish-tailed Tritons next to them."
+        },
+        "reward": {
+            "title": "15% off classical concert tickets",
+            "provider": "Athens Concert Stage",
+            "codeHash": "829d1d8d71a74cfe9ae30ae08a9f2931e756eda7cfffb827ad37131880ce27e4"
+        }
+    },
+    {
+        "id": 176,
+        "name": "Sacred Way Milestone (Kerameikos)",
+        "lat": 37.9786,
+        "lng": 23.7165,
+        "image": "images/sacred_way_milestone.jpg",
+        "description": "The remains of the ancient stone milestone that marked the start of the Sacred Way inside the Kerameikos.",
+        "audioText": "Observe the stone milestone ruins inside the Kerameikos, near the Sacred Gate. In ancient times, this marker marked the start of the Sacred Way, or Iera Odos, which ran for 22 kilometers from Athens to Eleusis. The milestone served as a zero point for travelers, letting them measure the distance traveled along the road. It stands as a monument to the road networks that connected ancient Greek cities.",
+        "quiz": {
+            "question": "What was the total distance of the Sacred Way from Athens to Eleusis?",
+            "options": [
+                "22 kilometers",
+                "42 kilometers",
+                "5 kilometers",
+                "100 kilometers"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The road ran for approximately 22 kilometers (14 miles) to the sanctuary at Eleusis."
+        },
+        "reward": {
+            "title": "10% off regional guide booklets",
+            "provider": "Kerameikos Guide Office",
+            "codeHash": "eab1f9abaf77e12595bcbc9b6ea64b47c8f4a1b88a7d36693122bd366fb6bd8f"
+        }
+    },
+    {
+        "id": 177,
+        "name": "Stoa of Attalos Upper Floor View",
+        "lat": 37.9752,
+        "lng": 23.7239,
+        "image": "images/attalos_upper_view.jpg",
+        "description": "The upper colonnade of the Stoa of Attalos, offering panoramic views of the Agora and the temple of Hephaestus.",
+        "audioText": "Climb to the upper floor of the Stoa of Attalos. The upper colonnade features Ionic columns, which are smaller and more detailed than the Doric columns on the ground floor. From this high viewpoint, you can look out across the entire Ancient Agora, seeing the foundations of the public buildings, the pathways, and the Temple of Hephaestus on the hill. In ancient times, citizens gathered here to watch festivals and civic processions below.",
+        "quiz": {
+            "question": "Which column style is used in the upper colonnade of the Stoa of Attalos?",
+            "options": [
+                "Ionic order",
+                "Doric order",
+                "Corinthian order",
+                "Tuscan order"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The upper colonnade uses the Ionic order, while the ground level uses the Doric order."
+        },
+        "reward": {
+            "title": "10% off museum guidebooks",
+            "provider": "Agora Museum Desk Shop",
+            "codeHash": "47a99504175662feecbf91ddf3da15ee660129c742877990386f6fe1c7ce3226"
+        }
+    },
+    {
+        "id": 178,
+        "name": "Temple of Olympian Zeus Propylon",
+        "lat": 37.9698,
+        "lng": 23.7330,
+        "image": "images/zeus_propylon.jpg",
+        "description": "The ruins of the monumental marble gateway built by Hadrian to serve as the main entrance to the temple precinct.",
+        "audioText": "Stand near the ruins of the Propylon of the Temple of Olympian Zeus. Built in the 2nd century AD by the Roman Emperor Hadrian, this monumental marble gateway served as the main entrance to the massive walled temple precinct. The propylon featured Corinthian columns and detailed carvings, representing the grand gateway built to welcome visitors to the largest temple in Greece.",
+        "quiz": {
+            "question": "Which Roman Emperor constructed this monumental marble gateway?",
+            "options": [
+                "Emperor Hadrian",
+                "Emperor Augustus",
+                "Emperor Nero",
+                "Emperor Trajan"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Hadrian built the propylon as part of his completion of the temple precinct."
+        },
+        "reward": {
+            "title": "15% off traditional souvlaki",
+            "provider": "O Thanasis Souvlaki",
+            "codeHash": "48e289f36ed0a7e1c83c680f3fe5830665c5c14f9d8f8edf4aeaa900290cbd2a"
+        }
+    },
+    {
+        "id": 179,
+        "name": "Tomb of Constantine Kanaris",
+        "lat": 37.9622,
+        "lng": 23.7380,
+        "image": "images/kanaris_tomb.jpg",
+        "description": "The grave in the First Cemetery of Constantine Kanaris, the Greek admiral and hero of the War of Independence who served as Prime Minister.",
+        "audioText": "Visit the tomb of Constantine Kanaris in the First Cemetery. Kanaris was an admiral and hero of the Greek War of Independence, famous for his daring fire ship attacks that destroyed the Ottoman flagship at Chios in 1822. He later entered politics, serving as Prime Minister of Greece multiple times. His tomb is decorated with symbols of naval victory, honoring his courage and contribution to the birth of the modern Greek nation.",
+        "quiz": {
+            "question": "Which naval tactic was Constantine Kanaris most famous for using during the War of Independence?",
+            "options": [
+                "Daring fire ship attacks",
+                "Submarine torpedo blockades",
+                "Ironclad steamship bombardments",
+                "Naval landing operations"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Kanaris was celebrated for using fire ships (ships filled with combustibles) to destroy enemy vessels."
+        },
+        "reward": {
+            "title": "Free historic guide brochure",
+            "provider": "First Cemetery Information Office",
+            "codeHash": "8d402cd5a11343523e61f30c67a0ecb2be2c59df715a5b22286cd8ccd0ae33aa"
+        }
     }
 ];
 
