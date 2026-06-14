@@ -56,6 +56,7 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
     // Avoid caching POST or external API queries that might fail
     if (event.request.method !== 'GET') return;
+    if (!event.request.url.startsWith('http')) return;
 
     event.respondWith(
         caches.match(event.request).then((cachedResponse) => {

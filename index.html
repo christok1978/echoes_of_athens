@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Echoes of Athens | Geolocation Audio Guide</title>
     <meta name="description" content="Explore ancient Greek ruins with immersive audio stories, gamified trivia quizzes, and local rewards.">
+    
+    <!-- Open Graph / Facebook / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Echoes of Athens">
+    <meta property="og:description" content="Explore ancient Greek ruins with immersive audio stories, gamified trivia quizzes, and local rewards.">
+    <meta property="og:image" content="https://yourdomain.com/icon-512.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Echoes of Athens">
+    <meta name="twitter:description" content="Explore ancient Greek ruins with immersive audio stories, gamified trivia quizzes, and local rewards.">
+    <meta name="twitter:image" content="https://yourdomain.com/icon-512.png">
+
     <!-- PWA Settings -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://unpkg.com https://a.tile.openstreetmap.org https://b.tile.openstreetmap.org https://c.tile.openstreetmap.org; connect-src 'self' https://unpkg.com https://*.tile.openstreetmap.org;">
     <meta name="theme-color" content="#0d2f64">
@@ -171,12 +184,5 @@
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
     <script src="app.js"></script>
-    <script>
-        // Register Service Worker
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js')
-                .then(() => console.log('Service Worker Registered'));
-        }
-    </script>
 </body>
 </html>

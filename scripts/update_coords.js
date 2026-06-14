@@ -5,25 +5,39 @@ const fileToUpdate = path.resolve(__dirname, '../app.js');
 let content = fs.readFileSync(fileToUpdate, 'utf8');
 
 const corrections = {
+  0: { lat: 37.968668, lng: 23.729581 },
   4: { lat: 37.9683, lng: 23.7411 },
   14: { lat: 37.9692, lng: 23.7208 },
   17: { lat: 37.97639, lng: 23.72862 }, // Church of Panagia Kapnikarea
   18: { lat: 37.9715, lng: 23.7363 },
   19: { lat: 37.9733, lng: 23.7436 },
+  21: { lat: 37.991748, lng: 23.780473 },
+  22: { lat: 37.940277, lng: 23.692390 },
+  23: { lat: 37.971736, lng: 23.725197 },
   26: { lat: 37.9630, lng: 23.7383 },
+  27: { lat: 37.975021, lng: 23.724193 },
   29: { lat: 37.9790, lng: 23.7417 },
+  30: { lat: 40.642799, lng: 22.937503 },
   31: { lat: 37.97515, lng: 23.73020 }, // Little Metropolis Church
   32: { lat: 37.97529, lng: 23.73007 }, // Metropolitan Cathedral of Athens
   34: { lat: 37.9778, lng: 23.7169 },   // Kerameikos Archaeological Museum
   36: { lat: 38.0420, lng: 23.5392 },   // Sanctuary of Demeter (Eleusis)
+  37: { lat: 38.285495, lng: 23.680470 },
   38: { lat: 38.1175, lng: 23.9737 },
+  39: { lat: 37.971634, lng: 23.725707 },
   40: { lat: 37.7381, lng: 24.0538 },   // Thorikos Ancient Theater
   41: { lat: 37.7088, lng: 24.0205 },   // Lavrion Silver Mines
   42: { lat: 37.9607, lng: 23.7985 },   // Kaisariani Monastery
   43: { lat: 37.9696, lng: 23.8112 },
   44: { lat: 38.1733, lng: 23.7175 },   // Mount Parnitha National Park
+  46: { lat: 37.971080, lng: 23.729938 },
   47: { lat: 37.97153, lng: 23.72574 }, // Pedestal of Agrippa
   48: { lat: 37.9752, lng: 23.7321 },
+  51: { lat: 37.981068, lng: 23.728715 },
+  52: { lat: 37.975565, lng: 23.734832 },
+  53: { lat: 37.975021, lng: 23.724193 },
+  54: { lat: 37.637344, lng: 21.630926 },
+  55: { lat: 37.975021, lng: 23.724193 },
   59: { lat: 37.9757, lng: 23.7423 },
   60: { lat: 37.9754, lng: 23.7390 },
   61: { lat: 37.9630, lng: 23.7253 },

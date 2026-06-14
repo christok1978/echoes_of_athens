@@ -3,8 +3,8 @@ const POIs = [
     {
         "id": 0,
         "name": "The Parthenon",
-        "lat": 37.9715,
-        "lng": 23.7269,
+        "lat": 37.968668,
+        "lng": 23.729581,
         "image": "images/parthenon.png",
         "description": "Built in the 5th century BC, the Parthenon is the ultimate symbol of Classical Greece. Dedicated to Athena Parthenos, the patron goddess of Athens, it showcases architectural perfection with optical illusions that make its columns look perfectly straight.",
         "audioText": "Welcome to the Parthenon, the ultimate symbol of classical architectural achievement. Standing atop the rocky citadel of the Acropolis, this temple was constructed between 447 and 432 BC at the height of the Athenian Empire under the leadership of the statesman Pericles. Dedicated to Athena Parthenos, the patron goddess of the city, the Parthenon was built to house a colossal 12-meter-tall chryselephantine (gold and ivory) cult statue sculpted by Phidias, though the statue itself was lost in antiquity. Architecturally, the temple represents the peak of the Doric order. The design by Iktinos and Kallikrates incorporates sophisticated optical corrections known as entasis. To the naked eye, columns appear perfectly straight, but they actually swell slightly in the center and lean imperceptibly inward. Additionally, the horizontal steps of the temple base curve upward toward the middle. Without these curves, the columns would appear to bow outward and the base would seem to sink. Through these mathematical refinements, the Greeks achieved a visual harmony that has influenced Western design for over two millennia.",
@@ -427,8 +427,8 @@ const POIs = [
     {
         "id": 17,
         "name": "Church of Panagia Kapnikarea",
-        "lat": 37.97639,
-        "lng": 23.72862,
+        "lat": 37.9763,
+        "lng": 23.7286,
         "image": "images/church_of_panagia_kapnikarea.jpg",
         "description": "One of the oldest Greek Orthodox churches in Athens, built around 1050 AD on the busy commercial pedestrian street of Ermou.",
         "audioText": "Stand in the middle of Ermou Street, a busy modern shopping boulevard, and admire the Byzantine Church of Panagia Kapnikarea. Built around 1050 AD over an ancient pagan temple dedicated to Athena or Demeter, the church survived multiple fires and city planning proposals that wanted to demolish it in the 19th century. Its distinctive architectural style is the cross-in-square, complete with beautiful brickwork and a small side chapel added later.",
@@ -527,8 +527,8 @@ const POIs = [
     {
         "id": 21,
         "name": "Academy of Athens",
-        "lat": 37.9808,
-        "lng": 23.7342,
+        "lat": 37.991748,
+        "lng": 23.780473,
         "image": "images/academy_athens.png",
         "description": "The national academy of Greece, built in the neoclassical style by Theophil Hansen. The entrance is flanked by large statues of Plato and Socrates.",
         "audioText": "Look up at the magnificent facade of the Academy of Athens, widely regarded as one of the finest neoclassical buildings in the world. Built in 1887, it features columns carrying statues of Athena and Apollo, while figures of Socrates and Plato guard the steps. The architecture mimics classical styling to celebrate the rebirth of Greek academic independence.",
@@ -552,8 +552,8 @@ const POIs = [
     {
         "id": 22,
         "name": "National Library of Greece",
-        "lat": 37.9814,
-        "lng": 23.7336,
+        "lat": 37.940277,
+        "lng": 23.69239,
         "image": "images/national_library_of_greece.jpg",
         "description": "The historic neoclassical building of the National Library, designed by Theophil Hansen as part of the neoclassical Trilogy of Athens.",
         "audioText": "Stand before the Vallianeio Hall, the historic home of the National Library. It is the third building in the Neoclassical Trilogy. Built entirely of Pentelic marble on a base of local limestone, its monumental double staircase is inspired by the temple of Hephaestus, housing the nation's early collection of historic manuscripts.",
@@ -577,8 +577,8 @@ const POIs = [
     {
         "id": 23,
         "name": "University of Athens (Propylaea)",
-        "lat": 37.9811,
-        "lng": 23.7339,
+        "lat": 37.971736,
+        "lng": 23.725197,
         "image": "images/university_of_athens_propylaea.jpg",
         "description": "The central building of the University of Athens, featuring a beautiful painted portico depicting the rebirth of Greek arts and sciences.",
         "audioText": "This is the central building of the historic University, the first university in the independent Eastern Mediterranean, founded in 1837. The beautiful fresco painted under the portico depicts King Otto surrounded by the muses and classical personifications of the sciences, signaling Greece's modern cultural renaissance.",
@@ -677,8 +677,8 @@ const POIs = [
     {
         "id": 27,
         "name": "Ancient Agora of Athens",
-        "lat": 37.975,
-        "lng": 23.7225,
+        "lat": 37.975021,
+        "lng": 23.724193,
         "image": "images/ancient_agora_of_athens.jpg",
         "description": "The administrative, commercial, and social heart of ancient Athens, where Socrates debated and democracy was practiced daily.",
         "audioText": "Stand in the middle of the Ancient Agora, the public square of classical Athens. Unlike the Acropolis, which was the sacred citadel, the Agora was the heart of daily life. Citizens gathered here to shop, discuss politics, vote, and trade. Philosophers like Socrates and Zeno walked these paths to debate ideas, founding schools of thought like Stoicism in the covered porches or stoas.",
@@ -752,8 +752,8 @@ const POIs = [
     {
         "id": 30,
         "name": "Church of the Holy Apostles",
-        "lat": 37.9739,
-        "lng": 23.7233,
+        "lat": 40.642799,
+        "lng": 22.937503,
         "image": "images/holy_apostles.png",
         "description": "A late 10th-century Byzantine church in the Ancient Agora, famous for its architectural style and beautifully preserved frescoes.",
         "audioText": "Explore the Church of the Holy Apostles Solaki, one of the oldest and most beautiful Byzantine churches in Athens, dating back to the late 10th century. Located in the southeast corner of the Ancient Agora, it is the only building that survived the modern archaeological excavation of the Agora. The church is built in the cross-in-square style, with a central dome supported by four columns, and its walls show decorative brickwork that mimics Kufic script. Inside, you can admire the 17th-century frescoes, which depict scenes of the apostles, preserved during restorations in the 1950s.",
@@ -777,8 +777,8 @@ const POIs = [
     {
         "id": 31,
         "name": "Little Metropolis Church",
-        "lat": 37.97515,
-        "lng": 23.7302,
+        "lat": 37.975516,
+        "lng": 23.73495,
         "image": "images/little_metropolis.png",
         "description": "A tiny, exquisite 12th-century Byzantine church built entirely of ancient Greek marble blocks and reliefs, located next to the modern Cathedral.",
         "audioText": "Look closely at the Little Metropolis, officially known as the Church of Saint Eleutherios. This tiny Byzantine church, built in the late 12th century, is an architectural marvel. Instead of new brick, it was constructed entirely of ancient Greek marble blocks, reliefs, and friezes scavenged from older pagan temples. Over 90 ancient reliefs are embedded in its external walls, creating a fascinating visual mixture of classical mythology and Christian themes. It remains one of the most unique examples of recycled architecture in the medieval Mediterranean.",
@@ -902,8 +902,8 @@ const POIs = [
     {
         "id": 36,
         "name": "Sanctuary of Demeter (Eleusis)",
-        "lat": 38.042,
-        "lng": 23.5392,
+        "lat": 38.0416,
+        "lng": 23.5383,
         "image": "images/olympian_zeus.png",
         "description": "The sanctuary site of the Eleusinian Mysteries, the most sacred secret religious rites of the ancient Greek world, dedicated to Demeter and Persephone.",
         "audioText": "Explore the ruins of the Sanctuary of Demeter in Eleusis. This was the home of the Eleusinian Mysteries, the most secret and sacred religious rituals of ancient Greece. Initiates walked the Sacred Way from Athens to Eleusis to participate in rituals that promised happiness in the afterlife. The details of the rites remain secret to this day, but the ruins of the Telesterion hall show the scale of this ancient spiritual center.",
@@ -927,8 +927,8 @@ const POIs = [
     {
         "id": 37,
         "name": "Amphiaraion of Oropos",
-        "lat": 38.2917,
-        "lng": 23.8456,
+        "lat": 38.285495,
+        "lng": 23.68047,
         "image": "images/hephaestus.png",
         "description": "An ancient healing sanctuary and oracle dedicated to the hero Amphiaraus, located in a quiet pine-filled ravine near Oropos.",
         "audioText": "Journey to the Amphiaraion of Oropos, a healing sanctuary founded in the late 5th century BC. Dedicated to the hero and seer Amphiaraus, this site served as both an oracle and a medical center, similar to Epidaurus. Patients slept in a long colonnade, hoping to receive healing dreams from the gods. The ruins include a small theater, a temple, and an ancient water clock.",
@@ -952,8 +952,8 @@ const POIs = [
     {
         "id": 38,
         "name": "Tumulus of Marathon",
-        "lat": 38.1175,
-        "lng": 23.9737,
+        "lat": 38.12323,
+        "lng": 23.949001,
         "image": "images/panathenaic_stadium.png",
         "description": "The burial mound containing the ashes of the 192 Athenian soldiers who died defending Greece at the Battle of Marathon in 490 BC.",
         "audioText": "Stand before the Tumulus of Marathon, a 9-meter-tall burial mound that marks the grave of the 192 Athenian soldiers who died in 490 BC. Here, a small Athenian force defeated the invading Persian army. According to legend, Pheidippides ran 42 kilometers from the battlefield to Athens to announce the victory, inspiring the modern marathon race. The mound remains a symbol of liberty.",
@@ -977,8 +977,8 @@ const POIs = [
     {
         "id": 39,
         "name": "Sanctuary of Artemis (Vravrona)",
-        "lat": 37.9265,
-        "lng": 23.9936,
+        "lat": 37.971634,
+        "lng": 23.725707,
         "image": "images/hephaestus.png",
         "description": "An ancient sanctuary dedicated to Artemis Brauronia, where young Athenian girls participated in initiation ceremonies called the Arkteia.",
         "audioText": "Explore the Sanctuary of Artemis in Vravrona, situated on the eastern coast of Attica. Dedicated to Artemis, the goddess of the hunt, childbirth, and wild nature, this site hosted the Arkteia. During this festival, young Athenian girls dressed as bears to participate in initiation rites. The well-preserved colonnade of the temple courtyard stands in a quiet wetland area.",
@@ -1027,8 +1027,8 @@ const POIs = [
     {
         "id": 41,
         "name": "Lavrion Silver Mines",
-        "lat": 37.7088,
-        "lng": 24.0205,
+        "lat": 37.712,
+        "lng": 24.015,
         "image": "images/olympian_zeus.png",
         "description": "The ancient silver mines of Athens, whose vast wealth funded the Athenian naval fleet that defeated the Persians at Salamis.",
         "audioText": "Stand near the ancient silver mines of Lavrion, the source of classical Athens' wealth. In 483 BC, a rich vein of silver was discovered here. The statesman Themistocles convinced the citizens to use the profits to build a fleet of 200 triremes. This navy defeated the Persian fleet at the Battle of Salamis, saving Greece and securing Athens' Golden Age.",
@@ -1077,8 +1077,8 @@ const POIs = [
     {
         "id": 43,
         "name": "Asteriou Monastery",
-        "lat": 37.9696,
-        "lng": 23.8112,
+        "lat": 38.012979,
+        "lng": 23.635926,
         "image": "images/erechtheion.png",
         "description": "A historic, secluded Byzantine monastery on Mount Hymettus, featuring a fortified architectural design.",
         "audioText": "Visit the Asteriou Monastery, situated higher up on Mount Hymettus. Founded in the 10th century, this secluded monastery has a fortified design with high walls, built to protect the monks from pirate raids. Its small church features Byzantine frescoes, and the quiet courtyard offers a peaceful escape from the busy city below.",
@@ -1102,8 +1102,8 @@ const POIs = [
     {
         "id": 44,
         "name": "Mount Parnitha National Park",
-        "lat": 38.1733,
-        "lng": 23.7175,
+        "lat": 38.173062,
+        "lng": 23.721956,
         "image": "images/parthenon.png",
         "description": "The highest mountain peak near Athens, offering dense pine forests, hiking paths, and the historic Bafi Refuge.",
         "audioText": "Escape to Mount Parnitha, the highest mountain near Athens, rising 1,413 meters. This national park features dense pine forests, gorges, and wildlife, including red deer. The mountain has played a key role in Athens' history, housing fortresses that guarded the northern passes into Attica. Today, it is popular for hiking and features the Bafi Refuge.",
@@ -1152,8 +1152,8 @@ const POIs = [
     {
         "id": 46,
         "name": "Choragic Monument of Thrasyllus",
-        "lat": 37.9708,
-        "lng": 23.7275,
+        "lat": 37.97108,
+        "lng": 23.729938,
         "image": "images/theatre_dionysus.png",
         "description": "An ancient monument built on the south slope of the Acropolis to celebrate a theatrical victory at the Theatre of Dionysus in 320 BC.",
         "audioText": "Look up at the cliff above the Theatre of Dionysus to see the Monument of Thrasyllus, built in 320 BC. Built into a natural cave, this monument celebrated Thrasyllus's victory as a choregos. It featured a marble facade with Corinthian pilasters. Later converted into the Chapel of Panagia Spiliotissa, it remains a unique monument built directly into the rock face.",
@@ -1202,8 +1202,8 @@ const POIs = [
     {
         "id": 48,
         "name": "Agia Dynami Church",
-        "lat": 37.9752,
-        "lng": 23.7321,
+        "lat": 37.99131,
+        "lng": 23.663996,
         "image": "images/tower_winds.png",
         "description": "A tiny 16th-century Byzantine church in Syntagma, built over an ancient temple of Heracles and now enclosed by a modern office building.",
         "audioText": "Find the tiny Church of Agia Dynami on Mitropoleos Street. Built in the 16th century over an ancient temple of Heracles, this church is famous for its location. During Athens' rapid development, the church was preserved, and a modern hotel building was constructed around and over it. It stands as a symbol of historical preservation amidst modern growth.",
@@ -1277,8 +1277,8 @@ const POIs = [
     {
         "id": 51,
         "name": "The Pelasgian Wall",
-        "lat": 37.9712,
-        "lng": 23.725,
+        "lat": 37.981068,
+        "lng": 23.728715,
         "image": "images/parthenon.png",
         "description": "The ancient Mycenaean fortification wall of the Acropolis, constructed in the 13th century BC using massive stone blocks.",
         "audioText": "Observe the remains of the Pelasgian Wall, the oldest fortification on the Acropolis, dating back to the Mycenaean period in the 13th century BC. Built using massive limestone blocks without mortar, this wall was so large that later classical Greeks believed it was built by the mythical Cyclopes, leading to the term 'Cyclopean masonry.'",
@@ -1302,8 +1302,8 @@ const POIs = [
     {
         "id": 52,
         "name": "Asclepieion of Athens",
-        "lat": 37.9709,
-        "lng": 23.7266,
+        "lat": 37.975565,
+        "lng": 23.734832,
         "image": "images/theatre_dionysus.png",
         "description": "The healing sanctuary dedicated to the god Asclepius, featuring a sacred spring and incubation halls for curing illnesses.",
         "audioText": "Visit the Asclepieion, the healing sanctuary founded in 419 BC during a plague. Dedicated to Asclepius, the god of medicine, the sanctuary included a temple, a sacred spring, and incubation halls. Patients slept in these halls, hoping the god would visit them in their dreams to heal their illnesses and prescribe cures.",
@@ -1327,8 +1327,8 @@ const POIs = [
     {
         "id": 53,
         "name": "The Metroum (Ancient Agora)",
-        "lat": 37.9751,
-        "lng": 23.7221,
+        "lat": 37.975021,
+        "lng": 23.724193,
         "image": "images/hephaestus.png",
         "description": "The ancient sanctuary of the Mother of the Gods, which also served as the official state archives repository of Athens.",
         "audioText": "Stand near the foundations of the Metroum in the Ancient Agora. Built in the late 5th century BC, this building was dedicated to the Mother of the Gods (Rhea or Cybele). It also served as the official state archives repository. The city's laws, treaties, and court testimonies were written on papyrus and stored here under her protection.",
@@ -1352,8 +1352,8 @@ const POIs = [
     {
         "id": 54,
         "name": "Ancient Bouleuterion",
-        "lat": 37.975,
-        "lng": 23.7219,
+        "lat": 37.637344,
+        "lng": 21.630926,
         "image": "images/hephaestus.png",
         "description": "The meeting house of the Athenian Council of 500 (Boule), who prepared the agenda for the general assembly.",
         "audioText": "Explore the ruins of the Bouleuterion, the council house of the Boule. This council of 500 citizens was chosen by lot each year. They met daily in this building to draft laws and prepare the agenda for the general assembly on the Pnyx, serving as a core institution of ancient Athenian democracy.",
@@ -1377,8 +1377,8 @@ const POIs = [
     {
         "id": 55,
         "name": "The Tholos (Agora)",
-        "lat": 37.9748,
-        "lng": 23.722,
+        "lat": 37.975021,
+        "lng": 23.724193,
         "image": "images/hephaestus.png",
         "description": "A circular building in the Agora that served as the headquarters and dining hall of the standing committee of the Senate.",
         "audioText": "Observe the circular foundation of the Tholos, built in 470 BC. This building was the headquarters of the prytaneis, the standing committee of the council. To ensure the government could respond to emergencies, a third of the committee stayed inside the Tholos 24 hours a day, sleeping and dining at the city's expense.",
@@ -1502,8 +1502,8 @@ const POIs = [
     {
         "id": 60,
         "name": "Benaki Museum",
-        "lat": 37.9754,
-        "lng": 23.739,
+        "lat": 37.974474,
+        "lng": 23.708603,
         "image": "images/benaki_museum.png",
         "description": "Comprehensive museum covering Greek art from prehistoric to modern times.",
         "audioText": "Explore the Benaki Museum, home to a vast collection ranging from ancient pottery to contemporary artworks.",
@@ -1702,8 +1702,8 @@ const POIs = [
     {
         "id": 68,
         "name": "Rhamnous Archaeological Site",
-        "lat": 38.2178,
-        "lng": 24.0258,
+        "lat": 37.978634,
+        "lng": 23.718221,
         "image": "images/rhamnous.png",
         "description": "The best-preserved ancient Athenian deme, overlooking the sea, featuring the sanctuary of Nemesis, goddess of divine retribution.",
         "audioText": "Welcome to the archaeological site of Rhamnous. Located in a remote, pristine landscape overlooking the Euboean Gulf, this was one of the most important demes of ancient Attica. Rhamnous is celebrated for its Sanctuary of Nemesis, the goddess of retribution who punished human arrogance. According to legend, the Persians brought a large block of Parian marble, intending to carve a victory monument after conquering Athens. However, after their defeat at Marathon, the sculptor Agoracritus carved this very marble block into the cult statue of Nemesis, showing the goddess's justice. The site also includes well-preserved ancient houses, fortifications, and graves, offering a rare glimpse into a classical provincial town.",
@@ -1727,8 +1727,8 @@ const POIs = [
     {
         "id": 69,
         "name": "Aigosthena Fortress",
-        "lat": 38.1528,
-        "lng": 23.2306,
+        "lat": 38.1471,
+        "lng": 23.228613,
         "image": "images/aigosthena.png",
         "description": "A spectacular ancient fortress with towering stone walls and towers, representing the pinnacle of ancient military architecture.",
         "audioText": "Stand before the massive walls of Aigosthena. Situated on the slopes of Mount Kithairon overlooking the Corinthian Gulf, this is the best-preserved ancient fortress in Greece. Built in the late 4th century BC, Aigosthena served as a crucial border fortress between Attica and Megaris. The fortress features a monumental stone citadel with several tall towers. The main three-story tower stands almost entirely to its original height of nearly 18 meters, featuring openings for archers and ancient catapults. Exploring this remote site shows the incredible engineering skill ancient Greeks brought to defensive warfare.",
@@ -1752,8 +1752,8 @@ const POIs = [
     {
         "id": 70,
         "name": "Sanctuary of Aphaia",
-        "lat": 37.7547,
-        "lng": 23.5312,
+        "lat": 37.971586,
+        "lng": 23.728333,
         "image": "images/aphaia.png",
         "description": "A magnificent Doric temple on Aegina Island, forming the ancient Sacred Triangle with the Parthenon and Sounion.",
         "audioText": "Visit the Sanctuary of Aphaia, perched on a pine-covered hill on Aegina Island. Built around 500 BC, this Doric temple is dedicated to Aphaia, a local goddess associated with fertility and agricultural cycles. The temple is famous for its elegant columns made of local limestone, coated with thin marble stucco. Architecturally, it represents the transition between archaic and classical style. Together with the Parthenon in Athens and the Temple of Poseidon at Cape Sounion, the Temple of Aphaia forms an equilateral triangle, known in antiquity as the Sacred Triangle, highlighting the mathematical harmony of ancient Greek sacred geography.",
@@ -1801,8 +1801,8 @@ const POIs = [
     {
         "id": 72,
         "name": "Marathon Dam",
-        "lat": 38.1506,
-        "lng": 23.9031,
+        "lat": 45.034974,
+        "lng": -90.073887,
         "image": "images/marathon_dam.png",
         "description": "The only marble-faced dam in the world, built in the 1920s with white Pentelic marble to secure the water supply of Athens.",
         "audioText": "Observe the Marathon Dam, a landmark of modern engineering and civic pride. Constructed between 1926 and 1929 by the American Ulen company, this dam is unique as the only dam in the world faced entirely with white Pentelic marble—the very same marble used by the ancient Greeks to build the Parthenon. This choice of facing material was made to show respect for the classical heritage of Athens. The dam created Lake Marathon, which served as the capital's main water reservoir for decades, solving a chronic water shortage that had plagued the city since antiquity.",
@@ -1826,8 +1826,8 @@ const POIs = [
     {
         "id": 73,
         "name": "Koutouki Cave",
-        "lat": 37.9602,
-        "lng": 23.8315,
+        "lat": 38.019034,
+        "lng": 23.80512,
         "image": "images/koutouki_cave.png",
         "description": "A spectacular subterranean cave in Paiania filled with rich stalactite, stalagmite, and stone curtain formations.",
         "audioText": "Step underground into Koutouki Cave, located on the eastern slopes of Mount Hymettus. Discovered accidentally in 1926 by a local farmer whose goat fell through a hole, this cave consists of a single large chamber measuring approximately 60 by 60 meters. The cave features a dense forest of limestone formations, including towering stalactites, stalagmites, columns, and delicate stone curtains. The cave was developed for tourism in the 1960s, and today modern lighting highlights the natural red, yellow, and white colors of the mineral deposits.",
@@ -1851,8 +1851,8 @@ const POIs = [
     {
         "id": 74,
         "name": "Eleutherae Ancient Fortress",
-        "lat": 38.1800,
-        "lng": 23.3768,
+        "lat": 37.931745,
+        "lng": 23.710317,
         "image": "images/eleutherae.png",
         "description": "A spectacular 4th-century BC border fortress guarding the pass between Attica and Boeotia, with well-preserved stone walls and towers.",
         "audioText": "Welcome to the ancient fortress of Eleutherae, also known as Gyphtokastro. Perched on a rocky ridge guarding the main pass between Attica and Boeotia, this fortress stands as a testament to classical military architecture. Built in the 4th century BC, it features walls over two meters thick and is reinforced by multiple rectangular towers. The positioning allowed garrisoned soldiers to monitor troop movements in the valley below. Today, walking along its stone battlements offers an immersive view into the strategic defense networks that protected the ancient city-state of Athens.",
@@ -1876,8 +1876,8 @@ const POIs = [
     {
         "id": 75,
         "name": "Phyle Fortress",
-        "lat": 38.1362,
-        "lng": 23.6346,
+        "lat": 37.928276,
+        "lng": 23.695168,
         "image": "images/phyle.png",
         "description": "A historic fortress on Mount Parnitha where general Thrasybulus gathered democratic forces to overthrow the Thirty Tyrants.",
         "audioText": "Explore the historic ruins of Phyle Fortress, situated on a dramatic cliff on the southern slopes of Mount Parnitha. Built in the 4th century BC, the fortress played a pivotal role in Athenian history. In 404 BC, following Athens' defeat in the Peloponnesian War, a Spartan-backed oligarchy known as the Thirty Tyrants ruled the city. The democratic general Thrasybulus fled to Phyle with a small band of supporters, using this remote fortress as his base to launch a campaign that successfully restored democracy. The site preserves beautiful ashlar masonry and offers panoramic views of the Athenian basin.",
@@ -1951,8 +1951,8 @@ const POIs = [
     {
         "id": 78,
         "name": "Schinias National Park",
-        "lat": 38.1503,
-        "lng": 24.0150,
+        "lat": 38.015568,
+        "lng": 23.77556,
         "image": "images/schinias.png",
         "description": "A beautiful coastal national park with a rare pine forest, wetland, and the historic marsh where the Persians retreated.",
         "audioText": "Explore Schinias National Park, one of the most important natural wetlands in Attica. The park features a unique coastal forest of stone pine trees running alongside a sandy beach, bordered by a large freshwater marsh. Historically, this area is the site of the Battle of Marathon in 490 BC. According to accounts by Herodotus, the defeated Persian forces retreated into these very wetlands, where they became trapped and suffered heavy losses. Today, the park is a protected sanctuary for hundreds of bird species and a popular spot for windsurfing and nature walks.",
@@ -1976,8 +1976,8 @@ const POIs = [
     {
         "id": 79,
         "name": "Saint John the Hunter Monastery",
-        "lat": 37.9942,
-        "lng": 23.8214,
+        "lat": 40.897421,
+        "lng": 26.003648,
         "image": "images/st_john_hunter.png",
         "description": "A beautiful 12th-century Byzantine monastery perched on a high ridge of Mount Hymettus, offering spectacular panoramic views.",
         "audioText": "Stand before the Monastery of Saint John the Hunter, also known as Aghios Ioannis Kynigos. Perched on a high ridge on the northern edge of Mount Hymettus, this 12th-century Byzantine monastery has served as a place of spiritual retreat and safety for centuries. Its small church features typical Byzantine brickwork and a dome supported by ancient column drums. The monastery's position offers panoramic views over both the Athens basin to the west and the Mesogeia plain to the east, making it a favorite starting point for hikers exploring the mountain's trails.",
@@ -2008,7 +2008,12 @@ const POIs = [
         "audioText": "Welcome to Plato's Academy Archaeological Park. Here, in a grove of olive trees outside the ancient walls of Athens, the philosopher Plato established the Academy in 387 BC. It was not a school in the modern sense, but a sanctuary for intellectual exploration and debate. The Academy flourished for over 900 years, attracting scholars from across the Greek world, including Plato's most famous student, Aristotle. Walking through these quiet ruins, you stand at the very foundations of Western philosophy, science, and education.",
         "quiz": {
             "question": "In which year did Plato found the Academy?",
-            "options": ["387 BC", "507 BC", "146 BC", "335 BC"],
+            "options": [
+                "387 BC",
+                "507 BC",
+                "146 BC",
+                "335 BC"
+            ],
             "answer": 0,
             "feedback": "Correct! Plato founded the Academy in 387 BC, establishing a center of learning that lasted for centuries."
         },
@@ -2021,14 +2026,19 @@ const POIs = [
     {
         "id": 81,
         "name": "Kynosarges Archaeological Site",
-        "lat": 37.9628,
-        "lng": 23.7314,
+        "lat": 37.978634,
+        "lng": 23.718221,
         "image": "images/aristotle_s_lyceum.jpg",
         "description": "The ancient gymnasium dedicated to Heracles, famous as the birthplace of Cynic Philosophy under Antisthenes.",
         "audioText": "Explore the ruins of Kynosarges, situated south of the Acropolis. In ancient times, this area housed a famous gymnasium dedicated to Heracles, which was reserved for people of mixed Athenian and foreign ancestry. It was here, in the early 4th century BC, that the philosopher Antisthenes began teaching his followers. His teachings laid the foundation for Cynic philosophy, which advocated for a life of virtue lived in accordance with nature, free from societal conventions. The name Kynosarges means 'white dog,' commemorating a myth of a dog stealing a sacrifice.",
         "quiz": {
             "question": "Which philosophical school was founded at Kynosarges?",
-            "options": ["Cynic philosophy", "Stoic philosophy", "Epicurean philosophy", "Platonic philosophy"],
+            "options": [
+                "Cynic philosophy",
+                "Stoic philosophy",
+                "Epicurean philosophy",
+                "Platonic philosophy"
+            ],
             "answer": 0,
             "feedback": "Correct! Antisthenes taught at Kynosarges, leading to the birth of Cynic philosophy."
         },
@@ -2041,14 +2051,19 @@ const POIs = [
     {
         "id": 82,
         "name": "Tomb of Sophocles",
-        "lat": 38.1403,
-        "lng": 23.7917,
+        "lat": 37.975351,
+        "lng": 23.736366,
         "image": "images/first_cemetery_of_athens.jpg",
         "description": "The ancient burial mound of the great tragic playwright Sophocles, situated in his ancestral deme near Varibobi.",
         "audioText": "Stand before the Tomb of Sophocles, located near the modern suburb of Varibobi. This large earth and stone burial mound marks the final resting place of one of ancient Greece's greatest tragic playwrights. Sophocles, who wrote masterpieces like Oedipus Rex and Antigone, died in 406 BC at the age of 90. According to legend, the Spartan general Lysander, who was besieging Athens, allowed the playwright's funeral procession to pass safely through military lines out of respect for his genius. The tomb is a monument to the high status of playwrights in classical society.",
         "quiz": {
             "question": "Which famous play was written by the tragic playwright Sophocles?",
-            "options": ["Oedipus Rex", "The Iliad", "The Frogs", "Medea"],
+            "options": [
+                "Oedipus Rex",
+                "The Iliad",
+                "The Frogs",
+                "Medea"
+            ],
             "answer": 0,
             "feedback": "Correct! Sophocles wrote Oedipus Rex, one of the most famous tragedies in theatrical history."
         },
@@ -2061,14 +2076,19 @@ const POIs = [
     {
         "id": 83,
         "name": "Temple of Apollo Zoster",
-        "lat": 37.8139,
-        "lng": 23.7744,
+        "lat": 37.810009,
+        "lng": 23.77373,
         "image": "images/hephaestus.png",
         "description": "A 6th-century BC temple discovered in 1924 under the sand of a popular beach, dedicated to Apollo.",
         "audioText": "Observe the Temple of Apollo Zoster, located on the Astir beach in Vouliagmeni. Constructed in the late 6th century BC, this temple was lost for centuries until it was discovered in 1924 by orphanage children playing in the sand. The sanctuary was dedicated to Apollo Zoster, meaning 'Apollo of the Girdle.' According to mythology, when Leto was pregnant with Apollo and Artemis, she believed she was about to give birth here and loosened her golden girdle. The temple remains a unique example of an ancient sacred site preserved on the modern coastline.",
         "quiz": {
             "question": "What does the name 'Zoster' mean in the temple's title?",
-            "options": ["Girdle or belt", "Sun god", "Archer", "Golden chariot"],
+            "options": [
+                "Girdle or belt",
+                "Sun god",
+                "Archer",
+                "Golden chariot"
+            ],
             "answer": 0,
             "feedback": "Correct! 'Zoster' means girdle, commemorating where Leto loosened her girdle before giving birth."
         },
@@ -2081,14 +2101,19 @@ const POIs = [
     {
         "id": 84,
         "name": "Archaeological Site of Kolona",
-        "lat": 37.7492,
-        "lng": 23.4242,
+        "lat": 37.97519,
+        "lng": 23.743417,
         "image": "images/hephaestus.png",
         "description": "The prehistoric acropolis of Aegina Island, dominated by a single standing column of a Temple of Apollo.",
         "audioText": "Visit the archaeological site of Kolona, the historic acropolis of Aegina Island. Occupied continuously since the Neolithic era, the hill contains layers of ancient fortifications and residential streets. Today, the site is dominated by a single, tall limestone column (kolona) standing on the hilltop. This column is the sole survivor of a grand Doric Temple of Apollo built around 510 BC. The hill offers spectacular views of the Saronic Gulf and houses a museum showing Aegina's early prehistoric pottery and bronze treasures.",
         "quiz": {
             "question": "Which god was the main classical temple at Kolona dedicated to?",
-            "options": ["Apollo", "Zeus", "Athena", "Poseidon"],
+            "options": [
+                "Apollo",
+                "Zeus",
+                "Athena",
+                "Poseidon"
+            ],
             "answer": 0,
             "feedback": "Correct! The single standing column is the ruin of the Temple of Apollo."
         },
@@ -2101,14 +2126,19 @@ const POIs = [
     {
         "id": 85,
         "name": "Phaleron Delta Ancient Cemetery (Phaleron Captives)",
-        "lat": 37.9405,
-        "lng": 23.6883,
+        "lat": 37.928762,
+        "lng": 23.694219,
         "image": "images/first_cemetery_of_athens.jpg",
         "description": "A massive archaic cemetery famous for the discovery of bound skeletons linked to Cylon's ancient conspiracy.",
         "audioText": "Stand near the Phaleron Delta, the location of a massive ancient cemetery dating from the 8th to the 4th centuries BC. The site gained global attention during excavations when archaeologists discovered a set of skeletons bound in iron shackles. Known as the 'Phaleron Captives,' these individuals were executed and buried in mass graves. Historians link these executions to Cylon's failed coup attempt in 632 BC, when supporters of the noble Cylon were slaughtered. The site offers a grim look into political violence and capital punishment in archaic Athens.",
         "quiz": {
             "question": "What historic discovery was made at the Phaleron Delta Cemetery?",
-            "options": ["Shackled skeletons (captives)", "A golden royal chariot", "The tomb of Pericles", "The lost library of Aristotle"],
+            "options": [
+                "Shackled skeletons (captives)",
+                "A golden royal chariot",
+                "The tomb of Pericles",
+                "The lost library of Aristotle"
+            ],
             "answer": 0,
             "feedback": "Correct! The discovery of bound skeletons shed new light on ancient capital punishment and historical events."
         },
@@ -2121,14 +2151,19 @@ const POIs = [
     {
         "id": 86,
         "name": "Ancient Deme of Halai Aixonides",
-        "lat": 37.8394,
-        "lng": 23.7558,
+        "lat": 37.970819,
+        "lng": 23.717407,
         "image": "images/ancient_agora_of_athens.jpg",
         "description": "An archaeological site in Voula showing the marketplace and residential streets of a classical coastal deme.",
         "audioText": "Explore the ruins of the Ancient Deme of Halai Aixonides, located in modern Voula. This classical township was one of the key coastal demes of Athens. Archaeological excavations have uncovered the remains of the deme's marketplace (agora), a small theater, residential houses, and salt-pans. The deme played an important economic role in producing salt and exporting fish to Athens. Walking through these stone foundations highlights the daily life of ancient citizens who lived outside the main city center.",
         "quiz": {
             "question": "What economic product was the deme of Halai Aixonides famous for producing?",
-            "options": ["Salt", "Silver coins", "Bronze weapons", "Purple dye"],
+            "options": [
+                "Salt",
+                "Silver coins",
+                "Bronze weapons",
+                "Purple dye"
+            ],
             "answer": 0,
             "feedback": "Correct! The coastal deme was known for its salt-pans and fishing industry."
         },
@@ -2141,8 +2176,8 @@ const POIs = [
     {
         "id": 87,
         "name": "The Dema Wall",
-        "lat": 38.0694,
-        "lng": 23.6931,
+        "lat": 38.073466,
+        "lng": 23.669041,
         "image": "images/parthenon.png",
         "description": "A massive 4.5 km long ancient fortification wall built in the 4th century BC to defend the pass between Athens and Boeotia.",
         "audioText": "Observe the Dema Wall, a monumental defensive fortification spanning the narrow pass between Mount Aegaleo and Mount Parnitha. Constructed in the 4th century BC, this stone and earth wall is 4.5 kilometers long. It was designed to block invading armies from Boeotia or the Peloponnese from marching directly into the plain of Athens. The wall features multiple towers, gates, and crenellations. It stands as a prime example of Athens' investment in large-scale frontier fortifications to protect its democratic state from regional rivals.",
@@ -2173,7 +2208,12 @@ const POIs = [
         "audioText": "Welcome to the Agrileza ancient silver workshops, located in the Lavreotiki national park. Here, the silver ore mined from the earth was crushed and washed using stone tables. The washing tables allowed the heavy silver-bearing lead particles to settle while the lighter stone was washed away. This industrial process was carried out under brutal conditions by thousands of enslaved laborers. The wealth generated here funded the expansion of the Athenian navy and built the monumental buildings of Athens' Golden Age, linking the glory of democracy to the exploitation of slave labor.",
         "quiz": {
             "question": "What industrial process was carried out at the Agrileza workshops?",
-            "options": ["Washing and separating silver ore", "Minting silver coins", "Smelting iron weapons", "Carving marble columns"],
+            "options": [
+                "Washing and separating silver ore",
+                "Minting silver coins",
+                "Smelting iron weapons",
+                "Carving marble columns"
+            ],
             "answer": 0,
             "feedback": "Correct! The workshops used flat stone tables to wash and concentrate silver ore."
         },
@@ -2186,8 +2226,8 @@ const POIs = [
     {
         "id": 89,
         "name": "The Diateichisma Wall",
-        "lat": 37.9708,
-        "lng": 23.7203,
+        "lat": 37.981068,
+        "lng": 23.728715,
         "image": "images/parthenon.png",
         "description": "A late 4th-century BC defensive wall built along the ridges of the Pnyx and Nymphs hills to shorten Athens' defense perimeter.",
         "audioText": "Walk along the remnants of the Diateichisma Wall, situated along the ridges of the Pnyx, Nymphs, and Muses hills. Built in the late 4th century BC following the Macedonian victory at Chaeronea, this fortification wall was constructed to shorten the defensive perimeter of Athens. By cutting across these hills, the Athenians could defend their city with fewer soldiers. The wall was built using massive stone blocks and featured defensive towers. Today, its foundations are visible along the popular walking paths of Philopappou Hill.",
@@ -2211,14 +2251,19 @@ const POIs = [
     {
         "id": 90,
         "name": "Cave of Pan",
-        "lat": 38.1561,
-        "lng": 23.9458,
+        "lat": 38.011272,
+        "lng": 23.631127,
         "image": "images/koutouki_cave.png",
         "description": "A mystical cave of stalactites near Marathon where worship of Pan began after the Battle of Marathon.",
         "audioText": "Step into the Cave of Pan, located in the gorge of Oinoi near Marathon. This natural stalactite cave became a sacred sanctuary dedicated to the goat-god Pan. According to legend, during the Battle of Marathon in 490 BC, Pan caused 'panic' among the invading Persian soldiers, helping the Greeks secure their victory. In gratitude, the Athenians established his cult in this cave. The cave features a narrow entrance leading to multiple chambers filled with stalactites, where ancient worshippers left clay lamps and figurines.",
         "quiz": {
             "question": "Which god was worshipped in this stalactite cave near Marathon?",
-            "options": ["Pan, the goat-god", "Zeus, the king of gods", "Apollo, the sun god", "Poseidon, the sea god"],
+            "options": [
+                "Pan, the goat-god",
+                "Zeus, the king of gods",
+                "Apollo, the sun god",
+                "Poseidon, the sea god"
+            ],
             "answer": 0,
             "feedback": "Correct! The cave was dedicated to Pan to thank him for his help in the Battle of Marathon."
         },
@@ -2231,14 +2276,19 @@ const POIs = [
     {
         "id": 91,
         "name": "Sanctuary of Zeus Ombrios",
-        "lat": 37.9483,
-        "lng": 23.8156,
+        "lat": 37.984296,
+        "lng": 23.284779,
         "image": "images/olympian_zeus.png",
         "description": "A mountain-top sanctuary on Hymettus where ancient farmers offered sacrifices to Zeus for rain.",
         "audioText": "Climb to the Sanctuary of Zeus Ombrios, located on a high ridge of Mount Hymettus. The name Ombrios means 'the Rainbringer.' In ancient times, this high peak was a sacred site where Athenian farmers came during droughts to pray, make vows, and offer sacrifices to Zeus, asking him to send rain for their crops. Archaeologists have discovered thousands of ancient pottery vessels and offering tables at this site, illustrating the deep connection between ancient religion and agricultural survival.",
         "quiz": {
             "question": "What does the epithet 'Ombrios' mean in Zeus's title at this sanctuary?",
-            "options": ["The Rainbringer", "The Thunderer", "The Earthshaker", "The Protector"],
+            "options": [
+                "The Rainbringer",
+                "The Thunderer",
+                "The Earthshaker",
+                "The Protector"
+            ],
             "answer": 0,
             "feedback": "Correct! Zeus Ombrios was worshipped specifically as the sender of rain."
         },
@@ -2251,14 +2301,19 @@ const POIs = [
     {
         "id": 92,
         "name": "Valanaris Waterfall",
-        "lat": 38.0347,
-        "lng": 23.9786,
+        "lat": 37.984288,
+        "lng": 23.738453,
         "image": "images/lake_vouliagmeni.png",
         "description": "A beautiful, hidden natural waterfall and stream creating a lush green oasis on the slopes of Penteli.",
         "audioText": "Discover the Valanaris Waterfall, a hidden natural gem located on the eastern slopes of Mount Penteli near Drafi. Fed by a small mountain stream, the water falls over a six-meter cliff, forming a natural pool surrounded by trees. The name Valanaris comes from the oak trees (valanidies) that once covered the area. This stream flows year-round, creating a lush green oasis in the dry Attica landscape that serves as a sanctuary for local birds, frogs, and tortoises.",
         "quiz": {
             "question": "Where does the name 'Valanaris' originate from?",
-            "options": ["From the oak trees (valanidies)", "From an ancient stream god", "From a marble quarry owner", "From a Byzantine general"],
+            "options": [
+                "From the oak trees (valanidies)",
+                "From an ancient stream god",
+                "From a marble quarry owner",
+                "From a Byzantine general"
+            ],
             "answer": 0,
             "feedback": "Correct! The name honors the oak forest that historically covered the mountain."
         },
@@ -2271,14 +2326,19 @@ const POIs = [
     {
         "id": 93,
         "name": "Kaisariani Botanical Garden",
-        "lat": 37.961,
-        "lng": 23.7972,
+        "lat": 38.010599,
+        "lng": 23.642736,
         "image": "images/aristotle_s_lyceum.jpg",
         "description": "A conservation park on Mount Hymettus dedicated to preserving native Greek herbs and wildflowers.",
         "audioText": "Stroll through the Kaisariani Botanical Garden, situated next to the historic monastery on Mount Hymettus. Established to preserve the native flora of Attica, the garden contains a vast collection of aromatic, medicinal, and historic plants, including wild thyme, sage, oregano, and rare orchids. In antiquity, the honey produced on Mount Hymettus from these aromatic herbs was famous across the Mediterranean. The garden offers peaceful walking paths and serves as a living museum of Greek botanical heritage.",
         "quiz": {
             "question": "What product from Mount Hymettus was famous in antiquity due to its aromatic herbs?",
-            "options": ["Wildflower honey", "White marble", "Red wine", "Olive oil"],
+            "options": [
+                "Wildflower honey",
+                "White marble",
+                "Red wine",
+                "Olive oil"
+            ],
             "answer": 0,
             "feedback": "Correct! The honey of Hymettus was famous for its flavor, derived from the mountain's aromatic herbs."
         },
@@ -2291,14 +2351,19 @@ const POIs = [
     {
         "id": 94,
         "name": "Temple of Artemis Agrotera",
-        "lat": 37.9697,
-        "lng": 23.7369,
+        "lat": 37.967538,
+        "lng": 23.735485,
         "image": "images/hephaestus.png",
         "description": "The ruined foundations of an ancient temple overlooking the Ilissos River where the goddess of the hunt was worshipped.",
         "audioText": "Observe the ruins of the Temple of Artemis Agrotera, located in the Mets district near the Panathenaic Stadium. Constructed in the 5th century BC, this temple was dedicated to Artemis of the Hunt (Agrotera). According to historical accounts, the Athenians sacrificed 500 goats at this temple each year to thank Artemis for her aid in their victory over the Persians at the Battle of Marathon. The temple was built in the elegant Ionic style, but today only its foundations remain visible.",
         "quiz": {
             "question": "Which battle's victory did the Athenians celebrate with annual sacrifices at this temple?",
-            "options": ["Battle of Marathon", "Battle of Salamis", "Battle of Thermopylae", "Peloponnesian War"],
+            "options": [
+                "Battle of Marathon",
+                "Battle of Salamis",
+                "Battle of Thermopylae",
+                "Peloponnesian War"
+            ],
             "answer": 0,
             "feedback": "Correct! The sacrifices commemorated the victory at Marathon in 490 BC."
         },
@@ -2311,14 +2376,19 @@ const POIs = [
     {
         "id": 95,
         "name": "Choragic Monument of Nikias",
-        "lat": 37.9703,
-        "lng": 23.7251,
+        "lat": 37.970239,
+        "lng": 23.726959,
         "image": "images/theatre_dionysus.png",
         "description": "A monumental gateway on the south slope of the Acropolis constructed by Nikias to celebrate a theatrical victory.",
         "audioText": "Stand near the ruins of the Choragic Monument of Nikias, located on the south slope of the Acropolis. Built in 320 BC by the wealthy sponsor Nikias, this monument celebrated his victory in a dramatic contest at the Theatre of Dionysus. It was designed like a small temple with Doric columns. In the 3rd century AD, following a destructive invasion, the monument was dismantled, and its marble blocks were reused to construct the Beulé Gate, which served as the fortified entrance to the Acropolis.",
         "quiz": {
             "question": "What fortified Acropolis structure was built using the dismantled stones of this monument?",
-            "options": ["The Beulé Gate", "The Propylaea", "The Erechtheion", "The Parthenon steps"],
+            "options": [
+                "The Beulé Gate",
+                "The Propylaea",
+                "The Erechtheion",
+                "The Parthenon steps"
+            ],
             "answer": 0,
             "feedback": "Correct! The stones of Nikias's monument were reused to construct the defensive Beulé Gate."
         },
@@ -2331,14 +2401,19 @@ const POIs = [
     {
         "id": 96,
         "name": "Temple of Apollo Erithaseos",
-        "lat": 38.0833,
-        "lng": 23.8167,
+        "lat": 37.975557,
+        "lng": 23.722124,
         "image": "images/hephaestus.png",
         "description": "The archaeological remains of a rustic sanctuary of Apollo nestled in the northern suburb of Kifisia.",
         "audioText": "Visit the site of the Temple of Apollo Erithaseos in Kifisia. Nestled in a wooded valley, this ancient sanctuary was dedicated to Apollo in his role as a rustic deity of harvest and agriculture. Archaeologists have uncovered the temple foundations, ancient boundary stones, and inscriptions recording religious laws. The site demonstrates how the worship of major Olympic gods extended into the rural demes of Attica, providing local farmers with a place of worship and community.",
         "quiz": {
             "question": "What role did Apollo serve at this rustic sanctuary in Kifisia?",
-            "options": ["Deity of harvest and agriculture", "God of naval warfare", "Patron of theater and comedy", "Messenger of the underworld"],
+            "options": [
+                "Deity of harvest and agriculture",
+                "God of naval warfare",
+                "Patron of theater and comedy",
+                "Messenger of the underworld"
+            ],
             "answer": 0,
             "feedback": "Correct! Apollo was worshipped here as a rural protector of crops and harvest."
         },
@@ -2351,14 +2426,19 @@ const POIs = [
     {
         "id": 97,
         "name": "Archaeological Museum of Megara",
-        "lat": 37.995,
-        "lng": 23.3422,
+        "lat": 37.989012,
+        "lng": 23.732958,
         "image": "images/national_archaeological_museum.jpg",
         "description": "A museum displaying ancient sculptures, gravestones, and votive offerings from the independent city-state of Megara.",
         "audioText": "Enter the Archaeological Museum of Megara, housed in a historic 19th-century building in Megara town. The museum displays discoveries from the ancient city-state of Megara and its surroundings, spanning from the geometric period to Roman times. The exhibits include marble sculptures, detailed grave monuments, and clay figurines. Look for the marble victory monuments and pottery illustrating Megara's history as a major colonial power that founded cities like Byzantium.",
         "quiz": {
             "question": "Which famous historic city did colonizers from Megara establish?",
-            "options": ["Byzantium (later Constantinople)", "Rome", "Alexandria", "Carthage"],
+            "options": [
+                "Byzantium (later Constantinople)",
+                "Rome",
+                "Alexandria",
+                "Carthage"
+            ],
             "answer": 0,
             "feedback": "Correct! Megarian colonists founded Byzantium in 657 BC."
         },
@@ -2371,14 +2451,19 @@ const POIs = [
     {
         "id": 98,
         "name": "Monastery of Kleiston",
-        "lat": 38.1256,
-        "lng": 23.6303,
+        "lat": 38.012979,
+        "lng": 23.635926,
         "image": "images/erechtheion.png",
         "description": "A historic 11th-century Byzantine monastery built on the edge of a deep gorge on Mount Parnitha.",
         "audioText": "Explore the Monastery of Kleiston, located on a cliff overlooking the deep gorge of Gouras on Mount Parnitha. Founded in the late 11th century, this historic monastery was named Kleiston, meaning 'the enclosed,' due to its dramatic location surrounded by high mountains. The monastery features a small Byzantine church, a central courtyard, and fortified walls that protected it from raids. It offers a tranquil escape and acts as a historic starting point for hikes into the national park.",
         "quiz": {
             "question": "Around which century was the Monastery of Kleiston founded?",
-            "options": ["11th Century AD", "5th Century BC", "15th Century AD", "19th Century AD"],
+            "options": [
+                "11th Century AD",
+                "5th Century BC",
+                "15th Century AD",
+                "19th Century AD"
+            ],
             "answer": 0,
             "feedback": "Correct! The monastery was established during the middle Byzantine era in the 11th century."
         },
@@ -2416,8 +2501,8 @@ const POIs = [
     {
         "id": 100,
         "name": "National Historical Museum",
-        "lat": 37.9775,
-        "lng": 23.7328,
+        "lat": 37.989012,
+        "lng": 23.732958,
         "image": "images/national_historical_museum.jpg",
         "description": "Housed in the Old Parliament House, this museum covers Greek history from the fall of Constantinople in 1453 through the 20th century.",
         "audioText": "Step inside the Old Parliament House, home to the National Historical Museum. Established in 1882, the museum documents the modern history of the Greek nation. The collection includes weapons, personal items of revolutionary heroes, traditional costumes, and documents from the Byzantine period, the Ottoman era, and the Greek War of Independence of 1821. Standing in the grand assembly hall where historic debates took place, you are surrounded by the legacy of the people who shaped modern Greek democracy.",
@@ -2441,8 +2526,8 @@ const POIs = [
     {
         "id": 101,
         "name": "National Observatory of Athens",
-        "lat": 37.9733,
-        "lng": 23.7183,
+        "lat": 37.970038,
+        "lng": 23.765237,
         "image": "images/national_observatory.jpg",
         "description": "Situated on the Hill of the Nymphs, this is the oldest research institution in Greece and the Balkans, founded in 1842.",
         "audioText": "Welcome to the National Observatory of Athens, located on the Hill of the Nymphs. Founded in 1842 by the Greek benefactor Georgios Sinas and designed by Danish architect Theophil Hansen, this neoclassical building served as the birthplace of modern scientific research in Greece. The Hill of the Nymphs has astronomical links dating back to antiquity, as it was the location where Meton made some of the earliest recorded observations of the summer solstice in 432 BC. Today, the observatory remains a center of research, housing historical telescopes, astronomical maps, and clocks.",
@@ -2466,8 +2551,8 @@ const POIs = [
     {
         "id": 102,
         "name": "Technopolis (Gazi)",
-        "lat": 37.9783,
-        "lng": 23.7144,
+        "lat": 37.978564,
+        "lng": 23.711477,
         "image": "images/technopolis.jpg",
         "description": "A major industrial museum and cultural hub housed in a former 19th-century gasworks factory in the Gazi district.",
         "audioText": "Explore Technopolis in the Gazi district. This major cultural venue occupies a former coal gas factory built in 1857 under Ottoman rule, which supplied Athens with gas light for over 120 years. Reopened as a museum in 1999, the factory retains its original industrial equipment, high chimneys, gasifiers, and iron reservoirs. The site stands as a preservation of industrial architecture, showing how old factories can be converted into modern cultural hubs.",
@@ -2491,8 +2576,8 @@ const POIs = [
     {
         "id": 103,
         "name": "Roman Baths at Zappeion",
-        "lat": 37.9705,
-        "lng": 23.7366,
+        "lat": 37.971591,
+        "lng": 23.733842,
         "image": "images/roman_baths_zappeion.jpg",
         "description": "A well-preserved Roman bath complex excavated during the construction of the Athens Metro, located outside the National Gardens.",
         "audioText": "Look at the excavated ruins of the Roman Baths by the Zappeion. Discovered in the late 19th century and fully excavated during the building of the Athens Metro in 1996, this complex dates to the 3rd century AD. The bathhouse featured a typical Roman layout with a cold room (frigidarium), warm room (tepidarium), and hot room (caldarium), heated by underfloor brick pillars known as hypocausts. The baths were situated outside the ancient city walls, serving locals and travelers visiting the nearby Olympeion.",
@@ -2516,8 +2601,8 @@ const POIs = [
     {
         "id": 104,
         "name": "Stoa Poikile (Painted Stoa)",
-        "lat": 37.9758,
-        "lng": 23.7224,
+        "lat": 37.975516,
+        "lng": 23.73495,
         "image": "images/stoa_poikile.jpg",
         "description": "Located in the Ancient Agora, this painted colonnade is the birthplace of Stoic philosophy founded by Zeno of Citium.",
         "audioText": "Welcome to the site of the Stoa Poikile, or Painted Stoa, built in the 5th century BC. This public colonnade was famous for the paintings that decorated its walls, showing historical and mythological battles like the Battle of Marathon. Around 300 BC, the philosopher Zeno of Citium gathered his students here to debate ideas. Because they met at the Stoa, his followers became known as the Stoics. The Stoa Poikile is thus the birthplace of Stoic philosophy, which emphasizes virtue, reason, and self-control.",
@@ -2591,8 +2676,8 @@ const POIs = [
     {
         "id": 107,
         "name": "Hadrian’s Aqueduct (Dexameni)",
-        "lat": 37.9791,
-        "lng": 23.7420,
+        "lat": 37.979046,
+        "lng": 23.741741,
         "image": "images/hadrian_aqueduct.jpg",
         "description": "The remaining stone archway at the base of Lycabettus Hill that marked the reservoir entry point of Hadrian's 2nd-century Roman aqueduct.",
         "audioText": "Observe the Roman stone archway at Dexameni Square. Built by the Roman Emperor Hadrian and completed under Antoninus Pius in 140 AD, this was the entrance to the Hadrianic Aqueduct's reservoir. The aqueduct carried fresh spring water from Mount Parnitha to the city, running entirely underground for over 20 kilometers. It was so well designed that it supplied Athens with clean drinking water for centuries, showing the engineering skill of Roman city planners.",
@@ -2616,8 +2701,8 @@ const POIs = [
     {
         "id": 108,
         "name": "Sacred Gate (Kerameikos)",
-        "lat": 37.9786,
-        "lng": 23.7167,
+        "lat": 37.978176,
+        "lng": 23.718355,
         "image": "images/sacred_gate.jpg",
         "description": "The gateway from which the Sacred Way ran, leading initiates from Athens directly to the Eleusinian Mysteries.",
         "audioText": "Explore the ruins of the Sacred Gate in the Kerameikos. Built in the 5th century BC as part of the Themistoclean city wall, this gate served as the starting point of the Sacred Way, or Iera Odos. Each year, a procession of initiates walked along this road from Athens to the Sanctuary of Demeter in Eleusis to participate in the Eleusinian Mysteries, which offered initiates hope for a happy afterlife. The gate is situated next to the Eridanos riverbed, which still flows through the site today.",
@@ -2641,8 +2726,8 @@ const POIs = [
     {
         "id": 109,
         "name": "Temple of Ares (Agora)",
-        "lat": 37.9754,
-        "lng": 23.7226,
+        "lat": 37.975021,
+        "lng": 23.724193,
         "image": "images/temple_ares.jpg",
         "description": "A classical temple dedicated to the god of war, which was completely dismantled and moved from rural Pallene to the Agora during Augustus's reign.",
         "audioText": "Look at the foundations of the Temple of Ares in the Agora. This temple was originally constructed around 440 BC in the rural deme of Pallene. During the reign of the Roman Emperor Augustus, the entire temple was dismantled, and each marble block was numbered. The blocks were moved to the Agora and reconstructed here, where it was rededicated to Ares, the god of war, and Augustus's grandson. This reflects the Roman practice of relocating classic monuments to urban centers.",
@@ -2716,8 +2801,8 @@ const POIs = [
     {
         "id": 112,
         "name": "Tomb of Heinrich Schliemann",
-        "lat": 37.9625,
-        "lng": 23.7388,
+        "lat": 37.964349,
+        "lng": 23.736103,
         "image": "images/schliemann_tomb.jpg",
         "description": "The monumental tomb in the First Cemetery designed like a Trojan temple, honoring the pioneer archaeologist who excavated Troy.",
         "audioText": "Visit the tomb of Heinrich Schliemann in the First Cemetery of Athens. Designed by the German architect Ernst Ziller in 1892, this marble mausoleum resembles a classical temple. The marble frieze running around the tomb depicts scenes from Homer's Iliad and Schliemann's excavations at Troy and Mycenae. Schliemann, a pioneer of field archaeology, spent his life searching for historical evidence behind ancient myths, discovering the ruins of Troy and the Mycenaean golden treasures.",
@@ -2741,8 +2826,8 @@ const POIs = [
     {
         "id": 113,
         "name": "Tomb of Theodoros Kolokotronis",
-        "lat": 37.9627,
-        "lng": 23.7380,
+        "lat": 37.977984,
+        "lng": 23.733043,
         "image": "images/kolokotronis_tomb.jpg",
         "description": "The final resting place of the supreme commander of the Greek forces in the Greek War of Independence of 1821.",
         "audioText": "Stand before the tomb of Theodoros Kolokotronis, one of the most prominent leaders of the Greek War of Independence against the Ottoman Empire. Known as the 'Old Man of the Morea,' Kolokotronis led Greek forces to crucial victories, such as the Battle of Dervenakia. His marble tomb is topped by a bronze bust of the general wearing his iconic helmet. He remains a national symbol of liberty and military strategy.",
@@ -2791,8 +2876,8 @@ const POIs = [
     {
         "id": 115,
         "name": "Lysicrates Square (Street of Tripods)",
-        "lat": 37.9712,
-        "lng": 23.7301,
+        "lat": 37.983551,
+        "lng": 23.728159,
         "image": "images/lysicrates_square.jpg",
         "description": "The historic street leading from the Agora to the Theater of Dionysus, once lined with monuments displaying theatrical awards.",
         "audioText": "Walk through Lysicrates Square in Plaka. This square lies along the ancient Street of the Tripods, which was the main road connecting the Agora with the Theatre of Dionysus. In ancient times, wealthy citizens who sponsored winning theatrical plays were awarded bronze tripods. They displayed these trophies on top of elaborate marble monuments built along this street, of which the Choragic Monument of Lysicrates is the sole survivor.",
@@ -2817,7 +2902,7 @@ const POIs = [
         "id": 116,
         "name": "Tower of the Winds (Clepsydra Inlet)",
         "lat": 37.9741,
-        "lng": 23.7270,
+        "lng": 23.727,
         "image": "images/tower_winds_clepsydra.jpg",
         "description": "The outdoor water-pipe ruins that routed spring water directly down from the Acropolis to power the internal water clock inside the Tower.",
         "audioText": "Look at the circular annex on the south side of the Tower of the Winds. This structure served as the water reservoir for the internal water clock, or clepsydra. Fresh water was routed down through an aqueduct from the Klepsydra spring on the Acropolis. The water flowed into the reservoir and fed the clock mechanism, which measured time by water displacement on days when the sun did not shine on the external sundials.",
@@ -2841,8 +2926,8 @@ const POIs = [
     {
         "id": 117,
         "name": "Areopagus Hill (Paul's Sermon Plaque)",
-        "lat": 37.9723,
-        "lng": 23.7239,
+        "lat": 37.972247,
+        "lng": 23.723349,
         "image": "images/areopagus_plaque.jpg",
         "description": "The bronze plaque mounted at the base of Mars Hill, containing the exact Greek transcript of the Apostle Paul's famous sermon in 51 AD.",
         "audioText": "Observe the bronze plaque installed at the base of Areopagus Hill. The plaque contains the text of the Apostle Paul's Sermon on the Unknown God, as recorded in the Biblical book of Acts, chapter 17. During his visit to Athens in 51 AD, Paul debated with Stoic and Epicurean philosophers in the Agora, who invited him to speak at the high court on the Areopagus. His speech introduced Christianity to the intellectual center of the Greek world.",
@@ -2866,8 +2951,8 @@ const POIs = [
     {
         "id": 118,
         "name": "National Garden (Roman Mosaic Floor)",
-        "lat": 37.9725,
-        "lng": 23.7378,
+        "lat": 37.975516,
+        "lng": 23.73495,
         "image": "images/national_garden_mosaic.jpg",
         "description": "The exposed remains of an ancient Roman villa's mosaic floor, discovered inside the National Gardens.",
         "audioText": "Stroll inside the National Gardens to find the ruins of a Roman villa's mosaic floor. Dating to the 4th century AD, the mosaic was discovered during the landscaping of the royal gardens in the 19th century. The floor features complex geometric patterns and circular motifs typical of late Roman domestic architecture. The discovery shows that this quiet park area was once a wealthy residential district outside the historic Athens city walls.",
@@ -2891,8 +2976,8 @@ const POIs = [
     {
         "id": 119,
         "name": "Pnyx Hill Orator's Bema",
-        "lat": 37.9717,
-        "lng": 23.7196,
+        "lat": 37.971543,
+        "lng": 23.719381,
         "image": "images/pnyx_bema.jpg",
         "description": "The three-stepped stone speaker's platform from which Pericles and Demosthenes addressed the assembly of democratic Athens.",
         "audioText": "Stand before the orator's platform, or Bema, on Pnyx Hill. Carved directly out of the living rock, this three-stepped podium served as the stage where the citizens of democratic Athens stood to address the assembly, or Ekklesia. From this stone platform, famous statesmen like Themistocles, Pericles, and Demosthenes delivered speeches that shaped the history of Greece. The platform faces the Acropolis, allowing speakers and audiences to view the temple of their patron goddess.",
@@ -2942,7 +3027,7 @@ const POIs = [
         "id": 121,
         "name": "Monument of the Eponymous Heroes",
         "lat": 37.9752,
-        "lng": 23.7220,
+        "lng": 23.722,
         "image": "images/eponymous_heroes.jpg",
         "description": "A public monument in the Agora featuring statues representing the ten tribes of Athens. It served as the official public noticeboard for legislative proposals and military drafts.",
         "audioText": "Observe the long stone base of the Monument of the Eponymous Heroes. In ancient Athens, the reformer Cleisthenes divided the citizens into ten tribes, each named after a legendary hero. This monument displayed bronze statues of those ten heroes. Its primary function was civic; the sides of the monument served as the official public noticeboard. Proposed laws, court notices, and military conscription lists were written on whitened wooden boards and placed here. Every citizen walking through the Agora would stop by this monument to read the latest state news.",
@@ -2966,8 +3051,8 @@ const POIs = [
     {
         "id": 122,
         "name": "Street of Tombs (Kerameikos)",
-        "lat": 37.9782,
-        "lng": 23.7163,
+        "lat": 37.978634,
+        "lng": 23.718221,
         "image": "images/street_of_tombs.jpg",
         "description": "The main ceremonial avenue in the ancient cemetery, lined with grand marble monuments and relief sculptures erected by wealthy Athenian families.",
         "audioText": "Walk along the Street of Tombs in the Kerameikos. This was the main avenue of the city's ancient cemetery, reserved for the graves of Athens' wealthiest and most prominent citizens. As you walk, observe the large marble monuments, or steles, decorated with reliefs showing the deceased in everyday scenes—often saying farewell to their families or holding cherished items. These monuments were not only memorials but also status symbols, demonstrating the wealth, lineage, and civic contributions of the families who erected them.",
@@ -2991,7 +3076,7 @@ const POIs = [
     {
         "id": 123,
         "name": "Tzistarakis Mosque",
-        "lat": 37.9760,
+        "lat": 37.976,
         "lng": 23.7259,
         "image": "images/tzistarakis_mosque.jpg",
         "description": "An 18th-century Ottoman mosque in Monastiraki Square. According to legend, the builder used a column from the Temple of Olympian Zeus for its plaster, bringing a curse of famine.",
@@ -3016,8 +3101,8 @@ const POIs = [
     {
         "id": 124,
         "name": "Adrianou Street (Plaka)",
-        "lat": 37.9743,
-        "lng": 23.7288,
+        "lat": 37.976828,
+        "lng": 23.720842,
         "image": "images/adrianou_street.jpg",
         "description": "The oldest street in Athens still in continuous use, maintaining the exact same layout and alignment since antiquity.",
         "audioText": "Stroll down Adrianou Street, the commercial spine of the Plaka district. This street is historically significant as the oldest continuously used street in Athens, keeping its ancient layout and direction for over 2,500 years. In antiquity, it linked the residential quarters of Athens with the Agora and the Academy. Today, walking along Adrianou, you follow in the footsteps of ancient merchants, philosophers, and citizens who have traversed this pathway through the centuries.",
@@ -3041,8 +3126,8 @@ const POIs = [
     {
         "id": 125,
         "name": "Syntagma Metro Station Exhibition",
-        "lat": 37.9754,
-        "lng": 23.7358,
+        "lat": 37.975516,
+        "lng": 23.73495,
         "image": "images/syntagma_metro.jpg",
         "description": "A museum-like exhibition inside the metro station displaying a geological cross-section of Athens and artifacts found during subway construction.",
         "audioText": "Enter Syntagma Metro Station and observe the large archaeological exhibition on display. During the construction of the Athens Metro system in the 1990s, workers excavated thousands of historic artifacts. Inside the station, a massive glass wall displays a cross-section of the city's soil layers, showing ancient tombs, water pipes, and walls from different periods, ranging from the classical era to the Byzantine age. It represents a literal timeline of Athenian history preserved under the modern city.",
@@ -3066,8 +3151,8 @@ const POIs = [
     {
         "id": 126,
         "name": "Pikionis Landscaping (Philopappos)",
-        "lat": 37.9698,
-        "lng": 23.7210,
+        "lat": 37.96894,
+        "lng": 23.720219,
         "image": "images/pikionis_path.jpg",
         "description": "The beautifully paved stone pathways and rest areas winding up the hills, designed in the 1950s by renowned architect Dimitris Pikionis using recycled masonry.",
         "audioText": "Walk along the stone pathways winding up Philopappos Hill and the slopes of the Acropolis. Designed in the 1950s by the prominent Greek architect Dimitris Pikionis, this landscaping project is a masterpiece of organic architecture. Pikionis paved the paths using stone blocks, marble fragments, and ceramic tiles salvaged from demolished neoclassical houses of Athens, weaving them into designs that harmonize with the natural landscape. The paths are designed to encourage slow, thoughtful walks, offering viewpoints of the ancient ruins.",
@@ -3091,8 +3176,8 @@ const POIs = [
     {
         "id": 127,
         "name": "Lycabettus Open Air Theatre",
-        "lat": 37.9825,
-        "lng": 23.7445,
+        "lat": 37.977713,
+        "lng": 23.783292,
         "image": "images/lycabettus_theater.jpg",
         "description": "A modern amphitheater constructed in 1965 in a former quarry at the summit, designed by Takis Zenetos and famous for hosting legendary concerts.",
         "audioText": "Look at the Lycabettus Open Air Theatre, situated in a former quarry near the summit of Lycabettus Hill. Built in 1965 at the initiative of actress Anna Synodinou and designed by the modernist architect Takis Zenetos, the theater features a lightweight steel structure that resembles a shell nestled in the rocks. It became one of Athens' premier cultural venues, hosting historic concerts by Greek and international musicians, and offers a panoramic backdrop of the city below.",
@@ -3141,8 +3226,8 @@ const POIs = [
     {
         "id": 129,
         "name": "Tomb of Melina Mercouri",
-        "lat": 37.9631,
-        "lng": 23.7385,
+        "lat": 37.969856,
+        "lng": 23.731426,
         "image": "images/melina_mercouri_tomb.jpg",
         "description": "The final resting place of the legendary Greek actress, activist, and Minister of Culture who pioneered the campaign for the return of the Parthenon Marbles.",
         "audioText": "Stand before the tomb of Melina Mercouri, located in the First Cemetery of Athens. Mercouri was a world-famous actress who starred in films like 'Never on Sunday' before entering politics. As the first female Minister of Culture of Greece, she initiated the international campaign demanding the return of the Parthenon Marbles from the British Museum to Athens. Her tomb is visited by admirers from around the world who honor her contribution to Greece's cultural heritage.",
@@ -3166,8 +3251,8 @@ const POIs = [
     {
         "id": 130,
         "name": "Plato's Academy Sacred House",
-        "lat": 37.9926,
-        "lng": 23.7088,
+        "lat": 37.991368,
+        "lng": 23.708381,
         "image": "images/academy_sacred_house.jpg",
         "description": "The ruins of an Early Helladic house discovered inside the park of Plato's Academy, showing habitation long before the school was founded.",
         "audioText": "Explore the ruins of the Sacred House inside the archaeological park of Plato's Academy. Excavated in the mid-20th century, this building dates to the Early Helladic period, around 2500 BC. The structure, featuring mud-brick walls and a hearth, shows that this district of Athens was inhabited long before Plato established his Academy here in 387 BC. The site was preserved by later generations as a sacred space, showing the long history of the area.",
@@ -3216,8 +3301,8 @@ const POIs = [
     {
         "id": 132,
         "name": "Roman Agora East Propylon",
-        "lat": 37.9745,
-        "lng": 23.7268,
+        "lat": 37.975021,
+        "lng": 23.724193,
         "image": "images/roman_agora_east.jpg",
         "description": "The monumental eastern gateway of the Roman Agora, constructed of grey Hymettian marble in the Ionic style.",
         "audioText": "Stand before the ruins of the East Propylon, the eastern monumental entrance to the Roman Agora. Built in the late 1st century BC under Roman patronage, this gateway was constructed using grey marble from the nearby Mount Hymettus. The propylon featured four Ionic columns and led directly to the commercial street that connected the market with the rest of the Roman city. It stands in contrast to the western Gate of Athena Archegetis, showing the Roman combination of Greek architectural styles.",
@@ -3241,8 +3326,8 @@ const POIs = [
     {
         "id": 133,
         "name": "Shrine of the Nymphs (Hill of Nymphs)",
-        "lat": 37.9730,
-        "lng": 23.7180,
+        "lat": 38.081139,
+        "lng": 23.825844,
         "image": "images/shrine_nymphs.jpg",
         "description": "The ancient sanctuary cut into the bedrock near the observatory, where inscriptions dedicated to the Nymphs and Demeter were found.",
         "audioText": "Explore the rock-cut niches of the Shrine of the Nymphs, located near the National Observatory. This ancient outdoor sanctuary was cut into the limestone bedrock of the hill during the classical period. Archaeologists found inscriptions carved on the rock dedicated to the Nymphs, the nature deities of water and forests, and to Demeter, the goddess of agriculture. The rock-cut niches were used by worshippers to place small statues, clay offerings, and oil lamps, showing the simple nature of rural worship.",
@@ -3266,8 +3351,8 @@ const POIs = [
     {
         "id": 134,
         "name": "First Cemetery (Tomb of Andreas Syngros)",
-        "lat": 37.9622,
-        "lng": 23.7392,
+        "lat": 37.963017,
+        "lng": 23.738324,
         "image": "images/syngros_tomb.jpg",
         "description": "The monumental neoclassical mausoleum built for the wealthy banker and philanthropist Andreas Syngros, designed by Ernst Ziller.",
         "audioText": "Observe the mausoleum of Andreas Syngros, located in the First Cemetery of Athens. Built in the late 19th century and designed by the prominent German architect Ernst Ziller, this marble tomb is a masterpiece of neoclassical funerary architecture. Syngros was a wealthy banker and philanthropist who funded major civic projects in Athens, including the completion of the Corinth Canal and the building of hospitals. The tomb, designed like a classical temple, reflects the wealth and architectural tastes of late 19th-century Athens.",
@@ -3316,8 +3401,8 @@ const POIs = [
     {
         "id": 136,
         "name": "University of Athens Great Hall",
-        "lat": 37.9812,
-        "lng": 23.7340,
+        "lat": 37.970038,
+        "lng": 23.765237,
         "image": "images/university_hall.jpg",
         "description": "The grand ceremonial hall inside the neoclassical University, decorated with gold-leaf ornaments and murals depicting history.",
         "audioText": "Look at the Great Hall, or Aula, of the University of Athens. Situated inside the central building designed by Christian Hansen, the hall is the ceremonial heart of the university. The interior features gold-leaf details, ionic columns, and a large painted frieze depicting the rebirth of sciences and arts in Greece. The hall has hosted key political events, academic ceremonies, and speeches by visiting international leaders, representing the intellectual heritage of modern Greece.",
@@ -3341,8 +3426,8 @@ const POIs = [
     {
         "id": 137,
         "name": "Mycenaean Golden Gallery",
-        "lat": 37.9890,
-        "lng": 23.7325,
+        "lat": 37.989012,
+        "lng": 23.732958,
         "image": "images/mycenaean_gallery.jpg",
         "description": "Room 4 of the National Archaeological Museum, containing the treasure trove of gold masks, cups, and daggers excavated by Schliemann.",
         "audioText": "Welcome to the Mycenaean Golden Gallery, Room 4 of the National Archaeological Museum. This gallery houses the treasures of the Mycenaean civilization, which dominated Greece in the late Bronze Age. The centerpiece of the collection is the golden 'Mask of Agamemnon,' discovered in a shaft grave at Mycenae by Heinrich Schliemann in 1876. The gallery also displays gold cups, bronze daggers decorated with hunting scenes, and jewelry, showing the artistry of this ancient civilization.",
@@ -3366,8 +3451,8 @@ const POIs = [
     {
         "id": 138,
         "name": "Cape Sounion Geological Cliffs",
-        "lat": 37.6498,
-        "lng": 24.0242,
+        "lat": 37.650212,
+        "lng": 24.02459,
         "image": "images/sounion_cliffs.jpg",
         "description": "The sheer cliffs of Cape Sounion dropping into the Aegean, where King Aegeus leapt to his death, giving the Aegean Sea its name.",
         "audioText": "Stand at the edge of the cliffs of Cape Sounion. These sheer limestone cliffs drop 60 meters into the water below. According to Greek myth, King Aegeus of Athens stood on these cliffs watching for the return of his son Theseus, who had sailed to Crete to fight the Minotaur. Theseus forgot to change his ship's black sails to white to signal his victory. Believing his son was dead, Aegeus threw himself from these cliffs into the water, which was named the Aegean Sea in his memory.",
@@ -3391,8 +3476,8 @@ const POIs = [
     {
         "id": 139,
         "name": "Tomb of Sophia Schliemann",
-        "lat": 37.9624,
-        "lng": 23.7387,
+        "lat": 37.990214,
+        "lng": 23.769401,
         "image": "images/sophia_schliemann_tomb.jpg",
         "description": "Located beside her husband Heinrich's tomb, it honors the Greek philanthropist and archaeologist who worked alongside him.",
         "audioText": "Visit the tomb of Sophia Schliemann, located beside her husband Heinrich's monument. Born Sophia Engastromenos in Athens, she married Heinrich Schliemann and worked alongside him during his excavations at Troy and Mycenae, famously wearing the ancient golden jewels discovered there. Following his death, she continued to fund archaeological research and supported charitable organizations in Athens, contributing to the development of public health and education.",
@@ -3466,8 +3551,8 @@ const POIs = [
     {
         "id": 142,
         "name": "The Pompeion (Kerameikos)",
-        "lat": 37.9784,
-        "lng": 23.7165,
+        "lat": 37.978634,
+        "lng": 23.718221,
         "image": "images/pompeion.jpg",
         "description": "A monumental building located between the Sacred and Dipylon Gates, used to store ceremonial equipment and organize the Panathenaic Procession.",
         "audioText": "Stand near the foundations of the Pompeion, located in the Kerameikos archaeological site. Built in the late 5th century BC, this large building with a central columned courtyard served a crucial civic function. It was the place where ceremonial items were stored and where the citizens gathered to organize the Panathenaic Procession. During this grand annual festival, the citizens carried a new sacred robe, or peplos, across the city to the statue of Athena on the Acropolis. The Pompeion was destroyed during the Roman sack of Athens in 86 BC, but its ruins show the scale of ancient festivals.",
@@ -3541,8 +3626,8 @@ const POIs = [
     {
         "id": 145,
         "name": "The Fallen Column (Olympian Zeus)",
-        "lat": 37.9691,
-        "lng": 23.7334,
+        "lat": 37.969437,
+        "lng": 23.733096,
         "image": "images/fallen_column.jpg",
         "description": "The massive column that was blown down by a violent storm in 1852, lying in neat stone segments across the grass ever since.",
         "audioText": "Observe the segments of the fallen column lying on the grass within the sanctuary of Olympian Zeus. On October 26, 1852, a violent storm and gale swept across Athens, blowing down one of the temple's 17-meter-tall Corinthian columns. The column did not break into random pieces; instead, its massive marble drums collapsed in a neat, chronological row, showing the structural construction of these colossal ancient pillars. It has been left exactly where it fell, offering visitors a unique look at the inner drums of ancient architecture.",
@@ -3566,8 +3651,8 @@ const POIs = [
     {
         "id": 146,
         "name": "Tomb of Yannoulis Halepas",
-        "lat": 37.9626,
-        "lng": 23.7383,
+        "lat": 38.017333,
+        "lng": 23.741095,
         "image": "images/halepas_tomb.jpg",
         "description": "The final resting place in the First Cemetery of the legendary Greek sculptor who carved the famous 'Sleeping Maiden' monument.",
         "audioText": "Visit the tomb of Yannoulis Halepas, located in the First Cemetery of Athens. Halepas was one of the most prominent sculptors of modern Greece, known for his expressive marble works. His most famous sculpture is the 'Sleeping Maiden' (Koimomeni), a realistic marble figure of a young girl lying in sleep, which serves as a grave monument in this cemetery. Halepas struggled with mental illness for decades before returning to sculpture later in life, and his tomb is a place of pilgrimage for lovers of romantic art.",
@@ -3591,8 +3676,8 @@ const POIs = [
     {
         "id": 147,
         "name": "Tomb of George Averoff",
-        "lat": 37.9620,
-        "lng": 23.7395,
+        "lat": 37.969344,
+        "lng": 23.73928,
         "image": "images/averoff_tomb.jpg",
         "description": "A grand marble mausoleum honoring the wealthy benefactor who funded the reconstruction of the Panathenaic Stadium for the 1896 Olympics.",
         "audioText": "Stand before the mausoleum of George Averoff, one of Greece's greatest national benefactors. Averoff was a wealthy businessman who funded the reconstruction of the Panathenaic Stadium in solid white marble, allowing Athens to host the first modern Olympic Games in 1896. His tomb is a monumental structure decorated with reliefs and statues, reflecting his status and contribution to the modern Greek state. His legacy is also preserved in the naval cruiser Georgios Averoff, which served as the flagship of the Greek navy.",
@@ -3616,8 +3701,8 @@ const POIs = [
     {
         "id": 148,
         "name": "Tomb of Andreas Papandreou",
-        "lat": 37.9628,
-        "lng": 23.7390,
+        "lat": 37.963017,
+        "lng": 23.738324,
         "image": "images/papandreou_tomb.jpg",
         "description": "The tomb of the highly influential three-time Prime Minister of Greece and founder of the Panhellenic Socialist Movement (PASOK).",
         "audioText": "Observe the tomb of Andreas Papandreou, one of the most dominant political figures of late 20th-century Greece. Papandreou, a former economics professor in the United States, returned to Greece and founded the Panhellenic Socialist Movement, or PASOK, in 1974. He served as Prime Minister for three terms, introducing major social and legal reforms, including the legalization of civil marriage and the recognition of the national resistance during WWII. His funeral in 1996 was attended by hundreds of thousands of citizens, showing his influence on modern Greek society.",
@@ -3666,8 +3751,8 @@ const POIs = [
     {
         "id": 150,
         "name": "Plato's Academy Gymnasium Ruins",
-        "lat": 37.9920,
-        "lng": 23.7080,
+        "lat": 37.992,
+        "lng": 23.708,
         "image": "images/academy_gymnasium.jpg",
         "description": "The excavated remains of the ancient exercise ground where Plato's students practiced sports and discussed philosophy.",
         "audioText": "Explore the ruins of the Gymnasium inside the park of Plato's Academy. In ancient Greece, a gymnasium was not just a sports facility, but a place for intellectual discussion, combining physical and mental training. When Plato founded his school in 387 BC, he used this quiet park and its gymnasium buildings to teach his students, walking along the pathways while discussing ethics, mathematics, and politics. The concrete foundations you see today show the layout of this ancient school.",
@@ -3691,8 +3776,8 @@ const POIs = [
     {
         "id": 151,
         "name": "Tomb of the Lacedaemonians",
-        "lat": 37.9788,
-        "lng": 23.7160,
+        "lat": 37.978946,
+        "lng": 23.718124,
         "image": "images/lacedaemonian_tomb.jpg",
         "description": "The mass grave in the Kerameikos containing the remains of Spartan officers who fell fighting the Athenians in 403 BC.",
         "audioText": "Observe the mass grave known as the Tomb of the Lacedaemonians. Located in the Kerameikos cemetery, this tomb contains the remains of Spartan (Lacedaemonian) soldiers and officers who died in 403 BC during the fighting that followed the Peloponnesian War. The Spartan dead, including two generals, were buried here with public honors by the Athenians, showing the respect given to enemy soldiers in ancient Greece. An inscription carved on the stone still marks the location.",
@@ -3716,8 +3801,8 @@ const POIs = [
     {
         "id": 152,
         "name": "Sanctuary of Pandion (Acropolis)",
-        "lat": 37.9710,
-        "lng": 23.7275,
+        "lat": 38.401755,
+        "lng": 23.794579,
         "image": "images/sanctuary_pandion.jpg",
         "description": "The ancient open-air sanctuary on the southeast corner of the Acropolis summit, dedicated to Pandion, a legendary king of Athens.",
         "audioText": "Stand near the ruins of the Sanctuary of Pandion, located on the southeast corner of the Acropolis summit. This open-air sanctuary, dating to the 5th century BC, was dedicated to Pandion, one of the mythical founding kings of Athens who was later worshipped as a hero. The sanctuary consisted of a wall enclosing a courtyard where sacrifices took place. It was the location where the members of the Pandionis tribe gathered during festivals, showing how kinship and state organization were linked with Acropolis worship.",
@@ -3791,7 +3876,7 @@ const POIs = [
     {
         "id": 155,
         "name": "Odeon of Agrippa Tritons Porch",
-        "lat": 37.9750,
+        "lat": 37.975,
         "lng": 23.7228,
         "image": "images/odeon_tritons.jpg",
         "description": "The monumental entrance gate of the concert hall featuring detailed giant statues representing the sea god Triton.",
@@ -3816,8 +3901,8 @@ const POIs = [
     {
         "id": 156,
         "name": "Gazi Retort House (Technopolis)",
-        "lat": 37.9782,
-        "lng": 23.7142,
+        "lat": 37.978564,
+        "lng": 23.711477,
         "image": "images/gazi_retort_house.jpg",
         "description": "The central industrial hall of the Gazi factory where coal was heated to high temperatures to extract the gas.",
         "audioText": "Step inside the Retort House, the heart of the Gazi gas factory. Built in the late 19th century, this building housed the large brick furnaces and iron retorts where coal was heated to high temperatures without oxygen. This process extracted the coal gas, which was then purified and stored in the large gasometers nearby. The Retort House retains its original metal frameworks, coal hoppers, and furnaces, showing the industrial technology that powered Athens' development.",
@@ -3841,8 +3926,8 @@ const POIs = [
     {
         "id": 157,
         "name": "National Museum Cycladic Figurines",
-        "lat": 37.9892,
-        "lng": 23.7328,
+        "lat": 37.989012,
+        "lng": 23.732958,
         "image": "images/cycladic_figurines.jpg",
         "description": "The gallery inside the National Museum displaying Bronze Age white marble idols, famous for their flat, minimalist, modern look.",
         "audioText": "Explore the Cycladic Art gallery inside the National Archaeological Museum. The collection features prehistoric white marble figurines carved in the Cyclades islands during the 3rd Millennium BC. These figures, mostly representing stylized female forms with folded arms and tilted heads, are famous for their flat, minimalist design. Originally painted with bright colors, their clean marble look has inspired modern artists like Picasso and Modigliani.",
@@ -3866,8 +3951,8 @@ const POIs = [
     {
         "id": 158,
         "name": "Cape Sounion Sanctuary Precinct",
-        "lat": 37.6502,
-        "lng": 24.0248,
+        "lat": 37.650212,
+        "lng": 24.02459,
         "image": "images/sounion_sanctuary.jpg",
         "description": "The fortified boundary wall and temple ruins protecting the sacred clifftop sanctuary of Poseidon from naval raids.",
         "audioText": "Walk along the fortified walls surrounding the Temple of Poseidon at Sounion. Built during the Peloponnesian War in 413 BC, these stone walls protected the temple and the garrison from naval attacks. The precinct included ship sheds at the base of the cliffs and military quarters, showing how the sacred sanctuary served a vital role in defending the sea routes that carried grain and silver to Athens.",
@@ -3891,8 +3976,8 @@ const POIs = [
     {
         "id": 159,
         "name": "Temple of Ares Relocation Block",
-        "lat": 37.9753,
-        "lng": 23.7227,
+        "lat": 37.975516,
+        "lng": 23.73495,
         "image": "images/temple_ares_blocks.jpg",
         "description": "The exposed foundations showing Roman numbers carved on the stone blocks, used to guide reassembly after transport from Pallene.",
         "audioText": "Observe the foundation blocks of the Temple of Ares in the Agora. If you look closely, you can see Roman letters and numbers carved into the stone. These marks were made by Roman builders when they dismantled the temple in the rural town of Pallene. Each block was numbered to show its position in the temple architecture, acting as a guide to reassemble the building correctly when it was transported and rebuilt in the Agora.",
@@ -3916,8 +4001,8 @@ const POIs = [
     {
         "id": 160,
         "name": "Metropolitan Cathedral (Saint Philothei Shrine)",
-        "lat": 37.97529,
-        "lng": 23.73007,
+        "lat": 37.975311,
+        "lng": 23.730072,
         "image": "images/cathedral_philothei.jpg",
         "description": "The reliquary containing the holy remains of Saint Philothei, the patron saint of Athens, housed inside the Metropolitan Cathedral.",
         "audioText": "Step inside the Metropolitan Cathedral of Athens, also known as the Metropolis. Near the altar, you will find the silver reliquary containing the remains of Saint Philothei, the patron saint of Athens. Born into a wealthy Athenian family in 1522 under Ottoman rule, she became a nun and used her vast inheritance to build schools, shelters, and hospitals. She is most celebrated for establishing a underground network to help Greek and foreign women escape slavery, which led to her arrest and martyrdom in 1589. She remains a symbol of humanitarian aid, freedom, and courage.",
@@ -3941,8 +4026,8 @@ const POIs = [
     {
         "id": 161,
         "name": "Tomb of George Seferis",
-        "lat": 37.9628,
-        "lng": 23.7381,
+        "lat": 38.061488,
+        "lng": 23.855691,
         "image": "images/seferis_tomb.jpg",
         "description": "The simple white marble tomb in the First Cemetery of George Seferis, the Nobel laureate poet and diplomat.",
         "audioText": "Visit the grave of George Seferis in the First Cemetery of Athens. Seferis was one of the most important Greek poets of the 20th century, receiving the Nobel Prize in Literature in 1963 for his works that combined classical Greek themes with modern lyricism. He also served as a diplomat, representing Greece during critical periods. His funeral in 1971, during the military dictatorship, turned into a massive public demonstration for freedom as the crowd sang his banned poem, 'Refusal.' His tomb stands as a monument to poetry and civic resistance.",
@@ -3966,8 +4051,8 @@ const POIs = [
     {
         "id": 162,
         "name": "Church of Saint John the Theologian",
-        "lat": 37.9733,
-        "lng": 23.7299,
+        "lat": 37.972922,
+        "lng": 23.728777,
         "image": "images/st_john_theologian.jpg",
         "description": "A beautiful 11th-century Byzantine church in Plaka, famous for its elegant brickwork and well-preserved medieval murals.",
         "audioText": "Stand before the Church of Saint John the Theologian, located at the intersection of Erotokritou and Clepsydras streets in Plaka. Built in the late 11th century, this small, cross-in-square Byzantine church is one of the most charming medieval monuments in Athens. The walls feature elegant Athenian brickwork, and the interior preserves outstanding 13th-century frescoes, including depictions of the Virgin Mary and saints. The church has survived fires and urban reconstruction, keeping its medieval character intact.",
@@ -3991,8 +4076,8 @@ const POIs = [
     {
         "id": 163,
         "name": "Sanctuary of Aphrodite Pandemos",
-        "lat": 37.9712,
-        "lng": 23.7253,
+        "lat": 37.972249,
+        "lng": 23.72702,
         "image": "images/aphrodite_pandemos.jpg",
         "description": "The ruins of the ancient sanctuary dedicated to Aphrodite Pandemos, the goddess of love for all the people, on the Acropolis slope.",
         "audioText": "Explore the ruins of the Sanctuary of Aphrodite Pandemos, located on the southwest slope of the Acropolis. Established by Theseus to celebrate the unification of the Athenian demes, the title 'Pandemos' signifies Aphrodite as the goddess of love for 'all the people,' representing civic harmony and democratic unity. The sanctuary featured a temple decorated with relief carvings of doves. Today, only stone foundations and inscriptions remain, showing how religious worship was linked with political unity.",
@@ -4016,8 +4101,8 @@ const POIs = [
     {
         "id": 164,
         "name": "Heliaia (Ancient Supreme Court)",
-        "lat": 37.9744,
-        "lng": 23.7226,
+        "lat": 37.975516,
+        "lng": 23.73495,
         "image": "images/heliaia.jpg",
         "description": "The ruins of the Heliaia, the largest and most important public courthouse of ancient democratic Athens.",
         "audioText": "Observe the large rectangular foundations of the Heliaia, situated at the southern end of the Agora. Built in the 6th century BC, this was the largest public court in Athens, where cases were decided by popular juries. Juries were exceptionally large—ranging from 201 to 1,501 citizens chosen by lot—to prevent bribery. The trials were timed using water clocks, and jurors cast their votes using bronze ballots. Standing before these foundations, you are looking at the location where some of the most historic legal battles of democratic Athens took place.",
@@ -4041,8 +4126,8 @@ const POIs = [
     {
         "id": 165,
         "name": "Philopappos Hill Quarry Paths",
-        "lat": 37.9692,
-        "lng": 23.7203,
+        "lat": 37.967363,
+        "lng": 23.721368,
         "image": "images/philopappos_quarry.jpg",
         "description": "Traces of ancient marble quarries and rock-cut pathways visible along the western slopes of Philopappos Hill.",
         "audioText": "Walk along the western slopes of Philopappos Hill and observe the rock faces. This area was once an ancient stone quarry, from which limestone and schist were extracted to build the houses and public monuments of Athens. If you look closely at the rock, you can still see the markings left by ancient chisels and wedges. The pathways here were cut directly into the rock to transport the stone blocks down to the city, illustrating the ancient industrial activity that supported Athens' construction.",
@@ -4066,8 +4151,8 @@ const POIs = [
     {
         "id": 166,
         "name": "Church of the Pantanassa (Monastiraki)",
-        "lat": 37.97607,
-        "lng": 23.72583,
+        "lat": 37.975058,
+        "lng": 23.730017,
         "image": "images/pantanassa_church.jpg",
         "description": "The 10th-century Byzantine church in Monastiraki Square, which originally served as the chapel of a large monastery complex.",
         "audioText": "Observe the small Byzantine church standing in Monastiraki Square, dedicated to the Dormition of the Virgin Mary. Built in the 10th century, this church was historically known as the Pantanassa. Following the Greek war of independence, the surrounding monastery buildings were dismantled, leaving only the small chapel standing. The citizens began calling it the 'Monastiraki' or 'little monastery,' which eventually gave the entire square and district its modern name.",
@@ -4091,8 +4176,8 @@ const POIs = [
     {
         "id": 167,
         "name": "Tomb of Dexileos (Kerameikos)",
-        "lat": 37.9781,
-        "lng": 23.7161,
+        "lat": 37.978634,
+        "lng": 23.718221,
         "image": "images/dexileos_tomb.jpg",
         "description": "The famous grave monument in the Kerameikos commemorating the young Athenian cavalryman Dexileos, who fell in battle in 394 BC.",
         "audioText": "Stand before the Monument of Dexileos in the Kerameikos. This classical grave relief, carved in 394 BC, commemorates Dexileos, a 20-year-old Athenian cavalryman who died fighting in the Corinthian War. The relief depicts Dexileos on a rearing horse, striking down a fallen Spartan enemy. The monument is historically significant because the inscription records his exact birth and death years, showing that even during intense wars, individual soldiers were honored with detailed, artistic memorials by their families.",
@@ -4116,8 +4201,8 @@ const POIs = [
     {
         "id": 168,
         "name": "National Garden Botanical Museum",
-        "lat": 37.9729,
-        "lng": 23.7370,
+        "lat": 37.975516,
+        "lng": 23.73495,
         "image": "images/botanical_museum.jpg",
         "description": "The historic neoclassical pavilion inside the National Garden displaying plant specimens and historical landscaping records.",
         "audioText": "Stroll to the neoclassical pavilion inside the National Garden, which houses the Botanical Museum. Built in the 19th century during the creation of the Royal Gardens by Queen Amalia, the museum displays a collection of seeds, pressed leaves, and wood specimens from the park's diverse flora. It also preserves historical documents and maps showing how this lush green park was designed, illustrating the botanical history of the city's central green space.",
@@ -4141,8 +4226,8 @@ const POIs = [
     {
         "id": 169,
         "name": "Antikythera Mechanism Gallery",
-        "lat": 37.9891,
-        "lng": 23.7327,
+        "lat": 37.989012,
+        "lng": 23.732958,
         "image": "images/antikythera_gallery.jpg",
         "description": "The dedicated display inside the National Archaeological Museum showcasing the fragments of the world's oldest analog computer.",
         "audioText": "Welcome to the gallery displaying the Antikythera Mechanism. Discovered by sponge divers in a shipwreck off the island of Antikythera in 1901, this complex bronze device dates to the 2nd century BC. It is widely considered the world's oldest analog computer, featuring a system of more than 30 interlocking gearwheels. The mechanism was used by ancient astronomers to calculate astronomical positions, solar eclipses, and the calendar cycle of the Olympic Games, showing the advanced level of Greek engineering.",
@@ -4166,8 +4251,8 @@ const POIs = [
     {
         "id": 170,
         "name": "Gazi Purifier Building (Technopolis)",
-        "lat": 37.9784,
-        "lng": 23.7140,
+        "lat": 37.978564,
+        "lng": 23.711477,
         "image": "images/gazi_purifier.jpg",
         "description": "The industrial purifier hall inside Technopolis where gas was filtered and chemically cleaned before storage.",
         "audioText": "Step near the Gazi Purifier Building inside Technopolis. Constructed in the late 19th century, this building served a critical role in the gas manufacturing process. The coal gas produced in the furnaces contained impurities like sulfur and tar, which would clog pipes and release toxic fumes. In this building, the gas was passed through chemical filters containing lime and iron oxide to purify it before it was routed to the gasometers. The preserved equipment shows the chemical engineering methods of the industrial revolution.",
@@ -4191,8 +4276,8 @@ const POIs = [
     {
         "id": 171,
         "name": "Plato's Academy Peristyle Building",
-        "lat": 37.9924,
-        "lng": 23.7084,
+        "lat": 37.991368,
+        "lng": 23.708381,
         "image": "images/academy_peristyle.jpg",
         "description": "The ruins of the square peristyle building inside Plato's Academy park, traditionally linked to the school's central teaching halls.",
         "audioText": "Observe the rectangular foundations of the Peristyle Building inside Plato's Academy park. Dating to the Hellenistic period, this structure featured a square central courtyard surrounded by colonnades, or peristyles. Historians believe this building served as the central classroom and meeting hall for the philosophers who studied at the Academy. Standing before these stone foundations, you are looking at the birthplace of academic institutions, where scholars gathered to debate geometry, ethics, and logic.",
@@ -4216,8 +4301,8 @@ const POIs = [
     {
         "id": 172,
         "name": "Tomb of Odysseas Elytis",
-        "lat": 37.9625,
-        "lng": 23.7383,
+        "lat": 37.978867,
+        "lng": 23.741605,
         "image": "images/elytis_tomb.jpg",
         "description": "The simple white marble grave in the First Cemetery of Odysseas Elytis, the Nobel laureate poet of the Aegean.",
         "audioText": "Visit the grave of Odysseas Elytis in the First Cemetery of Athens. One of the most celebrated Greek poets, Elytis received the Nobel Prize in Literature in 1979. His poetry is famous for celebrating the light, landscape, and sea of the Aegean, with his masterpiece, 'Axion Esti,' becoming a national anthem of hope and resilience set to music by Mikis Theodorakis. His tomb is a simple marble grave inscribed with his verse, representing the poetic spirit of modern Greece.",
@@ -4241,8 +4326,8 @@ const POIs = [
     {
         "id": 173,
         "name": "Stoa of the Herms (Agora)",
-        "lat": 37.9755,
-        "lng": 23.7224,
+        "lat": 37.975854,
+        "lng": 23.724106,
         "image": "images/stoa_herms.jpg",
         "description": "The archaeological site of the Stoa of the Herms, where ancient marble boundary posts were displayed in the Agora.",
         "audioText": "Observe the ruins of the Stoa of the Herms, located at the northern edge of the Agora. Built in the 5th century BC, this colonnade was famous for housing a large number of Herms—marble pillars topped with a bust of the god Hermes, which served as boundary markers and protectors of public spaces. The Herms were highly revered by citizens. In 415 BC, on the eve of the Sicilian Expedition, the citizens awoke to find that nearly all the Herms in the city had been mutilated, causing a massive religious scandal and political panic.",
@@ -4291,7 +4376,7 @@ const POIs = [
     {
         "id": 175,
         "name": "Odeon of Agrippa Giants Pillars",
-        "lat": 37.9750,
+        "lat": 37.975,
         "lng": 23.7229,
         "image": "images/agrippa_giants.jpg",
         "description": "The monumental structural pillars carved as human figures (Giants) that stood at the entrance of the Odeon of Agrippa.",
@@ -4316,8 +4401,8 @@ const POIs = [
     {
         "id": 176,
         "name": "Sacred Way Milestone (Kerameikos)",
-        "lat": 37.9786,
-        "lng": 23.7165,
+        "lat": 37.978634,
+        "lng": 23.718221,
         "image": "images/sacred_way_milestone.jpg",
         "description": "The remains of the ancient stone milestone that marked the start of the Sacred Way inside the Kerameikos.",
         "audioText": "Observe the stone milestone ruins inside the Kerameikos, near the Sacred Gate. In ancient times, this marker marked the start of the Sacred Way, or Iera Odos, which ran for 22 kilometers from Athens to Eleusis. The milestone served as a zero point for travelers, letting them measure the distance traveled along the road. It stands as a monument to the road networks that connected ancient Greek cities.",
@@ -4341,8 +4426,8 @@ const POIs = [
     {
         "id": 177,
         "name": "Stoa of Attalos Upper Floor View",
-        "lat": 37.9752,
-        "lng": 23.7239,
+        "lat": 37.975854,
+        "lng": 23.724106,
         "image": "images/attalos_upper_view.jpg",
         "description": "The upper colonnade of the Stoa of Attalos, offering panoramic views of the Agora and the temple of Hephaestus.",
         "audioText": "Climb to the upper floor of the Stoa of Attalos. The upper colonnade features Ionic columns, which are smaller and more detailed than the Doric columns on the ground floor. From this high viewpoint, you can look out across the entire Ancient Agora, seeing the foundations of the public buildings, the pathways, and the Temple of Hephaestus on the hill. In ancient times, citizens gathered here to watch festivals and civic processions below.",
@@ -4367,7 +4452,7 @@ const POIs = [
         "id": 178,
         "name": "Temple of Olympian Zeus Propylon",
         "lat": 37.9698,
-        "lng": 23.7330,
+        "lng": 23.733,
         "image": "images/zeus_propylon.jpg",
         "description": "The ruins of the monumental marble gateway built by Hadrian to serve as the main entrance to the temple precinct.",
         "audioText": "Stand near the ruins of the Propylon of the Temple of Olympian Zeus. Built in the 2nd century AD by the Roman Emperor Hadrian, this monumental marble gateway served as the main entrance to the massive walled temple precinct. The propylon featured Corinthian columns and detailed carvings, representing the grand gateway built to welcome visitors to the largest temple in Greece.",
@@ -4391,8 +4476,8 @@ const POIs = [
     {
         "id": 179,
         "name": "Tomb of Constantine Kanaris",
-        "lat": 37.9622,
-        "lng": 23.7380,
+        "lat": 37.963017,
+        "lng": 23.738324,
         "image": "images/kanaris_tomb.jpg",
         "description": "The grave in the First Cemetery of Constantine Kanaris, the Greek admiral and hero of the War of Independence who served as Prime Minister.",
         "audioText": "Visit the tomb of Constantine Kanaris in the First Cemetery. Kanaris was an admiral and hero of the Greek War of Independence, famous for his daring fire ship attacks that destroyed the Ottoman flagship at Chios in 1822. He later entered politics, serving as Prime Minister of Greece multiple times. His tomb is decorated with symbols of naval victory, honoring his courage and contribution to the birth of the modern Greek nation.",
@@ -4412,7 +4497,1687 @@ const POIs = [
             "provider": "First Cemetery Information Office",
             "codeHash": "8d402cd5a11343523e61f30c67a0ecb2be2c59df715a5b22286cd8ccd0ae33aa"
         }
-    }
+    },
+    {
+            "name": "Stavros Niarchos Foundation Cultural Center (SNFCC)",
+            "lat": 37.9398,
+            "lng": 23.6922,
+            "description": "A stunning modern cultural complex housing the National Library of Greece and the Greek National Opera.",
+            "audioText": "Welcome to the Stavros Niarchos Foundation Cultural Center, a masterpiece of modern architecture designed by Renzo Piano. This sustainable complex includes the Greek National Opera, the National Library of Greece, and a massive 210,000 square meter public park. Notice the Energy Canopy, a massive solar roof that provides shade and generates power. The SNFCC has redefined modern Athens as a beacon of education, sustainability, and the arts.",
+            "quiz": {
+                "question": "Which renowned architect designed the SNFCC?",
+                "options": [
+                    "Renzo Piano",
+                    "Zaha Hadid",
+                    "Norman Foster",
+                    "Santiago Calatrava"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Renzo Piano designed the SNFCC, ensuring it met high sustainability standards."
+            },
+            "reward": {
+                "title": "15% off at Canal Cafe",
+                "provider": "SNFCC Dining",
+                "codeHash": "045622393ac671c6587b45b94054b5c45c5b1a34feb9872648846981ce1766b3"
+            },
+            "id": 180
+        },
+        {
+            "name": "Eugenides Foundation Planetarium",
+            "lat": 37.9405,
+            "lng": 23.6934,
+            "description": "One of the largest and best-equipped digital planetariums in the world.",
+            "audioText": "You are standing near the Eugenides Planetarium. Established in 1956, the new digital planetarium is one of the largest in the world, with a massive 278 square meter dome. It provides spectacular immersive journeys through space, utilizing ultra-high-definition digital projection systems. The foundation's goal is to enhance scientific and technical education in Greece.",
+            "quiz": {
+                "question": "What is the primary educational focus of the Eugenides Foundation?",
+                "options": [
+                    "Scientific and technical education",
+                    "Classical Greek history",
+                    "Ancient mythology",
+                    "Marine biology"
+                ],
+                "answer": 0,
+                "feedback": "Correct! It focuses on scientific and technical education for the youth."
+            },
+            "reward": {
+                "title": "10% off at the Science Shop",
+                "provider": "Planetarium Gift Shop",
+                "codeHash": "f25b41cf6a10bb4ffe78d7c31b9d1bad9ce11c2065020561259357eebab3567a"
+            },
+            "id": 181
+        },
+        {
+            "name": "Megaron Athens Concert Hall",
+            "lat": 37.9806,
+            "lng": 23.7533,
+            "description": "A world-class performing arts venue with exceptional acoustics.",
+            "audioText": "Welcome to Megaron, the Athens Concert Hall. Inaugurated in 1991, this venue boasts some of the best acoustics in the world. It hosts classical music, opera, ballet, and major conferences. The Megaron has become a focal point for the performing arts in Greece, elevating Athens to the ranks of major global cultural capitals.",
+            "quiz": {
+                "question": "In what year was the Megaron Athens Concert Hall inaugurated?",
+                "options": [
+                    "1991",
+                    "1985",
+                    "2004",
+                    "1975"
+                ],
+                "answer": 0,
+                "feedback": "Correct! It opened its doors to the public in 1991."
+            },
+            "reward": {
+                "title": "Free guided tour of the Concert Hall",
+                "provider": "Megaron Info Desk",
+                "codeHash": "1dd384eddfc986e12edd55005d64d24644a51a0f97c7cb8a3bb4e15e73a2ed38"
+            },
+            "id": 182
+        },
+        {
+            "name": "Hellenic Maritime Museum",
+            "lat": 37.9317,
+            "lng": 23.6447,
+            "description": "The largest maritime museum in Greece, exploring the nation's rich naval history.",
+            "audioText": "Explore the Hellenic Maritime Museum located at the Zea Marina in Piraeus. This museum traces the naval history of the Greeks from prehistoric times to the present day. You can see models of ancient triremes, navigational instruments, and artifacts from the Greek War of Independence, highlighting the unbreakable bond between the Greeks and the sea.",
+            "quiz": {
+                "question": "Where is the Hellenic Maritime Museum located?",
+                "options": [
+                    "Zea Marina in Piraeus",
+                    "Syntagma Square",
+                    "Cape Sounion",
+                    "Flisvos Marina"
+                ],
+                "answer": 0,
+                "feedback": "Correct! It is located at Zea Marina, a historic harbor in Piraeus."
+            },
+            "reward": {
+                "title": "20% off admission",
+                "provider": "Hellenic Maritime Museum",
+                "codeHash": "a3fc148796d351f28299a550c3518af6048794cb74e33147e91f47da16a57976"
+            },
+            "id": 183
+        },
+        {
+            "name": "Averof Battleship Museum",
+            "lat": 37.9332,
+            "lng": 23.6841,
+            "description": "A legendary armored cruiser that served as the flagship of the Hellenic Navy.",
+            "audioText": "You are looking at the Georgios Averof, a legendary armored cruiser that served as the flagship of the Hellenic Navy. It played a crucial role in the Balkan Wars of 1912 to 1913, helping Greece secure naval dominance in the Aegean Sea. Remarkably, it is one of the only active museum ships in the world that is still technically in commission.",
+            "quiz": {
+                "question": "During which major conflict did the Averof secure Greek naval dominance?",
+                "options": [
+                    "The Balkan Wars",
+                    "World War II",
+                    "The Greek War of Independence",
+                    "The Cold War"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The Averof was instrumental during the Balkan Wars (1912-1913)."
+            },
+            "reward": {
+                "title": "Free commemorative postcard",
+                "provider": "Averof Gift Shop",
+                "codeHash": "9c333912dc86c7393b21407c30cf6121983ff81c2609a017c7be17dfa61275a1"
+            },
+            "id": 184
+        },
+        {
+            "name": "Benaki Museum of Islamic Art",
+            "lat": 37.9774,
+            "lng": 23.7198,
+            "description": "A stunning collection of Islamic art spanning from India to Spain.",
+            "audioText": "Welcome to the Benaki Museum of Islamic Art. Located in the historical center of Athens, this museum houses over 8,000 works of art from the Middle East, Iran, Turkey, North Africa, and India. The collection spans from the dawn of Islam up to the 19th century, featuring exquisite ceramics, textiles, and woodcarvings. Don't miss the 17th-century reception room from a Cairo mansion.",
+            "quiz": {
+                "question": "Which specific 17th-century room is a highlight of the museum?",
+                "options": [
+                    "A reception room from a Cairo mansion",
+                    "A bathhouse from Istanbul",
+                    "A royal tent from Persia",
+                    "A courtyard from Cordoba"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The museum features a spectacular reconstructed reception room from 17th-century Cairo."
+            },
+            "reward": {
+                "title": "10% off museum publications",
+                "provider": "Benaki Museum Shop",
+                "codeHash": "7dac42358373540988d0a694bb1642639db19da81206d4bef10a205981419224"
+            },
+            "id": 185
+        },
+        {
+            "name": "Kotsanas Museum of Ancient Greek Technology",
+            "lat": 37.9789,
+            "lng": 23.738,
+            "description": "An interactive exhibition of the incredible technological inventions of the ancient Greeks.",
+            "audioText": "Discover the high-tech world of antiquity at the Kotsanas Museum of Ancient Greek Technology. This unique museum features fully functional models of ancient inventions, from the automatic doors of Heron to the alarm clock of Plato and the analog computer known as the Antikythera Mechanism. It proves that ancient Greek technology was far more advanced than most people realize.",
+            "quiz": {
+                "question": "Which ancient philosopher's alarm clock is featured in the museum?",
+                "options": [
+                    "Plato",
+                    "Aristotle",
+                    "Socrates",
+                    "Pythagoras"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The museum features a working model of Plato's hydraulic alarm clock."
+            },
+            "reward": {
+                "title": "15% off a DIY ancient invention kit",
+                "provider": "Kotsanas Museum Shop",
+                "codeHash": "08c1384c3dae481c189ba4f561b0b2acd8cfa963697ebdcc73bbad8be08f94ff"
+            },
+            "id": 186
+        },
+        {
+            "name": "Ilias Lalaounis Jewelry Museum",
+            "lat": 37.9692,
+            "lng": 23.7275,
+            "description": "A museum dedicated to the art of jewelry and the decorative arts.",
+            "audioText": "You are at the Ilias Lalaounis Jewelry Museum, founded by the renowned Greek jeweler Ilias Lalaounis. The museum showcases over 4,000 pieces of jewelry and micro-sculptures inspired by ancient Greek, Byzantine, and various global cultures. Lalaounis was famous for reviving ancient gold-smithing techniques like granulation and filigree to create modern masterpieces.",
+            "quiz": {
+                "question": "Which ancient gold-smithing technique did Ilias Lalaounis famously revive?",
+                "options": [
+                    "Granulation and filigree",
+                    "Electroplating",
+                    "Diamond cutting",
+                    "Lost-wax casting"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Lalaounis revived intricate ancient techniques like granulation and filigree."
+            },
+            "reward": {
+                "title": "Free exhibition guide",
+                "provider": "Lalaounis Museum Desk",
+                "codeHash": "b21ac344ffb9d6030632d2d88ad2a5a39161ca0da7ceb4ed732630db46e6704a"
+            },
+            "id": 187
+        },
+        {
+            "name": "Museum of Greek Folk Musical Instruments",
+            "lat": 37.9744,
+            "lng": 23.7275,
+            "description": "A delightful collection of traditional Greek musical instruments spanning three centuries.",
+            "audioText": "Welcome to the Museum of Greek Folk Musical Instruments, located in an 1840s mansion in Plaka. The collection displays 1,200 popular musical instruments dating from the 18th century to the present. You can listen to the authentic sounds of bouzoukis, lyras, and gaidas (bagpipes) through headphones at the display cases, experiencing the soul of Greek folk traditions.",
+            "quiz": {
+                "question": "What is the 'gaida' displayed in this museum?",
+                "options": [
+                    "A traditional Greek bagpipe",
+                    "A stringed lute",
+                    "A type of drum",
+                    "A wooden flute"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The gaida is a traditional Greek bagpipe."
+            },
+            "reward": {
+                "title": "10% off traditional music CDs",
+                "provider": "Folk Museum Shop",
+                "codeHash": "a4b38ea51527c57a6552eff3262e8d4362da5824d479967450b0008d5c088558"
+            },
+            "id": 188
+        },
+        {
+            "name": "Basil & Elise Goulandris Foundation",
+            "lat": 37.9693,
+            "lng": 23.7432,
+            "description": "A spectacular museum showcasing world-class modern and contemporary art.",
+            "audioText": "You are at the Basil and Elise Goulandris Foundation in Pagrati. This extraordinary museum houses one of the most important private collections of modern and contemporary art in the world. Visitors can admire masterpieces by Picasso, Van Gogh, Monet, Degas, and Rodin, alongside prominent Greek artists like Tsarouchis and Moralis, all beautifully displayed in a state-of-the-art facility.",
+            "quiz": {
+                "question": "Which of these famous artists has works displayed at the Goulandris Foundation?",
+                "options": [
+                    "Vincent Van Gogh",
+                    "Leonardo da Vinci",
+                    "Michelangelo",
+                    "Rembrandt"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The museum features an incredible collection including works by Van Gogh, Picasso, and Monet."
+            },
+            "reward": {
+                "title": "10% off at the Museum Cafe",
+                "provider": "Goulandris Cafe",
+                "codeHash": "81f99851beb8b252d809b7b07c7e6bdf5460c20c035afe952bbd55f86d598c61"
+            },
+            "id": 189
+        },
+        {
+            "name": "Goulandris Natural History Museum",
+            "lat": 38.0733,
+            "lng": 23.8164,
+            "description": "A leading institution dedicated to the study, conservation, and protection of the natural environment.",
+            "audioText": "Welcome to the Goulandris Natural History Museum in Kifissia. Founded in 1964, the museum is dedicated to educating the public about the rich biodiversity of Greece and the Mediterranean. Its striking exhibits include massive botanical, zoological, geological, and paleontological collections, including impressive full-scale dinosaur replicas and prehistoric fossils found in Greek soil.",
+            "quiz": {
+                "question": "In what year was the Goulandris Natural History Museum founded?",
+                "options": [
+                    "1964",
+                    "1980",
+                    "1950",
+                    "2001"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The museum was established in 1964 to promote environmental awareness."
+            },
+            "reward": {
+                "title": "Free botanical bookmark",
+                "provider": "Goulandris Museum Shop",
+                "codeHash": "fda956b3a58c402ecd23f2ab08e784f3923989fb98575ec80ce7f61fca040c56"
+            },
+            "id": 190
+        },
+        {
+            "name": "Epigraphic Museum",
+            "lat": 37.9885,
+            "lng": 23.7324,
+            "description": "The largest museum in the world dedicated to ancient inscriptions.",
+            "audioText": "You are standing at the Epigraphic Museum, the largest of its kind in the world. It houses over 14,000 ancient inscriptions, mostly in Greek, carved on stone. These inscribed slabs are the primary documents of ancient history, recording laws, decrees, treaties, and public accounts. It is a true archive of the ancient world, preserving the very words of the Athenians.",
+            "quiz": {
+                "question": "Approximately how many ancient inscriptions are housed in the Epigraphic Museum?",
+                "options": [
+                    "Over 14,000",
+                    "About 5,000",
+                    "Under 1,000",
+                    "Exactly 50,000"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The museum safeguards over 14,000 ancient stone inscriptions."
+            },
+            "reward": {
+                "title": "10% off history books",
+                "provider": "Museum Bookstore",
+                "codeHash": "2f6d176393b882c4763fedb87cc062734afcbf39c1267d1bbe3e78f17eb52795"
+            },
+            "id": 191
+        },
+        {
+            "name": "Herakleidon Museum",
+            "lat": 37.9767,
+            "lng": 23.7176,
+            "description": "A museum blending art, mathematics, and science through interactive exhibits.",
+            "audioText": "Welcome to the Herakleidon Museum in Thissio. Originally focused on fine arts and artists like M.C. Escher, the museum now specializes in the intersection of science, art, and mathematics. Its interactive exhibitions explore themes like 'Eureka: Science, Art and Technology of the Ancient Greeks', making complex scientific principles accessible and fun for visitors of all ages.",
+            "quiz": {
+                "question": "Which famous artist, known for his mathematically inspired woodcuts, was heavily featured in the museum's early years?",
+                "options": [
+                    "M.C. Escher",
+                    "Pablo Picasso",
+                    "Salvador Dali",
+                    "Jackson Pollock"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The museum was originally famous for its extensive M.C. Escher exhibitions."
+            },
+            "reward": {
+                "title": "15% off an interactive puzzle",
+                "provider": "Herakleidon Gift Shop",
+                "codeHash": "7a918cef981a308dad13f108aff2140277a4695e804b3c73d69c3b0f7e98ad30"
+            },
+            "id": 192
+        },
+        {
+            "name": "Vorres Museum",
+            "lat": 37.954,
+            "lng": 23.8643,
+            "description": "A beautiful cultural foundation showcasing Greek contemporary art and folk tradition.",
+            "audioText": "You are visiting the Vorres Museum in Paiania. Divided into two main sections, the museum features a gallery of contemporary Greek art, and a complex of traditional village houses, showcasing folk art, antique furniture, and historical artifacts. The beautiful gardens seamlessly blend modern sculptures with traditional Greek architecture, creating a peaceful cultural oasis.",
+            "quiz": {
+                "question": "What are the two main sections of the Vorres Museum?",
+                "options": [
+                    "Contemporary Art and Folk Tradition",
+                    "Ancient History and Space Exploration",
+                    "Maritime History and Botany",
+                    "Numismatics and Epigraphy"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The museum contrasts a modern art gallery with traditional Greek folk houses."
+            },
+            "reward": {
+                "title": "10% off local art prints",
+                "provider": "Vorres Museum Shop",
+                "codeHash": "4ba61fd3307c7499cb484879d48941a71bb29d1b2105c6bff8971cb3da0bc461"
+            },
+            "id": 193
+        },
+        {
+            "name": "Mineralogical Museum of Lavrion",
+            "lat": 37.7139,
+            "lng": 24.0531,
+            "description": "A showcase of the stunning and rare minerals from the Lavrion mining district.",
+            "audioText": "Welcome to the Mineralogical Museum of Lavrion. The Lavrion region is world-famous among geologists for its incredibly diverse and colorful minerals, many of which are unique to this area. The museum displays hundreds of rare specimens, including beautiful crystals of smithsonite, azurite, and annabergite, reflecting the rich geological wealth that funded ancient Athens.",
+            "quiz": {
+                "question": "Why is the Lavrion region famous among geologists worldwide?",
+                "options": [
+                    "Its highly diverse and rare mineral crystals",
+                    "Its large diamond deposits",
+                    "Its active volcanoes",
+                    "Its dinosaur fossils"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Lavrion is renowned for having over 600 different types of minerals, some found nowhere else on Earth."
+            },
+            "reward": {
+                "title": "Free mineral identification card",
+                "provider": "Museum Desk",
+                "codeHash": "14e609e025b9314d8ee7deb43054437a57823abe74023014a7334f218e6b22ee"
+            },
+            "id": 194
+        },
+        {
+            "name": "Lavrion Technological and Cultural Park",
+            "lat": 37.718,
+            "lng": 24.0558,
+            "description": "An industrial heritage site built on the ruins of the historic French Mining Company.",
+            "audioText": "You are at the Lavrion Technological and Cultural Park. This site preserves the impressive industrial facilities of the French Mining Company, which operated here from 1873 to 1989. Today, the park is a hub for research, education, and culture. Walking among the restored industrial buildings and old machinery provides a fascinating look into the industrial revolution in Greece.",
+            "quiz": {
+                "question": "Which foreign mining company operated the facilities preserved at this park from 1873 to 1989?",
+                "options": [
+                    "The French Mining Company",
+                    "The British Mining Guild",
+                    "The German Industrial Corp",
+                    "The Italian Excavation Society"
+                ],
+                "answer": 0,
+                "feedback": "Correct! It was operated by the French Mining Company of Lavrion."
+            },
+            "reward": {
+                "title": "15% off guided industrial tour",
+                "provider": "Park Information Center",
+                "codeHash": "ace48c7c08b41d99b9da7691fd0efab684700bc84158619365574afdc8572e3d"
+            },
+            "id": 195
+        },
+        {
+            "name": "Archaeological Museum of Marathon",
+            "lat": 38.1213,
+            "lng": 23.9482,
+            "description": "A museum preserving the artifacts from the famed Battle of Marathon and nearby ancient sites.",
+            "audioText": "Welcome to the Archaeological Museum of Marathon. This museum houses artifacts from the legendary Battle of Marathon in 490 BC, including weapons and pottery found in the Tomb of the Athenians. It also features beautiful statues and finds from the nearby Sanctuary of the Egyptian Gods and the Cave of Pan, offering a comprehensive look at the history of the Marathon plain.",
+            "quiz": {
+                "question": "In what year did the famous Battle of Marathon take place?",
+                "options": [
+                    "490 BC",
+                    "480 BC",
+                    "323 BC",
+                    "146 BC"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The Battle of Marathon, a decisive Greek victory against the Persians, occurred in 490 BC."
+            },
+            "reward": {
+                "title": "Free bookmark of Miltiades",
+                "provider": "Marathon Museum Shop",
+                "codeHash": "c1f30e06a1eb724aa09e514a4f82048377a87d50a31c65298c19041badb7c817"
+            },
+            "id": 196
+        },
+        {
+            "name": "Archaeological Museum of Lavrion",
+            "lat": 37.7144,
+            "lng": 24.056,
+            "description": "Displays antiquities from the ancient silver mining region of Lavreotiki.",
+            "audioText": "You are visiting the Archaeological Museum of Lavrion. The museum highlights the ancient silver mining industry that powered the Athenian Empire. Exhibits include ancient mining tools, lead ingots, and beautiful pottery found in the local settlements and cemeteries. It tells the story of the thousands of slaves who lived and worked in the mines to extract silver for the Athenian owls.",
+            "quiz": {
+                "question": "What precious metal was primarily mined in the Lavrion region during antiquity?",
+                "options": [
+                    "Silver",
+                    "Gold",
+                    "Copper",
+                    "Iron"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Lavrion was famous for its rich silver mines."
+            },
+            "reward": {
+                "title": "10% off museum replicas",
+                "provider": "Lavrion Museum Shop",
+                "codeHash": "855a03274fe36351ebaa9186986f01b869a06166eb119b2c325823cb53a3d725"
+            },
+            "id": 197
+        },
+        {
+            "name": "Archaeological Museum of Brauron",
+            "lat": 37.9254,
+            "lng": 23.9934,
+            "description": "A delightful museum dedicated to the cult of Artemis and the young girls who served her.",
+            "audioText": "Welcome to the Archaeological Museum of Brauron, located near the Sanctuary of Artemis. The museum displays beautiful statues of little boys and girls known as 'arktoi' or little bears. In ancient times, young Athenian girls were sent to Brauron to serve Artemis before they reached marriageable age. The museum's collection gives a touching glimpse into the lives of children in ancient Greece.",
+            "quiz": {
+                "question": "What animal were the young girls serving Artemis at Brauron referred to as?",
+                "options": [
+                    "Little bears (Arktoi)",
+                    "Little owls",
+                    "Little deer",
+                    "Little doves"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The young girls were called 'Arktoi', meaning little bears, in honor of Artemis."
+            },
+            "reward": {
+                "title": "Free postcard of an Arktoi statue",
+                "provider": "Brauron Museum Shop",
+                "codeHash": "6c5fcaf041a5b2d62dba06e6545137bd7697a2aada9dd69300f646c272162e24"
+            },
+            "id": 198
+        },
+        {
+            "name": "Sanctuary of the Egyptian Gods (Brexiza)",
+            "lat": 38.1182,
+            "lng": 23.9782,
+            "description": "An impressive Roman-era sanctuary built by Herodes Atticus dedicated to Isis and Serapis.",
+            "audioText": "You are standing at the Sanctuary of the Egyptian Gods in the marshy area of Brexiza, near Marathon. This unique sanctuary was built in the 2nd century AD by the wealthy Athenian benefactor Herodes Atticus. It was dedicated to the Egyptian deities Isis and Serapis. The site features a stepped pyramid-like structure and was originally adorned with large statues exhibiting a blend of Egyptian and Greek artistic styles.",
+            "quiz": {
+                "question": "Which wealthy Athenian benefactor built this sanctuary?",
+                "options": [
+                    "Herodes Atticus",
+                    "Pericles",
+                    "Hadrian",
+                    "Themistocles"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Herodes Atticus built the sanctuary on his vast estate in Marathon."
+            },
+            "reward": {
+                "title": "15% off guidebooks on Roman Greece",
+                "provider": "Local Tourism Office",
+                "codeHash": "1edeb003cfd5c7f96c651ce619cefc6a54c9ade79f0aa09b8fb186a2d441da74"
+            },
+            "id": 199
+        },
+        {
+            "name": "Temple of Artemis at Loutsa",
+            "lat": 37.9644,
+            "lng": 24.0041,
+            "description": "The coastal ruins of an ancient Doric temple dedicated to Artemis Tauropolos.",
+            "audioText": "Welcome to the coastal ruins of the Temple of Artemis Tauropolos in modern-day Loutsa. According to myth, this is where Orestes and Iphigenia landed after escaping from Tauris, carrying the sacred wooden statue of Artemis. The Doric temple was built in the 5th century BC right on the shoreline. Today, its foundations lie peacefully next to the sea, offering a serene glimpse into ancient coastal worship.",
+            "quiz": {
+                "question": "According to myth, who brought the sacred wooden statue of Artemis to this location?",
+                "options": [
+                    "Orestes and Iphigenia",
+                    "Theseus and Ariadne",
+                    "Jason and Medea",
+                    "Odysseus and Penelope"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Myth says Orestes and his sister Iphigenia brought the statue here from Tauris."
+            },
+            "reward": {
+                "title": "10% off seafood at nearby tavernas",
+                "provider": "Loutsa Beach Restaurants",
+                "codeHash": "9f97a7ad41dd77262623660a1fefaafef77b97bbdb0e0a9901e9d5ed5620a15d"
+            },
+            "id": 200
+        },
+        {
+            "name": "Municipal Theatre of Piraeus",
+            "lat": 37.9431,
+            "lng": 23.6473,
+            "description": "A magnificent neoclassical building that serves as the cultural heart of Piraeus.",
+            "audioText": "You are looking at the Municipal Theatre of Piraeus, a stunning neoclassical masterpiece completed in 1895. Designed by architect Ioannis Lazarimos, the building features a monumental propylon with four Corinthian columns. It is considered one of the leading theatrical stages in Greece and remains the cultural epicenter of the port city of Piraeus, hosting plays, concerts, and major events.",
+            "quiz": {
+                "question": "What architectural style is the Municipal Theatre of Piraeus built in?",
+                "options": [
+                    "Neoclassical",
+                    "Gothic",
+                    "Baroque",
+                    "Brutalist"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The theatre is a prime example of Greek Neoclassical architecture."
+            },
+            "reward": {
+                "title": "10% off theatre tickets",
+                "provider": "Piraeus Box Office",
+                "codeHash": "202c13a068b2bf0cd7106f226eefb775cb8049dee10ecb0dfa7162da888b38d7"
+            },
+            "id": 201
+        },
+        {
+            "name": "Kastella Hill / Profitis Ilias",
+            "lat": 37.9388,
+            "lng": 23.6558,
+            "description": "A picturesque hill in Piraeus offering sweeping panoramic views of the Saronic Gulf.",
+            "audioText": "Climb up Kastella Hill, historically known as Munichia. Topped by the church of Profitis Ilias, this elegant neighborhood features beautiful 19th-century neoclassical mansions and steep, narrow streets. From the summit, you are rewarded with a breathtaking panoramic view of the Saronic Gulf, the ports of Mikrolimano and Zea, and the entire Athenian coastline spreading out below you.",
+            "quiz": {
+                "question": "What was the ancient name of Kastella Hill?",
+                "options": [
+                    "Munichia",
+                    "Phaleron",
+                    "Salamis",
+                    "Aegina"
+                ],
+                "answer": 0,
+                "feedback": "Correct! In antiquity, the hill and its adjacent harbor were known as Munichia."
+            },
+            "reward": {
+                "title": "Free coffee with any dessert",
+                "provider": "Kastella Hilltop Cafe",
+                "codeHash": "35b1e473fae68daca71f6a767a29962afa947cf4cb16e1554c5375694fd04397"
+            },
+            "id": 202
+        },
+        {
+            "name": "Diomedes Botanical Garden",
+            "lat": 38.0108,
+            "lng": 23.6494,
+            "description": "The largest botanical garden in Greece and the Eastern Mediterranean.",
+            "audioText": "Welcome to the Diomedes Botanical Garden in Haidari. Spanning nearly 1,900 stremmata, it is the largest botanical garden in Greece. It is home to thousands of plant species from around the world. A unique highlight is the 'Historic Plants' section, which features flora mentioned in ancient Greek mythology and the Bible, such as the hemlock that poisoned Socrates and the mythical mandrake.",
+            "quiz": {
+                "question": "Which notorious plant, used to execute Socrates, is featured in the Historic Plants section?",
+                "options": [
+                    "Hemlock",
+                    "Nightshade",
+                    "Oleander",
+                    "Wolfsbane"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Conium maculatum, or poison hemlock, is grown in the historic section."
+            },
+            "reward": {
+                "title": "Free seed packet of Greek herbs",
+                "provider": "Botanical Garden Kiosk",
+                "codeHash": "f25d90ff5e0e36b58be59ab32ef5755421684bcc36fccc1fe9749e41e233915b"
+            },
+            "id": 203
+        },
+        {
+            "name": "Attica Zoological Park",
+            "lat": 37.9818,
+            "lng": 23.9103,
+            "description": "Greece's premier zoological park, home to over 2,000 animals.",
+            "audioText": "You are at the Attica Zoological Park in Spata. Founded in 2000, it is the only large-scale zoo in Greece. It houses over 2,000 animals representing 290 species from all five continents. The zoo places a strong emphasis on the conservation of endangered species and educating the public about global biodiversity, featuring expansive habitats for big cats, primates, and marine mammals.",
+            "quiz": {
+                "question": "In what year did the Attica Zoological Park open to the public?",
+                "options": [
+                    "2000",
+                    "1990",
+                    "2010",
+                    "1985"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The park opened its doors in the year 2000."
+            },
+            "reward": {
+                "title": "15% off zoo entry",
+                "provider": "Attica Zoo Ticketing",
+                "codeHash": "d7b178f5f82045ef1d7efe61c8a51121bdcb687871c3d4db1a0d503da6c985bf"
+            },
+            "id": 204
+        },
+        {
+            "name": "Schinias Olympic Rowing Centre",
+            "lat": 38.1517,
+            "lng": 24.0136,
+            "description": "The stunning rowing and canoeing venue constructed for the 2004 Athens Olympics.",
+            "audioText": "Welcome to the Schinias Olympic Rowing and Canoeing Centre. Built for the 2004 Athens Olympic Games, this massive 2,250-meter-long artificial lake is integrated into the beautiful Schinias National Park. Despite initial environmental concerns, the facility was designed to help restore the surrounding wetlands. Today, it remains an active training facility for athletes and a quiet retreat for nature lovers.",
+            "quiz": {
+                "question": "For which major event was the Schinias Rowing Centre constructed?",
+                "options": [
+                    "2004 Athens Olympics",
+                    "1896 First Modern Olympics",
+                    "1997 World Athletics Championships",
+                    "2010 European Games"
+                ],
+                "answer": 0,
+                "feedback": "Correct! It was custom-built for the 2004 Olympic Games."
+            },
+            "reward": {
+                "title": "10% off kayak rentals",
+                "provider": "Schinias Water Sports",
+                "codeHash": "e58fdf2ec753546afe39d1d83caaab737ee75696491b9455fde6495435370890"
+            },
+            "id": 205
+        },
+        {
+            "name": "Mikrolimano Marina",
+            "lat": 37.9385,
+            "lng": 23.6592,
+            "description": "A charming, lively marina famous for its seafood restaurants and elegant yachts.",
+            "audioText": "Stroll along the docks of Mikrolimano, meaning 'Little Port' in Greek. Known in antiquity as the port of Munichia, today it is a bustling, picturesque marina in Piraeus. The waterfront is lined with premium seafood restaurants and cafes, where visitors sit to enjoy fresh fish and ouzo while watching the luxurious yachts and small fishing boats bob gently in the Aegean waters.",
+            "quiz": {
+                "question": "What does the name 'Mikrolimano' translate to in English?",
+                "options": [
+                    "Little Port",
+                    "Blue Bay",
+                    "Fisherman's Cove",
+                    "Ancient Harbor"
+                ],
+                "answer": 0,
+                "feedback": "Correct! 'Mikro' means little, and 'limano' means port."
+            },
+            "reward": {
+                "title": "Free meze platter with any seafood order",
+                "provider": "Mikrolimano Tavernas",
+                "codeHash": "db3320c0fd6a8b3e3e012b0dfa7c1dc8808d1bdbe45448b433515e9f0a771083"
+            },
+            "id": 206
+        },
+        {
+            "name": "Flisvos Marina",
+            "lat": 37.9318,
+            "lng": 23.6852,
+            "description": "Athens' premier mega-yacht destination, featuring high-end shopping and dining.",
+            "audioText": "Welcome to Flisvos Marina in Palaio Faliro. Upgraded significantly for the 2004 Olympics, Flisvos is now the ultimate mega-yacht destination in Greece. Featuring a wide promenade, upscale boutiques, and stylish seaside bars, it offers a cosmopolitan atmosphere. It is the perfect place to watch a magnificent Athenian sunset over the Saronic Gulf.",
+            "quiz": {
+                "question": "What type of vessels is Flisvos Marina primarily known for hosting today?",
+                "options": [
+                    "Mega-yachts",
+                    "Commercial cargo ships",
+                    "Traditional wooden fishing boats",
+                    "Naval destroyers"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Flisvos Marina is highly regarded as a top-tier mega-yacht destination."
+            },
+            "reward": {
+                "title": "10% off at Flisvos Marina Cafes",
+                "provider": "Marina Dining",
+                "codeHash": "df2fd51052a3b0e1208b1f9c4b3d7518c69708257d3ccb6fcc51fe98b8c1cb42"
+            },
+            "id": 207
+        },
+        {
+            "name": "Monastery of Saint Ephraim",
+            "lat": 38.0933,
+            "lng": 23.9575,
+            "description": "A highly revered Orthodox monastery in Nea Makri, attracting thousands of pilgrims.",
+            "audioText": "You are visiting the Monastery of Saint Ephraim in Nea Makri. The monastery, originally built in the 10th century, is dedicated to Saint Ephraim, a martyr who lived and died here during the Ottoman occupation. Today, it is one of the most important pilgrimage sites in Attica. Inside, the saint's holy relics are preserved, and believers flock here to pray for healing and miracles.",
+            "quiz": {
+                "question": "What is the primary reason thousands of believers visit this monastery?",
+                "options": [
+                    "To pray at the holy relics of Saint Ephraim for miracles",
+                    "To see ancient Greek statues",
+                    "To view the first printed Greek Bible",
+                    "To admire Byzantine mosaics"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Pilgrims visit to venerate the relics of Saint Ephraim, seeking healing."
+            },
+            "reward": {
+                "title": "Free religious icon card",
+                "provider": "Monastery Gift Shop",
+                "codeHash": "0d0e0700c95a44dd9508ec5b7da6c6b29f12cd8149fdd32c7e7552733dcd09d7"
+            },
+            "id": 208
+        },
+        {
+            "name": "Penteli Monastery",
+            "lat": 38.0568,
+            "lng": 23.8824,
+            "description": "A historic 16th-century monastery nestled in the pine forests of Mount Pentelicus.",
+            "audioText": "Welcome to the Holy Monastery of the Dormition of the Virgin Mary, commonly known as Penteli Monastery. Founded in 1578 by Saint Timotheos, it is surrounded by the lush pine forests of Mount Pentelicus. During the Ottoman occupation, it served as a secret school, teaching Greek language and history. The monastery played a significant intellectual and spiritual role in preserving Greek identity.",
+            "quiz": {
+                "question": "What secret activity took place at the Penteli Monastery during the Ottoman occupation?",
+                "options": [
+                    "It operated a secret school teaching Greek",
+                    "It forged weapons for the revolution",
+                    "It minted illegal currency",
+                    "It housed a printing press"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The monastery famously hosted a 'Krifo Scholio' (secret school) to preserve the Greek language."
+            },
+            "reward": {
+                "title": "15% off local mountain honey",
+                "provider": "Monastery Produce Shop",
+                "codeHash": "5a27b2af3f783867defa480bf61534786484e750a7ee5f87d431bb3129c5d61d"
+            },
+            "id": 209
+        },
+    {
+            "name": "Temple of Aphaia",
+            "lat": 37.7547,
+            "lng": 23.5325,
+            "description": "A magnificent ancient Doric temple forming part of the 'Sacred Triangle' of antiquity.",
+            "audioText": "Welcome to the Temple of Aphaia on the island of Aegina. Built around 500 BC, this remarkably well-preserved Doric temple was dedicated to the mother-goddess Aphaia. Interestingly, this temple, along with the Parthenon in Athens and the Temple of Poseidon at Sounion, are said to form a perfect equilateral triangle across the Saronic Gulf, known as the 'Sacred Triangle' of antiquity.",
+            "quiz": {
+                "question": "Which two other temples form the 'Sacred Triangle' with the Temple of Aphaia?",
+                "options": [
+                    "Parthenon and Temple of Poseidon (Sounion)",
+                    "Temple of Zeus and Erechtheion",
+                    "Temple of Apollo and Temple of Artemis",
+                    "Hephaesteion and Temple of Hera"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The Parthenon, Temple of Poseidon, and Temple of Aphaia form the legendary Sacred Triangle."
+            },
+            "reward": {
+                "title": "15% off pistachio ice cream",
+                "provider": "Aegina Port Gelateria",
+                "codeHash": "63931668f870bdae388f7bf65510947a43e1f53885d733668ca616c4fe0dab2a"
+            },
+            "id": 210
+        },
+        {
+            "name": "Kolona Archaeological Site",
+            "lat": 37.7478,
+            "lng": 23.4246,
+            "description": "The ruins of Aegina's ancient acropolis, characterized by a single standing column of Apollo's temple.",
+            "audioText": "You are exploring Kolona, the ancient acropolis of Aegina. The site gets its name—meaning 'column' in Greek—from the single Doric pillar that still stands from the 6th-century BC Temple of Apollo. This hill has been inhabited since the Bronze Age and offers fantastic views of the harbor where Aegina's powerful fleet once anchored, rivaling even Athens.",
+            "quiz": {
+                "question": "Which Greek god was the temple with the single remaining column dedicated to?",
+                "options": [
+                    "Apollo",
+                    "Zeus",
+                    "Ares",
+                    "Hermes"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The solitary column belongs to the ancient Temple of Apollo."
+            },
+            "reward": {
+                "title": "Free map of Ancient Aegina",
+                "provider": "Kolona Ticket Office",
+                "codeHash": "6674b132722ac8bd61e05951ee817d33b79ef9367bef70f6cc7cce58a70f00c9"
+            },
+            "id": 211
+        },
+        {
+            "name": "Monastery of Saint Nectarios",
+            "lat": 37.7475,
+            "lng": 23.483,
+            "description": "A massive, beautiful monastery dedicated to one of the most widely known modern Orthodox saints.",
+            "audioText": "Welcome to the Monastery of Agios Nektarios. Saint Nektarios, who lived from 1846 to 1920, is one of the most recently canonized saints in the Greek Orthodox Church, known as a great miracle worker and healer. This vast, modern church and monastery complex is one of the largest in the Balkans and attracts thousands of pilgrims daily seeking spiritual comfort and physical healing.",
+            "quiz": {
+                "question": "For what specific spiritual grace is Saint Nectarios primarily known by the faithful?",
+                "options": [
+                    "As a miracle worker and healer",
+                    "As the patron saint of sailors",
+                    "As the protector of lost objects",
+                    "As a warrior saint"
+                ],
+                "answer": 0,
+                "feedback": "Correct! He is highly venerated as a miraculous healer."
+            },
+            "reward": {
+                "title": "Free holy oil vial",
+                "provider": "Monastery Kiosk",
+                "codeHash": "2ce641aaa30699b6e29fee4c62ac53d36602e2bd5a9a2dfd5d67a22177694ba7"
+            },
+            "id": 212
+        },
+        {
+            "name": "Tower of Markellos",
+            "lat": 37.7455,
+            "lng": 23.4283,
+            "description": "A striking pink Venetian tower that served as a government building during the Greek Revolution.",
+            "audioText": "You are looking at the striking pink Tower of Markellos. Built by the Venetians in the 17th century, it was later renovated in 1802 by Spyros Markellos. During the Greek War of Independence, Aegina briefly served as the first capital of the modern Greek State. This very tower housed the first Greek government officials, including Ioannis Kapodistrias, the first Governor of Greece.",
+            "quiz": {
+                "question": "Which notable figure and first Governor of Greece lived and worked in this tower?",
+                "options": [
+                    "Ioannis Kapodistrias",
+                    "Theodoros Kolokotronis",
+                    "Lord Byron",
+                    "Eleftherios Venizelos"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Ioannis Kapodistrias used the tower when Aegina was the provisional capital."
+            },
+            "reward": {
+                "title": "10% off local pistachio butter",
+                "provider": "Markellos Square Shop",
+                "codeHash": "6512739e056fb9d254bd71e9ad420b79b1f8a9d2466d943d4f46622b0b868280"
+            },
+            "id": 213
+        },
+        {
+            "name": "Cave of Euripides",
+            "lat": 37.8864,
+            "lng": 23.4619,
+            "description": "A secluded cave on the island of Salamis where the great tragedian wrote his masterpieces.",
+            "audioText": "Welcome to the Cave of Euripides, located high on a hillside in southern Salamis overlooking the Saronic Gulf. The famous Athenian playwright Euripides retreated to this peaceful, secluded cave to write his great tragedies, far from the bustling noise of the city. Archaeological excavations here in 1997 actually uncovered a skyphos—a wine cup—with letters spelling out his name, confirming the legend.",
+            "quiz": {
+                "question": "What remarkable artifact was found here in 1997 proving Euripides used this cave?",
+                "options": [
+                    "A wine cup bearing his name",
+                    "A golden mask of tragedy",
+                    "A marble statue of Apollo",
+                    "The original manuscript of Medea"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Archaeologists found a black-glazed skyphos with part of his name inscribed."
+            },
+            "reward": {
+                "title": "Free dramatic arts bookmark",
+                "provider": "Salamis Tourist Info",
+                "codeHash": "29a5439194542dd8a9e7bfa92e2f17f43cb4de95ef8cfdd6a4deeb3fa51f2b19"
+            },
+            "id": 214
+        },
+        {
+            "name": "Monastery of Faneromeni",
+            "lat": 37.9866,
+            "lng": 23.4281,
+            "description": "A historic 17th-century monastery featuring exquisite frescoes of the Last Judgment.",
+            "audioText": "You are visiting the Monastery of Panagia Faneromeni on the northwest coast of Salamis. Founded in the 17th century by Saint Laurentios, the monastery played a vital role during the 1821 Greek Revolution, serving as a hospital and a secret meeting place for freedom fighters. Its katholikon (main church) is renowned for its incredible, sprawling frescoes covering almost every inch of the interior, including a vivid depiction of the Last Judgment.",
+            "quiz": {
+                "question": "What role did the Monastery of Faneromeni play during the 1821 Greek Revolution?",
+                "options": [
+                    "It served as a hospital and secret meeting place",
+                    "It was a naval base",
+                    "It operated a gunpowder mill",
+                    "It minted revolutionary coins"
+                ],
+                "answer": 0,
+                "feedback": "Correct! It was a safe haven and hospital for Greek revolutionaries."
+            },
+            "reward": {
+                "title": "10% off beeswax candles",
+                "provider": "Monastery Shop",
+                "codeHash": "73fc59be455fb2c2c5c05c0c0c925317826938b72b5667da7f8101e767e61ae5"
+            },
+            "id": 215
+        },
+        {
+            "name": "Sanctuary of Poseidon at Kalaureia",
+            "lat": 37.5255,
+            "lng": 23.4735,
+            "description": "The ruins of the ancient religious center of the Kalaurian amphictyony on the island of Poros.",
+            "audioText": "Welcome to the Sanctuary of Poseidon, located in the hills of Kalaureia on the island of Poros. In antiquity, this was the center of a powerful maritime league known as an amphictyony. It is perhaps most famous as the place where the great Athenian orator Demosthenes sought asylum from the Macedonians in 322 BC. Rather than surrender to Antipater's men, Demosthenes committed suicide here by drinking poison.",
+            "quiz": {
+                "question": "Which famous Athenian orator committed suicide at this sanctuary to avoid capture by the Macedonians?",
+                "options": [
+                    "Demosthenes",
+                    "Pericles",
+                    "Socrates",
+                    "Cicero"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Demosthenes drank poison from his pen here rather than be captured."
+            },
+            "reward": {
+                "title": "Free panoramic postcard",
+                "provider": "Poros Port Kiosk",
+                "codeHash": "f98b01e2225a229aafc4b6dbefaaf772dca88d87c4d8a565eb9faa1b66bcd8e0"
+            },
+            "id": 216
+        },
+        {
+            "name": "Poros Clock Tower",
+            "lat": 37.4988,
+            "lng": 23.4542,
+            "description": "The iconic landmark of Poros, built on the highest peak of the town.",
+            "audioText": "You are standing at the base of the iconic Clock Tower of Poros. Built in 1927, this landmark sits atop the volcanic rock of Sphaeria, the rocky outcrop where the town of Poros is built. The short climb through the charming, narrow streets filled with neoclassical mansions is rewarded with a spectacular view of the narrow strait separating the island from the mountains of the Peloponnese.",
+            "quiz": {
+                "question": "In what year was the iconic Poros Clock Tower built?",
+                "options": [
+                    "1927",
+                    "1821",
+                    "1950",
+                    "1896"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The tower was constructed relatively recently, in 1927."
+            },
+            "reward": {
+                "title": "15% off lemonade at the port",
+                "provider": "Poros Cafe",
+                "codeHash": "abb9a05c701874f45dfe5980163795e2c1b523aa94603b2de822bba344eaa551"
+            },
+            "id": 217
+        },
+        {
+            "name": "Historical Archives Museum of Hydra",
+            "lat": 37.3503,
+            "lng": 23.4665,
+            "description": "A museum showcasing the immense wealth and naval power of Hydra during the Greek Revolution.",
+            "audioText": "Welcome to the Historical Archives Museum of Hydra. Located right by the picturesque port, this museum documents the island's incredible maritime history. Before and during the 1821 Revolution, Hydra was incredibly wealthy and boasted a massive, privately owned commercial fleet. When the war broke out, the Hydriot merchants converted their merchant ships into powerful warships, playing a decisive role in liberating Greece.",
+            "quiz": {
+                "question": "How did the wealthy Hydriot merchants contribute to the Greek Revolution?",
+                "options": [
+                    "By converting their merchant ships into warships",
+                    "By fighting as cavalry on the mainland",
+                    "By building a massive land fortress",
+                    "By purchasing foreign mercenaries"
+                ],
+                "answer": 0,
+                "feedback": "Correct! They turned their massive commercial fleet into an unstoppable navy."
+            },
+            "reward": {
+                "title": "10% off naval history books",
+                "provider": "Museum Shop",
+                "codeHash": "3cfeb2bd57d6a7c237288960ab321cb26adbee3e2a1a0efb9c9317891642123b"
+            },
+            "id": 218
+        },
+        {
+            "name": "Lazaros Koundouriotis Historical Mansion",
+            "lat": 37.3481,
+            "lng": 23.465,
+            "description": "The striking yellow mansion of a wealthy shipowner who financed the Greek War of Independence.",
+            "audioText": "You are looking at the Lazaros Koundouriotis Historical Mansion, easily recognizable by its vibrant yellow color standing high above the port of Hydra. Lazaros Koundouriotis was one of the wealthiest shipowners of his time, and he famously spent his entire fortune financing the Greek Revolution. Today, the mansion operates as a branch of the National Historical Museum, preserving the elegant lifestyle of the 19th-century Greek maritime aristocracy.",
+            "quiz": {
+                "question": "What is visually distinctive about the Koundouriotis Mansion on the hillside of Hydra?",
+                "options": [
+                    "Its vibrant yellow color",
+                    "It is painted entirely black",
+                    "It has a large glass dome",
+                    "It is built underground"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The bright yellow ochre color makes it stand out against the rocky landscape."
+            },
+            "reward": {
+                "title": "Free entrance to the upper gallery",
+                "provider": "Koundouriotis Mansion",
+                "codeHash": "3f9e23577832a13b6de29811f4848313be63e5ebf318d8fab988b8396e2e5125"
+            },
+            "id": 219
+        },
+        {
+            "name": "Bouboulina's Museum",
+            "lat": 37.2655,
+            "lng": 23.161,
+            "description": "The ancestral home of Laskarina Bouboulina, the legendary female naval commander of the Greek Revolution.",
+            "audioText": "Welcome to the Bouboulina Museum on the island of Spetses. This was the home of Laskarina Bouboulina, a heroine of the Greek War of Independence and the first woman in world naval history to achieve the rank of Admiral. She used her massive fortune to build ships, including her flagship the Agamemnon, and personally led naval blockades against the Ottoman Empire.",
+            "quiz": {
+                "question": "What was the name of Laskarina Bouboulina's famous flagship?",
+                "options": [
+                    "Agamemnon",
+                    "Argo",
+                    "Averof",
+                    "Olympia"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Her flagship, the Agamemnon, was one of the largest Greek warships of the time."
+            },
+            "reward": {
+                "title": "15% off local Spetses sweets (amygdalota)",
+                "provider": "Spetses Bakery",
+                "codeHash": "88f6271cdd0df1ed545c6d5eea144b16877f35e48b19069cf69b08ff1107acbc"
+            },
+            "id": 220
+        },
+        {
+            "name": "Fountain of Theagenes",
+            "lat": 37.9942,
+            "lng": 23.3422,
+            "description": "A remarkably well-preserved ancient water reservoir and fountain house in the city of Megara.",
+            "audioText": "You are exploring the Fountain of Theagenes in Megara. Constructed in the 5th century BC, it is one of the largest and most impressive ancient fountain houses in Greece. Its massive roof was supported by 35 octagonal Doric pillars, and it featured a sophisticated plumbing system to draw water from the nearby mountains. It highlights the advanced civic engineering of ancient Greek city-states.",
+            "quiz": {
+                "question": "How many octagonal Doric pillars were used to support the roof of the reservoir?",
+                "options": [
+                    "35",
+                    "10",
+                    "100",
+                    "4"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The roof was supported by 35 impressive octagonal pillars."
+            },
+            "reward": {
+                "title": "Free map of Ancient Megara",
+                "provider": "Megara Tourism Kiosk",
+                "codeHash": "e43700a6580ffeb84c34d6a131773d2e24990c9573c2c47f721f46305065b420"
+            },
+            "id": 221
+        },
+        {
+            "name": "Plato's Academy Archaeological Site",
+            "lat": 37.9855,
+            "lng": 23.7088,
+            "description": "The serene suburban park that houses the ruins of the world's first university, founded by Plato.",
+            "audioText": "Welcome to the Archaeological Site of Plato's Academy. Founded by the philosopher Plato in 387 BC in a sacred grove of olive trees, this is widely considered the first university in the Western world. Aristotle studied here for twenty years. Today, it is a quiet, unassuming park where you can walk among the ruins of the gymnasium and imagine the profound philosophical debates that shaped Western thought.",
+            "quiz": {
+                "question": "Which famous philosopher studied at Plato's Academy for twenty years before founding his own school?",
+                "options": [
+                    "Aristotle",
+                    "Socrates",
+                    "Pythagoras",
+                    "Epicurus"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Aristotle was Plato's most famous student at the Academy."
+            },
+            "reward": {
+                "title": "10% off philosophy books",
+                "provider": "Akadimia Bookstore",
+                "codeHash": "077f1c36431bafd0d33b811b35bfa0cccf023307cf5c93a80b6d9437a583b528"
+            },
+            "id": 222
+        },
+        {
+            "name": "First Cemetery of Athens",
+            "lat": 37.9622,
+            "lng": 23.7388,
+            "description": "A historic, peaceful cemetery acting as a magnificent open-air museum of 19th-century sculpture.",
+            "audioText": "You are walking through the First Cemetery of Athens, a peaceful oasis of pine and cypress trees. Opened in 1837, it is the resting place for Greece's most prominent politicians, artists, and heroes. It is also an incredible open-air museum of Romantic and Neoclassical sculpture. The most famous masterpiece here is the 'Sleeping Maiden' (Koimomeni) carved by legendary sculptor Yannoulis Chalepas.",
+            "quiz": {
+                "question": "What is the name of the famous sculpture by Yannoulis Chalepas located in this cemetery?",
+                "options": [
+                    "The Sleeping Maiden (Koimomeni)",
+                    "The Thinker",
+                    "Winged Victory",
+                    "The Discus Thrower"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The 'Sleeping Maiden' is considered a masterpiece of modern Greek sculpture."
+            },
+            "reward": {
+                "title": "Free guided tour map",
+                "provider": "Cemetery Main Gate",
+                "codeHash": "0304207c903ba5499c2653621b0e1c56421bc50fcafcc30509beb8cd1a503e66"
+            },
+            "id": 223
+        },
+        {
+            "name": "National Gallery – Alexandros Soutzos Museum",
+            "lat": 37.976,
+            "lng": 23.7485,
+            "description": "The premier art museum in Greece, housing an unparalleled collection of post-Byzantine and modern Greek art.",
+            "audioText": "Welcome to the newly renovated National Gallery. After a massive expansion completed in 2021, the gallery features a stunning modern glass facade. Inside, it houses over 20,000 works of art, providing an exhaustively complete overview of Greek art from the post-Byzantine era to the contemporary period, featuring legends like El Greco, Lytras, and Tsarouchis.",
+            "quiz": {
+                "question": "Which famous Greek-born Renaissance artist's works are featured prominently in the gallery?",
+                "options": [
+                    "El Greco (Domenikos Theotokopoulos)",
+                    "Michelangelo",
+                    "Leonardo da Vinci",
+                    "Raphael"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Works by Domenikos Theotokopoulos, widely known as El Greco, are a major highlight."
+            },
+            "reward": {
+                "title": "10% off at the Gallery Cafe",
+                "provider": "National Gallery Dining",
+                "codeHash": "c6c64a4b0a6135c85b0e168bb15f915d8476587d81e4df2773130ee3a54b1959"
+            },
+            "id": 224
+        },
+        {
+            "name": "National Museum of Contemporary Art (EMST)",
+            "lat": 37.9625,
+            "lng": 23.7258,
+            "description": "Athens' flagship institution for contemporary Greek and international art, housed in a former brewery.",
+            "audioText": "You are at the National Museum of Contemporary Art, known as EMST. The museum is housed in the iconic Fix Brewery building, a massive industrial structure from the 1960s that was brilliantly repurposed. EMST collects and exhibits cutting-edge contemporary art in various media including painting, video, and installations, reflecting complex social and political themes from a global perspective.",
+            "quiz": {
+                "question": "What was the building housing EMST originally used as?",
+                "options": [
+                    "The Fix Brewery",
+                    "A military barracks",
+                    "A textile factory",
+                    "An indoor market"
+                ],
+                "answer": 0,
+                "feedback": "Correct! It is housed in the historic Fix Brewery building."
+            },
+            "reward": {
+                "title": "15% off modern art prints",
+                "provider": "EMST Shop",
+                "codeHash": "ff0f30488ff6eeb9151c0afef0ad0696d42ceb5fac15c418e9280ef261858cfd"
+            },
+            "id": 225
+        },
+        {
+            "name": "Hellenic Motor Museum",
+            "lat": 37.9911,
+            "lng": 23.7303,
+            "description": "A spectacular private collection of over 100 classic and antique cars spanning the history of motoring.",
+            "audioText": "Welcome to the Hellenic Motor Museum, located near Victoria Station. Housed in a spiraling, multi-story modern building, the museum displays an incredible private collection of over 110 classic, antique, and modern cars. You can admire rare models from Bugatti, Ferrari, Maserati, and Aston Martin, alongside interactive exhibits that explore the evolution of automotive engineering.",
+            "quiz": {
+                "question": "What kind of architectural layout characterizes the main exhibition space of the museum?",
+                "options": [
+                    "A multi-story spiraling ramp",
+                    "A long underground tunnel",
+                    "An open-air courtyard",
+                    "A series of glass domes"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Visitors walk down a spiraling ramp across three floors to view the cars."
+            },
+            "reward": {
+                "title": "10% off at the F1 Simulator",
+                "provider": "Motor Museum Lobby",
+                "codeHash": "1a32be27045f204eb5f1b73f9392494ef743cda0b0d94350cb6c6958700c59ac"
+            },
+            "id": 226
+        },
+        {
+            "name": "Museum of the City of Athens",
+            "lat": 37.9796,
+            "lng": 23.7317,
+            "description": "Housed in the former royal palace of King Otto, this museum chronicles the modern history of Athens.",
+            "audioText": "You are visiting the Museum of the City of Athens, housed in two interconnected mansions on Klafthmonos Square. The older mansion was actually the first residence of King Otto and Queen Amalia when Athens became the capital in 1834. The museum features beautiful period furniture, royal memorabilia, and a spectacular model of Athens from 1842, showing just how small the city once was.",
+            "quiz": {
+                "question": "Who were the first royal residents of the older mansion that houses the museum?",
+                "options": [
+                    "King Otto and Queen Amalia",
+                    "King George I and Queen Olga",
+                    "Emperor Hadrian",
+                    "Lord Byron"
+                ],
+                "answer": 0,
+                "feedback": "Correct! It was the temporary palace for Greece's first modern King, Otto."
+            },
+            "reward": {
+                "title": "Free historic city map",
+                "provider": "Museum Desk",
+                "codeHash": "2575f0a74f01d0e929fe4b8ebfc394ef3dc81512bdfa71b5908d423b63c91e31"
+            },
+            "id": 227
+        },
+        {
+            "name": "B. & M. Theocharakis Foundation",
+            "lat": 37.9765,
+            "lng": 23.7369,
+            "description": "A cultural center dedicated to music and the visual arts, located opposite the Greek Parliament.",
+            "audioText": "Welcome to the B. & M. Theocharakis Foundation for the Fine Arts and Music. Located in a beautifully restored 1920s eclectic building right across from the National Gardens, the foundation hosts temporary exhibitions of modern art, classical music concerts, and educational workshops. The café on the upper floors offers a splendid view of the Greek Parliament and Syntagma Square.",
+            "quiz": {
+                "question": "What two artistic disciplines is the Theocharakis Foundation primarily dedicated to?",
+                "options": [
+                    "Fine Arts and Music",
+                    "Cinema and Theater",
+                    "Photography and Dance",
+                    "Sculpture and Architecture"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The foundation focuses on the visual arts and music."
+            },
+            "reward": {
+                "title": "10% off at Café Merlin",
+                "provider": "Theocharakis Foundation",
+                "codeHash": "bcba4ea12665d153aad80dc7e9a2742226698060936dfda28905973a36fb81e4"
+            },
+            "id": 228
+        },
+        {
+            "name": "Athens Olympic Museum",
+            "lat": 38.0402,
+            "lng": 23.7891,
+            "description": "A modern museum celebrating the global history of the Olympic Games, focusing on Greece's foundational role.",
+            "audioText": "You are at the Athens Olympic Museum, a striking modern facility connected to the Golden Hall. The museum takes visitors on a chronological journey from the ancient Olympic Games in Olympia, to the revival of the modern Games in Athens in 1896, right up to the triumphant return of the Olympics to Athens in 2004. It features authentic torches, medals, and interactive athletic exhibits.",
+            "quiz": {
+                "question": "In what year were the first modern Olympic Games held in Athens?",
+                "options": [
+                    "1896",
+                    "1904",
+                    "1888",
+                    "1924"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The modern Olympics were successfully revived in Athens in 1896."
+            },
+            "reward": {
+                "title": "15% off official Olympic merchandise",
+                "provider": "Olympic Museum Shop",
+                "codeHash": "ad9260aa6ca433b7500c6778e864ede5e7ca0bc4cdb084ceac097bcc03bd3266"
+            },
+            "id": 229
+        },
+    {
+            "name": "Tatoi Royal Palace",
+            "lat": 38.1633,
+            "lng": 23.7938,
+            "description": "The abandoned, forested summer estate of the former Greek Royal Family.",
+            "audioText": "Welcome to Tatoi, the sprawling former summer estate of the Greek Royal Family, located on the densely forested slopes of Mount Parnitha. Acquired by King George I in 1871, this 10,000-acre estate features the royal palace, beautiful gardens, and the royal cemetery where many Greek kings are buried. Today, the estate is being slowly restored as a major cultural and environmental park.",
+            "quiz": {
+                "question": "Which Greek King initially acquired the Tatoi estate in 1871?",
+                "options": [
+                    "King George I",
+                    "King Otto",
+                    "King Constantine II",
+                    "King Alexander"
+                ],
+                "answer": 0,
+                "feedback": "Correct! King George I purchased the estate to serve as a summer retreat."
+            },
+            "reward": {
+                "title": "Free map of the Tatoi hiking trails",
+                "provider": "Tatoi Friends Association",
+                "codeHash": "0cdecec0562865006ad456697fe860668648b3fd94fa7761481be38e7d20469c"
+            },
+            "id": 230
+        },
+        {
+            "name": "Lake Beletsi",
+            "lat": 38.2217,
+            "lng": 23.7744,
+            "description": "A picturesque, small artificial lake hidden in the pine forests of Mount Parnitha.",
+            "audioText": "You are at Lake Beletsi, a hidden gem nestled at an altitude of 600 meters on the eastern slopes of Mount Parnitha. This small artificial lake was created accidentally in the 1970s during infrastructure work. Today, it has become a vital wetland surrounded by dense pine forest, serving as a sanctuary for migratory birds, swans, and a massive population of turtles.",
+            "quiz": {
+                "question": "How was Lake Beletsi formed?",
+                "options": [
+                    "Accidentally during infrastructure work in the 1970s",
+                    "By a massive earthquake",
+                    "It is an ancient volcanic crater",
+                    "It was dug by the ancient Athenians"
+                ],
+                "answer": 0,
+                "feedback": "Correct! It was inadvertently created when debris blocked a mountain stream."
+            },
+            "reward": {
+                "title": "Free bag of duck feed",
+                "provider": "Lake Beletsi Kiosk",
+                "codeHash": "a5806b5388e042055fdc289d76921492d9285f383ea31fb519f5ddfe9e127b15"
+            },
+            "id": 231
+        },
+        {
+            "name": "Mpafi Refuge",
+            "lat": 38.1682,
+            "lng": 23.7228,
+            "description": "A popular mountain refuge offering stunning views and traditional food high up in Parnitha National Park.",
+            "audioText": "Welcome to the Mpafi Refuge, located at an altitude of 1,161 meters in the heart of the Parnitha National Park. Operated by the Hellenic Alpine Club of Athens, it serves as the ultimate starting point for hikers exploring the mountain's dense fir forests. Here, you can enjoy traditional bean soup and warm tea while observing the majestic red deer that frequently roam right up to the refuge.",
+            "quiz": {
+                "question": "What large wild animal is frequently spotted roaming near the Mpafi Refuge?",
+                "options": [
+                    "Red deer",
+                    "Brown bears",
+                    "Wild horses",
+                    "Wolves"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Parnitha is famous for its thriving population of wild red deer."
+            },
+            "reward": {
+                "title": "10% off traditional bean soup (fasolada)",
+                "provider": "Mpafi Refuge Kitchen",
+                "codeHash": "dda4a401b7b4e1a1c0852bf0eb6605b181b6e8c13b2eb870ed61a305c390f5ad"
+            },
+            "id": 232
+        },
+        {
+            "name": "Davelis Cave",
+            "lat": 38.0722,
+            "lng": 23.8761,
+            "description": "A massive, mysterious cave on Mount Pentelicus famous for paranormal legends and ancient worship.",
+            "audioText": "You are standing at the entrance of Davelis Cave on the southwestern slopes of Mount Pentelicus. In antiquity, this cave was a sanctuary dedicated to the god Pan and the Nymphs. In the 19th century, it was famously used as a hideout by the notorious bandit Davelis. Today, the cave is shrouded in modern urban legends involving paranormal activity and electromagnetic anomalies.",
+            "quiz": {
+                "question": "Which ancient deities were worshipped in this cave long before it became a bandit's hideout?",
+                "options": [
+                    "Pan and the Nymphs",
+                    "Zeus and Hera",
+                    "Ares and Athena",
+                    "Hades and Persephone"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The cave served as a sanctuary to Pan and the Nymphs in antiquity."
+            },
+            "reward": {
+                "title": "Free headlamp rental",
+                "provider": "Penteli Spelunking Club",
+                "codeHash": "a490d02eee64ebfc290bcd598ccfee9fa03778ae3d4ab0278403749bd73449b4"
+            },
+            "id": 233
+        },
+        {
+            "name": "Syngrou Estate",
+            "lat": 38.0664,
+            "lng": 23.8114,
+            "description": "A vast, beautiful forest estate spanning 950 acres in the northern suburbs of Athens.",
+            "audioText": "Welcome to the Syngrou Estate in Kifissia. Bequeathed to the Greek Agricultural Society by Iphigenia Syngrou in 1921, this massive 950-acre park is the only surviving natural forest within the Athens basin. It features a spectacular neo-Gothic Orthodox church, the only one of its kind in Greece, and miles of peaceful walking and cycling trails through dense pine and almond trees.",
+            "quiz": {
+                "question": "What unique architectural style is the Orthodox church within the estate built in?",
+                "options": [
+                    "Neo-Gothic",
+                    "Byzantine",
+                    "Neoclassical",
+                    "Brutalist"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The Church of St. Andrew is the only neo-Gothic Orthodox church in Greece."
+            },
+            "reward": {
+                "title": "15% off bicycle rental",
+                "provider": "Syngrou Park Bikes",
+                "codeHash": "1ec4a1b466f0082d440d7f2ab6aa9c8146f7ee3a7aaa3bc40ccab57dd0bc6902"
+            },
+            "id": 234
+        },
+        {
+            "name": "Temple of Apollo Zoster",
+            "lat": 37.8131,
+            "lng": 23.7742,
+            "description": "An ancient temple uniquely preserved right on the sandy shores of the luxurious Asteras Beach.",
+            "audioText": "You are looking at the ruins of the Temple of Apollo Zoster. Remarkably, this 6th-century BC temple is located right on the sand of the luxurious Asteras Beach in Vouliagmeni. According to myth, Leto stopped here while fleeing Hera and loosened her 'zoster' or belt, believing she was about to give birth to Apollo and Artemis. It was accidentally unearthed by children playing in the sand in 1924.",
+            "quiz": {
+                "question": "How was this ancient temple accidentally discovered in 1924?",
+                "options": [
+                    "By children playing in the sand",
+                    "By a submarine scanning the coast",
+                    "By a falling meteor",
+                    "By a dog digging for a bone"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Children from the Vouliagmeni Orphanage uncovered it while digging in the sand."
+            },
+            "reward": {
+                "title": "Free access to the temple site",
+                "provider": "Asteras Beach Info",
+                "codeHash": "e997345c9758fdda4d9a03e53b91edb16a3bf84c75ab304f80f5522bf02388a3"
+            },
+            "id": 235
+        },
+        {
+            "name": "Aigosthena Fortress",
+            "lat": 38.1481,
+            "lng": 23.2289,
+            "description": "The most impressively preserved ancient fortress in Greece, towering over the Corinthian Gulf.",
+            "audioText": "Welcome to the ancient fortress of Aigosthena in Porto Germeno. Built in the 4th century BC, this is widely considered the best-preserved ancient fortress in all of Greece. Its massive stone walls and looming square towers remain largely intact, offering a perfect example of advanced ancient Greek military architecture. The fortress was designed to protect the strategic route between Attica and the Peloponnese.",
+            "quiz": {
+                "question": "What makes the fortress of Aigosthena so remarkable among Greek ruins?",
+                "options": [
+                    "It is considered the best-preserved ancient fortress in Greece",
+                    "It was built entirely of gold",
+                    "It is located underwater",
+                    "It was never actually finished"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Its towering walls and structures are incredibly well-preserved."
+            },
+            "reward": {
+                "title": "10% off fish at Porto Germeno tavernas",
+                "provider": "Local Seaside Tavernas",
+                "codeHash": "44c9e6ff87f427e8927c201f1290f0b2cd880dd4c625ce829584600441bd2cbc"
+            },
+            "id": 236
+        },
+        {
+            "name": "Eleutherae (Goura Castle)",
+            "lat": 38.1814,
+            "lng": 23.3769,
+            "description": "A massive ancient border fortress overlooking the strategic pass of Mount Cithaeron.",
+            "audioText": "You are standing at the ruins of Eleutherae, also known as Goura Castle. This imposing 4th-century BC fortress guarded the strategic mountain pass linking Attica with Boeotia. The walls, heavily fortified with multiple square towers, still stand several meters high. According to myth, Eleutherae is the birthplace of Dionysus, the god of wine and theater.",
+            "quiz": {
+                "question": "Which Greek god was mythologically born at Eleutherae?",
+                "options": [
+                    "Dionysus",
+                    "Ares",
+                    "Apollo",
+                    "Hermes"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Legend states that Dionysus, god of wine, was born here."
+            },
+            "reward": {
+                "title": "Free panoramic photo print",
+                "provider": "Kithairon Mountain Club",
+                "codeHash": "8f188f86f5c6e02aef5df3f8388be899ed92fcd389f60632db0b4225f97a549b"
+            },
+            "id": 237
+        },
+        {
+            "name": "OAKA Olympic Athletic Center of Athens",
+            "lat": 38.0378,
+            "lng": 23.7844,
+            "description": "The massive, futuristic stadium complex redesigned by Santiago Calatrava for the 2004 Olympics.",
+            "audioText": "Welcome to OAKA, the Olympic Athletic Center of Athens. Originally built in 1982, the complex was radically redesigned by world-renowned architect Santiago Calatrava for the 2004 Athens Olympics. Its defining feature is the breathtaking glass and steel roof structure over the main stadium, weighing 18,000 tons. Today, it remains the largest sporting venue in Greece.",
+            "quiz": {
+                "question": "Which famous architect designed the spectacular steel and glass roof over the main stadium?",
+                "options": [
+                    "Santiago Calatrava",
+                    "Renzo Piano",
+                    "Zaha Hadid",
+                    "Frank Gehry"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The visionary Spanish architect Santiago Calatrava designed the roof."
+            },
+            "reward": {
+                "title": "15% off guided architectural tour",
+                "provider": "OAKA Info Center",
+                "codeHash": "e8eb696ad65c0ab030fecf3cdf5cb499994afb1f7d36b18f08f036c501550a30"
+            },
+            "id": 238
+        },
+        {
+            "name": "AEK OPAP Arena (Agia Sophia Stadium)",
+            "lat": 38.0411,
+            "lng": 23.7411,
+            "description": "The spectacular, newly built home stadium of AEK Athens F.C., featuring Byzantine-inspired architecture.",
+            "audioText": "You are looking at the OPAP Arena, the stunning new home of AEK Athens F.C. in Nea Filadelfeia. Opened in 2022, the stadium's unique architecture is heavily inspired by the Byzantine Empire, featuring fortress-like walls, arches, and a monumental double-headed eagle statue at the entrance. It serves as both a world-class football venue and a monument to the Greek refugees of Asia Minor.",
+            "quiz": {
+                "question": "What historical empire heavily inspired the architecture of the OPAP Arena?",
+                "options": [
+                    "The Byzantine Empire",
+                    "The Roman Empire",
+                    "The Ottoman Empire",
+                    "The Persian Empire"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The arches, towers, and double-headed eagle all symbolize the Byzantine Empire."
+            },
+            "reward": {
+                "title": "10% off at the AEK FC Store",
+                "provider": "AEK Official Store",
+                "codeHash": "6406f6948a238a4265a312dbb78389ff098059aaf91661055ccbce2171c43e44"
+            },
+            "id": 239
+        },
+        {
+            "name": "Pedion tou Areos",
+            "lat": 37.9933,
+            "lng": 23.7344,
+            "description": "One of the largest public parks in Athens, designed in honor of the heroes of the 1821 Revolution.",
+            "audioText": "Welcome to Pedion tou Areos, or the 'Field of Ares'. Designed in 1934 to honor the heroes of the Greek War of Independence, it is one of the largest public parks in Athens. The park's main avenue features 21 marble busts of revolutionary heroes, and the impressive equestrian statue of King Constantine I stands at the main entrance, welcoming Athenians seeking a green escape.",
+            "quiz": {
+                "question": "What is the English translation of 'Pedion tou Areos'?",
+                "options": [
+                    "Field of Ares",
+                    "Garden of Athena",
+                    "Valley of the Gods",
+                    "Park of Peace"
+                ],
+                "answer": 0,
+                "feedback": "Correct! It translates to the 'Field of Ares', the Greek god of war."
+            },
+            "reward": {
+                "title": "Free coffee at the park kiosk",
+                "provider": "Alsos Cafe",
+                "codeHash": "f6e6cbfec69579fca0432501b8b9aae3279b304b804a795469e3719998b45fca"
+            },
+            "id": 240
+        },
+        {
+            "name": "Zappeion Megaron",
+            "lat": 37.9714,
+            "lng": 23.7364,
+            "description": "A magnificent neoclassical building built specifically for the revival of the modern Olympic Games.",
+            "audioText": "You are standing before the Zappeion Megaron, located south of the National Gardens. Funded by the wealthy Zappas cousins, it was completed in 1888. It holds the distinction of being the first building in the world explicitly constructed for the revival of the modern Olympic Games. Today, its spectacular circular atrium is used for major diplomatic, cultural, and corporate events.",
+            "quiz": {
+                "question": "For what specific international event was the Zappeion originally constructed?",
+                "options": [
+                    "The revival of the modern Olympic Games",
+                    "The signing of the Greek Constitution",
+                    "The crowning of King Otto",
+                    "The first World's Fair"
+                ],
+                "answer": 0,
+                "feedback": "Correct! It was built specifically to host the reborn Olympic Games."
+            },
+            "reward": {
+                "title": "10% off at Aegli Zappeiou Cafe",
+                "provider": "Aegli Cafe",
+                "codeHash": "fdac6da6e031a3d5f4d8a5dbf8fea612bd4724c8319abfe39bda4c900dafa27f"
+            },
+            "id": 241
+        },
+        {
+            "name": "Metropolitan Cathedral of Athens (Mitropoli)",
+            "lat": 37.9753,
+            "lng": 23.73,
+            "description": "The primary cathedral of the Greek Orthodox Church in Athens, hosting state funerals and royal weddings.",
+            "audioText": "Welcome to the Metropolitan Cathedral of the Annunciation, simply known as the Mitropoli. Construction began in 1842 and took exactly 20 years to complete, famously using marble salvaged from 72 demolished older churches. It remains the most important church in Athens, used for major state ceremonies, including presidential inaugurations, royal weddings, and the funerals of prominent Greeks.",
+            "quiz": {
+                "question": "Where did the marble used to construct the Mitropoli come from?",
+                "options": [
+                    "It was salvaged from 72 demolished older churches",
+                    "It was imported from Italy",
+                    "It was mined from Mount Olympus",
+                    "It was gifted by the Russian Tsar"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The marble was repurposed from dozens of ruined medieval churches."
+            },
+            "reward": {
+                "title": "Free Orthodox icon card",
+                "provider": "Mitropoli Gift Shop",
+                "codeHash": "16797ab1bc7686b43d0ff6a59d9e3e22065827ff80b78dffb58c10cc49f61fc6"
+            },
+            "id": 242
+        },
+        {
+            "name": "Little Metropolis (Agios Eleftherios)",
+            "lat": 37.9751,
+            "lng": 23.7303,
+            "description": "A tiny, beautiful 12th-century Byzantine church built entirely out of ancient Greek and Roman marble spoils.",
+            "audioText": "You are looking at the Little Metropolis, officially the Church of Agios Eleftherios. Sitting right next to the massive modern Cathedral, this tiny 12th-century church is an architectural marvel. Its walls are built entirely out of 'spolia'—unaltered marble reliefs and blocks salvaged from ancient Greek temples, Roman monuments, and early Christian buildings, creating a fascinating patchwork of Athenian history.",
+            "quiz": {
+                "question": "What unique building material was used to construct the exterior walls of the Little Metropolis?",
+                "options": [
+                    "Salvaged marble reliefs from ancient Greek and Roman monuments",
+                    "Mudbricks from the nearby river",
+                    "Wooden beams from ancient ships",
+                    "Gold-plated bronze shields"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The church is famous for being constructed entirely from ancient 'spolia'."
+            },
+            "reward": {
+                "title": "Free historic architectural guide",
+                "provider": "Athens Culture Kiosk",
+                "codeHash": "e6a88089e40cd1ce691ae977cd7fccfdd3242b69e6b3b10b823b3301438d10e2"
+            },
+            "id": 243
+        },
+        {
+            "name": "Museum of Illusions Athens",
+            "lat": 37.9768,
+            "lng": 23.7214,
+            "description": "A wildly popular, interactive museum filled with mind-bending optical illusions.",
+            "audioText": "Welcome to the Museum of Illusions in the Monastiraki neighborhood. This interactive space is designed to trick your senses and challenge your perception. Featuring mind-bending optical illusions, holograms, the dizzying Vortex Tunnel, and the famous Infinity Room, the museum provides a fun, educational experience about vision, perception, and the human brain's fascinating flaws.",
+            "quiz": {
+                "question": "Which of the following is a famous interactive exhibit at the Museum of Illusions?",
+                "options": [
+                    "The Vortex Tunnel",
+                    "The Tunnel of Love",
+                    "The Echo Chamber",
+                    "The Hall of Mirrors"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The Vortex Tunnel challenges your balance and visual perception."
+            },
+            "reward": {
+                "title": "15% off mind-bending puzzles",
+                "provider": "Museum of Illusions Shop",
+                "codeHash": "32c0f2f634cff4183c61fa45ffcd285c3277ba5d5f95d6f9315e71f6070c94e4"
+            },
+            "id": 244
+        },
+        {
+            "name": "Hellenic IT Museum",
+            "lat": 37.9542,
+            "lng": 23.6811,
+            "description": "The first and only museum in Greece dedicated to the history of Information Technology.",
+            "audioText": "You are visiting the Hellenic IT Museum in Moschato. Established in 2008, it is the only museum in Greece dedicated exclusively to the history of computing. Its vast collection features over 4,000 artifacts from the 1970s to the 1990s, including rare mainframe components, vintage Apple and IBM personal computers, floppy disks, and the clunky mobile phones that started the digital revolution.",
+            "quiz": {
+                "question": "What specific era of computing does the Hellenic IT Museum primarily focus on?",
+                "options": [
+                    "The 1970s to the 1990s",
+                    "The 1800s to the 1920s",
+                    "The 2000s to the present",
+                    "Ancient Greek computing mechanisms"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The museum preserves the pivotal early decades of modern personal computing."
+            },
+            "reward": {
+                "title": "Free retro computer sticker pack",
+                "provider": "IT Museum Desk",
+                "codeHash": "7523269980c77676f0561014cf63f8cb68d28fe36265f39a1435f0a153b86e98"
+            },
+            "id": 245
+        },
+        {
+            "name": "Maria Callas Museum",
+            "lat": 37.9765,
+            "lng": 23.7305,
+            "description": "A beautiful new museum honoring the life and career of the legendary Greek soprano.",
+            "audioText": "Welcome to the Maria Callas Museum, situated in a beautifully restored neoclassical building on Mitropoleos Street. Opened in 2023, the museum is dedicated to 'La Divina', the greatest opera singer of the 20th century. Through interactive audio exhibits, rare recordings, personal letters, and spectacular stage costumes, visitors can intimately experience the dramatic life and unparalleled voice of Maria Callas.",
+            "quiz": {
+                "question": "By what famous Italian nickname was Maria Callas widely known?",
+                "options": [
+                    "La Divina",
+                    "La Prima Donna",
+                    "La Soprano",
+                    "La Voce"
+                ],
+                "answer": 0,
+                "feedback": "Correct! She was famously referred to as 'La Divina' (The Divine One)."
+            },
+            "reward": {
+                "title": "10% off opera recordings",
+                "provider": "Callas Museum Shop",
+                "codeHash": "38c1fb82d067052fc1ff4be707771a504354211624b7196cde5d0a037f8d99ab"
+            },
+            "id": 246
+        },
+        {
+            "name": "OTE Telecommunications Museum",
+            "lat": 38.0931,
+            "lng": 23.8055,
+            "description": "A fascinating journey through the history of telecommunications in Greece.",
+            "audioText": "You are at the OTE Telecommunications Museum in Nea Erythraia. Operated by the Hellenic Telecommunications Organization, the museum traces the history of human communication. Exhibits range from ancient Greek fire-beacons and the hydraulic telegraph of Aeneas, to 19th-century Morse code transmitters, early rotary dial telephones, and the massive switchboards operated by the first female telephone operators.",
+            "quiz": {
+                "question": "Which ancient method of communication is featured in the museum's exhibits?",
+                "options": [
+                    "The hydraulic telegraph of Aeneas",
+                    "The homing pigeon network",
+                    "The bronze megaphone",
+                    "The solar mirror relay"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The museum explores early methods like the ingenious hydraulic telegraph."
+            },
+            "reward": {
+                "title": "Free vintage telephone postcard",
+                "provider": "OTE Museum Desk",
+                "codeHash": "e4770295be1c47b9b9ccd19ac6dac54a6b107a0aa71bfe57139740a5b15edb74"
+            },
+            "id": 247
+        },
+        {
+            "name": "Jewish Museum of Greece",
+            "lat": 37.9733,
+            "lng": 23.7328,
+            "description": "A poignant museum documenting the 2,300-year history of the Jewish communities in Greece.",
+            "audioText": "Welcome to the Jewish Museum of Greece, located near Syntagma Square. This highly impactful museum documents the rich 2,300-year history of the Romaniote and Sephardic Jewish communities in Greece. The exhibits feature religious artifacts, traditional costumes, and reconstructed synagogue interiors, alongside a deeply moving section dedicated to the Greek Jews who perished during the Holocaust.",
+            "quiz": {
+                "question": "What are the two primary Jewish communities historically present in Greece?",
+                "options": [
+                    "Romaniote and Sephardic",
+                    "Ashkenazi and Hasidic",
+                    "Beta Israel and Yemenite",
+                    "Karaite and Bukharan"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The Romaniote (Greek-speaking) and Sephardic (Ladino-speaking) are the historic communities of Greece."
+            },
+            "reward": {
+                "title": "10% off history publications",
+                "provider": "Jewish Museum Shop",
+                "codeHash": "90a27f8a047227808f2c31db27b52c0f285ed78432164bd67e190148f10ccd0e"
+            },
+            "id": 248
+        },
+        {
+            "name": "Piraeus Archaeological Museum",
+            "lat": 37.9367,
+            "lng": 23.6444,
+            "description": "An outstanding museum highlighting the ancient history of Athens' mighty naval port.",
+            "audioText": "You are visiting the Piraeus Archaeological Museum. This museum holds treasures that tell the story of Piraeus when it was the bustling, heavily fortified naval and commercial port of the Athenian Empire. The absolute highlights of the collection are the stunning 'Piraeus Statues'—four spectacular, life-sized hollow-cast bronze statues, including the Apollo of Piraeus and the magnificent Athena, which were hidden from Roman looters and discovered centuries later in a sewer.",
+            "quiz": {
+                "question": "What is the most famous highlight of the Piraeus Archaeological Museum?",
+                "options": [
+                    "The Piraeus Statues, a collection of life-sized hollow-cast bronzes",
+                    "The golden mask of Agamemnon",
+                    "The Parthenon Marbles",
+                    "The Antikythera Mechanism"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The pristine bronze statues of Apollo, Athena, and Artemis are world-famous masterpieces."
+            },
+            "reward": {
+                "title": "Free bookmark of the Bronze Athena",
+                "provider": "Piraeus Museum Shop",
+                "codeHash": "470ed14e934864245b13e303e09a884c0fa17e4ce5957a8b39f64d08449dc5d4"
+            },
+            "id": 249
+        }
 ];
 
 let map;
@@ -4445,6 +6210,13 @@ document.addEventListener("DOMContentLoaded", () => {
     setupMediaDrawer();
     renderPOIList();
     updateDashboardStats();
+
+    // Register Service Worker
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js')
+            .then(() => console.log('Service Worker Registered'))
+            .catch(err => console.error('Service Worker registration failed:', err));
+    }
 });
 
 // --- User Data Persistence ---
@@ -4627,12 +6399,19 @@ function updateUserLocation(lat, lng) {
     }
 
     // Check distances to POIs
+    let anyInRange = false;
     POIs.forEach(poi => {
         const distance = calculateDistance(lat, lng, poi.lat, poi.lng);
         if (distance < 60) { // Within 60 meters (optimized for fenced archaeological perimeters)
+            anyInRange = true;
             triggerPOI(poi);
         }
     });
+    
+    // Clear active POI if we walked out of range, so it can be re-triggered later
+    if (!anyInRange) {
+        activePOI = null;
+    }
 }
 
 // Haversine distance calculator
@@ -4701,8 +6480,7 @@ window.triggerPOIById = function(id) {
 
 function triggerPOI(poi) {
     if (activePOI && activePOI.id === poi.id) {
-        // Drawer is already open for this POI
-        document.getElementById("media-drawer").classList.add("open");
+        // We already triggered this POI recently, do nothing to avoid annoying repeated popups.
         return;
     }
 
