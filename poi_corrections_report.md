@@ -1,6 +1,6 @@
 # POI Coordinate Verification Report
 
-Generated on 2026-06-14T18:58:20.676Z
+Generated on 2026-08-03T17:25:48.947Z
 
 | ID | Name | Stored (lat,lng) | Official (lat,lng) | Distance (m) | Status |
 |---|------|-------------------|--------------------|--------------|--------|
@@ -78,7 +78,7 @@ Generated on 2026-06-14T18:58:20.676Z
 | 71 | Lake Vouliagmeni | 37.807500, 23.785600 | 37.807732, 23.785708 | 28 | ✅ OK |
 | 72 | Marathon Dam | 45.034974, -90.073887 | 45.034974, -90.073887 | 0 | ✅ OK |
 | 73 | Koutouki Cave | 38.019034, 23.805120 | 38.019034, 23.805120 | 0 | ✅ OK |
-| 74 | Eleutherae Ancient Fortress | 37.931745, 23.710317 | 37.931745, 23.710317 | 0 | ✅ OK |
+| 74 | Eleutherae Ancient Fortress | 37.931745, 23.710317 | 37.929251, 23.709598 | 284 | ⚠️ Needs Update |
 | 75 | Phyle Fortress | 37.928276, 23.695168 | 37.928276, 23.695168 | 0 | ✅ OK |
 | 76 | Mount Penteli Ancient Quarries | 38.0494, 23.8824 | N/A | N/A | ❓ No result |
 | 77 | Piraeus Archaeological Museum & Ship Sheds | 37.9367, 23.6442 | N/A | N/A | ❓ No result |
@@ -90,7 +90,7 @@ Generated on 2026-06-14T18:58:20.676Z
 | 83 | Temple of Apollo Zoster | 37.810009, 23.773730 | 37.810009, 23.773730 | 0 | ✅ OK |
 | 84 | Archaeological Site of Kolona | 37.975190, 23.743417 | 37.975190, 23.743417 | 0 | ✅ OK |
 | 85 | Phaleron Delta Ancient Cemetery (Phaleron Captives) | 37.928762, 23.694219 | 37.928762, 23.694219 | 0 | ✅ OK |
-| 86 | Ancient Deme of Halai Aixonides | 37.970819, 23.717407 | 37.970819, 23.717407 | 0 | ✅ OK |
+| 86 | Ancient Deme of Halai Aixonides | 37.970819, 23.717407 | 37.969914, 23.719180 | 185 | ⚠️ Needs Update |
 | 87 | The Dema Wall | 38.073466, 23.669041 | 38.073466, 23.669041 | 0 | ✅ OK |
 | 88 | Agrileza Silver Workshops | 37.6744, 24.015 | N/A | N/A | ❓ No result |
 | 89 | The Diateichisma Wall | 37.981068, 23.728715 | 37.981068, 23.728715 | 0 | ✅ OK |
@@ -113,13 +113,13 @@ Generated on 2026-06-14T18:58:20.676Z
 | 106 | Agia Irene Church (Aeolou) | 37.9769, 23.7289 | N/A | N/A | ❓ No result |
 | 107 | Hadrian’s Aqueduct (Dexameni) | 37.979046, 23.741741 | N/A | N/A | ❓ No result |
 | 108 | Sacred Gate (Kerameikos) | 37.978176, 23.718355 | 37.978176, 23.718355 | 0 | ✅ OK |
-| 109 | Temple of Ares (Agora) | 37.975021, 23.724193 | N/A | N/A | ❓ No result |
+| 109 | Temple of Ares (Agora) | 37.975021, 23.724193 | 37.972590, 23.724641 | 273 | ⚠️ Needs Update |
 | 110 | Church of Agioi Asomatoi | 37.977800, 23.721400 | 37.977676, 23.721127 | 28 | ✅ OK |
 | 111 | Tomb of the Unknown Soldier (Relief) | 37.975400, 23.736300 | 37.975351, 23.736366 | 8 | ✅ OK |
 | 112 | Tomb of Heinrich Schliemann | 37.964349, 23.736103 | 37.964349, 23.736103 | 0 | ✅ OK |
 | 113 | Tomb of Theodoros Kolokotronis | 37.977984, 23.733043 | 37.977984, 23.733043 | 0 | ✅ OK |
 | 114 | Roman Bath of the Ancient Agora | 37.974800, 23.723500 | 37.975021, 23.724193 | 66 | ✅ OK |
-| 115 | Lysicrates Square (Street of Tripods) | 37.983551, 23.728159 | 37.983551, 23.728159 | 0 | ✅ OK |
+| 115 | Lysicrates Square (Street of Tripods) | 37.983551, 23.728159 | N/A | N/A | ❓ No result |
 | 116 | Tower of the Winds (Clepsydra Inlet) | 37.974100, 23.727000 | 37.974197, 23.727028 | 11 | ✅ OK |
 | 117 | Areopagus Hill (Paul's Sermon Plaque) | 37.972247, 23.723349 | N/A | N/A | ❓ No result |
 | 118 | National Garden (Roman Mosaic Floor) | 37.975516, 23.73495 | N/A | N/A | ❓ No result |

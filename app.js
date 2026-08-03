@@ -1851,8 +1851,8 @@ const POIs = [
     {
         "id": 74,
         "name": "Eleutherae Ancient Fortress",
-        "lat": 37.931745,
-        "lng": 23.710317,
+        "lat": 37.929251,
+        "lng": 23.709598,
         "image": "images/eleutherae.png",
         "description": "A spectacular 4th-century BC border fortress guarding the pass between Attica and Boeotia, with well-preserved stone walls and towers.",
         "audioText": "Welcome to the ancient fortress of Eleutherae, also known as Gyphtokastro. Perched on a rocky ridge guarding the main pass between Attica and Boeotia, this fortress stands as a testament to classical military architecture. Built in the 4th century BC, it features walls over two meters thick and is reinforced by multiple rectangular towers. The positioning allowed garrisoned soldiers to monitor troop movements in the valley below. Today, walking along its stone battlements offers an immersive view into the strategic defense networks that protected the ancient city-state of Athens.",
@@ -2151,8 +2151,8 @@ const POIs = [
     {
         "id": 86,
         "name": "Ancient Deme of Halai Aixonides",
-        "lat": 37.970819,
-        "lng": 23.717407,
+        "lat": 37.969914,
+        "lng": 23.71918,
         "image": "images/ancient_agora_of_athens.jpg",
         "description": "An archaeological site in Voula showing the marketplace and residential streets of a classical coastal deme.",
         "audioText": "Explore the ruins of the Ancient Deme of Halai Aixonides, located in modern Voula. This classical township was one of the key coastal demes of Athens. Archaeological excavations have uncovered the remains of the deme's marketplace (agora), a small theater, residential houses, and salt-pans. The deme played an important economic role in producing salt and exporting fish to Athens. Walking through these stone foundations highlights the daily life of ancient citizens who lived outside the main city center.",
@@ -2726,8 +2726,8 @@ const POIs = [
     {
         "id": 109,
         "name": "Temple of Ares (Agora)",
-        "lat": 37.975021,
-        "lng": 23.724193,
+        "lat": 37.97259,
+        "lng": 23.724641,
         "image": "images/temple_ares.jpg",
         "description": "A classical temple dedicated to the god of war, which was completely dismantled and moved from rural Pallene to the Agora during Augustus's reign.",
         "audioText": "Look at the foundations of the Temple of Ares in the Agora. This temple was originally constructed around 440 BC in the rural deme of Pallene. During the reign of the Roman Emperor Augustus, the entire temple was dismantled, and each marble block was numbered. The blocks were moved to the Agora and reconstructed here, where it was rededicated to Ares, the god of war, and Augustus's grandson. This reflects the Roman practice of relocating classic monuments to urban centers.",
