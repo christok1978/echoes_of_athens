@@ -6643,57 +6643,57 @@ function playAudio() {
         // Force English language tag so browsers default to English TTS engine
         utterance.lang = 'en-US';
         utterance.rate = CONFIG.AUDIO_SPEECH_RATE; // Steady, cinematic guide tempo
-    
-    // Find the best English voice (prioritizing high-quality Google/Apple natural voices)
-    const voices = synth.getVoices();
-    let selectedVoice = null;
-    
-    // 1. Try to find a premium/natural English voice
-    selectedVoice = voices.find(v => v.lang.startsWith('en') && 
-        (v.name.includes('Google') || v.name.includes('Natural') || v.name.includes('Premium')));
         
-    // 2. Fall back to standard en-US/en-GB or any English voice
-    if (!selectedVoice) selectedVoice = voices.find(v => v.lang.includes('en-US'));
-    if (!selectedVoice) selectedVoice = voices.find(v => v.lang.includes('en-GB'));
-    if (!selectedVoice) selectedVoice = voices.find(v => v.lang.startsWith('en'));
-    
-    if (selectedVoice) {
-        utterance.voice = selectedVoice;
-    }
-
-    utterance.onend = () => {
-        stopAudio();
-    };
-
-    utterance.onerror = (event) => {
-        console.error("Speech synthesis error:", event);
-        stopAudio();
-        // Only alert for non-canceled errors
-        if (event.error !== 'canceled' && event.error !== 'interrupted') {
-            alert("Audio playback failed. Please try again.");
+        // Find the best English voice (prioritizing high-quality Google/Apple natural voices)
+        const voices = synth.getVoices();
+        let selectedVoice = null;
+        
+        // 1. Try to find a premium/natural English voice
+        selectedVoice = voices.find(v => v.lang.startsWith('en') && 
+            (v.name.includes('Google') || v.name.includes('Natural') || v.name.includes('Premium')));
+            
+        // 2. Fall back to standard en-US/en-GB or any English voice
+        if (!selectedVoice) selectedVoice = voices.find(v => v.lang.includes('en-US'));
+        if (!selectedVoice) selectedVoice = voices.find(v => v.lang.includes('en-GB'));
+        if (!selectedVoice) selectedVoice = voices.find(v => v.lang.startsWith('en'));
+        
+        if (selectedVoice) {
+            utterance.voice = selectedVoice;
         }
-    };
 
-    try {
+        utterance.onend = () => {
+            stopAudio();
+        };
+
+        utterance.onerror = (event) => {
+            console.error("Speech synthesis error:", event);
+            stopAudio();
+            // Only alert for non-canceled errors
+            if (event.error !== 'canceled' && event.error !== 'interrupted') {
+                alert("Audio playback failed. Please try again.");
+            }
+        };
+
         synth.speak(utterance);
+
+        // Setup simulated timeline duration bar
+        currentPlayTime = 0;
+        audioDuration = Math.ceil(activePOI.audioText.split(" ").length * 0.4); // 0.4 sec per word
+        document.getElementById("audio-duration").textContent = formatTime(audioDuration);
+        
+        audioTimer = setInterval(() => {
+            currentPlayTime++;
+            document.getElementById("audio-time").textContent = formatTime(currentPlayTime);
+            if (currentPlayTime >= audioDuration) {
+                clearInterval(audioTimer);
+            }
+        }, CONFIG.AUDIO_UPDATE_INTERVAL);
     } catch (e) {
-        console.error("Error starting speech:", e);
+        console.error("Error in playAudio:", e);
+        isAudioPlaying = false;
         stopAudio();
         alert("Unable to start audio narration.");
     }
-
-    // Setup simulated timeline duration bar
-    currentPlayTime = 0;
-    audioDuration = Math.ceil(activePOI.audioText.split(" ").length * 0.4); // 0.4 sec per word
-    document.getElementById("audio-duration").textContent = formatTime(audioDuration);
-    
-    audioTimer = setInterval(() => {
-        currentPlayTime++;
-        document.getElementById("audio-time").textContent = formatTime(currentPlayTime);
-        if (currentPlayTime >= audioDuration) {
-            clearInterval(audioTimer);
-        }
-    }, CONFIG.AUDIO_UPDATE_INTERVAL);
 }
 
 function pauseAudio() {
