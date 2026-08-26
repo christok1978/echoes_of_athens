@@ -1,0 +1,8 @@
+node_modules
+.git
+tests
+scripts/fix_critical_coordinates.js
+scripts/validate_all_coordinates.js
+*.md
+!README.md
+poi_validation_report.json
