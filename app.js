@@ -1,3 +1,28 @@
+// --- Configuration Constants ---
+const CONFIG = {
+    // Geolocation
+    POI_TRIGGER_DISTANCE_METERS: 60,
+    GPS_HIGH_ACCURACY_TIMEOUT: 10000,
+    GPS_LOW_ACCURACY_TIMEOUT: 15000,
+    
+    // Map
+    DEFAULT_MAP_CENTER: [37.9720, 23.728],
+    DEFAULT_MAP_ZOOM: 15,
+    POI_DETAIL_ZOOM: 16,
+    
+    // Audio
+    AUDIO_SPEECH_RATE: 0.95,
+    AUDIO_UPDATE_INTERVAL: 1000,
+    
+    // Quiz
+    QUIZ_FEEDBACK_DELAY: 2500,
+    QUIZ_CORRECT_POINTS: 50,
+    
+    // UI
+    MAP_RESIZE_DELAY: 150,
+    POI_DESCRIPTION_MAX_LENGTH: 100
+};
+
 // --- Data Structures ---
 const POIs = [
     {
@@ -752,8 +777,8 @@ const POIs = [
     {
         "id": 30,
         "name": "Church of the Holy Apostles",
-        "lat": 40.642799,
-        "lng": 22.937503,
+        "lat": 37.974650,
+        "lng": 23.722400,
         "image": "images/holy_apostles.png",
         "description": "A late 10th-century Byzantine church in the Ancient Agora, famous for its architectural style and beautifully preserved frescoes.",
         "audioText": "Explore the Church of the Holy Apostles Solaki, one of the oldest and most beautiful Byzantine churches in Athens, dating back to the late 10th century. Located in the southeast corner of the Ancient Agora, it is the only building that survived the modern archaeological excavation of the Agora. The church is built in the cross-in-square style, with a central dome supported by four columns, and its walls show decorative brickwork that mimics Kufic script. Inside, you can admire the 17th-century frescoes, which depict scenes of the apostles, preserved during restorations in the 1950s.",
@@ -1352,8 +1377,8 @@ const POIs = [
     {
         "id": 54,
         "name": "Ancient Bouleuterion",
-        "lat": 37.637344,
-        "lng": 21.630926,
+        "lat": 37.975400,
+        "lng": 23.723100,
         "image": "images/hephaestus.png",
         "description": "The meeting house of the Athenian Council of 500 (Boule), who prepared the agenda for the general assembly.",
         "audioText": "Explore the ruins of the Bouleuterion, the council house of the Boule. This council of 500 citizens was chosen by lot each year. They met daily in this building to draft laws and prepare the agenda for the general assembly on the Pnyx, serving as a core institution of ancient Athenian democracy.",
@@ -1801,8 +1826,8 @@ const POIs = [
     {
         "id": 72,
         "name": "Marathon Dam",
-        "lat": 45.034974,
-        "lng": -90.073887,
+        "lat": 38.150436,
+        "lng": 23.948612,
         "image": "images/marathon_dam.png",
         "description": "The only marble-faced dam in the world, built in the 1920s with white Pentelic marble to secure the water supply of Athens.",
         "audioText": "Observe the Marathon Dam, a landmark of modern engineering and civic pride. Constructed between 1926 and 1929 by the American Ulen company, this dam is unique as the only dam in the world faced entirely with white Pentelic marble—the very same marble used by the ancient Greeks to build the Parthenon. This choice of facing material was made to show respect for the classical heritage of Athens. The dam created Lake Marathon, which served as the capital's main water reservoir for decades, solving a chronic water shortage that had plagued the city since antiquity.",
@@ -1976,8 +2001,8 @@ const POIs = [
     {
         "id": 79,
         "name": "Saint John the Hunter Monastery",
-        "lat": 40.897421,
-        "lng": 26.003648,
+        "lat": 37.952150,
+        "lng": 23.827440,
         "image": "images/st_john_hunter.png",
         "description": "A beautiful 12th-century Byzantine monastery perched on a high ridge of Mount Hymettus, offering spectacular panoramic views.",
         "audioText": "Stand before the Monastery of Saint John the Hunter, also known as Aghios Ioannis Kynigos. Perched on a high ridge on the northern edge of Mount Hymettus, this 12th-century Byzantine monastery has served as a place of spiritual retreat and safety for centuries. Its small church features typical Byzantine brickwork and a dome supported by ancient column drums. The monastery's position offers panoramic views over both the Athens basin to the west and the Mesogeia plain to the east, making it a favorite starting point for hikers exploring the mountain's trails.",
@@ -6214,8 +6239,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // Register Service Worker
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('sw.js')
-            .then(() => console.log('Service Worker Registered'))
-            .catch(err => console.error('Service Worker registration failed:', err));
+            .catch(() => {
+                // Service Worker registration failed - app will still work without offline support
+            });
     }
 });
 
@@ -6261,7 +6287,7 @@ function setupNavigation() {
 
             // Recalculate Leaflet map sizes if returning to map tab
             if (targetTab === "tab-map" && map) {
-                setTimeout(() => map.invalidateSize(), 150);
+                setTimeout(() => map.invalidateSize(), CONFIG.MAP_RESIZE_DELAY);
             }
         });
     });
@@ -6274,7 +6300,7 @@ function initMap() {
         map = L.map('map-container', {
             zoomControl: false,
             attributionControl: false
-        }).setView([37.9720, 23.728], 15);
+        }).setView(CONFIG.DEFAULT_MAP_CENTER, CONFIG.DEFAULT_MAP_ZOOM);
 
         // Beautiful custom CartoDB Voyage tile layer (Aegean blue aesthetic)
         L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
@@ -6360,7 +6386,7 @@ function setupGPS() {
     const recenterBtn = document.getElementById("recenter-btn");
     recenterBtn.addEventListener("click", () => {
         if (userLocation && map) {
-            map.setView([userLocation.lat, userLocation.lng], 16);
+            map.setView([userLocation.lat, userLocation.lng], CONFIG.POI_DETAIL_ZOOM);
         }
     });
 }
@@ -6374,7 +6400,7 @@ function startRealGeolocation() {
         return;
     }
 
-    const options = { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 };
+    const options = { enableHighAccuracy: true, timeout: CONFIG.GPS_HIGH_ACCURACY_TIMEOUT, maximumAge: 0 };
 
     function success(position) {
         try {
@@ -6389,7 +6415,7 @@ function startRealGeolocation() {
         if (options.enableHighAccuracy) {
             // Fall back to low accuracy (Wi-Fi/IP location) which is fast and works indoors/on desktop
             options.enableHighAccuracy = false;
-            options.timeout = 15000;
+            options.timeout = CONFIG.GPS_LOW_ACCURACY_TIMEOUT;
             try {
                 if (watchId) navigator.geolocation.clearWatch(watchId);
                 watchId = navigator.geolocation.watchPosition(success, finalError, options);
@@ -6422,7 +6448,7 @@ function updateUserLocation(lat, lng) {
     userMarker.setLatLng([lat, lng]);
 
     if (shouldPanToUser) {
-        map.setView([lat, lng], 16);
+        map.setView([lat, lng], CONFIG.POI_DETAIL_ZOOM);
         shouldPanToUser = false;
     }
 
@@ -6430,7 +6456,7 @@ function updateUserLocation(lat, lng) {
     let anyInRange = false;
     POIs.forEach(poi => {
         const distance = calculateDistance(lat, lng, poi.lat, poi.lng);
-        if (distance < 60) { // Within 60 meters (optimized for fenced archaeological perimeters)
+        if (distance < CONFIG.POI_TRIGGER_DISTANCE_METERS) {
             anyInRange = true;
             triggerPOI(poi);
         }
@@ -6616,7 +6642,7 @@ function playAudio() {
         
         // Force English language tag so browsers default to English TTS engine
         utterance.lang = 'en-US';
-        utterance.rate = 0.95; // Steady, cinematic guide tempo
+        utterance.rate = CONFIG.AUDIO_SPEECH_RATE; // Steady, cinematic guide tempo
     
     // Find the best English voice (prioritizing high-quality Google/Apple natural voices)
     const voices = synth.getVoices();
@@ -6667,7 +6693,7 @@ function playAudio() {
         if (currentPlayTime >= audioDuration) {
             clearInterval(audioTimer);
         }
-    }, 1000);
+    }, CONFIG.AUDIO_UPDATE_INTERVAL);
 }
 
 function pauseAudio() {
@@ -6744,12 +6770,12 @@ function setupQuiz(poi) {
                 feedbackDiv.className = "quiz-feedback error";
                 feedbackDiv.classList.remove("hidden");
                 
-                // Re-enable options after 2.5 seconds to retry
+                // Re-enable options after delay to retry
                 setTimeout(() => {
                     allBtns.forEach(b => b.disabled = false);
                     btn.classList.remove("incorrect");
                     feedbackDiv.classList.add("hidden");
-                }, 2500);
+                }, CONFIG.QUIZ_FEEDBACK_DELAY);
             }
         });
 
@@ -6767,7 +6793,7 @@ function unlockReward(poi) {
         codeHash: poi.reward.codeHash
     });
     
-    userStats.points += 50; // Extra XP for correct quiz
+    userStats.points += CONFIG.QUIZ_CORRECT_POINTS; // Extra XP for correct quiz
     saveUserData();
     renderRewardsTab();
 }
@@ -6812,7 +6838,7 @@ function renderPOIList() {
         infoDiv.appendChild(h4);
 
         const p = document.createElement("p");
-        p.textContent = `${poi.description.substring(0, 100)}...`;
+        p.textContent = `${poi.description.substring(0, CONFIG.POI_DESCRIPTION_MAX_LENGTH)}...`;
         infoDiv.appendChild(p);
 
         card.appendChild(infoDiv);
