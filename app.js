@@ -929,7 +929,7 @@ const POIs = [
         "name": "Sanctuary of Demeter (Eleusis)",
         "lat": 38.0416,
         "lng": 23.5383,
-        "image": "images/olympian_zeus.png",
+        "image": "images/eleutherae.png",
         "description": "The sanctuary site of the Eleusinian Mysteries, the most sacred secret religious rites of the ancient Greek world, dedicated to Demeter and Persephone.",
         "audioText": "Explore the ruins of the Sanctuary of Demeter in Eleusis. This was the home of the Eleusinian Mysteries, the most secret and sacred religious rituals of ancient Greece. Initiates walked the Sacred Way from Athens to Eleusis to participate in rituals that promised happiness in the afterlife. The details of the rites remain secret to this day, but the ruins of the Telesterion hall show the scale of this ancient spiritual center.",
         "quiz": {

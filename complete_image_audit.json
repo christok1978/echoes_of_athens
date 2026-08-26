@@ -1,0 +1,2637 @@
+{
+  "timestamp": "2026-08-26T22:01:27.265Z",
+  "totalPOIs": 180,
+  "uniqueImages": 134,
+  "duplicates": 17,
+  "suspiciousMismatches": 33,
+  "fullData": {
+    "allPOIs": [
+      {
+        "id": 0,
+        "name": "The Parthenon",
+        "image": "images/parthenon.png"
+      },
+      {
+        "id": 1,
+        "name": "Erechtheion & Caryatids",
+        "image": "images/erechtheion.png"
+      },
+      {
+        "id": 2,
+        "name": "Temple of Olympian Zeus",
+        "image": "images/olympian_zeus.png"
+      },
+      {
+        "id": 3,
+        "name": "Temple of Hephaestus",
+        "image": "images/hephaestus.png"
+      },
+      {
+        "id": 4,
+        "name": "Panathenaic Stadium",
+        "image": "images/panathenaic_stadium.png"
+      },
+      {
+        "id": 5,
+        "name": "Tower of the Winds",
+        "image": "images/tower_winds.png"
+      },
+      {
+        "id": 6,
+        "name": "Hadrian's Library",
+        "image": "images/hadrian_library.png"
+      },
+      {
+        "id": 7,
+        "name": "Theatre of Dionysus",
+        "image": "images/theatre_dionysus.png"
+      },
+      {
+        "id": 8,
+        "name": "Odeon of Herodes Atticus",
+        "image": "images/odeon_herodes.png"
+      },
+      {
+        "id": 9,
+        "name": "Hadrian's Arch",
+        "image": "images/hadrians_arch.png"
+      },
+      {
+        "id": 10,
+        "name": "Philopappos Monument",
+        "image": "images/philopappos_monument.png"
+      },
+      {
+        "id": 11,
+        "name": "Areopagus Hill (Mars Hill)",
+        "image": "images/areopagus_hill.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Pnyx Hill",
+        "image": "images/pnyx_hill.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Choragic Monument of Lysicrates",
+        "image": "images/choragic_monument_of_lysicrates.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Socrates' Prison",
+        "image": "images/socrates_prison.png"
+      },
+      {
+        "id": 15,
+        "name": "Syntagma Square & Parliament",
+        "image": "images/syntagma_square.png"
+      },
+      {
+        "id": 16,
+        "name": "Monastiraki Square",
+        "image": "images/monastiraki_square.png"
+      },
+      {
+        "id": 17,
+        "name": "Church of Panagia Kapnikarea",
+        "image": "images/church_of_panagia_kapnikarea.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Zappeion Hall",
+        "image": "images/zappeion_hall.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Aristotle's Lyceum",
+        "image": "images/aristotle_s_lyceum.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Kerameikos Archaeological Site",
+        "image": "images/kerameikos_archaeological_site.jpg"
+      },
+      {
+        "id": 21,
+        "name": "Academy of Athens",
+        "image": "images/academy_athens.png"
+      },
+      {
+        "id": 22,
+        "name": "National Library of Greece",
+        "image": "images/national_library_of_greece.jpg"
+      },
+      {
+        "id": 23,
+        "name": "University of Athens (Propylaea)",
+        "image": "images/university_of_athens_propylaea.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Lycabettus Hill",
+        "image": "images/lycabettus_hill.png"
+      },
+      {
+        "id": 25,
+        "name": "National Archaeological Museum",
+        "image": "images/national_archaeological_museum.jpg"
+      },
+      {
+        "id": 26,
+        "name": "First Cemetery of Athens",
+        "image": "images/first_cemetery_of_athens.jpg"
+      },
+      {
+        "id": 27,
+        "name": "Ancient Agora of Athens",
+        "image": "images/ancient_agora_of_athens.jpg"
+      },
+      {
+        "id": 28,
+        "name": "Roman Agora of Athens",
+        "image": "images/roman_agora.png"
+      },
+      {
+        "id": 29,
+        "name": "Hadrian's Reservoir (Dexameni)",
+        "image": "images/olympian_zeus.png"
+      },
+      {
+        "id": 30,
+        "name": "Church of the Holy Apostles",
+        "image": "images/holy_apostles.png"
+      },
+      {
+        "id": 31,
+        "name": "Little Metropolis Church",
+        "image": "images/little_metropolis.png"
+      },
+      {
+        "id": 32,
+        "name": "Metropolitan Cathedral of Athens",
+        "image": "images/metropolitan_cathedral.png"
+      },
+      {
+        "id": 33,
+        "name": "Stoa of Attalos",
+        "image": "images/ancient_agora_of_athens.jpg"
+      },
+      {
+        "id": 34,
+        "name": "Kerameikos Archaeological Museum",
+        "image": "images/kerameikos_archaeological_site.jpg"
+      },
+      {
+        "id": 35,
+        "name": "Monastery of Daphni",
+        "image": "images/byzantine_museum.png"
+      },
+      {
+        "id": 36,
+        "name": "Sanctuary of Demeter (Eleusis)",
+        "image": "images/eleutherae.png"
+      },
+      {
+        "id": 37,
+        "name": "Amphiaraion of Oropos",
+        "image": "images/hephaestus.png"
+      },
+      {
+        "id": 38,
+        "name": "Tumulus of Marathon",
+        "image": "images/panathenaic_stadium.png"
+      },
+      {
+        "id": 39,
+        "name": "Sanctuary of Artemis (Vravrona)",
+        "image": "images/hephaestus.png"
+      },
+      {
+        "id": 40,
+        "name": "Thorikos Ancient Theater",
+        "image": "images/theatre_dionysus.png"
+      },
+      {
+        "id": 41,
+        "name": "Lavrion Silver Mines",
+        "image": "images/olympian_zeus.png"
+      },
+      {
+        "id": 42,
+        "name": "Kaisariani Monastery",
+        "image": "images/erechtheion.png"
+      },
+      {
+        "id": 43,
+        "name": "Asteriou Monastery",
+        "image": "images/erechtheion.png"
+      },
+      {
+        "id": 44,
+        "name": "Mount Parnitha National Park",
+        "image": "images/parthenon.png"
+      },
+      {
+        "id": 45,
+        "name": "Temple of Poseidon at Sounion",
+        "image": "images/olympian_zeus.png"
+      },
+      {
+        "id": 46,
+        "name": "Choragic Monument of Thrasyllus",
+        "image": "images/theatre_dionysus.png"
+      },
+      {
+        "id": 47,
+        "name": "Pedestal of Agrippa",
+        "image": "images/parthenon.png"
+      },
+      {
+        "id": 48,
+        "name": "Agia Dynami Church",
+        "image": "images/tower_winds.png"
+      },
+      {
+        "id": 49,
+        "name": "St. Demetrius Loumbardiaris",
+        "image": "images/hephaestus.png"
+      },
+      {
+        "id": 50,
+        "name": "Stoa of Eumenes",
+        "image": "images/theatre_dionysus.png"
+      },
+      {
+        "id": 51,
+        "name": "The Pelasgian Wall",
+        "image": "images/parthenon.png"
+      },
+      {
+        "id": 52,
+        "name": "Asclepieion of Athens",
+        "image": "images/theatre_dionysus.png"
+      },
+      {
+        "id": 53,
+        "name": "The Metroum (Ancient Agora)",
+        "image": "images/hephaestus.png"
+      },
+      {
+        "id": 54,
+        "name": "Ancient Bouleuterion",
+        "image": "images/hephaestus.png"
+      },
+      {
+        "id": 55,
+        "name": "The Tholos (Agora)",
+        "image": "images/hephaestus.png"
+      },
+      {
+        "id": 56,
+        "name": "Altar of the Twelve Gods",
+        "image": "images/hephaestus.png"
+      },
+      {
+        "id": 57,
+        "name": "South Stoa I",
+        "image": "images/hephaestus.png"
+      },
+      {
+        "id": 58,
+        "name": "Acropolis Museum",
+        "image": "images/acropolis_museum.png"
+      },
+      {
+        "id": 59,
+        "name": "Museum of Cycladic Art",
+        "image": "images/cycladic_art.png"
+      },
+      {
+        "id": 60,
+        "name": "Benaki Museum",
+        "image": "images/benaki_museum.png"
+      },
+      {
+        "id": 61,
+        "name": "National Museum of Contemporary Art (EMST)",
+        "image": "images/emst.png"
+      },
+      {
+        "id": 62,
+        "name": "Anafiotika",
+        "image": "images/anafiotika.png"
+      },
+      {
+        "id": 63,
+        "name": "Byzantine and Christian Museum",
+        "image": "images/byzantine_museum.png"
+      },
+      {
+        "id": 64,
+        "name": "War Museum of Athens",
+        "image": "images/war_museum.png"
+      },
+      {
+        "id": 65,
+        "name": "Numismatic Museum of Athens",
+        "image": "images/numismatic_museum.png"
+      },
+      {
+        "id": 66,
+        "name": "Hellenic Motor Museum",
+        "image": "images/motor_museum.png"
+      },
+      {
+        "id": 67,
+        "name": "National Gallery – Alexandros Soutsos Museum",
+        "image": "images/national_gallery.png"
+      },
+      {
+        "id": 68,
+        "name": "Rhamnous Archaeological Site",
+        "image": "images/rhamnous.png"
+      },
+      {
+        "id": 69,
+        "name": "Aigosthena Fortress",
+        "image": "images/aigosthena.png"
+      },
+      {
+        "id": 70,
+        "name": "Sanctuary of Aphaia",
+        "image": "images/aphaia.png"
+      },
+      {
+        "id": 71,
+        "name": "Lake Vouliagmeni",
+        "image": "images/lake_vouliagmeni.png"
+      },
+      {
+        "id": 72,
+        "name": "Marathon Dam",
+        "image": "images/marathon_dam.png"
+      },
+      {
+        "id": 73,
+        "name": "Koutouki Cave",
+        "image": "images/koutouki_cave.png"
+      },
+      {
+        "id": 74,
+        "name": "Eleutherae Ancient Fortress",
+        "image": "images/eleutherae.png"
+      },
+      {
+        "id": 75,
+        "name": "Phyle Fortress",
+        "image": "images/phyle.png"
+      },
+      {
+        "id": 76,
+        "name": "Mount Penteli Ancient Quarries",
+        "image": "images/penteli_quarries.png"
+      },
+      {
+        "id": 77,
+        "name": "Piraeus Archaeological Museum & Ship Sheds",
+        "image": "images/piraeus_museum.png"
+      },
+      {
+        "id": 78,
+        "name": "Schinias National Park",
+        "image": "images/schinias.png"
+      },
+      {
+        "id": 79,
+        "name": "Saint John the Hunter Monastery",
+        "image": "images/st_john_hunter.png"
+      },
+      {
+        "id": 80,
+        "name": "Plato's Academy Archaeological Park",
+        "image": "images/academy_athens.png"
+      },
+      {
+        "id": 81,
+        "name": "Kynosarges Archaeological Site",
+        "image": "images/aristotle_s_lyceum.jpg"
+      },
+      {
+        "id": 82,
+        "name": "Tomb of Sophocles",
+        "image": "images/first_cemetery_of_athens.jpg"
+      },
+      {
+        "id": 83,
+        "name": "Temple of Apollo Zoster",
+        "image": "images/hephaestus.png"
+      },
+      {
+        "id": 84,
+        "name": "Archaeological Site of Kolona",
+        "image": "images/hephaestus.png"
+      },
+      {
+        "id": 85,
+        "name": "Phaleron Delta Ancient Cemetery (Phaleron Captives)",
+        "image": "images/first_cemetery_of_athens.jpg"
+      },
+      {
+        "id": 86,
+        "name": "Ancient Deme of Halai Aixonides",
+        "image": "images/ancient_agora_of_athens.jpg"
+      },
+      {
+        "id": 87,
+        "name": "The Dema Wall",
+        "image": "images/parthenon.png"
+      },
+      {
+        "id": 88,
+        "name": "Agrileza Silver Workshops",
+        "image": "images/olympian_zeus.png"
+      },
+      {
+        "id": 89,
+        "name": "The Diateichisma Wall",
+        "image": "images/parthenon.png"
+      },
+      {
+        "id": 90,
+        "name": "Cave of Pan",
+        "image": "images/koutouki_cave.png"
+      },
+      {
+        "id": 91,
+        "name": "Sanctuary of Zeus Ombrios",
+        "image": "images/olympian_zeus.png"
+      },
+      {
+        "id": 92,
+        "name": "Valanaris Waterfall",
+        "image": "images/lake_vouliagmeni.png"
+      },
+      {
+        "id": 93,
+        "name": "Kaisariani Botanical Garden",
+        "image": "images/aristotle_s_lyceum.jpg"
+      },
+      {
+        "id": 94,
+        "name": "Temple of Artemis Agrotera",
+        "image": "images/hephaestus.png"
+      },
+      {
+        "id": 95,
+        "name": "Choragic Monument of Nikias",
+        "image": "images/theatre_dionysus.png"
+      },
+      {
+        "id": 96,
+        "name": "Temple of Apollo Erithaseos",
+        "image": "images/hephaestus.png"
+      },
+      {
+        "id": 97,
+        "name": "Archaeological Museum of Megara",
+        "image": "images/national_archaeological_museum.jpg"
+      },
+      {
+        "id": 98,
+        "name": "Monastery of Kleiston",
+        "image": "images/erechtheion.png"
+      },
+      {
+        "id": 99,
+        "name": "Tower of Markellos",
+        "image": "images/tower_winds.png"
+      },
+      {
+        "id": 100,
+        "name": "National Historical Museum",
+        "image": "images/national_historical_museum.jpg"
+      },
+      {
+        "id": 101,
+        "name": "National Observatory of Athens",
+        "image": "images/national_observatory.jpg"
+      },
+      {
+        "id": 102,
+        "name": "Technopolis (Gazi)",
+        "image": "images/technopolis.jpg"
+      },
+      {
+        "id": 103,
+        "name": "Roman Baths at Zappeion",
+        "image": "images/roman_baths_zappeion.jpg"
+      },
+      {
+        "id": 104,
+        "name": "Stoa Poikile (Painted Stoa)",
+        "image": "images/stoa_poikile.jpg"
+      },
+      {
+        "id": 105,
+        "name": "Odeon of Agrippa",
+        "image": "images/odeon_agrippa.jpg"
+      },
+      {
+        "id": 106,
+        "name": "Agia Irene Church (Aeolou)",
+        "image": "images/agia_irene.jpg"
+      },
+      {
+        "id": 107,
+        "name": "Hadrian’s Aqueduct (Dexameni)",
+        "image": "images/hadrian_aqueduct.jpg"
+      },
+      {
+        "id": 108,
+        "name": "Sacred Gate (Kerameikos)",
+        "image": "images/sacred_gate.jpg"
+      },
+      {
+        "id": 109,
+        "name": "Temple of Ares (Agora)",
+        "image": "images/temple_ares.jpg"
+      },
+      {
+        "id": 110,
+        "name": "Church of Agioi Asomatoi",
+        "image": "images/agioi_asomatoi.jpg"
+      },
+      {
+        "id": 111,
+        "name": "Tomb of the Unknown Soldier (Relief)",
+        "image": "images/unknown_soldier_relief.jpg"
+      },
+      {
+        "id": 112,
+        "name": "Tomb of Heinrich Schliemann",
+        "image": "images/schliemann_tomb.jpg"
+      },
+      {
+        "id": 113,
+        "name": "Tomb of Theodoros Kolokotronis",
+        "image": "images/kolokotronis_tomb.jpg"
+      },
+      {
+        "id": 114,
+        "name": "Roman Bath of the Ancient Agora",
+        "image": "images/roman_bath_agora.jpg"
+      },
+      {
+        "id": 115,
+        "name": "Lysicrates Square (Street of Tripods)",
+        "image": "images/lysicrates_square.jpg"
+      },
+      {
+        "id": 116,
+        "name": "Tower of the Winds (Clepsydra Inlet)",
+        "image": "images/tower_winds_clepsydra.jpg"
+      },
+      {
+        "id": 117,
+        "name": "Areopagus Hill (Paul's Sermon Plaque)",
+        "image": "images/areopagus_plaque.jpg"
+      },
+      {
+        "id": 118,
+        "name": "National Garden (Roman Mosaic Floor)",
+        "image": "images/national_garden_mosaic.jpg"
+      },
+      {
+        "id": 119,
+        "name": "Pnyx Hill Orator's Bema",
+        "image": "images/pnyx_bema.jpg"
+      },
+      {
+        "id": 120,
+        "name": "Museum of the Ancient Agora",
+        "image": "images/agora_museum.jpg"
+      },
+      {
+        "id": 121,
+        "name": "Monument of the Eponymous Heroes",
+        "image": "images/eponymous_heroes.jpg"
+      },
+      {
+        "id": 122,
+        "name": "Street of Tombs (Kerameikos)",
+        "image": "images/street_of_tombs.jpg"
+      },
+      {
+        "id": 123,
+        "name": "Tzistarakis Mosque",
+        "image": "images/tzistarakis_mosque.jpg"
+      },
+      {
+        "id": 124,
+        "name": "Adrianou Street (Plaka)",
+        "image": "images/adrianou_street.jpg"
+      },
+      {
+        "id": 125,
+        "name": "Syntagma Metro Station Exhibition",
+        "image": "images/syntagma_metro.jpg"
+      },
+      {
+        "id": 126,
+        "name": "Pikionis Landscaping (Philopappos)",
+        "image": "images/pikionis_path.jpg"
+      },
+      {
+        "id": 127,
+        "name": "Lycabettus Open Air Theatre",
+        "image": "images/lycabettus_theater.jpg"
+      },
+      {
+        "id": 128,
+        "name": "Sanctuary of Zeus Polieus (Acropolis)",
+        "image": "images/zeus_polieus.jpg"
+      },
+      {
+        "id": 129,
+        "name": "Tomb of Melina Mercouri",
+        "image": "images/melina_mercouri_tomb.jpg"
+      },
+      {
+        "id": 130,
+        "name": "Plato's Academy Sacred House",
+        "image": "images/academy_sacred_house.jpg"
+      },
+      {
+        "id": 131,
+        "name": "Temple of Apollo Patroos",
+        "image": "images/apollo_patroos.jpg"
+      },
+      {
+        "id": 132,
+        "name": "Roman Agora East Propylon",
+        "image": "images/roman_agora_east.jpg"
+      },
+      {
+        "id": 133,
+        "name": "Shrine of the Nymphs (Hill of Nymphs)",
+        "image": "images/shrine_nymphs.jpg"
+      },
+      {
+        "id": 134,
+        "name": "First Cemetery (Tomb of Andreas Syngros)",
+        "image": "images/syngros_tomb.jpg"
+      },
+      {
+        "id": 135,
+        "name": "Panagia Grigoroussa Church",
+        "image": "images/panagia_grigoroussa.jpg"
+      },
+      {
+        "id": 136,
+        "name": "University of Athens Great Hall",
+        "image": "images/university_hall.jpg"
+      },
+      {
+        "id": 137,
+        "name": "Mycenaean Golden Gallery",
+        "image": "images/mycenaean_gallery.jpg"
+      },
+      {
+        "id": 138,
+        "name": "Cape Sounion Geological Cliffs",
+        "image": "images/sounion_cliffs.jpg"
+      },
+      {
+        "id": 139,
+        "name": "Tomb of Sophia Schliemann",
+        "image": "images/sophia_schliemann_tomb.jpg"
+      },
+      {
+        "id": 140,
+        "name": "Church of Agia Marina (Nymphs Hill)",
+        "image": "images/agia_marina.jpg"
+      },
+      {
+        "id": 141,
+        "name": "Bath House of the Winds",
+        "image": "images/bath_house_winds.jpg"
+      },
+      {
+        "id": 142,
+        "name": "The Pompeion (Kerameikos)",
+        "image": "images/pompeion.jpg"
+      },
+      {
+        "id": 143,
+        "name": "Royal Stoa (Stoa Basileios)",
+        "image": "images/royal_stoa.jpg"
+      },
+      {
+        "id": 144,
+        "name": "Agios Nikolaos Ragavas Church",
+        "image": "images/agios_nikolaos_ragavas.jpg"
+      },
+      {
+        "id": 145,
+        "name": "The Fallen Column (Olympian Zeus)",
+        "image": "images/fallen_column.jpg"
+      },
+      {
+        "id": 146,
+        "name": "Tomb of Yannoulis Halepas",
+        "image": "images/halepas_tomb.jpg"
+      },
+      {
+        "id": 147,
+        "name": "Tomb of George Averoff",
+        "image": "images/averoff_tomb.jpg"
+      },
+      {
+        "id": 148,
+        "name": "Tomb of Andreas Papandreou",
+        "image": "images/papandreou_tomb.jpg"
+      },
+      {
+        "id": 149,
+        "name": "Phaleron Captives Grave Site",
+        "image": "images/phaleron_captives.jpg"
+      },
+      {
+        "id": 150,
+        "name": "Plato's Academy Gymnasium Ruins",
+        "image": "images/academy_gymnasium.jpg"
+      },
+      {
+        "id": 151,
+        "name": "Tomb of the Lacedaemonians",
+        "image": "images/lacedaemonian_tomb.jpg"
+      },
+      {
+        "id": 152,
+        "name": "Sanctuary of Pandion (Acropolis)",
+        "image": "images/sanctuary_pandion.jpg"
+      },
+      {
+        "id": 153,
+        "name": "Stoa of Attalos Colonnade",
+        "image": "images/stoa_attalos_columns.jpg"
+      },
+      {
+        "id": 154,
+        "name": "Hadrian's Arch (Theseus Inscription)",
+        "image": "images/hadrian_arch_inscription.jpg"
+      },
+      {
+        "id": 155,
+        "name": "Odeon of Agrippa Tritons Porch",
+        "image": "images/odeon_tritons.jpg"
+      },
+      {
+        "id": 156,
+        "name": "Gazi Retort House (Technopolis)",
+        "image": "images/gazi_retort_house.jpg"
+      },
+      {
+        "id": 157,
+        "name": "National Museum Cycladic Figurines",
+        "image": "images/cycladic_figurines.jpg"
+      },
+      {
+        "id": 158,
+        "name": "Cape Sounion Sanctuary Precinct",
+        "image": "images/sounion_sanctuary.jpg"
+      },
+      {
+        "id": 159,
+        "name": "Temple of Ares Relocation Block",
+        "image": "images/temple_ares_blocks.jpg"
+      },
+      {
+        "id": 160,
+        "name": "Metropolitan Cathedral (Saint Philothei Shrine)",
+        "image": "images/cathedral_philothei.jpg"
+      },
+      {
+        "id": 161,
+        "name": "Tomb of George Seferis",
+        "image": "images/seferis_tomb.jpg"
+      },
+      {
+        "id": 162,
+        "name": "Church of Saint John the Theologian",
+        "image": "images/st_john_theologian.jpg"
+      },
+      {
+        "id": 163,
+        "name": "Sanctuary of Aphrodite Pandemos",
+        "image": "images/aphrodite_pandemos.jpg"
+      },
+      {
+        "id": 164,
+        "name": "Heliaia (Ancient Supreme Court)",
+        "image": "images/heliaia.jpg"
+      },
+      {
+        "id": 165,
+        "name": "Philopappos Hill Quarry Paths",
+        "image": "images/philopappos_quarry.jpg"
+      },
+      {
+        "id": 166,
+        "name": "Church of the Pantanassa (Monastiraki)",
+        "image": "images/pantanassa_church.jpg"
+      },
+      {
+        "id": 167,
+        "name": "Tomb of Dexileos (Kerameikos)",
+        "image": "images/dexileos_tomb.jpg"
+      },
+      {
+        "id": 168,
+        "name": "National Garden Botanical Museum",
+        "image": "images/botanical_museum.jpg"
+      },
+      {
+        "id": 169,
+        "name": "Antikythera Mechanism Gallery",
+        "image": "images/antikythera_gallery.jpg"
+      },
+      {
+        "id": 170,
+        "name": "Gazi Purifier Building (Technopolis)",
+        "image": "images/gazi_purifier.jpg"
+      },
+      {
+        "id": 171,
+        "name": "Plato's Academy Peristyle Building",
+        "image": "images/academy_peristyle.jpg"
+      },
+      {
+        "id": 172,
+        "name": "Tomb of Odysseas Elytis",
+        "image": "images/elytis_tomb.jpg"
+      },
+      {
+        "id": 173,
+        "name": "Stoa of the Herms (Agora)",
+        "image": "images/stoa_herms.jpg"
+      },
+      {
+        "id": 174,
+        "name": "Hadrian's Arch (Hadrian Inscription)",
+        "image": "images/hadrian_arch_east.jpg"
+      },
+      {
+        "id": 175,
+        "name": "Odeon of Agrippa Giants Pillars",
+        "image": "images/agrippa_giants.jpg"
+      },
+      {
+        "id": 176,
+        "name": "Sacred Way Milestone (Kerameikos)",
+        "image": "images/sacred_way_milestone.jpg"
+      },
+      {
+        "id": 177,
+        "name": "Stoa of Attalos Upper Floor View",
+        "image": "images/attalos_upper_view.jpg"
+      },
+      {
+        "id": 178,
+        "name": "Temple of Olympian Zeus Propylon",
+        "image": "images/zeus_propylon.jpg"
+      },
+      {
+        "id": 179,
+        "name": "Tomb of Constantine Kanaris",
+        "image": "images/kanaris_tomb.jpg"
+      }
+    ],
+    "imageUsage": [
+      {
+        "image": "images/parthenon.png",
+        "usageCount": 6,
+        "pois": [
+          {
+            "id": 0,
+            "name": "The Parthenon"
+          },
+          {
+            "id": 44,
+            "name": "Mount Parnitha National Park"
+          },
+          {
+            "id": 47,
+            "name": "Pedestal of Agrippa"
+          },
+          {
+            "id": 51,
+            "name": "The Pelasgian Wall"
+          },
+          {
+            "id": 87,
+            "name": "The Dema Wall"
+          },
+          {
+            "id": 89,
+            "name": "The Diateichisma Wall"
+          }
+        ]
+      },
+      {
+        "image": "images/erechtheion.png",
+        "usageCount": 4,
+        "pois": [
+          {
+            "id": 1,
+            "name": "Erechtheion & Caryatids"
+          },
+          {
+            "id": 42,
+            "name": "Kaisariani Monastery"
+          },
+          {
+            "id": 43,
+            "name": "Asteriou Monastery"
+          },
+          {
+            "id": 98,
+            "name": "Monastery of Kleiston"
+          }
+        ]
+      },
+      {
+        "image": "images/olympian_zeus.png",
+        "usageCount": 6,
+        "pois": [
+          {
+            "id": 2,
+            "name": "Temple of Olympian Zeus"
+          },
+          {
+            "id": 29,
+            "name": "Hadrian's Reservoir (Dexameni)"
+          },
+          {
+            "id": 41,
+            "name": "Lavrion Silver Mines"
+          },
+          {
+            "id": 45,
+            "name": "Temple of Poseidon at Sounion"
+          },
+          {
+            "id": 88,
+            "name": "Agrileza Silver Workshops"
+          },
+          {
+            "id": 91,
+            "name": "Sanctuary of Zeus Ombrios"
+          }
+        ]
+      },
+      {
+        "image": "images/hephaestus.png",
+        "usageCount": 13,
+        "pois": [
+          {
+            "id": 3,
+            "name": "Temple of Hephaestus"
+          },
+          {
+            "id": 37,
+            "name": "Amphiaraion of Oropos"
+          },
+          {
+            "id": 39,
+            "name": "Sanctuary of Artemis (Vravrona)"
+          },
+          {
+            "id": 49,
+            "name": "St. Demetrius Loumbardiaris"
+          },
+          {
+            "id": 53,
+            "name": "The Metroum (Ancient Agora)"
+          },
+          {
+            "id": 54,
+            "name": "Ancient Bouleuterion"
+          },
+          {
+            "id": 55,
+            "name": "The Tholos (Agora)"
+          },
+          {
+            "id": 56,
+            "name": "Altar of the Twelve Gods"
+          },
+          {
+            "id": 57,
+            "name": "South Stoa I"
+          },
+          {
+            "id": 83,
+            "name": "Temple of Apollo Zoster"
+          },
+          {
+            "id": 84,
+            "name": "Archaeological Site of Kolona"
+          },
+          {
+            "id": 94,
+            "name": "Temple of Artemis Agrotera"
+          },
+          {
+            "id": 96,
+            "name": "Temple of Apollo Erithaseos"
+          }
+        ]
+      },
+      {
+        "image": "images/panathenaic_stadium.png",
+        "usageCount": 2,
+        "pois": [
+          {
+            "id": 4,
+            "name": "Panathenaic Stadium"
+          },
+          {
+            "id": 38,
+            "name": "Tumulus of Marathon"
+          }
+        ]
+      },
+      {
+        "image": "images/tower_winds.png",
+        "usageCount": 3,
+        "pois": [
+          {
+            "id": 5,
+            "name": "Tower of the Winds"
+          },
+          {
+            "id": 48,
+            "name": "Agia Dynami Church"
+          },
+          {
+            "id": 99,
+            "name": "Tower of Markellos"
+          }
+        ]
+      },
+      {
+        "image": "images/hadrian_library.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 6,
+            "name": "Hadrian's Library"
+          }
+        ]
+      },
+      {
+        "image": "images/theatre_dionysus.png",
+        "usageCount": 6,
+        "pois": [
+          {
+            "id": 7,
+            "name": "Theatre of Dionysus"
+          },
+          {
+            "id": 40,
+            "name": "Thorikos Ancient Theater"
+          },
+          {
+            "id": 46,
+            "name": "Choragic Monument of Thrasyllus"
+          },
+          {
+            "id": 50,
+            "name": "Stoa of Eumenes"
+          },
+          {
+            "id": 52,
+            "name": "Asclepieion of Athens"
+          },
+          {
+            "id": 95,
+            "name": "Choragic Monument of Nikias"
+          }
+        ]
+      },
+      {
+        "image": "images/odeon_herodes.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 8,
+            "name": "Odeon of Herodes Atticus"
+          }
+        ]
+      },
+      {
+        "image": "images/hadrians_arch.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 9,
+            "name": "Hadrian's Arch"
+          }
+        ]
+      },
+      {
+        "image": "images/philopappos_monument.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 10,
+            "name": "Philopappos Monument"
+          }
+        ]
+      },
+      {
+        "image": "images/areopagus_hill.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 11,
+            "name": "Areopagus Hill (Mars Hill)"
+          }
+        ]
+      },
+      {
+        "image": "images/pnyx_hill.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 12,
+            "name": "Pnyx Hill"
+          }
+        ]
+      },
+      {
+        "image": "images/choragic_monument_of_lysicrates.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 13,
+            "name": "Choragic Monument of Lysicrates"
+          }
+        ]
+      },
+      {
+        "image": "images/socrates_prison.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 14,
+            "name": "Socrates' Prison"
+          }
+        ]
+      },
+      {
+        "image": "images/syntagma_square.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 15,
+            "name": "Syntagma Square & Parliament"
+          }
+        ]
+      },
+      {
+        "image": "images/monastiraki_square.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 16,
+            "name": "Monastiraki Square"
+          }
+        ]
+      },
+      {
+        "image": "images/church_of_panagia_kapnikarea.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 17,
+            "name": "Church of Panagia Kapnikarea"
+          }
+        ]
+      },
+      {
+        "image": "images/zappeion_hall.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 18,
+            "name": "Zappeion Hall"
+          }
+        ]
+      },
+      {
+        "image": "images/aristotle_s_lyceum.jpg",
+        "usageCount": 3,
+        "pois": [
+          {
+            "id": 19,
+            "name": "Aristotle's Lyceum"
+          },
+          {
+            "id": 81,
+            "name": "Kynosarges Archaeological Site"
+          },
+          {
+            "id": 93,
+            "name": "Kaisariani Botanical Garden"
+          }
+        ]
+      },
+      {
+        "image": "images/kerameikos_archaeological_site.jpg",
+        "usageCount": 2,
+        "pois": [
+          {
+            "id": 20,
+            "name": "Kerameikos Archaeological Site"
+          },
+          {
+            "id": 34,
+            "name": "Kerameikos Archaeological Museum"
+          }
+        ]
+      },
+      {
+        "image": "images/academy_athens.png",
+        "usageCount": 2,
+        "pois": [
+          {
+            "id": 21,
+            "name": "Academy of Athens"
+          },
+          {
+            "id": 80,
+            "name": "Plato's Academy Archaeological Park"
+          }
+        ]
+      },
+      {
+        "image": "images/national_library_of_greece.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 22,
+            "name": "National Library of Greece"
+          }
+        ]
+      },
+      {
+        "image": "images/university_of_athens_propylaea.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 23,
+            "name": "University of Athens (Propylaea)"
+          }
+        ]
+      },
+      {
+        "image": "images/lycabettus_hill.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 24,
+            "name": "Lycabettus Hill"
+          }
+        ]
+      },
+      {
+        "image": "images/national_archaeological_museum.jpg",
+        "usageCount": 2,
+        "pois": [
+          {
+            "id": 25,
+            "name": "National Archaeological Museum"
+          },
+          {
+            "id": 97,
+            "name": "Archaeological Museum of Megara"
+          }
+        ]
+      },
+      {
+        "image": "images/first_cemetery_of_athens.jpg",
+        "usageCount": 3,
+        "pois": [
+          {
+            "id": 26,
+            "name": "First Cemetery of Athens"
+          },
+          {
+            "id": 82,
+            "name": "Tomb of Sophocles"
+          },
+          {
+            "id": 85,
+            "name": "Phaleron Delta Ancient Cemetery (Phaleron Captives)"
+          }
+        ]
+      },
+      {
+        "image": "images/ancient_agora_of_athens.jpg",
+        "usageCount": 3,
+        "pois": [
+          {
+            "id": 27,
+            "name": "Ancient Agora of Athens"
+          },
+          {
+            "id": 33,
+            "name": "Stoa of Attalos"
+          },
+          {
+            "id": 86,
+            "name": "Ancient Deme of Halai Aixonides"
+          }
+        ]
+      },
+      {
+        "image": "images/roman_agora.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 28,
+            "name": "Roman Agora of Athens"
+          }
+        ]
+      },
+      {
+        "image": "images/holy_apostles.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 30,
+            "name": "Church of the Holy Apostles"
+          }
+        ]
+      },
+      {
+        "image": "images/little_metropolis.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 31,
+            "name": "Little Metropolis Church"
+          }
+        ]
+      },
+      {
+        "image": "images/metropolitan_cathedral.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 32,
+            "name": "Metropolitan Cathedral of Athens"
+          }
+        ]
+      },
+      {
+        "image": "images/byzantine_museum.png",
+        "usageCount": 2,
+        "pois": [
+          {
+            "id": 35,
+            "name": "Monastery of Daphni"
+          },
+          {
+            "id": 63,
+            "name": "Byzantine and Christian Museum"
+          }
+        ]
+      },
+      {
+        "image": "images/eleutherae.png",
+        "usageCount": 2,
+        "pois": [
+          {
+            "id": 36,
+            "name": "Sanctuary of Demeter (Eleusis)"
+          },
+          {
+            "id": 74,
+            "name": "Eleutherae Ancient Fortress"
+          }
+        ]
+      },
+      {
+        "image": "images/acropolis_museum.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 58,
+            "name": "Acropolis Museum"
+          }
+        ]
+      },
+      {
+        "image": "images/cycladic_art.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 59,
+            "name": "Museum of Cycladic Art"
+          }
+        ]
+      },
+      {
+        "image": "images/benaki_museum.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 60,
+            "name": "Benaki Museum"
+          }
+        ]
+      },
+      {
+        "image": "images/emst.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 61,
+            "name": "National Museum of Contemporary Art (EMST)"
+          }
+        ]
+      },
+      {
+        "image": "images/anafiotika.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 62,
+            "name": "Anafiotika"
+          }
+        ]
+      },
+      {
+        "image": "images/war_museum.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 64,
+            "name": "War Museum of Athens"
+          }
+        ]
+      },
+      {
+        "image": "images/numismatic_museum.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 65,
+            "name": "Numismatic Museum of Athens"
+          }
+        ]
+      },
+      {
+        "image": "images/motor_museum.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 66,
+            "name": "Hellenic Motor Museum"
+          }
+        ]
+      },
+      {
+        "image": "images/national_gallery.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 67,
+            "name": "National Gallery – Alexandros Soutsos Museum"
+          }
+        ]
+      },
+      {
+        "image": "images/rhamnous.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 68,
+            "name": "Rhamnous Archaeological Site"
+          }
+        ]
+      },
+      {
+        "image": "images/aigosthena.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 69,
+            "name": "Aigosthena Fortress"
+          }
+        ]
+      },
+      {
+        "image": "images/aphaia.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 70,
+            "name": "Sanctuary of Aphaia"
+          }
+        ]
+      },
+      {
+        "image": "images/lake_vouliagmeni.png",
+        "usageCount": 2,
+        "pois": [
+          {
+            "id": 71,
+            "name": "Lake Vouliagmeni"
+          },
+          {
+            "id": 92,
+            "name": "Valanaris Waterfall"
+          }
+        ]
+      },
+      {
+        "image": "images/marathon_dam.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 72,
+            "name": "Marathon Dam"
+          }
+        ]
+      },
+      {
+        "image": "images/koutouki_cave.png",
+        "usageCount": 2,
+        "pois": [
+          {
+            "id": 73,
+            "name": "Koutouki Cave"
+          },
+          {
+            "id": 90,
+            "name": "Cave of Pan"
+          }
+        ]
+      },
+      {
+        "image": "images/phyle.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 75,
+            "name": "Phyle Fortress"
+          }
+        ]
+      },
+      {
+        "image": "images/penteli_quarries.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 76,
+            "name": "Mount Penteli Ancient Quarries"
+          }
+        ]
+      },
+      {
+        "image": "images/piraeus_museum.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 77,
+            "name": "Piraeus Archaeological Museum & Ship Sheds"
+          }
+        ]
+      },
+      {
+        "image": "images/schinias.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 78,
+            "name": "Schinias National Park"
+          }
+        ]
+      },
+      {
+        "image": "images/st_john_hunter.png",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 79,
+            "name": "Saint John the Hunter Monastery"
+          }
+        ]
+      },
+      {
+        "image": "images/national_historical_museum.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 100,
+            "name": "National Historical Museum"
+          }
+        ]
+      },
+      {
+        "image": "images/national_observatory.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 101,
+            "name": "National Observatory of Athens"
+          }
+        ]
+      },
+      {
+        "image": "images/technopolis.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 102,
+            "name": "Technopolis (Gazi)"
+          }
+        ]
+      },
+      {
+        "image": "images/roman_baths_zappeion.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 103,
+            "name": "Roman Baths at Zappeion"
+          }
+        ]
+      },
+      {
+        "image": "images/stoa_poikile.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 104,
+            "name": "Stoa Poikile (Painted Stoa)"
+          }
+        ]
+      },
+      {
+        "image": "images/odeon_agrippa.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 105,
+            "name": "Odeon of Agrippa"
+          }
+        ]
+      },
+      {
+        "image": "images/agia_irene.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 106,
+            "name": "Agia Irene Church (Aeolou)"
+          }
+        ]
+      },
+      {
+        "image": "images/hadrian_aqueduct.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 107,
+            "name": "Hadrian’s Aqueduct (Dexameni)"
+          }
+        ]
+      },
+      {
+        "image": "images/sacred_gate.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 108,
+            "name": "Sacred Gate (Kerameikos)"
+          }
+        ]
+      },
+      {
+        "image": "images/temple_ares.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 109,
+            "name": "Temple of Ares (Agora)"
+          }
+        ]
+      },
+      {
+        "image": "images/agioi_asomatoi.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 110,
+            "name": "Church of Agioi Asomatoi"
+          }
+        ]
+      },
+      {
+        "image": "images/unknown_soldier_relief.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 111,
+            "name": "Tomb of the Unknown Soldier (Relief)"
+          }
+        ]
+      },
+      {
+        "image": "images/schliemann_tomb.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 112,
+            "name": "Tomb of Heinrich Schliemann"
+          }
+        ]
+      },
+      {
+        "image": "images/kolokotronis_tomb.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 113,
+            "name": "Tomb of Theodoros Kolokotronis"
+          }
+        ]
+      },
+      {
+        "image": "images/roman_bath_agora.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 114,
+            "name": "Roman Bath of the Ancient Agora"
+          }
+        ]
+      },
+      {
+        "image": "images/lysicrates_square.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 115,
+            "name": "Lysicrates Square (Street of Tripods)"
+          }
+        ]
+      },
+      {
+        "image": "images/tower_winds_clepsydra.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 116,
+            "name": "Tower of the Winds (Clepsydra Inlet)"
+          }
+        ]
+      },
+      {
+        "image": "images/areopagus_plaque.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 117,
+            "name": "Areopagus Hill (Paul's Sermon Plaque)"
+          }
+        ]
+      },
+      {
+        "image": "images/national_garden_mosaic.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 118,
+            "name": "National Garden (Roman Mosaic Floor)"
+          }
+        ]
+      },
+      {
+        "image": "images/pnyx_bema.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 119,
+            "name": "Pnyx Hill Orator's Bema"
+          }
+        ]
+      },
+      {
+        "image": "images/agora_museum.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 120,
+            "name": "Museum of the Ancient Agora"
+          }
+        ]
+      },
+      {
+        "image": "images/eponymous_heroes.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 121,
+            "name": "Monument of the Eponymous Heroes"
+          }
+        ]
+      },
+      {
+        "image": "images/street_of_tombs.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 122,
+            "name": "Street of Tombs (Kerameikos)"
+          }
+        ]
+      },
+      {
+        "image": "images/tzistarakis_mosque.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 123,
+            "name": "Tzistarakis Mosque"
+          }
+        ]
+      },
+      {
+        "image": "images/adrianou_street.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 124,
+            "name": "Adrianou Street (Plaka)"
+          }
+        ]
+      },
+      {
+        "image": "images/syntagma_metro.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 125,
+            "name": "Syntagma Metro Station Exhibition"
+          }
+        ]
+      },
+      {
+        "image": "images/pikionis_path.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 126,
+            "name": "Pikionis Landscaping (Philopappos)"
+          }
+        ]
+      },
+      {
+        "image": "images/lycabettus_theater.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 127,
+            "name": "Lycabettus Open Air Theatre"
+          }
+        ]
+      },
+      {
+        "image": "images/zeus_polieus.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 128,
+            "name": "Sanctuary of Zeus Polieus (Acropolis)"
+          }
+        ]
+      },
+      {
+        "image": "images/melina_mercouri_tomb.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 129,
+            "name": "Tomb of Melina Mercouri"
+          }
+        ]
+      },
+      {
+        "image": "images/academy_sacred_house.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 130,
+            "name": "Plato's Academy Sacred House"
+          }
+        ]
+      },
+      {
+        "image": "images/apollo_patroos.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 131,
+            "name": "Temple of Apollo Patroos"
+          }
+        ]
+      },
+      {
+        "image": "images/roman_agora_east.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 132,
+            "name": "Roman Agora East Propylon"
+          }
+        ]
+      },
+      {
+        "image": "images/shrine_nymphs.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 133,
+            "name": "Shrine of the Nymphs (Hill of Nymphs)"
+          }
+        ]
+      },
+      {
+        "image": "images/syngros_tomb.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 134,
+            "name": "First Cemetery (Tomb of Andreas Syngros)"
+          }
+        ]
+      },
+      {
+        "image": "images/panagia_grigoroussa.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 135,
+            "name": "Panagia Grigoroussa Church"
+          }
+        ]
+      },
+      {
+        "image": "images/university_hall.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 136,
+            "name": "University of Athens Great Hall"
+          }
+        ]
+      },
+      {
+        "image": "images/mycenaean_gallery.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 137,
+            "name": "Mycenaean Golden Gallery"
+          }
+        ]
+      },
+      {
+        "image": "images/sounion_cliffs.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 138,
+            "name": "Cape Sounion Geological Cliffs"
+          }
+        ]
+      },
+      {
+        "image": "images/sophia_schliemann_tomb.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 139,
+            "name": "Tomb of Sophia Schliemann"
+          }
+        ]
+      },
+      {
+        "image": "images/agia_marina.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 140,
+            "name": "Church of Agia Marina (Nymphs Hill)"
+          }
+        ]
+      },
+      {
+        "image": "images/bath_house_winds.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 141,
+            "name": "Bath House of the Winds"
+          }
+        ]
+      },
+      {
+        "image": "images/pompeion.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 142,
+            "name": "The Pompeion (Kerameikos)"
+          }
+        ]
+      },
+      {
+        "image": "images/royal_stoa.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 143,
+            "name": "Royal Stoa (Stoa Basileios)"
+          }
+        ]
+      },
+      {
+        "image": "images/agios_nikolaos_ragavas.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 144,
+            "name": "Agios Nikolaos Ragavas Church"
+          }
+        ]
+      },
+      {
+        "image": "images/fallen_column.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 145,
+            "name": "The Fallen Column (Olympian Zeus)"
+          }
+        ]
+      },
+      {
+        "image": "images/halepas_tomb.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 146,
+            "name": "Tomb of Yannoulis Halepas"
+          }
+        ]
+      },
+      {
+        "image": "images/averoff_tomb.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 147,
+            "name": "Tomb of George Averoff"
+          }
+        ]
+      },
+      {
+        "image": "images/papandreou_tomb.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 148,
+            "name": "Tomb of Andreas Papandreou"
+          }
+        ]
+      },
+      {
+        "image": "images/phaleron_captives.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 149,
+            "name": "Phaleron Captives Grave Site"
+          }
+        ]
+      },
+      {
+        "image": "images/academy_gymnasium.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 150,
+            "name": "Plato's Academy Gymnasium Ruins"
+          }
+        ]
+      },
+      {
+        "image": "images/lacedaemonian_tomb.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 151,
+            "name": "Tomb of the Lacedaemonians"
+          }
+        ]
+      },
+      {
+        "image": "images/sanctuary_pandion.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 152,
+            "name": "Sanctuary of Pandion (Acropolis)"
+          }
+        ]
+      },
+      {
+        "image": "images/stoa_attalos_columns.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 153,
+            "name": "Stoa of Attalos Colonnade"
+          }
+        ]
+      },
+      {
+        "image": "images/hadrian_arch_inscription.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 154,
+            "name": "Hadrian's Arch (Theseus Inscription)"
+          }
+        ]
+      },
+      {
+        "image": "images/odeon_tritons.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 155,
+            "name": "Odeon of Agrippa Tritons Porch"
+          }
+        ]
+      },
+      {
+        "image": "images/gazi_retort_house.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 156,
+            "name": "Gazi Retort House (Technopolis)"
+          }
+        ]
+      },
+      {
+        "image": "images/cycladic_figurines.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 157,
+            "name": "National Museum Cycladic Figurines"
+          }
+        ]
+      },
+      {
+        "image": "images/sounion_sanctuary.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 158,
+            "name": "Cape Sounion Sanctuary Precinct"
+          }
+        ]
+      },
+      {
+        "image": "images/temple_ares_blocks.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 159,
+            "name": "Temple of Ares Relocation Block"
+          }
+        ]
+      },
+      {
+        "image": "images/cathedral_philothei.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 160,
+            "name": "Metropolitan Cathedral (Saint Philothei Shrine)"
+          }
+        ]
+      },
+      {
+        "image": "images/seferis_tomb.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 161,
+            "name": "Tomb of George Seferis"
+          }
+        ]
+      },
+      {
+        "image": "images/st_john_theologian.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 162,
+            "name": "Church of Saint John the Theologian"
+          }
+        ]
+      },
+      {
+        "image": "images/aphrodite_pandemos.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 163,
+            "name": "Sanctuary of Aphrodite Pandemos"
+          }
+        ]
+      },
+      {
+        "image": "images/heliaia.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 164,
+            "name": "Heliaia (Ancient Supreme Court)"
+          }
+        ]
+      },
+      {
+        "image": "images/philopappos_quarry.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 165,
+            "name": "Philopappos Hill Quarry Paths"
+          }
+        ]
+      },
+      {
+        "image": "images/pantanassa_church.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 166,
+            "name": "Church of the Pantanassa (Monastiraki)"
+          }
+        ]
+      },
+      {
+        "image": "images/dexileos_tomb.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 167,
+            "name": "Tomb of Dexileos (Kerameikos)"
+          }
+        ]
+      },
+      {
+        "image": "images/botanical_museum.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 168,
+            "name": "National Garden Botanical Museum"
+          }
+        ]
+      },
+      {
+        "image": "images/antikythera_gallery.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 169,
+            "name": "Antikythera Mechanism Gallery"
+          }
+        ]
+      },
+      {
+        "image": "images/gazi_purifier.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 170,
+            "name": "Gazi Purifier Building (Technopolis)"
+          }
+        ]
+      },
+      {
+        "image": "images/academy_peristyle.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 171,
+            "name": "Plato's Academy Peristyle Building"
+          }
+        ]
+      },
+      {
+        "image": "images/elytis_tomb.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 172,
+            "name": "Tomb of Odysseas Elytis"
+          }
+        ]
+      },
+      {
+        "image": "images/stoa_herms.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 173,
+            "name": "Stoa of the Herms (Agora)"
+          }
+        ]
+      },
+      {
+        "image": "images/hadrian_arch_east.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 174,
+            "name": "Hadrian's Arch (Hadrian Inscription)"
+          }
+        ]
+      },
+      {
+        "image": "images/agrippa_giants.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 175,
+            "name": "Odeon of Agrippa Giants Pillars"
+          }
+        ]
+      },
+      {
+        "image": "images/sacred_way_milestone.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 176,
+            "name": "Sacred Way Milestone (Kerameikos)"
+          }
+        ]
+      },
+      {
+        "image": "images/attalos_upper_view.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 177,
+            "name": "Stoa of Attalos Upper Floor View"
+          }
+        ]
+      },
+      {
+        "image": "images/zeus_propylon.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 178,
+            "name": "Temple of Olympian Zeus Propylon"
+          }
+        ]
+      },
+      {
+        "image": "images/kanaris_tomb.jpg",
+        "usageCount": 1,
+        "pois": [
+          {
+            "id": 179,
+            "name": "Tomb of Constantine Kanaris"
+          }
+        ]
+      }
+    ],
+    "suspiciousMatches": [
+      {
+        "id": 29,
+        "name": "Hadrian's Reservoir (Dexameni)",
+        "image": "images/olympian_zeus.png",
+        "reason": "Image suggests \"olympian_zeus\" but POI is \"Hadrian's Reservoir (Dexameni)\""
+      },
+      {
+        "id": 33,
+        "name": "Stoa of Attalos",
+        "image": "images/ancient_agora_of_athens.jpg",
+        "reason": "Image suggests \"agora\" but POI is \"Stoa of Attalos\""
+      },
+      {
+        "id": 35,
+        "name": "Monastery of Daphni",
+        "image": "images/byzantine_museum.png",
+        "reason": "Image suggests \"museum\" but POI is \"Monastery of Daphni\""
+      },
+      {
+        "id": 37,
+        "name": "Amphiaraion of Oropos",
+        "image": "images/hephaestus.png",
+        "reason": "Image suggests \"hephaestus\" but POI is \"Amphiaraion of Oropos\""
+      },
+      {
+        "id": 38,
+        "name": "Tumulus of Marathon",
+        "image": "images/panathenaic_stadium.png",
+        "reason": "Image suggests \"panathenaic_stadium\" but POI is \"Tumulus of Marathon\""
+      },
+      {
+        "id": 39,
+        "name": "Sanctuary of Artemis (Vravrona)",
+        "image": "images/hephaestus.png",
+        "reason": "Image suggests \"hephaestus\" but POI is \"Sanctuary of Artemis (Vravrona)\""
+      },
+      {
+        "id": 41,
+        "name": "Lavrion Silver Mines",
+        "image": "images/olympian_zeus.png",
+        "reason": "Image suggests \"olympian_zeus\" but POI is \"Lavrion Silver Mines\""
+      },
+      {
+        "id": 42,
+        "name": "Kaisariani Monastery",
+        "image": "images/erechtheion.png",
+        "reason": "Image suggests \"erechtheion\" but POI is \"Kaisariani Monastery\""
+      },
+      {
+        "id": 43,
+        "name": "Asteriou Monastery",
+        "image": "images/erechtheion.png",
+        "reason": "Image suggests \"erechtheion\" but POI is \"Asteriou Monastery\""
+      },
+      {
+        "id": 44,
+        "name": "Mount Parnitha National Park",
+        "image": "images/parthenon.png",
+        "reason": "Image suggests \"parthenon\" but POI is \"Mount Parnitha National Park\""
+      },
+      {
+        "id": 45,
+        "name": "Temple of Poseidon at Sounion",
+        "image": "images/olympian_zeus.png",
+        "reason": "Image suggests \"olympian_zeus\" but POI is \"Temple of Poseidon at Sounion\""
+      },
+      {
+        "id": 46,
+        "name": "Choragic Monument of Thrasyllus",
+        "image": "images/theatre_dionysus.png",
+        "reason": "Image suggests \"theatre_dionysus\" but POI is \"Choragic Monument of Thrasyllus\""
+      },
+      {
+        "id": 47,
+        "name": "Pedestal of Agrippa",
+        "image": "images/parthenon.png",
+        "reason": "Image suggests \"parthenon\" but POI is \"Pedestal of Agrippa\""
+      },
+      {
+        "id": 48,
+        "name": "Agia Dynami Church",
+        "image": "images/tower_winds.png",
+        "reason": "Image suggests \"tower_winds\" but POI is \"Agia Dynami Church\""
+      },
+      {
+        "id": 49,
+        "name": "St. Demetrius Loumbardiaris",
+        "image": "images/hephaestus.png",
+        "reason": "Image suggests \"hephaestus\" but POI is \"St. Demetrius Loumbardiaris\""
+      },
+      {
+        "id": 50,
+        "name": "Stoa of Eumenes",
+        "image": "images/theatre_dionysus.png",
+        "reason": "Image suggests \"theatre_dionysus\" but POI is \"Stoa of Eumenes\""
+      },
+      {
+        "id": 51,
+        "name": "The Pelasgian Wall",
+        "image": "images/parthenon.png",
+        "reason": "Image suggests \"parthenon\" but POI is \"The Pelasgian Wall\""
+      },
+      {
+        "id": 52,
+        "name": "Asclepieion of Athens",
+        "image": "images/theatre_dionysus.png",
+        "reason": "Image suggests \"theatre_dionysus\" but POI is \"Asclepieion of Athens\""
+      },
+      {
+        "id": 53,
+        "name": "The Metroum (Ancient Agora)",
+        "image": "images/hephaestus.png",
+        "reason": "Image suggests \"hephaestus\" but POI is \"The Metroum (Ancient Agora)\""
+      },
+      {
+        "id": 54,
+        "name": "Ancient Bouleuterion",
+        "image": "images/hephaestus.png",
+        "reason": "Image suggests \"hephaestus\" but POI is \"Ancient Bouleuterion\""
+      },
+      {
+        "id": 55,
+        "name": "The Tholos (Agora)",
+        "image": "images/hephaestus.png",
+        "reason": "Image suggests \"hephaestus\" but POI is \"The Tholos (Agora)\""
+      },
+      {
+        "id": 56,
+        "name": "Altar of the Twelve Gods",
+        "image": "images/hephaestus.png",
+        "reason": "Image suggests \"hephaestus\" but POI is \"Altar of the Twelve Gods\""
+      },
+      {
+        "id": 57,
+        "name": "South Stoa I",
+        "image": "images/hephaestus.png",
+        "reason": "Image suggests \"hephaestus\" but POI is \"South Stoa I\""
+      },
+      {
+        "id": 83,
+        "name": "Temple of Apollo Zoster",
+        "image": "images/hephaestus.png",
+        "reason": "Image suggests \"hephaestus\" but POI is \"Temple of Apollo Zoster\""
+      },
+      {
+        "id": 84,
+        "name": "Archaeological Site of Kolona",
+        "image": "images/hephaestus.png",
+        "reason": "Image suggests \"hephaestus\" but POI is \"Archaeological Site of Kolona\""
+      },
+      {
+        "id": 86,
+        "name": "Ancient Deme of Halai Aixonides",
+        "image": "images/ancient_agora_of_athens.jpg",
+        "reason": "Image suggests \"agora\" but POI is \"Ancient Deme of Halai Aixonides\""
+      },
+      {
+        "id": 87,
+        "name": "The Dema Wall",
+        "image": "images/parthenon.png",
+        "reason": "Image suggests \"parthenon\" but POI is \"The Dema Wall\""
+      },
+      {
+        "id": 88,
+        "name": "Agrileza Silver Workshops",
+        "image": "images/olympian_zeus.png",
+        "reason": "Image suggests \"olympian_zeus\" but POI is \"Agrileza Silver Workshops\""
+      },
+      {
+        "id": 89,
+        "name": "The Diateichisma Wall",
+        "image": "images/parthenon.png",
+        "reason": "Image suggests \"parthenon\" but POI is \"The Diateichisma Wall\""
+      },
+      {
+        "id": 94,
+        "name": "Temple of Artemis Agrotera",
+        "image": "images/hephaestus.png",
+        "reason": "Image suggests \"hephaestus\" but POI is \"Temple of Artemis Agrotera\""
+      },
+      {
+        "id": 95,
+        "name": "Choragic Monument of Nikias",
+        "image": "images/theatre_dionysus.png",
+        "reason": "Image suggests \"theatre_dionysus\" but POI is \"Choragic Monument of Nikias\""
+      },
+      {
+        "id": 96,
+        "name": "Temple of Apollo Erithaseos",
+        "image": "images/hephaestus.png",
+        "reason": "Image suggests \"hephaestus\" but POI is \"Temple of Apollo Erithaseos\""
+      },
+      {
+        "id": 98,
+        "name": "Monastery of Kleiston",
+        "image": "images/erechtheion.png",
+        "reason": "Image suggests \"erechtheion\" but POI is \"Monastery of Kleiston\""
+      }
+    ]
+  }
+}
