@@ -6302,9 +6302,10 @@ function initMap() {
             attributionControl: false
         }).setView(CONFIG.DEFAULT_MAP_CENTER, CONFIG.DEFAULT_MAP_ZOOM);
 
-        // Beautiful custom CartoDB Voyage tile layer (Aegean blue aesthetic)
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-            maxZoom: 19
+        // OpenStreetMap tiles (reliable and free)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap contributors'
         }).addTo(map);
 
     // Custom Icon for User Location
@@ -6550,9 +6551,15 @@ function triggerPOI(poi) {
     const drawerImg = document.getElementById("drawer-image");
     if (poi.image) {
         drawerImg.src = poi.image;
+        drawerImg.onerror = function() {
+            // Fallback to placeholder if image fails to load
+            this.src = 'images/placeholder.png';
+            this.onerror = null; // Prevent infinite loop
+        };
         drawerImg.classList.remove("hidden");
     } else {
-        drawerImg.classList.add("hidden");
+        drawerImg.src = 'images/placeholder.png';
+        drawerImg.classList.remove("hidden");
     }
 
     // Load transcript text at the bottom
@@ -6822,12 +6829,17 @@ function renderPOIList() {
             img.className = "poi-card-thumb";
             img.src = poi.image;
             img.alt = poi.name;
+            img.onerror = function() {
+                this.src = 'images/placeholder.png';
+                this.onerror = null;
+            };
             card.appendChild(img);
         } else {
-            const numDiv = document.createElement("div");
-            numDiv.className = "poi-card-num";
-            numDiv.textContent = (index + 1).toString();
-            card.appendChild(numDiv);
+            const img = document.createElement("img");
+            img.className = "poi-card-thumb";
+            img.src = 'images/placeholder.png';
+            img.alt = poi.name;
+            card.appendChild(img);
         }
 
         const infoDiv = document.createElement("div");
