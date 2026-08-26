@@ -854,7 +854,7 @@ const POIs = [
         "name": "Stoa of Attalos",
         "lat": 37.975,
         "lng": 23.7238,
-        "image": "images/hephaestus.png",
+        "image": "images/ancient_agora_of_athens.jpg",
         "description": "A monumental covered walkway in the Ancient Agora, fully reconstructed in the 1950s to house the Ancient Agora Museum.",
         "audioText": "Walk under the double columns of the Stoa of Attalos, originally built around 150 BC by King Attalos the Second of Pergamum as a gift to Athens. This two-story covered hall served as a shopping mall and meeting place for ancient Athenians. Destructed by the Herulians in 267 AD, it was fully reconstructed by the American School of Classical Studies in the 1950s. Today, it houses the Agora Museum, displaying objects of daily life and democratic voting tokens.",
         "quiz": {
@@ -879,7 +879,7 @@ const POIs = [
         "name": "Kerameikos Archaeological Museum",
         "lat": 37.9778,
         "lng": 23.7169,
-        "image": "images/hephaestus.png",
+        "image": "images/kerameikos_archaeological_site.jpg",
         "description": "A small museum housing the most important tomb discoveries, marble statues, and clay vases found in the Kerameikos cemetery.",
         "audioText": "Enter the Kerameikos Museum, which houses the rich discoveries of the city's ancient cemetery. The exhibits include marble grave monuments, detailed funerary statues, and painted clay vases. Look for the famous marble bull, which stood as a guardian monument over the tomb of Dionysius of Kollytos. The museum displays the historical evolution of burial rituals and pottery arts over a thousand years.",
         "quiz": {
@@ -904,7 +904,7 @@ const POIs = [
         "name": "Monastery of Daphni",
         "lat": 38.0129,
         "lng": 23.6359,
-        "image": "images/erechtheion.png",
+        "image": "images/byzantine_museum.png",
         "description": "A UNESCO World Heritage site, famous for its Byzantine architecture and well-preserved 11th-century gold mosaics.",
         "audioText": "Visit the Daphni Monastery, a UNESCO World Heritage monument located northwest of Athens. Built in the 11th century over an ancient temple of Apollo, this Byzantine church is famous for its architecture and gold mosaics. The mosaic in the central dome depicts Christ Pantokrator, looking down on the congregation. The monastery survived Crusader occupations, earthquakes, and wars, remaining a monument to Byzantine art.",
         "quiz": {
