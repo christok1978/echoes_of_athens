@@ -854,7 +854,7 @@ const POIs = [
         "name": "Stoa of Attalos",
         "lat": 37.975,
         "lng": 23.7238,
-        "image": "images/ancient_agora_of_athens.jpg",
+        "image": "images/stoa_of_attalos.jpg",
         "description": "A monumental covered walkway in the Ancient Agora, fully reconstructed in the 1950s to house the Ancient Agora Museum.",
         "audioText": "Walk under the double columns of the Stoa of Attalos, originally built around 150 BC by King Attalos the Second of Pergamum as a gift to Athens. This two-story covered hall served as a shopping mall and meeting place for ancient Athenians. Destructed by the Herulians in 267 AD, it was fully reconstructed by the American School of Classical Studies in the 1950s. Today, it houses the Agora Museum, displaying objects of daily life and democratic voting tokens.",
         "quiz": {
@@ -904,7 +904,7 @@ const POIs = [
         "name": "Monastery of Daphni",
         "lat": 38.0129,
         "lng": 23.6359,
-        "image": "images/byzantine_museum.png",
+        "image": "images/monastery_daphni.jpg",
         "description": "A UNESCO World Heritage site, famous for its Byzantine architecture and well-preserved 11th-century gold mosaics.",
         "audioText": "Visit the Daphni Monastery, a UNESCO World Heritage monument located northwest of Athens. Built in the 11th century over an ancient temple of Apollo, this Byzantine church is famous for its architecture and gold mosaics. The mosaic in the central dome depicts Christ Pantokrator, looking down on the congregation. The monastery survived Crusader occupations, earthquakes, and wars, remaining a monument to Byzantine art.",
         "quiz": {
@@ -979,7 +979,7 @@ const POIs = [
         "name": "Tumulus of Marathon",
         "lat": 38.12323,
         "lng": 23.949001,
-        "image": "images/phyle.png",
+        "image": "images/tumulus_marathon.jpg",
         "description": "The burial mound containing the ashes of the 192 Athenian soldiers who died defending Greece at the Battle of Marathon in 490 BC.",
         "audioText": "Stand before the Tumulus of Marathon, a 9-meter-tall burial mound that marks the grave of the 192 Athenian soldiers who died in 490 BC. Here, a small Athenian force defeated the invading Persian army. According to legend, Pheidippides ran 42 kilometers from the battlefield to Athens to announce the victory, inspiring the modern marathon race. The mound remains a symbol of liberty.",
         "quiz": {
@@ -1079,7 +1079,7 @@ const POIs = [
         "name": "Kaisariani Monastery",
         "lat": 37.9607,
         "lng": 23.7985,
-        "image": "images/byzantine_museum.png",
+        "image": "images/kaisariani_monastery.jpg",
         "description": "A beautiful 11th-century Byzantine monastery located on the pine-covered slopes of Mount Hymettus, famous for its water springs.",
         "audioText": "Explore the Kaisariani Monastery, located in a pine forest on the slopes of Mount Hymettus. Built in the late 11th century, this church is dedicated to the Presentation of the Virgin. The site was built over an ancient temple of Aphrodite. The monastery is famous for its natural spring water, which flows from a marble ram's head into the central courtyard.",
         "quiz": {
@@ -1104,7 +1104,7 @@ const POIs = [
         "name": "Asteriou Monastery",
         "lat": 38.012979,
         "lng": 23.635926,
-        "image": "images/byzantine_museum.png",
+        "image": "images/asteriou_monastery.jpg",
         "description": "A historic, secluded Byzantine monastery on Mount Hymettus, featuring a fortified architectural design.",
         "audioText": "Visit the Asteriou Monastery, situated higher up on Mount Hymettus. Founded in the 10th century, this secluded monastery has a fortified design with high walls, built to protect the monks from pirate raids. Its small church features Byzantine frescoes, and the quiet courtyard offers a peaceful escape from the busy city below.",
         "quiz": {
@@ -1154,7 +1154,7 @@ const POIs = [
         "name": "Temple of Poseidon at Sounion",
         "lat": 37.6501,
         "lng": 24.0245,
-        "image": "images/aphaia.png",
+        "image": "images/temple_poseidon_sounion.jpg",
         "description": "A world-famous temple perched on the cliffs of Cape Sounion, built in 440 BC and dedicated to the god of the sea.",
         "audioText": "Stand at the edge of Cape Sounion before the Temple of Poseidon, built in 440 BC. Perched 60 meters above the Aegean Sea, this temple was dedicated to Poseidon, the god of the sea. It was a landmark for ancient sailors returning to Athens. Look closely at the marble columns; you can find the graffiti left by the English poet Lord Byron in 1810.",
         "quiz": {
@@ -1279,7 +1279,7 @@ const POIs = [
         "name": "Stoa of Eumenes",
         "lat": 37.9705,
         "lng": 23.7257,
-        "image": "images/ancient_agora_of_athens.jpg",
+        "image": "images/stoa_of_eumenes.jpg",
         "description": "A monumental two-story colonnade on the south slope of the Acropolis, built by King Eumenes II of Pergamum to shelter theater audiences.",
         "audioText": "Walk along the Stoa of Eumenes, a 163-meter-long colonnade built around 160 BC by King Eumenes II of Pergamum. This two-story structure connected the Theatre of Dionysus with the site where the Odeon of Herodes Atticus was later built. It served to shelter theater audiences from rain and sun, and was a popular place for social walks.",
         "quiz": {
@@ -1304,7 +1304,7 @@ const POIs = [
         "name": "The Pelasgian Wall",
         "lat": 37.981068,
         "lng": 23.728715,
-        "image": "images/phyle.png",
+        "image": "images/pelasgian_wall.jpg",
         "description": "The ancient Mycenaean fortification wall of the Acropolis, constructed in the 13th century BC using massive stone blocks.",
         "audioText": "Observe the remains of the Pelasgian Wall, the oldest fortification on the Acropolis, dating back to the Mycenaean period in the 13th century BC. Built using massive limestone blocks without mortar, this wall was so large that later classical Greeks believed it was built by the mythical Cyclopes, leading to the term 'Cyclopean masonry.'",
         "quiz": {
@@ -1329,7 +1329,7 @@ const POIs = [
         "name": "Asclepieion of Athens",
         "lat": 37.975565,
         "lng": 23.734832,
-        "image": "images/ancient_agora_of_athens.jpg",
+        "image": "images/asclepieion_athens.jpg",
         "description": "The healing sanctuary dedicated to the god Asclepius, featuring a sacred spring and incubation halls for curing illnesses.",
         "audioText": "Visit the Asclepieion, the healing sanctuary founded in 419 BC during a plague. Dedicated to Asclepius, the god of medicine, the sanctuary included a temple, a sacred spring, and incubation halls. Patients slept in these halls, hoping the god would visit them in their dreams to heal their illnesses and prescribe cures.",
         "quiz": {
@@ -1354,7 +1354,7 @@ const POIs = [
         "name": "The Metroum (Ancient Agora)",
         "lat": 37.975021,
         "lng": 23.724193,
-        "image": "images/ancient_agora_of_athens.jpg",
+        "image": "images/metroum_agora.jpg",
         "description": "The ancient sanctuary of the Mother of the Gods, which also served as the official state archives repository of Athens.",
         "audioText": "Stand near the foundations of the Metroum in the Ancient Agora. Built in the late 5th century BC, this building was dedicated to the Mother of the Gods (Rhea or Cybele). It also served as the official state archives repository. The city's laws, treaties, and court testimonies were written on papyrus and stored here under her protection.",
         "quiz": {
@@ -1379,7 +1379,7 @@ const POIs = [
         "name": "Ancient Bouleuterion",
         "lat": 37.975400,
         "lng": 23.723100,
-        "image": "images/ancient_agora_of_athens.jpg",
+        "image": "images/bouleuterion.jpg",
         "description": "The meeting house of the Athenian Council of 500 (Boule), who prepared the agenda for the general assembly.",
         "audioText": "Explore the ruins of the Bouleuterion, the council house of the Boule. This council of 500 citizens was chosen by lot each year. They met daily in this building to draft laws and prepare the agenda for the general assembly on the Pnyx, serving as a core institution of ancient Athenian democracy.",
         "quiz": {
@@ -1404,7 +1404,7 @@ const POIs = [
         "name": "The Tholos (Agora)",
         "lat": 37.975021,
         "lng": 23.724193,
-        "image": "images/ancient_agora_of_athens.jpg",
+        "image": "images/tholos_agora.jpg",
         "description": "A circular building in the Agora that served as the headquarters and dining hall of the standing committee of the Senate.",
         "audioText": "Observe the circular foundation of the Tholos, built in 470 BC. This building was the headquarters of the prytaneis, the standing committee of the council. To ensure the government could respond to emergencies, a third of the committee stayed inside the Tholos 24 hours a day, sleeping and dining at the city's expense.",
         "quiz": {
@@ -1429,7 +1429,7 @@ const POIs = [
         "name": "Altar of the Twelve Gods",
         "lat": 37.9757,
         "lng": 23.7229,
-        "image": "images/ancient_agora_of_athens.jpg",
+        "image": "images/altar_twelve_gods.jpg",
         "description": "An ancient altar in the Agora that was considered the zero-point milestone from which all road distances in Greece were measured.",
         "audioText": "Stand near the remains of the Altar of the Twelve Gods, built in 522 BC. This altar was a place of sanctuary for refugees. It also served as the zero-point milestone of Athens. All distances along the road network of the Greek world were measured from this exact spot, similar to Rome's golden milestone.",
         "quiz": {
@@ -1454,7 +1454,7 @@ const POIs = [
         "name": "South Stoa I",
         "lat": 37.9744,
         "lng": 23.7228,
-        "image": "images/ancient_agora_of_athens.jpg",
+        "image": "images/south_stoa_i.jpg",
         "description": "A long double-aisled colonnade in the Agora, which housed the offices of the city magistrates and hosted public banquets.",
         "audioText": "Explore the remains of South Stoa I, built in the late 5th century BC. This double-aisled colonnade contained 15 rooms, which housed the offices of the city magistrates (the metronomoi who checked weights and measures). The rooms also hosted public banquets, and archaeologists found dining couches and coins during excavations.",
         "quiz": {
@@ -1604,7 +1604,7 @@ const POIs = [
         "name": "Byzantine and Christian Museum",
         "lat": 37.97472,
         "lng": 23.74444,
-        "image": "images/byzantine_museum.png",
+        "image": "images/byzantine_christian_museum.jpg",
         "description": "One of the world's most important museums of Byzantine art, housed in the historic Villa Ilissia, featuring a vast collection of icons, scriptures, and frescoes.",
         "audioText": "Welcome to the Byzantine and Christian Museum of Athens. Established in 1914, this museum is housed in the Villa Ilissia, a lovely mid-19th-century palace built for the Duchess of Plaisance. The museum is dedicated to the collection, study, and conservation of Byzantine and post-Byzantine art from the 3rd century AD to the modern era. Its treasures include over 30,000 items, including portable icons, wall paintings, liturgical textiles, manuscripts, ceramics, and mosaics. Walking through its peaceful gardens and galleries, you can trace how classical antiquity evolved into the spiritual art of the Byzantine Empire.",
         "quiz": {
@@ -1779,7 +1779,7 @@ const POIs = [
         "name": "Sanctuary of Aphaia",
         "lat": 37.971586,
         "lng": 23.728333,
-        "image": "images/aphaia.png",
+        "image": "images/sanctuary_aphaia.jpg",
         "description": "A magnificent Doric temple on Aegina Island, forming the ancient Sacred Triangle with the Parthenon and Sounion.",
         "audioText": "Visit the Sanctuary of Aphaia, perched on a pine-covered hill on Aegina Island. Built around 500 BC, this Doric temple is dedicated to Aphaia, a local goddess associated with fertility and agricultural cycles. The temple is famous for its elegant columns made of local limestone, coated with thin marble stucco. Architecturally, it represents the transition between archaic and classical style. Together with the Parthenon in Athens and the Temple of Poseidon at Cape Sounion, the Temple of Aphaia forms an equilateral triangle, known in antiquity as the Sacred Triangle, highlighting the mathematical harmony of ancient Greek sacred geography.",
         "quiz": {
@@ -1903,7 +1903,7 @@ const POIs = [
         "name": "Phyle Fortress",
         "lat": 37.928276,
         "lng": 23.695168,
-        "image": "images/phyle.png",
+        "image": "images/phyle_fortress.jpg",
         "description": "A historic fortress on Mount Parnitha where general Thrasybulus gathered democratic forces to overthrow the Thirty Tyrants.",
         "audioText": "Explore the historic ruins of Phyle Fortress, situated on a dramatic cliff on the southern slopes of Mount Parnitha. Built in the 4th century BC, the fortress played a pivotal role in Athenian history. In 404 BC, following Athens' defeat in the Peloponnesian War, a Spartan-backed oligarchy known as the Thirty Tyrants ruled the city. The democratic general Thrasybulus fled to Phyle with a small band of supporters, using this remote fortress as his base to launch a campaign that successfully restored democracy. The site preserves beautiful ashlar masonry and offers panoramic views of the Athenian basin.",
         "quiz": {
@@ -2103,7 +2103,7 @@ const POIs = [
         "name": "Temple of Apollo Zoster",
         "lat": 37.810009,
         "lng": 23.77373,
-        "image": "images/aphaia.png",
+        "image": "images/temple_apollo_zoster.jpg",
         "description": "A 6th-century BC temple discovered in 1924 under the sand of a popular beach, dedicated to Apollo.",
         "audioText": "Observe the Temple of Apollo Zoster, located on the Astir beach in Vouliagmeni. Constructed in the late 6th century BC, this temple was lost for centuries until it was discovered in 1924 by orphanage children playing in the sand. The sanctuary was dedicated to Apollo Zoster, meaning 'Apollo of the Girdle.' According to mythology, when Leto was pregnant with Apollo and Artemis, she believed she was about to give birth here and loosened her golden girdle. The temple remains a unique example of an ancient sacred site preserved on the modern coastline.",
         "quiz": {
@@ -2128,7 +2128,7 @@ const POIs = [
         "name": "Archaeological Site of Kolona",
         "lat": 37.97519,
         "lng": 23.743417,
-        "image": "images/aphaia.png",
+        "image": "images/kolona_archaeological.jpg",
         "description": "The prehistoric acropolis of Aegina Island, dominated by a single standing column of a Temple of Apollo.",
         "audioText": "Visit the archaeological site of Kolona, the historic acropolis of Aegina Island. Occupied continuously since the Neolithic era, the hill contains layers of ancient fortifications and residential streets. Today, the site is dominated by a single, tall limestone column (kolona) standing on the hilltop. This column is the sole survivor of a grand Doric Temple of Apollo built around 510 BC. The hill offers spectacular views of the Saronic Gulf and houses a museum showing Aegina's early prehistoric pottery and bronze treasures.",
         "quiz": {
@@ -2178,7 +2178,7 @@ const POIs = [
         "name": "Ancient Deme of Halai Aixonides",
         "lat": 37.969914,
         "lng": 23.71918,
-        "image": "images/ancient_agora_of_athens.jpg",
+        "image": "images/halai_aixonides.jpg",
         "description": "An archaeological site in Voula showing the marketplace and residential streets of a classical coastal deme.",
         "audioText": "Explore the ruins of the Ancient Deme of Halai Aixonides, located in modern Voula. This classical township was one of the key coastal demes of Athens. Archaeological excavations have uncovered the remains of the deme's marketplace (agora), a small theater, residential houses, and salt-pans. The deme played an important economic role in producing salt and exporting fish to Athens. Walking through these stone foundations highlights the daily life of ancient citizens who lived outside the main city center.",
         "quiz": {
@@ -2203,7 +2203,7 @@ const POIs = [
         "name": "The Dema Wall",
         "lat": 38.073466,
         "lng": 23.669041,
-        "image": "images/phyle.png",
+        "image": "images/dema_wall.jpg",
         "description": "A massive 4.5 km long ancient fortification wall built in the 4th century BC to defend the pass between Athens and Boeotia.",
         "audioText": "Observe the Dema Wall, a monumental defensive fortification spanning the narrow pass between Mount Aegaleo and Mount Parnitha. Constructed in the 4th century BC, this stone and earth wall is 4.5 kilometers long. It was designed to block invading armies from Boeotia or the Peloponnese from marching directly into the plain of Athens. The wall features multiple towers, gates, and crenellations. It stands as a prime example of Athens' investment in large-scale frontier fortifications to protect its democratic state from regional rivals.",
         "quiz": {
@@ -2253,7 +2253,7 @@ const POIs = [
         "name": "The Diateichisma Wall",
         "lat": 37.981068,
         "lng": 23.728715,
-        "image": "images/phyle.png",
+        "image": "images/diateichisma_wall.jpg",
         "description": "A late 4th-century BC defensive wall built along the ridges of the Pnyx and Nymphs hills to shorten Athens' defense perimeter.",
         "audioText": "Walk along the remnants of the Diateichisma Wall, situated along the ridges of the Pnyx, Nymphs, and Muses hills. Built in the late 4th century BC following the Macedonian victory at Chaeronea, this fortification wall was constructed to shorten the defensive perimeter of Athens. By cutting across these hills, the Athenians could defend their city with fewer soldiers. The wall was built using massive stone blocks and featured defensive towers. Today, its foundations are visible along the popular walking paths of Philopappou Hill.",
         "quiz": {
@@ -2428,7 +2428,7 @@ const POIs = [
         "name": "Temple of Apollo Erithaseos",
         "lat": 37.975557,
         "lng": 23.722124,
-        "image": "images/aphaia.png",
+        "image": "images/temple_apollo_erithaseos.jpg",
         "description": "The archaeological remains of a rustic sanctuary of Apollo nestled in the northern suburb of Kifisia.",
         "audioText": "Visit the site of the Temple of Apollo Erithaseos in Kifisia. Nestled in a wooded valley, this ancient sanctuary was dedicated to Apollo in his role as a rustic deity of harvest and agriculture. Archaeologists have uncovered the temple foundations, ancient boundary stones, and inscriptions recording religious laws. The site demonstrates how the worship of major Olympic gods extended into the rural demes of Attica, providing local farmers with a place of worship and community.",
         "quiz": {
@@ -2478,7 +2478,7 @@ const POIs = [
         "name": "Monastery of Kleiston",
         "lat": 38.012979,
         "lng": 23.635926,
-        "image": "images/byzantine_museum.png",
+        "image": "images/monastery_kleiston.jpg",
         "description": "A historic 11th-century Byzantine monastery built on the edge of a deep gorge on Mount Parnitha.",
         "audioText": "Explore the Monastery of Kleiston, located on a cliff overlooking the deep gorge of Gouras on Mount Parnitha. Founded in the late 11th century, this historic monastery was named Kleiston, meaning 'the enclosed,' due to its dramatic location surrounded by high mountains. The monastery features a small Byzantine church, a central courtyard, and fortified walls that protected it from raids. It offers a tranquil escape and acts as a historic starting point for hikes into the national park.",
         "quiz": {
@@ -2503,7 +2503,7 @@ const POIs = [
         "name": "Tower of Markellos",
         "lat": 37.7472,
         "lng": 23.4286,
-        "image": "images/phyle.png",
+        "image": "images/tower_markellos.jpg",
         "description": "A pink Venetian watchtower on Aegina Island that served as the seat of the first Greek government.",
         "audioText": "Stand before the Tower of Markellos in Aegina town. This distinctive pink-colored watchtower was constructed in the late 17th century by the Venetians to defend the harbor from pirate attacks. In 1826, during the Greek War of Independence, the tower served as the headquarters and seat of the first Greek revolutionary government under Ioannis Kapodistrias, before Athens was liberated. Today, the tower stands as a historical monument to the birth of the modern Greek state.",
         "quiz": {
