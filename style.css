@@ -216,12 +216,20 @@ body {
 /* Map view specific */
 #tab-map {
     position: relative;
+    height: 100%;
+    min-height: 500px;
 }
 
 #map-container {
     width: 100%;
     height: 100%;
+    min-height: 500px;
     z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .map-instruction {
