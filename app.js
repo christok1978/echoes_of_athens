@@ -6227,14 +6227,21 @@ function loadUserData() {
             userStats = JSON.parse(saved);
         } catch (e) {
             console.error("Error reading storage:", e);
+            // Reset to default if corrupted
+            userStats = { points: 0, explored: [], rewards: [] };
         }
     }
 }
 
 // Save to local storage
 function saveUserData() {
-    localStorage.setItem("echoes_greece_user", JSON.stringify(userStats));
-    updateDashboardStats();
+    try {
+        localStorage.setItem("echoes_greece_user", JSON.stringify(userStats));
+        updateDashboardStats();
+    } catch (e) {
+        console.error("Error saving user data:", e);
+        // Silently fail - may be quota exceeded or private browsing
+    }
 }
 
 // --- Navigation Controller ---
@@ -6262,16 +6269,17 @@ function setupNavigation() {
 
 // --- Leaflet Map Controller ---
 function initMap() {
-    // Map setup centered at Athens historical center
-    map = L.map('map-container', {
-        zoomControl: false,
-        attributionControl: false
-    }).setView([37.9720, 23.728], 15);
+    try {
+        // Map setup centered at Athens historical center
+        map = L.map('map-container', {
+            zoomControl: false,
+            attributionControl: false
+        }).setView([37.9720, 23.728], 15);
 
-    // Beautiful custom CartoDB Voyage tile layer (Aegean blue aesthetic)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-        maxZoom: 19
-    }).addTo(map);
+        // Beautiful custom CartoDB Voyage tile layer (Aegean blue aesthetic)
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+            maxZoom: 19
+        }).addTo(map);
 
     // Custom Icon for User Location
     const userIcon = L.divIcon({
@@ -6357,14 +6365,19 @@ let watchId = null;
 function startRealGeolocation() {
     if (!navigator.geolocation) {
         alert("Geolocation is not supported by your browser. Reverting to Simulation Mode.");
-        document.getElementById("gps-toggle").click();
+        const toggle = document.getElementById("gps-toggle");
+        if (toggle) toggle.click();
         return;
     }
 
     const options = { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 };
 
     function success(position) {
-        updateUserLocation(position.coords.latitude, position.coords.longitude);
+        try {
+            updateUserLocation(position.coords.latitude, position.coords.longitude);
+        } catch (e) {
+            console.error("Error updating location:", e);
+        }
     }
 
     function error(err) {
@@ -6373,8 +6386,13 @@ function startRealGeolocation() {
             // Fall back to low accuracy (Wi-Fi/IP location) which is fast and works indoors/on desktop
             options.enableHighAccuracy = false;
             options.timeout = 15000;
-            if (watchId) navigator.geolocation.clearWatch(watchId);
-            watchId = navigator.geolocation.watchPosition(success, finalError, options);
+            try {
+                if (watchId) navigator.geolocation.clearWatch(watchId);
+                watchId = navigator.geolocation.watchPosition(success, finalError, options);
+            } catch (e) {
+                console.error("Error setting up fallback geolocation:", e);
+                finalError(err);
+            }
         } else {
             finalError(err);
         }
@@ -6383,10 +6401,16 @@ function startRealGeolocation() {
     function finalError(err) {
         console.error("Final Geolocation Error:", err);
         alert("Unable to retrieve GPS location. Reverting to Simulation Mode.");
-        document.getElementById("gps-toggle").click();
+        const toggle = document.getElementById("gps-toggle");
+        if (toggle) toggle.click();
     }
 
-    watchId = navigator.geolocation.watchPosition(success, error, options);
+    try {
+        watchId = navigator.geolocation.watchPosition(success, error, options);
+    } catch (e) {
+        console.error("Error starting geolocation:", e);
+        finalError(e);
+    }
 }
 
 function updateUserLocation(lat, lng) {
@@ -6566,21 +6590,29 @@ function preprocessAudioText(text) {
 function playAudio() {
     if (!activePOI) return;
 
-    isAudioPlaying = true;
-    document.getElementById("audio-viz").classList.add("playing");
-    document.getElementById("play-icon").classList.add("hidden");
-    document.getElementById("pause-icon").classList.remove("hidden");
-
-    // Reset Speech synthesis
-    synth.cancel();
-    
-    // Preprocess text to expand years, numbers, and abbreviations
-    const cleanText = preprocessAudioText(activePOI.audioText);
-    utterance = new SpeechSynthesisUtterance(cleanText);
-    
-    // Force English language tag so browsers default to English TTS engine
-    utterance.lang = 'en-US';
-    utterance.rate = 0.95; // Steady, cinematic guide tempo
+    try {
+        isAudioPlaying = true;
+        document.getElementById("audio-viz").classList.add("playing");
+        document.getElementById("play-icon").classList.add("hidden");
+        document.getElementById("pause-icon").classList.remove("hidden");
+        
+        // Check if speech synthesis is available
+        if (!window.speechSynthesis) {
+            alert("Text-to-speech is not supported in your browser. Please try Chrome, Safari, or Edge.");
+            stopAudio();
+            return;
+        }
+        
+        // Reset Speech synthesis
+        synth.cancel();
+        
+        // Preprocess text to expand years, numbers, and abbreviations
+        const cleanText = preprocessAudioText(activePOI.audioText);
+        utterance = new SpeechSynthesisUtterance(cleanText);
+        
+        // Force English language tag so browsers default to English TTS engine
+        utterance.lang = 'en-US';
+        utterance.rate = 0.95; // Steady, cinematic guide tempo
     
     // Find the best English voice (prioritizing high-quality Google/Apple natural voices)
     const voices = synth.getVoices();
@@ -6603,11 +6635,22 @@ function playAudio() {
         stopAudio();
     };
 
-    utterance.onerror = () => {
+    utterance.onerror = (event) => {
+        console.error("Speech synthesis error:", event);
         stopAudio();
+        // Only alert for non-canceled errors
+        if (event.error !== 'canceled' && event.error !== 'interrupted') {
+            alert("Audio playback failed. Please try again.");
+        }
     };
 
-    synth.speak(utterance);
+    try {
+        synth.speak(utterance);
+    } catch (e) {
+        console.error("Error starting speech:", e);
+        stopAudio();
+        alert("Unable to start audio narration.");
+    }
 
     // Setup simulated timeline duration bar
     currentPlayTime = 0;
@@ -6828,3 +6871,44 @@ function updateDashboardStats() {
     renderRewardsTab();
     renderPOIList(); // Update tick marks on discover
 }
+
+// --- Cleanup Function (prevent memory leaks) ---
+function cleanup() {
+    // Stop geolocation watch
+    if (watchId !== null) {
+        try {
+            navigator.geolocation.clearWatch(watchId);
+            watchId = null;
+        } catch (e) {
+            console.error("Error clearing geolocation watch:", e);
+        }
+    }
+    
+    // Stop any playing audio
+    try {
+        stopAudio();
+    } catch (e) {
+        console.error("Error stopping audio:", e);
+    }
+    
+    // Save user data one last time
+    try {
+        saveUserData();
+    } catch (e) {
+        console.error("Error saving data on cleanup:", e);
+    }
+}
+
+// Register cleanup on page unload
+window.addEventListener('beforeunload', cleanup);
+
+// Also cleanup on visibility change (mobile browsers)
+document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+        try {
+            saveUserData();
+        } catch (e) {
+            console.error("Error saving on visibility change:", e);
+        }
+    }
+});
