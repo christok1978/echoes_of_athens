@@ -6331,6 +6331,10 @@ function initMap() {
             updateUserLocation(e.latlng.lat, e.latlng.lng);
         }
     });
+    } catch (e) {
+        console.error("Error initializing map:", e);
+        alert("Failed to load the map. Please refresh the page or try a different browser.");
+    }
 }
 
 // --- Geolocation & Simulation Mode ---
