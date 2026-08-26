@@ -1,0 +1,29 @@
+{
+  "name": "echoes-of-athens",
+  "version": "1.0.0",
+  "description": "An immersive Progressive Web App for exploring ancient Greek archaeological sites",
+  "main": "app.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "serve": "npx serve dist",
+    "dev": "npx serve .",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "pwa",
+    "athens",
+    "archaeology",
+    "audio-guide",
+    "geolocation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "serve": "^14.2.3",
+    "terser": "^5.31.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
