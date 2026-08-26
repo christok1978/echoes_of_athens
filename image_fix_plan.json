@@ -1,0 +1,812 @@
+{
+  "timestamp": "2026-08-26T22:04:27.735Z",
+  "totalPOIs": 180,
+  "proposedFixes": 100,
+  "byConfidence": {
+    "high": 0,
+    "medium": 100,
+    "low": 0
+  },
+  "fixes": [
+    {
+      "id": 8,
+      "name": "Odeon of Herodes Atticus",
+      "currentImage": "images/odeon_herodes.png",
+      "suggestedImage": "images/theatre_dionysus.png",
+      "reason": "Matched keyword: theatre",
+      "confidence": "medium"
+    },
+    {
+      "id": 10,
+      "name": "Philopappos Monument",
+      "currentImage": "images/philopappos_monument.png",
+      "suggestedImage": "images/choragic_monument_of_lysicrates.jpg",
+      "reason": "Matched keyword: choragic",
+      "confidence": "medium"
+    },
+    {
+      "id": 11,
+      "name": "Areopagus Hill (Mars Hill)",
+      "currentImage": "images/areopagus_hill.jpg",
+      "suggestedImage": "images/lycabettus_hill.png",
+      "reason": "Matched keyword: hill",
+      "confidence": "medium"
+    },
+    {
+      "id": 12,
+      "name": "Pnyx Hill",
+      "currentImage": "images/pnyx_hill.jpg",
+      "suggestedImage": "images/lycabettus_hill.png",
+      "reason": "Matched keyword: hill",
+      "confidence": "medium"
+    },
+    {
+      "id": 16,
+      "name": "Monastiraki Square",
+      "currentImage": "images/monastiraki_square.png",
+      "suggestedImage": "images/syntagma_square.png",
+      "reason": "Matched keyword: square",
+      "confidence": "medium"
+    },
+    {
+      "id": 20,
+      "name": "Kerameikos Archaeological Site",
+      "currentImage": "images/kerameikos_archaeological_site.jpg",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: archaeological",
+      "confidence": "medium"
+    },
+    {
+      "id": 22,
+      "name": "National Library of Greece",
+      "currentImage": "images/national_library_of_greece.jpg",
+      "suggestedImage": "images/hadrian_library.png",
+      "reason": "Matched keyword: library",
+      "confidence": "medium"
+    },
+    {
+      "id": 28,
+      "name": "Roman Agora of Athens",
+      "currentImage": "images/roman_agora.png",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: agora",
+      "confidence": "medium"
+    },
+    {
+      "id": 30,
+      "name": "Church of the Holy Apostles",
+      "currentImage": "images/holy_apostles.png",
+      "suggestedImage": "images/church_of_panagia_kapnikarea.jpg",
+      "reason": "Matched keyword: church",
+      "confidence": "medium"
+    },
+    {
+      "id": 31,
+      "name": "Little Metropolis Church",
+      "currentImage": "images/little_metropolis.png",
+      "suggestedImage": "images/church_of_panagia_kapnikarea.jpg",
+      "reason": "Matched keyword: church",
+      "confidence": "medium"
+    },
+    {
+      "id": 34,
+      "name": "Kerameikos Archaeological Museum",
+      "currentImage": "images/kerameikos_archaeological_site.jpg",
+      "suggestedImage": "images/benaki_museum.png",
+      "reason": "Matched keyword: museum",
+      "confidence": "medium"
+    },
+    {
+      "id": 39,
+      "name": "Sanctuary of Artemis (Vravrona)",
+      "currentImage": "images/hephaestus.png",
+      "suggestedImage": "images/eleutherae.png",
+      "reason": "Matched keyword: sanctuary",
+      "confidence": "medium"
+    },
+    {
+      "id": 42,
+      "name": "Kaisariani Monastery",
+      "currentImage": "images/erechtheion.png",
+      "suggestedImage": "images/byzantine_museum.png",
+      "reason": "Matched keyword: monastery",
+      "confidence": "medium"
+    },
+    {
+      "id": 43,
+      "name": "Asteriou Monastery",
+      "currentImage": "images/erechtheion.png",
+      "suggestedImage": "images/byzantine_museum.png",
+      "reason": "Matched keyword: monastery",
+      "confidence": "medium"
+    },
+    {
+      "id": 44,
+      "name": "Mount Parnitha National Park",
+      "currentImage": "images/parthenon.png",
+      "suggestedImage": "images/lycabettus_hill.png",
+      "reason": "Matched keyword: hill",
+      "confidence": "medium"
+    },
+    {
+      "id": 45,
+      "name": "Temple of Poseidon at Sounion",
+      "currentImage": "images/olympian_zeus.png",
+      "suggestedImage": "images/hephaestus.png",
+      "reason": "Matched keyword: temple",
+      "confidence": "medium"
+    },
+    {
+      "id": 46,
+      "name": "Choragic Monument of Thrasyllus",
+      "currentImage": "images/theatre_dionysus.png",
+      "suggestedImage": "images/choragic_monument_of_lysicrates.jpg",
+      "reason": "Matched keyword: choragic",
+      "confidence": "medium"
+    },
+    {
+      "id": 48,
+      "name": "Agia Dynami Church",
+      "currentImage": "images/tower_winds.png",
+      "suggestedImage": "images/church_of_panagia_kapnikarea.jpg",
+      "reason": "Matched keyword: church",
+      "confidence": "medium"
+    },
+    {
+      "id": 50,
+      "name": "Stoa of Eumenes",
+      "currentImage": "images/theatre_dionysus.png",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: stoa",
+      "confidence": "medium"
+    },
+    {
+      "id": 51,
+      "name": "The Pelasgian Wall",
+      "currentImage": "images/parthenon.png",
+      "suggestedImage": "images/phyle.png",
+      "reason": "Matched keyword: wall",
+      "confidence": "medium"
+    },
+    {
+      "id": 53,
+      "name": "The Metroum (Ancient Agora)",
+      "currentImage": "images/hephaestus.png",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: agora",
+      "confidence": "medium"
+    },
+    {
+      "id": 55,
+      "name": "The Tholos (Agora)",
+      "currentImage": "images/hephaestus.png",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: agora",
+      "confidence": "medium"
+    },
+    {
+      "id": 57,
+      "name": "South Stoa I",
+      "currentImage": "images/hephaestus.png",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: stoa",
+      "confidence": "medium"
+    },
+    {
+      "id": 59,
+      "name": "Museum of Cycladic Art",
+      "currentImage": "images/cycladic_art.png",
+      "suggestedImage": "images/benaki_museum.png",
+      "reason": "Matched keyword: museum",
+      "confidence": "medium"
+    },
+    {
+      "id": 61,
+      "name": "National Museum of Contemporary Art (EMST)",
+      "currentImage": "images/emst.png",
+      "suggestedImage": "images/benaki_museum.png",
+      "reason": "Matched keyword: museum",
+      "confidence": "medium"
+    },
+    {
+      "id": 64,
+      "name": "War Museum of Athens",
+      "currentImage": "images/war_museum.png",
+      "suggestedImage": "images/benaki_museum.png",
+      "reason": "Matched keyword: museum",
+      "confidence": "medium"
+    },
+    {
+      "id": 65,
+      "name": "Numismatic Museum of Athens",
+      "currentImage": "images/numismatic_museum.png",
+      "suggestedImage": "images/benaki_museum.png",
+      "reason": "Matched keyword: museum",
+      "confidence": "medium"
+    },
+    {
+      "id": 66,
+      "name": "Hellenic Motor Museum",
+      "currentImage": "images/motor_museum.png",
+      "suggestedImage": "images/benaki_museum.png",
+      "reason": "Matched keyword: museum",
+      "confidence": "medium"
+    },
+    {
+      "id": 67,
+      "name": "National Gallery – Alexandros Soutsos Museum",
+      "currentImage": "images/national_gallery.png",
+      "suggestedImage": "images/benaki_museum.png",
+      "reason": "Matched keyword: museum",
+      "confidence": "medium"
+    },
+    {
+      "id": 68,
+      "name": "Rhamnous Archaeological Site",
+      "currentImage": "images/rhamnous.png",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: archaeological",
+      "confidence": "medium"
+    },
+    {
+      "id": 70,
+      "name": "Sanctuary of Aphaia",
+      "currentImage": "images/aphaia.png",
+      "suggestedImage": "images/eleutherae.png",
+      "reason": "Matched keyword: sanctuary",
+      "confidence": "medium"
+    },
+    {
+      "id": 77,
+      "name": "Piraeus Archaeological Museum & Ship Sheds",
+      "currentImage": "images/piraeus_museum.png",
+      "suggestedImage": "images/benaki_museum.png",
+      "reason": "Matched keyword: museum",
+      "confidence": "medium"
+    },
+    {
+      "id": 79,
+      "name": "Saint John the Hunter Monastery",
+      "currentImage": "images/st_john_hunter.png",
+      "suggestedImage": "images/byzantine_museum.png",
+      "reason": "Matched keyword: monastery",
+      "confidence": "medium"
+    },
+    {
+      "id": 81,
+      "name": "Kynosarges Archaeological Site",
+      "currentImage": "images/aristotle_s_lyceum.jpg",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: archaeological",
+      "confidence": "medium"
+    },
+    {
+      "id": 84,
+      "name": "Archaeological Site of Kolona",
+      "currentImage": "images/hephaestus.png",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: archaeological",
+      "confidence": "medium"
+    },
+    {
+      "id": 87,
+      "name": "The Dema Wall",
+      "currentImage": "images/parthenon.png",
+      "suggestedImage": "images/phyle.png",
+      "reason": "Matched keyword: wall",
+      "confidence": "medium"
+    },
+    {
+      "id": 89,
+      "name": "The Diateichisma Wall",
+      "currentImage": "images/parthenon.png",
+      "suggestedImage": "images/phyle.png",
+      "reason": "Matched keyword: wall",
+      "confidence": "medium"
+    },
+    {
+      "id": 91,
+      "name": "Sanctuary of Zeus Ombrios",
+      "currentImage": "images/olympian_zeus.png",
+      "suggestedImage": "images/eleutherae.png",
+      "reason": "Matched keyword: sanctuary",
+      "confidence": "medium"
+    },
+    {
+      "id": 95,
+      "name": "Choragic Monument of Nikias",
+      "currentImage": "images/theatre_dionysus.png",
+      "suggestedImage": "images/choragic_monument_of_lysicrates.jpg",
+      "reason": "Matched keyword: choragic",
+      "confidence": "medium"
+    },
+    {
+      "id": 97,
+      "name": "Archaeological Museum of Megara",
+      "currentImage": "images/national_archaeological_museum.jpg",
+      "suggestedImage": "images/benaki_museum.png",
+      "reason": "Matched keyword: museum",
+      "confidence": "medium"
+    },
+    {
+      "id": 98,
+      "name": "Monastery of Kleiston",
+      "currentImage": "images/erechtheion.png",
+      "suggestedImage": "images/byzantine_museum.png",
+      "reason": "Matched keyword: monastery",
+      "confidence": "medium"
+    },
+    {
+      "id": 100,
+      "name": "National Historical Museum",
+      "currentImage": "images/national_historical_museum.jpg",
+      "suggestedImage": "images/benaki_museum.png",
+      "reason": "Matched keyword: museum",
+      "confidence": "medium"
+    },
+    {
+      "id": 103,
+      "name": "Roman Baths at Zappeion",
+      "currentImage": "images/roman_baths_zappeion.jpg",
+      "suggestedImage": "images/roman_agora.png",
+      "reason": "Matched keyword: roman",
+      "confidence": "medium"
+    },
+    {
+      "id": 104,
+      "name": "Stoa Poikile (Painted Stoa)",
+      "currentImage": "images/stoa_poikile.jpg",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: stoa",
+      "confidence": "medium"
+    },
+    {
+      "id": 105,
+      "name": "Odeon of Agrippa",
+      "currentImage": "images/odeon_agrippa.jpg",
+      "suggestedImage": "images/theatre_dionysus.png",
+      "reason": "Matched keyword: theatre",
+      "confidence": "medium"
+    },
+    {
+      "id": 106,
+      "name": "Agia Irene Church (Aeolou)",
+      "currentImage": "images/agia_irene.jpg",
+      "suggestedImage": "images/church_of_panagia_kapnikarea.jpg",
+      "reason": "Matched keyword: church",
+      "confidence": "medium"
+    },
+    {
+      "id": 108,
+      "name": "Sacred Gate (Kerameikos)",
+      "currentImage": "images/sacred_gate.jpg",
+      "suggestedImage": "images/hadrians_arch.png",
+      "reason": "Matched keyword: gate",
+      "confidence": "medium"
+    },
+    {
+      "id": 109,
+      "name": "Temple of Ares (Agora)",
+      "currentImage": "images/temple_ares.jpg",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: agora",
+      "confidence": "medium"
+    },
+    {
+      "id": 110,
+      "name": "Church of Agioi Asomatoi",
+      "currentImage": "images/agioi_asomatoi.jpg",
+      "suggestedImage": "images/church_of_panagia_kapnikarea.jpg",
+      "reason": "Matched keyword: church",
+      "confidence": "medium"
+    },
+    {
+      "id": 111,
+      "name": "Tomb of the Unknown Soldier (Relief)",
+      "currentImage": "images/unknown_soldier_relief.jpg",
+      "suggestedImage": "images/first_cemetery_of_athens.jpg",
+      "reason": "Matched keyword: cemetery",
+      "confidence": "medium"
+    },
+    {
+      "id": 112,
+      "name": "Tomb of Heinrich Schliemann",
+      "currentImage": "images/schliemann_tomb.jpg",
+      "suggestedImage": "images/first_cemetery_of_athens.jpg",
+      "reason": "Matched keyword: cemetery",
+      "confidence": "medium"
+    },
+    {
+      "id": 113,
+      "name": "Tomb of Theodoros Kolokotronis",
+      "currentImage": "images/kolokotronis_tomb.jpg",
+      "suggestedImage": "images/first_cemetery_of_athens.jpg",
+      "reason": "Matched keyword: cemetery",
+      "confidence": "medium"
+    },
+    {
+      "id": 114,
+      "name": "Roman Bath of the Ancient Agora",
+      "currentImage": "images/roman_bath_agora.jpg",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: agora",
+      "confidence": "medium"
+    },
+    {
+      "id": 115,
+      "name": "Lysicrates Square (Street of Tripods)",
+      "currentImage": "images/lysicrates_square.jpg",
+      "suggestedImage": "images/syntagma_square.png",
+      "reason": "Matched keyword: square",
+      "confidence": "medium"
+    },
+    {
+      "id": 117,
+      "name": "Areopagus Hill (Paul's Sermon Plaque)",
+      "currentImage": "images/areopagus_plaque.jpg",
+      "suggestedImage": "images/lycabettus_hill.png",
+      "reason": "Matched keyword: hill",
+      "confidence": "medium"
+    },
+    {
+      "id": 118,
+      "name": "National Garden (Roman Mosaic Floor)",
+      "currentImage": "images/national_garden_mosaic.jpg",
+      "suggestedImage": "images/roman_agora.png",
+      "reason": "Matched keyword: roman",
+      "confidence": "medium"
+    },
+    {
+      "id": 119,
+      "name": "Pnyx Hill Orator's Bema",
+      "currentImage": "images/pnyx_bema.jpg",
+      "suggestedImage": "images/lycabettus_hill.png",
+      "reason": "Matched keyword: hill",
+      "confidence": "medium"
+    },
+    {
+      "id": 120,
+      "name": "Museum of the Ancient Agora",
+      "currentImage": "images/agora_museum.jpg",
+      "suggestedImage": "images/benaki_museum.png",
+      "reason": "Matched keyword: museum",
+      "confidence": "medium"
+    },
+    {
+      "id": 121,
+      "name": "Monument of the Eponymous Heroes",
+      "currentImage": "images/eponymous_heroes.jpg",
+      "suggestedImage": "images/choragic_monument_of_lysicrates.jpg",
+      "reason": "Matched keyword: choragic",
+      "confidence": "medium"
+    },
+    {
+      "id": 122,
+      "name": "Street of Tombs (Kerameikos)",
+      "currentImage": "images/street_of_tombs.jpg",
+      "suggestedImage": "images/first_cemetery_of_athens.jpg",
+      "reason": "Matched keyword: cemetery",
+      "confidence": "medium"
+    },
+    {
+      "id": 127,
+      "name": "Lycabettus Open Air Theatre",
+      "currentImage": "images/lycabettus_theater.jpg",
+      "suggestedImage": "images/theatre_dionysus.png",
+      "reason": "Matched keyword: theatre",
+      "confidence": "medium"
+    },
+    {
+      "id": 128,
+      "name": "Sanctuary of Zeus Polieus (Acropolis)",
+      "currentImage": "images/zeus_polieus.jpg",
+      "suggestedImage": "images/eleutherae.png",
+      "reason": "Matched keyword: sanctuary",
+      "confidence": "medium"
+    },
+    {
+      "id": 129,
+      "name": "Tomb of Melina Mercouri",
+      "currentImage": "images/melina_mercouri_tomb.jpg",
+      "suggestedImage": "images/first_cemetery_of_athens.jpg",
+      "reason": "Matched keyword: cemetery",
+      "confidence": "medium"
+    },
+    {
+      "id": 130,
+      "name": "Plato's Academy Sacred House",
+      "currentImage": "images/academy_sacred_house.jpg",
+      "suggestedImage": "images/academy_athens.png",
+      "reason": "Matched keyword: academy",
+      "confidence": "medium"
+    },
+    {
+      "id": 131,
+      "name": "Temple of Apollo Patroos",
+      "currentImage": "images/apollo_patroos.jpg",
+      "suggestedImage": "images/hephaestus.png",
+      "reason": "Matched keyword: temple",
+      "confidence": "medium"
+    },
+    {
+      "id": 132,
+      "name": "Roman Agora East Propylon",
+      "currentImage": "images/roman_agora_east.jpg",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: agora",
+      "confidence": "medium"
+    },
+    {
+      "id": 133,
+      "name": "Shrine of the Nymphs (Hill of Nymphs)",
+      "currentImage": "images/shrine_nymphs.jpg",
+      "suggestedImage": "images/lycabettus_hill.png",
+      "reason": "Matched keyword: hill",
+      "confidence": "medium"
+    },
+    {
+      "id": 134,
+      "name": "First Cemetery (Tomb of Andreas Syngros)",
+      "currentImage": "images/syngros_tomb.jpg",
+      "suggestedImage": "images/first_cemetery_of_athens.jpg",
+      "reason": "Matched keyword: cemetery",
+      "confidence": "medium"
+    },
+    {
+      "id": 135,
+      "name": "Panagia Grigoroussa Church",
+      "currentImage": "images/panagia_grigoroussa.jpg",
+      "suggestedImage": "images/church_of_panagia_kapnikarea.jpg",
+      "reason": "Matched keyword: church",
+      "confidence": "medium"
+    },
+    {
+      "id": 139,
+      "name": "Tomb of Sophia Schliemann",
+      "currentImage": "images/sophia_schliemann_tomb.jpg",
+      "suggestedImage": "images/first_cemetery_of_athens.jpg",
+      "reason": "Matched keyword: cemetery",
+      "confidence": "medium"
+    },
+    {
+      "id": 140,
+      "name": "Church of Agia Marina (Nymphs Hill)",
+      "currentImage": "images/agia_marina.jpg",
+      "suggestedImage": "images/church_of_panagia_kapnikarea.jpg",
+      "reason": "Matched keyword: church",
+      "confidence": "medium"
+    },
+    {
+      "id": 143,
+      "name": "Royal Stoa (Stoa Basileios)",
+      "currentImage": "images/royal_stoa.jpg",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: stoa",
+      "confidence": "medium"
+    },
+    {
+      "id": 144,
+      "name": "Agios Nikolaos Ragavas Church",
+      "currentImage": "images/agios_nikolaos_ragavas.jpg",
+      "suggestedImage": "images/church_of_panagia_kapnikarea.jpg",
+      "reason": "Matched keyword: church",
+      "confidence": "medium"
+    },
+    {
+      "id": 146,
+      "name": "Tomb of Yannoulis Halepas",
+      "currentImage": "images/halepas_tomb.jpg",
+      "suggestedImage": "images/first_cemetery_of_athens.jpg",
+      "reason": "Matched keyword: cemetery",
+      "confidence": "medium"
+    },
+    {
+      "id": 147,
+      "name": "Tomb of George Averoff",
+      "currentImage": "images/averoff_tomb.jpg",
+      "suggestedImage": "images/first_cemetery_of_athens.jpg",
+      "reason": "Matched keyword: cemetery",
+      "confidence": "medium"
+    },
+    {
+      "id": 148,
+      "name": "Tomb of Andreas Papandreou",
+      "currentImage": "images/papandreou_tomb.jpg",
+      "suggestedImage": "images/first_cemetery_of_athens.jpg",
+      "reason": "Matched keyword: cemetery",
+      "confidence": "medium"
+    },
+    {
+      "id": 150,
+      "name": "Plato's Academy Gymnasium Ruins",
+      "currentImage": "images/academy_gymnasium.jpg",
+      "suggestedImage": "images/academy_athens.png",
+      "reason": "Matched keyword: academy",
+      "confidence": "medium"
+    },
+    {
+      "id": 151,
+      "name": "Tomb of the Lacedaemonians",
+      "currentImage": "images/lacedaemonian_tomb.jpg",
+      "suggestedImage": "images/first_cemetery_of_athens.jpg",
+      "reason": "Matched keyword: cemetery",
+      "confidence": "medium"
+    },
+    {
+      "id": 152,
+      "name": "Sanctuary of Pandion (Acropolis)",
+      "currentImage": "images/sanctuary_pandion.jpg",
+      "suggestedImage": "images/eleutherae.png",
+      "reason": "Matched keyword: sanctuary",
+      "confidence": "medium"
+    },
+    {
+      "id": 153,
+      "name": "Stoa of Attalos Colonnade",
+      "currentImage": "images/stoa_attalos_columns.jpg",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: stoa",
+      "confidence": "medium"
+    },
+    {
+      "id": 154,
+      "name": "Hadrian's Arch (Theseus Inscription)",
+      "currentImage": "images/hadrian_arch_inscription.jpg",
+      "suggestedImage": "images/hadrians_arch.png",
+      "reason": "Matched keyword: arch",
+      "confidence": "medium"
+    },
+    {
+      "id": 155,
+      "name": "Odeon of Agrippa Tritons Porch",
+      "currentImage": "images/odeon_tritons.jpg",
+      "suggestedImage": "images/theatre_dionysus.png",
+      "reason": "Matched keyword: theatre",
+      "confidence": "medium"
+    },
+    {
+      "id": 157,
+      "name": "National Museum Cycladic Figurines",
+      "currentImage": "images/cycladic_figurines.jpg",
+      "suggestedImage": "images/benaki_museum.png",
+      "reason": "Matched keyword: museum",
+      "confidence": "medium"
+    },
+    {
+      "id": 158,
+      "name": "Cape Sounion Sanctuary Precinct",
+      "currentImage": "images/sounion_sanctuary.jpg",
+      "suggestedImage": "images/eleutherae.png",
+      "reason": "Matched keyword: sanctuary",
+      "confidence": "medium"
+    },
+    {
+      "id": 159,
+      "name": "Temple of Ares Relocation Block",
+      "currentImage": "images/temple_ares_blocks.jpg",
+      "suggestedImage": "images/hephaestus.png",
+      "reason": "Matched keyword: temple",
+      "confidence": "medium"
+    },
+    {
+      "id": 161,
+      "name": "Tomb of George Seferis",
+      "currentImage": "images/seferis_tomb.jpg",
+      "suggestedImage": "images/first_cemetery_of_athens.jpg",
+      "reason": "Matched keyword: cemetery",
+      "confidence": "medium"
+    },
+    {
+      "id": 162,
+      "name": "Church of Saint John the Theologian",
+      "currentImage": "images/st_john_theologian.jpg",
+      "suggestedImage": "images/church_of_panagia_kapnikarea.jpg",
+      "reason": "Matched keyword: church",
+      "confidence": "medium"
+    },
+    {
+      "id": 163,
+      "name": "Sanctuary of Aphrodite Pandemos",
+      "currentImage": "images/aphrodite_pandemos.jpg",
+      "suggestedImage": "images/eleutherae.png",
+      "reason": "Matched keyword: sanctuary",
+      "confidence": "medium"
+    },
+    {
+      "id": 165,
+      "name": "Philopappos Hill Quarry Paths",
+      "currentImage": "images/philopappos_quarry.jpg",
+      "suggestedImage": "images/penteli_quarries.png",
+      "reason": "Matched keyword: quarry",
+      "confidence": "medium"
+    },
+    {
+      "id": 166,
+      "name": "Church of the Pantanassa (Monastiraki)",
+      "currentImage": "images/pantanassa_church.jpg",
+      "suggestedImage": "images/church_of_panagia_kapnikarea.jpg",
+      "reason": "Matched keyword: church",
+      "confidence": "medium"
+    },
+    {
+      "id": 167,
+      "name": "Tomb of Dexileos (Kerameikos)",
+      "currentImage": "images/dexileos_tomb.jpg",
+      "suggestedImage": "images/first_cemetery_of_athens.jpg",
+      "reason": "Matched keyword: cemetery",
+      "confidence": "medium"
+    },
+    {
+      "id": 168,
+      "name": "National Garden Botanical Museum",
+      "currentImage": "images/botanical_museum.jpg",
+      "suggestedImage": "images/benaki_museum.png",
+      "reason": "Matched keyword: museum",
+      "confidence": "medium"
+    },
+    {
+      "id": 171,
+      "name": "Plato's Academy Peristyle Building",
+      "currentImage": "images/academy_peristyle.jpg",
+      "suggestedImage": "images/academy_athens.png",
+      "reason": "Matched keyword: academy",
+      "confidence": "medium"
+    },
+    {
+      "id": 172,
+      "name": "Tomb of Odysseas Elytis",
+      "currentImage": "images/elytis_tomb.jpg",
+      "suggestedImage": "images/first_cemetery_of_athens.jpg",
+      "reason": "Matched keyword: cemetery",
+      "confidence": "medium"
+    },
+    {
+      "id": 173,
+      "name": "Stoa of the Herms (Agora)",
+      "currentImage": "images/stoa_herms.jpg",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: agora",
+      "confidence": "medium"
+    },
+    {
+      "id": 174,
+      "name": "Hadrian's Arch (Hadrian Inscription)",
+      "currentImage": "images/hadrian_arch_east.jpg",
+      "suggestedImage": "images/hadrians_arch.png",
+      "reason": "Matched keyword: arch",
+      "confidence": "medium"
+    },
+    {
+      "id": 175,
+      "name": "Odeon of Agrippa Giants Pillars",
+      "currentImage": "images/agrippa_giants.jpg",
+      "suggestedImage": "images/theatre_dionysus.png",
+      "reason": "Matched keyword: theatre",
+      "confidence": "medium"
+    },
+    {
+      "id": 177,
+      "name": "Stoa of Attalos Upper Floor View",
+      "currentImage": "images/attalos_upper_view.jpg",
+      "suggestedImage": "images/ancient_agora_of_athens.jpg",
+      "reason": "Matched keyword: stoa",
+      "confidence": "medium"
+    },
+    {
+      "id": 178,
+      "name": "Temple of Olympian Zeus Propylon",
+      "currentImage": "images/zeus_propylon.jpg",
+      "suggestedImage": "images/hephaestus.png",
+      "reason": "Matched keyword: temple",
+      "confidence": "medium"
+    },
+    {
+      "id": 179,
+      "name": "Tomb of Constantine Kanaris",
+      "currentImage": "images/kanaris_tomb.jpg",
+      "suggestedImage": "images/first_cemetery_of_athens.jpg",
+      "reason": "Matched keyword: cemetery",
+      "confidence": "medium"
+    }
+  ]
+}
