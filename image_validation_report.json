@@ -1,0 +1,392 @@
+{
+  "timestamp": "2026-08-26T20:52:20.776Z",
+  "summary": {
+    "totalPOIs": 250,
+    "referencedImages": 180,
+    "actualImageFiles": 54,
+    "missingImages": 80,
+    "duplicateImages": 14,
+    "unusedImages": 0
+  },
+  "missingImages": [
+    {
+      "poi": 100,
+      "image": "images/national_historical_museum.jpg"
+    },
+    {
+      "poi": 101,
+      "image": "images/national_observatory.jpg"
+    },
+    {
+      "poi": 102,
+      "image": "images/technopolis.jpg"
+    },
+    {
+      "poi": 103,
+      "image": "images/roman_baths_zappeion.jpg"
+    },
+    {
+      "poi": 104,
+      "image": "images/stoa_poikile.jpg"
+    },
+    {
+      "poi": 105,
+      "image": "images/odeon_agrippa.jpg"
+    },
+    {
+      "poi": 106,
+      "image": "images/agia_irene.jpg"
+    },
+    {
+      "poi": 107,
+      "image": "images/hadrian_aqueduct.jpg"
+    },
+    {
+      "poi": 108,
+      "image": "images/sacred_gate.jpg"
+    },
+    {
+      "poi": 109,
+      "image": "images/temple_ares.jpg"
+    },
+    {
+      "poi": 110,
+      "image": "images/agioi_asomatoi.jpg"
+    },
+    {
+      "poi": 111,
+      "image": "images/unknown_soldier_relief.jpg"
+    },
+    {
+      "poi": 112,
+      "image": "images/schliemann_tomb.jpg"
+    },
+    {
+      "poi": 113,
+      "image": "images/kolokotronis_tomb.jpg"
+    },
+    {
+      "poi": 114,
+      "image": "images/roman_bath_agora.jpg"
+    },
+    {
+      "poi": 115,
+      "image": "images/lysicrates_square.jpg"
+    },
+    {
+      "poi": 116,
+      "image": "images/tower_winds_clepsydra.jpg"
+    },
+    {
+      "poi": 117,
+      "image": "images/areopagus_plaque.jpg"
+    },
+    {
+      "poi": 118,
+      "image": "images/national_garden_mosaic.jpg"
+    },
+    {
+      "poi": 119,
+      "image": "images/pnyx_bema.jpg"
+    },
+    {
+      "poi": 120,
+      "image": "images/agora_museum.jpg"
+    },
+    {
+      "poi": 121,
+      "image": "images/eponymous_heroes.jpg"
+    },
+    {
+      "poi": 122,
+      "image": "images/street_of_tombs.jpg"
+    },
+    {
+      "poi": 123,
+      "image": "images/tzistarakis_mosque.jpg"
+    },
+    {
+      "poi": 124,
+      "image": "images/adrianou_street.jpg"
+    },
+    {
+      "poi": 125,
+      "image": "images/syntagma_metro.jpg"
+    },
+    {
+      "poi": 126,
+      "image": "images/pikionis_path.jpg"
+    },
+    {
+      "poi": 127,
+      "image": "images/lycabettus_theater.jpg"
+    },
+    {
+      "poi": 128,
+      "image": "images/zeus_polieus.jpg"
+    },
+    {
+      "poi": 129,
+      "image": "images/melina_mercouri_tomb.jpg"
+    },
+    {
+      "poi": 130,
+      "image": "images/academy_sacred_house.jpg"
+    },
+    {
+      "poi": 131,
+      "image": "images/apollo_patroos.jpg"
+    },
+    {
+      "poi": 132,
+      "image": "images/roman_agora_east.jpg"
+    },
+    {
+      "poi": 133,
+      "image": "images/shrine_nymphs.jpg"
+    },
+    {
+      "poi": 134,
+      "image": "images/syngros_tomb.jpg"
+    },
+    {
+      "poi": 135,
+      "image": "images/panagia_grigoroussa.jpg"
+    },
+    {
+      "poi": 136,
+      "image": "images/university_hall.jpg"
+    },
+    {
+      "poi": 137,
+      "image": "images/mycenaean_gallery.jpg"
+    },
+    {
+      "poi": 138,
+      "image": "images/sounion_cliffs.jpg"
+    },
+    {
+      "poi": 139,
+      "image": "images/sophia_schliemann_tomb.jpg"
+    },
+    {
+      "poi": 140,
+      "image": "images/agia_marina.jpg"
+    },
+    {
+      "poi": 141,
+      "image": "images/bath_house_winds.jpg"
+    },
+    {
+      "poi": 142,
+      "image": "images/pompeion.jpg"
+    },
+    {
+      "poi": 143,
+      "image": "images/royal_stoa.jpg"
+    },
+    {
+      "poi": 144,
+      "image": "images/agios_nikolaos_ragavas.jpg"
+    },
+    {
+      "poi": 145,
+      "image": "images/fallen_column.jpg"
+    },
+    {
+      "poi": 146,
+      "image": "images/halepas_tomb.jpg"
+    },
+    {
+      "poi": 147,
+      "image": "images/averoff_tomb.jpg"
+    },
+    {
+      "poi": 148,
+      "image": "images/papandreou_tomb.jpg"
+    },
+    {
+      "poi": 149,
+      "image": "images/phaleron_captives.jpg"
+    },
+    {
+      "poi": 150,
+      "image": "images/academy_gymnasium.jpg"
+    },
+    {
+      "poi": 151,
+      "image": "images/lacedaemonian_tomb.jpg"
+    },
+    {
+      "poi": 152,
+      "image": "images/sanctuary_pandion.jpg"
+    },
+    {
+      "poi": 153,
+      "image": "images/stoa_attalos_columns.jpg"
+    },
+    {
+      "poi": 154,
+      "image": "images/hadrian_arch_inscription.jpg"
+    },
+    {
+      "poi": 155,
+      "image": "images/odeon_tritons.jpg"
+    },
+    {
+      "poi": 156,
+      "image": "images/gazi_retort_house.jpg"
+    },
+    {
+      "poi": 157,
+      "image": "images/cycladic_figurines.jpg"
+    },
+    {
+      "poi": 158,
+      "image": "images/sounion_sanctuary.jpg"
+    },
+    {
+      "poi": 159,
+      "image": "images/temple_ares_blocks.jpg"
+    },
+    {
+      "poi": 160,
+      "image": "images/cathedral_philothei.jpg"
+    },
+    {
+      "poi": 161,
+      "image": "images/seferis_tomb.jpg"
+    },
+    {
+      "poi": 162,
+      "image": "images/st_john_theologian.jpg"
+    },
+    {
+      "poi": 163,
+      "image": "images/aphrodite_pandemos.jpg"
+    },
+    {
+      "poi": 164,
+      "image": "images/heliaia.jpg"
+    },
+    {
+      "poi": 165,
+      "image": "images/philopappos_quarry.jpg"
+    },
+    {
+      "poi": 166,
+      "image": "images/pantanassa_church.jpg"
+    },
+    {
+      "poi": 167,
+      "image": "images/dexileos_tomb.jpg"
+    },
+    {
+      "poi": 168,
+      "image": "images/botanical_museum.jpg"
+    },
+    {
+      "poi": 169,
+      "image": "images/antikythera_gallery.jpg"
+    },
+    {
+      "poi": 170,
+      "image": "images/gazi_purifier.jpg"
+    },
+    {
+      "poi": 171,
+      "image": "images/academy_peristyle.jpg"
+    },
+    {
+      "poi": 172,
+      "image": "images/elytis_tomb.jpg"
+    },
+    {
+      "poi": 173,
+      "image": "images/stoa_herms.jpg"
+    },
+    {
+      "poi": 174,
+      "image": "images/hadrian_arch_east.jpg"
+    },
+    {
+      "poi": 175,
+      "image": "images/agrippa_giants.jpg"
+    },
+    {
+      "poi": 176,
+      "image": "images/sacred_way_milestone.jpg"
+    },
+    {
+      "poi": 177,
+      "image": "images/attalos_upper_view.jpg"
+    },
+    {
+      "poi": 178,
+      "image": "images/zeus_propylon.jpg"
+    },
+    {
+      "poi": 179,
+      "image": "images/kanaris_tomb.jpg"
+    }
+  ],
+  "duplicates": [
+    {
+      "image": "images/parthenon.png",
+      "count": 6
+    },
+    {
+      "image": "images/erechtheion.png",
+      "count": 5
+    },
+    {
+      "image": "images/olympian_zeus.png",
+      "count": 7
+    },
+    {
+      "image": "images/hephaestus.png",
+      "count": 15
+    },
+    {
+      "image": "images/panathenaic_stadium.png",
+      "count": 2
+    },
+    {
+      "image": "images/tower_winds.png",
+      "count": 3
+    },
+    {
+      "image": "images/theatre_dionysus.png",
+      "count": 6
+    },
+    {
+      "image": "images/aristotle_s_lyceum.jpg",
+      "count": 3
+    },
+    {
+      "image": "images/academy_athens.png",
+      "count": 2
+    },
+    {
+      "image": "images/national_archaeological_museum.jpg",
+      "count": 2
+    },
+    {
+      "image": "images/first_cemetery_of_athens.jpg",
+      "count": 3
+    },
+    {
+      "image": "images/ancient_agora_of_athens.jpg",
+      "count": 2
+    },
+    {
+      "image": "images/lake_vouliagmeni.png",
+      "count": 2
+    },
+    {
+      "image": "images/koutouki_cave.png",
+      "count": 2
+    }
+  ],
+  "unusedImages": []
+}
