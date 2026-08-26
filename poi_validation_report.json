@@ -1,0 +1,289 @@
+{
+  "timestamp": "2026-08-26T19:45:34.177Z",
+  "totalPOIs": 250,
+  "outOfBounds": [],
+  "duplicates": [
+    {
+      "coords": "37.9755,23.7350",
+      "count": 7,
+      "pois": [
+        {
+          "id": 31,
+          "name": "Little Metropolis Church"
+        },
+        {
+          "id": 104,
+          "name": "Stoa Poikile (Painted Stoa)"
+        },
+        {
+          "id": 118,
+          "name": "National Garden (Roman Mosaic Floor)"
+        },
+        {
+          "id": 125,
+          "name": "Syntagma Metro Station Exhibition"
+        },
+        {
+          "id": 159,
+          "name": "Temple of Ares Relocation Block"
+        },
+        {
+          "id": 164,
+          "name": "Heliaia (Ancient Supreme Court)"
+        },
+        {
+          "id": 168,
+          "name": "National Garden Botanical Museum"
+        }
+      ]
+    },
+    {
+      "coords": "37.9786,23.7182",
+      "count": 5,
+      "pois": [
+        {
+          "id": 81,
+          "name": "Kynosarges Archaeological Site"
+        },
+        {
+          "id": 122,
+          "name": "Street of Tombs (Kerameikos)"
+        },
+        {
+          "id": 142,
+          "name": "The Pompeion (Kerameikos)"
+        },
+        {
+          "id": 167,
+          "name": "Tomb of Dexileos (Kerameikos)"
+        },
+        {
+          "id": 176,
+          "name": "Sacred Way Milestone (Kerameikos)"
+        }
+      ]
+    },
+    {
+      "coords": "37.9890,23.7330",
+      "count": 5,
+      "pois": [
+        {
+          "id": 97,
+          "name": "Archaeological Museum of Megara"
+        },
+        {
+          "id": 100,
+          "name": "National Historical Museum"
+        },
+        {
+          "id": 137,
+          "name": "Mycenaean Golden Gallery"
+        },
+        {
+          "id": 157,
+          "name": "National Museum Cycladic Figurines"
+        },
+        {
+          "id": 169,
+          "name": "Antikythera Mechanism Gallery"
+        }
+      ]
+    },
+    {
+      "coords": "37.9630,23.7383",
+      "count": 4,
+      "pois": [
+        {
+          "id": 26,
+          "name": "First Cemetery of Athens"
+        },
+        {
+          "id": 134,
+          "name": "First Cemetery (Tomb of Andreas Syngros)"
+        },
+        {
+          "id": 148,
+          "name": "Tomb of Andreas Papandreou"
+        },
+        {
+          "id": 179,
+          "name": "Tomb of Constantine Kanaris"
+        }
+      ]
+    },
+    {
+      "coords": "37.9750,23.7242",
+      "count": 4,
+      "pois": [
+        {
+          "id": 27,
+          "name": "Ancient Agora of Athens"
+        },
+        {
+          "id": 53,
+          "name": "The Metroum (Ancient Agora)"
+        },
+        {
+          "id": 55,
+          "name": "The Tholos (Agora)"
+        },
+        {
+          "id": 132,
+          "name": "Roman Agora East Propylon"
+        }
+      ]
+    },
+    {
+      "coords": "37.9786,23.7115",
+      "count": 3,
+      "pois": [
+        {
+          "id": 102,
+          "name": "Technopolis (Gazi)"
+        },
+        {
+          "id": 156,
+          "name": "Gazi Retort House (Technopolis)"
+        },
+        {
+          "id": 170,
+          "name": "Gazi Purifier Building (Technopolis)"
+        }
+      ]
+    },
+    {
+      "coords": "37.9756,23.7348",
+      "count": 2,
+      "pois": [
+        {
+          "id": 15,
+          "name": "Syntagma Square & Parliament"
+        },
+        {
+          "id": 52,
+          "name": "Asclepieion of Athens"
+        }
+      ]
+    },
+    {
+      "coords": "37.9790,23.7417",
+      "count": 2,
+      "pois": [
+        {
+          "id": 29,
+          "name": "Hadrian's Reservoir (Dexameni)"
+        },
+        {
+          "id": 107,
+          "name": "Hadrian’s Aqueduct (Dexameni)"
+        }
+      ]
+    },
+    {
+      "coords": "37.9753,23.7301",
+      "count": 2,
+      "pois": [
+        {
+          "id": 32,
+          "name": "Metropolitan Cathedral of Athens"
+        },
+        {
+          "id": 160,
+          "name": "Metropolitan Cathedral (Saint Philothei Shrine)"
+        }
+      ]
+    },
+    {
+      "coords": "38.0130,23.6359",
+      "count": 2,
+      "pois": [
+        {
+          "id": 43,
+          "name": "Asteriou Monastery"
+        },
+        {
+          "id": 98,
+          "name": "Monastery of Kleiston"
+        }
+      ]
+    },
+    {
+      "coords": "37.9811,23.7287",
+      "count": 2,
+      "pois": [
+        {
+          "id": 51,
+          "name": "The Pelasgian Wall"
+        },
+        {
+          "id": 89,
+          "name": "The Diateichisma Wall"
+        }
+      ]
+    },
+    {
+      "coords": "37.9700,23.7652",
+      "count": 2,
+      "pois": [
+        {
+          "id": 101,
+          "name": "National Observatory of Athens"
+        },
+        {
+          "id": 136,
+          "name": "University of Athens Great Hall"
+        }
+      ]
+    },
+    {
+      "coords": "37.9914,23.7084",
+      "count": 2,
+      "pois": [
+        {
+          "id": 130,
+          "name": "Plato's Academy Sacred House"
+        },
+        {
+          "id": 171,
+          "name": "Plato's Academy Peristyle Building"
+        }
+      ]
+    },
+    {
+      "coords": "37.6502,24.0246",
+      "count": 2,
+      "pois": [
+        {
+          "id": 138,
+          "name": "Cape Sounion Geological Cliffs"
+        },
+        {
+          "id": 158,
+          "name": "Cape Sounion Sanctuary Precinct"
+        }
+      ]
+    },
+    {
+      "coords": "37.9759,23.7241",
+      "count": 2,
+      "pois": [
+        {
+          "id": 173,
+          "name": "Stoa of the Herms (Agora)"
+        },
+        {
+          "id": 177,
+          "name": "Stoa of Attalos Upper Floor View"
+        }
+      ]
+    }
+  ],
+  "suspiciousPatterns": [],
+  "locationErrors": [],
+  "summary": {
+    "outOfBoundsCount": 0,
+    "duplicatesCount": 15,
+    "suspiciousPatternsCount": 0,
+    "locationErrorsCount": 0
+  }
+}
