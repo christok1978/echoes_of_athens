@@ -6218,6 +6218,23 @@ let isAudioPlaying = false;
 let audioTimer = null;
 let currentPlayTime = 0;
 let audioDuration = 60; // Default simulated audio length in seconds
+let voicesLoaded = false;
+
+// Load voices for speech synthesis (required for some browsers)
+function loadVoices() {
+    return new Promise((resolve) => {
+        const voices = synth.getVoices();
+        if (voices.length > 0) {
+            voicesLoaded = true;
+            resolve(voices);
+        } else {
+            synth.onvoiceschanged = () => {
+                voicesLoaded = true;
+                resolve(synth.getVoices());
+            };
+        }
+    });
+}
 
 // User stats loaded from local storage
 let userStats = {
@@ -6235,6 +6252,9 @@ document.addEventListener("DOMContentLoaded", () => {
     setupMediaDrawer();
     renderPOIList();
     updateDashboardStats();
+    
+    // Load speech synthesis voices (required for text-to-speech)
+    loadVoices();
 
     // Register Service Worker
     if ('serviceWorker' in navigator) {
@@ -6624,7 +6644,7 @@ function preprocessAudioText(text) {
 }
 
 // --- Audio Player Controller (Web Speech API Synthesis) ---
-function playAudio() {
+async function playAudio() {
     if (!activePOI) return;
 
     try {
@@ -6638,6 +6658,11 @@ function playAudio() {
             alert("Text-to-speech is not supported in your browser. Please try Chrome, Safari, or Edge.");
             stopAudio();
             return;
+        }
+        
+        // Wait for voices to load (critical for Chrome and other browsers)
+        if (!voicesLoaded) {
+            await loadVoices();
         }
         
         // Reset Speech synthesis
