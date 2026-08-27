@@ -954,7 +954,7 @@ const POIs = [
         "name": "Amphiaraion of Oropos",
         "lat": 38.285495,
         "lng": 23.68047,
-        "image": "images/eleutherae.png",
+        "image": "images/amphiaraion_oropos.jpg",
         "description": "An ancient healing sanctuary and oracle dedicated to the hero Amphiaraus, located in a quiet pine-filled ravine near Oropos.",
         "audioText": "Journey to the Amphiaraion of Oropos, a healing sanctuary founded in the late 5th century BC. Dedicated to the hero and seer Amphiaraus, this site served as both an oracle and a medical center, similar to Epidaurus. Patients slept in a long colonnade, hoping to receive healing dreams from the gods. The ruins include a small theater, a temple, and an ancient water clock.",
         "quiz": {
@@ -979,7 +979,7 @@ const POIs = [
         "name": "Tumulus of Marathon",
         "lat": 38.12323,
         "lng": 23.949001,
-        "image": "images/tumulus_marathon.jpg",
+        "image": "images/tumulus_marathon_new.jpg",
         "description": "The burial mound containing the ashes of the 192 Athenian soldiers who died defending Greece at the Battle of Marathon in 490 BC.",
         "audioText": "Stand before the Tumulus of Marathon, a 9-meter-tall burial mound that marks the grave of the 192 Athenian soldiers who died in 490 BC. Here, a small Athenian force defeated the invading Persian army. According to legend, Pheidippides ran 42 kilometers from the battlefield to Athens to announce the victory, inspiring the modern marathon race. The mound remains a symbol of liberty.",
         "quiz": {
