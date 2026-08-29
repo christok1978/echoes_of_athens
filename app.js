@@ -6952,6 +6952,256 @@ const POIs = [
                 "codeHash": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e"
             },
             "id": 279
+        },
+        {
+            "name": "Theatre of Thorikos - World's Oldest",
+            "lat": 37.73806,
+            "lng": 24.05375,
+            "image": "images/theatre_thorikos.jpg",
+            "description": "The oldest known stone theater in the world (525-480 BC) with a unique elongated shape, serving the ancient silver mining community.",
+            "audioText": "You are standing at the Theatre of Thorikos, the oldest known stone theater in the world, dating to approximately 525-480 BC. This makes it even older than the great Theatre of Dionysus in Athens! What makes Thorikos truly unique is its shape—unlike the familiar semicircular Greek theaters, this one is elongated and rectangular, with a linear central section and curved ends. This unusual shape reflects the fact that it was built before the standard theatrical form was established, making it a fascinating window into the evolution of theater architecture. Thorikos was the center of an important deme in southern Attica, closely tied to the silver mines of Laurion that funded Athens' naval power. The theater served multiple purposes: it was used for dramatic performances, public assemblies, religious festivals, and sacrifices. With seating for up to 3,200 spectators arranged in three tiers, this was where the mining community gathered for civic and cultural life. The orchestra area measures 16 by 30 meters. The theater went through several construction phases, with expansions in the 4th century BC. Today, the weathered stone seats sit much as they were found, offering an authentic and atmospheric archaeological experience.",
+            "quiz": {
+                "question": "What makes the Theatre of Thorikos unique among ancient Greek theaters?",
+                "options": [
+                    "It is the oldest known stone theater with an elongated, not semicircular, shape",
+                    "It was the largest theater in ancient Greece",
+                    "It was built entirely of marble",
+                    "It was used exclusively for gladiator games"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Thorikos predates standardized theater design and has a unique elongated shape from the Archaic period."
+            },
+            "reward": {
+                "title": "Guided tour of ancient Thorikos archaeological site",
+                "provider": "Lavreotiki Cultural Association",
+                "codeHash": "3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f"
+            },
+            "id": 280
+        },
+        {
+            "name": "Theatre of Ikarion - Birthplace of Tragedy",
+            "lat": 38.095558,
+            "lng": 23.900489,
+            "image": "images/theatre_ikarion.jpg",
+            "description": "The legendary birthplace of Greek tragedy, where Thespis created the first actor and transformed dithyramb into drama in the 6th century BC.",
+            "audioText": "Welcome to Ikarion, the legendary birthplace of Greek tragedy and one of the most historically significant sites in the history of Western theater. According to ancient tradition, it was here in the 6th century BC that Thespis—the first tragic actor whose name gives us the word 'thespian'—revolutionized performance by stepping out of the chorus to speak as an individual character. This innovation transformed the choral dithyramb honoring Dionysus into true drama. The theater you see is small and austere, with a rectangular orchestra limited on one side by five stone seats of honor called prohedriai and on the other by a terrace. Despite its modest size, inscriptions prove that organized dramatic festivals were held here as early as the 5th century BC. The site also includes a Pythion temple dedicated to Apollo, and a semicircular monument honoring the choregoi who funded performances. The myth tells that the local hero Ikarios welcomed the god Dionysus and was taught the cultivation of grapes and wine-making. American excavations in 1888-89 revealed the inscription 'The Pythion of the Ikarians,' confirming this as the deme's civic and religious center. Standing here, you can almost hear the earliest tragic verses echoing across 2,500 years.",
+            "quiz": {
+                "question": "Who was Thespis and why is Ikarion significant?",
+                "options": [
+                    "Thespis was the first tragic actor who created individual character performance here",
+                    "Thespis was a god worshipped at this theater",
+                    "Thespis built the Parthenon",
+                    "Thespis founded the Olympic Games"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Thespis revolutionized theater by introducing the first actor, transforming choral performance into drama."
+            },
+            "reward": {
+                "title": "Free entry to Dionysos Municipal Cultural Center",
+                "provider": "Municipality of Dionysos",
+                "codeHash": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a"
+            },
+            "id": 281
+        },
+        {
+            "name": "Plato's Academy - First University",
+            "lat": 37.99250,
+            "lng": 23.70806,
+            "image": "images/plato_academy.jpg",
+            "description": "Founded by Plato in 387 BC, this was the first institution of higher learning in the Western world, where Aristotle studied for 20 years.",
+            "audioText": "You are at one of the most important intellectual sites in human history—the location of Plato's Academy, the first institution of higher learning in the Western world. Founded by the philosopher Plato around 387 BC, the Academy was named after the hero Akademos and was located in a sacred grove with gymnasium facilities about 1.5 kilometers outside Athens' Dipylon gates. Here, Plato taught philosophy, mathematics, astronomy, and what we would call physics for forty years until his death in 347 BC. His most famous student was Aristotle, who studied here for nearly twenty years before founding his own school, the Lyceum. The Academy continued under Plato's successors for centuries—the original Academy lasted until 86 BC when it was destroyed by the Roman general Sulla, and a Neoplatonist revival operated from the 5th century AD until Emperor Justinian closed it in 529 AD. The archaeological park you see today preserves remains from the Geometric period including the 'Sacred House' dating to around 800 BC, as well as ruins of the gymnasium complex where students exercised both body and mind. The very word 'academy' comes from this place and has been used ever since to denote centers of advanced learning.",
+            "quiz": {
+                "question": "What makes Plato's Academy historically significant?",
+                "options": [
+                    "It was the first institution of higher learning in the Western world",
+                    "It was where the Olympic Games began",
+                    "It was Athens' largest military fortress",
+                    "It was the first democracy in Greece"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Founded in 387 BC, the Academy pioneered institutional higher education and trained philosophers for centuries."
+            },
+            "reward": {
+                "title": "Philosophy walking tour of ancient Athens",
+                "provider": "Academy Archaeological Park",
+                "codeHash": "5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b"
+            },
+            "id": 282
+        },
+        {
+            "name": "Aristotle's Lyceum - Peripatetic School",
+            "lat": 37.9740750,
+            "lng": 23.7435028,
+            "image": "images/aristotle_lyceum.jpg",
+            "description": "The school founded by Aristotle in 335 BC where he taught while walking with students, pioneering the scientific method and empirical research.",
+            "audioText": "You are at Aristotle's Lyceum, discovered remarkably recently in 1996 during construction for a modern art museum. This was the school founded by Aristotle in 335 BC after he returned from tutoring Alexander the Great in Macedonia. The name 'Lyceum' comes from the nearby temple of Apollo Lyceus. What made Aristotle's school revolutionary was his emphasis on empirical observation and systematic research—he essentially invented the scientific method. The school was called 'Peripatetic' from the Greek word for 'walking around,' because Aristotle taught while strolling with his students through the gardens and covered walkways. Here he established one of the ancient world's first great libraries and research collections, with specimens, maps, and manuscripts gathered from across the known world. The archaeological site shows the remains of a gymnasium with a palaestra for wrestling and athletic training, as well as lecture halls and stoas. Aristotle taught here for twelve years, until anti-Macedonian sentiment after Alexander's death forced him to flee Athens in 323 BC. The school continued under his successors until Sulla's destruction of Athens' philosophical schools in 86 BC. The site was only opened to the public in 2009, making it one of Athens' newest ancient monuments.",
+            "quiz": {
+                "question": "Why was Aristotle's school called 'Peripatetic'?",
+                "options": [
+                    "Because he taught while walking around with his students",
+                    "Because it was located on a mountain path",
+                    "Because students had to travel there from far away",
+                    "Because it focused on studying walking animals"
+                ],
+                "answer": 0,
+                "feedback": "Correct! 'Peripatetic' means 'walking around,' reflecting Aristotle's teaching method of philosophical discussion while strolling."
+            },
+            "reward": {
+                "title": "Scientific method workshop at Lyceum site",
+                "provider": "Hellenic Scientific Society",
+                "codeHash": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c"
+            },
+            "id": 283
+        },
+        {
+            "name": "Daphni Monastery - Byzantine Masterpiece",
+            "lat": 38.01296,
+            "lng": 23.63588,
+            "image": "images/daphni_monastery.jpg",
+            "description": "An 11th-century UNESCO World Heritage monastery famous for its breathtaking gold-ground Byzantine mosaics, among the finest in the world.",
+            "audioText": "You are at the Monastery of Daphni, one of the supreme masterpieces of middle Byzantine art and a UNESCO World Heritage Site. Built in the 11th century on the Sacred Way to Eleusis, the monastery is named after the laurel groves (daphne in Greek) that surrounded it. Step inside the church and prepare to be dazzled—the interior is covered with sumptuous gold-ground mosaics that are among the finest examples of Byzantine art anywhere in the world. In the dome, a severe and majestic Pantokrator Christ gazes down, surrounded by prophets. The scenes from Christ's life show a refined artistic style that points to workshops from Constantinople. The arrangement follows the established middle Byzantine program: the Pantokrator in the dome symbolizes heaven, the Virgin in the apse represents the incarnation, and narrative scenes from Christ's life fill the rest of the church. The mosaic technique and the luminous gold backgrounds create an immersive spiritual atmosphere that transported worshippers beyond the physical world. The monastery was built on the site of an earlier Christian church, which itself replaced an ancient temple to Apollo. During the Frankish occupation it became a Cistercian monastery. Today, along with Hosios Loukas and Nea Moni of Chios, it represents the height of Byzantine artistic achievement.",
+            "quiz": {
+                "question": "What makes Daphni Monastery a UNESCO World Heritage Site?",
+                "options": [
+                    "Its exceptional 11th-century gold-ground Byzantine mosaics",
+                    "It was the first monastery in Greece",
+                    "It contains the oldest church bell in the world",
+                    "Alexander the Great was buried there"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Daphni's mosaics are considered among the finest examples of middle Byzantine art in the world."
+            },
+            "reward": {
+                "title": "Byzantine art history lecture and tour",
+                "provider": "Daphni Archaeological Site",
+                "codeHash": "7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d"
+            },
+            "id": 284
+        },
+        {
+            "name": "Kaisariani Monastery - Mount Hymettus Refuge",
+            "lat": 37.96083,
+            "lng": 23.79833,
+            "image": "images/kaisariani_monastery.jpg",
+            "description": "A Byzantine monastery from ca. 1100 AD nestled in the pine forests of Mount Hymettus, built on the site of an ancient sanctuary.",
+            "audioText": "You are at the Kaisariani Monastery, a beautiful Byzantine sanctuary hidden in the pine forests on the northern slopes of Mount Hymettus. The monastery was probably established around 1100 AD, though the site has a much longer sacred history—in antiquity, a temple to Aphrodite stood here, and by the 5th or 6th century it had been taken over by Christians. An early Christian basilica from the 6th century was followed by a larger one in the 10th century before the current complex was built. The monastery's katholikon is a cross-in-square church with a dome and four columns, built in the classic middle Byzantine style with cloisonné masonry—alternating courses of brick and stone. The interior preserves wall paintings from the late 17th century, including frescoes from 1682 by the painter Ioannes Hypatios, according to an inscription. The monastery complex includes a refectory and kitchen to the west, cells along the south and west sides, and remarkably, an 11th-century bathhouse with a domed central chamber. Just outside the walls are the ruins of the earlier 10th-century basilica. A sacred spring flows here, adding to the peaceful atmosphere. During the Ottoman period, the monastery remained active and even housed an olive press. Today, surrounded by the beautiful Kaisariani forest, it's a popular destination for both pilgrims and hikers.",
+            "quiz": {
+                "question": "What makes the site of Kaisariani Monastery historically layered?",
+                "options": [
+                    "It was built on an ancient Aphrodite temple site with earlier Christian basilicas",
+                    "It was the tallest monastery in Greece",
+                    "It was built in a single century",
+                    "It was never occupied during Ottoman times"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The site has been sacred for over 2,500 years, from pagan temple through early Christian to Byzantine times."
+            },
+            "reward": {
+                "title": "Hymettus forest hiking trail map and honey sample",
+                "provider": "Kaisariani Monastery Visitors Center",
+                "codeHash": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e"
+            },
+            "id": 285
+        },
+        {
+            "name": "Brauron Sanctuary of Artemis",
+            "lat": 37.92611,
+            "lng": 23.99361,
+            "image": "images/brauron_sanctuary.jpg",
+            "description": "The most important sanctuary of Artemis in Greece, where young Athenian girls performed the Arkteia ritual, 'playing the bear' in sacred dances.",
+            "audioText": "You are at Brauron, the most important sanctuary of Artemis in all of ancient Greece. This was the center of one of antiquity's most fascinating and mysterious rituals—the Arkteia, where young Athenian girls aged five to ten came every four years to serve the goddess by 'playing the bear.' These girls, called arktoi, wore saffron-colored robes and performed sacred dances, races, and sacrifices as a rite of passage preparing them for womanhood and marriage. The ritual's origin was explained by myth: a sacred bear of Artemis was killed, and the goddess demanded that girls imitate bears to atone for this sacrilege. The sanctuary was in use from the 8th century BC to the 3rd century BC and includes a beautiful stoa where the girls stayed, a temple platform, altars, and a sacred spring where valuable offerings were thrown. One of the site's remarkable features is Greece's only surviving Classical-period stone bridge. The small museum displays unique pottery called krateriskoi showing girls running and dancing, some depicted nude, giving us rare glimpses of these ancient ceremonies. Brauron was also one of the legendary twelve townships unified by Theseus to create Athens. The site's location near a small inlet made it both a religious center and a natural harbor until the area silted up.",
+            "quiz": {
+                "question": "What was the Arkteia ritual at Brauron?",
+                "options": [
+                    "Young girls 'playing the bear' in dances as a coming-of-age ceremony for Artemis",
+                    "A battle reenactment performed by soldiers",
+                    "An oracle consultation ceremony",
+                    "A harvest festival for Demeter"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The Arkteia was a unique rite where girls served Artemis through bear-imitation dances before marriage."
+            },
+            "reward": {
+                "title": "Free admission to Brauron Archaeological Museum",
+                "provider": "Hellenic Ministry of Culture",
+                "codeHash": "9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f"
+            },
+            "id": 286
+        },
+        {
+            "name": "Ancient Oropos - Border Harbor City",
+            "lat": 38.319500,
+            "lng": 23.790000,
+            "image": "images/oropos_city.jpg",
+            "description": "A strategic border town and harbor constantly contested by Athens and Thebes, serving as the vital crossing point to Euboea.",
+            "audioText": "You are at ancient Oropos, a town whose geographic position made it one of the most contested places in ancient Greece. Situated on the border between Attica and Boeotia, overlooking the narrow strait to Euboea, Oropos controlled a vital crossing point and the direct road to Athens through Dekeleia—one of Athens' main supply routes. The harbor called Delphinion lay at the mouth of the Asopos River, while the city itself stood at what is now Skala Oropou. Because of this strategic importance, control of Oropos passed back and forth between Athens and Thebes throughout the Classical period. When Athens held it, the grain and cattle crossing from Euboea were secure; when Thebes took it, Athens was cut off from these vital supplies. The territory was important enough that there were even periods when Oropos enjoyed brief autonomy as a buffer state. Archaeological excavations have revealed an important Early Iron Age settlement that may have been the Homeric Graia, along with Hellenistic and Roman remains now buried under the modern town. The nearby Amphiareion sanctuary brought religious pilgrims and healing seekers, adding to Oropos' importance. Inscriptions and tomb monuments reused in local churches attest to the town's long prosperity despite its constantly shifting political allegiance.",
+            "quiz": {
+                "question": "Why was Oropos constantly fought over by Athens and Thebes?",
+                "options": [
+                    "It controlled the vital crossing to Euboea and Athens' supply route",
+                    "It had the richest silver mines in Greece",
+                    "It was the birthplace of Zeus",
+                    "It contained the Olympic Games stadium"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Oropos' strategic position controlling access to Euboea and the road to Athens made it highly contested."
+            },
+            "reward": {
+                "title": "Ferry discount to Eretria, Euboea",
+                "provider": "Oropos Port Authority",
+                "codeHash": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a"
+            },
+            "id": 287
+        },
+        {
+            "name": "Ancient Megara - Dorian Rival City",
+            "lat": 37.99639,
+            "lng": 23.34444,
+            "image": "images/ancient_megara.jpg",
+            "description": "A powerful Dorian city-state that founded the colonies of Byzantium and Chalcedon, rival of Athens with impressive Theagenes Fountain.",
+            "audioText": "You are in Megara, one of the great Dorian city-states that rivaled Athens in the Archaic period. Though the modern town overlies most ancient remains, this was once a powerful maritime state that punched far above its weight. During the age of colonization in the 8th and 7th centuries BC, Megara founded some of the most important Greek colonies: Megara Hyblaea in Sicily, Selinus in Sicily, Chalcedon on the Asian side of the Bosporus, and most famously Byzantium—the future Constantinople and Istanbul. The city occupied a strategic buffer position between Attica and Corinth, with harbors on both the Saronic and Corinthian Gulfs. Megara experienced a tyranny under Theagenes in the 7th century BC and later came into bitter conflict with Athens over control of the island of Salamis. The most visible ancient monument is the Theagenes Fountain, a remarkable 5th-century BC structure with a large rectangular cistern supported by rows of octagonal columns—perhaps designed by the famous engineer Eupalinos who also built Samos' aqueduct. The city had two acropolises on the hills of Alkathos and Karia. Megara's rivalry with Athens was so intense that in 432 BC, Pericles issued the Megarian Decree excluding them from Athenian markets, one of the triggers of the Peloponnesian War.",
+            "quiz": {
+                "question": "What was Megara most famous for in the Archaic period?",
+                "options": [
+                    "Founding major colonies including Byzantium and Chalcedon",
+                    "Inventing democracy",
+                    "Building the Parthenon",
+                    "Defeating the Persians at Marathon"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Megara was a major colonizing power, founding cities that became hugely important, especially Byzantium."
+            },
+            "reward": {
+                "title": "Guided tour of Theagenes Fountain archaeological site",
+                "provider": "Megara Archaeological Museum",
+                "codeHash": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b"
+            },
+            "id": 288
+        },
+        {
+            "name": "Theatre at Amphiareion",
+            "lat": 38.291581,
+            "lng": 23.845344,
+            "image": "images/amphiareion_theatre.jpg",
+            "description": "A well-preserved ancient theater at the healing sanctuary where dramatic and musical contests were held during the Greater Amphiareia festival.",
+            "audioText": "You are at the remarkably well-preserved theater of the Amphiareion sanctuary. Built into the hillside beside the ravine, this theater hosted dramatic and musical contests every four years as part of the Greater Amphiareia festival, established in 332 BC. Unlike the main sanctuary's focus on healing and oracular dreams, the theater provided entertainment and cultural competition that drew visitors from across Greece. The theater's stone seats are exceptionally well-preserved, allowing you to sit exactly where ancient spectators sat over 2,300 years ago. The orchestra area and lower seating tiers remain largely intact. Theater performances were an integral part of ancient Greek religious festivals—the arts of tragedy, comedy, and music were offerings to the gods as much as sacrifices and processions. Here at the Amphiareion, theatrical contests honored the hero Amphiaraos while providing respite for the sick and weary who came seeking healing. Inscriptions found at the site record the names of victorious actors and musicians, showing that competitions here attracted serious performers. The theater's location in this peaceful wooded glen, with the sacred spring and temple nearby, made attending performances a complete sensory and spiritual experience. The acoustics remain excellent, so if you speak or clap from the orchestra, you'll hear how sound carried to the upper rows.",
+            "quiz": {
+                "question": "What was the purpose of the theater at the Amphiareion?",
+                "options": [
+                    "Hosting dramatic and musical contests during the Greater Amphiareia festival",
+                    "Training gladiators for Roman games",
+                    "Holding political assemblies only",
+                    "Serving as a marketplace"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The theater was part of the sanctuary's festival program, with dramatic contests held every four years."
+            },
+            "reward": {
+                "title": "Ancient drama performance ticket discount",
+                "provider": "Amphiareion Cultural Foundation",
+                "codeHash": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"
+            },
+            "id": 289
         }
 ];
 
