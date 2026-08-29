@@ -6452,6 +6452,506 @@ const POIs = [
                 "codeHash": "8e35c2cd3bf6641bdb0e2050b76932cbb2e6034a0ddacc1d9bea82a6ba57f7f0"
             },
             "id": 259
+        },
+        {
+            "name": "Marathon Soros (Burial Mound)",
+            "lat": 38.11791,
+            "lng": 23.97833,
+            "image": "images/marathon_soros.jpg",
+            "description": "The burial mound of 192 Athenian warriors who died at the Battle of Marathon in 490 BC, one of history's most decisive battles.",
+            "audioText": "You are standing at the Soros, the sacred burial mound where 192 Athenian warriors were cremated and buried after their heroic stand at the Battle of Marathon in 490 BC. This earthen tumulus dominates the Marathon plain where the greatly outnumbered Athenians and their Plataean allies defeated the invading Persian army. The victory at Marathon saved Greece from Persian conquest and proved that the heavily-armored Greek hoplite phalanx could defeat the Persian forces. The burial mound stands 10 meters high and 50 meters in diameter. Excavations have revealed the cremated remains of the fallen, along with black-figured pottery and other funeral offerings. Herodotus tells us that these men were cremated where they fell and buried with full honors. Standing here, you can almost hear the clash of bronze and the war cries that echoed across this plain over 2,500 years ago.",
+            "quiz": {
+                "question": "How many Athenian warriors are buried in the Marathon Soros?",
+                "options": [
+                    "192 warriors who died in the battle",
+                    "300 Spartans who defended the pass",
+                    "1,000 Persian soldiers",
+                    "The entire Athenian army"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Herodotus records that exactly 192 Athenians fell at Marathon and were buried in this mound."
+            },
+            "reward": {
+                "title": "Free entry to Marathon Archaeological Museum",
+                "provider": "Marathon Museum",
+                "codeHash": "1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3"
+            },
+            "id": 260
+        },
+        {
+            "name": "Rhamnous Fortress and Temple",
+            "lat": 38.22333,
+            "lng": 24.02722,
+            "image": "images/rhamnous_fortress.jpg",
+            "description": "A remote coastal fortress with the most important sanctuary of Nemesis in ancient Greece, guarding the Euboean Strait.",
+            "audioText": "Welcome to Rhamnous, one of the most atmospheric and remote sites in Attica. This fortified settlement served as a garrison town guarding the northeastern frontier of Athens. The fortress walls, best preserved on the south side, protected both military quarters and civilian housing. But Rhamnous was famous throughout Greece for its sanctuary of Nemesis, the goddess of divine retribution who punished hubris and excessive pride. The sanctuary contained two temples set on a flat terrace six hundred meters from the fortress. The larger temple, built in the 5th century BC, housed a colossal statue of Nemesis sculpted by Agorakritos, a pupil of Phidias. Legend says the Persians brought marble to Marathon intending to carve a victory monument, but after their defeat at Marathon, the Athenians used the same marble for Nemesis's statue—a perfect symbol of divine vengeance. The coastal location meant that a garrison of ephebes was permanently stationed here, and you can still see the small theater where they trained and relaxed.",
+            "quiz": {
+                "question": "Who was Nemesis and why was she worshipped at Rhamnous?",
+                "options": [
+                    "Goddess of divine retribution who punished hubris and pride",
+                    "Goddess of victory in battle",
+                    "Goddess of the sea and sailors",
+                    "Goddess of wisdom and strategy"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Nemesis punished those who showed excessive pride or arrogance, making her sanctuary especially significant."
+            },
+            "reward": {
+                "title": "Guided sunset tour of Rhamnous",
+                "provider": "Marathon Tourism Office",
+                "codeHash": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a"
+            },
+            "id": 261
+        },
+        {
+            "name": "Eleusis - Sanctuary of the Mysteries",
+            "lat": 38.041100,
+            "lng": 23.538000,
+            "image": "images/eleusis_sanctuary.jpg",
+            "description": "The Panhellenic sanctuary where the Eleusinian Mysteries, ancient Greece's most famous secret rites, were celebrated for over 1,000 years.",
+            "audioText": "You have arrived at Eleusis, home of the Eleusinian Mysteries—the most famous and long-lasting of all ancient Greek religious rites. For over a thousand years, from at least the 7th century BC until the late 4th century AD, initiates from across the Greek world came here to experience secret ceremonies that promised a blessed afterlife. The exact nature of the Mysteries was never revealed; those initiated were forbidden to speak of what they witnessed on pain of death. At the heart of the sanctuary stands the Telesterion, a massive square hall with rows of steps on all four sides where thousands of initiates would gather in darkness. The ceremonies reenacted the myth of Demeter and Persephone—the goddess's desperate search for her daughter who had been abducted to the underworld, and their joyful reunion symbolizing the cycle of death and rebirth. The famous Sacred Way connected Athens to Eleusis, and each September a great procession of initiates would walk the 22 kilometers carrying the sacred objects of the goddess.",
+            "quiz": {
+                "question": "What was forbidden to those initiated into the Eleusinian Mysteries?",
+                "options": [
+                    "Revealing what they witnessed in the secret ceremonies",
+                    "Worshipping other gods",
+                    "Leaving the city of Athens",
+                    "Eating meat or drinking wine"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The content of the Mysteries was so secret that initiates faced death if they revealed what happened during the rites."
+            },
+            "reward": {
+                "title": "Free admission to Eleusis Archaeological Museum",
+                "provider": "Hellenic Ministry of Culture",
+                "codeHash": "5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f"
+            },
+            "id": 262
+        },
+        {
+            "name": "Amphiareion of Oropos",
+            "lat": 38.29139,
+            "lng": 23.84556,
+            "image": "images/amphiareion_oropos.jpg",
+            "description": "A sacred healing sanctuary dedicated to the hero Amphiaraos, where pilgrims sought cures through dream interpretation and ritual.",
+            "audioText": "You are at the Amphiareion, a healing sanctuary dedicated to Amphiaraos, the legendary seer who was swallowed by the earth in his chariot and transformed into a healing hero. This sanctuary became one of the most important healing centers in ancient Greece during the 4th century BC. Pilgrims came from far and wide seeking cures for their ailments. The healing ritual was called incubation: after purification, sacrifice, and payment to the sanctuary, the sick would sleep in the long stoa you see here, hoping to receive divine guidance in their dreams. In the morning, priests would interpret these dreams and prescribe treatments. The sanctuary also had an oracle where people could ask Amphiaraos questions about the future. You can still see the temple, the sacred spring where pilgrims made offerings, the theater for festivals, and a remarkable ancient water clock. The site's success is attested by numerous inscriptions recording miraculous cures and grateful dedications.",
+            "quiz": {
+                "question": "What was 'incubation' at the Amphiareion?",
+                "options": [
+                    "Sleeping in the sanctuary to receive healing dreams from the god",
+                    "A month-long quarantine for contagious diseases",
+                    "Warming herbal medicines over sacred fires",
+                    "A surgical procedure performed by temple priests"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Incubation was the practice of ritual sleep in which the god would appear in dreams and provide healing or guidance."
+            },
+            "reward": {
+                "title": "Herbal healing tea sampler",
+                "provider": "Oropos Wellness Center",
+                "codeHash": "6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a"
+            },
+            "id": 263
+        },
+        {
+            "name": "Temple of Poseidon at Sounion",
+            "lat": 37.6502,
+            "lng": 24.02455,
+            "image": "images/sounion_temple_poseidon.jpg",
+            "description": "The magnificent clifftop temple of Poseidon, built in the golden age of Pericles, standing as a beacon to sailors for 2,500 years.",
+            "audioText": "You are standing at one of the most dramatic and romantic sites in all of Greece—the Temple of Poseidon at Cape Sounion. Built between 444 and 440 BC during the age of Pericles, this Doric temple was constructed of local white marble that glows golden in the sunlight. Fifteen of the original 34 columns still stand, each over 6 meters tall, framing the endless blue of the Aegean Sea. For ancient sailors, this temple was both the last sight of home when leaving Athens and the first welcome on their return. Poseidon, god of the sea and earthquakes, was especially important to the maritime power of Athens. According to legend, King Aegeus threw himself from these cliffs when he mistakenly believed his son Theseus had died, giving the Aegean Sea its name. The temple was part of a larger fortress complex that protected the vital silver-mining region of Laurion and watched over the sea lanes to Piraeus. Lord Byron carved his name on one of the columns in 1810, though we don't recommend following his example!",
+            "quiz": {
+                "question": "Why was the Temple of Poseidon especially important to ancient Athens?",
+                "options": [
+                    "Athens was a naval power and Poseidon was god of the sea",
+                    "It was the burial place of Athenian kings",
+                    "It stored the city's treasury",
+                    "All Athenian soldiers trained there"
+                ],
+                "answer": 0,
+                "feedback": "Correct! As a maritime empire, Athens relied on sea power, making Poseidon's favor crucial to their survival and prosperity."
+            },
+            "reward": {
+                "title": "Sunset viewing pass with refreshments",
+                "provider": "Cape Sounion Visitor Center",
+                "codeHash": "7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b"
+            },
+            "id": 264
+        },
+        {
+            "name": "Acharnae - Largest Ancient Deme",
+            "lat": 38.08194,
+            "lng": 23.73147,
+            "image": "images/acharnae_deme.jpg",
+            "description": "The largest deme of ancient Attica, famous for its charcoal burners and fierce warriors, immortalized in Aristophanes' comedy 'The Acharnians'.",
+            "audioText": "Welcome to Acharnae, the largest and most populous of all Athenian demes, located in the northwestern Attic plain near Mount Parnes. At the start of the Peloponnesian War, Acharnae could field 3,000 hoplites—a tenth of Athens' entire infantry! The Acharnians were famous as charcoal burners who supplied Athens with fuel from the oak forests of Parnes, but they were also renowned as fierce and hot-tempered warriors. The playwright Aristophanes chose them as the subject of his comedy 'The Acharnians,' where he portrays them as tough, rough country folk eager for war against Sparta. The area has yielded rich archaeological finds, including a magnificent Mycenaean tholos tomb known as the Tomb of Menidi, which contained gold jewelry and fine pottery showing that this region was important even in the Bronze Age. The Spartans deliberately ravaged Acharnae during their invasions, knowing it would most enrage the Athenians. Today, the modern suburb of Acharnes preserves the ancient name.",
+            "quiz": {
+                "question": "What made Acharnae the largest deme of ancient Attica?",
+                "options": [
+                    "Its large population that could field 3,000 hoplites",
+                    "Its geographic size covering most of Attica",
+                    "Its wealthy aristocratic families",
+                    "Its position as the capital before Athens"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Acharnae's ability to contribute one-tenth of Athens' infantry demonstrates its exceptional population size."
+            },
+            "reward": {
+                "title": "Traditional charcoal-grilled souvlaki voucher",
+                "provider": "Acharnes Traditional Taverna",
+                "codeHash": "8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c"
+            },
+            "id": 265
+        },
+        {
+            "name": "Phyle Fortress - Birthplace of Democracy's Restoration",
+            "lat": 38.14,
+            "lng": 23.637,
+            "image": "images/phyle_fortress.jpg",
+            "description": "The mountain fortress where Thrasyboulus and 70 exiles began the campaign that overthrew the Thirty Tyrants and restored Athenian democracy in 403 BC.",
+            "audioText": "You are at Phyle, one of the most important sites in the history of democracy. In the winter of 404 BC, after Athens' defeat in the Peloponnesian War, a brutal oligarchy known as the Thirty Tyrants terrorized the city. Thrasyboulus, a democratic leader, led just 70 exiles from Thebes to seize this remote mountain fortress guarding the pass between Attica and Boeotia. From this seemingly hopeless position, high in the mountains of Parnes, the democrats began to attract more supporters. When the oligarchs sent a force to dislodge them, a miraculous snowstorm forced the attackers to retreat. Thrasyboulus's numbers swelled to 700, and he led a successful night attack that killed 120 enemies. This victory was the turning point. The democratic forces grew stronger, marched to Piraeus, and eventually restored democracy to Athens. The fortress you see dates to the 4th century BC and was built to prevent such seizures in the future. From its heights, you can see across the entire Attic plain to Athens itself.",
+            "quiz": {
+                "question": "What happened at Phyle in 404-403 BC?",
+                "options": [
+                    "Thrasyboulus and exiles began the campaign to restore democracy",
+                    "The Spartans defeated the Athenian army",
+                    "Alexander the Great was born",
+                    "The Parthenon was built"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Phyle was the starting point for the democratic resistance that overthrew the Thirty Tyrants and restored Athenian democracy."
+            },
+            "reward": {
+                "title": "Free hiking guide to Mount Parnes trails",
+                "provider": "Phyle Mountain Club",
+                "codeHash": "9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d"
+            },
+            "id": 266
+        },
+        {
+            "name": "Paeania - Demosthenes' Birthplace",
+            "lat": 37.958506,
+            "lng": 23.8552995,
+            "image": "images/paeania_deme.jpg",
+            "description": "The ancient deme on the eastern slopes of Mount Hymettus, birthplace of Demosthenes, the greatest orator of ancient Greece.",
+            "audioText": "You are in Paeania, an ancient deme on the eastern side of Mount Hymettus, famous as the birthplace of Demosthenes, the greatest orator in Greek history. Born here in 384 BC, Demosthenes overcame a speech impediment through rigorous training—famously practicing with pebbles in his mouth and reciting speeches over the roar of the sea. He became Athens' fiercest defender against the rising power of Macedon under Philip II and his son Alexander. His powerful 'Philippic' orations warned Athenians of the threat to their freedom, though ultimately Philip conquered Greece. Paeania was actually divided into two parts: Upper Paeania and Lower Paeania, both belonging to the tribe Pandionis. The area was prosperous, with fertile land for farming and easy access to both Athens and the coast. Archaeological remains include house foundations on terraces and inscriptions documenting the deme's civic life. The modern town of Paiania preserves the ancient name and is famous today for its beautiful Koutouki Cave.",
+            "quiz": {
+                "question": "What is Paeania most famous for in ancient history?",
+                "options": [
+                    "Being the birthplace of the orator Demosthenes",
+                    "The site of a major battle",
+                    "A temple to Zeus",
+                    "The first democracy in Greece"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Demosthenes, born in Paeania in 384 BC, became Athens' greatest orator and defender against Macedonian expansion."
+            },
+            "reward": {
+                "title": "Free entry to Vorres Museum of Folk Art",
+                "provider": "Paiania Cultural Center",
+                "codeHash": "0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e"
+            },
+            "id": 267
+        },
+        {
+            "name": "Ancient Salamis and Naval Battle Site",
+            "lat": 37.95,
+            "lng": 23.57,
+            "image": "images/salamis_ancient_city.jpg",
+            "description": "The ancient city and harbor where the Greek fleet gathered before defeating the Persians in the most decisive naval battle of antiquity in 480 BC.",
+            "audioText": "You are on the island of Salamis, site of one of the most consequential battles in human history. In September 480 BC, the narrow straits between this island and the mainland witnessed the Battle of Salamis, where the outnumbered Greek fleet decisively defeated the massive Persian navy of Xerxes. The Greek commander Themistocles brilliantly lured the Persian ships into these confined waters where their numbers became a disadvantage. The Greeks, fighting for their homes and freedom, destroyed 200 Persian vessels while losing only 40 of their own. The Persian king Xerxes watched in horror from a golden throne on Mount Aegaleos as his fleet was annihilated. This victory saved Greece from conquest and allowed the flowering of classical Greek civilization. The ancient city of Salamis, whose ruins lie in Ampelakia Bay, was the legendary birthplace of the hero Ajax and the playwright Euripides. Today, Salamis is home to the Greek Navy's headquarters, continuing the island's 2,500-year naval tradition.",
+            "quiz": {
+                "question": "Why was the Battle of Salamis so decisive?",
+                "options": [
+                    "The Greek victory saved Greece from Persian conquest",
+                    "It was the first naval battle in history",
+                    "The Spartans defeated Athens",
+                    "Alexander the Great began his conquests"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Salamis was the turning point that prevented Persian domination and preserved Greek independence and culture."
+            },
+            "reward": {
+                "title": "Ferry ride discount to Salamis Island",
+                "provider": "Salamis Ferry Services",
+                "codeHash": "1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f"
+            },
+            "id": 268
+        },
+        {
+            "name": "Dekeleia - Spartan Stronghold",
+            "lat": 38.1100,
+            "lng": 23.7786,
+            "image": "images/dekeleia_fortress.jpg",
+            "description": "The strategic fortress captured by Sparta in 413 BC that crippled Athens throughout the final decade of the Peloponnesian War.",
+            "audioText": "You are at Dekeleia, a site that changed the course of the Peloponnesian War. In 413 BC, on the advice of the Athenian traitor Alcibiades, the Spartan king Agis II seized and fortified this strategic deme just 120 stadia from Athens. From this base, the Spartans could ravage the Attic countryside year-round, forcing the Athenians to abandon their farms and cutting off their access to the silver mines of Laurion and the land route to the grain port of Oropos. Over 20,000 Athenian slaves, many skilled craftsmen, escaped to the Spartans here. The occupation of Dekeleia was more damaging to Athens than all the previous invasions combined, as Thucydides tells us. It was visible from Athens itself—a constant reminder of Sparta's presence. The fortress remained in Spartan hands until Athens' final defeat in 404 BC. The ancient Dekeleians had enjoyed special privileges in Sparta since helping the Dioscuri rescue Helen from Theseus, and they maintained these rights even after this painful occupation.",
+            "quiz": {
+                "question": "How did Dekeleia's occupation damage Athens?",
+                "options": [
+                    "Year-round raids, loss of mines, escape of slaves, and cut supply routes",
+                    "It was the site of Athens' final surrender",
+                    "The Spartans burned the Parthenon",
+                    "It blocked Athens' access to the sea"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The permanent Spartan garrison at Dekeleia inflicted continuous economic and psychological damage on Athens throughout the war's final phase."
+            },
+            "reward": {
+                "title": "Historical walking tour of Tatoi Estate",
+                "provider": "Tatoi Heritage Foundation",
+                "codeHash": "2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a"
+            },
+            "id": 269
+        },
+        {
+            "name": "Ancient Walls of Piraeus",
+            "lat": 37.947500,
+            "lng": 23.651200,
+            "image": "images/piraeus_ancient_walls.jpg",
+            "description": "The mighty fortifications built by Themistocles and Conon that protected Athens' port and the famous Long Walls connecting it to the city.",
+            "audioText": "You are standing at the ancient fortifications of Piraeus, some of the finest examples of Greek military architecture surviving today. After the Persian Wars, the visionary statesman Themistocles recognized that Athens' future lay in sea power. He fortified Piraeus with massive walls and connected it to Athens with the Long Walls—twin fortification lines running five kilometers that created a secure corridor allowing Athens to receive supplies by sea even when enemies controlled the countryside. These walls were about 60 feet high and broad enough for two carts to pass. After Athens' defeat in 404 BC, the Spartans tore down the Long Walls amid celebration, but in 394 BC, Conon rebuilt them and added the impressive coastal fortifications you see preserved here. The walls are built in the emplekton technique: two parallel faces of large squared limestone blocks with rubble fill between them. Over 2.5 kilometers of these walls survive along the peninsula, including several towers. Their preservation is remarkable, making this one of the best places to understand ancient Greek fortification engineering.",
+            "quiz": {
+                "question": "What were the Long Walls and why were they important?",
+                "options": [
+                    "Walls connecting Athens to Piraeus, securing supply lines by sea",
+                    "The perimeter walls around the Acropolis",
+                    "The walls of the Parthenon temple",
+                    "Defensive walls between Athens and Sparta"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The Long Walls ensured Athens could never be starved out as long as it controlled the sea."
+            },
+            "reward": {
+                "title": "Harbor cruise with historical narration",
+                "provider": "Piraeus Port Authority",
+                "codeHash": "3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b"
+            },
+            "id": 270
+        },
+        {
+            "name": "Aphidna - Where Helen Was Hidden",
+            "lat": 38.187100,
+            "lng": 23.879200,
+            "image": "images/aphidna_fortress.jpg",
+            "description": "One of the twelve original townships of Attica, famous in myth as where Theseus hid Helen of Troy before the Dioscuri rescued her.",
+            "audioText": "You are at Aphidna, one of the legendary twelve ancient towns that Theseus unified to create Athens. This site is forever linked to one of Greek mythology's most famous stories: the abduction of Helen. According to legend, before Helen became the cause of the Trojan War, the hero Theseus kidnapped the young Helen and brought her here to Aphidna, entrusting her to his friend Aphidnus. When Helen's brothers, the Dioscuri—Castor and Pollux—came searching for her, the people of neighboring Dekeleia revealed where she was hidden. The Dioscuri stormed Aphidna, rescued their sister, and in gratitude granted the Dekeleians eternal privileges in Sparta. Archaeological reality shows that Aphidna was indeed important: a Middle Bronze Age tumulus with rich burials dates to 2000-1600 BC, and a Classical fortress crowned the Kotroni hill, guarding the northern approaches to Athens. Recent surveys have revealed extensive remains of the ancient settlement on the hillside terraces, showing this was a substantial community controlling a strategic position near the Marathon reservoir.",
+            "quiz": {
+                "question": "Why is Aphidna famous in Greek mythology?",
+                "options": [
+                    "Theseus hid Helen here before her brothers rescued her",
+                    "It was the birthplace of Zeus",
+                    "The Trojan Horse was built here",
+                    "Hercules completed one of his labors here"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The myth of Helen's rescue from Aphidna by the Dioscuri was famous throughout ancient Greece."
+            },
+            "reward": {
+                "title": "Free visit to Marathon Dam and Lake viewpoint",
+                "provider": "EYDAP Water Company",
+                "codeHash": "4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c"
+            },
+            "id": 271
+        },
+        {
+            "name": "Naval Base of Sounion",
+            "lat": 37.6524,
+            "lng": 24.0228,
+            "image": "images/sounion_naval_base.jpg",
+            "description": "Ancient rock-cut ship sheds where Athenian warships were maintained, protecting the vital sea lanes to the silver mines and Athens.",
+            "audioText": "You are at the naval base of Sounion, a fascinating example of ancient Greek maritime infrastructure. Cut directly into the bedrock on the northwestern side of Cape Sounion are two parallel ship sheds that housed light patrol vessels called triremes. The main chamber measures 20.5 meters long and 11.5 meters wide, with two slanting trenches carved into the floor where ships could be hauled up for maintenance and storage. A smaller single slipway lies nearby, now partially submerged beneath the rising sea. This naval base was part of Athens' strategic defense network, positioned to guard the approaches to Piraeus and the vital silver-mining region of Laurion. Fast patrol ships based here could intercept pirates or enemy raiders threatening Athenian commerce. The rock-cut construction was difficult and expensive, requiring skilled stoneworkers, but it created permanent facilities that needed no wooden structures to rot or burn. These installations were incorporated into the fortress walls of Sounion and remained in use throughout the Classical and Hellenistic periods. Underwater surveys have revealed submerged walls and structures that once lined the ancient harbor.",
+            "quiz": {
+                "question": "What were ship sheds used for in ancient Greek naval bases?",
+                "options": [
+                    "Hauling warships out of water for maintenance and storage",
+                    "Training new sailors in rowing techniques",
+                    "Building new warships from scratch",
+                    "Storing grain and supplies for the fleet"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Ship sheds protected expensive warships from marine organisms and weather when not in use."
+            },
+            "reward": {
+                "title": "Scuba diving intro session in Sounion bay",
+                "provider": "Cape Sounion Dive Center",
+                "codeHash": "5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d"
+            },
+            "id": 272
+        },
+        {
+            "name": "Anagyrous - Southern Coastal Deme",
+            "lat": 37.83,
+            "lng": 23.7976,
+            "image": "images/anagyrous_deme.jpg",
+            "description": "An ancient fishing deme near Cape Zoster with a sanctuary to the Mother of the Gods, famous for its seafood in antiquity.",
+            "audioText": "You are at Anagyrous, an ancient coastal deme situated in southern Attica near the promontory called Zoster. This was primarily a fishing community, and ancient sources tell us that Anagyrous was especially celebrated for its excellent seafood and fisheries. Pausanias mentions that there was a temple here dedicated to the Mother of the Gods, a deity associated with fertility and protection. The deme's coastal location made it prosperous but also vulnerable to pirate raids and enemy fleets. Archaeological excavations on Lathouriza hill have revealed a substantial settlement from the Archaic and Classical periods, including a sanctuary with a double temple, a circular platform, houses, and an enclosure wall. Rich grave offerings from the area, now in the National Archaeological Museum, show that wealthy families lived here in the 7th and 6th centuries BC. The modern area of Vari and Varkiza preserves something of the ancient character—still known for beaches and seafood restaurants. The name Anagyrous itself comes from a thorny shrub that grew abundantly in the area and had an unpleasant smell when disturbed—giving rise to the Greek proverb about 'stirring up Anagyrous' when someone made trouble unnecessarily.",
+            "quiz": {
+                "question": "What was Anagyrous particularly famous for in ancient times?",
+                "options": [
+                    "Its excellent fisheries and seafood",
+                    "Silver mining operations",
+                    "Marble quarries",
+                    "Wine production"
+                ],
+                "answer": 0,
+                "feedback": "Correct! As a coastal deme, Anagyrous was renowned for its fishing and was celebrated for the quality of its seafood."
+            },
+            "reward": {
+                "title": "Fresh fish lunch at seaside taverna",
+                "provider": "Vari Seafood Restaurant",
+                "codeHash": "6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e"
+            },
+            "id": 273
+        },
+        {
+            "name": "Mount Lycabettus",
+            "lat": 37.97778,
+            "lng": 23.74167,
+            "image": "images/mount_lycabettus.jpg",
+            "description": "The highest point in Athens at 277 meters, crowned with the Chapel of St. George built on the site of an ancient altar to Zeus.",
+            "audioText": "You are standing on Mount Lycabettus—the Mountain of Wolves—the highest point in central Athens at 277 meters above sea level. The name comes from ancient times when wolves still roamed this hill seeking refuge from hunters. In antiquity, an altar to Zeus Akraios stood at the summit, though little remains of it today. According to myth, the goddess Athena was carrying this rock to build the Acropolis when she heard disturbing news and dropped it here in shock, which is why the hill stands isolated in the plain. In reality, Lycabettus is a Late Cretaceous limestone formation that predates human civilization by millions of years. During Ottoman times, a Christian chapel stood here, which was replaced in the late 18th century by the beautiful white Chapel of St. George you see now, with its distinctive tall bell tower gifted by Queen Olga. The views from the summit are spectacular—you can see the entire Athens basin, the Saronic Gulf, the mountains of the Peloponnese, and on clear days, the distant islands. The hill has been reforested with pine trees over the past century and is now a beloved green space in the heart of the urban sprawl.",
+            "quiz": {
+                "question": "Why is the mountain called Lycabettus?",
+                "options": [
+                    "From the Greek word for wolf, as wolves once sought refuge here",
+                    "After the hero Lycabas who died here",
+                    "It was sacred to the wolf-god Apollo Lykaios",
+                    "The shape of the hill resembles a wolf"
+                ],
+                "answer": 0,
+                "feedback": "Correct! 'Lycabettus' means 'Mountain of Wolves,' referring to the wolves that once roamed its slopes."
+            },
+            "reward": {
+                "title": "Funicular railway round-trip ticket",
+                "provider": "Athens Urban Transport",
+                "codeHash": "7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f"
+            },
+            "id": 274
+        },
+        {
+            "name": "Mount Pentelikon Marble Quarries",
+            "lat": 38.08083,
+            "lng": 23.89972,
+            "image": "images/pentelikon_quarries.jpg",
+            "description": "The ancient quarries that provided the flawless white marble for the Parthenon and most of Athens' greatest monuments.",
+            "audioText": "You are at the ancient marble quarries of Mount Pentelikon, the source of the finest building stone in classical Greece. Pentelic marble is famous for its flawless white color with a very faint golden tint caused by trace iron oxide, which makes it glow with a warm honey color in sunlight. These quarries were first exploited on a large scale in the 5th century BC for Pericles' building program, providing marble for the Parthenon, the Propylaea, the Erechtheion, and most of the great monuments on the Acropolis. The marble was so prized that it was exported throughout the Roman Empire—the historian Pausanias records that Herodes Atticus nearly exhausted the quarries in the 2nd century AD for his lavish building projects. The ancient roadway used to transport massive marble blocks down to Athens has been traced by archaeologists—it's a continuous downhill route that follows the natural terrain. Today, the quarries are protected by law and are only worked to obtain material for the Acropolis Restoration Project. When you pick up a chip of marble here, you're touching the same stone that Phidias and Ictinus shaped into eternal beauty 2,500 years ago.",
+            "quiz": {
+                "question": "What makes Pentelic marble special?",
+                "options": [
+                    "Flawless white with golden tint that glows in sunlight",
+                    "It is the hardest marble in the world",
+                    "It changes color in rain",
+                    "It is naturally carved into blocks"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The iron oxide traces in Pentelic marble give it a warm golden glow that makes monuments built from it especially beautiful."
+            },
+            "reward": {
+                "title": "Guided geological tour of Pentelikon",
+                "provider": "Penteli Municipality Cultural Center",
+                "codeHash": "8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a"
+            },
+            "id": 275
+        },
+        {
+            "name": "Oinoe Fortress - Border Stronghold",
+            "lat": 38.168,
+            "lng": 23.449,
+            "image": "images/oinoe_fortress.jpg",
+            "description": "The fortified border deme guarding the pass through Mount Cithaeron, famously besieged by Spartans at the start of the Peloponnesian War.",
+            "audioText": "You are at Oinoe, one of the most remote frontier demes of Attica, guarding the narrow pass through Mount Cithaeron that connected Athens with Thebes and Plataea. The fortress you see, known today as Ghyftokastro or 'Gypsy Castle,' occupies a commanding height on the Attic side of the pass. In 431 BC, at the very outbreak of the Peloponnesian War, the Spartan king Archidamus led his army into Attica and laid siege to Oinoe. Though it was just a small frontier fort, the Spartans wasted precious time trying to take it, giving the Athenians crucial extra days to evacuate their farms and retreat behind Athens' walls. Thucydides describes the siege machines they brought against it, but Oinoe held firm. The fortress was eventually captured by the Boeotians in 411 BC, though Athens recovered it afterward. The rectangular circuit wall, about 3.9 meters thick, has seven visible towers—four on the north side, two on the east, and one on the west. The south wall has been confirmed by excavations but is not visible. The location meant that whoever held Oinoe controlled movement between Attica and Boeotia, making it strategically vital far beyond its size.",
+            "quiz": {
+                "question": "Why was Oinoe strategically important?",
+                "options": [
+                    "It controlled the pass between Attica and Boeotia through Mount Cithaeron",
+                    "It was the largest city in northern Attica",
+                    "It contained the royal treasury",
+                    "All Athenian soldiers trained there"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Oinoe's position guarding the mountain pass gave it strategic importance far beyond its small size."
+            },
+            "reward": {
+                "title": "Mountain hiking trail map and compass",
+                "provider": "Mazi Archaeological Project",
+                "codeHash": "9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b"
+            },
+            "id": 276
+        },
+        {
+            "name": "Aixone - Coastal Fishing Deme",
+            "lat": 37.866334,
+            "lng": 23.7548945,
+            "image": "images/aixone_deme.jpg",
+            "description": "An ancient seaside deme with a sanctuary to Hebe, goddess of youth, located in what is now the suburb of Glyfada.",
+            "audioText": "You are in Aixone, an ancient coastal deme that occupied the area of modern Glyfada, one of Athens' most fashionable southern suburbs. In ancient times, Aixone was celebrated for its fisheries—being on the coast between Halimus and Cape Zoster meant abundant fishing opportunities. The deme belonged to the Kekropis tribe and was home to a sanctuary of Hebe, the goddess of youth who served as cupbearer to the gods on Mount Olympus. Archaeological excavations have revealed the deme center near the Church of Agios Nikolaos, with finds including deme decrees, inscriptions, and evidence of Classical and Hellenistic settlement. A remarkable discovery has been a wealthy cemetery dating to the Late Geometric and Archaic periods, which produced some of the finest early Attic black-figure pottery now displayed in the National Archaeological Museum. These elaborate funeral offerings show that at least one rich aristocratic family made Aixone their home in the 7th and 6th centuries BC. To the west of the settlement lay the port and ancient salt pits where salt was extracted from seawater—another source of the deme's prosperity. The name persists in the area called Voula-Varkiza nearby.",
+            "quiz": {
+                "question": "What goddess had a sanctuary at Aixone?",
+                "options": [
+                    "Hebe, goddess of youth and cupbearer of the gods",
+                    "Athena, goddess of wisdom",
+                    "Artemis, goddess of the hunt",
+                    "Demeter, goddess of agriculture"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Hebe, daughter of Zeus and Hera, was honored at Aixone with her own sanctuary."
+            },
+            "reward": {
+                "title": "Beach club day pass with lunch",
+                "provider": "Glyfada Beach Resort",
+                "codeHash": "0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c"
+            },
+            "id": 277
+        },
+        {
+            "name": "Prasiae - Ancient Port Settlement",
+            "lat": 37.8652,
+            "lng": 24.0376,
+            "image": "images/prasiae_port.jpg",
+            "description": "An eastern coastal deme with an excellent natural harbor, departure point for sacred processions to Delos, now called Porto Rafti.",
+            "audioText": "You are at Prasiae, an ancient port settlement occupying the shores of one of the best natural harbors on the eastern coast of Attica—the bay now called Porto Rafti. The harbor is deep and capacious, over a mile wide at its entrance, and protected by several islands including the rocky islet that gives the modern name Porto Rafti, or 'Tailor's Port,' from a large Roman-era marble statue that vaguely resembles a seated tailor. In ancient times, Prasiae was important as the departure point for the Theoria, the sacred procession that sailed from here to the sanctuary of Apollo on Delos. Pausanias mentions a temple of Apollo here, as well as the tomb of Erysichthon, son of King Cecrops, who died at this spot on his return from Delos. The bay's strategic value was recognized in Hellenistic times when the fortified peninsula of Koroni, jutting into the bay, was garrisoned—possibly by Ptolemaic forces during the Chremonidean War. Archaeological surveys continue to reveal remains of the ancient deme settlement on the northern and southern shores of the bay. The harbor remained important through Byzantine and Venetian times and even served as a haven for Greek ships during the War of Independence.",
+            "quiz": {
+                "question": "What was the Theoria that departed from Prasiae?",
+                "options": [
+                    "The sacred procession that sailed to Apollo's sanctuary on Delos",
+                    "The annual Olympic Games delegation",
+                    "A military expedition against Persia",
+                    "A trading fleet to Egypt"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The Theoria was the sacred delegation that Athens sent regularly to honor Apollo at his birthplace on Delos."
+            },
+            "reward": {
+                "title": "Sailing lesson in Porto Rafti bay",
+                "provider": "Porto Rafti Sailing Club",
+                "codeHash": "1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d"
+            },
+            "id": 278
+        },
+        {
+            "name": "Aegosthena - Fortress with Tallest Towers",
+            "lat": 38.14750,
+            "lng": 23.22861,
+            "image": "images/aegosthena_fortress.jpg",
+            "description": "A fortified port of Megaris with some of the tallest and best-preserved defensive towers in ancient Greece, overlooking the Corinthian Gulf.",
+            "audioText": "You are at Aegosthena, also known as Porto Germeno, one of the most impressive ancient fortresses surviving in Greece. Though technically part of Megaris rather than Attica, this coastal stronghold at the foot of Mount Cithaeron is so close to the Attic border and so spectacular that it demands attention. Aegosthena is famous for preserving several of the tallest defensive towers from ancient Greece—the southeastern tower was recently restored and stands over 10 meters high. The fortress consists of a hilltop citadel and a lower walled town extending down to the sea, with massive fortification walls punctuated by eight artillery towers. These fortifications date to the Classical and Hellenistic periods and showcase sophisticated military architecture. The site guards the eastern approaches to the Corinthian Gulf and the mountain passes into Boeotia. In 2026, the site made headlines when it survived a major wildfire with only minor damage, thanks to vegetation clearance work. Inside the fortress are Byzantine and post-Byzantine chapels, including an 11th-century church dedicated to the Virgin Mary built with ancient architectural fragments, showing that this strategic location remained important for centuries. The modern village of Porto Germeno at the foot of the fortress is a charming seaside resort.",
+            "quiz": {
+                "question": "What is Aegosthena famous for preserving?",
+                "options": [
+                    "Some of the tallest defensive towers in ancient Greece",
+                    "The oldest temple to Zeus",
+                    "Ancient mosaics depicting sea battles",
+                    "The largest ancient harbor in Greece"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Aegosthena's towers are exceptionally well-preserved examples of ancient Greek military architecture, with some standing over 10 meters high."
+            },
+            "reward": {
+                "title": "Swimming and picnic at Porto Germeno beach",
+                "provider": "Aegosthena Visitor Center",
+                "codeHash": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e"
+            },
+            "id": 279
         }
 ];
 
