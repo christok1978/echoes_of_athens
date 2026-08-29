@@ -6202,6 +6202,256 @@ const POIs = [
                 "codeHash": "470ed14e934864245b13e303e09a884c0fa17e4ce5957a8b39f64d08449dc5d4"
             },
             "id": 249
+        },
+        {
+            "name": "Theatre of Thorikos",
+            "lat": 37.73806,
+            "lng": 24.05375,
+            "image": "images/theatre_thorikos.jpg",
+            "description": "The world's oldest known theater, built around 525-480 BC with a unique elongated shape rather than the traditional semicircle.",
+            "audioText": "Welcome to the Theatre of Thorikos, the oldest known theater in the world! Built between 525 and 480 BC, this remarkable structure predates the great theaters of classical Athens. Unlike the perfectly semicircular theaters you may know, Thorikos has an unusual elongated, almost oval shape with 21 rows of stone seating carved into the hillside. It could hold about 4,000 spectators who gathered here to watch performances honoring Dionysus. The rectangular orchestra and small temple ruins nearby reveal the theater's sacred origins, blending drama with religious ritual in this ancient mining town.",
+            "quiz": {
+                "question": "What makes the Theatre of Thorikos architecturally unique?",
+                "options": [
+                    "Its elongated oval shape instead of a semicircle",
+                    "It was built entirely underground",
+                    "It had a rotating stage mechanism",
+                    "It was the largest theater in ancient Greece"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Thorikos is famous for its unusual elongated design, unlike the typical semicircular Greek theaters."
+            },
+            "reward": {
+                "title": "10% off at Lavrio Archaeological Museum",
+                "provider": "Lavreotiki Cultural Center",
+                "codeHash": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
+            },
+            "id": 250
+        },
+        {
+            "name": "Mycenaean Tholos Tomb at Thorikos",
+            "lat": 37.739,
+            "lng": 24.054,
+            "image": "images/mycenaean_tholos_thorikos.jpg",
+            "description": "A monumental Bronze Age beehive-shaped burial chamber (1600-1200 BC) that served as the final resting place for Mycenaean elite.",
+            "audioText": "You are standing near one of the most impressive Mycenaean tholos tombs in Attica, carved into Velatouri Hill during the Bronze Age between 1600 and 1200 BC. This beehive-shaped burial chamber was built using the corbelling technique, where limestone blocks were carefully stacked in overlapping circles to form a magnificent dome. Such monumental tombs were reserved for the ruling elite of Mycenaean society. The tomb's location near ancient silver mines suggests that the wealth buried here came from mining operations that made Thorikos prosperous for millennia.",
+            "quiz": {
+                "question": "What construction technique was used to build the dome of the Mycenaean tholos tomb?",
+                "options": [
+                    "Corbelling with overlapping stone circles",
+                    "Concrete poured into wooden molds",
+                    "Mud bricks with timber supports",
+                    "Carved from a single massive rock"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The corbelling technique created the distinctive beehive shape by stacking stones in progressively smaller circles."
+            },
+            "reward": {
+                "title": "Free postcard of Mycenaean architecture",
+                "provider": "Thorikos Visitor Center",
+                "codeHash": "60303ae22b998861bce3b28f33eec1be758a213c86c93c076dbe9f558c11c752"
+            },
+            "id": 251
+        },
+        {
+            "name": "Sanctuary of Artemis at Brauron",
+            "lat": 37.92611,
+            "lng": 23.99361,
+            "image": "images/sanctuary_artemis_brauron.jpg",
+            "description": "One of Greece's most sacred sites, where young girls served as 'bears' in rituals honoring Artemis, goddess of the hunt and wilderness.",
+            "audioText": "You have arrived at Brauron, one of ancient Greece's most important religious sanctuaries, dedicated to Artemis, the goddess of hunting, wilderness, and childbirth. This sacred site was active from the 8th century BC until flooding forced its abandonment in the 3rd century BC. The most fascinating aspect of Brauron was the Arkteia festival, where young Athenian girls aged 5 to 10, dressed in saffron robes, performed ritual dances as 'bears' to honor the goddess. The impressive Pi-shaped stoa you see had dining rooms where these girls lived during their service. The Classical Doric temple stood on a platform above a sacred spring, where countless votive offerings were deposited over the centuries.",
+            "quiz": {
+                "question": "What was the Arkteia festival at Brauron?",
+                "options": [
+                    "A ritual where young girls served as 'bears' honoring Artemis",
+                    "An annual hunting competition for warriors",
+                    "A dramatic performance celebrating Zeus",
+                    "A harvest festival for farmers"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Young Athenian girls performed as ritual 'bears' in this unique coming-of-age ceremony dedicated to Artemis."
+            },
+            "reward": {
+                "title": "Free entry to Brauron Archaeological Museum",
+                "provider": "Ministry of Culture - Brauron",
+                "codeHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            "id": 252
+        },
+        {
+            "name": "Sacred Spring of Brauron",
+            "lat": 37.9261,
+            "lng": 23.9937,
+            "image": "images/sacred_spring_brauron.jpg",
+            "description": "The ancient holy water source at the heart of Brauron, where worshippers left offerings to Artemis from the 8th century BC onward.",
+            "audioText": "You are at the Sacred Spring of Brauron, the very heart and earliest focus of worship at this sanctuary. Water has always been sacred in Greek religion, and this natural spring drew worshippers from at least the 8th century BC. Excavations have revealed countless votive offerings thrown into the spring waters over centuries—mirrors, jewelry, figurines, and pottery—all gifts to Artemis seeking her protection in childbirth, successful hunts, or safe passage through adolescence. The spring's constant flow of pure water represented the life-giving power of the goddess herself. The temple and later buildings were all positioned around this holy fountain, the spiritual center from which the entire sanctuary grew.",
+            "quiz": {
+                "question": "Why was the Sacred Spring so important to the sanctuary?",
+                "options": [
+                    "It was the earliest focus of worship and symbolized Artemis's life-giving power",
+                    "It was the only source of drinking water in the region",
+                    "It flowed with wine instead of water during festivals",
+                    "It was believed to grant immortality"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The sacred spring was the spiritual heart of Brauron, representing the goddess's vital, life-giving essence."
+            },
+            "reward": {
+                "title": "Complimentary herbal tea at Vravrona Café",
+                "provider": "Vravrona Traditional Café",
+                "codeHash": "3c59dc048e8850243be8079a5c74d079e0b6c2cde5e7c24b2d1c18db0d9c3e4a"
+            },
+            "id": 253
+        },
+        {
+            "name": "Sanctuary of Athena Pallenis",
+            "lat": 38.0000,
+            "lng": 23.8900,
+            "image": "images/sanctuary_athena_pallenis.jpg",
+            "description": "A mid-5th century BC Doric temple where the federation of Attic townships met, similar in design to the famous Hephaestus temple.",
+            "audioText": "Welcome to the Sanctuary of Athena Pallenis, an important federal sanctuary in the Mesogeia plain. This mid-5th century BC Doric hexastyle temple, meaning it had six columns across the front, served as a meeting place for the ancient federation of Attic townships. The temple's design closely resembles the well-preserved Hephaestus temple in Athens, with its harmonious proportions and limestone foundations. Archaeological excavations have uncovered inscribed statue bases and votive reliefs that tell us this was a center of regional political and religious life. The citizens of Pallene and surrounding demes gathered here to honor Athena as their protector and to make collective decisions affecting their communities.",
+            "quiz": {
+                "question": "What does 'hexastyle' mean in temple architecture?",
+                "options": [
+                    "A temple with six columns across its front",
+                    "A temple dedicated to six gods",
+                    "A temple with six interior chambers",
+                    "A temple built in six months"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Hexastyle describes a temple façade with six columns, a common classical Greek design."
+            },
+            "reward": {
+                "title": "10% discount at Pallini History Museum shop",
+                "provider": "Pallini Cultural Foundation",
+                "codeHash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"
+            },
+            "id": 254
+        },
+        {
+            "name": "Ancient Deme of Sphettos",
+            "lat": 37.8962,
+            "lng": 23.8740,
+            "image": "images/deme_sphettos_koropi.jpg",
+            "description": "One of the twelve original townships unified by Theseus, with remains on the Kastro tou Christou hill in modern Koropi.",
+            "audioText": "You are exploring Sphettos, one of the twelve ancient townships, or demes, that according to legend were unified by the hero Theseus to form the city of Athens. Located on the Kastro tou Christou hill in what is now Koropi, Sphettos was an important community in the fertile Mesogeia plain. Archaeological investigations have uncovered stone foundations of houses, public buildings, and numerous inscribed statue bases and votive reliefs that document the civic and religious life of this deme through the classical and Hellenistic periods. As a deme, Sphettos had its own assembly, officials, and local cults, giving its citizens a strong sense of local identity even while they were part of greater Athens.",
+            "quiz": {
+                "question": "What is a 'deme' in ancient Greek society?",
+                "options": [
+                    "A township or local district with its own assembly and officials",
+                    "A military fortress guarding the frontier",
+                    "A temple dedicated to multiple gods",
+                    "A trading post on the coast"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Demes were the basic units of Athenian democracy, each with local governance and identity."
+            },
+            "reward": {
+                "title": "Free map of ancient Attic demes",
+                "provider": "Koropi Historical Society",
+                "codeHash": "7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069"
+            },
+            "id": 255
+        },
+        {
+            "name": "Ancient Silver Mines of Laurion",
+            "lat": 37.7178,
+            "lng": 24.0348,
+            "image": "images/silver_mines_laurion.jpg",
+            "description": "The legendary silver mines that financed Athens' golden age and naval supremacy, with thousands of ancient shafts and galleries.",
+            "audioText": "You are standing in the Laurion mining district, the economic powerhouse that made Athens the wealthiest city in classical Greece. These silver mines, exploited from the Bronze Age through Roman times, reached their peak in the 5th and 4th centuries BC. The silver extracted here paid for the construction of the Athenian fleet that defeated Persia at Salamis, built the Parthenon, and sustained the Athenian Empire. Thousands of enslaved workers toiled in narrow underground galleries, some over 100 meters deep, extracting silver-bearing ore. The mines are a vast archaeological landscape of shafts, tunnels, ore processing facilities, and smelting furnaces that reveal the scale and sophistication of ancient mining technology.",
+            "quiz": {
+                "question": "How did the Laurion silver mines contribute to Athenian power?",
+                "options": [
+                    "They financed the Athenian navy and funded major building projects like the Parthenon",
+                    "They provided weapons and armor for the army",
+                    "They were a sacred site that gave Athens divine favor",
+                    "They served as an impenetrable fortress"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Laurion's silver wealth was the economic foundation of Athens' golden age and naval dominance."
+            },
+            "reward": {
+                "title": "Guided tour discount at Lavrio Mining Museum",
+                "provider": "Lavrio Technological Park",
+                "codeHash": "b613679a0814d9ec772f95d778c35fc5ff1697c493715653c6c712144292c5ad"
+            },
+            "id": 256
+        },
+        {
+            "name": "Ore Washeries at Souriza Valley",
+            "lat": 37.7100,
+            "lng": 24.0300,
+            "image": "images/ore_washeries_souriza.jpg",
+            "description": "Sophisticated ancient ore processing facilities with stone basins and channels where silver ore was washed and separated.",
+            "audioText": "You are visiting the ore washeries of Souriza Valley, remarkable examples of ancient industrial technology. After silver ore was extracted from the mines, it had to be processed to separate the valuable metal from worthless rock. Here at Souriza, you can see the remains of hydraulic washing installations from the Classical period, with stone basins and carefully engineered channels that used flowing water to separate lighter waste rock from heavier silver-bearing ore. This ancient beneficiation process required sophisticated understanding of water management and ore properties. Multiple washeries operated simultaneously in this valley, processing tons of ore to feed the nearby smelting furnaces. These industrial sites are as much a testament to Greek engineering genius as their famous temples.",
+            "quiz": {
+                "question": "What was the purpose of the ore washeries?",
+                "options": [
+                    "To use water to separate valuable silver ore from waste rock",
+                    "To provide drinking water for mine workers",
+                    "To wash the silver coins after minting",
+                    "To clean the miners' tools and equipment"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The washeries used water flow to separate heavier silver ore from lighter worthless rock."
+            },
+            "reward": {
+                "title": "Free silver jewelry cleaning at Lavrio Artisan Shop",
+                "provider": "Lavrio Silver Workshop",
+                "codeHash": "cc0cdd8b88d73f670e97c0e7bb4e0b2a3e3f4c2e0be3e5d7e3b3f5a7c0cc7e0c"
+            },
+            "id": 257
+        },
+        {
+            "name": "Fortified Acropolis of Thorikos",
+            "lat": 37.7390,
+            "lng": 24.0545,
+            "image": "images/acropolis_thorikos.jpg",
+            "description": "A prehistoric hilltop settlement fortified from the Neolithic period through the Bronze Age, commanding views of the Aegean.",
+            "audioText": "You have climbed to the Fortified Acropolis of Thorikos, perched on the summit of Velatouri Hill with panoramic views of the Aegean Sea. This hilltop was continuously inhabited from the Neolithic period around 3200 BC through the Late Bronze Age until about 1050 BC. The defensive walls you see fragments of protected a thriving prehistoric community that controlled the valuable mineral resources of this region. Archaeological excavations have revealed houses, storage facilities, and artifacts spanning over two millennia. The strategic location allowed the settlement to monitor sea approaches and protect the mining operations below. After the Bronze Age collapse, the population moved down the hillside, but this acropolis remained a symbol of Thorikos's ancient origins.",
+            "quiz": {
+                "question": "How long was the Acropolis of Thorikos continuously inhabited?",
+                "options": [
+                    "Over 2,000 years, from around 3200 to 1050 BC",
+                    "Only during the Classical period",
+                    "About 100 years in the Bronze Age",
+                    "It was never permanently inhabited"
+                ],
+                "answer": 0,
+                "feedback": "Correct! This acropolis had an extraordinarily long occupation from the Neolithic through the end of the Bronze Age."
+            },
+            "reward": {
+                "title": "Panoramic photo print at Thorikos viewpoint",
+                "provider": "Thorikos Heritage Site",
+                "codeHash": "d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2"
+            },
+            "id": 258
+        },
+        {
+            "name": "Temple of Demeter at Thorikos",
+            "lat": 37.7370,
+            "lng": 24.0520,
+            "image": "images/temple_demeter_thorikos.jpg",
+            "description": "A Classical period sanctuary with a monumental Doric stoa dedicated to Demeter, goddess of agriculture and the harvest.",
+            "audioText": "Welcome to the Temple of Demeter at Thorikos, a sanctuary honoring the goddess of agriculture, grain, and the harvest. Located on the Adami plain below the acropolis, this Classical period sanctuary featured a monumental Doric stoa—a long colonnaded building with limestone columns and foundations that can still be traced today. Demeter was vital to ancient communities because she controlled the fertility of the earth and the success of crops. The sanctuary would have been especially important in a mining town like Thorikos, where farmers worked the fields around the mines and needed the goddess's blessing for good harvests. Ritual offerings and communal feasts in honor of Demeter brought the community together in gratitude and hope.",
+            "quiz": {
+                "question": "Who was Demeter in Greek mythology?",
+                "options": [
+                    "The goddess of agriculture, grain, and the harvest",
+                    "The goddess of wisdom and warfare",
+                    "The goddess of the hunt and wilderness",
+                    "The goddess of love and beauty"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Demeter was the goddess who controlled the fertility of the earth and the success of crops."
+            },
+            "reward": {
+                "title": "Free sample of local honey at Thorikos Farm Shop",
+                "provider": "Lavreotiki Agricultural Cooperative",
+                "codeHash": "8e35c2cd3bf6641bdb0e2050b76932cbb2e6034a0ddacc1d9bea82a6ba57f7f0"
+            },
+            "id": 259
         }
 ];
 
