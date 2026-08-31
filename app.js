@@ -7252,6 +7252,881 @@ const POIs = [
                 "codeHash": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a"
             },
             "id": 291
+        },
+        {
+            "name": "Hagia Triada Cathedral, Piraeus",
+            "lat": 37.9443,
+            "lng": 23.6453,
+            "image": "images/hagia_triada_piraeus.jpg",
+            "description": "The largest church in Piraeus and metropolitan seat. Neo-Byzantine cathedral (1979) with capacity for 3,100, featuring a massive dome and ornate marble iconostasis.",
+            "audioText": "You are at the Hagia Triada Cathedral, the Sacred Cathedral Temple of the Holy Trinity, the largest and most important church in Piraeus. As the metropolitan seat of the Holy Metropolis of Piraeus, this magnificent Neo-Byzantine structure serves as the spiritual heart of Greece's historic port city. Though the current building was completed in 1979, a church has stood on this site since 1839. The story of this cathedral is one of destruction and resurrection—during World War II, on January 11, 1944, Allied bombing demolished the earlier church, tragically burying refugees who had sought shelter within its walls. Yet from these ruins arose an even grander vision. The present cathedral was designed by Georgios Nomikos and consecrated in 1964, with final completion in 1979. Archaeological excavations during construction revealed the ancient Emporium beneath—pottery, gold coins, mosaics, and inscriptions from Piraeus' illustrious past. These precious finds are now displayed in the chapel of Saints Cyril and Methodius, literally incorporating ancient history into the sacred space. The cathedral follows Byzantine architectural principles: a three-aisled church with the central aisle dedicated to the Holy Trinity, the right to Saints Peter and Paul, and the left to Saint Skepi. The massive dome, resting on eight spherical triangles and eight arches, spans 40 meters in diameter with 40 windows flooding the interior with divine light. The cathedral can accommodate 3,100 worshippers. Every surface speaks of craftsmanship—the external doors are forged brass, the iconostasis is intricate marble work by the Afon Doukas brothers, and the wood-carved iconostasis doors are by Theofilos Nomikos. The cathedral serves not only religious functions but also hosts concerts and cultural events.",
+            "quiz": {
+                "question": "What makes Hagia Triada Cathedral significant in Piraeus?",
+                "options": [
+                    "It is the largest church and metropolitan seat, rebuilt after WWII bombing with 3,100 capacity",
+                    "It is the oldest church in Greece",
+                    "It was built by Alexander the Great",
+                    "It houses the Olympic flame"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Hagia Triada is Piraeus' largest church and metropolitan seat, rebuilt in grand Neo-Byzantine style after WWII destruction."
+            },
+            "reward": {
+                "title": "Concert ticket at Hagia Triada Cathedral",
+                "provider": "Metropolis of Piraeus",
+                "codeHash": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b"
+            },
+            "id": 292
+        },
+        {
+            "name": "Agios Spyridon Church, Piraeus",
+            "lat": 37.9420,
+            "lng": 23.6472,
+            "image": "images/agios_spyridon_piraeus.jpg",
+            "description": "The patron saint church of Piraeus, tracing origins to 11th-12th century monastery. Historic site of Greek War of Independence resistance.",
+            "audioText": "You are at the Church of Agios Spyridon, dedicated to the patron saint of Piraeus. This church traces back to the 11th or 12th century, when a fortified monastery stood here on the northeastern side of Porto Draco. During Frankish and Ottoman rule, this was a defensive monastery with walls and defenders who repeatedly repelled pirate raids. The monastery accommodated up to 70 guests. During the Greek War of Independence in 1821, it became a refuge for the homeless but was captured by Turkish-Albanian leader Omer Vryonis. Allied bombardment in 1826 led to liberation but also destruction. Governor Kapodistrias arrived in 1828, and monks returned to rebuild. Piraeus' reconstruction began around this monastery. The renowned architect Cleanthes designed a grand church with two bell towers and 1,000-person capacity. Today, Agios Spyridon remains Piraeus' spiritual patron, embodying centuries of resilience and faith through occupation, war, and rebirth.",
+            "quiz": {
+                "question": "What role did Agios Spyridon monastery play in 1821?",
+                "options": [
+                    "Refuge during Greek War of Independence before being captured and destroyed",
+                    "First democracy in Greece",
+                    "Olympic Games stadium",
+                    "Roman fortress"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The monastery sheltered people during the 1821 revolution but was captured and destroyed in the liberation fighting."
+            },
+            "reward": {
+                "title": "Piraeus maritime history tour",
+                "provider": "Church of Agios Spyridon",
+                "codeHash": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"
+            },
+            "id": 293
+        },
+        {
+            "name": "Saint Nikolaos Church, Piraeus",
+            "lat": 37.9405,
+            "lng": 23.6410,
+            "image": "images/st_nikolaos_piraeus.jpg",
+            "description": "Impressive 19th century neoclassical Orthodox church designed by I. Lazarimos, architect of Piraeus Municipal Theater. Patron saint of sailors.",
+            "audioText": "You are at the Church of Saint Nicholas in Piraeus, an impressive neoclassical Orthodox church built in the late 19th century. The architect was I. Lazarimos, the same visionary who designed the Piraeus Municipal Theater, and you can see his elegant sensibility in every line of this building. Saint Nicholas, the patron saint of sailors, is the perfect dedicatee for a church in Greece's greatest port city. For centuries, sailors departing from Piraeus have sought Saint Nicholas' blessing before venturing onto the Aegean. The church stands in the square of the same name, directly opposite the Piraeus Port Authority exhibition center and the customs office—a location that keeps it at the heart of the city's maritime life. The neoclassical style was the architectural language of the newly independent Greek state in the 19th century, consciously evoking the glory of ancient Greece while embracing European modernity. The church's proportions, columns, and pediments echo classical temples while clearly serving Christian worship. Inside, traditional Orthodox iconography adorns the walls, while the liturgical life continues uninterrupted, connecting modern Piraeus to its Byzantine heritage.",
+            "quiz": {
+                "question": "Who designed Saint Nikolaos Church and why is it significant?",
+                "options": [
+                    "I. Lazarimos, architect of Municipal Theater, in neoclassical style for sailors' patron",
+                    "Alexander the Great for military purposes",
+                    "A Roman emperor as a pagan temple",
+                    "Modern architects in 2000s"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Lazarimos created this neoclassical masterpiece honoring Saint Nicholas, patron of sailors in Greece's greatest port."
+            },
+            "reward": {
+                "title": "Port of Piraeus historical tour",
+                "provider": "Piraeus Cultural Foundation",
+                "codeHash": "3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d"
+            },
+            "id": 294
+        },
+        {
+            "name": "Cathedral of Panagia Pantovasilissa, Rafina",
+            "lat": 38.0238,
+            "lng": 24.0119,
+            "image": "images/pantovasilissa_rafina.jpg",
+            "description": "Modern metropolitan cathedral in Rafina, dedicated to the Virgin Mary as 'Queen of All.' Center of Orthodox life in the coastal port town.",
+            "audioText": "You are at the Cathedral of Panagia Pantovasilissa in Rafina, the Virgin Mary as 'Queen of All.' This modern Orthodox cathedral serves as the spiritual heart of Rafina, one of Attica's important port towns. Rafina has grown dramatically from a small fishing village into a major port connecting Athens to the Cycladic islands. As the town expanded, so did the need for a grand cathedral worthy of its growing community. The Pantovasilissa serves as the metropolitan cathedral for the region, hosting major feast days and celebrations. The title 'Pantovasilissa' —Queen of All—reflects the Orthodox understanding of the Virgin Mary as the highest of all created beings, second only to Christ himself. The cathedral's architecture follows contemporary Orthodox design while incorporating traditional Byzantine elements. On feast days, especially August 15th for the Dormition and the church's patronal feast, the entire community gathers here. The cathedral also includes a chapel dedicated to the Dormition (Koimisis), affectionately called 'Panagiitsa' by locals, located near the cemetery. Rafina's transformation from fishing village to bustling port mirrors the church's growth from modest chapel to grand cathedral.",
+            "quiz": {
+                "question": "What does 'Pantovasilissa' mean?",
+                "options": [
+                    "Queen of All, reflecting Virgin Mary's exalted status in Orthodox theology",
+                    "Port of Ships",
+                    "Ancient Harbor",
+                    "Mountain Church"
+                ],
+                "answer": 0,
+                "feedback": "Correct! 'Pantovasilissa' means 'Queen of All,' honoring the Virgin Mary's supreme position among created beings."
+            },
+            "reward": {
+                "title": "Ferry discount to Cyclades islands from Rafina",
+                "provider": "Cathedral Parish Office",
+                "codeHash": "4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e"
+            },
+            "id": 295
+        },
+        {
+            "name": "Church of Agios Ioannis Theologian, Pallini",
+            "lat": 38.0025,
+            "lng": 23.8975,
+            "image": "images/st_john_theologian_pallini.jpg",
+            "description": "12th-13th century Byzantine church in Gerakas. Cross-in-square with dome, incorporating ancient stones from Temple of Athena Pallenis. Early 13th century frescoes.",
+            "audioText": "You are at the Church of Agios Ioannis the Theologian in Gerakas, Pallini, one of the finest Byzantine monuments in eastern Attica's Mesogaia plain. Dating to the 12th-13th century, this church represents the classic Byzantine architectural type: a compact cross-in-square plan with a dome. Until the early 20th century, the octagonal dome was fully preserved, but today only the two western spherical triangles remain, testament to time's passage. What makes this church archaeologically fascinating is its construction material—the rough stones, bricks, and mortar incorporate ancient architectural elements, possibly from the significant Temple of Athena Pallenis that once dominated this area. The ancient goddess's sanctuary stones were literally built into the Christian church, a common Byzantine practice symbolizing Christianity's triumph over paganism. Inside, remarkably preserved frescoes from the early 13th century still adorn the walls, their colors and forms speaking across 800 years. A newly built church now stands beside the Byzantine structure, allowing the ancient monument to be preserved while serving the modern parish's needs. This church is one of the rare Byzantine monuments in Attica preserved without significant later additions.",
+            "quiz": {
+                "question": "What makes the Church of Agios Ioannis Theologian archaeologically significant?",
+                "options": [
+                    "It incorporates ancient stones from Temple of Athena Pallenis and preserves 13th-century frescoes",
+                    "It was built last year",
+                    "It is made entirely of gold",
+                    "It floats in the air"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The church reused ancient temple stones and preserves exceptional Byzantine frescoes from the early 13th century."
+            },
+            "reward": {
+                "title": "Byzantine Mesogaia heritage trail map",
+                "provider": "Municipality of Pallini",
+                "codeHash": "5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f"
+            },
+            "id": 296
+        },
+        {
+            "name": "Church of Hagios Petros, Kalyvia Thorikou",
+            "lat": 37.9650,
+            "lng": 23.9350,
+            "image": "images/hagios_petros_kalyvia.jpg",
+            "description": "12th-13th century two-columned cross-in-square church in Ennea Pyrgoi area. Famous for frescoes including a halo-portrait of Bishop Michael Choniates.",
+            "audioText": "You are at the Church of Hagios Petros in the Ennea Pyrgoi (Nine Towers) area of Kalyvia Thorikou, about 40 kilometers southeast of Athens. This 12th-13th century Byzantine church is a two-columned cross-in-square design, measuring 9.82 by 6.88 meters. The church incorporates many fragments of older buildings and tombstones in its rubble masonry, creating a palimpsest of Mesogaia's history. The wall paintings are contemporary with the church and include a remarkable feature: a sanctified portrait of Michael Choniates, the celebrated Bishop of Athens (1182-1204), shown in a halo! This unique fresco confirms the folk worship of this intellectual and spiritual leader whose activities and personality left an indelible mark on medieval Athens. In the north arch of the cross, you can see frescoes of Saints Mamas and Triphon, saints associated with agrarian production, cattle-breeding, and viniculture—entirely appropriate for the agricultural character of the Mesogaia plain. According to an inscription in the narthex, a group of artists decorated the church. The sanctified portrait of Michael Choniates represents a fascinating type of local veneration of a historic bishop.",
+            "quiz": {
+                "question": "What unique feature appears in Hagios Petros frescoes?",
+                "options": [
+                    "A halo-portrait of Bishop Michael Choniates, showing local folk veneration",
+                    "A painting of the Olympic Games",
+                    "A portrait of Alexander the Great",
+                    "Modern graffiti"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The church contains a rare sanctified portrait of the famous medieval Bishop Michael Choniates with a halo."
+            },
+            "reward": {
+                "title": "Ennea Pyrgoi Byzantine monuments tour",
+                "provider": "Kalyvia Cultural Center",
+                "codeHash": "6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a"
+            },
+            "id": 297
+        },
+        {
+            "name": "Church of Panagia Mesosporitissa, Kalyvia",
+            "lat": 37.9645,
+            "lng": 23.9345,
+            "image": "images/mesosporitissa_kalyvia.jpg",
+            "description": "11th-12th century single-aisled basilica near Hagios Petros. Virgin Mary as 'protector of sowing,' celebrated November 21st. Athenian dome with cloisonné masonry.",
+            "audioText": "You are at the Church of Panagia Mesosporitissa, the Presentation of the Virgin Mary, located one kilometer west of Kalyvia in the Ennea Pyrgoi area, close to the Church of Hagios Petros. The church celebrates on November 21st, the Presentation of the Virgin Mary, and gets its special epithet 'Mesosporitissa' because the Virgin Mary protected the sowing (sporos in Greek) that took place during that month in the agricultural calendar. This is a single-aisled basilica to which a barrel-vaulted narthex and a chapel were later added on the western and northern sides. Scholars date it to the 11th or 12th century. The dome is the characteristic 'Athenian' type—elegant, octagonal, and tall. The masonry combines rubble construction with the refined cloisonné technique (alternating brick and stone courses) in the apse and dome. The church features a low entrance and a stone arched shrine, a style encountered in many Attic churches including Hagios Petros, the chapel of Agios Nikolaos in Pentelis Cave, and others. Though most frescoes have been destroyed, some 18th-century paintings survive in the chapel. The Virgin Mary's role as protector of agriculture made this church vital to the farming communities of Mesogaia.",
+            "quiz": {
+                "question": "Why is the Virgin Mary called 'Mesosporitissa' at this church?",
+                "options": [
+                    "She protected the sowing that occurred during her feast in November",
+                    "She lived in this village",
+                    "The church is in the middle of a field",
+                    "It means 'beautiful building'"
+                ],
+                "answer": 0,
+                "feedback": "Correct! 'Mesosporitissa' means she protected the sowing (sporos), as her feast day falls during the planting season."
+            },
+            "reward": {
+                "title": "Mesogaia agricultural heritage tour",
+                "provider": "Kalyvia Historical Society",
+                "codeHash": "7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b"
+            },
+            "id": 298
+        },
+        {
+            "name": "Monastery of Saint Catherine, Pallini",
+            "lat": 38.0053,
+            "lng": 23.8994,
+            "image": "images/st_catherine_pallini.jpg",
+            "description": "Modern monastery (2024) housing largest church in Attica dedicated to Saint Paisios the Athonite. Cross-in-square with dome. Male monastic community.",
+            "audioText": "You are at the Holy Monastery of Saint Catherine in Pallini, one of the newest monastic foundations in Attica, with a katholikon completed in 2024. Founded in 1993 during the tenure of Metropolitan Agathonikos, the monastery began when nun Aikaterini Pavlea donated funds for construction. Initially, only a guesthouse was completed and briefly operated as an orphanage, while the katholikon remained an unfinished concrete frame for years. As a parish congregation developed in a basement chapel, the community's desire to complete the monastery grew. In 2020, Metropolitan Nikolaos of Mesogaia and Lavreotiki secured funding from Athanasios and Marina Martinos through AEGEAS to complete the project. The katholikon is a classic cross-in-square church with dome and narthex, redesigned to enhance the complex and connect spaces. The Holy Metropolis dedicated the katholikon to Saint Paisios the Athonite, making it the largest church in Attica dedicated to this recently canonized saint, while the basement chapel honors Saint Catherine. The monastery has operated as a male monastic community since 2013. Despite its modern construction, it follows traditional Byzantine architectural principles and serves as a vibrant center of contemporary monasticism.",
+            "quiz": {
+                "question": "What makes the Monastery of Saint Catherine's katholikon unique?",
+                "options": [
+                    "It is the largest church in Attica dedicated to recently canonized Saint Paisios, completed 2024",
+                    "It is the oldest church in Greece",
+                    "It was built by Romans",
+                    "It contains the Olympic flame"
+                ],
+                "answer": 0,
+                "feedback": "Correct! This modern monastery houses Attica's largest church dedicated to the beloved contemporary saint Paisios the Athonite."
+            },
+            "reward": {
+                "title": "Monastery spiritual retreat program",
+                "provider": "Monastery of Saint Catherine",
+                "codeHash": "8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c"
+            },
+            "id": 299
+        },
+        {
+            "name": "Early Christian Basilica of Vravrona",
+            "lat": 37.9263,
+            "lng": 23.9941,
+            "image": "images/basilica_vravrona.jpg",
+            "description": "5th-6th century early Christian basilica ruins near the ancient Sanctuary of Artemis. Marks the transition from pagan to Christian worship in Attica.",
+            "audioText": "You are at the ruins of the Early Christian Basilica of Vravrona, a 5th-6th century church built near the ancient Sanctuary of Artemis. This basilica represents one of history's most profound transitions—the transformation from pagan worship to Christian faith. For centuries, this area was sacred to Artemis, where young Athenian girls performed the mysterious Arkteia ritual, 'playing the bear' as a rite of passage. When Christianity became the Roman Empire's official religion in the 4th century, pagan sanctuaries were gradually abandoned or converted. Here at Vravrona, early Christians built their basilica adjacent to the ancient sanctuary, both honoring and superseding what came before. The basilica follows the classic early Christian architectural form: a rectangular building divided into three aisles by rows of columns, with a semicircular apse at the eastern end housing the altar. Though now in ruins, you can still trace the foundations, see fragments of column bases, and imagine the mosaic floors that once decorated the sacred space. Archaeological excavations have revealed the basilica's plan and construction techniques. Standing here, you witness the continuity of sacred space—this ground has been holy for over 2,500 years, from the Bronze Age cult of Artemis through early Christianity to the Byzantine period.",
+            "quiz": {
+                "question": "What historical transition does Vravrona's early Christian basilica represent?",
+                "options": [
+                    "The shift from pagan Artemis worship to Christianity in the 5th-6th centuries",
+                    "The invention of democracy",
+                    "The start of the Olympic Games",
+                    "The building of the Parthenon"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The basilica marks the profound religious transformation as Christianity replaced the ancient cult of Artemis."
+            },
+            "reward": {
+                "title": "Combined ticket: Vravrona Sanctuary & Museum",
+                "provider": "Hellenic Ministry of Culture",
+                "codeHash": "9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d"
+            },
+            "id": 300
+        },
+        {
+            "name": "Monastery of Kleiston, Mount Parnitha",
+            "lat": 38.1500,
+            "lng": 23.7100,
+            "image": "images/kleiston_parnitha.jpg",
+            "description": "Women's monastery 'enclosed' by mountain peaks on southern Parnitha slopes. Dedicated to Assumption of Virgin Mary. Gorge views, forest setting.",
+            "audioText": "You are at the Monastery of Kleiston on Mount Parnitha, a women's monastery whose name means 'enclosed' or 'shut in'—perfectly describing its dramatic location surrounded by mountain peaks. Situated 4 kilometers from Fyli on the southern slopes of Parnitha, the monastery stands above the entrance to the spectacular Keladona or Gouras Gorge, through which the Giannoula stream flows. The monastery is dedicated to the Dormition (Assumption) of the Mother of God and serves as an active center of female monasticism. The view from the monastery across the gorge to the opposite hillside is breathtaking. The forested setting creates a sense of profound peace and isolation, perfect for monastic contemplation. The monastery complex includes the katholikon, monastic cells, and support buildings arranged around a courtyard. Despite its remote location, the monastery is accessible and welcomes pilgrims, especially on its feast day of August 15th. The surrounding Parnitha National Park offers hiking trails, springs, and waterfalls. Just 500 meters from the forestry authority stop, a small waterfall creates a natural miracle—pilgrims fill their bottles from this pure mountain water. The monastery represents the continuation of Orthodox monastic tradition in modern Greece.",
+            "quiz": {
+                "question": "Why is the monastery called 'Kleiston'?",
+                "options": [
+                    "Because it is 'enclosed' or 'shut in' by the surrounding mountain peaks",
+                    "Because it was always locked",
+                    "Because it was built by someone named Kleistos",
+                    "Because it is underground"
+                ],
+                "answer": 0,
+                "feedback": "Correct! 'Kleiston' means 'enclosed,' referring to the monastery's dramatic location surrounded by Parnitha's peaks."
+            },
+            "reward": {
+                "title": "Parnitha National Park hiking map",
+                "provider": "Monastery of Kleiston",
+                "codeHash": "0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e"
+            },
+            "id": 301
+        },
+        {
+            "name": "Chapel of Saint Marina, Mount Parnitha",
+            "lat": 38.1850,
+            "lng": 23.6950,
+            "image": "images/st_marina_parnitha.jpg",
+            "description": "Remote 12th century chapel behind Avlona village on northern Parnitha. Built in 1117 at cave where miraculous icon was found. Pilgrimage site July 17th.",
+            "audioText": "You are at the remote Chapel of Saint Marina on the northern slopes of Mount Parnitha, behind the village of Avlona in the Vountima area near the river Martheza. This 12th-century chapel sits in a densely forested setting that evokes the beautiful landscapes of Mount Athos or Ireland—a true hidden sanctuary. According to local tradition, in the early 12th century a shepherd had a vision indicating the location of a cave containing a hidden miraculous icon of Saint Marina. After finding the icon, people risked their lives for three months to build this remote chapel in 1117 AD, next to the very cave where the icon was discovered. To enter the cave, one must climb forty stairs. The icon itself, depicting Saint Marina as a mature 15-year-old girl striking a demon with a hammer, is no longer at this remote location. During the Greek Civil War, recognizing the icon's value and its vulnerability, it was moved to the Chapel of Prophet Elias in Avlona, but even there it was stolen. Despite the icon's absence, pilgrims still make the difficult journey every year on July 16th for Great Vespers and July 17th for Divine Liturgy to celebrate Saint Marina's feast. The chapel's location in this pristine forest creates an atmosphere of profound spiritual isolation.",
+            "quiz": {
+                "question": "How was the Chapel of Saint Marina's location chosen?",
+                "options": [
+                    "A shepherd's vision led to discovery of a miraculous icon in a cave in early 12th century",
+                    "It was randomly selected",
+                    "Romans built it as a fortress",
+                    "It marks where Alexander the Great camped"
+                ],
+                "answer": 0,
+                "feedback": "Correct! A shepherd's vision revealed the cave with Saint Marina's miraculous icon, leading to the chapel's construction in 1117."
+            },
+            "reward": {
+                "title": "Guided forest pilgrimage to Saint Marina",
+                "provider": "Village of Avlona",
+                "codeHash": "1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f"
+            },
+            "id": 302
+        },
+        {
+            "name": "Church of Agia Triada, Mount Parnitha",
+            "lat": 38.1559,
+            "lng": 23.7203,
+            "image": "images/agia_triada_parnitha.jpg",
+            "description": "12th century church near Parnitha summit at 1,000m altitude. Dependency of Petraki Monastery. Three layers of wall paintings. Fir forest setting.",
+            "audioText": "You are at the Church of Agia Triada, the Holy Trinity, near the summit of Mount Parnitha at approximately 1,000 meters altitude, deep within the zone of fir forest. This 12th-century church was a dependency of the Monastery of Petraki in Athens, which controlled several mountain monasteries. Almost nothing remains of the original monastery complex, but the church itself is thought to be quite early, dating from Byzantine times, as evidenced by its three layers of wall paintings from different periods. The church is small and simple, befitting its remote mountain location where monks sought isolation for prayer and contemplation. The setting is spectacular—surrounded by towering firs, with mountain air and silence broken only by wind and birds. During the Ottoman period, such remote mountain monasteries served as refuges for Greek culture and Orthodox faith. After Greek independence, many mountain dependencies were abandoned as monks moved to larger communities. Today, the church stands renovated, maintained by the Church, serving as a destination for hikers and pilgrims who climb Parnitha. The journey to reach Agia Triada is itself a form of pilgrimage, requiring commitment and physical effort that mirrors the spiritual ascent.",
+            "quiz": {
+                "question": "What indicates the Church of Agia Triada's early Byzantine origin?",
+                "options": [
+                    "Three layers of wall paintings from different historical periods",
+                    "It was built last year",
+                    "It is made of plastic",
+                    "It contains modern computers"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The three distinct layers of frescoes from different eras prove the church's ancient Byzantine origins and long use."
+            },
+            "reward": {
+                "title": "Mount Parnitha summit hiking certificate",
+                "provider": "Greek Mountaineering Federation",
+                "codeHash": "2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a"
+            },
+            "id": 303
+        },
+        {
+            "name": "Monastery of Saint Ephraim, Nea Makri",
+            "lat": 38.0769,
+            "lng": 23.9528,
+            "image": "images/st_ephraim_nea_makri.jpg",
+            "description": "10th century women's monastery on Mount Amomon. Dedicated to Annunciation of Theotokos. Celebrates Saint Ephraim's relics (Jan 3), martyrdom (May 5), Annunciation (Mar 25).",
+            "audioText": "You are at the Monastery of Saint Ephraim on Mount Amomon in Attica, east of Mount Pentelicus, in the Xilokeriza area near Nea Makri. This women's monastery traces its origins to the 10th century, when many hermitages were established on what was then known as the 'mountain of the pure.' An older male monastery existed here before the current women's community. The monastery is dedicated to the Annunciation of the Theotokos and celebrates three main feast days: January 3rd marks the discovery of the relics of Saint Ephraim, March 25th honors the Annunciation, and May 5th commemorates Saint Ephraim's martyrdom. Saint Ephraim was a martyr whose holy relics are housed here, making the monastery a pilgrimage destination. The monastery falls under the jurisdiction of the Metropolis of Kifissia, Amaroussion, and Oropos. The courtyard contains the tomb of the renowned 20th-century artist Fotis Kontoglou, the iconographer who revived Byzantine painting techniques in modern Greece. His presence here links contemporary Greek art to ancient Orthodox tradition. The abbess, Nun Makaria the Second, leads a vibrant monastic community dedicated to prayer, hospitality, and preserving Orthodox tradition.",
+            "quiz": {
+                "question": "What makes the Monastery of Saint Ephraim significant?",
+                "options": [
+                    "10th-century origins, houses Saint Ephraim's relics, tomb of artist Fotis Kontoglou",
+                    "It was built last month",
+                    "It contains the Olympic flame",
+                    "Alexander the Great lived there"
+                ],
+                "answer": 0,
+                "feedback": "Correct! This ancient monastery houses a martyr's relics and connects to modern Greek art through Fotis Kontoglou's tomb."
+            },
+            "reward": {
+                "title": "Icon painting workshop at monastery",
+                "provider": "Monastery of Saint Ephraim",
+                "codeHash": "3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b"
+            },
+            "id": 304
+        },
+        {
+            "name": "Metropolitan Cathedral of Megara",
+            "lat": 37.9964,
+            "lng": 23.3444,
+            "image": "images/cathedral_megara.jpg",
+            "description": "Seat of the Metropolis of Megara and Salamis. Episcopal center of the historic Dorian city that founded Byzantium. Traditional Orthodox cathedral.",
+            "audioText": "You are at the Metropolitan Cathedral of Megara, the episcopal seat of the Holy Metropolis of Megara and Salamis. Megara is one of the most historically significant cities in Greece—a powerful Dorian city-state in antiquity that founded some of the most important Greek colonies, including Byzantium (modern Istanbul) and Chalcedon. The cathedral serves as the spiritual center for all of Megara and the island of Salamis. The Metropolis of Megara and Salamis was established in 1974 when the larger Metropolis of Attica and Megaridos was divided. The cathedral hosts the metropolitan throne and serves as the venue for major ecclesiastical events, ordinations, and celebrations. The surrounding area includes the metropolitan offices, library, school of Byzantine music, choir facilities, parish centers, and lecture theaters. Megara's ecclesiastical heritage is rich—the city boasts numerous monasteries under the metropolis, including several for monks and many for nuns. The cathedral's architecture follows traditional Orthodox design, creating a sacred space that connects modern Megara to its Byzantine past and ancient glory as a colonizing power that shaped the Mediterranean world.",
+            "quiz": {
+                "question": "Why is Megara historically significant?",
+                "options": [
+                    "Dorian city-state that founded Byzantium (Constantinople) and other major colonies",
+                    "It was built last year",
+                    "It invented the Olympic Games",
+                    "It contains ancient Egyptian pyramids"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Megara founded Byzantium, one of history's most important cities, making it a major ancient colonizing power."
+            },
+            "reward": {
+                "title": "Byzantine music concert at cathedral",
+                "provider": "Metropolis of Megara and Salamis",
+                "codeHash": "4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c"
+            },
+            "id": 305
+        },
+        {
+            "name": "Monastery of Holy Trinity, Mirini",
+            "lat": 38.0050,
+            "lng": 23.3200,
+            "image": "images/holy_trinity_mirini.jpg",
+            "description": "Active men's monastery in Mirini, Megara region. Traditional Orthodox monastic complex with katholikon, cells, and courtyard. Under Metropolis of Megara.",
+            "audioText": "You are at the Monastery of the Holy Trinity in Mirini, one of the active men's monasteries under the Metropolis of Megara and Salamis. This traditional Orthodox monastery follows the classic monastic layout: a katholikon (main church) at the center, surrounded by monks' cells, refectory, kitchen, and support buildings arranged around a peaceful courtyard. The monastery is dedicated to the Holy Trinity, the foundational Christian doctrine of God as Father, Son, and Holy Spirit—three persons in one essence. The monastic life here follows the ancient rhythms established by the Desert Fathers: communal prayer in the katholikon multiple times daily, manual work, hospitality to pilgrims, and private prayer in cells. The monks support themselves through various activities while maintaining their primary focus on prayer and spiritual life. The monastery serves as a spiritual refuge not just for the monks but for laypeople seeking guidance, confession, or simply a break from the world's noise. The location in the Megara region provides a rural setting conducive to contemplation. Visitors are welcome to attend services, venerate icons, and experience Orthodox monasticism's living tradition.",
+            "quiz": {
+                "question": "What is the primary purpose of Orthodox monasteries like Holy Trinity?",
+                "options": [
+                    "Prayer, spiritual life, and maintaining ancient Christian monastic traditions",
+                    "Running hotels for tourists",
+                    "Manufacturing products",
+                    "Political activities"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Orthodox monasteries center on prayer and spiritual life, following traditions from the early Christian Desert Fathers."
+            },
+            "reward": {
+                "title": "Monastery guest house accommodation",
+                "provider": "Monastery of Holy Trinity",
+                "codeHash": "5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d"
+            },
+            "id": 306
+        },
+        {
+            "name": "Monastery of Saint Vlasios",
+            "lat": 38.0100,
+            "lng": 23.3150,
+            "image": "images/st_vlasios_monastery.jpg",
+            "description": "Men's monastery dedicated to Saint Blaise, patron of animals and livestock. Rural monastery in Megara region serving agricultural communities.",
+            "audioText": "You are at the Monastery of Saint Vlasios (Saint Blaise), a men's monastery in the Megara region. Saint Vlasios is one of the most beloved saints in Greek Orthodoxy, venerated as the patron of animals, livestock, and throat ailments. According to tradition, Saint Blaise was a 4th-century bishop and physician in Armenia who performed many miraculous healings, including saving a boy from choking on a fishbone—hence his association with throat blessings. The custom of blessing throats on Saint Blaise's feast day (February 11th) continues in Orthodox churches worldwide. His patronage of animals made him especially important to the agricultural and pastoral communities of rural Greece. This monastery serves the farming regions around Megara, where livestock and agriculture have been the economic foundation for millennia. The monastic complex provides spiritual services to the surrounding villages, hosts feast day celebrations, and maintains the Orthodox presence in rural areas. The monks' life combines prayer with agricultural work, embodying the ancient monastic principle of 'ora et labora' (pray and work). The monastery's rural setting allows visitors to experience authentic Greek countryside spirituality.",
+            "quiz": {
+                "question": "Why is Saint Vlasios (Blaise) important to rural communities?",
+                "options": [
+                    "He is patron saint of animals, livestock, and throat healings, vital to farming areas",
+                    "He invented farming",
+                    "He was a Roman emperor",
+                    "He built the Parthenon"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Saint Vlasios' patronage of animals and healing made him beloved in agricultural communities throughout Greece."
+            },
+            "reward": {
+                "title": "Traditional Greek farm products from monastery",
+                "provider": "Monastery of Saint Vlasios",
+                "codeHash": "6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e"
+            },
+            "id": 307
+        },
+        {
+            "name": "Monastery of Saint Paraskevi, Mazi",
+            "lat": 38.0125,
+            "lng": 23.3275,
+            "image": "images/st_paraskevi_mazi.jpg",
+            "description": "Men's monastery in Mazi dedicated to Saint Paraskevi, popular martyr saint. Western Attica monastic center with peaceful rural setting.",
+            "audioText": "You are at the Monastery of Saint Paraskevi in Mazi, a men's monastery in western Attica. Saint Paraskevi is one of the most popular saints in Greek Orthodoxy, a 3rd-century martyr whose name means 'Preparation' or 'Friday' in Greek. According to tradition, she was born on a Friday and her parents named her Paraskevi in honor of Christ's Preparation Day (Friday, when Christ was crucified). She became a Christian missionary and miracle-worker, eventually martyred for refusing to worship pagan gods. Saint Paraskevi is especially venerated as the patron saint of eye ailments and blindness, and countless churches and holy springs bear her name across Greece. The monastery in Mazi serves as an important spiritual center for the region, hosting pilgrims especially on her feast day, July 26th. The monastic complex follows traditional architecture with the katholikon, cells, and support buildings arranged for communal life. The monks maintain the grounds, welcome visitors, and preserve the liturgical tradition. The peaceful rural setting allows the monks to combine prayer with agricultural work, supporting themselves while maintaining their spiritual focus. The monastery represents the continuity of Orthodox monasticism from ancient times to the present day.",
+            "quiz": {
+                "question": "What is Saint Paraskevi especially known for?",
+                "options": [
+                    "Patronage of eye ailments and miraculous healings, martyred in 3rd century",
+                    "Building the Acropolis",
+                    "Inventing democracy",
+                    "Founding the Olympic Games"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Saint Paraskevi is beloved as patron of eye healing and one of Greece's most popular martyr saints."
+            },
+            "reward": {
+                "title": "Blessed oil from Saint Paraskevi shrine",
+                "provider": "Monastery of Saint Paraskevi",
+                "codeHash": "7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f"
+            },
+            "id": 308
+        },
+        {
+            "name": "Monastery of Panagia Galaktotrofoussa",
+            "lat": 38.0175,
+            "lng": 23.3325,
+            "image": "images/galaktotrofoussa_monastery.jpg",
+            "description": "Men's monastery dedicated to Virgin Mary as 'Milk-Giver.' Miraculous icon venerated by mothers. Traditional monastery in western Attica countryside.",
+            "audioText": "You are at the Monastery of Panagia Galaktotrofoussa, a men's monastery in the Megara region. The epithet 'Galaktotrofoussa' means 'Milk-Giver' or 'Milk-Nourisher,' referring to the Virgin Mary's role in nourishing the infant Christ. This iconographic type shows the Theotokos in her maternal aspect, emphasizing her humanity and the reality of Christ's incarnation. The Galaktotrofoussa icon has been especially venerated by mothers throughout Orthodox history, who pray for abundant milk to feed their children and for the health of infants. The monastery's dedication to this aspect of the Virgin reflects the deep connection between Orthodox spirituality and everyday life—the sacred interpenetrating the ordinary concerns of family and child-rearing. The monastic complex serves the surrounding communities, offering spiritual guidance, hosting feast day celebrations, and maintaining a place of prayer. The monks follow the traditional pattern of communal prayer, manual work, and hospitality. The rural setting allows for agricultural work that supports the monastery. Pilgrims visit especially on Marian feast days, bringing petitions for children's health and family well-being. The monastery demonstrates how Orthodox faith addresses all aspects of human life, from the most exalted mysteries to the most intimate family concerns.",
+            "quiz": {
+                "question": "What does 'Galaktotrofoussa' mean and who especially venerates this icon?",
+                "options": [
+                    "'Milk-Giver' Virgin Mary icon, especially venerated by mothers for children's health",
+                    "A type of food",
+                    "A military fortress",
+                    "An ancient philosopher"
+                ],
+                "answer": 0,
+                "feedback": "Correct! 'Galaktotrofoussa' shows Mary nourishing Christ, beloved by mothers praying for their children's well-being."
+            },
+            "reward": {
+                "title": "Blessed bread (prosphoro) from monastery",
+                "provider": "Monastery of Panagia Galaktotrofoussa",
+                "codeHash": "8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a"
+            },
+            "id": 309
+        },
+        {
+            "name": "Monastery of Saint Ierotheos, Megara",
+            "lat": 37.9950,
+            "lng": 23.3425,
+            "image": "images/st_ierotheos_megara.jpg",
+            "description": "Women's monastery dating to 12th century Byzantine period. Dedicated to Saint Hierotheos, early Bishop of Athens. Historic female monastic center.",
+            "audioText": "You are at the Monastery of Saint Ierotheos (Hierotheos) in Megara, a women's monastery with roots in the 12th-century Byzantine period. Saint Hierotheos was one of the earliest Bishops of Athens, a disciple of Saint Paul the Apostle and companion of Saint Dionysius the Areopagite. According to tradition, Hierotheos was present at the Dormition of the Virgin Mary and composed the first hymns sung at her funeral. This makes him one of the most ancient and venerated figures in Athenian Christian history. The monastery dedicated to him serves as an important center of female monasticism in the Megara region. The nuns follow the cenobitic (communal) rule, gathering for prayer multiple times daily in the katholikon, sharing meals in the refectory, and working together to support the monastery. Women's monasteries have played a crucial role in Greek Orthodox tradition, providing spaces for spiritual dedication outside marriage while also serving surrounding communities through hospitality, education, and charitable work. The monastery preserves Byzantine architectural elements and maintains ancient liturgical traditions. The peaceful atmosphere allows the nuns to dedicate themselves fully to prayer, manual work, and the preservation of Orthodox spirituality.",
+            "quiz": {
+                "question": "Who was Saint Ierotheos (Hierotheos)?",
+                "options": [
+                    "Early Bishop of Athens, disciple of Paul, present at Virgin Mary's Dormition",
+                    "A Roman emperor",
+                    "Inventor of democracy",
+                    "Olympic athlete"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Saint Hierotheos was among the earliest Christian bishops, connected to both Saint Paul and the Virgin Mary."
+            },
+            "reward": {
+                "title": "Handmade monastery crafts",
+                "provider": "Monastery of Saint Ierotheos",
+                "codeHash": "9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b"
+            },
+            "id": 310
+        },
+        {
+            "name": "Monastery of Faneromeni, Salamis",
+            "lat": 37.9833,
+            "lng": 23.4667,
+            "image": "images/faneromeni_salamis.jpg",
+            "description": "Women's monastery on Salamis island founded by Saint Laurentius who walked on water following Virgin Mary's vision. Historic island convent.",
+            "audioText": "You are at the Monastery of Panagia Faneromeni on Salamis island, founded by Saint Laurentius (Lavrentios) following a miraculous vision. The monastery's location in the Faneromeni area on the northwestern part of the island is itself the result of divine intervention. Saint Laurentius, born Lampros Kanellos, lived in Megara. The Virgin Mary appeared to him three times, persistently directing him to travel to Salamis to find her icon. Following her instructions, he crossed the sea by walking on his cape as the Panagia had shown him. He then went to the ruins of an earlier church, where he found the icon. With the help of local inhabitants, he built the Church of Panagia Faneromeni—meaning 'the Revealed One'—became a monk, and founded a male monastery. Later in life, he retreated to a small hermitage on the mountain, which still survives. Today his tomb and holy relics rest before the altar in the church. The monastery later transitioned to a women's community. The name 'Faneromeni' celebrates how the Virgin Mary revealed herself and her icon to Saint Laurentius, making this a place of divine manifestation. The island setting adds to the monastery's special character.",
+            "quiz": {
+                "question": "How did Saint Laurentius reach Salamis to find the Virgin's icon?",
+                "options": [
+                    "He walked on water across the sea on his cape, as the Virgin Mary instructed",
+                    "He swam across",
+                    "He took a modern ferry",
+                    "He flew by airplane"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Saint Laurentius miraculously walked on his cape across the water following the Virgin's triple vision."
+            },
+            "reward": {
+                "title": "Salamis island monastery tour",
+                "provider": "Monastery of Faneromeni",
+                "codeHash": "0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c"
+            },
+            "id": 311
+        },
+        {
+            "name": "Monastery of Saint Meletios, Kithairona",
+            "lat": 38.1000,
+            "lng": 23.2500,
+            "image": "images/st_meletios_kithairona.jpg",
+            "description": "Women's monastery on Mount Kithairon. Remote mountain hermitage for female monasticism. Wilderness setting on legendary mountain from Greek mythology.",
+            "audioText": "You are at the Monastery of Saint Meletios on Mount Kithairon, one of the most remote and atmospheric women's monasteries in Attica. Mount Kithairon is steeped in Greek mythology—this is the mountain where the infant Oedipus was exposed, where the Bacchae held their frenzied rites to Dionysus, and where the tragic events of many ancient myths unfolded. The Christian monastery transformed this mythological landscape into a place of prayer and asceticism. Saint Meletios the Confessor was a 4th-century defender of Orthodox theology during the Arian controversy, eventually becoming Patriarch of Antioch. The monastery dedicated to him provides a wilderness setting ideal for female monasticism's contemplative life. The nuns live in isolation, following the ancient rhythms of monastic prayer, fasting, and manual work. The mountain location requires physical hardship to reach, making it a true ascetic environment. This remoteness protects the monastic life from worldly distractions. The monastery serves as a spiritual fortress where the nuns can dedicate themselves completely to God. Pilgrims who make the difficult journey to visit experience the authentic spirit of desert monasticism transplanted to the Greek mountains.",
+            "quiz": {
+                "question": "What makes Mount Kithairon historically significant?",
+                "options": [
+                    "Legendary mountain from Greek mythology, now home to Christian monastery",
+                    "It was built last year",
+                    "It contains shopping malls",
+                    "It is underwater"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Kithairon was central to Greek myths including Oedipus, now transformed into a place of Christian asceticism."
+            },
+            "reward": {
+                "title": "Mountain hiking pilgrimage blessing",
+                "provider": "Monastery of Saint Meletios",
+                "codeHash": "1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d"
+            },
+            "id": 312
+        },
+        {
+            "name": "Monastery of Saint Gerasimos, Salamis",
+            "lat": 37.9700,
+            "lng": 23.5000,
+            "image": "images/st_gerasimos_salamis.jpg",
+            "description": "Women's monastery on Salamis island. Female monastic community in the Saronic Gulf. Island convent under Metropolis of Megara and Salamis.",
+            "audioText": "You are at the Monastery of Saint Gerasimos on Salamis island, a women's monastery serving the island's spiritual needs. Saint Gerasimos of the Jordan was a 5th-century monk who lived in asceticism in the Judean desert near the Jordan River. According to his life story, he removed a thorn from a lion's paw, and the grateful lion became his companion, helping him with monastery tasks. This beautiful story of harmony between saint and nature has made Gerasimos beloved in Orthodox tradition. The monastery on Salamis provides a monastic community for women drawn to dedicated religious life. Island monasteries have a special character—the surrounding sea creates natural separation from the world while the island community remains close-knit. The nuns support themselves through various crafts and agricultural work while maintaining their prayer schedule. Salamis, famous as the site of the great naval battle where the Greeks defeated the Persians in 480 BC, now hosts several monasteries, showing how the island transformed from military glory to spiritual peace. The monastery welcomes pilgrims, especially on Saint Gerasimos' feast day, March 4th, celebrating the desert monk's example of simplicity and prayer.",
+            "quiz": {
+                "question": "What is Saint Gerasimos famous for?",
+                "options": [
+                    "Desert monk who befriended a lion after removing a thorn from its paw",
+                    "Building the Parthenon",
+                    "Inventing ships",
+                    "Olympic athlete"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Saint Gerasimos' gentle relationship with a grateful lion shows harmony between holiness and nature."
+            },
+            "reward": {
+                "title": "Monastery handcrafted icons",
+                "provider": "Monastery of Saint Gerasimos",
+                "codeHash": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e"
+            },
+            "id": 313
+        },
+        {
+            "name": "Monastery of Saint John the Successor, Makrinos",
+            "lat": 38.0200,
+            "lng": 23.3400,
+            "image": "images/st_john_makrinos.jpg",
+            "description": "Women's monastery in Makrinos, Megara region. Female convent in rural Attica. Orthodox monastic community under metropolitan oversight.",
+            "audioText": "You are at the Monastery of Saint John the Successor in Makrinos, a women's monastery in the Megara region. The title 'Successor' (Diadochos in Greek) refers to Saint John Climacus, the 6th-century monk and abbot of Saint Catherine's Monastery on Mount Sinai, author of 'The Ladder of Divine Ascent'—one of the most important spiritual texts in Orthodox Christianity. This work describes thirty steps of spiritual ascent toward union with God, each corresponding to a year of Christ's hidden life before his ministry. Saint John Climacus earned the title 'of the Ladder' (Klimakos) from this work, and 'Successor' because he succeeded previous great spiritual fathers. The monastery dedicated to him provides a contemplative environment for nuns following his spiritual teachings. The rural location in Makrinos offers the peace necessary for the monastic life's interior work. The nuns follow a daily schedule of communal prayer, private meditation, manual labor, and study. The monastery preserves ancient monastic traditions while serving modern spiritual seekers. Women visitors can stay in the guest house, attend services, and receive spiritual guidance. The monastery demonstrates how Byzantine monastic tradition continues vibrantly in contemporary Greece.",
+            "quiz": {
+                "question": "What is Saint John the Successor (Climacus) famous for?",
+                "options": [
+                    "Writing 'The Ladder of Divine Ascent,' a foundational Orthodox spiritual text",
+                    "Building the Acropolis",
+                    "Inventing democracy",
+                    "Discovering America"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Saint John Climacus' 'Ladder' describes thirty steps of spiritual ascent, profoundly influencing Orthodox monasticism."
+            },
+            "reward": {
+                "title": "Spiritual retreat weekend at monastery",
+                "provider": "Monastery of Saint John",
+                "codeHash": "3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f"
+            },
+            "id": 314
+        },
+        {
+            "name": "Monastery of Prophet Elias, Villia",
+            "lat": 38.1833,
+            "lng": 23.6667,
+            "image": "images/prophet_elias_villia.jpg",
+            "description": "Women's monastery on mountain peak in northern Attica near Villia village. Prophet Elijah hermitage site. Female monastic community in mountain setting.",
+            "audioText": "You are at the Monastery of Prophet Elias in Villia, a women's monastery occupying a mountain peak in northern Attica. Prophet Elijah is one of the greatest figures of the Old Testament—the prophet who called down fire from heaven, who was fed by ravens in the wilderness, and who was taken up to heaven in a chariot of fire. In Orthodox tradition, Elijah represents the prophetic tradition and ascetic life, making him the perfect patron for mountaintop monasteries. Throughout Greece, the highest peaks are crowned with chapels or monasteries dedicated to Prophet Elias, symbolizing his ascent to heaven and the spiritual heights monks seek to attain. This monastery near Villia village provides an authentic mountain monastic experience. The nuns live in simplicity, following ancient ascetic practices while welcoming pilgrims who climb to this elevated sanctuary. The Prophet Elias feast day, July 20th, draws crowds who make the pilgrimage to celebrate with Divine Liturgy and festivities. The mountain location offers spectacular views across northern Attica and Boeotia, creating a sense of being suspended between earth and heaven—the proper atmosphere for contemplating divine mysteries.",
+            "quiz": {
+                "question": "Why are mountaintop monasteries often dedicated to Prophet Elias?",
+                "options": [
+                    "He ascended to heaven in a chariot of fire, symbolizing spiritual heights",
+                    "He lived in the sea",
+                    "He built the Parthenon",
+                    "He invented elevators"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Prophet Elijah's heavenly ascent makes him the perfect patron for monasteries on spiritual and physical heights."
+            },
+            "reward": {
+                "title": "Prophet Elias feast day celebration invitation",
+                "provider": "Monastery of Prophet Elias",
+                "codeHash": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a"
+            },
+            "id": 315
+        },
+        {
+            "name": "Monastery of Panagia Gorgoepikoos, Mandra",
+            "lat": 38.0700,
+            "lng": 23.4950,
+            "image": "images/gorgoepikoos_mandra.jpg",
+            "description": "Women's monastery in Mandra dedicated to Virgin Mary as 'Quick-to-Hear' prayers. Female convent in western Attica serving local communities.",
+            "audioText": "You are at the Monastery of Panagia Gorgoepikoos in Mandra, a women's monastery dedicated to the Virgin Mary under the title 'Quick-to-Hear' or 'Swift-to-Hearken.' This epithet reflects the Orthodox belief that the Theotokos is especially responsive to prayers, swiftly interceding with her Son on behalf of those who call upon her. The Gorgoepikoos icon type shows the Virgin Mary and Christ Child in a tender embrace, emphasizing her maternal love and accessibility. This makes her especially beloved to Orthodox faithful who feel confident approaching her with their needs and troubles. The monastery in Mandra serves the surrounding western Attica communities, providing a place of prayer, retreat, and spiritual counsel. The nuns follow the traditional monastic rule, gathering for services multiple times daily while also engaging in manual work to support the monastery. They welcome women seeking spiritual guidance or respite from life's pressures. The monastery hosts special celebrations on Marian feast days, especially August 15th (Dormition) and March 25th (Annunciation). The community demonstrates how female monasticism continues to thrive in modern Greece, adapting to contemporary needs while preserving ancient traditions.",
+            "quiz": {
+                "question": "What does 'Gorgoepikoos' mean?",
+                "options": [
+                    "'Quick-to-Hear' or 'Swift-to-Hearken,' showing Mary's responsiveness to prayers",
+                    "A type of food",
+                    "A military rank",
+                    "An ancient city"
+                ],
+                "answer": 0,
+                "feedback": "Correct! 'Gorgoepikoos' emphasizes the Virgin Mary's swift and compassionate response to those who pray to her."
+            },
+            "reward": {
+                "title": "Blessed icon of Panagia Gorgoepikoos",
+                "provider": "Monastery of Panagia Gorgoepikoos",
+                "codeHash": "5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b"
+            },
+            "id": 316
+        },
+        {
+            "name": "Monastery of Saint Nicholas, Salamis",
+            "lat": 37.9550,
+            "lng": 23.5100,
+            "image": "images/st_nicholas_salamis.jpg",
+            "description": "Women's monastery on Salamis island dedicated to Saint Nicholas, patron of sailors. Island convent serving maritime communities of Saronic Gulf.",
+            "audioText": "You are at the Monastery of Saint Nicholas on Salamis island, a women's monastery dedicated to the patron saint of sailors. Saint Nicholas of Myra, the 4th-century bishop whose generosity inspired the Santa Claus tradition, is universally beloved in Greek Orthodoxy, especially by seafaring communities. Every Greek ship carries an icon of Saint Nicholas, and coastal churches almost invariably honor him. On Salamis—the island famous for the great naval battle of 480 BC—Saint Nicholas' patronage is especially appropriate. The monastery serves both the monastic community and the island's inhabitants. The nuns maintain the traditional liturgical cycle, pray for sailors' safety, and welcome pilgrims who arrive by ferry from Piraeus. Island monasteries have a unique quality—the surrounding sea creates natural separation from mainland concerns while fostering close bonds within the island community. The monastery celebrates Saint Nicholas' feast day on December 6th with special services and traditional festivities. Salamis, strategically located in the Saronic Gulf, has transformed from ancient naval power to a place of spiritual peace, with its monasteries providing continuity from Byzantine times to the present. The monastery demonstrates how Orthodox faith remains woven into maritime Greek life.",
+            "quiz": {
+                "question": "Why is Saint Nicholas especially venerated on Salamis?",
+                "options": [
+                    "As patron saint of sailors, he protects the island's maritime community",
+                    "He built the Parthenon",
+                    "He invented ships",
+                    "He was born on Salamis"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Saint Nicholas' patronage of sailors makes him beloved on this historic naval island in the Saronic Gulf."
+            },
+            "reward": {
+                "title": "Saint Nicholas icon and maritime blessing",
+                "provider": "Monastery of Saint Nicholas",
+                "codeHash": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c"
+            },
+            "id": 317
+        },
+        {
+            "name": "Church of Panagia, Salamis Town",
+            "lat": 37.9644,
+            "lng": 23.4975,
+            "image": "images/panagia_salamis_town.jpg",
+            "description": "Main parish church of Salamis town dedicated to Virgin Mary. Central Orthodox church serving island community in Saronic Gulf.",
+            "audioText": "You are at the Church of Panagia in Salamis town, the main parish church serving the island's central community. Salamis has been inhabited continuously for over 3,000 years, and Orthodox churches have stood on this island since early Byzantine times. As the principal parish church, this serves as the spiritual heart of Salamis town, where locals gather for Sunday liturgies, feast days, baptisms, weddings, and funerals—marking every stage of life with sacred ritual. The church is dedicated simply to the Panagia, the All-Holy Virgin Mary, reflecting her central role in Orthodox piety. Salamis' history is extraordinary—this is where the outnumbered Greek fleet decisively defeated the Persian invasion in 480 BC, saving Greece and Western civilization. The narrow straits where Themistocles' strategy triumphed are visible from the island. Today, Salamis is a peaceful place where ferries connect it to Piraeus, and the church serves a community that blends ancient heritage with modern life. The church's architecture follows traditional Orthodox design with an iconostasis separating the nave from the sanctuary. The parish maintains Greek Orthodox traditions while adapting to contemporary island life, embodying how Orthodoxy remains central to Greek identity.",
+            "quiz": {
+                "question": "What makes Salamis island historically significant?",
+                "options": [
+                    "Site of 480 BC naval battle where Greeks defeated Persian invasion",
+                    "It was built last year",
+                    "It contains pyramids",
+                    "It is made of gold"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The Battle of Salamis was one of history's most decisive naval victories, saving Greece from Persian conquest."
+            },
+            "reward": {
+                "title": "Salamis historical sites tour ticket",
+                "provider": "Church of Panagia Parish",
+                "codeHash": "7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d"
+            },
+            "id": 318
+        },
+        {
+            "name": "Cathedral of Lavrio",
+            "lat": 37.7167,
+            "lng": 24.0564,
+            "image": "images/cathedral_lavrio.jpg",
+            "description": "Modern Orthodox cathedral in Lavrio, historic silver mining town. Episcopal center serving southern Attica coastal communities and port.",
+            "audioText": "You are at the Orthodox Cathedral of Lavrio (Laurion), the episcopal center of this historic mining town in southern Attica. Lavrio's history stretches back to ancient times when its silver mines funded Athens' golden age and powered the fleet that defeated Persia at Salamis. The mines made Athens wealthy enough to build the Parthenon and maintain its democracy. Modern Lavrio grew dramatically in the late 19th century when French and Greek companies reopened the ancient mines, bringing workers from across Greece and creating a cosmopolitan industrial town. The cathedral serves this community, providing spiritual anchor for a population shaped by mining, maritime trade, and now ferry connections to the Cyclades. The church's architecture reflects modern Orthodox design while maintaining traditional elements. As a regional cathedral, it hosts not only weekly liturgies but also major celebrations, episcopal visits, and community gatherings. Lavrio's transformation from ancient mining center to modern port city mirrors many Greek towns' evolution, and the cathedral represents continuity of faith through all these changes. The coastal location means many parishioners are involved in maritime trades, making the church a gathering place for sailors, miners, and their families.",
+            "quiz": {
+                "question": "What made ancient Lavrio (Laurion) historically important?",
+                "options": [
+                    "Silver mines that funded Athens' golden age and fleet that defeated Persia",
+                    "It was built last year",
+                    "It contains pyramids",
+                    "It invented democracy"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Lavrio's silver mines were crucial to Athens' wealth, power, and victory over the Persian invasion."
+            },
+            "reward": {
+                "title": "Lavrio mining museum and port tour",
+                "provider": "Cathedral Parish Office",
+                "codeHash": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e"
+            },
+            "id": 319
+        },
+        {
+            "name": "Church of Agios Nikolaos, Koropi",
+            "lat": 37.8978,
+            "lng": 23.8750,
+            "image": "images/st_nikolaos_koropi.jpg",
+            "description": "Regional parish church in Koropi, Mesogaia. Saint Nicholas Orthodox church serving farming community in eastern Attica plains.",
+            "audioText": "You are at the Church of Agios Nikolaos in Koropi, a regional parish church serving this important town in the Mesogaia plain. Koropi has been a significant agricultural center for millennia, benefiting from the fertile soil and water resources of eastern Attica. The church dedicated to Saint Nicholas serves a community traditionally involved in farming, olive cultivation, and vineyards. While Saint Nicholas is universally known as patron of sailors, he is also venerated as protector of travelers, merchants, and those in need—making him appropriate for this inland agricultural town. The church functions as the community's spiritual center, hosting weekly Divine Liturgies, feast day celebrations, and the sacramental life that marks every stage from baptism to funeral. Koropi's proximity to Athens International Airport has transformed it from purely agricultural village to a more diverse community, but the church remains the heart of local identity. The architecture follows traditional Orthodox patterns with icons, chandeliers, and an iconostasis. The parish maintains Greek customs and traditions while serving a modernizing population. The church demonstrates how Orthodox faith continues to anchor Greek communities even as economic and social life evolves.",
+            "quiz": {
+                "question": "What traditional economic activity has shaped Koropi's community?",
+                "options": [
+                    "Agriculture, especially olive cultivation and vineyards in the fertile Mesogaia plain",
+                    "Ship building",
+                    "Mining",
+                    "Tourism"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Koropi has been an agricultural center for millennia, blessed with fertile soil in the Mesogaia region."
+            },
+            "reward": {
+                "title": "Local olive oil and wine tasting",
+                "provider": "Church Parish Community",
+                "codeHash": "9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f"
+            },
+            "id": 320
+        },
+        {
+            "name": "Church of Panagia, Markopoulo",
+            "lat": 37.8850,
+            "lng": 23.9333,
+            "image": "images/panagia_markopoulo.jpg",
+            "description": "Regional pilgrimage site in Markopoulo Mesogaias. Virgin Mary church with festival celebrations. Traditional Orthodox church in wine-producing region.",
+            "audioText": "You are at the Church of Panagia in Markopoulo Mesogaias, a regional pilgrimage site in the heart of Attica's wine country. Markopoulo is famous for its vineyards, especially the indigenous Savatiano grape that produces the distinctive retsina wine. The church dedicated to the Panagia serves not just as a parish church but as a pilgrimage destination, especially during major Marian feast days. The most important celebration is August 15th, the Dormition of the Virgin, when the church hosts a grand panegyri (festival) with liturgy, procession, music, dancing, and traditional food. These celebrations maintain ancient customs, connecting modern Greeks to their Byzantine and even pagan festival heritage. The church's role extends beyond Sunday liturgies to mark the agricultural calendar—prayers for successful harvest, blessing of new wine, thanksgiving after grape-picking. This integration of sacred and agricultural life shows how Orthodoxy remains woven into everyday existence. The church preserves traditional iconography, liturgical practices, and the sense of the sacred pervading all aspects of life. Visitors experience authentic Greek village spirituality, where church, community, and land form an inseparable whole.",
+            "quiz": {
+                "question": "What makes Markopoulo's Church of Panagia significant?",
+                "options": [
+                    "Regional pilgrimage site in wine country, hosting major festivals blending faith and agriculture",
+                    "It was built last week",
+                    "It contains modern art galleries",
+                    "It is underground"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The church integrates Orthodox devotion with agricultural life, especially grape harvest and wine production traditions."
+            },
+            "reward": {
+                "title": "Traditional panegyri festival invitation",
+                "provider": "Church of Panagia Parish",
+                "codeHash": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a"
+            },
+            "id": 321
+        },
+        {
+            "name": "Church of Panagia, Porto Rafti",
+            "lat": 37.8833,
+            "lng": 24.0167,
+            "image": "images/panagia_porto_rafti.jpg",
+            "description": "Coastal parish church in Porto Rafti seaside town. Virgin Mary church serving fishing village and beach resort community on Attica's east coast.",
+            "audioText": "You are at the Church of Panagia in Porto Rafti, a coastal parish church serving this charming seaside town on Attica's east coast. Porto Rafti takes its name from the 'Tailor' (raftis in Greek)—a large ancient statue on a small island in the bay, probably representing a priest or deity. The town has evolved from a quiet fishing village to a popular beach resort while maintaining its traditional character. The church dedicated to the Panagia serves both year-round residents and summer visitors, creating a unique parish that swells during vacation season. Maritime communities have always shown special devotion to the Virgin Mary, seeing her as protector of those who venture onto the sea. The church hosts not just regular liturgies but also special services for Dormition (August 15), celebrated with particular enthusiasm in coastal towns. Porto Rafti's beautiful natural harbor has been used since ancient times, and archaeological remains dot the area. The church represents continuity—from ancient seafarers to Byzantine sailors to modern fishermen and tourists, this coastline has remained a place where people gather, work, and pray. The seaside location creates a special atmosphere where the sound of waves blends with liturgical chanting.",
+            "quiz": {
+                "question": "Why is the Virgin Mary especially venerated in coastal towns like Porto Rafti?",
+                "options": [
+                    "Maritime communities see her as protector of those who venture onto the sea",
+                    "She invented fishing",
+                    "She built the harbor",
+                    "She was born there"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Coastal communities traditionally seek the Virgin Mary's protection for fishermen and all who depend on the sea."
+            },
+            "reward": {
+                "title": "Seaside blessing ceremony participation",
+                "provider": "Church of Panagia Parish",
+                "codeHash": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b"
+            },
+            "id": 322
+        },
+        {
+            "name": "Church of Prophet Elias, Avlona",
+            "lat": 38.1900,
+            "lng": 23.6900,
+            "image": "images/prophet_elias_avlona.jpg",
+            "description": "Mountain chapel in Avlona village, northern Attica. Prophet Elijah hilltop church with panoramic views. Traditional feast day celebrations July 20th.",
+            "audioText": "You are at the Church of Prophet Elias in Avlona village, a mountain chapel in northern Attica near the foothills of Mount Parnitha. Following Greek tradition, this church to Prophet Elijah occupies an elevated position, symbolizing both the prophet's ascent to heaven and the spiritual heights believers strive to reach. From this vantage point, you can see across northern Attica toward Boeotia, creating a sense of standing between earth and sky. The chapel serves the village of Avlona and surrounding areas, but truly comes alive on the Prophet Elias feast day, July 20th, when crowds climb to celebrate with Divine Liturgy followed by traditional festivities—music, dancing, food, and fellowship. These mountaintop celebrations maintain customs stretching back to Byzantine times, blending Christian devotion with echoes of ancient mountain worship. The church is simple but beloved, embodying the Greek connection between natural landscape and sacred space. During the Greek Civil War, an icon from the remote Chapel of Saint Marina was temporarily kept here for safekeeping. Today, the church remains a spiritual landmark for the region, marking the agricultural calendar and bringing the community together on its patron feast.",
+            "quiz": {
+                "question": "Why are Prophet Elias churches traditionally built on hilltops?",
+                "options": [
+                    "To symbolize Prophet Elijah's ascent to heaven and spiritual heights believers seek",
+                    "Because flat land is expensive",
+                    "To serve as military fortresses",
+                    "Because he lived on mountains"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Mountaintop locations honor Elijah's ascension and represent the spiritual elevation sought through prayer."
+            },
+            "reward": {
+                "title": "July 20 feast day celebration invitation",
+                "provider": "Village of Avlona",
+                "codeHash": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"
+            },
+            "id": 323
+        },
+        {
+            "name": "Church of Agios Nikolaos, Keratea",
+            "lat": 37.7850,
+            "lng": 23.9867,
+            "image": "images/st_nikolaos_keratea.jpg",
+            "description": "Regional church in Keratea, southern Mesogaia. Saint Nicholas Orthodox church serving village community in southeastern Attica.",
+            "audioText": "You are at the Church of Agios Nikolaos in Keratea, a village church in southern Mesogaia, southeastern Attica. Keratea occupies a strategic position between the coast and interior, historically serving as a waypoint for travelers and merchants moving between Athens and the ports of southeastern Attica. Saint Nicholas, patron of travelers, merchants, and those in need, is the perfect dedicatee for a church in such a location. The church serves the local community, marking the rhythm of life through liturgical celebrations. Keratea maintains its traditional character despite proximity to Athens, and the church remains central to village identity. The parish gathers here for Sunday liturgies, major feast days like December 6th (Saint Nicholas' day), and the sacramental events that punctuate family life. The church preserves Orthodox liturgical tradition while adapting to modern needs. The iconostasis displays traditional iconography, and the liturgical cycle follows the ancient pattern. Village churches like this one embody the intimate scale of Orthodox parish life, where priest and parishioners know each other personally, and the church building itself carries memories of generations. This intimate spirituality contrasts with great cathedrals but offers its own profound experience of community and continuity.",
+            "quiz": {
+                "question": "Why is Saint Nicholas an appropriate patron for Keratea's church?",
+                "options": [
+                    "As patron of travelers and merchants, he protects a waypoint village between coast and interior",
+                    "He built the village",
+                    "He invented roads",
+                    "He was born in Keratea"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Saint Nicholas' patronage of travelers fits Keratea's historical role as a strategic crossroads village."
+            },
+            "reward": {
+                "title": "Village hiking trail map and local products",
+                "provider": "Church Parish Community",
+                "codeHash": "3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d"
+            },
+            "id": 324
+        },
+        {
+            "name": "Church of Saint Dionysios, Piraeus",
+            "lat": 37.9480,
+            "lng": 23.6520,
+            "image": "images/st_dionysios_piraeus.jpg",
+            "description": "Modern Orthodox church in Piraeus dedicated to Saint Dionysius the Areopagite. Contemporary cathedral serving port city neighborhoods.",
+            "audioText": "You are at the Church of Saint Dionysios in Piraeus, dedicated to Saint Dionysius the Areopagite—one of the most significant figures in early Christian Athens. According to the Acts of the Apostles, Dionysius was a member of the Areopagus (Athens' high court) who converted to Christianity after hearing Saint Paul preach on Mars Hill around 51 AD. He became the first Bishop of Athens, making him the founding father of Athenian Christianity. Later tradition attributed to him mystical theological writings that profoundly influenced Christian thought. The church in Piraeus honors this connection between Athens and early Christianity. As a modern church serving Piraeus neighborhoods, it demonstrates how new parishes continue to be established to serve Greece's urban populations. The architecture follows contemporary Orthodox design while maintaining traditional liturgical function. The parish provides not just Sunday liturgies but also catechism classes, youth programs, charitable work, and community services. Urban parishes like this one face unique challenges—serving transient populations, competing with secular entertainment, and maintaining Orthodox identity in cosmopolitan settings. Yet they also show Orthodoxy's continuing relevance to modern Greek life, adapting ancient tradition to contemporary needs.",
+            "quiz": {
+                "question": "Who was Saint Dionysius the Areopagite?",
+                "options": [
+                    "Member of Athens high court converted by Saint Paul, first Bishop of Athens",
+                    "A Roman emperor",
+                    "Inventor of democracy",
+                    "Olympic athlete"
+                ],
+                "answer": 0,
+                "feedback": "Correct! Saint Dionysius was Athens' first Christian convert from the elite, becoming the city's first bishop."
+            },
+            "reward": {
+                "title": "Early Christianity in Athens lecture",
+                "provider": "Church of Saint Dionysios",
+                "codeHash": "4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e"
+            },
+            "id": 325
+        },
+        {
+            "name": "Church of Prophet Elias, Piraeus",
+            "lat": 37.9535,
+            "lng": 23.6335,
+            "image": "images/prophet_elias_piraeus.jpg",
+            "description": "Hill church in Piraeus with panoramic port views. Prophet Elijah chapel overlooking maritime city and Saronic Gulf. Traditional hilltop sanctuary.",
+            "audioText": "You are at the Church of Prophet Elias on a hill in Piraeus, overlooking the port and the Saronic Gulf. This elevated location follows the Greek tradition of placing churches dedicated to Prophet Elijah on high ground, symbolizing his ascent to heaven in a chariot of fire and the spiritual heights believers aspire to reach. From this vantage point, you command spectacular views across Greece's greatest port—the commercial harbor, passenger terminals, naval base, and yacht marina spread below, with ships departing for Greek islands and beyond. The church serves both as a neighborhood parish and as a pilgrimage destination, especially on the Prophet Elias feast day, July 20th, when Piraeans climb the hill to celebrate with liturgy and festivities. The maritime setting creates a unique atmosphere—the sound of ship horns blending with church bells, the sight of vessels entering and leaving harbor visible during services. Prophet Elijah, though an Old Testament figure, is deeply woven into Greek maritime culture. Sailors and fishermen seek his protection alongside Saint Nicholas. The church demonstrates how Orthodox faith pervades all aspects of Greek life, from mountaintops to seaports, connecting ancient prophetic tradition to contemporary urban existence.",
+            "quiz": {
+                "question": "What makes this hilltop location significant for a Prophet Elias church?",
+                "options": [
+                    "Elevated position symbolizes Elijah's heavenly ascent and offers panoramic port views",
+                    "It was the cheapest land",
+                    "It contains buried treasure",
+                    "It is closest to the sea"
+                ],
+                "answer": 0,
+                "feedback": "Correct! The hilltop honors Elijah's ascension while providing commanding views of Piraeus' maritime activities."
+            },
+            "reward": {
+                "title": "Sunset port viewing and blessing",
+                "provider": "Church of Prophet Elias",
+                "codeHash": "5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f"
+            },
+            "id": 326
         }
 ];
 
