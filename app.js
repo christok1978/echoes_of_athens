@@ -8126,8 +8126,711 @@ const POIs = [
                 "provider": "Church of Prophet Elias",
                 "codeHash": "5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f"
             },
-            "id": 326
-        }
+        "id": 326
+    },
+    {
+        "name": "Vouliagmeni Beach",
+        "lat": 37.8143,
+        "lng": 23.7814,
+        "image": "images/vouliagmeni_beach.jpg",
+        "description": "The chicest beach on the Athens Riviera, offering organized facilities, upscale beach clubs, and crystal-clear waters in the exclusive Vouliagmeni suburb.",
+        "audioText": "Welcome to Vouliagmeni Beach, the most exclusive and sophisticated beach destination on the Athens Riviera. Located 20 kilometers south of central Athens, Vouliagmeni represents the pinnacle of Greek beach culture—where natural beauty meets refined amenities. The name 'Vouliagmeni' comes from the ancient Greek 'Boleagmenos,' meaning 'submerged,' referring to the geological events that shaped this dramatic coastline thousands of years ago. This sandy and pebble beach stretches along a protected bay, its turquoise waters sheltered from strong winds by the surrounding cliffs and peninsula. The beach is fully organized with hundreds of sun loungers, umbrellas arranged in perfect rows, beachfront cafes serving fresh seafood and cocktails, and facilities that rival any Mediterranean resort. Beyond swimming, you'll find tennis courts, basketball courts, beach volleyball areas, and water sports equipment for rent. The beach is family-friendly with shallow entry points and lifeguard services, yet sophisticated enough for couples seeking a romantic seaside escape. Just north of the main beach lies the famous Astir Beach, part of the Four Seasons resort, where entrance fees can exceed 50 euros but include access to private cabanas, infinity pools, and celebrity-spotting opportunities. For those seeking adventure rather than luxury, head south to the Limanakia coves—a chain of rocky inlets where locals cliff-jump into deep, crystalline water. Vouliagmeni is perfectly positioned for a full Athens Riviera experience: morning swim here, lunch in Vouliagmeni town, afternoon drive to Cape Sounion for sunset at the Temple of Poseidon. The beach is accessible by car via the coastal Poseidonos Avenue, by bus, or even by Athens' coastal tram. Whether you're an Athenian escaping the summer heat or a visitor discovering why Greeks worship the sea, Vouliagmeni Beach delivers the complete Mediterranean experience.",
+        "quiz": {
+            "question": "What makes Vouliagmeni Beach special on the Athens Riviera?",
+            "options": [
+                "It is the most upscale beach with full amenities, nearby exclusive resorts, and protected turquoise waters",
+                "It is the only free beach in Attica",
+                "It has ancient ruins underwater",
+                "It is the largest beach in Greece"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Vouliagmeni is the Athens Riviera's most exclusive beach, combining natural beauty with luxury facilities and proximity to resorts like the Four Seasons Astir Palace."
+        },
+        "reward": {
+            "title": "Beach day pass at Vouliagmeni Beach Club",
+            "provider": "Vouliagmeni Beach Complex",
+            "codeHash": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b"
+        },
+        "id": 327
+    },
+    {
+        "name": "Lake Vouliagmeni (Thermal Lake)",
+        "lat": 37.8086,
+        "lng": 23.7812,
+        "image": "images/lake_vouliagmeni.jpg",
+        "description": "A rare natural wonder: a brackish thermal lake fed by underground mineral springs, maintaining a constant 22-29°C temperature year-round, perfect for therapeutic swimming.",
+        "audioText": "You are at Lake Vouliagmeni, one of the most unique natural swimming spots in all of Greece—a geological marvel where geothermal activity creates an eternal spa. This is not a typical lake. It is a brackish thermal lagoon, meaning the water is a mix of seawater and freshwater from underground springs, heated by geothermal vents deep below the earth. The temperature never drops below 22 degrees Celsius and reaches 29 degrees in summer, making it comfortable for swimming every single day of the year, even in the coldest winters. The lake formed about 2,000 years ago when the roof of an underground cavern collapsed, creating this stunning kidney-shaped pool surrounded by limestone cliffs draped with greenery. The water is incredibly mineral-rich—containing sulfur, calcium, potassium, and other therapeutic minerals that have drawn healers and health-seekers for millennia. Ancient Greeks believed the lake had healing powers, and modern science confirms its benefits for skin conditions, arthritis, and stress relief. The water is crystal clear, allowing visibility to the rocky bottom where small fish called Garra rufa—the famous 'doctor fish'—nibble dead skin from swimmers' feet, providing a natural exfoliation treatment. The lake is fed by an underwater cave system that remains largely unexplored; divers have mapped only the first 3,000 meters before encountering passages too dangerous to navigate. The lake is now a protected natural monument and operates as a spa facility with admission fees, changing rooms, showers, a cafe, and sun loungers around the perimeter. Swimming here feels surreal: you float effortlessly in the warm, slightly salty water while surrounded by vertical rock walls and lush vegetation, with the Aegean Sea visible just beyond a narrow channel. In winter, when Athens experiences occasional cold snaps, locals flock here to swim in water that feels like a heated pool, steam rising into the crisp air. If you only have time for one natural swimming experience near Athens, make it Lake Vouliagmeni—it's truly one of a kind.",
+        "quiz": {
+            "question": "What makes Lake Vouliagmeni so unusual?",
+            "options": [
+                "It is a year-round thermal lake (22-29°C) fed by geothermal springs with therapeutic minerals and doctor fish",
+                "It is the deepest lake in Greece",
+                "It is a freshwater lake on a mountaintop",
+                "It freezes in winter"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Lake Vouliagmeni is a rare thermal brackish lake with constant warm temperatures, mineral-rich water with healing properties, and Garra rufa fish that provide natural skin treatments."
+        },
+        "reward": {
+            "title": "Discounted entry to Lake Vouliagmeni Thermal Spa",
+            "provider": "Lake Vouliagmeni Natural Spa",
+            "codeHash": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"
+        },
+        "id": 328
+    },
+    {
+        "name": "Varkiza Beach",
+        "lat": 37.8297,
+        "lng": 23.7958,
+        "image": "images/varkiza_beach.jpg",
+        "description": "One of the Athens Riviera's most popular family beaches, featuring 800 meters of golden sand, organized and free sections, water sports, and beachside dining.",
+        "audioText": "Welcome to Varkiza Beach, the Athens Riviera's perfect balance between accessibility and quality—a beach that Athenians genuinely love. Stretching 800 meters along the Saronic Gulf, Varkiza offers something for everyone: organized sections with sun loungers and umbrellas, free public areas where you can spread your own towel, shallow entry points for children, and water sports for the adventurous. This is a genuine sandy beach—no pebbles, no rocks, just soft golden sand that's comfortable underfoot. The beach occupies a gentle southeast-facing bay, which means calm, swimmable waters most days and protection from the northern Meltemi winds that plague other beaches. Historically, Varkiza was a quiet fishing village, but in the post-war era it transformed into one of Athens' premier suburban beach destinations. During the Greek Civil War, the Varkiza Agreement of 1945 was signed here, attempting to end the conflict—though the peace didn't hold. Today, Varkiza is all about leisure and recreation. The organized section features volleyball courts, beach soccer areas, playgrounds for children, and even a small amphitheater for summer concerts. Water sports are abundant: you can rent kayaks, paddleboards, jet skis, or try parasailing. Along the coastal road behind the beach, you'll find dozens of tavernas, cafes, and beach bars serving everything from traditional Greek meze to modern fusion cuisine. The beach is incredibly accessible: just 22 kilometers from central Athens, reachable by car in 30-40 minutes, by bus in about an hour, or even by bicycle along the coastal path for the fitness-minded. Parking can be challenging on summer weekends, but arrive early or use public transport. For visitors staying in Athens, Varkiza makes an ideal day trip: morning swim and beach relaxation, lunch at a seaside taverna, afternoon exploration of nearby Vouliagmeni or a drive down to Cape Sounion. Greeks say that Varkiza strikes the perfect balance—sophisticated enough to feel special, accessible enough to visit regularly. It's a beach where families play, couples stroll at sunset, and lifelong friendships are formed under the summer sun.",
+        "quiz": {
+            "question": "What makes Varkiza Beach particularly family-friendly?",
+            "options": [
+                "800 meters of sandy beach with both organized and free sections, shallow water, water sports, and nearby dining",
+                "It is the only beach with lifeguards in Attica",
+                "It has ancient ruins to explore",
+                "It is indoor and climate-controlled"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Varkiza's long sandy shoreline, mix of organized and free areas, calm shallow waters, recreational facilities, and abundant amenities make it ideal for all ages."
+        },
+        "reward": {
+            "title": "Free beach volleyball court reservation at Varkiza",
+            "provider": "Varkiza Beach Sports Center",
+            "codeHash": "3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d"
+        },
+        "id": 329
+    },
+    {
+        "name": "Limanakia Coves",
+        "lat": 37.8120,
+        "lng": 23.7845,
+        "image": "images/limanakia_coves.jpg",
+        "description": "A chain of dramatic rocky coves with crystal-clear deep water, perfect for cliff jumping, snorkeling, and adventurous swimming—Athens' hidden coastal gems.",
+        "audioText": "You've arrived at Limanakia—which translates to 'little harbors'—a spectacular series of rocky coves carved into the limestone cliffs south of Vouliagmeni. This is not a beach for lounging on soft sand; this is adventure swimming at its finest, where the Aegean Sea crashes against dramatic rock formations, creating natural swimming pools of impossibly clear, deep blue water. Limanakia consists of several distinct coves, numbered by locals: Limanakia 1 is the most accessible and therefore most crowded, especially on summer weekends when young Athenians arrive with coolers, speakers, and sunscreen. Limanakia 2 and 3 require a bit more scrambling over rocks but reward you with more space and privacy. The rocks are smooth limestone, worn by millennia of wave action, some flat enough for sunbathing, others perfect as jumping platforms. And yes, cliff jumping is the main attraction here. You'll see locals—ranging from fearless teenagers to surprisingly spry seniors—launching themselves from heights of 3, 5, even 10 meters into the deep water below. If you're nervous, start low and work your way up; if you're experienced, the highest points offer an adrenaline rush with stunning views mid-air. The water here is among the clearest on the Athens Riviera, thanks to the rocky seabed and absence of sand. Bring snorkeling gear and you'll discover an underwater world: schools of small silver fish, sea urchins clinging to rocks, occasionally even an octopus hiding in a crevice. But be cautious—there are no lifeguards here, no facilities, no shade except what you bring yourself. Wear water shoes to protect your feet from sharp rocks and sea urchins. Bring plenty of water and snacks, as there are no shops nearby. Parking is limited along the coastal road, so arrive early or be prepared to walk. Limanakia is best enjoyed outside peak summer weekends; come early morning or late afternoon for the best light and fewest crowds. If you want to experience how Greeks really swim—with a spirit of adventure, a disregard for comfort, and a love of pure, pristine water—Limanakia is your destination.",
+        "quiz": {
+            "question": "What makes Limanakia Coves unique compared to typical beaches?",
+            "options": [
+                "Rocky cliffs with crystal-clear deep water for cliff jumping and snorkeling—no sand, no facilities, pure adventure",
+                "It has the widest sandy beach in Greece",
+                "It is an artificial swimming pool",
+                "It is only accessible by boat"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Limanakia is a chain of natural rocky coves offering adventurous swimming, cliff jumping, and pristine snorkeling conditions—raw nature without commercial amenities."
+        },
+        "reward": {
+            "title": "Free snorkeling equipment rental at Vouliagmeni",
+            "provider": "Athens Riviera Water Sports",
+            "codeHash": "4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e"
+        },
+        "id": 330
+    },
+    {
+        "name": "Schinias Beach & National Park",
+        "lat": 38.1172,
+        "lng": 23.9827,
+        "image": "images/schinias_beach.jpg",
+        "description": "Widely considered Athens' most beautiful beach: 5 kilometers of golden sand backed by a rare coastal pine forest within a protected national park.",
+        "audioText": "Welcome to Schinias Beach, the beach that makes Athenians say, 'Wait, are we on an island?' Located 50 kilometers northeast of Athens near the historic Marathon battlefield, Schinias is a protected natural treasure that combines pristine sandy beaches with ecological significance. The beach stretches over 5 kilometers along a gently curving bay, offering some of the finest golden sand in mainland Greece. But what makes Schinias truly special is the forest behind you—a rare coastal pine forest that comes right down to the beach, providing natural shade, a unique ecosystem, and that pine-scented air that Greeks associate with summer paradise. This is part of the Schinias-Marathon National Park, protected since 2008 to preserve its biodiversity: the wetlands behind the dunes are home to over 200 bird species, including rare herons, flamingos, and migratory waterfowl. The beach itself offers something for every preference. At the northern end, you'll find organized sections with sun loungers, beach bars, and water sports facilities—this was the Olympic rowing venue during Athens 2004, and the Olympic rowing center still stands nearby. The central sections are mostly free and undeveloped, where you can spread your towel directly on the sand under the pines. The southern end features quieter coves and rockier sections favored by locals in the know. The water at Schinias is consistently excellent: shallow enough for children to wade safely, warm by mid-June, and remarkably clean thanks to the protective bay and absence of nearby development. On windy days, the northern end attracts windsurfers and kitesurfers who take advantage of the conditions. Getting here requires a car or bus—there's no direct train—but the journey is part of the experience, passing through historic Marathon, past the ancient burial mound where 192 Athenian warriors lie, and through landscapes where mythology and history intersect. Bring supplies: while there are a few beach bars, much of Schinias remains undeveloped. Pack a picnic, rent a bicycle to explore the trails through the pine forest, and plan to stay all day. Greeks consider Schinias among the best mainland beaches in the country, a place where nature still feels wild and unspoiled despite being so close to Europe's most historic capital.",
+        "quiz": {
+            "question": "What makes Schinias Beach environmentally significant?",
+            "options": [
+                "It's part of a protected national park with 5km of sandy beach backed by rare coastal pine forest and 200+ bird species",
+                "It's the only beach in Greece with sharks",
+                "It has underwater hotels",
+                "It's made of black volcanic sand"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Schinias is a protected national park combining pristine beaches with ecological importance—rare coastal pines, wetlands, diverse birdlife, and the 2004 Olympic rowing venue."
+        },
+        "reward": {
+            "title": "Free bike rental at Schinias National Park",
+            "provider": "Marathon National Park Authority",
+            "codeHash": "5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f"
+        },
+        "id": 331
+    },
+    {
+        "name": "Lagonisi Beach",
+        "lat": 37.7655,
+        "lng": 23.9353,
+        "image": "images/lagonisi_beach.jpg",
+        "description": "An upscale coastal area featuring luxury resorts, picturesque coves, and clear waters—a favorite summer destination for Athenians with vacation homes.",
+        "audioText": "Welcome to Lagonisi, whose name means 'Rabbit Island' in Greek, referring to the small rocky islet just offshore. This exclusive coastal area, 40 kilometers southeast of Athens on the road to Cape Sounion, represents the Athens Riviera at its most refined—where summer homes cling to hillsides, yachts bob in protected coves, and the pace of life slows to a Mediterranean crawl. Lagonisi isn't a single beach but rather a collection of beautiful swimming spots. The main public beach, Lagonisi Beach, offers a generous stretch of sand and pebbles with organized sections featuring sun loungers and beachfront cafes. The water here is notably clear, benefiting from the rocky seabed and good circulation. The beach is family-friendly but maintains an upscale feel, attracting well-heeled Athenians and international visitors. Just south, you'll find Kolpiskos Lagonisiou, a smaller, quieter strip of sand perfect for those seeking a less crowded experience—still with beach bar service but plenty of room to spread your own towel. Then there's the Grand Resort Lagonissi, a sprawling luxury hotel complex with its own private beaches, restaurants, spa, tennis courts, and even a swimming pool for those who prefer chlorinated water to the Aegean. Non-guests can access the resort beaches for a fee, gaining access to premium facilities and attentive service. Historically, this coastline remained relatively undeveloped until the mid-20th century, when wealthy Athenian families began building summer villas here, drawn by the combination of proximity to the capital and the feeling of escape. Today, Lagonisi represents a certain lifestyle: long lunches at seaside tavernas, afternoon swims, evening strolls along the shore. The coastal road offers stunning views, especially as you continue south toward Sounion, with the deep blue Aegean stretching to the horizon. Lagonisi works best as part of a broader Athens Riviera exploration: combine it with stops at Vouliagmeni, Varkiza, or continue to Cape Sounion for sunset. While it doesn't have the ancient sites or hiking of other destinations, Lagonisi perfects the art of Greek summer leisure—sun, sea, and sophisticated relaxation.",
+        "quiz": {
+            "question": "What characterizes Lagonisi as a destination?",
+            "options": [
+                "An upscale coastal area with luxury resorts, clear-water coves, and summer homes 40km from Athens on the Sounion route",
+                "Greece's largest beach with cheap accommodations",
+                "An ancient archaeological site",
+                "A winter skiing resort"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Lagonisi is an exclusive beach area known for its Grand Resort Lagonissi, picturesque coves, clear waters, and appeal to affluent summer residents."
+        },
+        "reward": {
+            "title": "20% discount at Lagonisi beachfront taverna",
+            "provider": "Kolpiskos Beach Café",
+            "codeHash": "6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a"
+        },
+        "id": 332
+    },
+    {
+        "name": "Glyfada Beach",
+        "lat": 37.8682,
+        "lng": 23.7503,
+        "image": "images/glyfada_beach.jpg",
+        "description": "The most cosmopolitan beach suburb of Athens, combining sandy beaches with upscale shopping, dining, and nightlife—easily accessible by tram and metro.",
+        "audioText": "You are in Glyfada, the Beverly Hills of Athens—a seaside suburb that perfectly combines beach culture with urban sophistication. Located just 15 kilometers south of the city center, Glyfada is where Athenians come not just to swim, but to see and be seen, to shop, dine, and embrace a lifestyle that's as much about leisure as it is about location. The beaches here are numerous and varied. Glyfada Beach itself is organized with rows of sun loungers, beach volleyball courts, and a lively beach bar scene. The sand is golden, the water clean, and the crowd diverse—families during the day, younger crowds toward evening. Best of all, Glyfada is genuinely accessible: the Athens tram runs directly here from Syntagma Square, making it possible to have breakfast in the city center and be swimming by mid-morning without ever needing a car. Beyond the beach, Glyfada offers something rare among Greek coastal towns: a true urban experience. The main shopping streets rival Athens itself, with international brands, Greek boutiques, and some of the best restaurants outside the city center. The marina hosts yachts from around the Mediterranean, while the nearby golf course is one of the few in the Athens area. Historically, Glyfada has been a playground for the wealthy since the 1960s, when it began transforming from a quiet coastal village into a destination for Athens' elite. Today, it maintains that upscale character while being far more accessible and democratic—anyone can enjoy the public beaches, walk the promenade, or grab a frappe at a beachfront cafe. Glyfada works well for visitors who want beach access without sacrificing city conveniences. Stay in central Athens and make this a day trip, or base yourself here and use it as a starting point for exploring the Athens Riviera. From Glyfada, Vouliagmeni is 10 minutes south, Cape Sounion less than an hour, and the Acropolis just 20 minutes back toward the city. It's the beach suburb that offers the best of both worlds—Aegean waves and cosmopolitan energy.",
+        "quiz": {
+            "question": "What makes Glyfada unique among Athens beaches?",
+            "options": [
+                "Combines sandy beaches with cosmopolitan shopping, dining, nightlife, and direct tram/metro access from central Athens",
+                "It's the only beach with no water",
+                "It's located inside the Acropolis",
+                "It has ice and snow year-round"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Glyfada is Athens' most cosmopolitan beach suburb, offering not just beaches but high-end shopping, restaurants, marinas, and excellent public transport connections."
+        },
+        "reward": {
+            "title": "Free welcome drink at Glyfada beach bar",
+            "provider": "Balux Beach Bar",
+            "codeHash": "7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b"
+        },
+        "id": 333
+    },
+    {
+        "name": "Sounion Beach",
+        "lat": 37.6517,
+        "lng": 24.0231,
+        "image": "images/sounion_beach.jpg",
+        "description": "Sandy beach at the foot of Cape Sounion, offering swimming in the shadow of the ancient Temple of Poseidon—history and natural beauty combined.",
+        "audioText": "Welcome to Sounion Beach, one of the most atmospheric swimming spots in Greece, where you can float in the Aegean Sea while gazing up at the Temple of Poseidon crowning the marble cliff above. This is the southernmost point of the Attica peninsula, 70 kilometers from Athens, where the land ends and the sea begins, where ancient Greeks believed Poseidon ruled the waves. The beach itself is sandy with some pebbles, curving along a protected bay that offers calm, swimmable water even when the Aegean is rough. The water is exceptionally clear thanks to the rocky seabed and limited development—this area has been protected due to the archaeological significance of the temple above. There are a few organized sections with sun loungers and a couple of simple tavernas serving fresh fish, but Sounion Beach remains relatively unspoiled compared to beaches closer to Athens. What makes swimming here unforgettable is the view: turn landward and you see the Temple of Poseidon, its remaining columns glowing golden in the afternoon light, perched 60 meters above the sea on sheer cliffs. This is the temple where Lord Byron carved his name in 1810 (vandalism even then!), where ancient Athenians made sacrifices before sea voyages, and where the mythical King Aegeus—father of the hero Theseus—threw himself into the sea upon believing his son had been killed by the Minotaur, thus giving the Aegean Sea its name. The surrounding coastline is dramatic: wind-sculpted rocks, hidden coves, and geology that spans millions of years. Visiting Sounion Beach works best as part of a sunset visit to the temple: arrive mid-afternoon, swim and relax on the beach, enjoy a late lunch at a taverna, then climb up to the temple around 7-8 PM to watch the sun sink into the Saronic Gulf—one of the most famous sunsets in Greece. The combination of archaeological grandeur, mythological significance, natural beauty, and that perfect swim makes Sounion a pilgrimage site for anyone exploring Attica. It's not just a beach—it's where history, mythology, and the eternal Greek relationship with the sea come together in one spectacular place.",
+        "quiz": {
+            "question": "What makes Sounion Beach historically and scenically special?",
+            "options": [
+                "It sits beneath the dramatic cliff-top Temple of Poseidon at Cape Sounion, combining ancient history with beautiful swimming",
+                "It's the only beach in the world with palm trees",
+                "It has an underwater volcano",
+                "It's the starting point of the Marathon race"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Sounion Beach offers the unique experience of swimming in the Aegean while viewing the 2,400-year-old Temple of Poseidon above—myth, history, and nature united."
+        },
+        "reward": {
+            "title": "Sunset viewing pass at Temple of Poseidon",
+            "provider": "Hellenic Ministry of Culture",
+            "codeHash": "8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c"
+        },
+        "id": 334
+    },
+    {
+        "name": "Anavyssos Beach",
+        "lat": 37.7217,
+        "lng": 23.9622,
+        "image": "images/anavyssos_beach.jpg",
+        "description": "A windswept sandy beach famous for windsurfing and kitesurfing, featuring water sports facilities and traditional tavernas in a laid-back coastal village.",
+        "audioText": "Welcome to Anavyssos Beach, the wind-rider's paradise of the Athens Riviera. Located between Lagonisi and Cape Sounion, about 45 kilometers south of Athens, Anavyssos is where the Meltemi winds that plague other beaches become a feature rather than a bug. This long, sandy beach with shallow waters is one of the premier windsurfing and kitesurfing destinations near Athens, attracting board-sport enthusiasts from across Greece and beyond. The village of Anavyssos retains a more authentic, less developed character than its northern neighbors. This was once a simple fishing village, and while tourism has arrived, it hasn't completely transformed the place. You'll still find traditional tavernas serving fresh fish caught that morning, family-run cafes where locals gather, and a slower pace of life. The beach itself is generously wide and long, mostly sandy with some pebbles, and the shallow entry makes it suitable for families despite the wind. During calm days, it's a pleasant swimming beach; when the wind picks up, the water transforms into a playground for wind and kite surfers, their colorful sails dotting the bay. Several water sports schools operate here, offering lessons and equipment rental for windsurfing, kitesurfing, and stand-up paddleboarding. Even if you're not into board sports, watching the skilled riders perform jumps and tricks can be mesmerizing. The surrounding area is relatively undeveloped, with low-rise buildings and plenty of open space—a refreshing change from the more built-up northern beaches. Anavyssos works well as a stop on the Cape Sounion route: swim and lunch here, then continue south for the sunset at the Temple of Poseidon. Alternatively, visit on a windy day when other beaches are unpleasant; here, the wind is part of the experience. Bring a windbreak if you're not into water sports, as the Meltemi can be persistent in July and August. For those seeking authentic Greek coastal life with an active, sporty atmosphere, Anavyssos delivers an experience that's less polished but more genuine than the resort towns to the north.",
+        "quiz": {
+            "question": "Why is Anavyssos Beach particularly popular with water sports enthusiasts?",
+            "options": [
+                "Consistent winds make it ideal for windsurfing and kitesurfing, with schools, equipment rental, and shallow sandy waters",
+                "It has the highest waves in the Mediterranean",
+                "It's an indoor pool with no wind",
+                "It's only accessible by submarine"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Anavyssos benefits from the Meltemi winds that create perfect conditions for windsurfing and kitesurfing, making it an active water sports destination."
+        },
+        "reward": {
+            "title": "Windsurfing lesson discount at Anavyssos",
+            "provider": "Anavyssos Water Sports School",
+            "codeHash": "9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d"
+        },
+        "id": 335
+    },
+    {
+        "name": "Kavouri Beach",
+        "lat": 37.8173,
+        "lng": 23.7729,
+        "image": "images/kavouri_beach.jpg",
+        "description": "A free, family-friendly public beach on the Vouliagmeni peninsula, offering sandy shores and calm waters without entrance fees—ideal for budget-conscious visitors.",
+        "audioText": "Welcome to Kavouri Beach, proof that the best things in life—and on the Athens Riviera—can indeed be free. Nestled on the western side of the Vouliagmeni peninsula, just north of exclusive Vouliagmeni Beach and Lake Vouliagmeni, Kavouri is a genuine public beach with no entrance fees, no required sun lounger rentals, just pure democratic access to the Aegean Sea. The beach is sandy with some pebbles, curving gently along a protected bay that keeps the waters calm and shallow—perfect for families with young children. The shoreline is long enough to accommodate crowds even on busy summer weekends, and there's usually space to lay your towel and stake out your spot. Kavouri attracts a different crowd than the organized beaches: locals who come regularly and know exactly where to find shade under the few trees, budget-conscious travelers who prefer to bring their own umbrellas and snacks, and families who appreciate the relaxed atmosphere without commercial pressures. While there are no organized facilities on the beach itself, you'll find basic amenities nearby: public toilets, a few cafes and tavernas across the coastal road, and plenty of free parking (at least on weekdays). The water quality is consistently good—this is still the same coastline that makes the Athens Riviera famous, after all. On calm days, bring snorkeling gear; the rocky areas at either end of the beach host small fish and occasionally sea urchins. Kavouri's location makes it an excellent alternative when the paid beaches are too crowded or too expensive. It's just a few minutes from Vouliagmeni, Varkiza, and the Limanakia coves, so you can easily combine a morning at Kavouri with an afternoon exploring other parts of the coast. The beach is accessible by car and by bus from Athens. Locals will tell you that Kavouri on a weekday morning is one of Athens' great secrets: you might have the entire beach to yourself, with nothing but the sound of small waves and seabirds. It's a reminder that even in one of Europe's most expensive beach areas, nature's beauty remains available to everyone willing to bring their own umbrella and embrace a do-it-yourself beach day.",
+        "quiz": {
+            "question": "What makes Kavouri Beach different from nearby Vouliagmeni beaches?",
+            "options": [
+                "It's completely free with no entrance fees, offering sandy shores and calm waters on a budget-friendly public beach",
+                "It's the only beach with entry fees in Greece",
+                "It's located inside a shopping mall",
+                "It's a mountain lake with no sea access"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Kavouri is a free public beach on the Vouliagmeni peninsula, providing sandy shores, calm waters, and Aegean access without the fees of nearby organized beaches."
+        },
+        "reward": {
+            "title": "Free coffee at Kavouri beachside café",
+            "provider": "Kavouri Beach Café",
+            "codeHash": "0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e"
+        },
+        "id": 336
+    },
+    {
+        "name": "Koutouki Cave, Paiania",
+        "lat": 37.9460,
+        "lng": 23.8287,
+        "image": "images/koutouki_cave.jpg",
+        "description": "The largest and most spectacular show cave in Attica, featuring impressive stalactites, stalagmites, and illuminated chambers at 510m altitude on Mount Hymettus.",
+        "audioText": "Welcome to Koutouki Cave, also known as Peania Cave, the most impressive underground wonder in the greater Athens area. Located on the eastern slopes of Mount Hymettus near Athens International Airport, this limestone cave has been welcoming visitors since its systematic exploration in 1954 by the renowned Greek speleologist Anna Petrocheilou. The cave is one of 60 known caves in Attica, but it is by far the largest and most developed for tourism. Koutouki is a vertical cave, meaning its entrance drops 38.5 meters down a shaft into a massive central chamber measuring 60 by 60 meters—roughly the size of a football field. But unlike most caves that feel claustrophobic and dark, Koutouki opens into a grand subterranean palace filled with some of the finest speleothems—cave formations—in Greece. As you descend the modern staircase and walkways installed for visitors, you'll see why early explorers gave poetic names to the formations: the Olympic Tower, a massive stalagmite rising from the floor; the Owl, a formation that looks uncannily like the bird of Athena; the Armor, resembling ancient Greek battle gear; and the Red Falls, curtains of flowstone stained rust-red by iron oxides. The stalactites hanging from the ceiling took hundreds of thousands of years to form, growing at rates of just millimeters per century as mineral-rich water dripped and deposited calcium carbonate. The cave maintains a constant temperature of 17 degrees Celsius year-round, with 90% humidity—bring a light jacket even in summer. Guided tours last about 30 minutes and follow a 350-meter route through the main chamber. The lighting is theatrical, designed to highlight the most spectacular formations with colored lights and even music during special occasions. The cave was formed by the dissolving action of rainwater on limestone, a process ongoing for millions of years. The karst geology of Mount Hymettus is riddled with such caves, though most are too small or dangerous for public access. Beyond its geological significance, Koutouki has ecological importance as home to various troglobite species—creatures adapted to permanent cave life, including rare blind insects and cave-dwelling spiders. The cave is easily accessible, just 4 kilometers from Paiania village and well-signposted. Combine your visit with the nearby ancient quarries, the picturesque village of Paiania where the orator Demosthenes was born, or a hike on Mount Hymettus. For anyone who's never experienced a proper show cave, Koutouki is an unforgettable introduction to the hidden world beneath Greece's mountains.",
+        "quiz": {
+            "question": "What makes Koutouki Cave scientifically and touristically significant?",
+            "options": [
+                "It's Attica's largest show cave with a 38.5m shaft opening into a 60x60m chamber filled with spectacular stalactites and stalagmites",
+                "It's the deepest cave in the world",
+                "It has ancient human remains from 10,000 BC",
+                "It contains a underground river leading to the sea"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Koutouki is a vertical cave with impressive dimensions and formations like the Olympic Tower and Owl, maintained at constant 17°C with guided tours through 350 meters of passages."
+        },
+        "reward": {
+            "title": "Discounted cave entry + Mount Hymettus hiking map",
+            "provider": "Koutouki Cave Visitors Center",
+            "codeHash": "1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f"
+        },
+        "id": 337
+    },
+    {
+        "name": "Davelis Cave (Penteli Cave)",
+        "lat": 38.0764,
+        "lng": 23.8695,
+        "image": "images/davelis_cave.jpg",
+        "description": "A mysterious cave on Mount Penteli featuring ancient marble quarries, Byzantine chapels, and frescoes—where history, geology, and legend intersect at 700m altitude.",
+        "audioText": "You stand before Davelis Cave, one of the most atmospheric and historically layered sites in Attica—a place where ancient quarries, Byzantine faith, bandit legends, and geological wonder converge in a single dramatic location. Located on the southwestern slope of Mount Penteli at 700 meters altitude, this is no ordinary cave. It was formed naturally but expanded by human hands over millennia. The ancient Greeks discovered it while quarrying Pentelic marble—the luminous white stone with a faint golden hue that built the Parthenon, the Erechtheion, and Athens' greatest monuments. You can still see the chisel marks on the quarry walls, and partially extracted column drums abandoned mid-work, frozen in time. The cave system includes a main chamber 112 meters long with a dramatic 15-meter vertical chasm, and an entrance so grand it could be the gateway to the underworld. In the Byzantine period, Christian hermits and monks converted this pagan quarry site into a sacred space. They built two small churches right at the cave entrance: the Chapel of Saint Spyridon and the Chapel of Saint Nicholas. Both contain frescoes dating to the 13th century—faded now but still visible, depicting Christ, saints, and scenes from the Gospels painted onto the cave rock itself. These hermitages were part of a tradition of ascetic monasticism, where holy men sought isolation in caves and mountains to dedicate themselves to prayer and contemplation away from the distractions of the world. The cave gets its popular name from Christos Davelis, a notorious 19th-century Greek brigand who supposedly used these passages as a hideout during his banditry career, though historians debate whether he actually knew of its existence. The legend has persisted, and locals still call it Davelis Cave. In the 1970s-80s, the Greek military used parts of the cave for reasons that remain partially classified, leading to additional legends about secret installations and paranormal activity—none of which have been confirmed but all of which add to the site's mystique. Today, the cave entrance and chapels are accessible, though the deeper passages are closed for safety. The site is popular with hikers, climbers (the cliff walls attract rock climbers), and those seeking an off-the-beaten-path historical experience. Bring a flashlight if you want to peek into the darker recesses, and be prepared for uneven footing. The surrounding area offers excellent hiking trails through Penteli's pine forests and past more ancient quarries. Davelis Cave is a reminder that Greece's historical landscape is endlessly layered—ancient industry, Byzantine devotion, modern legend, all inscribed onto living rock.",
+        "quiz": {
+            "question": "What makes Davelis Cave historically unique?",
+            "options": [
+                "It combines ancient Pentelic marble quarries with Byzantine chapels and 13th-century frescoes, plus bandit legends and military history",
+                "It's the only cave in Greece with electric lighting",
+                "It's a modern artificial cave built in 1990",
+                "It's filled with gold treasures from Alexander the Great"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Davelis Cave layers 2,400 years of history: ancient Parthenon marble extraction, Byzantine hermit churches with frescoes, 19th-century brigand legends, and modern military use."
+        },
+        "reward": {
+            "title": "Guided Penteli marble quarries hiking tour",
+            "provider": "Mount Penteli Cultural Association",
+            "codeHash": "2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a"
+        },
+        "id": 338
+    },
+    {
+        "name": "Mount Parnitha Summit (1,413m)",
+        "lat": 38.1651,
+        "lng": 23.7195,
+        "image": "images/parnitha_summit.jpg",
+        "description": "The highest mountain in Attica at 1,413 meters, offering challenging summit hikes through dense fir forests, red deer sightings, and panoramic views over Athens and the Saronic Gulf.",
+        "audioText": "Welcome to the summit of Mount Parnitha, the wild heart of Attica and the highest peak in the greater Athens region at 1,413 meters above sea level. Standing here, with Athens sprawled below and the Aegean glittering in the distance, you've reached a place where nature still rules, where wolves howl at night, and where the air smells of Greek fir and wild herbs rather than exhaust fumes. Parnitha is not just a mountain—it's a protected National Park, the only one within such proximity to a major European capital. It covers 250 square kilometers of dense conifer forests, rocky peaks, ravines, caves, and over 800 plant species. The mountain is home to red deer—you'll often spot them if you hike early morning or late afternoon—as well as foxes, wild boars, and a recently returned wolf population. Overhead, birds of prey circle: golden eagles, peregrine falcons, and buzzards hunting in the thermals. The summit hike is challenging, typically starting from Bafi Refuge or Flampouri Refuge and climbing 600-900 vertical meters through multiple vegetation zones. You begin in dense pine and fir forests, progress through scrubland and rocky terrain, and finally reach the bare summit marked by a large metal cross and telecommunications equipment. On clear days, the view is staggering: Athens to the south, the Saronic Gulf and islands beyond, the mountains of the Peloponnese to the west, Mount Evia to the east. You can sometimes see all the way to the Aegean and Cyclades islands. Parnitha has a complex geological history, its limestone and marble strata thrust upward by tectonic forces millions of years ago. The mountain is riddled with caves—over 200 have been cataloged—and sinkholes. The slopes are crossed by hiking trails ranging from easy forest walks to technical summit climbs requiring proper equipment. A devastating wildfire in 2007 burned much of the southeastern face, but the forest has been recovering steadily, and reforested areas now mix with old-growth sections. Water is abundant by Attica standards: over 45 natural springs, the highest being Skipiza Spring at 1,200 meters, remain ice-cold even in August. Parnitha attracts serious hikers, mountain bikers, climbers, and nature lovers who want to experience genuine wilderness just 45 minutes from Syntagma Square. Bring proper hiking boots, plenty of water, snacks, and weather-appropriate clothing—conditions change rapidly, and the summit can be windy and cold even when Athens swelters below. Parnitha is where urban Athenians remember that Greece is still a land of mountains, forests, and wild places—where the ancient Greek reverence for nature still makes perfect sense.",
+        "quiz": {
+            "question": "What makes Mount Parnitha ecologically significant?",
+            "options": [
+                "It's a National Park and Attica's highest peak (1,413m) with dense fir forests, red deer, wolves, 800+ plant species, and 200+ caves",
+                "It's completely flat with no vegetation",
+                "It's an active volcano that erupts monthly",
+                "It's entirely underwater"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Parnitha is Attica's only National Park, offering wilderness with conifer forests, large mammals including reintroduced wolves, extensive biodiversity, and challenging summit hikes."
+        },
+        "reward": {
+            "title": "Free overnight stay at Bafi Mountain Refuge",
+            "provider": "Hellenic Mountaineering Club",
+            "codeHash": "3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b"
+        },
+        "id": 339
+    },
+    {
+        "name": "Mount Penteli Summit (1,109m)",
+        "lat": 38.0731,
+        "lng": 23.8785,
+        "image": "images/penteli_summit.jpg",
+        "description": "Famous for its ancient marble quarries that built the Parthenon, this forested 1,109m mountain offers historic and scenic hiking trails with panoramic Athens views.",
+        "audioText": "You are standing atop Mount Penteli, the mountain that quite literally built classical Athens. At 1,109 meters, Penteli may not be the highest peak in Attica, but it is arguably the most historically significant. The marble quarried from these slopes over 2,400 years ago became the Parthenon, the Erechtheion, the propylaea of the Acropolis, countless temples, theaters, and monuments across the ancient Greek world. That luminous white stone with its characteristic faint golden hue caused by iron traces—Pentelic marble—is one of the finest architectural stones ever quarried, prized for its beauty, durability, and how it catches and reflects light. From the summit, on a clear day, you can see Athens sprawling below, the Aegean Sea to the east, Mount Parnitha to the northwest, and Mount Hymettus to the south. The view encompasses virtually the entire Attic plain, making it clear why ancient Greeks considered mountains sacred—up here, you feel closer to the gods. The mountain itself is densely forested on its lower and middle slopes with Aleppo pines and Greek firs, providing shade and cooler temperatures even in summer. These forests are crisscrossed with hiking trails of varying difficulty. The most popular routes start from the 17th-century Penteli Monastery on the western slope, climbing through forest to the ancient quarry zones, then continuing to the summit. The quarries themselves are extraordinary. You can walk among vast exposed rock faces bearing the marks of ancient tools—chisels, wedges, even the grooves where ropes guided massive blocks down the mountain. Some column drums and architectural elements remain half-extracted, abandoned when the work was deemed flawed or when demand shifted. These abandoned stones are frozen moments in ancient industry, offering insights into Greek engineering and craftsmanship. The main quarries produced marble from the 6th century BC through the Roman period, employing hundreds of skilled workers and slaves. The geologist Marinos and archaeologist Korres have identified the specific sections that supplied the Parthenon's marble. The mountain was also associated with the god Pan and the nymphs; ancient texts mention sanctuaries and sacred caves dedicated to these deities. Today, Penteli is a popular escape for hikers, trail runners, and mountain bikers. The trails offer forest walks, historical exploration, and physical challenge. The upper slopes are more exposed and rocky, with scrub vegetation and Mediterranean wildflowers. Several waterfalls—including the Rapentosa and Valanaris falls—flow seasonally after rainfall, cascading through ravines on the northern slopes. Penteli Monastery itself is worth visiting: a functioning monastery with beautiful frescoes, a peaceful courtyard, and a small museum. The monks welcome respectful visitors. Combine a hike with a visit here, or explore the nearby Davelis Cave. Penteli is where history and nature intertwine—every step on these trails passes over rock that may have yielded the marble for the civilization's greatest architectural achievements.",
+        "quiz": {
+            "question": "Why is Mount Penteli historically essential to ancient Athens?",
+            "options": [
+                "Its quarries produced Pentelic marble that built the Parthenon and Acropolis monuments, visible today with ancient tool marks",
+                "It was the first mountain ever climbed by humans",
+                "It's where the Olympic Games were invented",
+                "It's an extinct volcano from 50 million years ago"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Penteli's marble quarries supplied the luminous white stone for the Parthenon and major ancient monuments; the 1,109m mountain still shows extraction sites and abandoned blocks."
+        },
+        "reward": {
+            "title": "Penteli Monastery visit + marble museum entry",
+            "provider": "Holy Monastery of Penteli",
+            "codeHash": "4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c"
+        },
+        "id": 340
+    },
+    {
+        "name": "Mount Hymettus Summit (1,026m)",
+        "lat": 37.9531,
+        "lng": 23.8372,
+        "image": "images/hymettus_summit.jpg",
+        "description": "The closest major mountain to Athens, Hymettus offers accessible hiking, spectacular sunset city views, and the famous Hymettus honey from wild thyme and herbs.",
+        "audioText": "Welcome to Mount Hymettus, the mountain that watches over Athens from the east, its ridge line a familiar silhouette to anyone who's spent time in the Greek capital. Rising to 1,026 meters at its highest point, Hymettus is not as tall as Parnitha or as historically laden as Penteli, but it is the most intimately connected to Athens—the mountain you see every day, the mountain ancient Athenians saw when they looked east from the Agora. Hymettus is known above all for two things: its honey and its sunsets. Since ancient times, the mountain's wild thyme, sage, and herbs have produced Hymettus honey—golden, fragrant, and legendary. The Greek poet Pindar called it 'the sweet hymettian flow,' and Plato, whose Academy stood at the mountain's western foot, surely tasted it. Modern beekeepers still harvest honey here, sold in Athens markets and considered among Greece's finest. As for sunsets, this is Athens' classic viewpoint: hike up in late afternoon, reach the summit or one of the many scenic overlooks, and watch the sun descend over the Saronic Gulf, Piraeus, Salamis island, and the Peloponnese beyond, casting the city below in gold and rose. The mountain's character is different from its neighbors. Hymettus is drier, more rugged, with less dense forest and more scrubland and exposed rock. The vegetation is typically Mediterranean: low bushes, wild herbs, phrygana scrub, and scattered pines. In spring, wildflowers carpet the slopes—poppies, orchids, crocuses, anemones. The mountain is limestone, riddled with small caves and sinkholes. Ancient myths placed nymphs and the god Pan here, and locals still tell stories of strange sounds echoing from the rocks. The hiking trails are numerous and well-marked, ranging from easy monastery visits to challenging summit climbs. The most popular starting point is Kaisariani Monastery at the western base—an 11th-century Byzantine jewel with frescoes, a lovely courtyard, and a sacred spring. From there, trails ascend through the Kaisariani Forest, one of the few remaining wooded sections on this otherwise bare mountain. The summit can be reached from several directions, and once there, you'll find a small chapel, telecommunications equipment, and that unbeatable 360-degree view: Athens and the Aegean to the west, Mount Penteli to the north, the East Attica plain and Marathon to the northeast, the southern suburbs and Apollo Coast stretching toward Cape Sounion. Hymettus is accessible, democratic, and beloved by Athenians who jog, hike, mountain bike, or simply drive up the access roads to escape the summer heat. It's only 20 minutes from the city center, making it the perfect after-work hike or weekend escape. The mountain has strategic significance too—it was fortified at various points in history, and during WWII it witnessed resistance operations. Today it offers something equally valuable: a reminder that even Europe's most historically layered capital can find wilderness, silence, and space to breathe just by looking eastward and climbing.",
+        "quiz": {
+            "question": "What is Mount Hymettus most famous for in Greek culture?",
+            "options": [
+                "Its legendary honey from wild thyme and herbs, plus spectacular sunset city views from the closest mountain to Athens (1,026m)",
+                "It's the birthplace of democracy",
+                "It contains the world's largest diamond mine",
+                "It's completely covered in glaciers"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Hymettus has been celebrated since ancient times for its aromatic honey and as Athens' eastern viewpoint, offering accessible hikes and stunning panoramas just 20 minutes from downtown."
+        },
+        "reward": {
+            "title": "Jar of authentic Hymettus wild thyme honey",
+            "provider": "Hymettus Beekeepers Cooperative",
+            "codeHash": "5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d"
+        },
+        "id": 341
+    },
+    {
+        "name": "Bafi Mountain Refuge, Parnitha",
+        "lat": 38.1493,
+        "lng": 23.7207,
+        "image": "images/bafi_refuge.jpg",
+        "description": "A traditional mountain refuge and restaurant on Parnitha at 1,100m, serving hearty Greek mountain food and serving as base camp for summit hikes and nature trails.",
+        "audioText": "Welcome to Bafi Refuge, one of the most beloved mountain huts in Greece and the traditional base camp for exploring Mount Parnitha. Perched at 1,100 meters altitude on the southern slopes of Parnitha, surrounded by dense fir forest, Bafi is where hikers, climbers, and nature lovers gather to rest, eat, plan their routes, and share stories of the mountain. The refuge was established decades ago by the Athens Excursion Club and has been operated by the same family for generations, maintaining the tradition of mountain hospitality—offering shelter, warmth, and sustenance to anyone who arrives, regardless of weather or hour. The stone building blends into its forest setting, with a large outdoor terrace where tables fill with groups on weekends and holidays. The interior features a cozy dining room with a fireplace that roars in winter, walls covered with hiking maps and summit photos, and an atmosphere that feels removed from the modern world despite being just 45 minutes from Athens. The menu is exactly what you want after a mountain hike: hearty stews, grilled meats, village sausages, fried potatoes, bean soup, local cheese, and fresh bread, all served in generous portions at reasonable prices. The kitchen sources ingredients locally when possible, and the recipes are traditional Greek mountain cooking—nothing fancy, just satisfying and delicious. In summer, the terrace offers respite from Athens' heat; in winter, arriving at Bafi after a cold hike feels like salvation. The refuge serves as the starting point for several of Parnitha's best hikes. The summit of Karavola (1,413m) is about a 3-4 hour round trip from here, climbing through fir forest then across rocky upper slopes to the peak. Other trails lead to Skipiza Spring, the Goura Gorge, and the series of fountains and viewpoints that make Parnitha famous among Greek hikers. Trail maps are available, and the staff can advise on conditions, routes, and difficulty levels. Bafi is accessible by car via a paved road from Acharnes, or on foot via several hiking trails. On winter weekends, when Athens gets its rare snowfalls, families drive up to Bafi to play in the snow—building snowmen, having snowball fights, and warming up with hot chocolate and soup inside. The refuge also offers basic overnight accommodation in dormitory-style rooms for hikers who want to start early or finish late. The mountain refuge culture is important in Greek outdoor tradition: these huts serve not just as logistical support but as social centers where urban Greeks reconnect with nature, wilderness, and a slower pace of life. Bafi embodies this tradition perfectly—unpretentious, welcoming, and deeply tied to the mountain it serves. Whether you're an experienced mountaineer or a family seeking a Sunday nature outing, Bafi Refuge welcomes you with the spirit of 'philoxenia'—the Greek love of strangers.",
+        "quiz": {
+            "question": "What role does Bafi Refuge play on Mount Parnitha?",
+            "options": [
+                "It's a traditional mountain hut at 1,100m serving Greek mountain food, providing trail info, and base camp for summit hikes",
+                "It's a luxury five-star hotel with spa and pool",
+                "It's an ancient temple dedicated to Zeus",
+                "It's a ski resort with chairlifts"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Bafi is a family-run mountain refuge offering hearty meals, trail guidance, overnight accommodation, and the spirit of Greek mountain hospitality at the heart of Parnitha National Park."
+        },
+        "reward": {
+            "title": "Free mountain stew meal at Bafi Refuge",
+            "provider": "Bafi Mountain Refuge",
+            "codeHash": "6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e"
+        },
+        "id": 342
+    }
+,
+    {
+        "name": "Tatoi Forest & Former Royal Estate",
+        "lat": 38.1348,
+        "lng": 23.7951,
+        "image": "images/tatoi_forest.jpg",
+        "description": "The former summer residence of the Greek Royal Family, featuring shaded forest trails, streams, palace ruins, and a unique blend of history and natural beauty.",
+        "audioText": "Welcome to Tatoi, the former summer estate of Greece's royal family and now a public park offering one of the most unusual forest experiences near Athens. Located on the northeastern slopes of Mount Parnitha at 500-700 meters altitude, Tatoi is where palace history meets Mediterranean woodland, where aristocratic leisure grounds have become democratic public space. The estate was acquired by the Greek royal family in 1871 and developed into a summer retreat with a palace, stables, vineyards, and extensive grounds. King George I loved Tatoi, and subsequent royals continued to develop it, planting exotic trees alongside native species—you'll find cedars from Lebanon, sequoias from California, palms, cypresses, all growing among Greek pines and oaks. The royal family was exiled in the 1960s and never returned; the estate fell into decay, and the palace itself—a neoclassical building with Art Nouveau elements—became a romantic ruin. Today, the palace remains closed to the public, its windows boarded, its once-grand rooms empty and deteriorating, though there are ongoing plans for restoration. But the grounds are open, and they're spectacular: 4,200 acres of forested parkland crisscrossed with walking and cycling paths, shaded by tall trees, cooled by streams and small waterfalls. The temperature here is noticeably lower than Athens—often 5-10 degrees cooler—making it a favorite escape on scorching summer days. As you walk the trails, you'll encounter remnants of royal life: old carriage roads, stone bridges, the chapel where several royal family members are buried, stables, workshops, and agricultural buildings. There's a small museum displaying royal family memorabilia and old photographs showing Tatoi in its glory days. The estate had its own dairy, winery, and farms that supplied the royal household. The forest itself is beautiful: dense, green, alive with birdsong, and filled with dappled light filtering through the canopy. Streams trickle through ravines, and picnic areas with tables and benches invite families to spread out for the day. On weekends, you'll see locals jogging, families cycling, children playing in the streams—a democratic use of space once reserved for royalty. Tatoi also holds a dark chapter in modern Greek history: in 1957, King Paul survived an assassination attempt here, and the estate witnessed various political intrigues during Greece's turbulent 20th century. But today's Tatoi is all about nature, history, and public recreation. It's accessible by car from northern Athens in about 30 minutes. Combine your visit with a hike on Parnitha or lunch at Bafi Refuge. Bring a picnic, rent bicycles, or just walk the shaded paths and imagine a time when kings and queens strolled these very trails. Tatoi proves that even royal estates, given time and democracy, can become beloved public spaces where everyone is welcome.",
+        "quiz": {
+            "question": "What is historically and naturally unique about Tatoi?",
+            "options": [
+                "Former Greek royal summer estate (1871) now public forest park with palace ruins, exotic trees, cool streams, and 4,200 acres of trails",
+                "It's the tallest building in Greece",
+                "It's a beach resort on an island",
+                "It's a modern shopping center built in 2020"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Tatoi blends royal history with natural beauty—a once-exclusive estate now offering cool forested trails, remnants of palace life, and democratic public recreation on Mount Parnitha's slopes."
+        },
+        "reward": {
+            "title": "Free bicycle rental at Tatoi Forest entrance",
+            "provider": "Tatoi Estate Visitors Center",
+            "codeHash": "7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f"
+        },
+        "id": 343
+    },
+    {
+        "name": "Ancient Penteli Marble Quarries",
+        "lat": 38.0695,
+        "lng": 23.8751,
+        "image": "images/penteli_quarries.jpg",
+        "description": "The historic marble extraction sites where Pentelic marble for the Parthenon was quarried, displaying ancient tool marks, abandoned column drums, and engineering marvels.",
+        "audioText": "You are standing in the ancient marble quarries of Mount Penteli, the industrial heart of classical Athens' greatest architectural achievements. This is where the Parthenon was born—not as a building, but as massive blocks of luminous white marble extracted from living rock by skilled craftsmen 2,400 years ago. The quarries are scattered across the southern and eastern faces of Penteli, at elevations between 600 and 1,000 meters. The main quarries—called the Spilia quarries after a nearby cave—are the most accessible and impressive. As you walk among the exposed rock faces, you're seeing a frozen moment in ancient industry. The quarry walls still bear the marks of ancient tools: the rectangular slots where bronze and iron wedges were hammered to split the stone, the chisel marks showing how workers shaped blocks, the grooves where ropes guided massive pieces down the mountainside. Some column drums sit abandoned, half-extracted, left in place when flaws were discovered or when demand shifted. These ghostly forms—cylinders of marble emerging from bedrock—offer rare insights into ancient engineering. The Greeks didn't have explosives or modern machinery; they used knowledge of the stone's natural bedding planes, water, wooden wedges, bronze tools, and sheer human labor to extract blocks weighing many tons. Quarry workers would drill a line of holes along a bedding plane, insert wooden wedges, soak the wood with water, and wait for the expansion to crack the stone along a clean line. Once freed, blocks were roughly shaped at the quarry to reduce weight, then lowered down the mountain on wooden sledges along paved roads, some sections of which survive. From the quarry to the Acropolis is about 20 kilometers—imagine the logistics of transporting multi-ton blocks over that distance using only ropes, pulleys, oxen, and human muscle. Pentelic marble is unique: pure white calcite with trace iron that gives it a warm, faintly golden hue, especially when exposed to sunlight and weathering. This 'patina of time' is one reason the Parthenon seems to glow in the afternoon light. The geologist's term is 'micrite,' an extremely fine-grained limestone recrystallized into marble by metamorphic heat and pressure deep underground, then uplifted by tectonic forces and exposed by erosion—a process taking millions of years to create stone perfect for sculpture and architecture. The quarries operated from the 6th century BC through the Roman period and were revived during the Byzantine era and even in the 19th century for neoclassical buildings. Each period left its mark. Modern quarrying equipment sits abandoned near older extraction sites, and you can trace the evolution of stone-working technology across millennia. Hiking through the quarries is a pilgrimage for architecture students, archaeologists, and anyone who loves the Parthenon. It's one thing to admire the finished building; it's another to see where it came from, to touch the same stone still in the mountain, to understand the physical reality behind architectural beauty. Combine your visit with a hike to Penteli's summit or a stop at Penteli Monastery. Bring sturdy shoes—the quarry floors are uneven, with scattered marble fragments—and a sense of awe for the ancient craftsmen who turned mountain into monument.",
+        "quiz": {
+            "question": "Why are the Penteli quarries archaeologically and architecturally important?",
+            "options": [
+                "They're where Parthenon marble was extracted 2,400 years ago; ancient tool marks and abandoned column drums reveal Greek engineering methods",
+                "They're the world's first gold mines",
+                "They're where paper was invented",
+                "They're modern concrete factories"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Penteli quarries show the origins of the Parthenon and classical architecture, preserving ancient extraction techniques, tool marks, and partially-completed marble pieces frozen in time."
+        },
+        "reward": {
+            "title": "Small Pentelic marble fragment + certificate",
+            "provider": "Penteli Archaeological Society",
+            "codeHash": "8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a"
+        },
+        "id": 344
+    },
+    {
+        "name": "Marathon Lake & Dam",
+        "lat": 38.1549,
+        "lng": 23.8944,
+        "image": "images/marathon_lake.jpg",
+        "description": "A scenic artificial reservoir built in 1920s with neoclassical Pentelic marble dam, offering lakeside hiking, recreation, and historic water infrastructure surrounded by forest.",
+        "audioText": "Welcome to Marathon Lake, officially known as the Marathon Reservoir—a beautiful artificial lake that combines practical infrastructure with architectural elegance and natural scenery. Created in 1926 by damming the Charadros stream, the lake was built to supply drinking water to Athens, addressing the capital's chronic water shortage. But this is no ordinary concrete dam. The dam itself is a neoclassical masterpiece, faced entirely with Pentelic marble—the same luminous stone that built the Parthenon. It was designed by architect Garoufallou to harmonize with Greece's classical heritage, featuring marble facades, decorative elements, and even a small chapel. The result is perhaps the world's most beautiful water engineering structure—a dam that looks like it could be an ancient monument rather than a 20th-century utility. The reservoir holds up to 41 million cubic meters of water, forming a lake roughly 2 kilometers long and 300 meters wide at its broadest. The surrounding landscape is forested with pines and plane trees, and the lake is embraced by the slopes of Mount Penteli to the south and Mount Agrieliki to the north. The scenery changes with the seasons: lush and full in spring after winter rains, lower and more contemplative in late summer, occasionally frosted with snow in the rare cold winters. The lake and its surroundings have become a popular recreational area. A paved road runs along parts of the shoreline, and hiking trails branch off into the surrounding hills. You'll see joggers, cyclists, families picnicking, and photographers capturing the lake's serene beauty. The area is particularly lovely in late afternoon when the marble dam catches the golden light. Birdwatchers appreciate the lake for its waterfowl: herons, cormorants, ducks, and migratory species stop here. The lake is also historically connected to the ancient Marathon battlefield just 5 kilometers to the east—the site where 9,000 Athenian hoplites defeated a larger Persian force in 490 BC, one of history's most consequential battles. The area's name comes from the wild fennel plant called 'marathon' that grew abundantly here in antiquity. Modern Marathon is a quiet town nearby, with the archaeological museum housing finds from the battlefield and burial mound. Visiting Marathon Lake can easily be combined with other sites: the Schinias Beach is just 15 minutes north, the Marathon battlefield and burial mound are 10 minutes east, and you're also close to Mount Penteli's hiking trails. Bring a picnic, walk along the lake, photograph the marble dam, and enjoy one of Attica's most peaceful spots—a place where human engineering and natural beauty coexist in rare harmony. The lake reminds us that even utilitarian infrastructure can aspire to beauty, that water is precious in Mediterranean climates, and that Athens' survival has always depended on the watersheds of its surrounding mountains.",
+        "quiz": {
+            "question": "What makes Marathon Lake's dam architecturally unique?",
+            "options": [
+                "It's entirely faced with Pentelic marble in neoclassical style (1926), making it the world's most beautiful water infrastructure",
+                "It's made of solid gold",
+                "It's the oldest dam in human history",
+                "It's invisible and underground"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Marathon Dam is a rare example of infrastructure as art—a functional reservoir dam designed with neoclassical elegance and clad in the same Pentelic marble as the Parthenon."
+        },
+        "reward": {
+            "title": "Marathon Lake guided nature walk + bird guide",
+            "provider": "Marathon Environmental Association",
+            "codeHash": "9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b"
+        },
+        "id": 345
+    },
+    {
+        "name": "Rapentosa Waterfall, Mount Penteli",
+        "lat": 38.1095,
+        "lng": 23.8991,
+        "image": "images/rapentosa_waterfall.jpg",
+        "description": "A seasonal waterfall and lush ravine on Penteli's northern slopes, featuring a scenic stream hike through pine forest, plane trees, and hidden natural oasis near Athens.",
+        "audioText": "Welcome to Rapentosa Waterfall, one of Attica's hidden gems—a seasonal cascade tucked into a verdant ravine on the northern slopes of Mount Penteli. In a region where water is precious and landscapes often dry and rocky, discovering a flowing stream, lush vegetation, and an actual waterfall feels like finding an enchanted grove. The name 'Rapentosa' comes from the small settlement near the trailhead, itself named after the stream that flows here. This is not a massive, thundering waterfall—Greece isn't Iceland—but rather an intimate, charming cascade where water tumbles over mossy rocks into a small pool surrounded by ferns, plane trees, pines, and reeds. The magic is as much about the journey as the destination: hiking up the ravine, following the stream, smelling the damp earth and wild herbs, feeling the temperature drop as you enter the microclimate created by water and vegetation. The waterfall is seasonal, flowing strongest in winter and spring after rains, slowing to a trickle or stopping completely by late summer. Visit in March through May for the best flow and to see wildflowers carpeting the ravine—poppies, orchids, anemones, and herbs. The hike begins near the village of Rapentosa or from Stamata, following the stream valley upward. The trail is moderate in difficulty, requiring decent footwear and some scrambling over rocks, but it's accessible for most fitness levels. The path follows the stream, crossing it several times, passing under the shade of tall pines that survived the devastating 2009 fires that scarred much of Penteli's northern slopes. As you ascend, the landscape shifts from fire-damaged areas to untouched sections where the ravine's moisture and topography created a natural firebreak. These green pockets feel miraculous—nature's resilience on display. The ravine is also home to birdlife, butterflies, and occasionally foxes and hares. The sound of running water attracts wildlife and creates a peaceful acoustic backdrop that's rare near Athens. At the waterfall itself, you'll find a small clearing where hikers rest, eat snacks, and enjoy the cool air. The pool is shallow and usually quite cold—fed by snowmelt and groundwater—but refreshing for brave swimmers or those who just want to dip their feet. Local families treat Rapentosa as a nature outing destination, combining the hike with picnics in the ravine. It's a place where children can play by the stream, adults can relax under the trees, and everyone can temporarily forget that Athens is just 30 kilometers away. The waterfall also connects hikers to the broader network of Penteli trails—from here, you can continue to the summit, explore the ancient marble quarries, or loop back via different routes. Rapentosa isn't well-known outside local hiking circles, which keeps it relatively uncrowded even on weekends. It's a reminder that Attica's mountains hold surprises: waterfalls, streams, green ravines, places where the Mediterranean landscape reveals its softer, wetter side. Bring water shoes if you plan to wade the stream, pack snacks, and don't forget your camera—the combination of water, forest, and light creates photogenic scenes around every bend.",
+        "quiz": {
+            "question": "When is the best time to visit Rapentosa Waterfall?",
+            "options": [
+                "March through May when seasonal flow is strongest after rains, wildflowers bloom, and the ravine is lush and green",
+                "August when it's completely dry",
+                "Only in winter during snowstorms",
+                "Year-round as it's an indoor attraction"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Rapentosa is a seasonal waterfall fed by winter/spring rains, offering the best experience in early spring with peak water flow, green vegetation, and wildflower displays."
+        },
+        "reward": {
+            "title": "Penteli hiking trails map + wildflower guide",
+            "provider": "Athens Hiking Club",
+            "codeHash": "0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c"
+        },
+        "id": 346
+    },
+    {
+        "name": "Parnitha National Park",
+        "lat": 38.1551,
+        "lng": 23.7295,
+        "image": "images/parnitha_national_park.jpg",
+        "description": "Greece's largest protected area near Athens, offering 250km² of dense fir forests, diverse wildlife including red deer and wolves, and extensive hiking trails.",
+        "audioText": "You are in Parnitha National Park, the crown jewel of Attica's protected natural areas and the only National Park within easy reach of a major European capital. Spanning 250 square kilometers across the mountain range that bears its name, Parnitha represents Greece's commitment to preserving wilderness even as Athens expands around it. The park was officially designated in 1961 and encompasses a remarkable diversity of ecosystems: dense coniferous forests dominated by Greek fir (Abies cephalonica) and black pine, mountain meadows, rocky peaks, deep gorges, over 200 caves, and 45 natural springs. The biodiversity here is exceptional for the Mediterranean: over 800 plant species, including rare orchids, wild tulips, and herbs; 40 mammal species including red deer (reintroduced in the 1960s and now thriving), foxes, wild boars, badgers, and a recently returned wolf population; and over 100 bird species including golden eagles, peregrine falcons, buzzards, woodpeckers, and numerous songbirds. Parnitha is a living laboratory where ecologists study Mediterranean mountain ecosystems and conservation strategies. The park's hiking trail network is extensive, with routes ranging from easy forest walks suitable for families to technical summit climbs requiring mountaineering skills. The trails are generally well-marked with colored signs, though serious hikers should bring proper maps. Popular routes include the Bafi-to-summit trail, the fountains circuit, the Goura Gorge traverse, and the Black Forest trail through particularly tall, straight conifers. The park's highest point is Karavola peak at 1,413 meters, offering panoramic views across Attica and beyond. Geologically, Parnitha is complex limestone and marble uplifted by tectonic forces, creating the dramatic topography of peaks, cliffs, sinkholes, and caves that characterizes the landscape. The mountain's hydrology is rich—all those springs feed streams that eventually supply Athens' water, reminding visitors that the park serves practical as well as recreational and ecological functions. The park faced its greatest threat in 2007 when a massive wildfire burned approximately 20% of the forested area, particularly on the southeastern slopes. The recovery has been ongoing, with a mix of natural regeneration and human reforestation. Today, you can see the contrast between fire-damaged zones slowly recovering and the untouched old-growth forests—a testament to both nature's resilience and fragility. Parnitha offers facilities for visitors: the Bafi and Flampouri refuges provide food, shelter, and trail information; there are picnic areas with tables and benches; and the park administration maintains trails and signage. Access is via several paved roads from surrounding towns, and parking is available at key trailheads. The park is busiest on weekends and holidays when Athenians escape the city for mountain air and nature, but weekdays can be remarkably quiet. Whether you're a serious hiker seeking summit challenges, a family wanting a forest picnic, a wildlife photographer, or simply someone who needs to remember that wilderness still exists close to urban centers, Parnitha National Park welcomes you. It's proof that even cities need their mountains, that protected areas can coexist with modern life, and that Greeks' ancient reverence for nature continues in contemporary conservation efforts.",
+        "quiz": {
+            "question": "What makes Parnitha National Park ecologically important for Athens?",
+            "options": [
+                "It's the only National Park near a major European capital, protecting 250km² of fir forest, 800+ plant species, red deer, wolves, and 200+ caves",
+                "It's a shopping mall with no nature",
+                "It's underwater in the Mediterranean Sea",
+                "It's a desert with no vegetation"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Parnitha is a unique urban-adjacent National Park preserving wilderness, biodiversity, water resources, and recreation opportunities just 30 minutes from Athens."
+        },
+        "reward": {
+            "title": "Annual Parnitha National Park hiking pass",
+            "provider": "Hellenic National Parks Authority",
+            "codeHash": "1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d"
+        },
+        "id": 347
+    },
+    {
+        "name": "Schinias National Park (Pine Forest)",
+        "lat": 38.1207,
+        "lng": 23.9850,
+        "image": "images/schinias_park.jpg",
+        "description": "A protected coastal park combining 5km of pristine sandy beach with rare coastal pine forest and wetlands hosting 200+ bird species near Marathon.",
+        "audioText": "Welcome to Schinias-Marathon National Park, a unique protected area where sandy beaches, coastal pine forest, and wetland ecosystems converge to create one of Greece's most valuable natural reserves. Located along the northeastern coast of Attica near Marathon, about 45 kilometers from Athens, the park was officially designated in 2008 to protect this rare combination of coastal habitats. The most visually striking feature is the pine forest that comes right down to the beach—a rare coastal Aleppo pine (Pinus halepensis) forest that provides natural shade and creates a microclimate unique among Greek beaches. These pines are wind-sculpted, their branches bent and twisted by the sea breezes, creating a landscape that feels both Mediterranean and almost Nordic. Walking through the forest on a hot summer day, with the scent of pine resin and sea salt mixing in the air, is a sensory experience that defines Greek coastal nature. Behind the dunes and forest lies the park's ecological heart: the Marathon wetlands, a freshwater marsh fed by streams from surrounding mountains. These wetlands are a critical stopover and nesting site for over 200 bird species, including rare and endangered species like the little bittern, purple heron, ferruginous duck, and various migratory waterfowl that use the Mediterranean flyway. During spring and autumn migration periods, birdwatchers flock here with binoculars and cameras to document species passing through. The wetlands are also home to amphibians, reptiles (including the Balkan green lizard and dice snake), and a diversity of aquatic plants. The beach itself stretches for about 5 kilometers, offering some of the finest sand in mainland Greece—soft, golden, and comfortable underfoot. The water is shallow, warm by mid-summer, and remarkably clean thanks to the protective bay and good circulation. The northern section hosted the rowing and canoeing events during the Athens 2004 Olympics, and the Olympic Rowing Center still operates here, its distinctive white building visible from the beach. The park faces conservation challenges: balancing public access and recreation with ecosystem protection, managing development pressure, addressing pollution from nearby roads, and adapting to climate change impacts on coastal habitats. The park administration has implemented zoning—areas for intensive recreation, areas for controlled access, and core conservation zones closed to the public to protect sensitive habitats and nesting sites. Visiting Schinias National Park offers multiple experiences: you can swim at one of Athens' best beaches, hike or cycle through the pine forest on marked trails, birdwatch from observation platforms overlooking the wetlands, learn about coastal ecosystems at the park's information center, or simply enjoy a picnic under the pines. The park is accessible by car or bus from Athens, and facilities include parking areas, beach bars (in designated zones), and basic amenities. Combine your visit with nearby historical sites: the Marathon battlefield and burial mound are just 5 kilometers away, and the Marathon Archaeological Museum houses remarkable finds including the Marathon Boy bronze statue. Schinias represents what conservation can achieve—protecting natural beauty and biodiversity while still allowing people to enjoy and appreciate these precious landscapes. It's a place where you can swim in the morning, birdwatch in the afternoon, and leave with a deeper appreciation for Greece's natural heritage.",
+        "quiz": {
+            "question": "What ecosystems make Schinias National Park ecologically unique?",
+            "options": [
+                "It combines rare coastal pine forest, 5km of sandy beach, and wetlands hosting 200+ bird species including endangered waterfowl",
+                "It's entirely covered in ice and snow",
+                "It's an underground cave system with no surface",
+                "It's a volcanic caldera with no vegetation"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Schinias is a protected coastal park preserving the rare combination of Aleppo pine forest, pristine beaches, and freshwater marshes critical for Mediterranean biodiversity."
+        },
+        "reward": {
+            "title": "Guided wetlands birdwatching tour + bird checklist",
+            "provider": "Schinias National Park Authority",
+            "codeHash": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e"
+        },
+        "id": 348
+    }
+,
+    {
+        "name": "Kaisariani Forest, Mount Hymettus",
+        "lat": 37.9646,
+        "lng": 23.7982,
+        "image": "images/kaisariani_forest.jpg",
+        "description": "A peaceful pine forest on Hymettus' western slopes surrounding the 11th-century Byzantine monastery, offering shaded hiking trails and escape from Athens heat.",
+        "audioText": "Welcome to Kaisariani Forest, a green oasis on the western slopes of Mount Hymettus that has provided respite, inspiration, and spiritual solace for over a thousand years. Just 5 kilometers from central Athens, this forested area surrounds the Byzantine Monastery of Kaisariani, creating a pocket of tranquility that feels worlds away from the urban sprawl below. The forest is primarily Aleppo pine mixed with cypress trees, creating dense shade and that distinctive Mediterranean pine scent that Greeks associate with mountain escapes. The name 'Kaisariani' comes from the abundant springs here—'kaisaria' in Greek refers to springs or fountains—and indeed, the area has been valued for its water since ancient times. The Romans built aqueducts to carry Kaisariani's spring water to Athens, and the Byzantines chose this spot for their monastery precisely because of the reliable water source. The forest trails are numerous and well-used, popular with joggers, hikers, and families seeking a weekend nature outing. The paths wind through the pines, past small clearings with picnic tables, along remnants of ancient and Byzantine water channels, and eventually up the mountain toward Hymettus' higher elevations. The forest provides natural air conditioning—temperatures here are typically 5-8 degrees cooler than the city below, making it a beloved summer escape. At the heart of Kaisariani Forest stands the Monastery of Kaisariani, an 11th-century Byzantine jewel. The monastery complex includes a katholikon (main church) with remarkable frescoes from the 17th century depicting biblical scenes and saints, a courtyard with a massive plane tree, a refectory, cells, and auxiliary buildings. The spring that feeds the monastery flows from a ram's head fountain, continuously providing cool, clear water. The monastery functioned until the 1960s and is now preserved as a museum and historical monument, open to visitors who can explore the church, view the frescoes, and walk the peaceful courtyard. The combination of forest and monastery creates a unique experience: nature and spirituality intertwined, a tradition that goes back to Byzantine monasticism when monks sought isolated mountain locations for contemplation. Kaisariani Forest also has ecological importance as one of the few remaining forested areas on Hymettus' otherwise rocky, scrub-covered slopes. It provides habitat for birds, small mammals, insects, and a diversity of plants. In spring, wildflowers bloom among the trees, and the forest floor comes alive with color. The historical resonance of Kaisariani extends beyond Byzantine times—during World War II and the Greek Civil War, this forest witnessed tragic events, including Nazi executions of resistance fighters. A memorial near the monastery honors those who died. Today, Kaisariani represents peaceful recreation, but the memory of darker times adds depth to its story. Visiting Kaisariani Forest is easy: accessible by car or bus from central Athens in about 20 minutes, with parking near the monastery. Combine your monastery visit with a forest walk, or use Kaisariani as a starting point for longer hikes up Hymettus toward the summit. Bring water, wear comfortable shoes, and consider visiting early morning or late afternoon to avoid crowds and enjoy the best light filtering through the pines. Kaisariani proves that even in one of Europe's most densely populated urban areas, pockets of forest, history, and serenity survive—treasured by locals and increasingly discovered by visitors who want to experience Athens beyond the ancient ruins.",
+        "quiz": {
+            "question": "What makes Kaisariani Forest historically and naturally significant?",
+            "options": [
+                "It's a pine forest on Hymettus surrounding an 11th-century Byzantine monastery with frescoes, sacred springs, and shaded trails near Athens",
+                "It's the world's largest jungle with tigers",
+                "It's a desert with no trees or water",
+                "It's an underwater coral reef"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Kaisariani combines natural beauty (cool pine forest, ancient springs) with cultural heritage (Byzantine monastery with 17th-century frescoes) just minutes from downtown Athens."
+        },
+        "reward": {
+            "title": "Kaisariani Monastery entry + forest trail map",
+            "provider": "Byzantine Museum of Athens",
+            "codeHash": "3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f"
+        },
+        "id": 349
+    },
+    {
+        "name": "Lake Beletsi, Mount Parnitha",
+        "lat": 38.1762,
+        "lng": 23.7689,
+        "image": "images/lake_beletsi.jpg",
+        "description": "A small, scenic mountain lake on Parnitha's eastern slopes at 950m, offering peaceful hiking destination, forest setting, and rare alpine lake atmosphere near Athens.",
+        "audioText": "Welcome to Lake Beletsi, a hidden gem tucked into the eastern slopes of Mount Parnitha at 950 meters altitude—a small mountain lake that offers a taste of alpine tranquility just an hour from Athens. In a region where water bodies are rare and often artificial, discovering a natural mountain lake surrounded by forest feels like stumbling into a fairy tale. Lake Beletsi is not large—roughly 200 meters long and 100 meters wide at its maximum—but its setting is enchanting. The lake sits in a natural depression, fed by springs and seasonal runoff, surrounded by mixed forest of pines, oaks, and deciduous trees that turn golden and red in autumn. The water level fluctuates seasonally, fullest in spring after snowmelt and winter rains, lower in late summer. The lake's surface reflects the surrounding trees and sky, creating mirror-like scenes beloved by photographers. The area around Lake Beletsi is peaceful and relatively undeveloped compared to other Parnitha destinations. A dirt road provides vehicle access from the village of Thrakomakedones, but many hikers prefer to reach the lake on foot via forest trails from other Parnitha trailheads, making the journey part of the experience. Near the lake, you'll find a simple stone shelter (a small chapel dedicated to the Virgin Mary) and a few picnic tables, but facilities are minimal—this is nature at its least developed. The lake attracts diverse visitors: families seeking a quiet picnic spot, hikers incorporating it into longer Parnitha routes, birdwatchers hoping to spot waterfowl and woodland birds, and mountain bikers exploring Parnitha's network of dirt roads. In winter, when Athens gets its rare snowfalls, the lake area transforms into a winter wonderland, with snow covering the forest and ice sometimes forming on the water's surface—creating scenes that feel more Alpine than Mediterranean. The ecological value of Lake Beletsi lies in its rarity: small mountain lakes are uncommon in the Mediterranean climate, and this one provides habitat for amphibians (frogs and salamanders), aquatic insects, and the animals and birds that depend on this water source. The surrounding forest shelters Parnitha's typical fauna: red deer sometimes come to drink here, foxes hunt the meadow edges, and owls nest in the old trees. Visiting Lake Beletsi works well as a destination hike—reaching the lake, having lunch, exploring the surrounding forest, and returning—or as a waypoint on longer Parnitha routes connecting to the summit, Bafi Refuge, or other landmarks. The lake is particularly beautiful in early morning when mist rises from the water, in autumn when the foliage reflects in vibrant colors, and after fresh snowfall in winter. Bring food and water (there are no facilities), respect the natural environment (pack out all trash), and enjoy the rare experience of an alpine lake atmosphere within reach of one of Europe's largest cities. Lake Beletsi reminds us that even well-explored mountains like Parnitha still hold quiet corners where nature's rhythms continue undisturbed, where the only sounds are wind in the trees, birdsong, and perhaps the distant laughter of fellow hikers appreciating this peaceful refuge.",
+        "quiz": {
+            "question": "What makes Lake Beletsi special on Mount Parnitha?",
+            "options": [
+                "It's a rare small mountain lake at 950m offering peaceful alpine atmosphere, forest setting, and seasonal beauty near Athens",
+                "It's the largest lake in Europe",
+                "It's a saltwater ocean bay",
+                "It's an indoor swimming pool"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Lake Beletsi is a hidden natural mountain lake on Parnitha, providing a rare alpine lake experience with seasonal changes, wildlife, and tranquility close to Athens."
+        },
+        "reward": {
+            "title": "Parnitha forest ecology guidebook",
+            "provider": "Parnitha National Park",
+            "codeHash": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a"
+        },
+        "id": 350
+    },
+    {
+        "name": "Valanaris Waterfall, Drafi",
+        "lat": 38.0956,
+        "lng": 23.8845,
+        "image": "images/valanaris_waterfall.jpg",
+        "description": "A seasonal waterfall near Drafi on Mount Penteli's foothills, offering easy hiking through pine forest and stream-side trails—a family-friendly nature escape.",
+        "audioText": "Welcome to Valanaris Waterfall, a charming seasonal cascade nestled in the foothills of Mount Penteli near the village of Drafi. While not as dramatic as some waterfalls, Valanaris embodies the intimate beauty of Attica's small natural wonders—modest in scale but rich in atmosphere, easily accessible, and perfect for families seeking a gentle introduction to nature hiking. The name 'Valanaris' refers to the small ravine and stream that feeds this waterfall, flowing strongest from late winter through spring when rainfall and snowmelt combine to create a consistent flow. By summer's end, the waterfall often reduces to a trickle or stops entirely, so timing your visit matters. March through May offers the best experience: full water flow, lush greenery, wildflowers blooming along the trail, and comfortable temperatures for hiking. The trail to Valanaris begins near Drafi village and follows the stream valley through pine forest and Mediterranean scrubland. The path is well-worn and relatively easy, suitable for children and less experienced hikers—about 30-45 minutes of walking each way, with gentle elevation gain. The trail crosses the stream several times (bring water-resistant footwear or be prepared for wet feet), passes through shaded sections under tall pines, and offers glimpses of birds and butterflies attracted to the water. As you approach the waterfall, the sound of falling water grows louder, and the vegetation becomes lusher. Ferns, mosses, and plane trees thrive in the moist microclimate created by the waterfall's spray. The fall itself drops about 6-8 meters over layered rock, creating a small pool at its base. The pool is shallow and cold—fed by mountain runoff—but refreshing for those brave enough for a quick dip or just to wade and cool off. The surrounding rocks provide natural seating where hikers rest, eat snacks, and enjoy the peaceful ambiance. Valanaris is popular with local families who treat it as a weekend nature outing. You'll often find parents with young children exploring the stream, teenagers taking photos, and older hikers who appreciate the ease of access combined with genuine natural beauty. The site remains relatively uncrowded outside peak spring weekends, and there's a sense of shared stewardship among visitors—most people pack out their trash and respect the environment. The waterfall area is also a good spot for nature observation: dragonflies and butterflies gather near the water, small fish dart in the pool, birds come to drink and bathe, and wildflowers like poppies, irises, and orchids bloom along the stream banks in spring. Photographers appreciate the combination of water, forest, and natural light that creates appealing compositions. Visiting Valanaris can easily be combined with other Penteli activities: the ancient marble quarries are accessible via connecting trails, Penteli's summit is a more ambitious extension, and the nearby villages of Drafi and Pikermi offer traditional tavernas for post-hike meals. The waterfall is about 25-30 minutes by car from central Athens, making it a practical half-day excursion. Bring snacks and water, wear shoes suitable for wet rocks, and consider bringing a lightweight towel if you plan to wade. Valanaris Waterfall may not be grand by international standards, but it delivers exactly what Athenians treasure: a nearby, accessible natural retreat where water, greenery, and the sound of a stream create a temporary escape from urban life. It's proof that you don't need wilderness expeditions to find nature's restorative power—sometimes a small waterfall, a short hike, and the company of family or friends are exactly enough.",
+        "quiz": {
+            "question": "When is the best season to visit Valanaris Waterfall?",
+            "options": [
+                "March through May when water flow is strongest, wildflowers bloom, and temperatures are comfortable for the stream-side hike",
+                "Late summer when it's completely dry",
+                "Only during winter blizzards",
+                "Year-round as it's an indoor attraction"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Valanaris is a seasonal waterfall best visited in spring when rainfall creates good flow, vegetation is lush, and the easy family-friendly trail is most enjoyable."
+        },
+        "reward": {
+            "title": "Drafi taverna meal discount coupon",
+            "provider": "Valanaris Trail Association",
+            "codeHash": "5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b"
+        },
+        "id": 351
+    },
+    {
+        "name": "Goura Gorge, Mount Parnitha",
+        "lat": 38.1598,
+        "lng": 23.7124,
+        "image": "images/goura_gorge.jpg",
+        "description": "A dramatic limestone gorge on Parnitha with steep cliffs, technical hiking trails, and spectacular geological formations—adventure hiking in Athens wilderness.",
+        "audioText": "Welcome to Goura Gorge, one of Mount Parnitha's most dramatic natural features—a deep limestone canyon that offers adventurous hikers a challenging and spectacular route through Attica's wildest terrain. This is not a casual stroll; Goura Gorge demands proper footwear, physical fitness, route-finding skills, and respect for the mountain's power. But for those prepared, it delivers an unforgettable wilderness experience just 40 kilometers from Athens. The gorge cuts through Parnitha's limestone bedrock, carved over millennia by water erosion and tectonic forces. The result is a narrow canyon with walls rising 50-100 meters on either side, creating a claustrophobic yet awe-inspiring passage through the mountain's heart. The gorge floor is rocky and uneven, with boulders, scree, and occasional seasonal water flow. In winter and spring, a small stream runs through the gorge; by summer, it's usually dry except in the deepest sections. Hiking Goura Gorge typically begins from one of several access points—Bafi Refuge, Flampouri, or via forest trails connecting to the gorge's upper or lower entrances. The full traverse can take 4-6 hours depending on conditions, route choices, and fitness levels. The trail follows the gorge floor, requiring occasional scrambling over boulders, navigating around obstacles, and even some basic rock-climbing moves in certain sections (though no technical gear is required for the standard route). The gorge is famous among Greek hikers for its geological beauty: layered limestone strata visible in the canyon walls, showing millions of years of deposition and uplift; fossil imprints embedded in the rock; caves and overhangs where water has dissolved the limestone; and unique rock formations sculpted by erosion. The play of light within the narrow gorge creates constantly changing scenes—shafts of sunlight penetrating the shadows, highlighting textures and colors in the stone. The gorge also supports a specialized ecosystem. The shaded, sheltered environment provides habitat for plants that can't survive on Parnitha's exposed slopes: ferns, mosses, and shade-loving wildflowers. Raptors nest on the cliff faces—you might spot rock falcons or buzzards circling overhead. The gorge's water sources attract animals: foxes, deer, wild boars, and smaller mammals use the gorge as a travel corridor through the mountain. Goura Gorge has a reputation among hikers as both beautiful and potentially dangerous. Flash floods are possible during heavy rains, especially in autumn and winter storms, when the gorge can fill rapidly with water—never enter the gorge if rain is forecast or if you see storm clouds gathering. The terrain is rough, and ankle injuries are common, so proper hiking boots are essential. Navigation can be tricky in places where the route branches or becomes obscure—bring a detailed map, GPS, or experienced companions. Cell phone coverage is limited or absent in the gorge's depths. Despite (or because of) these challenges, Goura Gorge attracts hikers seeking authentic mountain adventure. There's a satisfaction in negotiating difficult terrain, in being surrounded by vertical rock walls under a ribbon of sky, in experiencing wilderness that feels genuinely remote despite proximity to Athens. The sense of accomplishment upon emerging from the gorge—tired, dusty, exhilarated—is what mountain hiking is all about. If you're planning to hike Goura Gorge, go with experienced companions or a hiking club that knows the route, check weather forecasts, bring plenty of water and snacks, wear sturdy boots, and be prepared to turn back if conditions are unsafe. This is Parnitha at its wildest—beautiful, challenging, and demanding respect from those who venture into its depths.",
+        "quiz": {
+            "question": "What makes Goura Gorge a challenging hiking destination?",
+            "options": [
+                "It's a dramatic limestone canyon with 50-100m cliffs, requiring scrambling, route-finding skills, and caution for flash floods",
+                "It's a paved road with no elevation change",
+                "It's an indoor shopping mall",
+                "It's a flat beach with no obstacles"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Goura Gorge is Parnitha's most technical hiking route, offering adventure through a narrow canyon with geological beauty, but requiring proper preparation and safety awareness."
+        },
+        "reward": {
+            "title": "Advanced Parnitha hiking routes guidebook",
+            "provider": "Athens Mountaineering Club",
+            "codeHash": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c"
+        },
+        "id": 352
+    },
+    {
+        "name": "Skipiza Spring, Mount Parnitha",
+        "lat": 38.1672,
+        "lng": 23.7163,
+        "image": "images/skipiza_spring.jpg",
+        "description": "The highest natural spring in Attica at 1,200m, offering ice-cold mountain water, forest setting, and a refreshing stop on Parnitha summit hikes.",
+        "audioText": "Welcome to Skipiza Spring, the highest natural spring in the entire Attica region at 1,200 meters altitude on Mount Parnitha. Even in the blazing heat of August, when Athens swelters at 38 degrees Celsius, the water flowing from Skipiza remains ice-cold, crystal clear, and seemingly infinite—a gift from the mountain's deep aquifers that has sustained hikers, shepherds, and wildlife for millennia. The name 'Skipiza' has uncertain etymology, possibly related to old Greek words for 'shade' or 'shelter,' fitting given the spring's location beneath tall fir trees that provide cooling shade. The spring emerges from limestone bedrock, flowing from a simple stone fountain structure built by earlier generations of hikers to capture and direct the water. The flow is consistent year-round, fed by groundwater from Parnitha's higher elevations and by snowmelt in late winter and spring. Tasting water directly from a mountain spring is one of hiking's simple pleasures. Skipiza's water is cold enough to numb your hands, pure enough to drink without treatment (though always use your judgment), and refreshing in a way that bottled water can never match. Hikers fill their bottles here, splash their faces, sit in the shade, and appreciate the mountain's generosity. The spring is a popular waypoint on several Parnitha routes. The most common approach is the Bafi-Skipiza-Summit trail: you start from Bafi Refuge, hike through dense forest for about 1.5-2 hours, reach Skipiza for a rest and water refill, then continue the final push to Karavola summit. The spring marks the transition from forested lower slopes to the more exposed upper mountain, making it a psychological as well as physical checkpoint. The area around Skipiza is beautiful: tall Greek firs (Abies cephalonica) create a cathedral-like forest, their straight trunks rising toward the sky, their canopy filtering sunlight into soft, dappled patterns. The forest floor is carpeted with pine needles, wildflowers in spring, and the occasional mushroom in autumn. Birds are abundant—crossbills, woodpeckers, nuthatches, and various songbirds forage in the trees, and you might spot red deer tracks in soft soil near the water. The spring also has cultural resonance for Greek hikers: it appears in countless trip reports, hiking club discussions, and mountain lore. Older hikers remember when reaching Skipiza was a milestone achievement before trails were well-marked, when navigating by landmark springs was essential. Even today, with GPS and trail apps, many hikers navigate Parnitha using traditional waypoints like Skipiza, maintaining connection with the mountain's human history. From an ecological perspective, springs like Skipiza are critical for Parnitha's ecosystem. They provide water for animals—deer, foxes, boars, birds, and insects all depend on these high-altitude sources, especially in summer when lower elevations dry out. The springs also support riparian vegetation (plants that need consistent moisture) that wouldn't survive on drier slopes. Visiting Skipiza is usually part of a larger Parnitha hike rather than a standalone destination, though some people do make the shorter trek from Bafi just to reach the spring and return. Bring an empty bottle to fill, respect the site by not littering, and take a moment to appreciate that you're drinking water that has journeyed through kilometers of mountain rock, filtered naturally, and emerged cold and pure—a reminder of nature's elegance and generosity. Skipiza Spring is proof that even in the age of bottled water and convenience stores, there's something irreplaceable about cupping your hands under a mountain spring and drinking water as humans have for thousands of years.",
+        "quiz": {
+            "question": "What makes Skipiza Spring significant for Mount Parnitha hikers?",
+            "options": [
+                "It's Attica's highest spring at 1,200m, providing ice-cold pure water year-round as a crucial waypoint on summit trails",
+                "It's a hot thermal spring with healing properties",
+                "It's the largest waterfall in Greece",
+                "It's a man-made reservoir built in 2010"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Skipiza is a legendary mountain spring offering cold, pure water at high altitude, serving as both physical refreshment and traditional waypoint for Parnitha summit hikers."
+        },
+        "reward": {
+            "title": "Reusable Parnitha mountain water bottle",
+            "provider": "Hellenic Hiking Federation",
+            "codeHash": "7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d"
+        },
+        "id": 353
+    },
+    {
+        "name": "Panos Cave, Mount Parnitha",
+        "lat": 38.1541,
+        "lng": 23.7285,
+        "image": "images/panos_cave.jpg",
+        "description": "A small limestone cave on Parnitha accessible by hiking trails, offering geological interest, cool shelter, and connection to ancient worship of the god Pan.",
+        "audioText": "Welcome to Panos Cave, a small but historically and geologically interesting cave on Mount Parnitha that connects today's hikers with ancient Greek mythology and religion. The name 'Panos' directly references Pan, the rustic god of shepherds, flocks, and wild nature—half-man, half-goat, player of the pan flute, who dwelled in caves and remote mountains. Whether this specific cave was an actual cult site is debated by archaeologists, but the tradition persists, and the name reflects the ancient Greek practice of associating mountain caves with divine presence. Panos Cave is not a show cave like Koutouki—there's no electric lighting, no guided tours, no walkways or safety rails. This is a natural cave in its relatively undisturbed state, accessible to hikers willing to scramble a bit off the main trail. The cave entrance is roughly 2-3 meters high and leads into a chamber perhaps 15-20 meters deep. The interior is dark (bring a headlamp or flashlight), cool (the constant temperature makes it a refreshing stop on hot summer hikes), and home to cave-adapted wildlife including bats, spiders, and insects. The cave's geology is typical of Parnitha's karst landscape: limestone dissolved by slightly acidic rainwater over hundreds of thousands of years, creating cavities and passages. Panos Cave is modest compared to Parnitha's larger cave systems (the mountain has over 200 cataloged caves), but its accessibility makes it interesting for non-specialist hikers curious about cave formation and underground ecosystems. Please note that entering caves always carries risks—watch for loose rocks, slippery surfaces, sudden drops, and wildlife. Never enter alone, always tell someone where you're going, and if you're not comfortable with caves, just visiting the entrance area and imagining the ancient context is rewarding enough. Ancient Greeks viewed caves as liminal spaces—thresholds between the world of humans and the divine. Caves were associated with gods (Pan, the nymphs, Dionysus), used as sanctuaries, and featured in myths as entrances to the underworld. Shepherds would leave small offerings at cave entrances, seeking Pan's protection for their flocks. The god Pan himself was believed to cause 'panic'—that sudden, irrational fear one might feel in wild, isolated places, especially in the eerie quiet of mountain forests. Standing at Panos Cave, it's easy to imagine ancient shepherds experiencing that same mix of awe and unease that mountains still inspire. The cave is accessed via hiking trails from several directions—Bafi Refuge, other Parnitha trailheads—and is sometimes incorporated into loop hikes that include other landmarks like Skipiza Spring or the summit. The cave's location offers nice views across Parnitha's forested slopes when you emerge back into daylight. From an ecological standpoint, caves like Panos provide critical habitat for bats, which are important for pest control and pollination in Parnitha's ecosystem. Greek bat species include the Mediterranean horseshoe bat and several mouse-eared bats, some of which roost in mountain caves. Please don't disturb bats if you see them—they're protected and sensitive to human disturbance. Visiting Panos Cave adds a layer of mythology and exploration to a Parnitha hike. It's a chance to engage with the mountain not just as scenic backdrop but as a place with deep cultural history, where ancient beliefs and natural wonders intersected. Whether you're interested in geology, mythology, history, or just curious about what's inside a mountain cave, Panos offers a tangible connection to Greece's layered past. And as you hike back down through Parnitha's fir forests, perhaps you'll understand why ancient Greeks believed that gods still walked these mountains, that nature was alive with divine presence, and that a cave was not just geology but a doorway to mystery.",
+        "quiz": {
+            "question": "What mythological significance does Panos Cave have?",
+            "options": [
+                "It's named after the god Pan and reflects ancient Greek beliefs in caves as sacred spaces where gods like Pan dwelled",
+                "It was the home of Zeus and Hera",
+                "It's where the Olympic Games were first held",
+                "It's a modern cave discovered in 2025"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Panos Cave connects to ancient worship of Pan, the rustic god of wild nature, reflecting Greek beliefs that mountain caves were liminal spaces between human and divine realms."
+        },
+        "reward": {
+            "title": "Greek mythology and nature guidebook",
+            "provider": "Hellenic Speleological Society",
+            "codeHash": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e"
+        },
+        "id": 354
+    }
+
 ];
 
 let map;
