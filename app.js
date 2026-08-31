@@ -7054,51 +7054,51 @@ const POIs = [
             "id": 283
         },
         {
-            "name": "Daphni Monastery - Byzantine Masterpiece",
-            "lat": 38.01296,
-            "lng": 23.63588,
-            "image": "images/daphni_monastery.jpg",
-            "description": "An 11th-century UNESCO World Heritage monastery famous for its breathtaking gold-ground Byzantine mosaics, among the finest in the world.",
-            "audioText": "You are at the Monastery of Daphni, one of the supreme masterpieces of middle Byzantine art and a UNESCO World Heritage Site. Built in the 11th century on the Sacred Way to Eleusis, the monastery is named after the laurel groves (daphne in Greek) that surrounded it. Step inside the church and prepare to be dazzled—the interior is covered with sumptuous gold-ground mosaics that are among the finest examples of Byzantine art anywhere in the world. In the dome, a severe and majestic Pantokrator Christ gazes down, surrounded by prophets. The scenes from Christ's life show a refined artistic style that points to workshops from Constantinople. The arrangement follows the established middle Byzantine program: the Pantokrator in the dome symbolizes heaven, the Virgin in the apse represents the incarnation, and narrative scenes from Christ's life fill the rest of the church. The mosaic technique and the luminous gold backgrounds create an immersive spiritual atmosphere that transported worshippers beyond the physical world. The monastery was built on the site of an earlier Christian church, which itself replaced an ancient temple to Apollo. During the Frankish occupation it became a Cistercian monastery. Today, along with Hosios Loukas and Nea Moni of Chios, it represents the height of Byzantine artistic achievement.",
+            "name": "Church of Agioi Theodoroi",
+            "lat": 37.9772,
+            "lng": 23.7320,
+            "image": "images/agioi_theodoroi.jpg",
+            "description": "One of Athens' most important Byzantine monuments, built in 1049-1065 by the Byzantine official Nikolaos Kalomalos, near Klathmonos Square.",
+            "audioText": "You are at the Church of Agioi Theodoroi, one of the most important and beautiful Byzantine monuments in central Athens. Located near Klathmonos Square, this church stands as a testament to middle Byzantine architectural excellence. According to inscriptions preserved on the western wall, the church was erected by the spatharocandidatus Nikolaos Kalomalos—a Byzantine official whose title indicates he was a member of the palace guard. A second inscription gives us the foundation date of either 1049 or 1065, placing it firmly in the golden age of Byzantine Athens. The church is a classic example of the cross-in-square type with a dome, featuring the elegant proportions and refined details characteristic of 11th-century Constantinopolitan style. The masonry uses the cloisonné technique—alternating courses of brick and stone—with decorative brick patterns creating visual interest on the exterior walls. When King Otto brought the Bavarian architect Leo von Klenze to plan the new Athens after Greek independence, many Byzantine churches were threatened with demolition to make way for modern streets. The Church of Agioi Theodoroi was saved thanks to the intervention of King Otto himself and Queen Amalia, who recognized its historical and artistic value. Restoration works in the 19th century preserved this jewel for future generations. The church remains active today, its ancient stones witnessing the daily life of modern Athens flowing around it.",
             "quiz": {
-                "question": "What makes Daphni Monastery a UNESCO World Heritage Site?",
+                "question": "Who built the Church of Agioi Theodoroi and when?",
                 "options": [
-                    "Its exceptional 11th-century gold-ground Byzantine mosaics",
-                    "It was the first monastery in Greece",
-                    "It contains the oldest church bell in the world",
-                    "Alexander the Great was buried there"
+                    "Byzantine official Nikolaos Kalomalos in 1049-1065",
+                    "Emperor Constantine in 330 AD",
+                    "King Otto in 1834",
+                    "Pericles in the 5th century BC"
                 ],
                 "answer": 0,
-                "feedback": "Correct! Daphni's mosaics are considered among the finest examples of middle Byzantine art in the world."
+                "feedback": "Correct! The spatharocandidatus Nikolaos Kalomalos built this church in the mid-11th century, as documented by inscriptions."
             },
             "reward": {
-                "title": "Byzantine art history lecture and tour",
-                "provider": "Daphni Archaeological Site",
+                "title": "Byzantine Athens walking tour guidebook",
+                "provider": "Hellenic Ministry of Culture",
                 "codeHash": "7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d"
             },
             "id": 284
         },
         {
-            "name": "Kaisariani Monastery - Mount Hymettus Refuge",
-            "lat": 37.96083,
-            "lng": 23.79833,
-            "image": "images/kaisariani_monastery.jpg",
-            "description": "A Byzantine monastery from ca. 1100 AD nestled in the pine forests of Mount Hymettus, built on the site of an ancient sanctuary.",
-            "audioText": "You are at the Kaisariani Monastery, a beautiful Byzantine sanctuary hidden in the pine forests on the northern slopes of Mount Hymettus. The monastery was probably established around 1100 AD, though the site has a much longer sacred history—in antiquity, a temple to Aphrodite stood here, and by the 5th or 6th century it had been taken over by Christians. An early Christian basilica from the 6th century was followed by a larger one in the 10th century before the current complex was built. The monastery's katholikon is a cross-in-square church with a dome and four columns, built in the classic middle Byzantine style with cloisonné masonry—alternating courses of brick and stone. The interior preserves wall paintings from the late 17th century, including frescoes from 1682 by the painter Ioannes Hypatios, according to an inscription. The monastery complex includes a refectory and kitchen to the west, cells along the south and west sides, and remarkably, an 11th-century bathhouse with a domed central chamber. Just outside the walls are the ruins of the earlier 10th-century basilica. A sacred spring flows here, adding to the peaceful atmosphere. During the Ottoman period, the monastery remained active and even housed an olive press. Today, surrounded by the beautiful Kaisariani forest, it's a popular destination for both pilgrims and hikers.",
+            "name": "Church of Soteira Lykodemou (Russian Church)",
+            "lat": 37.9753,
+            "lng": 23.7330,
+            "image": "images/soteira_lykodemou_russian.jpg",
+            "description": "The largest surviving Byzantine church in Athens (11th century), now serving the Russian Orthodox community. Famous copy of Hosios Loukas monastery.",
+            "audioText": "You are at the Church of Soteira Lykodemou, also known as the Russian Church or Church of the Holy Trinity—the largest surviving Byzantine church in Athens. Built in the first half of the 11th century, with inscriptions dating to 1031, this magnificent church originally served as the katholikon of a large convent. The name 'Soteira Lykodemou' means 'the Virgin Saviouress of Lykodemos,' with Lykodemos probably being the family name of one of its founders. What makes this church architecturally extraordinary is that it is clearly the earliest and most faithful copy of the great katholikon of the Hosios Loukas monastery—one of the masterpieces of Byzantine architecture. The Athenian church features measurements almost exactly three-quarters those of Hosios Loukas, replicating its design, proportions, and decorative program. The church follows the typically middle Byzantine cross-in-square plan, with a dome resting on an octagonal base supported by eight piers. The masonry is of exceptional quality, with dressed stones separated by double courses of bricks. The exterior is decorated with pseudo-Kufic brick designs similar to those at Hosios Loukas, some placed individually and others forming a continuous frieze on three sides. In 1778, the Ottoman governor Hadji Ali Haseki demolished the rest of the convent to build city walls. After Greek independence, the church fell into ruins until 1847, when Tsar Nicholas I acquired it for Athens' Russian community. The reconstruction in 1850-55 largely preserved the original Byzantine design, and today it remains the spiritual center for Russian Orthodox worshippers in Athens.",
             "quiz": {
-                "question": "What makes the site of Kaisariani Monastery historically layered?",
+                "question": "What makes Soteira Lykodemou architecturally significant?",
                 "options": [
-                    "It was built on an ancient Aphrodite temple site with earlier Christian basilicas",
-                    "It was the tallest monastery in Greece",
-                    "It was built in a single century",
-                    "It was never occupied during Ottoman times"
+                    "It is the largest Byzantine church in Athens and a copy of Hosios Loukas monastery",
+                    "It was the first church built in Greece",
+                    "It contains the throne of the Byzantine Emperor",
+                    "It was designed by Leonardo da Vinci"
                 ],
                 "answer": 0,
-                "feedback": "Correct! The site has been sacred for over 2,500 years, from pagan temple through early Christian to Byzantine times."
+                "feedback": "Correct! This 11th-century church is Athens' largest Byzantine monument and faithfully replicates the famous Hosios Loukas."
             },
             "reward": {
-                "title": "Hymettus forest hiking trail map and honey sample",
-                "provider": "Kaisariani Monastery Visitors Center",
+                "title": "Russian Orthodox heritage tour and concert",
+                "provider": "Holy Trinity Russian Church",
                 "codeHash": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e"
             },
             "id": 285
@@ -7202,6 +7202,56 @@ const POIs = [
                 "codeHash": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"
             },
             "id": 289
+        },
+        {
+            "name": "Church of Metamorphosis Sotiros (Transfiguration)",
+            "lat": 37.9726,
+            "lng": 23.7279,
+            "image": "images/metamorphosis_sotiros.jpg",
+            "description": "A beautiful small 11th-century Byzantine church in the picturesque Anafiotika neighborhood, on the northern foothills of the Acropolis.",
+            "audioText": "You are at the Church of Metamorphosis Sotiros, the Church of the Transfiguration of Christ, nestled in the charming Anafiotika district on the northern slopes of the Acropolis. This is one of the most atmospheric locations in Athens—a neighborhood of whitewashed houses that feels like a Cycladic island village transported to the heart of the capital. The church dates from the third quarter of the 11th century, making it one of Athens' oldest Byzantine monuments. It is a small, intimate church belonging to the simple cross-in-square type without a narthex. From its original 11th-century form, the north side and the elegant dome survive beautifully. The other sides were altered during later expansions to enlarge the interior space for the growing congregation. Even during the Ottoman occupation (1456-1833), modifications were made—the pointed arch on the northern side is a characteristic feature of Ottoman-era architecture. The church's walls are built with the classic cloisonné system of masonry, with alternating courses of brick and stone. The exterior is decorated with charming ceramic elements including pseudo-Kufic designs (imitations of Arabic letters), diamond shapes, and zigzag patterns. The dome is the typical 'Athenian' type—octagonal, elegant, and tall, with marble columns at the corners and lobed windows. On the southern side, a rectangular chapel carved into the living rock adds to the site's unique character. The church celebrates on August 6th, the Feast of the Transfiguration. Finding this little jewel tucked among the houses of Anafiotika feels like discovering a secret treasure.",
+            "quiz": {
+                "question": "What makes the location of Metamorphosis Sotiros special?",
+                "options": [
+                    "It is nestled in the Anafiotika neighborhood that resembles a Cycladic island village",
+                    "It is the tallest church in Athens",
+                    "It floats on water",
+                    "It was built by Alexander the Great"
+                ],
+                "answer": 0,
+                "feedback": "Correct! This 11th-century church sits in the picturesque Anafiotika, a unique neighborhood with island-style architecture on the Acropolis slopes."
+            },
+            "reward": {
+                "title": "Anafiotika neighborhood walking tour",
+                "provider": "Athens Cultural Center",
+                "codeHash": "9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f"
+            },
+            "id": 290
+        },
+        {
+            "name": "Church of Agios Georgios (Omorfokklisia - Beautiful Church)",
+            "lat": 37.9750,
+            "lng": 23.7190,
+            "image": "images/omorfokklisia.jpg",
+            "description": "Known as the 'Beautiful Church' (Omorfokklisia), this 11th-12th century Byzantine church near the Ancient Agora exemplifies elegant Athenian architecture.",
+            "audioText": "You are at the Church of Agios Georgios, affectionately known as Omorfokklisia—literally 'the Beautiful Church'—and indeed, it lives up to its name. Located in the Thiseio area near the Ancient Agora and with views toward the Acropolis, this Byzantine gem dates from the 11th to 12th centuries. The church earned its popular name from its harmonious proportions and refined architectural details that capture the essence of Athenian Byzantine style. It follows the classic cross-in-square plan with a dome, displaying the elegant simplicity and mathematical precision that characterized middle Byzantine church architecture. The exterior showcases well-preserved decorative brickwork—the cloisonné masonry technique with alternating courses of brick and stone, punctuated by ornamental brick patterns that create visual rhythm across the facades. These decorative elements, including meander patterns, sawtooth courses, and dog-tooth friezes, demonstrate the sophistication of Byzantine builders who turned functional construction into an art form. The church's location is particularly evocative, standing in a neighborhood where ancient, Byzantine, and modern Athens intersect. Just steps away lie the ruins of the Ancient Agora where Socrates once walked, while the Acropolis rises majestically in the background. The church remains active in the life of the local community, continuing a tradition of worship that spans nearly a millennium. Its name—'Beautiful Church'—reflects not just aesthetic appreciation but also the affection Athenians have felt for this graceful building through the centuries.",
+            "quiz": {
+                "question": "Why is this church called 'Omorfokklisia'?",
+                "options": [
+                    "Because its harmonious proportions and elegant architecture earned it the name 'Beautiful Church'",
+                    "Because it was painted in beautiful colors",
+                    "Because it was built by someone named Omorfo",
+                    "Because it has the most expensive decorations"
+                ],
+                "answer": 0,
+                "feedback": "Correct! 'Omorfokklisia' means 'Beautiful Church' in Greek, reflecting the building's elegant Byzantine proportions and refined details."
+            },
+            "reward": {
+                "title": "Byzantine architecture photography workshop",
+                "provider": "Athens Photography Society",
+                "codeHash": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a"
+            },
+            "id": 291
         }
 ];
 
