@@ -2,9 +2,12 @@
 
 An immersive Progressive Web App (PWA) that brings ancient Greek archaeological sites to life through geolocation-based audio narration, interactive quizzes, and gamified exploration.
 
+**Live:** [https://echoes-of-athens.vercel.app](https://echoes-of-athens.vercel.app)  
+**About:** [about.html](https://echoes-of-athens.vercel.app/about.html) · **Press kit:** [press.html](https://echoes-of-athens.vercel.app/press.html) · **All sites:** [sites/](https://echoes-of-athens.vercel.app/sites/index.html)
+
 ## Features
 
-- 📍 **Interactive Map**: Explore 250+ Points of Interest across Athens and Attica
+- 📍 **Interactive Map**: Explore 355 Points of Interest across Athens and Attica
 - 🎙️ **Audio Narration**: AI-powered text-to-speech guides using Web Speech API
 - 🧭 **Real & Simulated GPS**: Works with actual location or simulation mode for testing
 - ❓ **Educational Quizzes**: Test your knowledge at each site and earn rewards

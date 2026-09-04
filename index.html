@@ -3,26 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Echoes of Athens | Geolocation Audio Guide</title>
-    <meta name="description" content="Explore ancient Greek ruins with immersive audio stories, gamified trivia quizzes, and local rewards.">
-    
+    <title>Echoes of Athens | Free audio guide to 355 sites in Attica</title>
+    <meta name="description" content="Explore Athens and Attica with a free GPS audio guide: 355 temples, monasteries, beaches, caves, and trails. Spoken stories, quizzes, and a live map. No download, no ads.">
+    <meta name="keywords" content="Athens audio guide, free Athens tour, Attica travel guide, self-guided tour Athens, Acropolis guide, Greek ruins, Byzantine monasteries Athens, Athens Riviera, things to do in Athens">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://echoes-of-athens.vercel.app/">
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+
     <!-- Open Graph / Facebook / Social Media -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Echoes of Athens">
-    <meta property="og:description" content="Explore ancient Greek ruins with immersive audio stories, gamified trivia quizzes, and local rewards.">
-    <meta property="og:image" content="https://yourdomain.com/icon-512.png">
-    
+    <meta property="og:url" content="https://echoes-of-athens.vercel.app/">
+    <meta property="og:title" content="Echoes of Athens — free audio guide to 355 sites in Attica">
+    <meta property="og:description" content="GPS stories at temples, monasteries, caves, and beaches across Athens and Attica. Open in the browser. Completely free.">
+    <meta property="og:image" content="https://echoes-of-athens.vercel.app/og-image.jpg">
+    <meta property="og:image:width" content="1536">
+    <meta property="og:image:height" content="1024">
+    <meta property="og:site_name" content="Echoes of Athens">
+    <meta property="og:locale" content="en_US">
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Echoes of Athens">
-    <meta name="twitter:description" content="Explore ancient Greek ruins with immersive audio stories, gamified trivia quizzes, and local rewards.">
-    <meta name="twitter:image" content="https://yourdomain.com/icon-512.png">
+    <meta name="twitter:title" content="Echoes of Athens — 355 sites, free GPS audio">
+    <meta name="twitter:description" content="Self-guided map of Athens and Attica. Narration, quizzes, no account.">
+    <meta name="twitter:image" content="https://echoes-of-athens.vercel.app/og-image.jpg">
+
+    <!-- Geo -->
+    <meta name="geo.region" content="GR-I">
+    <meta name="geo.placename" content="Athens, Attica, Greece">
+    <meta name="geo.position" content="37.9838;23.7275">
+    <meta name="ICBM" content="37.9838, 23.7275">
 
     <!-- PWA Settings -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://unpkg.com https://*.tile.openstreetmap.org https://*.basemaps.cartocdn.com; connect-src 'self' https://unpkg.com https://*.tile.openstreetmap.org https://*.basemaps.cartocdn.com;">
     <meta name="theme-color" content="#0d2f64">
+    <meta name="apple-mobile-web-app-title" content="Echoes of Athens">
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="icon-192.png">
+    <script src="seo-schema.js" defer></script>
     
     <!-- Local Fonts -->
     <link rel="stylesheet" href="fonts/fonts.css">
@@ -41,6 +59,7 @@
                 <span class="logo-subtitle">of Athens</span>
             </div>
             <div class="mode-selector">
+                <a href="about.html" class="btn-about" title="About this free audio guide">About</a>
                 <button id="gps-toggle" class="btn-mode active" title="Switch between real GPS and Simulation Mode">
                     <span class="icon-gps"></span>
                     <span id="gps-status-text">Simulated GPS</span>
@@ -130,6 +149,7 @@
             <button id="close-drawer" class="btn-close">&times;</button>
             <span class="poi-badge">POI <span id="drawer-poi-index">1</span></span>
             <h3 id="drawer-title">Parthenon</h3>
+            <button id="share-poi-btn" class="btn-share" type="button" title="Share this site">Share</button>
         </div>
         <div class="drawer-body">
             <img id="drawer-image" class="drawer-hero-img hidden" src="" alt="Monument">

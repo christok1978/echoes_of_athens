@@ -1,0 +1,8 @@
+# Echoes of Athens
+# https://echoes-of-athens.vercel.app
+
+User-agent: *
+Allow: /
+
+Sitemap: https://echoes-of-athens.vercel.app/sitemap.xml
+Host: https://echoes-of-athens.vercel.app

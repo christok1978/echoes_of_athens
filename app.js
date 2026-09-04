@@ -8883,6 +8883,8 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Load speech synthesis voices (required for text-to-speech)
     loadVoices();
+    openSharedPOI();
+    window.addEventListener("hashchange", openSharedPOI);
 
     // Register Service Worker
     if ('serviceWorker' in navigator) {
@@ -9156,6 +9158,11 @@ function setupMediaDrawer() {
         }
     });
 
+    const shareBtn = document.getElementById("share-poi-btn");
+    if (shareBtn) {
+        shareBtn.addEventListener("click", shareCurrentPOI);
+    }
+
     // Lightbox triggers
     drawerImg.addEventListener("click", () => {
         if (activePOI && activePOI.image) {
@@ -9180,6 +9187,59 @@ window.triggerPOIById = function(id) {
     const poi = POIs.find(p => p.id === id);
     if (poi) triggerPOI(poi);
 };
+
+function parseSharedPoiId() {
+    try {
+        const params = new URLSearchParams(window.location.search);
+        if (params.has("poi")) {
+            const n = parseInt(params.get("poi"), 10);
+            if (Number.isInteger(n)) return n;
+        }
+        const hash = (window.location.hash || "").replace(/^#/, "");
+        const match = hash.match(/^poi[=-]?(\d+)$/i);
+        if (match) return parseInt(match[1], 10);
+    } catch (e) {
+        console.error("Error parsing shared POI:", e);
+    }
+    return null;
+}
+
+function openSharedPOI() {
+    const id = parseSharedPoiId();
+    if (id === null) return;
+    const poi = POIs.find(p => p.id === id);
+    if (!poi) return;
+    activePOI = null;
+    if (map) {
+        map.setView([poi.lat, poi.lng], CONFIG.POI_DETAIL_ZOOM);
+    }
+    triggerPOI(poi);
+}
+
+function shareCurrentPOI() {
+    if (!activePOI) return;
+    const shareUrl = new URL(window.location.href);
+    shareUrl.search = "?poi=" + activePOI.id;
+    shareUrl.hash = "";
+    const payload = {
+        title: activePOI.name + " | Echoes of Athens",
+        text: activePOI.description || "A stop on the free Attica audio guide.",
+        url: shareUrl.toString()
+    };
+    if (navigator.share) {
+        navigator.share(payload).catch(() => {});
+        return;
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(payload.url).then(() => {
+            alert("Link copied. Share it with a friend.");
+        }).catch(() => {
+            prompt("Copy this link:", payload.url);
+        });
+        return;
+    }
+    prompt("Copy this link:", payload.url);
+}
 
 function triggerPOI(poi) {
     if (activePOI && activePOI.id === poi.id) {

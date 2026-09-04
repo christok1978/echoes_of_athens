@@ -18,7 +18,13 @@ const filesToCopy = [
     'sw.js',
     'manifest.json',
     'icon-192.png',
-    'icon-512.png'
+    'icon-512.png',
+    'og-image.jpg',
+    'robots.txt',
+    'about.html',
+    'press.html',
+    'marketing.css',
+    'seo-schema.js'
 ];
 
 filesToCopy.forEach(file => {
@@ -26,7 +32,7 @@ filesToCopy.forEach(file => {
 });
 
 // Copy directories
-const dirsToCopy = ['fonts', 'images'];
+const dirsToCopy = ['fonts', 'images', 'blog', 'marketing'];
 dirsToCopy.forEach(dir => {
     const srcDir = path.join(__dirname, '..', dir);
     const destDir = path.join(distDir, dir);
@@ -58,6 +64,9 @@ try {
     console.error('❌ Failed to minify CSS. Using original file instead.');
     fs.copyFileSync(path.join(__dirname, '../style.css'), path.join(distDir, 'style.css'));
 }
+
+console.log('\n🗺️ Generating sitemap and public site pages...');
+require('./generate-seo.js');
 
 console.log('\n🎉 Build complete! Your production-ready files are in the /dist folder.');
 console.log('You can test it locally by running: npx serve dist');
