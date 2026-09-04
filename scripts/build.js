@@ -56,7 +56,7 @@ dirsToCopy.forEach(dir => {
 // 2. Minify JS using npx terser
 console.log('🗜️ Minifying app.js (this may take a few seconds)...');
 try {
-    runMinify('terser', '../app.js -o ../dist/app.js --compress --mangle', 120000);
+    runMinify('terser', 'terser', '../app.js -o ../dist/app.js --compress --mangle', 120000);
     console.log('✅ app.js minified successfully!');
 } catch (error) {
     console.error('❌ Failed to minify JS. Using original file instead.');
@@ -66,7 +66,7 @@ try {
 // 3. Minify CSS using clean-css-cli
 console.log('🗜️ Minifying style.css...');
 try {
-    runMinify('cleancss', '../style.css -o ../dist/style.css', 60000);
+    runMinify('cleancss', 'clean-css-cli', '../style.css -o ../dist/style.css', 60000);
     console.log('✅ style.css minified successfully!');
 } catch (error) {
     console.error('❌ Failed to minify CSS. Using original file instead.');
