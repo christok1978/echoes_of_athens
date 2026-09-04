@@ -754,7 +754,7 @@ const POIs = [
         "name": "Hadrian's Reservoir (Dexameni)",
         "lat": 37.979,
         "lng": 23.7417,
-        "image": "images/lake_vouliagmeni.png",
+        "image": "images/hadrian_s_reservoir_dexameni.jpg",
         "description": "An ancient Roman reservoir built by Emperor Hadrian at the foot of Lycabettus Hill, which supplied fresh water to Athens for over a thousand years.",
         "audioText": "Stand near the ancient Dexameni, the water reservoir constructed by Roman Emperor Hadrian in 140 AD. Sourced from the slopes of Mount Parnitha via a 20-kilometer stone aqueduct, this reservoir sat at the base of Lycabettus Hill, storing fresh water to distribute to the citizens of Athens. The reservoir was highly engineered, featuring vaulted stone chambers that kept the water cool. It supplied water to the city throughout the Byzantine and Ottoman eras. Today, the square surrounding the reservoir remains a historic meeting spot for Greek poets and writers, hosting a peaceful open-air cinema in the summer months.",
         "quiz": {
@@ -879,7 +879,7 @@ const POIs = [
         "name": "Kerameikos Archaeological Museum",
         "lat": 37.9778,
         "lng": 23.7169,
-        "image": "images/kerameikos_archaeological_site.jpg",
+        "image": "images/kerameikos_archaeological_museum.jpg",
         "description": "A small museum housing the most important tomb discoveries, marble statues, and clay vases found in the Kerameikos cemetery.",
         "audioText": "Enter the Kerameikos Museum, which houses the rich discoveries of the city's ancient cemetery. The exhibits include marble grave monuments, detailed funerary statues, and painted clay vases. Look for the famous marble bull, which stood as a guardian monument over the tomb of Dionysius of Kollytos. The museum displays the historical evolution of burial rituals and pottery arts over a thousand years.",
         "quiz": {
@@ -929,7 +929,7 @@ const POIs = [
         "name": "Sanctuary of Demeter (Eleusis)",
         "lat": 38.0416,
         "lng": 23.5383,
-        "image": "images/eleutherae.png",
+        "image": "images/sanctuary_of_demeter_eleusis.jpg",
         "description": "The sanctuary site of the Eleusinian Mysteries, the most sacred secret religious rites of the ancient Greek world, dedicated to Demeter and Persephone.",
         "audioText": "Explore the ruins of the Sanctuary of Demeter in Eleusis. This was the home of the Eleusinian Mysteries, the most secret and sacred religious rituals of ancient Greece. Initiates walked the Sacred Way from Athens to Eleusis to participate in rituals that promised happiness in the afterlife. The details of the rites remain secret to this day, but the ruins of the Telesterion hall show the scale of this ancient spiritual center.",
         "quiz": {
@@ -1004,7 +1004,7 @@ const POIs = [
         "name": "Sanctuary of Artemis (Vravrona)",
         "lat": 37.971634,
         "lng": 23.725707,
-        "image": "images/rhamnous.png",
+        "image": "images/sanctuary_of_artemis_vravrona.jpg",
         "description": "An ancient sanctuary dedicated to Artemis Brauronia, where young Athenian girls participated in initiation ceremonies called the Arkteia.",
         "audioText": "Explore the Sanctuary of Artemis in Vravrona, situated on the eastern coast of Attica. Dedicated to Artemis, the goddess of the hunt, childbirth, and wild nature, this site hosted the Arkteia. During this festival, young Athenian girls dressed as bears to participate in initiation rites. The well-preserved colonnade of the temple courtyard stands in a quiet wetland area.",
         "quiz": {
@@ -1029,7 +1029,7 @@ const POIs = [
         "name": "Thorikos Ancient Theater",
         "lat": 37.7381,
         "lng": 24.0538,
-        "image": "images/theatre_dionysus.png",
+        "image": "images/thorikos_ancient_theater.jpg",
         "description": "The oldest surviving theater in the world, featuring a unique ellipsoidal shape and located near the ancient industrial town of Thorikos.",
         "audioText": "Visit the Thorikos Theater, constructed in the late 6th century BC. This is considered the oldest surviving theater in the world. Unlike later classical theaters, it features a unique ellipsoidal shape rather than a perfect semicircle, reflecting its early design. It was built near the ancient mining town of Thorikos to host theatrical festivals and community assemblies.",
         "quiz": {
@@ -1054,7 +1054,7 @@ const POIs = [
         "name": "Lavrion Silver Mines",
         "lat": 37.712,
         "lng": 24.015,
-        "image": "images/penteli_quarries.png",
+        "image": "images/lavrion_silver_mines.jpg",
         "description": "The ancient silver mines of Athens, whose vast wealth funded the Athenian naval fleet that defeated the Persians at Salamis.",
         "audioText": "Stand near the ancient silver mines of Lavrion, the source of classical Athens' wealth. In 483 BC, a rich vein of silver was discovered here. The statesman Themistocles convinced the citizens to use the profits to build a fleet of 200 triremes. This navy defeated the Persian fleet at the Battle of Salamis, saving Greece and securing Athens' Golden Age.",
         "quiz": {
@@ -1129,7 +1129,7 @@ const POIs = [
         "name": "Mount Parnitha National Park",
         "lat": 38.173062,
         "lng": 23.721956,
-        "image": "images/lycabettus_hill.png",
+        "image": "images/mount_parnitha_national_park.jpg",
         "description": "The highest mountain peak near Athens, offering dense pine forests, hiking paths, and the historic Bafi Refuge.",
         "audioText": "Escape to Mount Parnitha, the highest mountain near Athens, rising 1,413 meters. This national park features dense pine forests, gorges, and wildlife, including red deer. The mountain has played a key role in Athens' history, housing fortresses that guarded the northern passes into Attica. Today, it is popular for hiking and features the Bafi Refuge.",
         "quiz": {
@@ -1179,7 +1179,7 @@ const POIs = [
         "name": "Choragic Monument of Thrasyllus",
         "lat": 37.97108,
         "lng": 23.729938,
-        "image": "images/choragic_monument_of_lysicrates.jpg",
+        "image": "images/choragic_monument_of_thrasyllus.jpg",
         "description": "An ancient monument built on the south slope of the Acropolis to celebrate a theatrical victory at the Theatre of Dionysus in 320 BC.",
         "audioText": "Look up at the cliff above the Theatre of Dionysus to see the Monument of Thrasyllus, built in 320 BC. Built into a natural cave, this monument celebrated Thrasyllus's victory as a choregos. It featured a marble facade with Corinthian pilasters. Later converted into the Chapel of Panagia Spiliotissa, it remains a unique monument built directly into the rock face.",
         "quiz": {
@@ -1204,7 +1204,7 @@ const POIs = [
         "name": "Pedestal of Agrippa",
         "lat": 37.97153,
         "lng": 23.72574,
-        "image": "images/parthenon.png",
+        "image": "images/pedestal_of_agrippa.jpg",
         "description": "A tall marble pedestal standing in front of the Propylaea, built to carry a bronze chariot statue honoring the Roman general Marcus Vipsanius Agrippa.",
         "audioText": "Observe the tall marble pedestal standing in front of the Propylaea entrance. Built in the 2nd century BC, it originally carried a monument to a Hellenistic king. In 27 BC, the Athenians rededicated the monument to Marcus Vipsanius Agrippa, the son-in-law of Roman Emperor Augustus, placing a bronze chariot statue on top to thank him for his civic gifts.",
         "quiz": {
@@ -1229,7 +1229,7 @@ const POIs = [
         "name": "Agia Dynami Church",
         "lat": 37.99131,
         "lng": 23.663996,
-        "image": "images/church_of_panagia_kapnikarea.jpg",
+        "image": "images/agia_dynami_church.jpg",
         "description": "A tiny 16th-century Byzantine church in Syntagma, built over an ancient temple of Heracles and now enclosed by a modern office building.",
         "audioText": "Find the tiny Church of Agia Dynami on Mitropoleos Street. Built in the 16th century over an ancient temple of Heracles, this church is famous for its location. During Athens' rapid development, the church was preserved, and a modern hotel building was constructed around and over it. It stands as a symbol of historical preservation amidst modern growth.",
         "quiz": {
@@ -1254,7 +1254,7 @@ const POIs = [
         "name": "St. Demetrius Loumbardiaris",
         "lat": 37.9696,
         "lng": 23.7208,
-        "image": "images/church_of_panagia_kapnikarea.jpg",
+        "image": "images/st_demetrius_loumbardiaris.jpg",
         "description": "A beautiful 12th-century wooden-roofed Byzantine chapel on Philopappos Hill, restored by architect Dimitris Pikionis.",
         "audioText": "Visit the Chapel of Saint Demetrius Loumbardiaris, located in the trees on Philopappos Hill. The name Loumbardiaris means 'the Cannoneer,' commemorating a 1656 miracle. According to legend, the Ottoman commander of the Acropolis planned to shell the church with a cannon (loumbarda), but a sudden lightning strike destroyed the battery.",
         "quiz": {
@@ -2028,7 +2028,7 @@ const POIs = [
         "name": "Plato's Academy Archaeological Park",
         "lat": 37.9922,
         "lng": 23.7083,
-        "image": "images/academy_athens.png",
+        "image": "images/plato_s_academy_archaeological_site.jpg",
         "description": "The physical birthplace of Western higher learning, where Plato founded his famous school in 387 BC.",
         "audioText": "Welcome to Plato's Academy Archaeological Park. Here, in a grove of olive trees outside the ancient walls of Athens, the philosopher Plato established the Academy in 387 BC. It was not a school in the modern sense, but a sanctuary for intellectual exploration and debate. The Academy flourished for over 900 years, attracting scholars from across the Greek world, including Plato's most famous student, Aristotle. Walking through these quiet ruins, you stand at the very foundations of Western philosophy, science, and education.",
         "quiz": {
@@ -2053,7 +2053,7 @@ const POIs = [
         "name": "Kynosarges Archaeological Site",
         "lat": 37.9680,
         "lng": 23.7450,
-        "image": "images/aristotle_s_lyceum.jpg",
+        "image": "images/kynosarges_archaeological_site.jpg",
         "description": "The ancient gymnasium dedicated to Heracles, famous as the birthplace of Cynic Philosophy under Antisthenes.",
         "audioText": "Explore the ruins of Kynosarges, situated south of the Acropolis. In ancient times, this area housed a famous gymnasium dedicated to Heracles, which was reserved for people of mixed Athenian and foreign ancestry. It was here, in the early 4th century BC, that the philosopher Antisthenes began teaching his followers. His teachings laid the foundation for Cynic philosophy, which advocated for a life of virtue lived in accordance with nature, free from societal conventions. The name Kynosarges means 'white dog,' commemorating a myth of a dog stealing a sacrifice.",
         "quiz": {
@@ -2078,7 +2078,7 @@ const POIs = [
         "name": "Tomb of Sophocles",
         "lat": 37.975351,
         "lng": 23.736366,
-        "image": "images/first_cemetery_of_athens.jpg",
+        "image": "images/tomb_of_sophocles.jpg",
         "description": "The ancient burial mound of the great tragic playwright Sophocles, situated in his ancestral deme near Varibobi.",
         "audioText": "Stand before the Tomb of Sophocles, located near the modern suburb of Varibobi. This large earth and stone burial mound marks the final resting place of one of ancient Greece's greatest tragic playwrights. Sophocles, who wrote masterpieces like Oedipus Rex and Antigone, died in 406 BC at the age of 90. According to legend, the Spartan general Lysander, who was besieging Athens, allowed the playwright's funeral procession to pass safely through military lines out of respect for his genius. The tomb is a monument to the high status of playwrights in classical society.",
         "quiz": {
@@ -2153,7 +2153,7 @@ const POIs = [
         "name": "Phaleron Delta Ancient Cemetery (Phaleron Captives)",
         "lat": 37.928762,
         "lng": 23.694219,
-        "image": "images/first_cemetery_of_athens.jpg",
+        "image": "images/phaleron_delta_ancient_cemetery.jpg",
         "description": "A massive archaic cemetery famous for the discovery of bound skeletons linked to Cylon's ancient conspiracy.",
         "audioText": "Stand near the Phaleron Delta, the location of a massive ancient cemetery dating from the 8th to the 4th centuries BC. The site gained global attention during excavations when archaeologists discovered a set of skeletons bound in iron shackles. Known as the 'Phaleron Captives,' these individuals were executed and buried in mass graves. Historians link these executions to Cylon's failed coup attempt in 632 BC, when supporters of the noble Cylon were slaughtered. The site offers a grim look into political violence and capital punishment in archaic Athens.",
         "quiz": {
@@ -2228,7 +2228,7 @@ const POIs = [
         "name": "Agrileza Silver Workshops",
         "lat": 37.6744,
         "lng": 24.015,
-        "image": "images/penteli_quarries.png",
+        "image": "images/agrileza_silver_workshops.jpg",
         "description": "The ancient industrial workshops where Lavrion silver ore was washed and processed by slaves in antiquity.",
         "audioText": "Welcome to the Agrileza ancient silver workshops, located in the Lavreotiki national park. Here, the silver ore mined from the earth was crushed and washed using stone tables. The washing tables allowed the heavy silver-bearing lead particles to settle while the lighter stone was washed away. This industrial process was carried out under brutal conditions by thousands of enslaved laborers. The wealth generated here funded the expansion of the Athenian navy and built the monumental buildings of Athens' Golden Age, linking the glory of democracy to the exploitation of slave labor.",
         "quiz": {
@@ -2278,7 +2278,7 @@ const POIs = [
         "name": "Cave of Pan",
         "lat": 38.011272,
         "lng": 23.631127,
-        "image": "images/koutouki_cave.png",
+        "image": "images/cave_of_pan.jpg",
         "description": "A mystical cave of stalactites near Marathon where worship of Pan began after the Battle of Marathon.",
         "audioText": "Step into the Cave of Pan, located in the gorge of Oinoi near Marathon. This natural stalactite cave became a sacred sanctuary dedicated to the goat-god Pan. According to legend, during the Battle of Marathon in 490 BC, Pan caused 'panic' among the invading Persian soldiers, helping the Greeks secure their victory. In gratitude, the Athenians established his cult in this cave. The cave features a narrow entrance leading to multiple chambers filled with stalactites, where ancient worshippers left clay lamps and figurines.",
         "quiz": {
@@ -2303,7 +2303,7 @@ const POIs = [
         "name": "Sanctuary of Zeus Ombrios",
         "lat": 37.984296,
         "lng": 23.284779,
-        "image": "images/olympian_zeus.png",
+        "image": "images/sanctuary_of_zeus_ombrios.jpg",
         "description": "A mountain-top sanctuary on Hymettus where ancient farmers offered sacrifices to Zeus for rain.",
         "audioText": "Climb to the Sanctuary of Zeus Ombrios, located on a high ridge of Mount Hymettus. The name Ombrios means 'the Rainbringer.' In ancient times, this high peak was a sacred site where Athenian farmers came during droughts to pray, make vows, and offer sacrifices to Zeus, asking him to send rain for their crops. Archaeologists have discovered thousands of ancient pottery vessels and offering tables at this site, illustrating the deep connection between ancient religion and agricultural survival.",
         "quiz": {
@@ -2328,7 +2328,7 @@ const POIs = [
         "name": "Valanaris Waterfall",
         "lat": 37.984288,
         "lng": 23.738453,
-        "image": "images/lake_vouliagmeni.png",
+        "image": "images/valanaris_waterfall.jpg",
         "description": "A beautiful, hidden natural waterfall and stream creating a lush green oasis on the slopes of Penteli.",
         "audioText": "Discover the Valanaris Waterfall, a hidden natural gem located on the eastern slopes of Mount Penteli near Drafi. Fed by a small mountain stream, the water falls over a six-meter cliff, forming a natural pool surrounded by trees. The name Valanaris comes from the oak trees (valanidies) that once covered the area. This stream flows year-round, creating a lush green oasis in the dry Attica landscape that serves as a sanctuary for local birds, frogs, and tortoises.",
         "quiz": {
@@ -2353,7 +2353,7 @@ const POIs = [
         "name": "Kaisariani Botanical Garden",
         "lat": 38.010599,
         "lng": 23.642736,
-        "image": "images/aristotle_s_lyceum.jpg",
+        "image": "images/kaisariani_botanical_garden.jpg",
         "description": "A conservation park on Mount Hymettus dedicated to preserving native Greek herbs and wildflowers.",
         "audioText": "Stroll through the Kaisariani Botanical Garden, situated next to the historic monastery on Mount Hymettus. Established to preserve the native flora of Attica, the garden contains a vast collection of aromatic, medicinal, and historic plants, including wild thyme, sage, oregano, and rare orchids. In antiquity, the honey produced on Mount Hymettus from these aromatic herbs was famous across the Mediterranean. The garden offers peaceful walking paths and serves as a living museum of Greek botanical heritage.",
         "quiz": {
@@ -2378,7 +2378,7 @@ const POIs = [
         "name": "Temple of Artemis Agrotera",
         "lat": 37.967538,
         "lng": 23.735485,
-        "image": "images/rhamnous.png",
+        "image": "images/temple_of_artemis_agrotera.jpg",
         "description": "The ruined foundations of an ancient temple overlooking the Ilissos River where the goddess of the hunt was worshipped.",
         "audioText": "Observe the ruins of the Temple of Artemis Agrotera, located in the Mets district near the Panathenaic Stadium. Constructed in the 5th century BC, this temple was dedicated to Artemis of the Hunt (Agrotera). According to historical accounts, the Athenians sacrificed 500 goats at this temple each year to thank Artemis for her aid in their victory over the Persians at the Battle of Marathon. The temple was built in the elegant Ionic style, but today only its foundations remain visible.",
         "quiz": {
@@ -2403,7 +2403,7 @@ const POIs = [
         "name": "Choragic Monument of Nikias",
         "lat": 37.970239,
         "lng": 23.726959,
-        "image": "images/choragic_monument_of_lysicrates.jpg",
+        "image": "images/choragic_monument_of_nikias.jpg",
         "description": "A monumental gateway on the south slope of the Acropolis constructed by Nikias to celebrate a theatrical victory.",
         "audioText": "Stand near the ruins of the Choragic Monument of Nikias, located on the south slope of the Acropolis. Built in 320 BC by the wealthy sponsor Nikias, this monument celebrated his victory in a dramatic contest at the Theatre of Dionysus. It was designed like a small temple with Doric columns. In the 3rd century AD, following a destructive invasion, the monument was dismantled, and its marble blocks were reused to construct the Beulé Gate, which served as the fortified entrance to the Acropolis.",
         "quiz": {
@@ -2453,7 +2453,7 @@ const POIs = [
         "name": "Archaeological Museum of Megara",
         "lat": 37.989012,
         "lng": 23.732958,
-        "image": "images/national_archaeological_museum.jpg",
+        "image": "images/archaeological_museum_of_megara.jpg",
         "description": "A museum displaying ancient sculptures, gravestones, and votive offerings from the independent city-state of Megara.",
         "audioText": "Enter the Archaeological Museum of Megara, housed in a historic 19th-century building in Megara town. The museum displays discoveries from the ancient city-state of Megara and its surroundings, spanning from the geometric period to Roman times. The exhibits include marble sculptures, detailed grave monuments, and clay figurines. Look for the marble victory monuments and pottery illustrating Megara's history as a major colonial power that founded cities like Byzantium.",
         "quiz": {
@@ -4525,6 +4525,7 @@ const POIs = [
     },
     {
             "name": "Stavros Niarchos Foundation Cultural Center (SNFCC)",
+            "image": "images/stavros_niarchos_foundation_cultural_center_snfcc.jpg",
             "lat": 37.9398,
             "lng": 23.6922,
             "description": "A stunning modern cultural complex housing the National Library of Greece and the Greek National Opera.",
@@ -4549,6 +4550,7 @@ const POIs = [
         },
         {
             "name": "Eugenides Foundation Planetarium",
+            "image": "images/eugenides_foundation_planetarium.jpg",
             "lat": 37.9405,
             "lng": 23.6934,
             "description": "One of the largest and best-equipped digital planetariums in the world.",
@@ -4573,6 +4575,7 @@ const POIs = [
         },
         {
             "name": "Megaron Athens Concert Hall",
+            "image": "images/megaron_athens_concert_hall.jpg",
             "lat": 37.9806,
             "lng": 23.7533,
             "description": "A world-class performing arts venue with exceptional acoustics.",
@@ -4597,6 +4600,7 @@ const POIs = [
         },
         {
             "name": "Hellenic Maritime Museum",
+            "image": "images/hellenic_maritime_museum.jpg",
             "lat": 37.9317,
             "lng": 23.6447,
             "description": "The largest maritime museum in Greece, exploring the nation's rich naval history.",
@@ -4621,6 +4625,7 @@ const POIs = [
         },
         {
             "name": "Averof Battleship Museum",
+            "image": "images/averof_battleship_museum.jpg",
             "lat": 37.9332,
             "lng": 23.6841,
             "description": "A legendary armored cruiser that served as the flagship of the Hellenic Navy.",
@@ -4645,6 +4650,7 @@ const POIs = [
         },
         {
             "name": "Benaki Museum of Islamic Art",
+            "image": "images/benaki_museum_of_islamic_art.jpg",
             "lat": 37.9774,
             "lng": 23.7198,
             "description": "A stunning collection of Islamic art spanning from India to Spain.",
@@ -4669,6 +4675,7 @@ const POIs = [
         },
         {
             "name": "Kotsanas Museum of Ancient Greek Technology",
+            "image": "images/kotsanas_museum_of_ancient_greek_technology.jpg",
             "lat": 37.9789,
             "lng": 23.738,
             "description": "An interactive exhibition of the incredible technological inventions of the ancient Greeks.",
@@ -4693,6 +4700,7 @@ const POIs = [
         },
         {
             "name": "Ilias Lalaounis Jewelry Museum",
+            "image": "images/ilias_lalaounis_jewelry_museum.jpg",
             "lat": 37.9692,
             "lng": 23.7275,
             "description": "A museum dedicated to the art of jewelry and the decorative arts.",
@@ -4717,6 +4725,7 @@ const POIs = [
         },
         {
             "name": "Museum of Greek Folk Musical Instruments",
+            "image": "images/museum_of_greek_folk_musical_instruments.jpg",
             "lat": 37.9744,
             "lng": 23.7275,
             "description": "A delightful collection of traditional Greek musical instruments spanning three centuries.",
@@ -4741,6 +4750,7 @@ const POIs = [
         },
         {
             "name": "Basil & Elise Goulandris Foundation",
+            "image": "images/basil_and_elise_goulandris_foundation.jpg",
             "lat": 37.9693,
             "lng": 23.7432,
             "description": "A spectacular museum showcasing world-class modern and contemporary art.",
@@ -4765,6 +4775,7 @@ const POIs = [
         },
         {
             "name": "Goulandris Natural History Museum",
+            "image": "images/goulandris_natural_history_museum.jpg",
             "lat": 38.0733,
             "lng": 23.8164,
             "description": "A leading institution dedicated to the study, conservation, and protection of the natural environment.",
@@ -4789,6 +4800,7 @@ const POIs = [
         },
         {
             "name": "Epigraphic Museum",
+            "image": "images/epigraphic_museum.jpg",
             "lat": 37.9885,
             "lng": 23.7324,
             "description": "The largest museum in the world dedicated to ancient inscriptions.",
@@ -4813,6 +4825,7 @@ const POIs = [
         },
         {
             "name": "Herakleidon Museum",
+            "image": "images/herakleidon_museum.jpg",
             "lat": 37.9767,
             "lng": 23.7176,
             "description": "A museum blending art, mathematics, and science through interactive exhibits.",
@@ -4837,6 +4850,7 @@ const POIs = [
         },
         {
             "name": "Vorres Museum",
+            "image": "images/vorres_museum.jpg",
             "lat": 37.954,
             "lng": 23.8643,
             "description": "A beautiful cultural foundation showcasing Greek contemporary art and folk tradition.",
@@ -4861,6 +4875,7 @@ const POIs = [
         },
         {
             "name": "Mineralogical Museum of Lavrion",
+            "image": "images/mineralogical_museum_of_lavrion.jpg",
             "lat": 37.7139,
             "lng": 24.0531,
             "description": "A showcase of the stunning and rare minerals from the Lavrion mining district.",
@@ -4885,6 +4900,7 @@ const POIs = [
         },
         {
             "name": "Lavrion Technological and Cultural Park",
+            "image": "images/lavrion_technological_and_cultural_park.jpg",
             "lat": 37.718,
             "lng": 24.0558,
             "description": "An industrial heritage site built on the ruins of the historic French Mining Company.",
@@ -4909,6 +4925,7 @@ const POIs = [
         },
         {
             "name": "Archaeological Museum of Marathon",
+            "image": "images/archaeological_museum_of_marathon.jpg",
             "lat": 38.1213,
             "lng": 23.9482,
             "description": "A museum preserving the artifacts from the famed Battle of Marathon and nearby ancient sites.",
@@ -4933,6 +4950,7 @@ const POIs = [
         },
         {
             "name": "Archaeological Museum of Lavrion",
+            "image": "images/archaeological_museum_of_lavrion.jpg",
             "lat": 37.7144,
             "lng": 24.056,
             "description": "Displays antiquities from the ancient silver mining region of Lavreotiki.",
@@ -4957,6 +4975,7 @@ const POIs = [
         },
         {
             "name": "Archaeological Museum of Brauron",
+            "image": "images/archaeological_museum_of_brauron.jpg",
             "lat": 37.9254,
             "lng": 23.9934,
             "description": "A delightful museum dedicated to the cult of Artemis and the young girls who served her.",
@@ -4981,6 +5000,7 @@ const POIs = [
         },
         {
             "name": "Sanctuary of the Egyptian Gods (Brexiza)",
+            "image": "images/sanctuary_of_the_egyptian_gods_brexiza.jpg",
             "lat": 38.1182,
             "lng": 23.9782,
             "description": "An impressive Roman-era sanctuary built by Herodes Atticus dedicated to Isis and Serapis.",
@@ -5005,6 +5025,7 @@ const POIs = [
         },
         {
             "name": "Temple of Artemis at Loutsa",
+            "image": "images/temple_of_artemis_at_loutsa.jpg",
             "lat": 37.9644,
             "lng": 24.0041,
             "description": "The coastal ruins of an ancient Doric temple dedicated to Artemis Tauropolos.",
@@ -5029,6 +5050,7 @@ const POIs = [
         },
         {
             "name": "Municipal Theatre of Piraeus",
+            "image": "images/municipal_theatre_of_piraeus.jpg",
             "lat": 37.9431,
             "lng": 23.6473,
             "description": "A magnificent neoclassical building that serves as the cultural heart of Piraeus.",
@@ -5053,6 +5075,7 @@ const POIs = [
         },
         {
             "name": "Kastella Hill / Profitis Ilias",
+            "image": "images/kastella_hill_profitis_ilias.jpg",
             "lat": 37.9388,
             "lng": 23.6558,
             "description": "A picturesque hill in Piraeus offering sweeping panoramic views of the Saronic Gulf.",
@@ -5077,6 +5100,7 @@ const POIs = [
         },
         {
             "name": "Diomedes Botanical Garden",
+            "image": "images/diomedes_botanical_garden.jpg",
             "lat": 38.0108,
             "lng": 23.6494,
             "description": "The largest botanical garden in Greece and the Eastern Mediterranean.",
@@ -5101,6 +5125,7 @@ const POIs = [
         },
         {
             "name": "Attica Zoological Park",
+            "image": "images/attica_zoological_park.jpg",
             "lat": 37.9818,
             "lng": 23.9103,
             "description": "Greece's premier zoological park, home to over 2,000 animals.",
@@ -5125,6 +5150,7 @@ const POIs = [
         },
         {
             "name": "Schinias Olympic Rowing Centre",
+            "image": "images/schinias_olympic_rowing_centre.jpg",
             "lat": 38.1517,
             "lng": 24.0136,
             "description": "The stunning rowing and canoeing venue constructed for the 2004 Athens Olympics.",
@@ -5149,6 +5175,7 @@ const POIs = [
         },
         {
             "name": "Mikrolimano Marina",
+            "image": "images/mikrolimano_marina.jpg",
             "lat": 37.9385,
             "lng": 23.6592,
             "description": "A charming, lively marina famous for its seafood restaurants and elegant yachts.",
@@ -5173,6 +5200,7 @@ const POIs = [
         },
         {
             "name": "Flisvos Marina",
+            "image": "images/flisvos_marina.jpg",
             "lat": 37.9318,
             "lng": 23.6852,
             "description": "Athens' premier mega-yacht destination, featuring high-end shopping and dining.",
@@ -5197,6 +5225,7 @@ const POIs = [
         },
         {
             "name": "Monastery of Saint Ephraim",
+            "image": "images/monastery_of_saint_ephraim.jpg",
             "lat": 38.0933,
             "lng": 23.9575,
             "description": "A highly revered Orthodox monastery in Nea Makri, attracting thousands of pilgrims.",
@@ -5221,6 +5250,7 @@ const POIs = [
         },
         {
             "name": "Penteli Monastery",
+            "image": "images/penteli_monastery.jpg",
             "lat": 38.0568,
             "lng": 23.8824,
             "description": "A historic 16th-century monastery nestled in the pine forests of Mount Pentelicus.",
@@ -5245,6 +5275,7 @@ const POIs = [
         },
     {
             "name": "Temple of Aphaia",
+            "image": "images/temple_of_aphaia.jpg",
             "lat": 37.7547,
             "lng": 23.5325,
             "description": "A magnificent ancient Doric temple forming part of the 'Sacred Triangle' of antiquity.",
@@ -5269,6 +5300,7 @@ const POIs = [
         },
         {
             "name": "Kolona Archaeological Site",
+            "image": "images/kolona_archaeological_site.jpg",
             "lat": 37.7478,
             "lng": 23.4246,
             "description": "The ruins of Aegina's ancient acropolis, characterized by a single standing column of Apollo's temple.",
@@ -5293,6 +5325,7 @@ const POIs = [
         },
         {
             "name": "Monastery of Saint Nectarios",
+            "image": "images/monastery_of_saint_nectarios.jpg",
             "lat": 37.7475,
             "lng": 23.483,
             "description": "A massive, beautiful monastery dedicated to one of the most widely known modern Orthodox saints.",
@@ -5317,6 +5350,7 @@ const POIs = [
         },
         {
             "name": "Tower of Markellos",
+            "image": "images/tower_of_markellos.jpg",
             "lat": 37.7455,
             "lng": 23.4283,
             "description": "A striking pink Venetian tower that served as a government building during the Greek Revolution.",
@@ -5341,6 +5375,7 @@ const POIs = [
         },
         {
             "name": "Cave of Euripides",
+            "image": "images/cave_of_euripides.jpg",
             "lat": 37.8864,
             "lng": 23.4619,
             "description": "A secluded cave on the island of Salamis where the great tragedian wrote his masterpieces.",
@@ -5365,6 +5400,7 @@ const POIs = [
         },
         {
             "name": "Monastery of Faneromeni",
+            "image": "images/monastery_of_faneromeni.jpg",
             "lat": 37.9866,
             "lng": 23.4281,
             "description": "A historic 17th-century monastery featuring exquisite frescoes of the Last Judgment.",
@@ -5389,6 +5425,7 @@ const POIs = [
         },
         {
             "name": "Sanctuary of Poseidon at Kalaureia",
+            "image": "images/sanctuary_of_poseidon_at_kalaureia.jpg",
             "lat": 37.5255,
             "lng": 23.4735,
             "description": "The ruins of the ancient religious center of the Kalaurian amphictyony on the island of Poros.",
@@ -5413,6 +5450,7 @@ const POIs = [
         },
         {
             "name": "Poros Clock Tower",
+            "image": "images/poros_clock_tower.jpg",
             "lat": 37.4988,
             "lng": 23.4542,
             "description": "The iconic landmark of Poros, built on the highest peak of the town.",
@@ -5437,6 +5475,7 @@ const POIs = [
         },
         {
             "name": "Historical Archives Museum of Hydra",
+            "image": "images/historical_archives_museum_of_hydra.jpg",
             "lat": 37.3503,
             "lng": 23.4665,
             "description": "A museum showcasing the immense wealth and naval power of Hydra during the Greek Revolution.",
@@ -5461,6 +5500,7 @@ const POIs = [
         },
         {
             "name": "Lazaros Koundouriotis Historical Mansion",
+            "image": "images/lazaros_koundouriotis_historical_mansion.jpg",
             "lat": 37.3481,
             "lng": 23.465,
             "description": "The striking yellow mansion of a wealthy shipowner who financed the Greek War of Independence.",
@@ -5485,6 +5525,7 @@ const POIs = [
         },
         {
             "name": "Bouboulina's Museum",
+            "image": "images/bouboulina_s_museum.jpg",
             "lat": 37.2655,
             "lng": 23.161,
             "description": "The ancestral home of Laskarina Bouboulina, the legendary female naval commander of the Greek Revolution.",
@@ -5509,6 +5550,7 @@ const POIs = [
         },
         {
             "name": "Fountain of Theagenes",
+            "image": "images/fountain_of_theagenes.jpg",
             "lat": 37.9942,
             "lng": 23.3422,
             "description": "A remarkably well-preserved ancient water reservoir and fountain house in the city of Megara.",
@@ -5533,6 +5575,7 @@ const POIs = [
         },
         {
             "name": "Plato's Academy Archaeological Site",
+            "image": "images/plato_s_academy_archaeological_site.jpg",
             "lat": 37.9855,
             "lng": 23.7088,
             "description": "The serene suburban park that houses the ruins of the world's first university, founded by Plato.",
@@ -5557,6 +5600,7 @@ const POIs = [
         },
         {
             "name": "First Cemetery of Athens",
+            "image": "images/first_cemetery_of_athens.jpg",
             "lat": 37.9622,
             "lng": 23.7388,
             "description": "A historic, peaceful cemetery acting as a magnificent open-air museum of 19th-century sculpture.",
@@ -5581,6 +5625,7 @@ const POIs = [
         },
         {
             "name": "National Gallery – Alexandros Soutzos Museum",
+            "image": "images/national_gallery_alexandros_soutzos_museum.jpg",
             "lat": 37.976,
             "lng": 23.7485,
             "description": "The premier art museum in Greece, housing an unparalleled collection of post-Byzantine and modern Greek art.",
@@ -5605,6 +5650,7 @@ const POIs = [
         },
         {
             "name": "National Museum of Contemporary Art (EMST)",
+            "image": "images/national_museum_of_contemporary_art_emst.jpg",
             "lat": 37.9625,
             "lng": 23.7258,
             "description": "Athens' flagship institution for contemporary Greek and international art, housed in a former brewery.",
@@ -5629,6 +5675,7 @@ const POIs = [
         },
         {
             "name": "Hellenic Motor Museum",
+            "image": "images/hellenic_motor_museum.jpg",
             "lat": 37.9911,
             "lng": 23.7303,
             "description": "A spectacular private collection of over 100 classic and antique cars spanning the history of motoring.",
@@ -5653,6 +5700,7 @@ const POIs = [
         },
         {
             "name": "Museum of the City of Athens",
+            "image": "images/museum_of_the_city_of_athens.jpg",
             "lat": 37.9796,
             "lng": 23.7317,
             "description": "Housed in the former royal palace of King Otto, this museum chronicles the modern history of Athens.",
@@ -5677,6 +5725,7 @@ const POIs = [
         },
         {
             "name": "B. & M. Theocharakis Foundation",
+            "image": "images/b_and_m_theocharakis_foundation.jpg",
             "lat": 37.9765,
             "lng": 23.7369,
             "description": "A cultural center dedicated to music and the visual arts, located opposite the Greek Parliament.",
@@ -5701,6 +5750,7 @@ const POIs = [
         },
         {
             "name": "Athens Olympic Museum",
+            "image": "images/athens_olympic_museum.jpg",
             "lat": 38.0402,
             "lng": 23.7891,
             "description": "A modern museum celebrating the global history of the Olympic Games, focusing on Greece's foundational role.",
@@ -5725,6 +5775,7 @@ const POIs = [
         },
     {
             "name": "Tatoi Royal Palace",
+            "image": "images/tatoi_royal_palace.jpg",
             "lat": 38.1633,
             "lng": 23.7938,
             "description": "The abandoned, forested summer estate of the former Greek Royal Family.",
@@ -5749,6 +5800,7 @@ const POIs = [
         },
         {
             "name": "Lake Beletsi",
+            "image": "images/lake_beletsi.jpg",
             "lat": 38.2217,
             "lng": 23.7744,
             "description": "A picturesque, small artificial lake hidden in the pine forests of Mount Parnitha.",
@@ -5773,6 +5825,7 @@ const POIs = [
         },
         {
             "name": "Mpafi Refuge",
+            "image": "images/mpafi_refuge.jpg",
             "lat": 38.1682,
             "lng": 23.7228,
             "description": "A popular mountain refuge offering stunning views and traditional food high up in Parnitha National Park.",
@@ -5797,6 +5850,7 @@ const POIs = [
         },
         {
             "name": "Davelis Cave",
+            "image": "images/davelis_cave.jpg",
             "lat": 38.0722,
             "lng": 23.8761,
             "description": "A massive, mysterious cave on Mount Pentelicus famous for paranormal legends and ancient worship.",
@@ -5821,6 +5875,7 @@ const POIs = [
         },
         {
             "name": "Syngrou Estate",
+            "image": "images/syngrou_estate.jpg",
             "lat": 38.0664,
             "lng": 23.8114,
             "description": "A vast, beautiful forest estate spanning 950 acres in the northern suburbs of Athens.",
@@ -5845,6 +5900,7 @@ const POIs = [
         },
         {
             "name": "Temple of Apollo Zoster",
+            "image": "images/temple_of_apollo_zoster.jpg",
             "lat": 37.8131,
             "lng": 23.7742,
             "description": "An ancient temple uniquely preserved right on the sandy shores of the luxurious Asteras Beach.",
@@ -5869,6 +5925,7 @@ const POIs = [
         },
         {
             "name": "Aigosthena Fortress",
+            "image": "images/aigosthena_fortress.jpg",
             "lat": 38.1481,
             "lng": 23.2289,
             "description": "The most impressively preserved ancient fortress in Greece, towering over the Corinthian Gulf.",
@@ -5893,6 +5950,7 @@ const POIs = [
         },
         {
             "name": "Eleutherae (Goura Castle)",
+            "image": "images/eleutherae_goura_castle.jpg",
             "lat": 38.1814,
             "lng": 23.3769,
             "description": "A massive ancient border fortress overlooking the strategic pass of Mount Cithaeron.",
@@ -5917,6 +5975,7 @@ const POIs = [
         },
         {
             "name": "OAKA Olympic Athletic Center of Athens",
+            "image": "images/oaka_olympic_athletic_center_of_athens.jpg",
             "lat": 38.0378,
             "lng": 23.7844,
             "description": "The massive, futuristic stadium complex redesigned by Santiago Calatrava for the 2004 Olympics.",
@@ -5941,6 +6000,7 @@ const POIs = [
         },
         {
             "name": "AEK OPAP Arena (Agia Sophia Stadium)",
+            "image": "images/aek_opap_arena_agia_sophia_stadium.jpg",
             "lat": 38.0411,
             "lng": 23.7411,
             "description": "The spectacular, newly built home stadium of AEK Athens F.C., featuring Byzantine-inspired architecture.",
@@ -5965,6 +6025,7 @@ const POIs = [
         },
         {
             "name": "Pedion tou Areos",
+            "image": "images/pedion_tou_areos.jpg",
             "lat": 37.9933,
             "lng": 23.7344,
             "description": "One of the largest public parks in Athens, designed in honor of the heroes of the 1821 Revolution.",
@@ -5989,6 +6050,7 @@ const POIs = [
         },
         {
             "name": "Zappeion Megaron",
+            "image": "images/zappeion_megaron.jpg",
             "lat": 37.9714,
             "lng": 23.7364,
             "description": "A magnificent neoclassical building built specifically for the revival of the modern Olympic Games.",
@@ -6013,6 +6075,7 @@ const POIs = [
         },
         {
             "name": "Metropolitan Cathedral of Athens (Mitropoli)",
+            "image": "images/metropolitan_cathedral_of_athens_mitropoli.jpg",
             "lat": 37.9753,
             "lng": 23.73,
             "description": "The primary cathedral of the Greek Orthodox Church in Athens, hosting state funerals and royal weddings.",
@@ -6037,6 +6100,7 @@ const POIs = [
         },
         {
             "name": "Little Metropolis (Agios Eleftherios)",
+            "image": "images/little_metropolis_agios_eleftherios.jpg",
             "lat": 37.9751,
             "lng": 23.7303,
             "description": "A tiny, beautiful 12th-century Byzantine church built entirely out of ancient Greek and Roman marble spoils.",
@@ -6061,6 +6125,7 @@ const POIs = [
         },
         {
             "name": "Museum of Illusions Athens",
+            "image": "images/museum_of_illusions_athens.jpg",
             "lat": 37.9768,
             "lng": 23.7214,
             "description": "A wildly popular, interactive museum filled with mind-bending optical illusions.",
@@ -6085,6 +6150,7 @@ const POIs = [
         },
         {
             "name": "Hellenic IT Museum",
+            "image": "images/hellenic_it_museum.jpg",
             "lat": 37.9542,
             "lng": 23.6811,
             "description": "The first and only museum in Greece dedicated to the history of Information Technology.",
@@ -6109,6 +6175,7 @@ const POIs = [
         },
         {
             "name": "Maria Callas Museum",
+            "image": "images/maria_callas_museum.jpg",
             "lat": 37.9765,
             "lng": 23.7305,
             "description": "A beautiful new museum honoring the life and career of the legendary Greek soprano.",
@@ -6133,6 +6200,7 @@ const POIs = [
         },
         {
             "name": "OTE Telecommunications Museum",
+            "image": "images/ote_telecommunications_museum.jpg",
             "lat": 38.0931,
             "lng": 23.8055,
             "description": "A fascinating journey through the history of telecommunications in Greece.",
@@ -6157,6 +6225,7 @@ const POIs = [
         },
         {
             "name": "Jewish Museum of Greece",
+            "image": "images/jewish_museum_of_greece.jpg",
             "lat": 37.9733,
             "lng": 23.7328,
             "description": "A poignant museum documenting the 2,300-year history of the Jewish communities in Greece.",
@@ -6181,6 +6250,7 @@ const POIs = [
         },
         {
             "name": "Piraeus Archaeological Museum",
+            "image": "images/piraeus_archaeological_museum.jpg",
             "lat": 37.9367,
             "lng": 23.6444,
             "description": "An outstanding museum highlighting the ancient history of Athens' mighty naval port.",
@@ -8107,7 +8177,7 @@ const POIs = [
             "name": "Church of Prophet Elias, Piraeus",
             "lat": 37.9535,
             "lng": 23.6335,
-            "image": "images/prophet_elias_piraeus.jpg",
+            "image": "images/church_of_prophet_elias_piraeus.jpg",
             "description": "Hill church in Piraeus with panoramic port views. Prophet Elijah chapel overlooking maritime city and Saronic Gulf. Traditional hilltop sanctuary.",
             "audioText": "You are at the Church of Prophet Elias on a hill in Piraeus, overlooking the port and the Saronic Gulf. This elevated location follows the Greek tradition of placing churches dedicated to Prophet Elijah on high ground, symbolizing his ascent to heaven in a chariot of fire and the spiritual heights believers aspire to reach. From this vantage point, you command spectacular views across Greece's greatest port—the commercial harbor, passenger terminals, naval base, and yacht marina spread below, with ships departing for Greek islands and beyond. The church serves both as a neighborhood parish and as a pilgrimage destination, especially on the Prophet Elias feast day, July 20th, when Piraeans climb the hill to celebrate with liturgy and festivities. The maritime setting creates a unique atmosphere—the sound of ship horns blending with church bells, the sight of vessels entering and leaving harbor visible during services. Prophet Elijah, though an Old Testament figure, is deeply woven into Greek maritime culture. Sailors and fishermen seek his protection alongside Saint Nicholas. The church demonstrates how Orthodox faith pervades all aspects of Greek life, from mountaintops to seaports, connecting ancient prophetic tradition to contemporary urban existence.",
             "quiz": {
@@ -9165,9 +9235,12 @@ function setupMediaDrawer() {
 
     // Lightbox triggers
     drawerImg.addEventListener("click", () => {
-        if (activePOI && activePOI.image) {
-            lightboxImg.src = activePOI.image;
-            lightboxCaption.textContent = activePOI.name;
+        // Open whatever image the drawer is currently showing so the lightbox
+        // still works for POIs that fall back to the placeholder.
+        const src = (activePOI && activePOI.image) ? activePOI.image : drawerImg.src;
+        if (src) {
+            lightboxImg.src = src;
+            lightboxCaption.textContent = activePOI ? activePOI.name : "";
             lightbox.classList.remove("hidden");
         }
     });
