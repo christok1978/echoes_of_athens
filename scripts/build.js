@@ -9,6 +9,14 @@ if (!fs.existsSync(distDir)) {
     fs.mkdirSync(distDir);
 }
 
+function runMinify(localBinName, npxPackage, args, timeoutMs) {
+    const localBin = path.join(__dirname, '../node_modules/.bin', localBinName);
+    const cmd = fs.existsSync(localBin)
+        ? `"${localBin}" ${args}`
+        : `npx --yes ${npxPackage} ${args}`;
+    execSync(cmd, { stdio: 'inherit', cwd: __dirname, timeout: timeoutMs });
+}
+
 console.log('🚀 Starting build process for production...');
 
 // 1. Copy static assets
@@ -48,17 +56,17 @@ dirsToCopy.forEach(dir => {
 // 2. Minify JS using npx terser
 console.log('🗜️ Minifying app.js (this may take a few seconds)...');
 try {
-    execSync(`npx terser ../app.js -o ../dist/app.js --compress --mangle`, { stdio: 'inherit', cwd: __dirname });
+    runMinify('terser', '../app.js -o ../dist/app.js --compress --mangle', 120000);
     console.log('✅ app.js minified successfully!');
 } catch (error) {
     console.error('❌ Failed to minify JS. Using original file instead.');
     fs.copyFileSync(path.join(__dirname, '../app.js'), path.join(distDir, 'app.js'));
 }
 
-// 3. Minify CSS using npx clean-css-cli
+// 3. Minify CSS using clean-css-cli
 console.log('🗜️ Minifying style.css...');
 try {
-    execSync(`npx clean-css-cli ../style.css -o ../dist/style.css`, { stdio: 'inherit', cwd: __dirname });
+    runMinify('cleancss', '../style.css -o ../dist/style.css', 60000);
     console.log('✅ style.css minified successfully!');
 } catch (error) {
     console.error('❌ Failed to minify CSS. Using original file instead.');

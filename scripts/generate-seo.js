@@ -252,6 +252,9 @@ function main() {
     const sitemap = buildSitemap(entries);
     writeFile(path.join(ROOT, "sitemap.xml"), sitemap);
     writeFile(path.join(ROOT, "sites", "index.html"), directoryPage(entries));
+    entries.forEach((entry) => {
+        writeFile(path.join(ROOT, "sites", `${entry.slug}.html`), poiPage(entry));
+    });
 
     if (fs.existsSync(DIST)) {
         writeFile(path.join(DIST, "sitemap.xml"), sitemap);
@@ -259,9 +262,9 @@ function main() {
         entries.forEach((entry) => {
             writeFile(path.join(DIST, "sites", `${entry.slug}.html`), poiPage(entry));
         });
-        console.log(`SEO: wrote sitemap + ${entries.length} site pages to dist/sites`);
+        console.log(`SEO: wrote sitemap + ${entries.length} site pages (source + dist)`);
     } else {
-        console.log(`SEO: wrote sitemap and sites/index.html (${entries.length} POIs). Run the production build to emit per-site pages.`);
+        console.log(`SEO: wrote sitemap and ${entries.length} site pages under sites/`);
     }
 }
 

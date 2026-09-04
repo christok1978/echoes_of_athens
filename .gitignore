@@ -12,4 +12,5 @@ coverage/
 *.swp
 *.swo
 *~
-.tmp/
+sites/*
+!sites/index.html

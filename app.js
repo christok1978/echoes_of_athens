@@ -6474,7 +6474,7 @@ const POIs = [
             "reward": {
                 "title": "Free entry to Marathon Archaeological Museum",
                 "provider": "Marathon Museum",
-                "codeHash": "1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3"
+                "codeHash": "ef0059022d2890467ec407a539c38548814aa398f924a65f589583752be9e635"
             },
             "id": 260
         },

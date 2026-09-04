@@ -34,7 +34,7 @@ describe("Public SEO and marketing pages", () => {
         const html = fs.readFileSync(path.join(root, "index.html"), "utf8");
         assert.doesNotMatch(html, /yourdomain\.com/);
         assert.match(html, /rel="canonical" href="https:\/\/echoes-of-athens\.vercel\.app\/"/);
-        assert.match(html, /og:image" content="https:\/\/echoes-of-athens\.vercel\.app\/og-image\.png"/);
+        assert.match(html, /og:image" content="https:\/\/echoes-of-athens\.vercel\.app\/og-image\.jpg"/);
         assert.match(html, /seo-schema\.js/);
         assert.match(html, /share-poi-btn/);
         assert.match(html, /href="about.html"/);
