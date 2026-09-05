@@ -11,7 +11,7 @@
             "operatingSystem": "Any (Progressive Web App)",
             "inLanguage": "en",
             "isAccessibleForFree": true,
-            "description": "Free GPS audio guide to 355 historical sites, Byzantine churches, monasteries, and natural places across Athens and Attica, Greece.",
+            "description": "Free GPS audio guide to 309 historical sites, Byzantine churches, monasteries, and natural places across Athens and Attica, Greece.",
             "image": origin + "/og-image.jpg",
             "offers": {
                 "@type": "Offer",
@@ -28,7 +28,7 @@
             "@context": "https://schema.org",
             "@type": "TouristTrip",
             "name": "Self-guided audio tour of Athens and Attica",
-            "description": "Explore 355 points of interest with GPS-triggered narration, quizzes, and local rewards. No download, no account, no ads.",
+            "description": "Explore 309 points of interest with GPS-triggered narration, quizzes, and local rewards. No download, no account, no ads.",
             "touristType": [
                 "History enthusiasts",
                 "Independent travelers",
@@ -36,7 +36,7 @@
             ],
             "itinerary": {
                 "@type": "ItemList",
-                "numberOfItems": 355,
+                "numberOfItems": 309,
                 "name": "Athens and Attica points of interest"
             }
         }

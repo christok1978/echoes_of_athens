@@ -70,7 +70,7 @@ describe("Public SEO and marketing pages", () => {
             assert.equal(used.has(slug), false, `duplicate slug ${slug}`);
             used.add(slug);
         });
-        assert.equal(used.size, 355);
+        assert.equal(used.size, extractPOIs().length);
     });
 
     test("app.js can open a shared ?poi= deep link", () => {

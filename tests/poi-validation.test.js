@@ -75,6 +75,69 @@ describe('POI Data Validation', () => {
         );
     });
 
+    test('POI names should be unique (case-insensitive)', () => {
+        const nameMap = {};
+        POIs.forEach((poi) => {
+            const key = poi.name.trim().toLowerCase();
+            if (!nameMap[key]) nameMap[key] = [];
+            nameMap[key].push(`${poi.id}:${poi.name}`);
+        });
+        const duplicates = Object.entries(nameMap).filter(([, list]) => list.length > 1);
+        assert.deepStrictEqual(
+            duplicates,
+            [],
+            duplicates.map(([name, list]) => `"${name}" → ${list.join(', ')}`).join('\n')
+        );
+    });
+
+    test('known same-place aliases should not both exist', () => {
+        const names = new Set(POIs.map((poi) => poi.name.trim().toLowerCase()));
+        const aliasGroups = [
+            ['sanctuary of artemis (vravrona)', 'sanctuary of artemis at brauron', 'brauron sanctuary of artemis'],
+            ['temple of aphaia', 'sanctuary of aphaia'],
+            ['kolona archaeological site', 'archaeological site of kolona'],
+            ['plato\'s academy archaeological site', 'plato\'s academy archaeological park', 'plato\'s academy - first university'],
+            ['national gallery – alexandros soutsos museum', 'national gallery – alexandros soutzos museum'],
+            ['metropolitan cathedral of athens', 'metropolitan cathedral of athens (mitropoli)'],
+            ['little metropolis church', 'little metropolis (agios eleftherios)'],
+            ['theatre of thorikos', 'thorikos ancient theater', 'theatre of thorikos - world\'s oldest'],
+            ['marathon soros (burial mound)', 'tumulus of marathon'],
+            ['eleusis - sanctuary of the mysteries', 'sanctuary of demeter (eleusis)'],
+            ['amphiareion of oropos', 'amphiaraion of oropos'],
+            ['mount lycabettus', 'lycabettus hill'],
+            ['mount pentelikon marble quarries', 'mount penteli ancient quarries', 'ancient penteli marble quarries'],
+            ['aegosthena - fortress with tallest towers', 'aigosthena fortress'],
+            ['eleutherae (goura castle)', 'eleutherae ancient fortress'],
+            ['zappeion megaron', 'zappeion hall'],
+            ['lake vouliagmeni (thermal lake)', 'lake vouliagmeni'],
+            ['koutouki cave, paiania', 'koutouki cave'],
+            ['davelis cave (penteli cave)', 'davelis cave'],
+            ['bafi mountain refuge, parnitha', 'mpafi refuge'],
+            ['tatoi forest & former royal estate', 'tatoi royal palace'],
+            ['lake beletsi, mount parnitha', 'lake beletsi'],
+            ['parnitha national park', 'mount parnitha national park'],
+            ['schinias beach & national park', 'schinias national park', 'schinias national park (pine forest)'],
+            ['valanaris waterfall, drafi', 'valanaris waterfall'],
+            ['marathon lake & dam', 'marathon dam'],
+            ['rhamnous fortress and temple', 'rhamnous archaeological site'],
+            ['ancient silver mines of laurion', 'lavrion silver mines'],
+            ['aristotle\'s lyceum - peripatetic school', 'aristotle\'s lyceum'],
+            ['phyle fortress - birthplace of democracy\'s restoration', 'phyle fortress'],
+            ['monastery of kleiston, mount parnitha', 'monastery of kleiston'],
+            ['monastery of saint ephraim, nea makri', 'monastery of saint ephraim'],
+            ['monastery of faneromeni, salamis', 'monastery of faneromeni']
+        ];
+
+        const collisions = [];
+        aliasGroups.forEach((group) => {
+            const present = group.filter((name) => names.has(name));
+            if (present.length > 1) {
+                collisions.push(present.join(' + '));
+            }
+        });
+        assert.deepStrictEqual(collisions, [], `Same-place aliases still present:\n${collisions.join('\n')}`);
+    });
+
     test('POI IDs should be sequential starting from 0', () => {
         POIs.forEach((poi, index) => {
             assert.strictEqual(

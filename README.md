@@ -7,7 +7,7 @@ An immersive Progressive Web App (PWA) that brings ancient Greek archaeological 
 
 ## Features
 
-- 📍 **Interactive Map**: Explore 355 Points of Interest across Athens and Attica
+- 📍 **Interactive Map**: Explore 309 Points of Interest across Athens and Attica
 - 🎙️ **Audio Narration**: AI-powered text-to-speech guides using Web Speech API
 - 🧭 **Real & Simulated GPS**: Works with actual location or simulation mode for testing
 - ❓ **Educational Quizzes**: Test your knowledge at each site and earn rewards

@@ -1,7 +1,7 @@
 {
     "name": "Echoes of Athens Audio Guide",
     "short_name": "Echoes of Athens",
-    "description": "Free GPS audio guide to 355 temples, monasteries, beaches, and trails across Athens and Attica.",
+    "description": "Free GPS audio guide to 309 temples, monasteries, beaches, and trails across Athens and Attica.",
     "start_url": "index.html",
     "scope": "./",
     "display": "standalone",

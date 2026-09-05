@@ -777,8 +777,8 @@ const POIs = [
     {
         "id": 30,
         "name": "Church of the Holy Apostles",
-        "lat": 37.974650,
-        "lng": 23.722400,
+        "lat": 37.97465,
+        "lng": 23.7224,
         "image": "images/holy_apostles.png",
         "description": "A late 10th-century Byzantine church in the Ancient Agora, famous for its architectural style and beautifully preserved frescoes.",
         "audioText": "Explore the Church of the Holy Apostles Solaki, one of the oldest and most beautiful Byzantine churches in Athens, dating back to the late 10th century. Located in the southeast corner of the Ancient Agora, it is the only building that survived the modern archaeological excavation of the Agora. The church is built in the cross-in-square style, with a central dome supported by four columns, and its walls show decorative brickwork that mimics Kufic script. Inside, you can admire the 17th-century frescoes, which depict scenes of the apostles, preserved during restorations in the 1950s.",
@@ -802,8 +802,8 @@ const POIs = [
     {
         "id": 31,
         "name": "Little Metropolis Church",
-        "lat": 37.975516,
-        "lng": 23.73495,
+        "lat": 37.9751,
+        "lng": 23.7303,
         "image": "images/little_metropolis.png",
         "description": "A tiny, exquisite 12th-century Byzantine church built entirely of ancient Greek marble blocks and reliefs, located next to the modern Cathedral.",
         "audioText": "Look closely at the Little Metropolis, officially known as the Church of Saint Eleutherios. This tiny Byzantine church, built in the late 12th century, is an architectural marvel. Instead of new brick, it was constructed entirely of ancient Greek marble blocks, reliefs, and friezes scavenged from older pagan temples. Over 90 ancient reliefs are embedded in its external walls, creating a fascinating visual mixture of classical mythology and Christian themes. It remains one of the most unique examples of recycled architecture in the medieval Mediterranean.",
@@ -929,7 +929,7 @@ const POIs = [
         "name": "Sanctuary of Demeter (Eleusis)",
         "lat": 38.0416,
         "lng": 23.5383,
-        "image": "images/eleutherae.png",
+        "image": "images/eleusis_sanctuary.jpg",
         "description": "The sanctuary site of the Eleusinian Mysteries, the most sacred secret religious rites of the ancient Greek world, dedicated to Demeter and Persephone.",
         "audioText": "Explore the ruins of the Sanctuary of Demeter in Eleusis. This was the home of the Eleusinian Mysteries, the most secret and sacred religious rituals of ancient Greece. Initiates walked the Sacred Way from Athens to Eleusis to participate in rituals that promised happiness in the afterlife. The details of the rites remain secret to this day, but the ruins of the Telesterion hall show the scale of this ancient spiritual center.",
         "quiz": {
@@ -952,8 +952,8 @@ const POIs = [
     {
         "id": 37,
         "name": "Amphiaraion of Oropos",
-        "lat": 38.285495,
-        "lng": 23.68047,
+        "lat": 38.29139,
+        "lng": 23.84556,
         "image": "images/amphiaraion_oropos.jpg",
         "description": "An ancient healing sanctuary and oracle dedicated to the hero Amphiaraus, located in a quiet pine-filled ravine near Oropos.",
         "audioText": "Journey to the Amphiaraion of Oropos, a healing sanctuary founded in the late 5th century BC. Dedicated to the hero and seer Amphiaraus, this site served as both an oracle and a medical center, similar to Epidaurus. Patients slept in a long colonnade, hoping to receive healing dreams from the gods. The ruins include a small theater, a temple, and an ancient water clock.",
@@ -977,8 +977,8 @@ const POIs = [
     {
         "id": 38,
         "name": "Tumulus of Marathon",
-        "lat": 38.12323,
-        "lng": 23.949001,
+        "lat": 38.11791,
+        "lng": 23.97833,
         "image": "images/tumulus_marathon_new.jpg",
         "description": "The burial mound containing the ashes of the 192 Athenian soldiers who died defending Greece at the Battle of Marathon in 490 BC.",
         "audioText": "Stand before the Tumulus of Marathon, a 9-meter-tall burial mound that marks the grave of the 192 Athenian soldiers who died in 490 BC. Here, a small Athenian force defeated the invading Persian army. According to legend, Pheidippides ran 42 kilometers from the battlefield to Athens to announce the victory, inspiring the modern marathon race. The mound remains a symbol of liberty.",
@@ -1001,35 +1001,10 @@ const POIs = [
     },
     {
         "id": 39,
-        "name": "Sanctuary of Artemis (Vravrona)",
-        "lat": 37.971634,
-        "lng": 23.725707,
-        "image": "images/rhamnous.png",
-        "description": "An ancient sanctuary dedicated to Artemis Brauronia, where young Athenian girls participated in initiation ceremonies called the Arkteia.",
-        "audioText": "Explore the Sanctuary of Artemis in Vravrona, situated on the eastern coast of Attica. Dedicated to Artemis, the goddess of the hunt, childbirth, and wild nature, this site hosted the Arkteia. During this festival, young Athenian girls dressed as bears to participate in initiation rites. The well-preserved colonnade of the temple courtyard stands in a quiet wetland area.",
-        "quiz": {
-            "question": "Which animal did young girls dress as during the Arkteia rituals at Vravrona?",
-            "options": [
-                "Bears",
-                "Doves",
-                "Deers",
-                "Lions"
-            ],
-            "answer": 0,
-            "feedback": "Correct! The girls were called 'arktoi' (bears) during the sacred ceremony."
-        },
-        "reward": {
-            "title": "Free organic herbal soap",
-            "provider": "Vravrona Herb Farm",
-            "codeHash": "1fe472cdfcff44619a17c6fe3d193ba79932d5433d559c521170b920047ca7c2"
-        }
-    },
-    {
-        "id": 40,
         "name": "Thorikos Ancient Theater",
         "lat": 37.7381,
         "lng": 24.0538,
-        "image": "images/theatre_dionysus.png",
+        "image": "images/theatre_thorikos.jpg",
         "description": "The oldest surviving theater in the world, featuring a unique ellipsoidal shape and located near the ancient industrial town of Thorikos.",
         "audioText": "Visit the Thorikos Theater, constructed in the late 6th century BC. This is considered the oldest surviving theater in the world. Unlike later classical theaters, it features a unique ellipsoidal shape rather than a perfect semicircle, reflecting its early design. It was built near the ancient mining town of Thorikos to host theatrical festivals and community assemblies.",
         "quiz": {
@@ -1050,7 +1025,7 @@ const POIs = [
         }
     },
     {
-        "id": 41,
+        "id": 40,
         "name": "Lavrion Silver Mines",
         "lat": 37.712,
         "lng": 24.015,
@@ -1075,7 +1050,7 @@ const POIs = [
         }
     },
     {
-        "id": 42,
+        "id": 41,
         "name": "Kaisariani Monastery",
         "lat": 37.9607,
         "lng": 23.7985,
@@ -1100,7 +1075,7 @@ const POIs = [
         }
     },
     {
-        "id": 43,
+        "id": 42,
         "name": "Asteriou Monastery",
         "lat": 38.012979,
         "lng": 23.635926,
@@ -1125,7 +1100,7 @@ const POIs = [
         }
     },
     {
-        "id": 44,
+        "id": 43,
         "name": "Mount Parnitha National Park",
         "lat": 38.173062,
         "lng": 23.721956,
@@ -1150,7 +1125,7 @@ const POIs = [
         }
     },
     {
-        "id": 45,
+        "id": 44,
         "name": "Temple of Poseidon at Sounion",
         "lat": 37.6501,
         "lng": 24.0245,
@@ -1175,7 +1150,7 @@ const POIs = [
         }
     },
     {
-        "id": 46,
+        "id": 45,
         "name": "Choragic Monument of Thrasyllus",
         "lat": 37.97108,
         "lng": 23.729938,
@@ -1200,7 +1175,7 @@ const POIs = [
         }
     },
     {
-        "id": 47,
+        "id": 46,
         "name": "Pedestal of Agrippa",
         "lat": 37.97153,
         "lng": 23.72574,
@@ -1225,7 +1200,7 @@ const POIs = [
         }
     },
     {
-        "id": 48,
+        "id": 47,
         "name": "Agia Dynami Church",
         "lat": 37.99131,
         "lng": 23.663996,
@@ -1250,7 +1225,7 @@ const POIs = [
         }
     },
     {
-        "id": 49,
+        "id": 48,
         "name": "St. Demetrius Loumbardiaris",
         "lat": 37.9696,
         "lng": 23.7208,
@@ -1275,7 +1250,7 @@ const POIs = [
         }
     },
     {
-        "id": 50,
+        "id": 49,
         "name": "Stoa of Eumenes",
         "lat": 37.9705,
         "lng": 23.7257,
@@ -1300,7 +1275,7 @@ const POIs = [
         }
     },
     {
-        "id": 51,
+        "id": 50,
         "name": "The Pelasgian Wall",
         "lat": 37.981068,
         "lng": 23.728715,
@@ -1325,7 +1300,7 @@ const POIs = [
         }
     },
     {
-        "id": 52,
+        "id": 51,
         "name": "Asclepieion of Athens",
         "lat": 37.975565,
         "lng": 23.734832,
@@ -1350,7 +1325,7 @@ const POIs = [
         }
     },
     {
-        "id": 53,
+        "id": 52,
         "name": "The Metroum (Ancient Agora)",
         "lat": 37.975021,
         "lng": 23.724193,
@@ -1375,10 +1350,10 @@ const POIs = [
         }
     },
     {
-        "id": 54,
+        "id": 53,
         "name": "Ancient Bouleuterion",
-        "lat": 37.975400,
-        "lng": 23.723100,
+        "lat": 37.9754,
+        "lng": 23.7231,
         "image": "images/bouleuterion.jpg",
         "description": "The meeting house of the Athenian Council of 500 (Boule), who prepared the agenda for the general assembly.",
         "audioText": "Explore the ruins of the Bouleuterion, the council house of the Boule. This council of 500 citizens was chosen by lot each year. They met daily in this building to draft laws and prepare the agenda for the general assembly on the Pnyx, serving as a core institution of ancient Athenian democracy.",
@@ -1400,7 +1375,7 @@ const POIs = [
         }
     },
     {
-        "id": 55,
+        "id": 54,
         "name": "The Tholos (Agora)",
         "lat": 37.975021,
         "lng": 23.724193,
@@ -1425,7 +1400,7 @@ const POIs = [
         }
     },
     {
-        "id": 56,
+        "id": 55,
         "name": "Altar of the Twelve Gods",
         "lat": 37.9757,
         "lng": 23.7229,
@@ -1450,7 +1425,7 @@ const POIs = [
         }
     },
     {
-        "id": 57,
+        "id": 56,
         "name": "South Stoa I",
         "lat": 37.9744,
         "lng": 23.7228,
@@ -1475,7 +1450,7 @@ const POIs = [
         }
     },
     {
-        "id": 58,
+        "id": 57,
         "name": "Acropolis Museum",
         "lat": 37.9689,
         "lng": 23.7285,
@@ -1500,7 +1475,7 @@ const POIs = [
         }
     },
     {
-        "id": 59,
+        "id": 58,
         "name": "Museum of Cycladic Art",
         "lat": 37.9757,
         "lng": 23.7423,
@@ -1525,7 +1500,7 @@ const POIs = [
         }
     },
     {
-        "id": 60,
+        "id": 59,
         "name": "Benaki Museum",
         "lat": 37.974474,
         "lng": 23.708603,
@@ -1550,7 +1525,7 @@ const POIs = [
         }
     },
     {
-        "id": 61,
+        "id": 60,
         "name": "National Museum of Contemporary Art (EMST)",
         "lat": 37.963,
         "lng": 23.7253,
@@ -1575,7 +1550,7 @@ const POIs = [
         }
     },
     {
-        "id": 62,
+        "id": 61,
         "name": "Anafiotika",
         "lat": 37.9724,
         "lng": 23.7281,
@@ -1600,7 +1575,7 @@ const POIs = [
         }
     },
     {
-        "id": 63,
+        "id": 62,
         "name": "Byzantine and Christian Museum",
         "lat": 37.97472,
         "lng": 23.74444,
@@ -1625,7 +1600,7 @@ const POIs = [
         }
     },
     {
-        "id": 64,
+        "id": 63,
         "name": "War Museum of Athens",
         "lat": 37.97528,
         "lng": 23.74528,
@@ -1650,7 +1625,7 @@ const POIs = [
         }
     },
     {
-        "id": 65,
+        "id": 64,
         "name": "Numismatic Museum of Athens",
         "lat": 37.9778,
         "lng": 23.7354,
@@ -1675,7 +1650,7 @@ const POIs = [
         }
     },
     {
-        "id": 66,
+        "id": 65,
         "name": "Hellenic Motor Museum",
         "lat": 37.9913,
         "lng": 23.7299,
@@ -1700,7 +1675,7 @@ const POIs = [
         }
     },
     {
-        "id": 67,
+        "id": 66,
         "name": "National Gallery – Alexandros Soutsos Museum",
         "lat": 37.97556,
         "lng": 23.74917,
@@ -1725,7 +1700,7 @@ const POIs = [
         }
     },
     {
-        "id": 68,
+        "id": 67,
         "name": "Rhamnous Archaeological Site",
         "lat": 38.2192,
         "lng": 24.0269,
@@ -1750,7 +1725,7 @@ const POIs = [
         }
     },
     {
-        "id": 69,
+        "id": 68,
         "name": "Aigosthena Fortress",
         "lat": 38.1471,
         "lng": 23.228613,
@@ -1775,10 +1750,10 @@ const POIs = [
         }
     },
     {
-        "id": 70,
+        "id": 69,
         "name": "Sanctuary of Aphaia",
-        "lat": 37.971586,
-        "lng": 23.728333,
+        "lat": 37.7547,
+        "lng": 23.5325,
         "image": "images/sanctuary_aphaia.jpg",
         "description": "A magnificent Doric temple on Aegina Island, forming the ancient Sacred Triangle with the Parthenon and Sounion.",
         "audioText": "Visit the Sanctuary of Aphaia, perched on a pine-covered hill on Aegina Island. Built around 500 BC, this Doric temple is dedicated to Aphaia, a local goddess associated with fertility and agricultural cycles. The temple is famous for its elegant columns made of local limestone, coated with thin marble stucco. Architecturally, it represents the transition between archaic and classical style. Together with the Parthenon in Athens and the Temple of Poseidon at Cape Sounion, the Temple of Aphaia forms an equilateral triangle, known in antiquity as the Sacred Triangle, highlighting the mathematical harmony of ancient Greek sacred geography.",
@@ -1799,7 +1774,7 @@ const POIs = [
         }
     },
     {
-        "id": 71,
+        "id": 70,
         "name": "Lake Vouliagmeni",
         "lat": 37.8075,
         "lng": 23.7856,
@@ -1824,7 +1799,7 @@ const POIs = [
         }
     },
     {
-        "id": 72,
+        "id": 71,
         "name": "Marathon Dam",
         "lat": 38.150436,
         "lng": 23.948612,
@@ -1849,7 +1824,7 @@ const POIs = [
         }
     },
     {
-        "id": 73,
+        "id": 72,
         "name": "Koutouki Cave",
         "lat": 38.019034,
         "lng": 23.80512,
@@ -1874,10 +1849,10 @@ const POIs = [
         }
     },
     {
-        "id": 74,
+        "id": 73,
         "name": "Eleutherae Ancient Fortress",
-        "lat": 37.929251,
-        "lng": 23.709598,
+        "lat": 38.1814,
+        "lng": 23.3769,
         "image": "images/eleutherae.png",
         "description": "A spectacular 4th-century BC border fortress guarding the pass between Attica and Boeotia, with well-preserved stone walls and towers.",
         "audioText": "Welcome to the ancient fortress of Eleutherae, also known as Gyphtokastro. Perched on a rocky ridge guarding the main pass between Attica and Boeotia, this fortress stands as a testament to classical military architecture. Built in the 4th century BC, it features walls over two meters thick and is reinforced by multiple rectangular towers. The positioning allowed garrisoned soldiers to monitor troop movements in the valley below. Today, walking along its stone battlements offers an immersive view into the strategic defense networks that protected the ancient city-state of Athens.",
@@ -1899,10 +1874,10 @@ const POIs = [
         }
     },
     {
-        "id": 75,
+        "id": 74,
         "name": "Phyle Fortress",
-        "lat": 37.928276,
-        "lng": 23.695168,
+        "lat": 38.14,
+        "lng": 23.637,
         "image": "images/phyle_fortress.jpg",
         "description": "A historic fortress on Mount Parnitha where general Thrasybulus gathered democratic forces to overthrow the Thirty Tyrants.",
         "audioText": "Explore the historic ruins of Phyle Fortress, situated on a dramatic cliff on the southern slopes of Mount Parnitha. Built in the 4th century BC, the fortress played a pivotal role in Athenian history. In 404 BC, following Athens' defeat in the Peloponnesian War, a Spartan-backed oligarchy known as the Thirty Tyrants ruled the city. The democratic general Thrasybulus fled to Phyle with a small band of supporters, using this remote fortress as his base to launch a campaign that successfully restored democracy. The site preserves beautiful ashlar masonry and offers panoramic views of the Athenian basin.",
@@ -1924,7 +1899,7 @@ const POIs = [
         }
     },
     {
-        "id": 76,
+        "id": 75,
         "name": "Mount Penteli Ancient Quarries",
         "lat": 38.0494,
         "lng": 23.8824,
@@ -1949,7 +1924,7 @@ const POIs = [
         }
     },
     {
-        "id": 77,
+        "id": 76,
         "name": "Piraeus Archaeological Museum & Ship Sheds",
         "lat": 37.9367,
         "lng": 23.6442,
@@ -1974,10 +1949,10 @@ const POIs = [
         }
     },
     {
-        "id": 78,
+        "id": 77,
         "name": "Schinias National Park",
-        "lat": 38.015568,
-        "lng": 23.77556,
+        "lat": 38.1207,
+        "lng": 23.985,
         "image": "images/schinias.png",
         "description": "A beautiful coastal national park with a rare pine forest, wetland, and the historic marsh where the Persians retreated.",
         "audioText": "Explore Schinias National Park, one of the most important natural wetlands in Attica. The park features a unique coastal forest of stone pine trees running alongside a sandy beach, bordered by a large freshwater marsh. Historically, this area is the site of the Battle of Marathon in 490 BC. According to accounts by Herodotus, the defeated Persian forces retreated into these very wetlands, where they became trapped and suffered heavy losses. Today, the park is a protected sanctuary for hundreds of bird species and a popular spot for windsurfing and nature walks.",
@@ -1999,10 +1974,10 @@ const POIs = [
         }
     },
     {
-        "id": 79,
+        "id": 78,
         "name": "Saint John the Hunter Monastery",
-        "lat": 37.952150,
-        "lng": 23.827440,
+        "lat": 37.95215,
+        "lng": 23.82744,
         "image": "images/st_john_hunter.png",
         "description": "A beautiful 12th-century Byzantine monastery perched on a high ridge of Mount Hymettus, offering spectacular panoramic views.",
         "audioText": "Stand before the Monastery of Saint John the Hunter, also known as Aghios Ioannis Kynigos. Perched on a high ridge on the northern edge of Mount Hymettus, this 12th-century Byzantine monastery has served as a place of spiritual retreat and safety for centuries. Its small church features typical Byzantine brickwork and a dome supported by ancient column drums. The monastery's position offers panoramic views over both the Athens basin to the west and the Mesogeia plain to the east, making it a favorite starting point for hikers exploring the mountain's trails.",
@@ -2024,7 +1999,7 @@ const POIs = [
         }
     },
     {
-        "id": 80,
+        "id": 79,
         "name": "Plato's Academy Archaeological Park",
         "lat": 37.9922,
         "lng": 23.7083,
@@ -2049,10 +2024,10 @@ const POIs = [
         }
     },
     {
-        "id": 81,
+        "id": 80,
         "name": "Kynosarges Archaeological Site",
-        "lat": 37.9680,
-        "lng": 23.7450,
+        "lat": 37.968,
+        "lng": 23.745,
         "image": "images/aristotle_s_lyceum.jpg",
         "description": "The ancient gymnasium dedicated to Heracles, famous as the birthplace of Cynic Philosophy under Antisthenes.",
         "audioText": "Explore the ruins of Kynosarges, situated south of the Acropolis. In ancient times, this area housed a famous gymnasium dedicated to Heracles, which was reserved for people of mixed Athenian and foreign ancestry. It was here, in the early 4th century BC, that the philosopher Antisthenes began teaching his followers. His teachings laid the foundation for Cynic philosophy, which advocated for a life of virtue lived in accordance with nature, free from societal conventions. The name Kynosarges means 'white dog,' commemorating a myth of a dog stealing a sacrifice.",
@@ -2074,7 +2049,7 @@ const POIs = [
         }
     },
     {
-        "id": 82,
+        "id": 81,
         "name": "Tomb of Sophocles",
         "lat": 37.975351,
         "lng": 23.736366,
@@ -2099,7 +2074,7 @@ const POIs = [
         }
     },
     {
-        "id": 83,
+        "id": 82,
         "name": "Temple of Apollo Zoster",
         "lat": 37.810009,
         "lng": 23.77373,
@@ -2124,10 +2099,10 @@ const POIs = [
         }
     },
     {
-        "id": 84,
+        "id": 83,
         "name": "Archaeological Site of Kolona",
-        "lat": 37.97519,
-        "lng": 23.743417,
+        "lat": 37.7478,
+        "lng": 23.4246,
         "image": "images/kolona_archaeological.jpg",
         "description": "The prehistoric acropolis of Aegina Island, dominated by a single standing column of a Temple of Apollo.",
         "audioText": "Visit the archaeological site of Kolona, the historic acropolis of Aegina Island. Occupied continuously since the Neolithic era, the hill contains layers of ancient fortifications and residential streets. Today, the site is dominated by a single, tall limestone column (kolona) standing on the hilltop. This column is the sole survivor of a grand Doric Temple of Apollo built around 510 BC. The hill offers spectacular views of the Saronic Gulf and houses a museum showing Aegina's early prehistoric pottery and bronze treasures.",
@@ -2149,7 +2124,7 @@ const POIs = [
         }
     },
     {
-        "id": 85,
+        "id": 84,
         "name": "Phaleron Delta Ancient Cemetery (Phaleron Captives)",
         "lat": 37.928762,
         "lng": 23.694219,
@@ -2174,7 +2149,7 @@ const POIs = [
         }
     },
     {
-        "id": 86,
+        "id": 85,
         "name": "Ancient Deme of Halai Aixonides",
         "lat": 37.969914,
         "lng": 23.71918,
@@ -2199,7 +2174,7 @@ const POIs = [
         }
     },
     {
-        "id": 87,
+        "id": 86,
         "name": "The Dema Wall",
         "lat": 38.073466,
         "lng": 23.669041,
@@ -2224,7 +2199,7 @@ const POIs = [
         }
     },
     {
-        "id": 88,
+        "id": 87,
         "name": "Agrileza Silver Workshops",
         "lat": 37.6744,
         "lng": 24.015,
@@ -2249,7 +2224,7 @@ const POIs = [
         }
     },
     {
-        "id": 89,
+        "id": 88,
         "name": "The Diateichisma Wall",
         "lat": 37.981068,
         "lng": 23.728715,
@@ -2274,7 +2249,7 @@ const POIs = [
         }
     },
     {
-        "id": 90,
+        "id": 89,
         "name": "Cave of Pan",
         "lat": 38.011272,
         "lng": 23.631127,
@@ -2299,7 +2274,7 @@ const POIs = [
         }
     },
     {
-        "id": 91,
+        "id": 90,
         "name": "Sanctuary of Zeus Ombrios",
         "lat": 37.984296,
         "lng": 23.284779,
@@ -2324,10 +2299,10 @@ const POIs = [
         }
     },
     {
-        "id": 92,
+        "id": 91,
         "name": "Valanaris Waterfall",
-        "lat": 37.984288,
-        "lng": 23.738453,
+        "lat": 38.0956,
+        "lng": 23.8845,
         "image": "images/lake_vouliagmeni.png",
         "description": "A beautiful, hidden natural waterfall and stream creating a lush green oasis on the slopes of Penteli.",
         "audioText": "Discover the Valanaris Waterfall, a hidden natural gem located on the eastern slopes of Mount Penteli near Drafi. Fed by a small mountain stream, the water falls over a six-meter cliff, forming a natural pool surrounded by trees. The name Valanaris comes from the oak trees (valanidies) that once covered the area. This stream flows year-round, creating a lush green oasis in the dry Attica landscape that serves as a sanctuary for local birds, frogs, and tortoises.",
@@ -2349,7 +2324,7 @@ const POIs = [
         }
     },
     {
-        "id": 93,
+        "id": 92,
         "name": "Kaisariani Botanical Garden",
         "lat": 38.010599,
         "lng": 23.642736,
@@ -2374,7 +2349,7 @@ const POIs = [
         }
     },
     {
-        "id": 94,
+        "id": 93,
         "name": "Temple of Artemis Agrotera",
         "lat": 37.967538,
         "lng": 23.735485,
@@ -2399,7 +2374,7 @@ const POIs = [
         }
     },
     {
-        "id": 95,
+        "id": 94,
         "name": "Choragic Monument of Nikias",
         "lat": 37.970239,
         "lng": 23.726959,
@@ -2424,7 +2399,7 @@ const POIs = [
         }
     },
     {
-        "id": 96,
+        "id": 95,
         "name": "Temple of Apollo Erithaseos",
         "lat": 37.975557,
         "lng": 23.722124,
@@ -2449,7 +2424,7 @@ const POIs = [
         }
     },
     {
-        "id": 97,
+        "id": 96,
         "name": "Archaeological Museum of Megara",
         "lat": 37.989012,
         "lng": 23.732958,
@@ -2474,11 +2449,11 @@ const POIs = [
         }
     },
     {
-        "id": 98,
+        "id": 97,
         "name": "Monastery of Kleiston",
-        "lat": 38.012979,
-        "lng": 23.635926,
-        "image": "images/monastery_kleiston.jpg",
+        "lat": 38.1244,
+        "lng": 23.6692,
+        "image": "images/kleiston_parnitha.jpg",
         "description": "A historic 11th-century Byzantine monastery built on the edge of a deep gorge on Mount Parnitha.",
         "audioText": "Explore the Monastery of Kleiston, located on a cliff overlooking the deep gorge of Gouras on Mount Parnitha. Founded in the late 11th century, this historic monastery was named Kleiston, meaning 'the enclosed,' due to its dramatic location surrounded by high mountains. The monastery features a small Byzantine church, a central courtyard, and fortified walls that protected it from raids. It offers a tranquil escape and acts as a historic starting point for hikes into the national park.",
         "quiz": {
@@ -2499,7 +2474,7 @@ const POIs = [
         }
     },
     {
-        "id": 99,
+        "id": 98,
         "name": "Tower of Markellos",
         "lat": 37.7472,
         "lng": 23.4286,
@@ -2524,7 +2499,7 @@ const POIs = [
         }
     },
     {
-        "id": 100,
+        "id": 99,
         "name": "National Historical Museum",
         "lat": 37.989012,
         "lng": 23.732958,
@@ -2549,7 +2524,7 @@ const POIs = [
         }
     },
     {
-        "id": 101,
+        "id": 100,
         "name": "National Observatory of Athens",
         "lat": 37.970038,
         "lng": 23.765237,
@@ -2574,7 +2549,7 @@ const POIs = [
         }
     },
     {
-        "id": 102,
+        "id": 101,
         "name": "Technopolis (Gazi)",
         "lat": 37.978564,
         "lng": 23.711477,
@@ -2599,7 +2574,7 @@ const POIs = [
         }
     },
     {
-        "id": 103,
+        "id": 102,
         "name": "Roman Baths at Zappeion",
         "lat": 37.971591,
         "lng": 23.733842,
@@ -2624,7 +2599,7 @@ const POIs = [
         }
     },
     {
-        "id": 104,
+        "id": 103,
         "name": "Stoa Poikile (Painted Stoa)",
         "lat": 37.975516,
         "lng": 23.73495,
@@ -2649,7 +2624,7 @@ const POIs = [
         }
     },
     {
-        "id": 105,
+        "id": 104,
         "name": "Odeon of Agrippa",
         "lat": 37.9751,
         "lng": 23.7229,
@@ -2674,7 +2649,7 @@ const POIs = [
         }
     },
     {
-        "id": 106,
+        "id": 105,
         "name": "Agia Irene Church (Aeolou)",
         "lat": 37.9769,
         "lng": 23.7289,
@@ -2699,7 +2674,7 @@ const POIs = [
         }
     },
     {
-        "id": 107,
+        "id": 106,
         "name": "Hadrian’s Aqueduct (Dexameni)",
         "lat": 37.979046,
         "lng": 23.741741,
@@ -2724,7 +2699,7 @@ const POIs = [
         }
     },
     {
-        "id": 108,
+        "id": 107,
         "name": "Sacred Gate (Kerameikos)",
         "lat": 37.978176,
         "lng": 23.718355,
@@ -2749,7 +2724,7 @@ const POIs = [
         }
     },
     {
-        "id": 109,
+        "id": 108,
         "name": "Temple of Ares (Agora)",
         "lat": 37.97259,
         "lng": 23.724641,
@@ -2774,7 +2749,7 @@ const POIs = [
         }
     },
     {
-        "id": 110,
+        "id": 109,
         "name": "Church of Agioi Asomatoi",
         "lat": 37.9778,
         "lng": 23.7214,
@@ -2799,7 +2774,7 @@ const POIs = [
         }
     },
     {
-        "id": 111,
+        "id": 110,
         "name": "Tomb of the Unknown Soldier (Relief)",
         "lat": 37.9754,
         "lng": 23.7363,
@@ -2824,7 +2799,7 @@ const POIs = [
         }
     },
     {
-        "id": 112,
+        "id": 111,
         "name": "Tomb of Heinrich Schliemann",
         "lat": 37.964349,
         "lng": 23.736103,
@@ -2849,7 +2824,7 @@ const POIs = [
         }
     },
     {
-        "id": 113,
+        "id": 112,
         "name": "Tomb of Theodoros Kolokotronis",
         "lat": 37.977984,
         "lng": 23.733043,
@@ -2874,7 +2849,7 @@ const POIs = [
         }
     },
     {
-        "id": 114,
+        "id": 113,
         "name": "Roman Bath of the Ancient Agora",
         "lat": 37.9748,
         "lng": 23.7235,
@@ -2899,7 +2874,7 @@ const POIs = [
         }
     },
     {
-        "id": 115,
+        "id": 114,
         "name": "Lysicrates Square (Street of Tripods)",
         "lat": 37.983551,
         "lng": 23.728159,
@@ -2924,7 +2899,7 @@ const POIs = [
         }
     },
     {
-        "id": 116,
+        "id": 115,
         "name": "Tower of the Winds (Clepsydra Inlet)",
         "lat": 37.9741,
         "lng": 23.727,
@@ -2949,7 +2924,7 @@ const POIs = [
         }
     },
     {
-        "id": 117,
+        "id": 116,
         "name": "Areopagus Hill (Paul's Sermon Plaque)",
         "lat": 37.972247,
         "lng": 23.723349,
@@ -2974,7 +2949,7 @@ const POIs = [
         }
     },
     {
-        "id": 118,
+        "id": 117,
         "name": "National Garden (Roman Mosaic Floor)",
         "lat": 37.975516,
         "lng": 23.73495,
@@ -2999,7 +2974,7 @@ const POIs = [
         }
     },
     {
-        "id": 119,
+        "id": 118,
         "name": "Pnyx Hill Orator's Bema",
         "lat": 37.971543,
         "lng": 23.719381,
@@ -3024,7 +2999,7 @@ const POIs = [
         }
     },
     {
-        "id": 120,
+        "id": 119,
         "name": "Museum of the Ancient Agora",
         "lat": 37.9752,
         "lng": 23.7238,
@@ -3049,7 +3024,7 @@ const POIs = [
         }
     },
     {
-        "id": 121,
+        "id": 120,
         "name": "Monument of the Eponymous Heroes",
         "lat": 37.9752,
         "lng": 23.722,
@@ -3074,7 +3049,7 @@ const POIs = [
         }
     },
     {
-        "id": 122,
+        "id": 121,
         "name": "Street of Tombs (Kerameikos)",
         "lat": 37.978634,
         "lng": 23.718221,
@@ -3099,7 +3074,7 @@ const POIs = [
         }
     },
     {
-        "id": 123,
+        "id": 122,
         "name": "Tzistarakis Mosque",
         "lat": 37.976,
         "lng": 23.7259,
@@ -3124,7 +3099,7 @@ const POIs = [
         }
     },
     {
-        "id": 124,
+        "id": 123,
         "name": "Adrianou Street (Plaka)",
         "lat": 37.976828,
         "lng": 23.720842,
@@ -3149,7 +3124,7 @@ const POIs = [
         }
     },
     {
-        "id": 125,
+        "id": 124,
         "name": "Syntagma Metro Station Exhibition",
         "lat": 37.975516,
         "lng": 23.73495,
@@ -3174,7 +3149,7 @@ const POIs = [
         }
     },
     {
-        "id": 126,
+        "id": 125,
         "name": "Pikionis Landscaping (Philopappos)",
         "lat": 37.96894,
         "lng": 23.720219,
@@ -3199,7 +3174,7 @@ const POIs = [
         }
     },
     {
-        "id": 127,
+        "id": 126,
         "name": "Lycabettus Open Air Theatre",
         "lat": 37.977713,
         "lng": 23.783292,
@@ -3224,7 +3199,7 @@ const POIs = [
         }
     },
     {
-        "id": 128,
+        "id": 127,
         "name": "Sanctuary of Zeus Polieus (Acropolis)",
         "lat": 37.9721,
         "lng": 23.7278,
@@ -3249,7 +3224,7 @@ const POIs = [
         }
     },
     {
-        "id": 129,
+        "id": 128,
         "name": "Tomb of Melina Mercouri",
         "lat": 37.969856,
         "lng": 23.731426,
@@ -3274,7 +3249,7 @@ const POIs = [
         }
     },
     {
-        "id": 130,
+        "id": 129,
         "name": "Plato's Academy Sacred House",
         "lat": 37.991368,
         "lng": 23.708381,
@@ -3299,7 +3274,7 @@ const POIs = [
         }
     },
     {
-        "id": 131,
+        "id": 130,
         "name": "Temple of Apollo Patroos",
         "lat": 37.9753,
         "lng": 23.7222,
@@ -3324,7 +3299,7 @@ const POIs = [
         }
     },
     {
-        "id": 132,
+        "id": 131,
         "name": "Roman Agora East Propylon",
         "lat": 37.975021,
         "lng": 23.724193,
@@ -3349,7 +3324,7 @@ const POIs = [
         }
     },
     {
-        "id": 133,
+        "id": 132,
         "name": "Shrine of the Nymphs (Hill of Nymphs)",
         "lat": 38.081139,
         "lng": 23.825844,
@@ -3374,7 +3349,7 @@ const POIs = [
         }
     },
     {
-        "id": 134,
+        "id": 133,
         "name": "First Cemetery (Tomb of Andreas Syngros)",
         "lat": 37.963017,
         "lng": 23.738324,
@@ -3399,7 +3374,7 @@ const POIs = [
         }
     },
     {
-        "id": 135,
+        "id": 134,
         "name": "Panagia Grigoroussa Church",
         "lat": 37.9751,
         "lng": 23.7275,
@@ -3424,7 +3399,7 @@ const POIs = [
         }
     },
     {
-        "id": 136,
+        "id": 135,
         "name": "University of Athens Great Hall",
         "lat": 37.970038,
         "lng": 23.765237,
@@ -3449,7 +3424,7 @@ const POIs = [
         }
     },
     {
-        "id": 137,
+        "id": 136,
         "name": "Mycenaean Golden Gallery",
         "lat": 37.989012,
         "lng": 23.732958,
@@ -3474,7 +3449,7 @@ const POIs = [
         }
     },
     {
-        "id": 138,
+        "id": 137,
         "name": "Cape Sounion Geological Cliffs",
         "lat": 37.650212,
         "lng": 24.02459,
@@ -3499,7 +3474,7 @@ const POIs = [
         }
     },
     {
-        "id": 139,
+        "id": 138,
         "name": "Tomb of Sophia Schliemann",
         "lat": 37.990214,
         "lng": 23.769401,
@@ -3524,7 +3499,7 @@ const POIs = [
         }
     },
     {
-        "id": 140,
+        "id": 139,
         "name": "Church of Agia Marina (Nymphs Hill)",
         "lat": 37.9737,
         "lng": 23.7185,
@@ -3549,7 +3524,7 @@ const POIs = [
         }
     },
     {
-        "id": 141,
+        "id": 140,
         "name": "Bath House of the Winds",
         "lat": 37.9745,
         "lng": 23.7276,
@@ -3574,7 +3549,7 @@ const POIs = [
         }
     },
     {
-        "id": 142,
+        "id": 141,
         "name": "The Pompeion (Kerameikos)",
         "lat": 37.978634,
         "lng": 23.718221,
@@ -3599,7 +3574,7 @@ const POIs = [
         }
     },
     {
-        "id": 143,
+        "id": 142,
         "name": "Royal Stoa (Stoa Basileios)",
         "lat": 37.9756,
         "lng": 23.7219,
@@ -3624,7 +3599,7 @@ const POIs = [
         }
     },
     {
-        "id": 144,
+        "id": 143,
         "name": "Agios Nikolaos Ragavas Church",
         "lat": 37.9729,
         "lng": 23.7291,
@@ -3649,7 +3624,7 @@ const POIs = [
         }
     },
     {
-        "id": 145,
+        "id": 144,
         "name": "The Fallen Column (Olympian Zeus)",
         "lat": 37.969437,
         "lng": 23.733096,
@@ -3674,7 +3649,7 @@ const POIs = [
         }
     },
     {
-        "id": 146,
+        "id": 145,
         "name": "Tomb of Yannoulis Halepas",
         "lat": 38.017333,
         "lng": 23.741095,
@@ -3699,7 +3674,7 @@ const POIs = [
         }
     },
     {
-        "id": 147,
+        "id": 146,
         "name": "Tomb of George Averoff",
         "lat": 37.969344,
         "lng": 23.73928,
@@ -3724,7 +3699,7 @@ const POIs = [
         }
     },
     {
-        "id": 148,
+        "id": 147,
         "name": "Tomb of Andreas Papandreou",
         "lat": 37.963017,
         "lng": 23.738324,
@@ -3749,7 +3724,7 @@ const POIs = [
         }
     },
     {
-        "id": 149,
+        "id": 148,
         "name": "Phaleron Captives Grave Site",
         "lat": 37.9408,
         "lng": 23.6885,
@@ -3774,7 +3749,7 @@ const POIs = [
         }
     },
     {
-        "id": 150,
+        "id": 149,
         "name": "Plato's Academy Gymnasium Ruins",
         "lat": 37.992,
         "lng": 23.708,
@@ -3799,7 +3774,7 @@ const POIs = [
         }
     },
     {
-        "id": 151,
+        "id": 150,
         "name": "Tomb of the Lacedaemonians",
         "lat": 37.978946,
         "lng": 23.718124,
@@ -3824,7 +3799,7 @@ const POIs = [
         }
     },
     {
-        "id": 152,
+        "id": 151,
         "name": "Sanctuary of Pandion (Acropolis)",
         "lat": 38.401755,
         "lng": 23.794579,
@@ -3849,7 +3824,7 @@ const POIs = [
         }
     },
     {
-        "id": 153,
+        "id": 152,
         "name": "Stoa of Attalos Colonnade",
         "lat": 37.9751,
         "lng": 23.7239,
@@ -3874,7 +3849,7 @@ const POIs = [
         }
     },
     {
-        "id": 154,
+        "id": 153,
         "name": "Hadrian's Arch (Theseus Inscription)",
         "lat": 37.9702,
         "lng": 23.7323,
@@ -3899,7 +3874,7 @@ const POIs = [
         }
     },
     {
-        "id": 155,
+        "id": 154,
         "name": "Odeon of Agrippa Tritons Porch",
         "lat": 37.975,
         "lng": 23.7228,
@@ -3924,7 +3899,7 @@ const POIs = [
         }
     },
     {
-        "id": 156,
+        "id": 155,
         "name": "Gazi Retort House (Technopolis)",
         "lat": 37.978564,
         "lng": 23.711477,
@@ -3949,7 +3924,7 @@ const POIs = [
         }
     },
     {
-        "id": 157,
+        "id": 156,
         "name": "National Museum Cycladic Figurines",
         "lat": 37.989012,
         "lng": 23.732958,
@@ -3974,7 +3949,7 @@ const POIs = [
         }
     },
     {
-        "id": 158,
+        "id": 157,
         "name": "Cape Sounion Sanctuary Precinct",
         "lat": 37.650212,
         "lng": 24.02459,
@@ -3999,7 +3974,7 @@ const POIs = [
         }
     },
     {
-        "id": 159,
+        "id": 158,
         "name": "Temple of Ares Relocation Block",
         "lat": 37.975516,
         "lng": 23.73495,
@@ -4024,7 +3999,7 @@ const POIs = [
         }
     },
     {
-        "id": 160,
+        "id": 159,
         "name": "Metropolitan Cathedral (Saint Philothei Shrine)",
         "lat": 37.975311,
         "lng": 23.730072,
@@ -4049,7 +4024,7 @@ const POIs = [
         }
     },
     {
-        "id": 161,
+        "id": 160,
         "name": "Tomb of George Seferis",
         "lat": 38.061488,
         "lng": 23.855691,
@@ -4074,7 +4049,7 @@ const POIs = [
         }
     },
     {
-        "id": 162,
+        "id": 161,
         "name": "Church of Saint John the Theologian",
         "lat": 37.972922,
         "lng": 23.728777,
@@ -4099,7 +4074,7 @@ const POIs = [
         }
     },
     {
-        "id": 163,
+        "id": 162,
         "name": "Sanctuary of Aphrodite Pandemos",
         "lat": 37.972249,
         "lng": 23.72702,
@@ -4124,7 +4099,7 @@ const POIs = [
         }
     },
     {
-        "id": 164,
+        "id": 163,
         "name": "Heliaia (Ancient Supreme Court)",
         "lat": 37.975516,
         "lng": 23.73495,
@@ -4149,7 +4124,7 @@ const POIs = [
         }
     },
     {
-        "id": 165,
+        "id": 164,
         "name": "Philopappos Hill Quarry Paths",
         "lat": 37.967363,
         "lng": 23.721368,
@@ -4174,7 +4149,7 @@ const POIs = [
         }
     },
     {
-        "id": 166,
+        "id": 165,
         "name": "Church of the Pantanassa (Monastiraki)",
         "lat": 37.975058,
         "lng": 23.730017,
@@ -4199,7 +4174,7 @@ const POIs = [
         }
     },
     {
-        "id": 167,
+        "id": 166,
         "name": "Tomb of Dexileos (Kerameikos)",
         "lat": 37.978634,
         "lng": 23.718221,
@@ -4224,7 +4199,7 @@ const POIs = [
         }
     },
     {
-        "id": 168,
+        "id": 167,
         "name": "National Garden Botanical Museum",
         "lat": 37.975516,
         "lng": 23.73495,
@@ -4249,7 +4224,7 @@ const POIs = [
         }
     },
     {
-        "id": 169,
+        "id": 168,
         "name": "Antikythera Mechanism Gallery",
         "lat": 37.989012,
         "lng": 23.732958,
@@ -4274,7 +4249,7 @@ const POIs = [
         }
     },
     {
-        "id": 170,
+        "id": 169,
         "name": "Gazi Purifier Building (Technopolis)",
         "lat": 37.978564,
         "lng": 23.711477,
@@ -4299,7 +4274,7 @@ const POIs = [
         }
     },
     {
-        "id": 171,
+        "id": 170,
         "name": "Plato's Academy Peristyle Building",
         "lat": 37.991368,
         "lng": 23.708381,
@@ -4324,7 +4299,7 @@ const POIs = [
         }
     },
     {
-        "id": 172,
+        "id": 171,
         "name": "Tomb of Odysseas Elytis",
         "lat": 37.978867,
         "lng": 23.741605,
@@ -4349,7 +4324,7 @@ const POIs = [
         }
     },
     {
-        "id": 173,
+        "id": 172,
         "name": "Stoa of the Herms (Agora)",
         "lat": 37.975854,
         "lng": 23.724106,
@@ -4374,7 +4349,7 @@ const POIs = [
         }
     },
     {
-        "id": 174,
+        "id": 173,
         "name": "Hadrian's Arch (Hadrian Inscription)",
         "lat": 37.9702,
         "lng": 23.7324,
@@ -4399,7 +4374,7 @@ const POIs = [
         }
     },
     {
-        "id": 175,
+        "id": 174,
         "name": "Odeon of Agrippa Giants Pillars",
         "lat": 37.975,
         "lng": 23.7229,
@@ -4424,7 +4399,7 @@ const POIs = [
         }
     },
     {
-        "id": 176,
+        "id": 175,
         "name": "Sacred Way Milestone (Kerameikos)",
         "lat": 37.978634,
         "lng": 23.718221,
@@ -4449,7 +4424,7 @@ const POIs = [
         }
     },
     {
-        "id": 177,
+        "id": 176,
         "name": "Stoa of Attalos Upper Floor View",
         "lat": 37.975854,
         "lng": 23.724106,
@@ -4474,7 +4449,7 @@ const POIs = [
         }
     },
     {
-        "id": 178,
+        "id": 177,
         "name": "Temple of Olympian Zeus Propylon",
         "lat": 37.9698,
         "lng": 23.733,
@@ -4499,7 +4474,7 @@ const POIs = [
         }
     },
     {
-        "id": 179,
+        "id": 178,
         "name": "Tomb of Constantine Kanaris",
         "lat": 37.963017,
         "lng": 23.738324,
@@ -4524,3609 +4499,2805 @@ const POIs = [
         }
     },
     {
-            "name": "Stavros Niarchos Foundation Cultural Center (SNFCC)",
-            "lat": 37.9398,
-            "lng": 23.6922,
-            "description": "A stunning modern cultural complex housing the National Library of Greece and the Greek National Opera.",
-            "audioText": "Welcome to the Stavros Niarchos Foundation Cultural Center, a masterpiece of modern architecture designed by Renzo Piano. This sustainable complex includes the Greek National Opera, the National Library of Greece, and a massive 210,000 square meter public park. Notice the Energy Canopy, a massive solar roof that provides shade and generates power. The SNFCC has redefined modern Athens as a beacon of education, sustainability, and the arts.",
-            "quiz": {
-                "question": "Which renowned architect designed the SNFCC?",
-                "options": [
-                    "Renzo Piano",
-                    "Zaha Hadid",
-                    "Norman Foster",
-                    "Santiago Calatrava"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Renzo Piano designed the SNFCC, ensuring it met high sustainability standards."
-            },
-            "reward": {
-                "title": "15% off at Canal Cafe",
-                "provider": "SNFCC Dining",
-                "codeHash": "045622393ac671c6587b45b94054b5c45c5b1a34feb9872648846981ce1766b3"
-            },
-            "id": 180
+        "name": "Stavros Niarchos Foundation Cultural Center (SNFCC)",
+        "lat": 37.9398,
+        "lng": 23.6922,
+        "description": "A stunning modern cultural complex housing the National Library of Greece and the Greek National Opera.",
+        "audioText": "Welcome to the Stavros Niarchos Foundation Cultural Center, a masterpiece of modern architecture designed by Renzo Piano. This sustainable complex includes the Greek National Opera, the National Library of Greece, and a massive 210,000 square meter public park. Notice the Energy Canopy, a massive solar roof that provides shade and generates power. The SNFCC has redefined modern Athens as a beacon of education, sustainability, and the arts.",
+        "quiz": {
+            "question": "Which renowned architect designed the SNFCC?",
+            "options": [
+                "Renzo Piano",
+                "Zaha Hadid",
+                "Norman Foster",
+                "Santiago Calatrava"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Renzo Piano designed the SNFCC, ensuring it met high sustainability standards."
         },
-        {
-            "name": "Eugenides Foundation Planetarium",
-            "lat": 37.9405,
-            "lng": 23.6934,
-            "description": "One of the largest and best-equipped digital planetariums in the world.",
-            "audioText": "You are standing near the Eugenides Planetarium. Established in 1956, the new digital planetarium is one of the largest in the world, with a massive 278 square meter dome. It provides spectacular immersive journeys through space, utilizing ultra-high-definition digital projection systems. The foundation's goal is to enhance scientific and technical education in Greece.",
-            "quiz": {
-                "question": "What is the primary educational focus of the Eugenides Foundation?",
-                "options": [
-                    "Scientific and technical education",
-                    "Classical Greek history",
-                    "Ancient mythology",
-                    "Marine biology"
-                ],
-                "answer": 0,
-                "feedback": "Correct! It focuses on scientific and technical education for the youth."
-            },
-            "reward": {
-                "title": "10% off at the Science Shop",
-                "provider": "Planetarium Gift Shop",
-                "codeHash": "f25b41cf6a10bb4ffe78d7c31b9d1bad9ce11c2065020561259357eebab3567a"
-            },
-            "id": 181
+        "reward": {
+            "title": "15% off at Canal Cafe",
+            "provider": "SNFCC Dining",
+            "codeHash": "045622393ac671c6587b45b94054b5c45c5b1a34feb9872648846981ce1766b3"
         },
-        {
-            "name": "Megaron Athens Concert Hall",
-            "lat": 37.9806,
-            "lng": 23.7533,
-            "description": "A world-class performing arts venue with exceptional acoustics.",
-            "audioText": "Welcome to Megaron, the Athens Concert Hall. Inaugurated in 1991, this venue boasts some of the best acoustics in the world. It hosts classical music, opera, ballet, and major conferences. The Megaron has become a focal point for the performing arts in Greece, elevating Athens to the ranks of major global cultural capitals.",
-            "quiz": {
-                "question": "In what year was the Megaron Athens Concert Hall inaugurated?",
-                "options": [
-                    "1991",
-                    "1985",
-                    "2004",
-                    "1975"
-                ],
-                "answer": 0,
-                "feedback": "Correct! It opened its doors to the public in 1991."
-            },
-            "reward": {
-                "title": "Free guided tour of the Concert Hall",
-                "provider": "Megaron Info Desk",
-                "codeHash": "1dd384eddfc986e12edd55005d64d24644a51a0f97c7cb8a3bb4e15e73a2ed38"
-            },
-            "id": 182
-        },
-        {
-            "name": "Hellenic Maritime Museum",
-            "lat": 37.9317,
-            "lng": 23.6447,
-            "description": "The largest maritime museum in Greece, exploring the nation's rich naval history.",
-            "audioText": "Explore the Hellenic Maritime Museum located at the Zea Marina in Piraeus. This museum traces the naval history of the Greeks from prehistoric times to the present day. You can see models of ancient triremes, navigational instruments, and artifacts from the Greek War of Independence, highlighting the unbreakable bond between the Greeks and the sea.",
-            "quiz": {
-                "question": "Where is the Hellenic Maritime Museum located?",
-                "options": [
-                    "Zea Marina in Piraeus",
-                    "Syntagma Square",
-                    "Cape Sounion",
-                    "Flisvos Marina"
-                ],
-                "answer": 0,
-                "feedback": "Correct! It is located at Zea Marina, a historic harbor in Piraeus."
-            },
-            "reward": {
-                "title": "20% off admission",
-                "provider": "Hellenic Maritime Museum",
-                "codeHash": "a3fc148796d351f28299a550c3518af6048794cb74e33147e91f47da16a57976"
-            },
-            "id": 183
-        },
-        {
-            "name": "Averof Battleship Museum",
-            "lat": 37.9332,
-            "lng": 23.6841,
-            "description": "A legendary armored cruiser that served as the flagship of the Hellenic Navy.",
-            "audioText": "You are looking at the Georgios Averof, a legendary armored cruiser that served as the flagship of the Hellenic Navy. It played a crucial role in the Balkan Wars of 1912 to 1913, helping Greece secure naval dominance in the Aegean Sea. Remarkably, it is one of the only active museum ships in the world that is still technically in commission.",
-            "quiz": {
-                "question": "During which major conflict did the Averof secure Greek naval dominance?",
-                "options": [
-                    "The Balkan Wars",
-                    "World War II",
-                    "The Greek War of Independence",
-                    "The Cold War"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The Averof was instrumental during the Balkan Wars (1912-1913)."
-            },
-            "reward": {
-                "title": "Free commemorative postcard",
-                "provider": "Averof Gift Shop",
-                "codeHash": "9c333912dc86c7393b21407c30cf6121983ff81c2609a017c7be17dfa61275a1"
-            },
-            "id": 184
-        },
-        {
-            "name": "Benaki Museum of Islamic Art",
-            "lat": 37.9774,
-            "lng": 23.7198,
-            "description": "A stunning collection of Islamic art spanning from India to Spain.",
-            "audioText": "Welcome to the Benaki Museum of Islamic Art. Located in the historical center of Athens, this museum houses over 8,000 works of art from the Middle East, Iran, Turkey, North Africa, and India. The collection spans from the dawn of Islam up to the 19th century, featuring exquisite ceramics, textiles, and woodcarvings. Don't miss the 17th-century reception room from a Cairo mansion.",
-            "quiz": {
-                "question": "Which specific 17th-century room is a highlight of the museum?",
-                "options": [
-                    "A reception room from a Cairo mansion",
-                    "A bathhouse from Istanbul",
-                    "A royal tent from Persia",
-                    "A courtyard from Cordoba"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The museum features a spectacular reconstructed reception room from 17th-century Cairo."
-            },
-            "reward": {
-                "title": "10% off museum publications",
-                "provider": "Benaki Museum Shop",
-                "codeHash": "7dac42358373540988d0a694bb1642639db19da81206d4bef10a205981419224"
-            },
-            "id": 185
-        },
-        {
-            "name": "Kotsanas Museum of Ancient Greek Technology",
-            "lat": 37.9789,
-            "lng": 23.738,
-            "description": "An interactive exhibition of the incredible technological inventions of the ancient Greeks.",
-            "audioText": "Discover the high-tech world of antiquity at the Kotsanas Museum of Ancient Greek Technology. This unique museum features fully functional models of ancient inventions, from the automatic doors of Heron to the alarm clock of Plato and the analog computer known as the Antikythera Mechanism. It proves that ancient Greek technology was far more advanced than most people realize.",
-            "quiz": {
-                "question": "Which ancient philosopher's alarm clock is featured in the museum?",
-                "options": [
-                    "Plato",
-                    "Aristotle",
-                    "Socrates",
-                    "Pythagoras"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The museum features a working model of Plato's hydraulic alarm clock."
-            },
-            "reward": {
-                "title": "15% off a DIY ancient invention kit",
-                "provider": "Kotsanas Museum Shop",
-                "codeHash": "08c1384c3dae481c189ba4f561b0b2acd8cfa963697ebdcc73bbad8be08f94ff"
-            },
-            "id": 186
-        },
-        {
-            "name": "Ilias Lalaounis Jewelry Museum",
-            "lat": 37.9692,
-            "lng": 23.7275,
-            "description": "A museum dedicated to the art of jewelry and the decorative arts.",
-            "audioText": "You are at the Ilias Lalaounis Jewelry Museum, founded by the renowned Greek jeweler Ilias Lalaounis. The museum showcases over 4,000 pieces of jewelry and micro-sculptures inspired by ancient Greek, Byzantine, and various global cultures. Lalaounis was famous for reviving ancient gold-smithing techniques like granulation and filigree to create modern masterpieces.",
-            "quiz": {
-                "question": "Which ancient gold-smithing technique did Ilias Lalaounis famously revive?",
-                "options": [
-                    "Granulation and filigree",
-                    "Electroplating",
-                    "Diamond cutting",
-                    "Lost-wax casting"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Lalaounis revived intricate ancient techniques like granulation and filigree."
-            },
-            "reward": {
-                "title": "Free exhibition guide",
-                "provider": "Lalaounis Museum Desk",
-                "codeHash": "b21ac344ffb9d6030632d2d88ad2a5a39161ca0da7ceb4ed732630db46e6704a"
-            },
-            "id": 187
-        },
-        {
-            "name": "Museum of Greek Folk Musical Instruments",
-            "lat": 37.9744,
-            "lng": 23.7275,
-            "description": "A delightful collection of traditional Greek musical instruments spanning three centuries.",
-            "audioText": "Welcome to the Museum of Greek Folk Musical Instruments, located in an 1840s mansion in Plaka. The collection displays 1,200 popular musical instruments dating from the 18th century to the present. You can listen to the authentic sounds of bouzoukis, lyras, and gaidas (bagpipes) through headphones at the display cases, experiencing the soul of Greek folk traditions.",
-            "quiz": {
-                "question": "What is the 'gaida' displayed in this museum?",
-                "options": [
-                    "A traditional Greek bagpipe",
-                    "A stringed lute",
-                    "A type of drum",
-                    "A wooden flute"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The gaida is a traditional Greek bagpipe."
-            },
-            "reward": {
-                "title": "10% off traditional music CDs",
-                "provider": "Folk Museum Shop",
-                "codeHash": "a4b38ea51527c57a6552eff3262e8d4362da5824d479967450b0008d5c088558"
-            },
-            "id": 188
-        },
-        {
-            "name": "Basil & Elise Goulandris Foundation",
-            "lat": 37.9693,
-            "lng": 23.7432,
-            "description": "A spectacular museum showcasing world-class modern and contemporary art.",
-            "audioText": "You are at the Basil and Elise Goulandris Foundation in Pagrati. This extraordinary museum houses one of the most important private collections of modern and contemporary art in the world. Visitors can admire masterpieces by Picasso, Van Gogh, Monet, Degas, and Rodin, alongside prominent Greek artists like Tsarouchis and Moralis, all beautifully displayed in a state-of-the-art facility.",
-            "quiz": {
-                "question": "Which of these famous artists has works displayed at the Goulandris Foundation?",
-                "options": [
-                    "Vincent Van Gogh",
-                    "Leonardo da Vinci",
-                    "Michelangelo",
-                    "Rembrandt"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The museum features an incredible collection including works by Van Gogh, Picasso, and Monet."
-            },
-            "reward": {
-                "title": "10% off at the Museum Cafe",
-                "provider": "Goulandris Cafe",
-                "codeHash": "81f99851beb8b252d809b7b07c7e6bdf5460c20c035afe952bbd55f86d598c61"
-            },
-            "id": 189
-        },
-        {
-            "name": "Goulandris Natural History Museum",
-            "lat": 38.0733,
-            "lng": 23.8164,
-            "description": "A leading institution dedicated to the study, conservation, and protection of the natural environment.",
-            "audioText": "Welcome to the Goulandris Natural History Museum in Kifissia. Founded in 1964, the museum is dedicated to educating the public about the rich biodiversity of Greece and the Mediterranean. Its striking exhibits include massive botanical, zoological, geological, and paleontological collections, including impressive full-scale dinosaur replicas and prehistoric fossils found in Greek soil.",
-            "quiz": {
-                "question": "In what year was the Goulandris Natural History Museum founded?",
-                "options": [
-                    "1964",
-                    "1980",
-                    "1950",
-                    "2001"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The museum was established in 1964 to promote environmental awareness."
-            },
-            "reward": {
-                "title": "Free botanical bookmark",
-                "provider": "Goulandris Museum Shop",
-                "codeHash": "fda956b3a58c402ecd23f2ab08e784f3923989fb98575ec80ce7f61fca040c56"
-            },
-            "id": 190
-        },
-        {
-            "name": "Epigraphic Museum",
-            "lat": 37.9885,
-            "lng": 23.7324,
-            "description": "The largest museum in the world dedicated to ancient inscriptions.",
-            "audioText": "You are standing at the Epigraphic Museum, the largest of its kind in the world. It houses over 14,000 ancient inscriptions, mostly in Greek, carved on stone. These inscribed slabs are the primary documents of ancient history, recording laws, decrees, treaties, and public accounts. It is a true archive of the ancient world, preserving the very words of the Athenians.",
-            "quiz": {
-                "question": "Approximately how many ancient inscriptions are housed in the Epigraphic Museum?",
-                "options": [
-                    "Over 14,000",
-                    "About 5,000",
-                    "Under 1,000",
-                    "Exactly 50,000"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The museum safeguards over 14,000 ancient stone inscriptions."
-            },
-            "reward": {
-                "title": "10% off history books",
-                "provider": "Museum Bookstore",
-                "codeHash": "2f6d176393b882c4763fedb87cc062734afcbf39c1267d1bbe3e78f17eb52795"
-            },
-            "id": 191
-        },
-        {
-            "name": "Herakleidon Museum",
-            "lat": 37.9767,
-            "lng": 23.7176,
-            "description": "A museum blending art, mathematics, and science through interactive exhibits.",
-            "audioText": "Welcome to the Herakleidon Museum in Thissio. Originally focused on fine arts and artists like M.C. Escher, the museum now specializes in the intersection of science, art, and mathematics. Its interactive exhibitions explore themes like 'Eureka: Science, Art and Technology of the Ancient Greeks', making complex scientific principles accessible and fun for visitors of all ages.",
-            "quiz": {
-                "question": "Which famous artist, known for his mathematically inspired woodcuts, was heavily featured in the museum's early years?",
-                "options": [
-                    "M.C. Escher",
-                    "Pablo Picasso",
-                    "Salvador Dali",
-                    "Jackson Pollock"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The museum was originally famous for its extensive M.C. Escher exhibitions."
-            },
-            "reward": {
-                "title": "15% off an interactive puzzle",
-                "provider": "Herakleidon Gift Shop",
-                "codeHash": "7a918cef981a308dad13f108aff2140277a4695e804b3c73d69c3b0f7e98ad30"
-            },
-            "id": 192
-        },
-        {
-            "name": "Vorres Museum",
-            "lat": 37.954,
-            "lng": 23.8643,
-            "description": "A beautiful cultural foundation showcasing Greek contemporary art and folk tradition.",
-            "audioText": "You are visiting the Vorres Museum in Paiania. Divided into two main sections, the museum features a gallery of contemporary Greek art, and a complex of traditional village houses, showcasing folk art, antique furniture, and historical artifacts. The beautiful gardens seamlessly blend modern sculptures with traditional Greek architecture, creating a peaceful cultural oasis.",
-            "quiz": {
-                "question": "What are the two main sections of the Vorres Museum?",
-                "options": [
-                    "Contemporary Art and Folk Tradition",
-                    "Ancient History and Space Exploration",
-                    "Maritime History and Botany",
-                    "Numismatics and Epigraphy"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The museum contrasts a modern art gallery with traditional Greek folk houses."
-            },
-            "reward": {
-                "title": "10% off local art prints",
-                "provider": "Vorres Museum Shop",
-                "codeHash": "4ba61fd3307c7499cb484879d48941a71bb29d1b2105c6bff8971cb3da0bc461"
-            },
-            "id": 193
-        },
-        {
-            "name": "Mineralogical Museum of Lavrion",
-            "lat": 37.7139,
-            "lng": 24.0531,
-            "description": "A showcase of the stunning and rare minerals from the Lavrion mining district.",
-            "audioText": "Welcome to the Mineralogical Museum of Lavrion. The Lavrion region is world-famous among geologists for its incredibly diverse and colorful minerals, many of which are unique to this area. The museum displays hundreds of rare specimens, including beautiful crystals of smithsonite, azurite, and annabergite, reflecting the rich geological wealth that funded ancient Athens.",
-            "quiz": {
-                "question": "Why is the Lavrion region famous among geologists worldwide?",
-                "options": [
-                    "Its highly diverse and rare mineral crystals",
-                    "Its large diamond deposits",
-                    "Its active volcanoes",
-                    "Its dinosaur fossils"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Lavrion is renowned for having over 600 different types of minerals, some found nowhere else on Earth."
-            },
-            "reward": {
-                "title": "Free mineral identification card",
-                "provider": "Museum Desk",
-                "codeHash": "14e609e025b9314d8ee7deb43054437a57823abe74023014a7334f218e6b22ee"
-            },
-            "id": 194
-        },
-        {
-            "name": "Lavrion Technological and Cultural Park",
-            "lat": 37.718,
-            "lng": 24.0558,
-            "description": "An industrial heritage site built on the ruins of the historic French Mining Company.",
-            "audioText": "You are at the Lavrion Technological and Cultural Park. This site preserves the impressive industrial facilities of the French Mining Company, which operated here from 1873 to 1989. Today, the park is a hub for research, education, and culture. Walking among the restored industrial buildings and old machinery provides a fascinating look into the industrial revolution in Greece.",
-            "quiz": {
-                "question": "Which foreign mining company operated the facilities preserved at this park from 1873 to 1989?",
-                "options": [
-                    "The French Mining Company",
-                    "The British Mining Guild",
-                    "The German Industrial Corp",
-                    "The Italian Excavation Society"
-                ],
-                "answer": 0,
-                "feedback": "Correct! It was operated by the French Mining Company of Lavrion."
-            },
-            "reward": {
-                "title": "15% off guided industrial tour",
-                "provider": "Park Information Center",
-                "codeHash": "ace48c7c08b41d99b9da7691fd0efab684700bc84158619365574afdc8572e3d"
-            },
-            "id": 195
-        },
-        {
-            "name": "Archaeological Museum of Marathon",
-            "lat": 38.1213,
-            "lng": 23.9482,
-            "description": "A museum preserving the artifacts from the famed Battle of Marathon and nearby ancient sites.",
-            "audioText": "Welcome to the Archaeological Museum of Marathon. This museum houses artifacts from the legendary Battle of Marathon in 490 BC, including weapons and pottery found in the Tomb of the Athenians. It also features beautiful statues and finds from the nearby Sanctuary of the Egyptian Gods and the Cave of Pan, offering a comprehensive look at the history of the Marathon plain.",
-            "quiz": {
-                "question": "In what year did the famous Battle of Marathon take place?",
-                "options": [
-                    "490 BC",
-                    "480 BC",
-                    "323 BC",
-                    "146 BC"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The Battle of Marathon, a decisive Greek victory against the Persians, occurred in 490 BC."
-            },
-            "reward": {
-                "title": "Free bookmark of Miltiades",
-                "provider": "Marathon Museum Shop",
-                "codeHash": "c1f30e06a1eb724aa09e514a4f82048377a87d50a31c65298c19041badb7c817"
-            },
-            "id": 196
-        },
-        {
-            "name": "Archaeological Museum of Lavrion",
-            "lat": 37.7144,
-            "lng": 24.056,
-            "description": "Displays antiquities from the ancient silver mining region of Lavreotiki.",
-            "audioText": "You are visiting the Archaeological Museum of Lavrion. The museum highlights the ancient silver mining industry that powered the Athenian Empire. Exhibits include ancient mining tools, lead ingots, and beautiful pottery found in the local settlements and cemeteries. It tells the story of the thousands of slaves who lived and worked in the mines to extract silver for the Athenian owls.",
-            "quiz": {
-                "question": "What precious metal was primarily mined in the Lavrion region during antiquity?",
-                "options": [
-                    "Silver",
-                    "Gold",
-                    "Copper",
-                    "Iron"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Lavrion was famous for its rich silver mines."
-            },
-            "reward": {
-                "title": "10% off museum replicas",
-                "provider": "Lavrion Museum Shop",
-                "codeHash": "855a03274fe36351ebaa9186986f01b869a06166eb119b2c325823cb53a3d725"
-            },
-            "id": 197
-        },
-        {
-            "name": "Archaeological Museum of Brauron",
-            "lat": 37.9254,
-            "lng": 23.9934,
-            "description": "A delightful museum dedicated to the cult of Artemis and the young girls who served her.",
-            "audioText": "Welcome to the Archaeological Museum of Brauron, located near the Sanctuary of Artemis. The museum displays beautiful statues of little boys and girls known as 'arktoi' or little bears. In ancient times, young Athenian girls were sent to Brauron to serve Artemis before they reached marriageable age. The museum's collection gives a touching glimpse into the lives of children in ancient Greece.",
-            "quiz": {
-                "question": "What animal were the young girls serving Artemis at Brauron referred to as?",
-                "options": [
-                    "Little bears (Arktoi)",
-                    "Little owls",
-                    "Little deer",
-                    "Little doves"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The young girls were called 'Arktoi', meaning little bears, in honor of Artemis."
-            },
-            "reward": {
-                "title": "Free postcard of an Arktoi statue",
-                "provider": "Brauron Museum Shop",
-                "codeHash": "6c5fcaf041a5b2d62dba06e6545137bd7697a2aada9dd69300f646c272162e24"
-            },
-            "id": 198
-        },
-        {
-            "name": "Sanctuary of the Egyptian Gods (Brexiza)",
-            "lat": 38.1182,
-            "lng": 23.9782,
-            "description": "An impressive Roman-era sanctuary built by Herodes Atticus dedicated to Isis and Serapis.",
-            "audioText": "You are standing at the Sanctuary of the Egyptian Gods in the marshy area of Brexiza, near Marathon. This unique sanctuary was built in the 2nd century AD by the wealthy Athenian benefactor Herodes Atticus. It was dedicated to the Egyptian deities Isis and Serapis. The site features a stepped pyramid-like structure and was originally adorned with large statues exhibiting a blend of Egyptian and Greek artistic styles.",
-            "quiz": {
-                "question": "Which wealthy Athenian benefactor built this sanctuary?",
-                "options": [
-                    "Herodes Atticus",
-                    "Pericles",
-                    "Hadrian",
-                    "Themistocles"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Herodes Atticus built the sanctuary on his vast estate in Marathon."
-            },
-            "reward": {
-                "title": "15% off guidebooks on Roman Greece",
-                "provider": "Local Tourism Office",
-                "codeHash": "1edeb003cfd5c7f96c651ce619cefc6a54c9ade79f0aa09b8fb186a2d441da74"
-            },
-            "id": 199
-        },
-        {
-            "name": "Temple of Artemis at Loutsa",
-            "lat": 37.9644,
-            "lng": 24.0041,
-            "description": "The coastal ruins of an ancient Doric temple dedicated to Artemis Tauropolos.",
-            "audioText": "Welcome to the coastal ruins of the Temple of Artemis Tauropolos in modern-day Loutsa. According to myth, this is where Orestes and Iphigenia landed after escaping from Tauris, carrying the sacred wooden statue of Artemis. The Doric temple was built in the 5th century BC right on the shoreline. Today, its foundations lie peacefully next to the sea, offering a serene glimpse into ancient coastal worship.",
-            "quiz": {
-                "question": "According to myth, who brought the sacred wooden statue of Artemis to this location?",
-                "options": [
-                    "Orestes and Iphigenia",
-                    "Theseus and Ariadne",
-                    "Jason and Medea",
-                    "Odysseus and Penelope"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Myth says Orestes and his sister Iphigenia brought the statue here from Tauris."
-            },
-            "reward": {
-                "title": "10% off seafood at nearby tavernas",
-                "provider": "Loutsa Beach Restaurants",
-                "codeHash": "9f97a7ad41dd77262623660a1fefaafef77b97bbdb0e0a9901e9d5ed5620a15d"
-            },
-            "id": 200
-        },
-        {
-            "name": "Municipal Theatre of Piraeus",
-            "lat": 37.9431,
-            "lng": 23.6473,
-            "description": "A magnificent neoclassical building that serves as the cultural heart of Piraeus.",
-            "audioText": "You are looking at the Municipal Theatre of Piraeus, a stunning neoclassical masterpiece completed in 1895. Designed by architect Ioannis Lazarimos, the building features a monumental propylon with four Corinthian columns. It is considered one of the leading theatrical stages in Greece and remains the cultural epicenter of the port city of Piraeus, hosting plays, concerts, and major events.",
-            "quiz": {
-                "question": "What architectural style is the Municipal Theatre of Piraeus built in?",
-                "options": [
-                    "Neoclassical",
-                    "Gothic",
-                    "Baroque",
-                    "Brutalist"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The theatre is a prime example of Greek Neoclassical architecture."
-            },
-            "reward": {
-                "title": "10% off theatre tickets",
-                "provider": "Piraeus Box Office",
-                "codeHash": "202c13a068b2bf0cd7106f226eefb775cb8049dee10ecb0dfa7162da888b38d7"
-            },
-            "id": 201
-        },
-        {
-            "name": "Kastella Hill / Profitis Ilias",
-            "lat": 37.9388,
-            "lng": 23.6558,
-            "description": "A picturesque hill in Piraeus offering sweeping panoramic views of the Saronic Gulf.",
-            "audioText": "Climb up Kastella Hill, historically known as Munichia. Topped by the church of Profitis Ilias, this elegant neighborhood features beautiful 19th-century neoclassical mansions and steep, narrow streets. From the summit, you are rewarded with a breathtaking panoramic view of the Saronic Gulf, the ports of Mikrolimano and Zea, and the entire Athenian coastline spreading out below you.",
-            "quiz": {
-                "question": "What was the ancient name of Kastella Hill?",
-                "options": [
-                    "Munichia",
-                    "Phaleron",
-                    "Salamis",
-                    "Aegina"
-                ],
-                "answer": 0,
-                "feedback": "Correct! In antiquity, the hill and its adjacent harbor were known as Munichia."
-            },
-            "reward": {
-                "title": "Free coffee with any dessert",
-                "provider": "Kastella Hilltop Cafe",
-                "codeHash": "35b1e473fae68daca71f6a767a29962afa947cf4cb16e1554c5375694fd04397"
-            },
-            "id": 202
-        },
-        {
-            "name": "Diomedes Botanical Garden",
-            "lat": 38.0108,
-            "lng": 23.6494,
-            "description": "The largest botanical garden in Greece and the Eastern Mediterranean.",
-            "audioText": "Welcome to the Diomedes Botanical Garden in Haidari. Spanning nearly 1,900 stremmata, it is the largest botanical garden in Greece. It is home to thousands of plant species from around the world. A unique highlight is the 'Historic Plants' section, which features flora mentioned in ancient Greek mythology and the Bible, such as the hemlock that poisoned Socrates and the mythical mandrake.",
-            "quiz": {
-                "question": "Which notorious plant, used to execute Socrates, is featured in the Historic Plants section?",
-                "options": [
-                    "Hemlock",
-                    "Nightshade",
-                    "Oleander",
-                    "Wolfsbane"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Conium maculatum, or poison hemlock, is grown in the historic section."
-            },
-            "reward": {
-                "title": "Free seed packet of Greek herbs",
-                "provider": "Botanical Garden Kiosk",
-                "codeHash": "f25d90ff5e0e36b58be59ab32ef5755421684bcc36fccc1fe9749e41e233915b"
-            },
-            "id": 203
-        },
-        {
-            "name": "Attica Zoological Park",
-            "lat": 37.9818,
-            "lng": 23.9103,
-            "description": "Greece's premier zoological park, home to over 2,000 animals.",
-            "audioText": "You are at the Attica Zoological Park in Spata. Founded in 2000, it is the only large-scale zoo in Greece. It houses over 2,000 animals representing 290 species from all five continents. The zoo places a strong emphasis on the conservation of endangered species and educating the public about global biodiversity, featuring expansive habitats for big cats, primates, and marine mammals.",
-            "quiz": {
-                "question": "In what year did the Attica Zoological Park open to the public?",
-                "options": [
-                    "2000",
-                    "1990",
-                    "2010",
-                    "1985"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The park opened its doors in the year 2000."
-            },
-            "reward": {
-                "title": "15% off zoo entry",
-                "provider": "Attica Zoo Ticketing",
-                "codeHash": "d7b178f5f82045ef1d7efe61c8a51121bdcb687871c3d4db1a0d503da6c985bf"
-            },
-            "id": 204
-        },
-        {
-            "name": "Schinias Olympic Rowing Centre",
-            "lat": 38.1517,
-            "lng": 24.0136,
-            "description": "The stunning rowing and canoeing venue constructed for the 2004 Athens Olympics.",
-            "audioText": "Welcome to the Schinias Olympic Rowing and Canoeing Centre. Built for the 2004 Athens Olympic Games, this massive 2,250-meter-long artificial lake is integrated into the beautiful Schinias National Park. Despite initial environmental concerns, the facility was designed to help restore the surrounding wetlands. Today, it remains an active training facility for athletes and a quiet retreat for nature lovers.",
-            "quiz": {
-                "question": "For which major event was the Schinias Rowing Centre constructed?",
-                "options": [
-                    "2004 Athens Olympics",
-                    "1896 First Modern Olympics",
-                    "1997 World Athletics Championships",
-                    "2010 European Games"
-                ],
-                "answer": 0,
-                "feedback": "Correct! It was custom-built for the 2004 Olympic Games."
-            },
-            "reward": {
-                "title": "10% off kayak rentals",
-                "provider": "Schinias Water Sports",
-                "codeHash": "e58fdf2ec753546afe39d1d83caaab737ee75696491b9455fde6495435370890"
-            },
-            "id": 205
-        },
-        {
-            "name": "Mikrolimano Marina",
-            "lat": 37.9385,
-            "lng": 23.6592,
-            "description": "A charming, lively marina famous for its seafood restaurants and elegant yachts.",
-            "audioText": "Stroll along the docks of Mikrolimano, meaning 'Little Port' in Greek. Known in antiquity as the port of Munichia, today it is a bustling, picturesque marina in Piraeus. The waterfront is lined with premium seafood restaurants and cafes, where visitors sit to enjoy fresh fish and ouzo while watching the luxurious yachts and small fishing boats bob gently in the Aegean waters.",
-            "quiz": {
-                "question": "What does the name 'Mikrolimano' translate to in English?",
-                "options": [
-                    "Little Port",
-                    "Blue Bay",
-                    "Fisherman's Cove",
-                    "Ancient Harbor"
-                ],
-                "answer": 0,
-                "feedback": "Correct! 'Mikro' means little, and 'limano' means port."
-            },
-            "reward": {
-                "title": "Free meze platter with any seafood order",
-                "provider": "Mikrolimano Tavernas",
-                "codeHash": "db3320c0fd6a8b3e3e012b0dfa7c1dc8808d1bdbe45448b433515e9f0a771083"
-            },
-            "id": 206
-        },
-        {
-            "name": "Flisvos Marina",
-            "lat": 37.9318,
-            "lng": 23.6852,
-            "description": "Athens' premier mega-yacht destination, featuring high-end shopping and dining.",
-            "audioText": "Welcome to Flisvos Marina in Palaio Faliro. Upgraded significantly for the 2004 Olympics, Flisvos is now the ultimate mega-yacht destination in Greece. Featuring a wide promenade, upscale boutiques, and stylish seaside bars, it offers a cosmopolitan atmosphere. It is the perfect place to watch a magnificent Athenian sunset over the Saronic Gulf.",
-            "quiz": {
-                "question": "What type of vessels is Flisvos Marina primarily known for hosting today?",
-                "options": [
-                    "Mega-yachts",
-                    "Commercial cargo ships",
-                    "Traditional wooden fishing boats",
-                    "Naval destroyers"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Flisvos Marina is highly regarded as a top-tier mega-yacht destination."
-            },
-            "reward": {
-                "title": "10% off at Flisvos Marina Cafes",
-                "provider": "Marina Dining",
-                "codeHash": "df2fd51052a3b0e1208b1f9c4b3d7518c69708257d3ccb6fcc51fe98b8c1cb42"
-            },
-            "id": 207
-        },
-        {
-            "name": "Monastery of Saint Ephraim",
-            "lat": 38.0933,
-            "lng": 23.9575,
-            "description": "A highly revered Orthodox monastery in Nea Makri, attracting thousands of pilgrims.",
-            "audioText": "You are visiting the Monastery of Saint Ephraim in Nea Makri. The monastery, originally built in the 10th century, is dedicated to Saint Ephraim, a martyr who lived and died here during the Ottoman occupation. Today, it is one of the most important pilgrimage sites in Attica. Inside, the saint's holy relics are preserved, and believers flock here to pray for healing and miracles.",
-            "quiz": {
-                "question": "What is the primary reason thousands of believers visit this monastery?",
-                "options": [
-                    "To pray at the holy relics of Saint Ephraim for miracles",
-                    "To see ancient Greek statues",
-                    "To view the first printed Greek Bible",
-                    "To admire Byzantine mosaics"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Pilgrims visit to venerate the relics of Saint Ephraim, seeking healing."
-            },
-            "reward": {
-                "title": "Free religious icon card",
-                "provider": "Monastery Gift Shop",
-                "codeHash": "0d0e0700c95a44dd9508ec5b7da6c6b29f12cd8149fdd32c7e7552733dcd09d7"
-            },
-            "id": 208
-        },
-        {
-            "name": "Penteli Monastery",
-            "lat": 38.0568,
-            "lng": 23.8824,
-            "description": "A historic 16th-century monastery nestled in the pine forests of Mount Pentelicus.",
-            "audioText": "Welcome to the Holy Monastery of the Dormition of the Virgin Mary, commonly known as Penteli Monastery. Founded in 1578 by Saint Timotheos, it is surrounded by the lush pine forests of Mount Pentelicus. During the Ottoman occupation, it served as a secret school, teaching Greek language and history. The monastery played a significant intellectual and spiritual role in preserving Greek identity.",
-            "quiz": {
-                "question": "What secret activity took place at the Penteli Monastery during the Ottoman occupation?",
-                "options": [
-                    "It operated a secret school teaching Greek",
-                    "It forged weapons for the revolution",
-                    "It minted illegal currency",
-                    "It housed a printing press"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The monastery famously hosted a 'Krifo Scholio' (secret school) to preserve the Greek language."
-            },
-            "reward": {
-                "title": "15% off local mountain honey",
-                "provider": "Monastery Produce Shop",
-                "codeHash": "5a27b2af3f783867defa480bf61534786484e750a7ee5f87d431bb3129c5d61d"
-            },
-            "id": 209
-        },
+        "id": 179
+    },
     {
-            "name": "Temple of Aphaia",
-            "lat": 37.7547,
-            "lng": 23.5325,
-            "description": "A magnificent ancient Doric temple forming part of the 'Sacred Triangle' of antiquity.",
-            "audioText": "Welcome to the Temple of Aphaia on the island of Aegina. Built around 500 BC, this remarkably well-preserved Doric temple was dedicated to the mother-goddess Aphaia. Interestingly, this temple, along with the Parthenon in Athens and the Temple of Poseidon at Sounion, are said to form a perfect equilateral triangle across the Saronic Gulf, known as the 'Sacred Triangle' of antiquity.",
-            "quiz": {
-                "question": "Which two other temples form the 'Sacred Triangle' with the Temple of Aphaia?",
-                "options": [
-                    "Parthenon and Temple of Poseidon (Sounion)",
-                    "Temple of Zeus and Erechtheion",
-                    "Temple of Apollo and Temple of Artemis",
-                    "Hephaesteion and Temple of Hera"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The Parthenon, Temple of Poseidon, and Temple of Aphaia form the legendary Sacred Triangle."
-            },
-            "reward": {
-                "title": "15% off pistachio ice cream",
-                "provider": "Aegina Port Gelateria",
-                "codeHash": "63931668f870bdae388f7bf65510947a43e1f53885d733668ca616c4fe0dab2a"
-            },
-            "id": 210
+        "name": "Eugenides Foundation Planetarium",
+        "lat": 37.9405,
+        "lng": 23.6934,
+        "description": "One of the largest and best-equipped digital planetariums in the world.",
+        "audioText": "You are standing near the Eugenides Planetarium. Established in 1956, the new digital planetarium is one of the largest in the world, with a massive 278 square meter dome. It provides spectacular immersive journeys through space, utilizing ultra-high-definition digital projection systems. The foundation's goal is to enhance scientific and technical education in Greece.",
+        "quiz": {
+            "question": "What is the primary educational focus of the Eugenides Foundation?",
+            "options": [
+                "Scientific and technical education",
+                "Classical Greek history",
+                "Ancient mythology",
+                "Marine biology"
+            ],
+            "answer": 0,
+            "feedback": "Correct! It focuses on scientific and technical education for the youth."
         },
-        {
-            "name": "Kolona Archaeological Site",
-            "lat": 37.7478,
-            "lng": 23.4246,
-            "description": "The ruins of Aegina's ancient acropolis, characterized by a single standing column of Apollo's temple.",
-            "audioText": "You are exploring Kolona, the ancient acropolis of Aegina. The site gets its name—meaning 'column' in Greek—from the single Doric pillar that still stands from the 6th-century BC Temple of Apollo. This hill has been inhabited since the Bronze Age and offers fantastic views of the harbor where Aegina's powerful fleet once anchored, rivaling even Athens.",
-            "quiz": {
-                "question": "Which Greek god was the temple with the single remaining column dedicated to?",
-                "options": [
-                    "Apollo",
-                    "Zeus",
-                    "Ares",
-                    "Hermes"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The solitary column belongs to the ancient Temple of Apollo."
-            },
-            "reward": {
-                "title": "Free map of Ancient Aegina",
-                "provider": "Kolona Ticket Office",
-                "codeHash": "6674b132722ac8bd61e05951ee817d33b79ef9367bef70f6cc7cce58a70f00c9"
-            },
-            "id": 211
+        "reward": {
+            "title": "10% off at the Science Shop",
+            "provider": "Planetarium Gift Shop",
+            "codeHash": "f25b41cf6a10bb4ffe78d7c31b9d1bad9ce11c2065020561259357eebab3567a"
         },
-        {
-            "name": "Monastery of Saint Nectarios",
-            "lat": 37.7475,
-            "lng": 23.483,
-            "description": "A massive, beautiful monastery dedicated to one of the most widely known modern Orthodox saints.",
-            "audioText": "Welcome to the Monastery of Agios Nektarios. Saint Nektarios, who lived from 1846 to 1920, is one of the most recently canonized saints in the Greek Orthodox Church, known as a great miracle worker and healer. This vast, modern church and monastery complex is one of the largest in the Balkans and attracts thousands of pilgrims daily seeking spiritual comfort and physical healing.",
-            "quiz": {
-                "question": "For what specific spiritual grace is Saint Nectarios primarily known by the faithful?",
-                "options": [
-                    "As a miracle worker and healer",
-                    "As the patron saint of sailors",
-                    "As the protector of lost objects",
-                    "As a warrior saint"
-                ],
-                "answer": 0,
-                "feedback": "Correct! He is highly venerated as a miraculous healer."
-            },
-            "reward": {
-                "title": "Free holy oil vial",
-                "provider": "Monastery Kiosk",
-                "codeHash": "2ce641aaa30699b6e29fee4c62ac53d36602e2bd5a9a2dfd5d67a22177694ba7"
-            },
-            "id": 212
-        },
-        {
-            "name": "Tower of Markellos",
-            "lat": 37.7455,
-            "lng": 23.4283,
-            "description": "A striking pink Venetian tower that served as a government building during the Greek Revolution.",
-            "audioText": "You are looking at the striking pink Tower of Markellos. Built by the Venetians in the 17th century, it was later renovated in 1802 by Spyros Markellos. During the Greek War of Independence, Aegina briefly served as the first capital of the modern Greek State. This very tower housed the first Greek government officials, including Ioannis Kapodistrias, the first Governor of Greece.",
-            "quiz": {
-                "question": "Which notable figure and first Governor of Greece lived and worked in this tower?",
-                "options": [
-                    "Ioannis Kapodistrias",
-                    "Theodoros Kolokotronis",
-                    "Lord Byron",
-                    "Eleftherios Venizelos"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Ioannis Kapodistrias used the tower when Aegina was the provisional capital."
-            },
-            "reward": {
-                "title": "10% off local pistachio butter",
-                "provider": "Markellos Square Shop",
-                "codeHash": "6512739e056fb9d254bd71e9ad420b79b1f8a9d2466d943d4f46622b0b868280"
-            },
-            "id": 213
-        },
-        {
-            "name": "Cave of Euripides",
-            "lat": 37.8864,
-            "lng": 23.4619,
-            "description": "A secluded cave on the island of Salamis where the great tragedian wrote his masterpieces.",
-            "audioText": "Welcome to the Cave of Euripides, located high on a hillside in southern Salamis overlooking the Saronic Gulf. The famous Athenian playwright Euripides retreated to this peaceful, secluded cave to write his great tragedies, far from the bustling noise of the city. Archaeological excavations here in 1997 actually uncovered a skyphos—a wine cup—with letters spelling out his name, confirming the legend.",
-            "quiz": {
-                "question": "What remarkable artifact was found here in 1997 proving Euripides used this cave?",
-                "options": [
-                    "A wine cup bearing his name",
-                    "A golden mask of tragedy",
-                    "A marble statue of Apollo",
-                    "The original manuscript of Medea"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Archaeologists found a black-glazed skyphos with part of his name inscribed."
-            },
-            "reward": {
-                "title": "Free dramatic arts bookmark",
-                "provider": "Salamis Tourist Info",
-                "codeHash": "29a5439194542dd8a9e7bfa92e2f17f43cb4de95ef8cfdd6a4deeb3fa51f2b19"
-            },
-            "id": 214
-        },
-        {
-            "name": "Monastery of Faneromeni",
-            "lat": 37.9866,
-            "lng": 23.4281,
-            "description": "A historic 17th-century monastery featuring exquisite frescoes of the Last Judgment.",
-            "audioText": "You are visiting the Monastery of Panagia Faneromeni on the northwest coast of Salamis. Founded in the 17th century by Saint Laurentios, the monastery played a vital role during the 1821 Greek Revolution, serving as a hospital and a secret meeting place for freedom fighters. Its katholikon (main church) is renowned for its incredible, sprawling frescoes covering almost every inch of the interior, including a vivid depiction of the Last Judgment.",
-            "quiz": {
-                "question": "What role did the Monastery of Faneromeni play during the 1821 Greek Revolution?",
-                "options": [
-                    "It served as a hospital and secret meeting place",
-                    "It was a naval base",
-                    "It operated a gunpowder mill",
-                    "It minted revolutionary coins"
-                ],
-                "answer": 0,
-                "feedback": "Correct! It was a safe haven and hospital for Greek revolutionaries."
-            },
-            "reward": {
-                "title": "10% off beeswax candles",
-                "provider": "Monastery Shop",
-                "codeHash": "73fc59be455fb2c2c5c05c0c0c925317826938b72b5667da7f8101e767e61ae5"
-            },
-            "id": 215
-        },
-        {
-            "name": "Sanctuary of Poseidon at Kalaureia",
-            "lat": 37.5255,
-            "lng": 23.4735,
-            "description": "The ruins of the ancient religious center of the Kalaurian amphictyony on the island of Poros.",
-            "audioText": "Welcome to the Sanctuary of Poseidon, located in the hills of Kalaureia on the island of Poros. In antiquity, this was the center of a powerful maritime league known as an amphictyony. It is perhaps most famous as the place where the great Athenian orator Demosthenes sought asylum from the Macedonians in 322 BC. Rather than surrender to Antipater's men, Demosthenes committed suicide here by drinking poison.",
-            "quiz": {
-                "question": "Which famous Athenian orator committed suicide at this sanctuary to avoid capture by the Macedonians?",
-                "options": [
-                    "Demosthenes",
-                    "Pericles",
-                    "Socrates",
-                    "Cicero"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Demosthenes drank poison from his pen here rather than be captured."
-            },
-            "reward": {
-                "title": "Free panoramic postcard",
-                "provider": "Poros Port Kiosk",
-                "codeHash": "f98b01e2225a229aafc4b6dbefaaf772dca88d87c4d8a565eb9faa1b66bcd8e0"
-            },
-            "id": 216
-        },
-        {
-            "name": "Poros Clock Tower",
-            "lat": 37.4988,
-            "lng": 23.4542,
-            "description": "The iconic landmark of Poros, built on the highest peak of the town.",
-            "audioText": "You are standing at the base of the iconic Clock Tower of Poros. Built in 1927, this landmark sits atop the volcanic rock of Sphaeria, the rocky outcrop where the town of Poros is built. The short climb through the charming, narrow streets filled with neoclassical mansions is rewarded with a spectacular view of the narrow strait separating the island from the mountains of the Peloponnese.",
-            "quiz": {
-                "question": "In what year was the iconic Poros Clock Tower built?",
-                "options": [
-                    "1927",
-                    "1821",
-                    "1950",
-                    "1896"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The tower was constructed relatively recently, in 1927."
-            },
-            "reward": {
-                "title": "15% off lemonade at the port",
-                "provider": "Poros Cafe",
-                "codeHash": "abb9a05c701874f45dfe5980163795e2c1b523aa94603b2de822bba344eaa551"
-            },
-            "id": 217
-        },
-        {
-            "name": "Historical Archives Museum of Hydra",
-            "lat": 37.3503,
-            "lng": 23.4665,
-            "description": "A museum showcasing the immense wealth and naval power of Hydra during the Greek Revolution.",
-            "audioText": "Welcome to the Historical Archives Museum of Hydra. Located right by the picturesque port, this museum documents the island's incredible maritime history. Before and during the 1821 Revolution, Hydra was incredibly wealthy and boasted a massive, privately owned commercial fleet. When the war broke out, the Hydriot merchants converted their merchant ships into powerful warships, playing a decisive role in liberating Greece.",
-            "quiz": {
-                "question": "How did the wealthy Hydriot merchants contribute to the Greek Revolution?",
-                "options": [
-                    "By converting their merchant ships into warships",
-                    "By fighting as cavalry on the mainland",
-                    "By building a massive land fortress",
-                    "By purchasing foreign mercenaries"
-                ],
-                "answer": 0,
-                "feedback": "Correct! They turned their massive commercial fleet into an unstoppable navy."
-            },
-            "reward": {
-                "title": "10% off naval history books",
-                "provider": "Museum Shop",
-                "codeHash": "3cfeb2bd57d6a7c237288960ab321cb26adbee3e2a1a0efb9c9317891642123b"
-            },
-            "id": 218
-        },
-        {
-            "name": "Lazaros Koundouriotis Historical Mansion",
-            "lat": 37.3481,
-            "lng": 23.465,
-            "description": "The striking yellow mansion of a wealthy shipowner who financed the Greek War of Independence.",
-            "audioText": "You are looking at the Lazaros Koundouriotis Historical Mansion, easily recognizable by its vibrant yellow color standing high above the port of Hydra. Lazaros Koundouriotis was one of the wealthiest shipowners of his time, and he famously spent his entire fortune financing the Greek Revolution. Today, the mansion operates as a branch of the National Historical Museum, preserving the elegant lifestyle of the 19th-century Greek maritime aristocracy.",
-            "quiz": {
-                "question": "What is visually distinctive about the Koundouriotis Mansion on the hillside of Hydra?",
-                "options": [
-                    "Its vibrant yellow color",
-                    "It is painted entirely black",
-                    "It has a large glass dome",
-                    "It is built underground"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The bright yellow ochre color makes it stand out against the rocky landscape."
-            },
-            "reward": {
-                "title": "Free entrance to the upper gallery",
-                "provider": "Koundouriotis Mansion",
-                "codeHash": "3f9e23577832a13b6de29811f4848313be63e5ebf318d8fab988b8396e2e5125"
-            },
-            "id": 219
-        },
-        {
-            "name": "Bouboulina's Museum",
-            "lat": 37.2655,
-            "lng": 23.161,
-            "description": "The ancestral home of Laskarina Bouboulina, the legendary female naval commander of the Greek Revolution.",
-            "audioText": "Welcome to the Bouboulina Museum on the island of Spetses. This was the home of Laskarina Bouboulina, a heroine of the Greek War of Independence and the first woman in world naval history to achieve the rank of Admiral. She used her massive fortune to build ships, including her flagship the Agamemnon, and personally led naval blockades against the Ottoman Empire.",
-            "quiz": {
-                "question": "What was the name of Laskarina Bouboulina's famous flagship?",
-                "options": [
-                    "Agamemnon",
-                    "Argo",
-                    "Averof",
-                    "Olympia"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Her flagship, the Agamemnon, was one of the largest Greek warships of the time."
-            },
-            "reward": {
-                "title": "15% off local Spetses sweets (amygdalota)",
-                "provider": "Spetses Bakery",
-                "codeHash": "88f6271cdd0df1ed545c6d5eea144b16877f35e48b19069cf69b08ff1107acbc"
-            },
-            "id": 220
-        },
-        {
-            "name": "Fountain of Theagenes",
-            "lat": 37.9942,
-            "lng": 23.3422,
-            "description": "A remarkably well-preserved ancient water reservoir and fountain house in the city of Megara.",
-            "audioText": "You are exploring the Fountain of Theagenes in Megara. Constructed in the 5th century BC, it is one of the largest and most impressive ancient fountain houses in Greece. Its massive roof was supported by 35 octagonal Doric pillars, and it featured a sophisticated plumbing system to draw water from the nearby mountains. It highlights the advanced civic engineering of ancient Greek city-states.",
-            "quiz": {
-                "question": "How many octagonal Doric pillars were used to support the roof of the reservoir?",
-                "options": [
-                    "35",
-                    "10",
-                    "100",
-                    "4"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The roof was supported by 35 impressive octagonal pillars."
-            },
-            "reward": {
-                "title": "Free map of Ancient Megara",
-                "provider": "Megara Tourism Kiosk",
-                "codeHash": "e43700a6580ffeb84c34d6a131773d2e24990c9573c2c47f721f46305065b420"
-            },
-            "id": 221
-        },
-        {
-            "name": "Plato's Academy Archaeological Site",
-            "lat": 37.9855,
-            "lng": 23.7088,
-            "description": "The serene suburban park that houses the ruins of the world's first university, founded by Plato.",
-            "audioText": "Welcome to the Archaeological Site of Plato's Academy. Founded by the philosopher Plato in 387 BC in a sacred grove of olive trees, this is widely considered the first university in the Western world. Aristotle studied here for twenty years. Today, it is a quiet, unassuming park where you can walk among the ruins of the gymnasium and imagine the profound philosophical debates that shaped Western thought.",
-            "quiz": {
-                "question": "Which famous philosopher studied at Plato's Academy for twenty years before founding his own school?",
-                "options": [
-                    "Aristotle",
-                    "Socrates",
-                    "Pythagoras",
-                    "Epicurus"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Aristotle was Plato's most famous student at the Academy."
-            },
-            "reward": {
-                "title": "10% off philosophy books",
-                "provider": "Akadimia Bookstore",
-                "codeHash": "077f1c36431bafd0d33b811b35bfa0cccf023307cf5c93a80b6d9437a583b528"
-            },
-            "id": 222
-        },
-        {
-            "name": "First Cemetery of Athens",
-            "lat": 37.9622,
-            "lng": 23.7388,
-            "description": "A historic, peaceful cemetery acting as a magnificent open-air museum of 19th-century sculpture.",
-            "audioText": "You are walking through the First Cemetery of Athens, a peaceful oasis of pine and cypress trees. Opened in 1837, it is the resting place for Greece's most prominent politicians, artists, and heroes. It is also an incredible open-air museum of Romantic and Neoclassical sculpture. The most famous masterpiece here is the 'Sleeping Maiden' (Koimomeni) carved by legendary sculptor Yannoulis Chalepas.",
-            "quiz": {
-                "question": "What is the name of the famous sculpture by Yannoulis Chalepas located in this cemetery?",
-                "options": [
-                    "The Sleeping Maiden (Koimomeni)",
-                    "The Thinker",
-                    "Winged Victory",
-                    "The Discus Thrower"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The 'Sleeping Maiden' is considered a masterpiece of modern Greek sculpture."
-            },
-            "reward": {
-                "title": "Free guided tour map",
-                "provider": "Cemetery Main Gate",
-                "codeHash": "0304207c903ba5499c2653621b0e1c56421bc50fcafcc30509beb8cd1a503e66"
-            },
-            "id": 223
-        },
-        {
-            "name": "National Gallery – Alexandros Soutzos Museum",
-            "lat": 37.976,
-            "lng": 23.7485,
-            "description": "The premier art museum in Greece, housing an unparalleled collection of post-Byzantine and modern Greek art.",
-            "audioText": "Welcome to the newly renovated National Gallery. After a massive expansion completed in 2021, the gallery features a stunning modern glass facade. Inside, it houses over 20,000 works of art, providing an exhaustively complete overview of Greek art from the post-Byzantine era to the contemporary period, featuring legends like El Greco, Lytras, and Tsarouchis.",
-            "quiz": {
-                "question": "Which famous Greek-born Renaissance artist's works are featured prominently in the gallery?",
-                "options": [
-                    "El Greco (Domenikos Theotokopoulos)",
-                    "Michelangelo",
-                    "Leonardo da Vinci",
-                    "Raphael"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Works by Domenikos Theotokopoulos, widely known as El Greco, are a major highlight."
-            },
-            "reward": {
-                "title": "10% off at the Gallery Cafe",
-                "provider": "National Gallery Dining",
-                "codeHash": "c6c64a4b0a6135c85b0e168bb15f915d8476587d81e4df2773130ee3a54b1959"
-            },
-            "id": 224
-        },
-        {
-            "name": "National Museum of Contemporary Art (EMST)",
-            "lat": 37.9625,
-            "lng": 23.7258,
-            "description": "Athens' flagship institution for contemporary Greek and international art, housed in a former brewery.",
-            "audioText": "You are at the National Museum of Contemporary Art, known as EMST. The museum is housed in the iconic Fix Brewery building, a massive industrial structure from the 1960s that was brilliantly repurposed. EMST collects and exhibits cutting-edge contemporary art in various media including painting, video, and installations, reflecting complex social and political themes from a global perspective.",
-            "quiz": {
-                "question": "What was the building housing EMST originally used as?",
-                "options": [
-                    "The Fix Brewery",
-                    "A military barracks",
-                    "A textile factory",
-                    "An indoor market"
-                ],
-                "answer": 0,
-                "feedback": "Correct! It is housed in the historic Fix Brewery building."
-            },
-            "reward": {
-                "title": "15% off modern art prints",
-                "provider": "EMST Shop",
-                "codeHash": "ff0f30488ff6eeb9151c0afef0ad0696d42ceb5fac15c418e9280ef261858cfd"
-            },
-            "id": 225
-        },
-        {
-            "name": "Hellenic Motor Museum",
-            "lat": 37.9911,
-            "lng": 23.7303,
-            "description": "A spectacular private collection of over 100 classic and antique cars spanning the history of motoring.",
-            "audioText": "Welcome to the Hellenic Motor Museum, located near Victoria Station. Housed in a spiraling, multi-story modern building, the museum displays an incredible private collection of over 110 classic, antique, and modern cars. You can admire rare models from Bugatti, Ferrari, Maserati, and Aston Martin, alongside interactive exhibits that explore the evolution of automotive engineering.",
-            "quiz": {
-                "question": "What kind of architectural layout characterizes the main exhibition space of the museum?",
-                "options": [
-                    "A multi-story spiraling ramp",
-                    "A long underground tunnel",
-                    "An open-air courtyard",
-                    "A series of glass domes"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Visitors walk down a spiraling ramp across three floors to view the cars."
-            },
-            "reward": {
-                "title": "10% off at the F1 Simulator",
-                "provider": "Motor Museum Lobby",
-                "codeHash": "1a32be27045f204eb5f1b73f9392494ef743cda0b0d94350cb6c6958700c59ac"
-            },
-            "id": 226
-        },
-        {
-            "name": "Museum of the City of Athens",
-            "lat": 37.9796,
-            "lng": 23.7317,
-            "description": "Housed in the former royal palace of King Otto, this museum chronicles the modern history of Athens.",
-            "audioText": "You are visiting the Museum of the City of Athens, housed in two interconnected mansions on Klafthmonos Square. The older mansion was actually the first residence of King Otto and Queen Amalia when Athens became the capital in 1834. The museum features beautiful period furniture, royal memorabilia, and a spectacular model of Athens from 1842, showing just how small the city once was.",
-            "quiz": {
-                "question": "Who were the first royal residents of the older mansion that houses the museum?",
-                "options": [
-                    "King Otto and Queen Amalia",
-                    "King George I and Queen Olga",
-                    "Emperor Hadrian",
-                    "Lord Byron"
-                ],
-                "answer": 0,
-                "feedback": "Correct! It was the temporary palace for Greece's first modern King, Otto."
-            },
-            "reward": {
-                "title": "Free historic city map",
-                "provider": "Museum Desk",
-                "codeHash": "2575f0a74f01d0e929fe4b8ebfc394ef3dc81512bdfa71b5908d423b63c91e31"
-            },
-            "id": 227
-        },
-        {
-            "name": "B. & M. Theocharakis Foundation",
-            "lat": 37.9765,
-            "lng": 23.7369,
-            "description": "A cultural center dedicated to music and the visual arts, located opposite the Greek Parliament.",
-            "audioText": "Welcome to the B. & M. Theocharakis Foundation for the Fine Arts and Music. Located in a beautifully restored 1920s eclectic building right across from the National Gardens, the foundation hosts temporary exhibitions of modern art, classical music concerts, and educational workshops. The café on the upper floors offers a splendid view of the Greek Parliament and Syntagma Square.",
-            "quiz": {
-                "question": "What two artistic disciplines is the Theocharakis Foundation primarily dedicated to?",
-                "options": [
-                    "Fine Arts and Music",
-                    "Cinema and Theater",
-                    "Photography and Dance",
-                    "Sculpture and Architecture"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The foundation focuses on the visual arts and music."
-            },
-            "reward": {
-                "title": "10% off at Café Merlin",
-                "provider": "Theocharakis Foundation",
-                "codeHash": "bcba4ea12665d153aad80dc7e9a2742226698060936dfda28905973a36fb81e4"
-            },
-            "id": 228
-        },
-        {
-            "name": "Athens Olympic Museum",
-            "lat": 38.0402,
-            "lng": 23.7891,
-            "description": "A modern museum celebrating the global history of the Olympic Games, focusing on Greece's foundational role.",
-            "audioText": "You are at the Athens Olympic Museum, a striking modern facility connected to the Golden Hall. The museum takes visitors on a chronological journey from the ancient Olympic Games in Olympia, to the revival of the modern Games in Athens in 1896, right up to the triumphant return of the Olympics to Athens in 2004. It features authentic torches, medals, and interactive athletic exhibits.",
-            "quiz": {
-                "question": "In what year were the first modern Olympic Games held in Athens?",
-                "options": [
-                    "1896",
-                    "1904",
-                    "1888",
-                    "1924"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The modern Olympics were successfully revived in Athens in 1896."
-            },
-            "reward": {
-                "title": "15% off official Olympic merchandise",
-                "provider": "Olympic Museum Shop",
-                "codeHash": "ad9260aa6ca433b7500c6778e864ede5e7ca0bc4cdb084ceac097bcc03bd3266"
-            },
-            "id": 229
-        },
+        "id": 180
+    },
     {
-            "name": "Tatoi Royal Palace",
-            "lat": 38.1633,
-            "lng": 23.7938,
-            "description": "The abandoned, forested summer estate of the former Greek Royal Family.",
-            "audioText": "Welcome to Tatoi, the sprawling former summer estate of the Greek Royal Family, located on the densely forested slopes of Mount Parnitha. Acquired by King George I in 1871, this 10,000-acre estate features the royal palace, beautiful gardens, and the royal cemetery where many Greek kings are buried. Today, the estate is being slowly restored as a major cultural and environmental park.",
-            "quiz": {
-                "question": "Which Greek King initially acquired the Tatoi estate in 1871?",
-                "options": [
-                    "King George I",
-                    "King Otto",
-                    "King Constantine II",
-                    "King Alexander"
-                ],
-                "answer": 0,
-                "feedback": "Correct! King George I purchased the estate to serve as a summer retreat."
-            },
-            "reward": {
-                "title": "Free map of the Tatoi hiking trails",
-                "provider": "Tatoi Friends Association",
-                "codeHash": "0cdecec0562865006ad456697fe860668648b3fd94fa7761481be38e7d20469c"
-            },
-            "id": 230
-        },
-        {
-            "name": "Lake Beletsi",
-            "lat": 38.2217,
-            "lng": 23.7744,
-            "description": "A picturesque, small artificial lake hidden in the pine forests of Mount Parnitha.",
-            "audioText": "You are at Lake Beletsi, a hidden gem nestled at an altitude of 600 meters on the eastern slopes of Mount Parnitha. This small artificial lake was created accidentally in the 1970s during infrastructure work. Today, it has become a vital wetland surrounded by dense pine forest, serving as a sanctuary for migratory birds, swans, and a massive population of turtles.",
-            "quiz": {
-                "question": "How was Lake Beletsi formed?",
-                "options": [
-                    "Accidentally during infrastructure work in the 1970s",
-                    "By a massive earthquake",
-                    "It is an ancient volcanic crater",
-                    "It was dug by the ancient Athenians"
-                ],
-                "answer": 0,
-                "feedback": "Correct! It was inadvertently created when debris blocked a mountain stream."
-            },
-            "reward": {
-                "title": "Free bag of duck feed",
-                "provider": "Lake Beletsi Kiosk",
-                "codeHash": "a5806b5388e042055fdc289d76921492d9285f383ea31fb519f5ddfe9e127b15"
-            },
-            "id": 231
-        },
-        {
-            "name": "Mpafi Refuge",
-            "lat": 38.1682,
-            "lng": 23.7228,
-            "description": "A popular mountain refuge offering stunning views and traditional food high up in Parnitha National Park.",
-            "audioText": "Welcome to the Mpafi Refuge, located at an altitude of 1,161 meters in the heart of the Parnitha National Park. Operated by the Hellenic Alpine Club of Athens, it serves as the ultimate starting point for hikers exploring the mountain's dense fir forests. Here, you can enjoy traditional bean soup and warm tea while observing the majestic red deer that frequently roam right up to the refuge.",
-            "quiz": {
-                "question": "What large wild animal is frequently spotted roaming near the Mpafi Refuge?",
-                "options": [
-                    "Red deer",
-                    "Brown bears",
-                    "Wild horses",
-                    "Wolves"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Parnitha is famous for its thriving population of wild red deer."
-            },
-            "reward": {
-                "title": "10% off traditional bean soup (fasolada)",
-                "provider": "Mpafi Refuge Kitchen",
-                "codeHash": "dda4a401b7b4e1a1c0852bf0eb6605b181b6e8c13b2eb870ed61a305c390f5ad"
-            },
-            "id": 232
-        },
-        {
-            "name": "Davelis Cave",
-            "lat": 38.0722,
-            "lng": 23.8761,
-            "description": "A massive, mysterious cave on Mount Pentelicus famous for paranormal legends and ancient worship.",
-            "audioText": "You are standing at the entrance of Davelis Cave on the southwestern slopes of Mount Pentelicus. In antiquity, this cave was a sanctuary dedicated to the god Pan and the Nymphs. In the 19th century, it was famously used as a hideout by the notorious bandit Davelis. Today, the cave is shrouded in modern urban legends involving paranormal activity and electromagnetic anomalies.",
-            "quiz": {
-                "question": "Which ancient deities were worshipped in this cave long before it became a bandit's hideout?",
-                "options": [
-                    "Pan and the Nymphs",
-                    "Zeus and Hera",
-                    "Ares and Athena",
-                    "Hades and Persephone"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The cave served as a sanctuary to Pan and the Nymphs in antiquity."
-            },
-            "reward": {
-                "title": "Free headlamp rental",
-                "provider": "Penteli Spelunking Club",
-                "codeHash": "a490d02eee64ebfc290bcd598ccfee9fa03778ae3d4ab0278403749bd73449b4"
-            },
-            "id": 233
-        },
-        {
-            "name": "Syngrou Estate",
-            "lat": 38.0664,
-            "lng": 23.8114,
-            "description": "A vast, beautiful forest estate spanning 950 acres in the northern suburbs of Athens.",
-            "audioText": "Welcome to the Syngrou Estate in Kifissia. Bequeathed to the Greek Agricultural Society by Iphigenia Syngrou in 1921, this massive 950-acre park is the only surviving natural forest within the Athens basin. It features a spectacular neo-Gothic Orthodox church, the only one of its kind in Greece, and miles of peaceful walking and cycling trails through dense pine and almond trees.",
-            "quiz": {
-                "question": "What unique architectural style is the Orthodox church within the estate built in?",
-                "options": [
-                    "Neo-Gothic",
-                    "Byzantine",
-                    "Neoclassical",
-                    "Brutalist"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The Church of St. Andrew is the only neo-Gothic Orthodox church in Greece."
-            },
-            "reward": {
-                "title": "15% off bicycle rental",
-                "provider": "Syngrou Park Bikes",
-                "codeHash": "1ec4a1b466f0082d440d7f2ab6aa9c8146f7ee3a7aaa3bc40ccab57dd0bc6902"
-            },
-            "id": 234
-        },
-        {
-            "name": "Temple of Apollo Zoster",
-            "lat": 37.8131,
-            "lng": 23.7742,
-            "description": "An ancient temple uniquely preserved right on the sandy shores of the luxurious Asteras Beach.",
-            "audioText": "You are looking at the ruins of the Temple of Apollo Zoster. Remarkably, this 6th-century BC temple is located right on the sand of the luxurious Asteras Beach in Vouliagmeni. According to myth, Leto stopped here while fleeing Hera and loosened her 'zoster' or belt, believing she was about to give birth to Apollo and Artemis. It was accidentally unearthed by children playing in the sand in 1924.",
-            "quiz": {
-                "question": "How was this ancient temple accidentally discovered in 1924?",
-                "options": [
-                    "By children playing in the sand",
-                    "By a submarine scanning the coast",
-                    "By a falling meteor",
-                    "By a dog digging for a bone"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Children from the Vouliagmeni Orphanage uncovered it while digging in the sand."
-            },
-            "reward": {
-                "title": "Free access to the temple site",
-                "provider": "Asteras Beach Info",
-                "codeHash": "e997345c9758fdda4d9a03e53b91edb16a3bf84c75ab304f80f5522bf02388a3"
-            },
-            "id": 235
-        },
-        {
-            "name": "Aigosthena Fortress",
-            "lat": 38.1481,
-            "lng": 23.2289,
-            "description": "The most impressively preserved ancient fortress in Greece, towering over the Corinthian Gulf.",
-            "audioText": "Welcome to the ancient fortress of Aigosthena in Porto Germeno. Built in the 4th century BC, this is widely considered the best-preserved ancient fortress in all of Greece. Its massive stone walls and looming square towers remain largely intact, offering a perfect example of advanced ancient Greek military architecture. The fortress was designed to protect the strategic route between Attica and the Peloponnese.",
-            "quiz": {
-                "question": "What makes the fortress of Aigosthena so remarkable among Greek ruins?",
-                "options": [
-                    "It is considered the best-preserved ancient fortress in Greece",
-                    "It was built entirely of gold",
-                    "It is located underwater",
-                    "It was never actually finished"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Its towering walls and structures are incredibly well-preserved."
-            },
-            "reward": {
-                "title": "10% off fish at Porto Germeno tavernas",
-                "provider": "Local Seaside Tavernas",
-                "codeHash": "44c9e6ff87f427e8927c201f1290f0b2cd880dd4c625ce829584600441bd2cbc"
-            },
-            "id": 236
-        },
-        {
-            "name": "Eleutherae (Goura Castle)",
-            "lat": 38.1814,
-            "lng": 23.3769,
-            "description": "A massive ancient border fortress overlooking the strategic pass of Mount Cithaeron.",
-            "audioText": "You are standing at the ruins of Eleutherae, also known as Goura Castle. This imposing 4th-century BC fortress guarded the strategic mountain pass linking Attica with Boeotia. The walls, heavily fortified with multiple square towers, still stand several meters high. According to myth, Eleutherae is the birthplace of Dionysus, the god of wine and theater.",
-            "quiz": {
-                "question": "Which Greek god was mythologically born at Eleutherae?",
-                "options": [
-                    "Dionysus",
-                    "Ares",
-                    "Apollo",
-                    "Hermes"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Legend states that Dionysus, god of wine, was born here."
-            },
-            "reward": {
-                "title": "Free panoramic photo print",
-                "provider": "Kithairon Mountain Club",
-                "codeHash": "8f188f86f5c6e02aef5df3f8388be899ed92fcd389f60632db0b4225f97a549b"
-            },
-            "id": 237
-        },
-        {
-            "name": "OAKA Olympic Athletic Center of Athens",
-            "lat": 38.0378,
-            "lng": 23.7844,
-            "description": "The massive, futuristic stadium complex redesigned by Santiago Calatrava for the 2004 Olympics.",
-            "audioText": "Welcome to OAKA, the Olympic Athletic Center of Athens. Originally built in 1982, the complex was radically redesigned by world-renowned architect Santiago Calatrava for the 2004 Athens Olympics. Its defining feature is the breathtaking glass and steel roof structure over the main stadium, weighing 18,000 tons. Today, it remains the largest sporting venue in Greece.",
-            "quiz": {
-                "question": "Which famous architect designed the spectacular steel and glass roof over the main stadium?",
-                "options": [
-                    "Santiago Calatrava",
-                    "Renzo Piano",
-                    "Zaha Hadid",
-                    "Frank Gehry"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The visionary Spanish architect Santiago Calatrava designed the roof."
-            },
-            "reward": {
-                "title": "15% off guided architectural tour",
-                "provider": "OAKA Info Center",
-                "codeHash": "e8eb696ad65c0ab030fecf3cdf5cb499994afb1f7d36b18f08f036c501550a30"
-            },
-            "id": 238
-        },
-        {
-            "name": "AEK OPAP Arena (Agia Sophia Stadium)",
-            "lat": 38.0411,
-            "lng": 23.7411,
-            "description": "The spectacular, newly built home stadium of AEK Athens F.C., featuring Byzantine-inspired architecture.",
-            "audioText": "You are looking at the OPAP Arena, the stunning new home of AEK Athens F.C. in Nea Filadelfeia. Opened in 2022, the stadium's unique architecture is heavily inspired by the Byzantine Empire, featuring fortress-like walls, arches, and a monumental double-headed eagle statue at the entrance. It serves as both a world-class football venue and a monument to the Greek refugees of Asia Minor.",
-            "quiz": {
-                "question": "What historical empire heavily inspired the architecture of the OPAP Arena?",
-                "options": [
-                    "The Byzantine Empire",
-                    "The Roman Empire",
-                    "The Ottoman Empire",
-                    "The Persian Empire"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The arches, towers, and double-headed eagle all symbolize the Byzantine Empire."
-            },
-            "reward": {
-                "title": "10% off at the AEK FC Store",
-                "provider": "AEK Official Store",
-                "codeHash": "6406f6948a238a4265a312dbb78389ff098059aaf91661055ccbce2171c43e44"
-            },
-            "id": 239
-        },
-        {
-            "name": "Pedion tou Areos",
-            "lat": 37.9933,
-            "lng": 23.7344,
-            "description": "One of the largest public parks in Athens, designed in honor of the heroes of the 1821 Revolution.",
-            "audioText": "Welcome to Pedion tou Areos, or the 'Field of Ares'. Designed in 1934 to honor the heroes of the Greek War of Independence, it is one of the largest public parks in Athens. The park's main avenue features 21 marble busts of revolutionary heroes, and the impressive equestrian statue of King Constantine I stands at the main entrance, welcoming Athenians seeking a green escape.",
-            "quiz": {
-                "question": "What is the English translation of 'Pedion tou Areos'?",
-                "options": [
-                    "Field of Ares",
-                    "Garden of Athena",
-                    "Valley of the Gods",
-                    "Park of Peace"
-                ],
-                "answer": 0,
-                "feedback": "Correct! It translates to the 'Field of Ares', the Greek god of war."
-            },
-            "reward": {
-                "title": "Free coffee at the park kiosk",
-                "provider": "Alsos Cafe",
-                "codeHash": "f6e6cbfec69579fca0432501b8b9aae3279b304b804a795469e3719998b45fca"
-            },
-            "id": 240
-        },
-        {
-            "name": "Zappeion Megaron",
-            "lat": 37.9714,
-            "lng": 23.7364,
-            "description": "A magnificent neoclassical building built specifically for the revival of the modern Olympic Games.",
-            "audioText": "You are standing before the Zappeion Megaron, located south of the National Gardens. Funded by the wealthy Zappas cousins, it was completed in 1888. It holds the distinction of being the first building in the world explicitly constructed for the revival of the modern Olympic Games. Today, its spectacular circular atrium is used for major diplomatic, cultural, and corporate events.",
-            "quiz": {
-                "question": "For what specific international event was the Zappeion originally constructed?",
-                "options": [
-                    "The revival of the modern Olympic Games",
-                    "The signing of the Greek Constitution",
-                    "The crowning of King Otto",
-                    "The first World's Fair"
-                ],
-                "answer": 0,
-                "feedback": "Correct! It was built specifically to host the reborn Olympic Games."
-            },
-            "reward": {
-                "title": "10% off at Aegli Zappeiou Cafe",
-                "provider": "Aegli Cafe",
-                "codeHash": "fdac6da6e031a3d5f4d8a5dbf8fea612bd4724c8319abfe39bda4c900dafa27f"
-            },
-            "id": 241
-        },
-        {
-            "name": "Metropolitan Cathedral of Athens (Mitropoli)",
-            "lat": 37.9753,
-            "lng": 23.73,
-            "description": "The primary cathedral of the Greek Orthodox Church in Athens, hosting state funerals and royal weddings.",
-            "audioText": "Welcome to the Metropolitan Cathedral of the Annunciation, simply known as the Mitropoli. Construction began in 1842 and took exactly 20 years to complete, famously using marble salvaged from 72 demolished older churches. It remains the most important church in Athens, used for major state ceremonies, including presidential inaugurations, royal weddings, and the funerals of prominent Greeks.",
-            "quiz": {
-                "question": "Where did the marble used to construct the Mitropoli come from?",
-                "options": [
-                    "It was salvaged from 72 demolished older churches",
-                    "It was imported from Italy",
-                    "It was mined from Mount Olympus",
-                    "It was gifted by the Russian Tsar"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The marble was repurposed from dozens of ruined medieval churches."
-            },
-            "reward": {
-                "title": "Free Orthodox icon card",
-                "provider": "Mitropoli Gift Shop",
-                "codeHash": "16797ab1bc7686b43d0ff6a59d9e3e22065827ff80b78dffb58c10cc49f61fc6"
-            },
-            "id": 242
-        },
-        {
-            "name": "Little Metropolis (Agios Eleftherios)",
-            "lat": 37.9751,
-            "lng": 23.7303,
-            "description": "A tiny, beautiful 12th-century Byzantine church built entirely out of ancient Greek and Roman marble spoils.",
-            "audioText": "You are looking at the Little Metropolis, officially the Church of Agios Eleftherios. Sitting right next to the massive modern Cathedral, this tiny 12th-century church is an architectural marvel. Its walls are built entirely out of 'spolia'—unaltered marble reliefs and blocks salvaged from ancient Greek temples, Roman monuments, and early Christian buildings, creating a fascinating patchwork of Athenian history.",
-            "quiz": {
-                "question": "What unique building material was used to construct the exterior walls of the Little Metropolis?",
-                "options": [
-                    "Salvaged marble reliefs from ancient Greek and Roman monuments",
-                    "Mudbricks from the nearby river",
-                    "Wooden beams from ancient ships",
-                    "Gold-plated bronze shields"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The church is famous for being constructed entirely from ancient 'spolia'."
-            },
-            "reward": {
-                "title": "Free historic architectural guide",
-                "provider": "Athens Culture Kiosk",
-                "codeHash": "e6a88089e40cd1ce691ae977cd7fccfdd3242b69e6b3b10b823b3301438d10e2"
-            },
-            "id": 243
-        },
-        {
-            "name": "Museum of Illusions Athens",
-            "lat": 37.9768,
-            "lng": 23.7214,
-            "description": "A wildly popular, interactive museum filled with mind-bending optical illusions.",
-            "audioText": "Welcome to the Museum of Illusions in the Monastiraki neighborhood. This interactive space is designed to trick your senses and challenge your perception. Featuring mind-bending optical illusions, holograms, the dizzying Vortex Tunnel, and the famous Infinity Room, the museum provides a fun, educational experience about vision, perception, and the human brain's fascinating flaws.",
-            "quiz": {
-                "question": "Which of the following is a famous interactive exhibit at the Museum of Illusions?",
-                "options": [
-                    "The Vortex Tunnel",
-                    "The Tunnel of Love",
-                    "The Echo Chamber",
-                    "The Hall of Mirrors"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The Vortex Tunnel challenges your balance and visual perception."
-            },
-            "reward": {
-                "title": "15% off mind-bending puzzles",
-                "provider": "Museum of Illusions Shop",
-                "codeHash": "32c0f2f634cff4183c61fa45ffcd285c3277ba5d5f95d6f9315e71f6070c94e4"
-            },
-            "id": 244
-        },
-        {
-            "name": "Hellenic IT Museum",
-            "lat": 37.9542,
-            "lng": 23.6811,
-            "description": "The first and only museum in Greece dedicated to the history of Information Technology.",
-            "audioText": "You are visiting the Hellenic IT Museum in Moschato. Established in 2008, it is the only museum in Greece dedicated exclusively to the history of computing. Its vast collection features over 4,000 artifacts from the 1970s to the 1990s, including rare mainframe components, vintage Apple and IBM personal computers, floppy disks, and the clunky mobile phones that started the digital revolution.",
-            "quiz": {
-                "question": "What specific era of computing does the Hellenic IT Museum primarily focus on?",
-                "options": [
-                    "The 1970s to the 1990s",
-                    "The 1800s to the 1920s",
-                    "The 2000s to the present",
-                    "Ancient Greek computing mechanisms"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The museum preserves the pivotal early decades of modern personal computing."
-            },
-            "reward": {
-                "title": "Free retro computer sticker pack",
-                "provider": "IT Museum Desk",
-                "codeHash": "7523269980c77676f0561014cf63f8cb68d28fe36265f39a1435f0a153b86e98"
-            },
-            "id": 245
-        },
-        {
-            "name": "Maria Callas Museum",
-            "lat": 37.9765,
-            "lng": 23.7305,
-            "description": "A beautiful new museum honoring the life and career of the legendary Greek soprano.",
-            "audioText": "Welcome to the Maria Callas Museum, situated in a beautifully restored neoclassical building on Mitropoleos Street. Opened in 2023, the museum is dedicated to 'La Divina', the greatest opera singer of the 20th century. Through interactive audio exhibits, rare recordings, personal letters, and spectacular stage costumes, visitors can intimately experience the dramatic life and unparalleled voice of Maria Callas.",
-            "quiz": {
-                "question": "By what famous Italian nickname was Maria Callas widely known?",
-                "options": [
-                    "La Divina",
-                    "La Prima Donna",
-                    "La Soprano",
-                    "La Voce"
-                ],
-                "answer": 0,
-                "feedback": "Correct! She was famously referred to as 'La Divina' (The Divine One)."
-            },
-            "reward": {
-                "title": "10% off opera recordings",
-                "provider": "Callas Museum Shop",
-                "codeHash": "38c1fb82d067052fc1ff4be707771a504354211624b7196cde5d0a037f8d99ab"
-            },
-            "id": 246
-        },
-        {
-            "name": "OTE Telecommunications Museum",
-            "lat": 38.0931,
-            "lng": 23.8055,
-            "description": "A fascinating journey through the history of telecommunications in Greece.",
-            "audioText": "You are at the OTE Telecommunications Museum in Nea Erythraia. Operated by the Hellenic Telecommunications Organization, the museum traces the history of human communication. Exhibits range from ancient Greek fire-beacons and the hydraulic telegraph of Aeneas, to 19th-century Morse code transmitters, early rotary dial telephones, and the massive switchboards operated by the first female telephone operators.",
-            "quiz": {
-                "question": "Which ancient method of communication is featured in the museum's exhibits?",
-                "options": [
-                    "The hydraulic telegraph of Aeneas",
-                    "The homing pigeon network",
-                    "The bronze megaphone",
-                    "The solar mirror relay"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The museum explores early methods like the ingenious hydraulic telegraph."
-            },
-            "reward": {
-                "title": "Free vintage telephone postcard",
-                "provider": "OTE Museum Desk",
-                "codeHash": "e4770295be1c47b9b9ccd19ac6dac54a6b107a0aa71bfe57139740a5b15edb74"
-            },
-            "id": 247
-        },
-        {
-            "name": "Jewish Museum of Greece",
-            "lat": 37.9733,
-            "lng": 23.7328,
-            "description": "A poignant museum documenting the 2,300-year history of the Jewish communities in Greece.",
-            "audioText": "Welcome to the Jewish Museum of Greece, located near Syntagma Square. This highly impactful museum documents the rich 2,300-year history of the Romaniote and Sephardic Jewish communities in Greece. The exhibits feature religious artifacts, traditional costumes, and reconstructed synagogue interiors, alongside a deeply moving section dedicated to the Greek Jews who perished during the Holocaust.",
-            "quiz": {
-                "question": "What are the two primary Jewish communities historically present in Greece?",
-                "options": [
-                    "Romaniote and Sephardic",
-                    "Ashkenazi and Hasidic",
-                    "Beta Israel and Yemenite",
-                    "Karaite and Bukharan"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The Romaniote (Greek-speaking) and Sephardic (Ladino-speaking) are the historic communities of Greece."
-            },
-            "reward": {
-                "title": "10% off history publications",
-                "provider": "Jewish Museum Shop",
-                "codeHash": "90a27f8a047227808f2c31db27b52c0f285ed78432164bd67e190148f10ccd0e"
-            },
-            "id": 248
-        },
-        {
-            "name": "Piraeus Archaeological Museum",
-            "lat": 37.9367,
-            "lng": 23.6444,
-            "description": "An outstanding museum highlighting the ancient history of Athens' mighty naval port.",
-            "audioText": "You are visiting the Piraeus Archaeological Museum. This museum holds treasures that tell the story of Piraeus when it was the bustling, heavily fortified naval and commercial port of the Athenian Empire. The absolute highlights of the collection are the stunning 'Piraeus Statues'—four spectacular, life-sized hollow-cast bronze statues, including the Apollo of Piraeus and the magnificent Athena, which were hidden from Roman looters and discovered centuries later in a sewer.",
-            "quiz": {
-                "question": "What is the most famous highlight of the Piraeus Archaeological Museum?",
-                "options": [
-                    "The Piraeus Statues, a collection of life-sized hollow-cast bronzes",
-                    "The golden mask of Agamemnon",
-                    "The Parthenon Marbles",
-                    "The Antikythera Mechanism"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The pristine bronze statues of Apollo, Athena, and Artemis are world-famous masterpieces."
-            },
-            "reward": {
-                "title": "Free bookmark of the Bronze Athena",
-                "provider": "Piraeus Museum Shop",
-                "codeHash": "470ed14e934864245b13e303e09a884c0fa17e4ce5957a8b39f64d08449dc5d4"
-            },
-            "id": 249
-        },
-        {
-            "name": "Theatre of Thorikos",
-            "lat": 37.73806,
-            "lng": 24.05375,
-            "image": "images/theatre_thorikos.jpg",
-            "description": "The world's oldest known theater, built around 525-480 BC with a unique elongated shape rather than the traditional semicircle.",
-            "audioText": "Welcome to the Theatre of Thorikos, the oldest known theater in the world! Built between 525 and 480 BC, this remarkable structure predates the great theaters of classical Athens. Unlike the perfectly semicircular theaters you may know, Thorikos has an unusual elongated, almost oval shape with 21 rows of stone seating carved into the hillside. It could hold about 4,000 spectators who gathered here to watch performances honoring Dionysus. The rectangular orchestra and small temple ruins nearby reveal the theater's sacred origins, blending drama with religious ritual in this ancient mining town.",
-            "quiz": {
-                "question": "What makes the Theatre of Thorikos architecturally unique?",
-                "options": [
-                    "Its elongated oval shape instead of a semicircle",
-                    "It was built entirely underground",
-                    "It had a rotating stage mechanism",
-                    "It was the largest theater in ancient Greece"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Thorikos is famous for its unusual elongated design, unlike the typical semicircular Greek theaters."
-            },
-            "reward": {
-                "title": "10% off at Lavrio Archaeological Museum",
-                "provider": "Lavreotiki Cultural Center",
-                "codeHash": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
-            },
-            "id": 250
-        },
-        {
-            "name": "Mycenaean Tholos Tomb at Thorikos",
-            "lat": 37.739,
-            "lng": 24.054,
-            "image": "images/mycenaean_tholos_thorikos.jpg",
-            "description": "A monumental Bronze Age beehive-shaped burial chamber (1600-1200 BC) that served as the final resting place for Mycenaean elite.",
-            "audioText": "You are standing near one of the most impressive Mycenaean tholos tombs in Attica, carved into Velatouri Hill during the Bronze Age between 1600 and 1200 BC. This beehive-shaped burial chamber was built using the corbelling technique, where limestone blocks were carefully stacked in overlapping circles to form a magnificent dome. Such monumental tombs were reserved for the ruling elite of Mycenaean society. The tomb's location near ancient silver mines suggests that the wealth buried here came from mining operations that made Thorikos prosperous for millennia.",
-            "quiz": {
-                "question": "What construction technique was used to build the dome of the Mycenaean tholos tomb?",
-                "options": [
-                    "Corbelling with overlapping stone circles",
-                    "Concrete poured into wooden molds",
-                    "Mud bricks with timber supports",
-                    "Carved from a single massive rock"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The corbelling technique created the distinctive beehive shape by stacking stones in progressively smaller circles."
-            },
-            "reward": {
-                "title": "Free postcard of Mycenaean architecture",
-                "provider": "Thorikos Visitor Center",
-                "codeHash": "60303ae22b998861bce3b28f33eec1be758a213c86c93c076dbe9f558c11c752"
-            },
-            "id": 251
-        },
-        {
-            "name": "Sanctuary of Artemis at Brauron",
-            "lat": 37.92611,
-            "lng": 23.99361,
-            "image": "images/sanctuary_artemis_brauron.jpg",
-            "description": "One of Greece's most sacred sites, where young girls served as 'bears' in rituals honoring Artemis, goddess of the hunt and wilderness.",
-            "audioText": "You have arrived at Brauron, one of ancient Greece's most important religious sanctuaries, dedicated to Artemis, the goddess of hunting, wilderness, and childbirth. This sacred site was active from the 8th century BC until flooding forced its abandonment in the 3rd century BC. The most fascinating aspect of Brauron was the Arkteia festival, where young Athenian girls aged 5 to 10, dressed in saffron robes, performed ritual dances as 'bears' to honor the goddess. The impressive Pi-shaped stoa you see had dining rooms where these girls lived during their service. The Classical Doric temple stood on a platform above a sacred spring, where countless votive offerings were deposited over the centuries.",
-            "quiz": {
-                "question": "What was the Arkteia festival at Brauron?",
-                "options": [
-                    "A ritual where young girls served as 'bears' honoring Artemis",
-                    "An annual hunting competition for warriors",
-                    "A dramatic performance celebrating Zeus",
-                    "A harvest festival for farmers"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Young Athenian girls performed as ritual 'bears' in this unique coming-of-age ceremony dedicated to Artemis."
-            },
-            "reward": {
-                "title": "Free entry to Brauron Archaeological Museum",
-                "provider": "Ministry of Culture - Brauron",
-                "codeHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-            },
-            "id": 252
-        },
-        {
-            "name": "Sacred Spring of Brauron",
-            "lat": 37.9261,
-            "lng": 23.9937,
-            "image": "images/sacred_spring_brauron.jpg",
-            "description": "The ancient holy water source at the heart of Brauron, where worshippers left offerings to Artemis from the 8th century BC onward.",
-            "audioText": "You are at the Sacred Spring of Brauron, the very heart and earliest focus of worship at this sanctuary. Water has always been sacred in Greek religion, and this natural spring drew worshippers from at least the 8th century BC. Excavations have revealed countless votive offerings thrown into the spring waters over centuries—mirrors, jewelry, figurines, and pottery—all gifts to Artemis seeking her protection in childbirth, successful hunts, or safe passage through adolescence. The spring's constant flow of pure water represented the life-giving power of the goddess herself. The temple and later buildings were all positioned around this holy fountain, the spiritual center from which the entire sanctuary grew.",
-            "quiz": {
-                "question": "Why was the Sacred Spring so important to the sanctuary?",
-                "options": [
-                    "It was the earliest focus of worship and symbolized Artemis's life-giving power",
-                    "It was the only source of drinking water in the region",
-                    "It flowed with wine instead of water during festivals",
-                    "It was believed to grant immortality"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The sacred spring was the spiritual heart of Brauron, representing the goddess's vital, life-giving essence."
-            },
-            "reward": {
-                "title": "Complimentary herbal tea at Vravrona Café",
-                "provider": "Vravrona Traditional Café",
-                "codeHash": "3c59dc048e8850243be8079a5c74d079e0b6c2cde5e7c24b2d1c18db0d9c3e4a"
-            },
-            "id": 253
-        },
-        {
-            "name": "Sanctuary of Athena Pallenis",
-            "lat": 38.0000,
-            "lng": 23.8900,
-            "image": "images/sanctuary_athena_pallenis.jpg",
-            "description": "A mid-5th century BC Doric temple where the federation of Attic townships met, similar in design to the famous Hephaestus temple.",
-            "audioText": "Welcome to the Sanctuary of Athena Pallenis, an important federal sanctuary in the Mesogeia plain. This mid-5th century BC Doric hexastyle temple, meaning it had six columns across the front, served as a meeting place for the ancient federation of Attic townships. The temple's design closely resembles the well-preserved Hephaestus temple in Athens, with its harmonious proportions and limestone foundations. Archaeological excavations have uncovered inscribed statue bases and votive reliefs that tell us this was a center of regional political and religious life. The citizens of Pallene and surrounding demes gathered here to honor Athena as their protector and to make collective decisions affecting their communities.",
-            "quiz": {
-                "question": "What does 'hexastyle' mean in temple architecture?",
-                "options": [
-                    "A temple with six columns across its front",
-                    "A temple dedicated to six gods",
-                    "A temple with six interior chambers",
-                    "A temple built in six months"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Hexastyle describes a temple façade with six columns, a common classical Greek design."
-            },
-            "reward": {
-                "title": "10% discount at Pallini History Museum shop",
-                "provider": "Pallini Cultural Foundation",
-                "codeHash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"
-            },
-            "id": 254
-        },
-        {
-            "name": "Ancient Deme of Sphettos",
-            "lat": 37.8962,
-            "lng": 23.8740,
-            "image": "images/deme_sphettos_koropi.jpg",
-            "description": "One of the twelve original townships unified by Theseus, with remains on the Kastro tou Christou hill in modern Koropi.",
-            "audioText": "You are exploring Sphettos, one of the twelve ancient townships, or demes, that according to legend were unified by the hero Theseus to form the city of Athens. Located on the Kastro tou Christou hill in what is now Koropi, Sphettos was an important community in the fertile Mesogeia plain. Archaeological investigations have uncovered stone foundations of houses, public buildings, and numerous inscribed statue bases and votive reliefs that document the civic and religious life of this deme through the classical and Hellenistic periods. As a deme, Sphettos had its own assembly, officials, and local cults, giving its citizens a strong sense of local identity even while they were part of greater Athens.",
-            "quiz": {
-                "question": "What is a 'deme' in ancient Greek society?",
-                "options": [
-                    "A township or local district with its own assembly and officials",
-                    "A military fortress guarding the frontier",
-                    "A temple dedicated to multiple gods",
-                    "A trading post on the coast"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Demes were the basic units of Athenian democracy, each with local governance and identity."
-            },
-            "reward": {
-                "title": "Free map of ancient Attic demes",
-                "provider": "Koropi Historical Society",
-                "codeHash": "7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069"
-            },
-            "id": 255
-        },
-        {
-            "name": "Ancient Silver Mines of Laurion",
-            "lat": 37.7178,
-            "lng": 24.0348,
-            "image": "images/silver_mines_laurion.jpg",
-            "description": "The legendary silver mines that financed Athens' golden age and naval supremacy, with thousands of ancient shafts and galleries.",
-            "audioText": "You are standing in the Laurion mining district, the economic powerhouse that made Athens the wealthiest city in classical Greece. These silver mines, exploited from the Bronze Age through Roman times, reached their peak in the 5th and 4th centuries BC. The silver extracted here paid for the construction of the Athenian fleet that defeated Persia at Salamis, built the Parthenon, and sustained the Athenian Empire. Thousands of enslaved workers toiled in narrow underground galleries, some over 100 meters deep, extracting silver-bearing ore. The mines are a vast archaeological landscape of shafts, tunnels, ore processing facilities, and smelting furnaces that reveal the scale and sophistication of ancient mining technology.",
-            "quiz": {
-                "question": "How did the Laurion silver mines contribute to Athenian power?",
-                "options": [
-                    "They financed the Athenian navy and funded major building projects like the Parthenon",
-                    "They provided weapons and armor for the army",
-                    "They were a sacred site that gave Athens divine favor",
-                    "They served as an impenetrable fortress"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Laurion's silver wealth was the economic foundation of Athens' golden age and naval dominance."
-            },
-            "reward": {
-                "title": "Guided tour discount at Lavrio Mining Museum",
-                "provider": "Lavrio Technological Park",
-                "codeHash": "b613679a0814d9ec772f95d778c35fc5ff1697c493715653c6c712144292c5ad"
-            },
-            "id": 256
-        },
-        {
-            "name": "Ore Washeries at Souriza Valley",
-            "lat": 37.7100,
-            "lng": 24.0300,
-            "image": "images/ore_washeries_souriza.jpg",
-            "description": "Sophisticated ancient ore processing facilities with stone basins and channels where silver ore was washed and separated.",
-            "audioText": "You are visiting the ore washeries of Souriza Valley, remarkable examples of ancient industrial technology. After silver ore was extracted from the mines, it had to be processed to separate the valuable metal from worthless rock. Here at Souriza, you can see the remains of hydraulic washing installations from the Classical period, with stone basins and carefully engineered channels that used flowing water to separate lighter waste rock from heavier silver-bearing ore. This ancient beneficiation process required sophisticated understanding of water management and ore properties. Multiple washeries operated simultaneously in this valley, processing tons of ore to feed the nearby smelting furnaces. These industrial sites are as much a testament to Greek engineering genius as their famous temples.",
-            "quiz": {
-                "question": "What was the purpose of the ore washeries?",
-                "options": [
-                    "To use water to separate valuable silver ore from waste rock",
-                    "To provide drinking water for mine workers",
-                    "To wash the silver coins after minting",
-                    "To clean the miners' tools and equipment"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The washeries used water flow to separate heavier silver ore from lighter worthless rock."
-            },
-            "reward": {
-                "title": "Free silver jewelry cleaning at Lavrio Artisan Shop",
-                "provider": "Lavrio Silver Workshop",
-                "codeHash": "cc0cdd8b88d73f670e97c0e7bb4e0b2a3e3f4c2e0be3e5d7e3b3f5a7c0cc7e0c"
-            },
-            "id": 257
-        },
-        {
-            "name": "Fortified Acropolis of Thorikos",
-            "lat": 37.7390,
-            "lng": 24.0545,
-            "image": "images/acropolis_thorikos.jpg",
-            "description": "A prehistoric hilltop settlement fortified from the Neolithic period through the Bronze Age, commanding views of the Aegean.",
-            "audioText": "You have climbed to the Fortified Acropolis of Thorikos, perched on the summit of Velatouri Hill with panoramic views of the Aegean Sea. This hilltop was continuously inhabited from the Neolithic period around 3200 BC through the Late Bronze Age until about 1050 BC. The defensive walls you see fragments of protected a thriving prehistoric community that controlled the valuable mineral resources of this region. Archaeological excavations have revealed houses, storage facilities, and artifacts spanning over two millennia. The strategic location allowed the settlement to monitor sea approaches and protect the mining operations below. After the Bronze Age collapse, the population moved down the hillside, but this acropolis remained a symbol of Thorikos's ancient origins.",
-            "quiz": {
-                "question": "How long was the Acropolis of Thorikos continuously inhabited?",
-                "options": [
-                    "Over 2,000 years, from around 3200 to 1050 BC",
-                    "Only during the Classical period",
-                    "About 100 years in the Bronze Age",
-                    "It was never permanently inhabited"
-                ],
-                "answer": 0,
-                "feedback": "Correct! This acropolis had an extraordinarily long occupation from the Neolithic through the end of the Bronze Age."
-            },
-            "reward": {
-                "title": "Panoramic photo print at Thorikos viewpoint",
-                "provider": "Thorikos Heritage Site",
-                "codeHash": "d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2"
-            },
-            "id": 258
-        },
-        {
-            "name": "Temple of Demeter at Thorikos",
-            "lat": 37.7370,
-            "lng": 24.0520,
-            "image": "images/temple_demeter_thorikos.jpg",
-            "description": "A Classical period sanctuary with a monumental Doric stoa dedicated to Demeter, goddess of agriculture and the harvest.",
-            "audioText": "Welcome to the Temple of Demeter at Thorikos, a sanctuary honoring the goddess of agriculture, grain, and the harvest. Located on the Adami plain below the acropolis, this Classical period sanctuary featured a monumental Doric stoa—a long colonnaded building with limestone columns and foundations that can still be traced today. Demeter was vital to ancient communities because she controlled the fertility of the earth and the success of crops. The sanctuary would have been especially important in a mining town like Thorikos, where farmers worked the fields around the mines and needed the goddess's blessing for good harvests. Ritual offerings and communal feasts in honor of Demeter brought the community together in gratitude and hope.",
-            "quiz": {
-                "question": "Who was Demeter in Greek mythology?",
-                "options": [
-                    "The goddess of agriculture, grain, and the harvest",
-                    "The goddess of wisdom and warfare",
-                    "The goddess of the hunt and wilderness",
-                    "The goddess of love and beauty"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Demeter was the goddess who controlled the fertility of the earth and the success of crops."
-            },
-            "reward": {
-                "title": "Free sample of local honey at Thorikos Farm Shop",
-                "provider": "Lavreotiki Agricultural Cooperative",
-                "codeHash": "8e35c2cd3bf6641bdb0e2050b76932cbb2e6034a0ddacc1d9bea82a6ba57f7f0"
-            },
-            "id": 259
-        },
-        {
-            "name": "Marathon Soros (Burial Mound)",
-            "lat": 38.11791,
-            "lng": 23.97833,
-            "image": "images/marathon_soros.jpg",
-            "description": "The burial mound of 192 Athenian warriors who died at the Battle of Marathon in 490 BC, one of history's most decisive battles.",
-            "audioText": "You are standing at the Soros, the sacred burial mound where 192 Athenian warriors were cremated and buried after their heroic stand at the Battle of Marathon in 490 BC. This earthen tumulus dominates the Marathon plain where the greatly outnumbered Athenians and their Plataean allies defeated the invading Persian army. The victory at Marathon saved Greece from Persian conquest and proved that the heavily-armored Greek hoplite phalanx could defeat the Persian forces. The burial mound stands 10 meters high and 50 meters in diameter. Excavations have revealed the cremated remains of the fallen, along with black-figured pottery and other funeral offerings. Herodotus tells us that these men were cremated where they fell and buried with full honors. Standing here, you can almost hear the clash of bronze and the war cries that echoed across this plain over 2,500 years ago.",
-            "quiz": {
-                "question": "How many Athenian warriors are buried in the Marathon Soros?",
-                "options": [
-                    "192 warriors who died in the battle",
-                    "300 Spartans who defended the pass",
-                    "1,000 Persian soldiers",
-                    "The entire Athenian army"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Herodotus records that exactly 192 Athenians fell at Marathon and were buried in this mound."
-            },
-            "reward": {
-                "title": "Free entry to Marathon Archaeological Museum",
-                "provider": "Marathon Museum",
-                "codeHash": "ef0059022d2890467ec407a539c38548814aa398f924a65f589583752be9e635"
-            },
-            "id": 260
-        },
-        {
-            "name": "Rhamnous Fortress and Temple",
-            "lat": 38.22333,
-            "lng": 24.02722,
-            "image": "images/rhamnous_fortress.jpg",
-            "description": "A remote coastal fortress with the most important sanctuary of Nemesis in ancient Greece, guarding the Euboean Strait.",
-            "audioText": "Welcome to Rhamnous, one of the most atmospheric and remote sites in Attica. This fortified settlement served as a garrison town guarding the northeastern frontier of Athens. The fortress walls, best preserved on the south side, protected both military quarters and civilian housing. But Rhamnous was famous throughout Greece for its sanctuary of Nemesis, the goddess of divine retribution who punished hubris and excessive pride. The sanctuary contained two temples set on a flat terrace six hundred meters from the fortress. The larger temple, built in the 5th century BC, housed a colossal statue of Nemesis sculpted by Agorakritos, a pupil of Phidias. Legend says the Persians brought marble to Marathon intending to carve a victory monument, but after their defeat at Marathon, the Athenians used the same marble for Nemesis's statue—a perfect symbol of divine vengeance. The coastal location meant that a garrison of ephebes was permanently stationed here, and you can still see the small theater where they trained and relaxed.",
-            "quiz": {
-                "question": "Who was Nemesis and why was she worshipped at Rhamnous?",
-                "options": [
-                    "Goddess of divine retribution who punished hubris and pride",
-                    "Goddess of victory in battle",
-                    "Goddess of the sea and sailors",
-                    "Goddess of wisdom and strategy"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Nemesis punished those who showed excessive pride or arrogance, making her sanctuary especially significant."
-            },
-            "reward": {
-                "title": "Guided sunset tour of Rhamnous",
-                "provider": "Marathon Tourism Office",
-                "codeHash": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a"
-            },
-            "id": 261
-        },
-        {
-            "name": "Eleusis - Sanctuary of the Mysteries",
-            "lat": 38.041100,
-            "lng": 23.538000,
-            "image": "images/eleusis_sanctuary.jpg",
-            "description": "The Panhellenic sanctuary where the Eleusinian Mysteries, ancient Greece's most famous secret rites, were celebrated for over 1,000 years.",
-            "audioText": "You have arrived at Eleusis, home of the Eleusinian Mysteries—the most famous and long-lasting of all ancient Greek religious rites. For over a thousand years, from at least the 7th century BC until the late 4th century AD, initiates from across the Greek world came here to experience secret ceremonies that promised a blessed afterlife. The exact nature of the Mysteries was never revealed; those initiated were forbidden to speak of what they witnessed on pain of death. At the heart of the sanctuary stands the Telesterion, a massive square hall with rows of steps on all four sides where thousands of initiates would gather in darkness. The ceremonies reenacted the myth of Demeter and Persephone—the goddess's desperate search for her daughter who had been abducted to the underworld, and their joyful reunion symbolizing the cycle of death and rebirth. The famous Sacred Way connected Athens to Eleusis, and each September a great procession of initiates would walk the 22 kilometers carrying the sacred objects of the goddess.",
-            "quiz": {
-                "question": "What was forbidden to those initiated into the Eleusinian Mysteries?",
-                "options": [
-                    "Revealing what they witnessed in the secret ceremonies",
-                    "Worshipping other gods",
-                    "Leaving the city of Athens",
-                    "Eating meat or drinking wine"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The content of the Mysteries was so secret that initiates faced death if they revealed what happened during the rites."
-            },
-            "reward": {
-                "title": "Free admission to Eleusis Archaeological Museum",
-                "provider": "Hellenic Ministry of Culture",
-                "codeHash": "5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f"
-            },
-            "id": 262
-        },
-        {
-            "name": "Amphiareion of Oropos",
-            "lat": 38.29139,
-            "lng": 23.84556,
-            "image": "images/amphiareion_oropos.jpg",
-            "description": "A sacred healing sanctuary dedicated to the hero Amphiaraos, where pilgrims sought cures through dream interpretation and ritual.",
-            "audioText": "You are at the Amphiareion, a healing sanctuary dedicated to Amphiaraos, the legendary seer who was swallowed by the earth in his chariot and transformed into a healing hero. This sanctuary became one of the most important healing centers in ancient Greece during the 4th century BC. Pilgrims came from far and wide seeking cures for their ailments. The healing ritual was called incubation: after purification, sacrifice, and payment to the sanctuary, the sick would sleep in the long stoa you see here, hoping to receive divine guidance in their dreams. In the morning, priests would interpret these dreams and prescribe treatments. The sanctuary also had an oracle where people could ask Amphiaraos questions about the future. You can still see the temple, the sacred spring where pilgrims made offerings, the theater for festivals, and a remarkable ancient water clock. The site's success is attested by numerous inscriptions recording miraculous cures and grateful dedications.",
-            "quiz": {
-                "question": "What was 'incubation' at the Amphiareion?",
-                "options": [
-                    "Sleeping in the sanctuary to receive healing dreams from the god",
-                    "A month-long quarantine for contagious diseases",
-                    "Warming herbal medicines over sacred fires",
-                    "A surgical procedure performed by temple priests"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Incubation was the practice of ritual sleep in which the god would appear in dreams and provide healing or guidance."
-            },
-            "reward": {
-                "title": "Herbal healing tea sampler",
-                "provider": "Oropos Wellness Center",
-                "codeHash": "6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a"
-            },
-            "id": 263
-        },
-        {
-            "name": "Temple of Poseidon at Sounion",
-            "lat": 37.6502,
-            "lng": 24.02455,
-            "image": "images/sounion_temple_poseidon.jpg",
-            "description": "The magnificent clifftop temple of Poseidon, built in the golden age of Pericles, standing as a beacon to sailors for 2,500 years.",
-            "audioText": "You are standing at one of the most dramatic and romantic sites in all of Greece—the Temple of Poseidon at Cape Sounion. Built between 444 and 440 BC during the age of Pericles, this Doric temple was constructed of local white marble that glows golden in the sunlight. Fifteen of the original 34 columns still stand, each over 6 meters tall, framing the endless blue of the Aegean Sea. For ancient sailors, this temple was both the last sight of home when leaving Athens and the first welcome on their return. Poseidon, god of the sea and earthquakes, was especially important to the maritime power of Athens. According to legend, King Aegeus threw himself from these cliffs when he mistakenly believed his son Theseus had died, giving the Aegean Sea its name. The temple was part of a larger fortress complex that protected the vital silver-mining region of Laurion and watched over the sea lanes to Piraeus. Lord Byron carved his name on one of the columns in 1810, though we don't recommend following his example!",
-            "quiz": {
-                "question": "Why was the Temple of Poseidon especially important to ancient Athens?",
-                "options": [
-                    "Athens was a naval power and Poseidon was god of the sea",
-                    "It was the burial place of Athenian kings",
-                    "It stored the city's treasury",
-                    "All Athenian soldiers trained there"
-                ],
-                "answer": 0,
-                "feedback": "Correct! As a maritime empire, Athens relied on sea power, making Poseidon's favor crucial to their survival and prosperity."
-            },
-            "reward": {
-                "title": "Sunset viewing pass with refreshments",
-                "provider": "Cape Sounion Visitor Center",
-                "codeHash": "7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b"
-            },
-            "id": 264
-        },
-        {
-            "name": "Acharnae - Largest Ancient Deme",
-            "lat": 38.08194,
-            "lng": 23.73147,
-            "image": "images/acharnae_deme.jpg",
-            "description": "The largest deme of ancient Attica, famous for its charcoal burners and fierce warriors, immortalized in Aristophanes' comedy 'The Acharnians'.",
-            "audioText": "Welcome to Acharnae, the largest and most populous of all Athenian demes, located in the northwestern Attic plain near Mount Parnes. At the start of the Peloponnesian War, Acharnae could field 3,000 hoplites—a tenth of Athens' entire infantry! The Acharnians were famous as charcoal burners who supplied Athens with fuel from the oak forests of Parnes, but they were also renowned as fierce and hot-tempered warriors. The playwright Aristophanes chose them as the subject of his comedy 'The Acharnians,' where he portrays them as tough, rough country folk eager for war against Sparta. The area has yielded rich archaeological finds, including a magnificent Mycenaean tholos tomb known as the Tomb of Menidi, which contained gold jewelry and fine pottery showing that this region was important even in the Bronze Age. The Spartans deliberately ravaged Acharnae during their invasions, knowing it would most enrage the Athenians. Today, the modern suburb of Acharnes preserves the ancient name.",
-            "quiz": {
-                "question": "What made Acharnae the largest deme of ancient Attica?",
-                "options": [
-                    "Its large population that could field 3,000 hoplites",
-                    "Its geographic size covering most of Attica",
-                    "Its wealthy aristocratic families",
-                    "Its position as the capital before Athens"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Acharnae's ability to contribute one-tenth of Athens' infantry demonstrates its exceptional population size."
-            },
-            "reward": {
-                "title": "Traditional charcoal-grilled souvlaki voucher",
-                "provider": "Acharnes Traditional Taverna",
-                "codeHash": "8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c"
-            },
-            "id": 265
-        },
-        {
-            "name": "Phyle Fortress - Birthplace of Democracy's Restoration",
-            "lat": 38.14,
-            "lng": 23.637,
-            "image": "images/phyle_fortress.jpg",
-            "description": "The mountain fortress where Thrasyboulus and 70 exiles began the campaign that overthrew the Thirty Tyrants and restored Athenian democracy in 403 BC.",
-            "audioText": "You are at Phyle, one of the most important sites in the history of democracy. In the winter of 404 BC, after Athens' defeat in the Peloponnesian War, a brutal oligarchy known as the Thirty Tyrants terrorized the city. Thrasyboulus, a democratic leader, led just 70 exiles from Thebes to seize this remote mountain fortress guarding the pass between Attica and Boeotia. From this seemingly hopeless position, high in the mountains of Parnes, the democrats began to attract more supporters. When the oligarchs sent a force to dislodge them, a miraculous snowstorm forced the attackers to retreat. Thrasyboulus's numbers swelled to 700, and he led a successful night attack that killed 120 enemies. This victory was the turning point. The democratic forces grew stronger, marched to Piraeus, and eventually restored democracy to Athens. The fortress you see dates to the 4th century BC and was built to prevent such seizures in the future. From its heights, you can see across the entire Attic plain to Athens itself.",
-            "quiz": {
-                "question": "What happened at Phyle in 404-403 BC?",
-                "options": [
-                    "Thrasyboulus and exiles began the campaign to restore democracy",
-                    "The Spartans defeated the Athenian army",
-                    "Alexander the Great was born",
-                    "The Parthenon was built"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Phyle was the starting point for the democratic resistance that overthrew the Thirty Tyrants and restored Athenian democracy."
-            },
-            "reward": {
-                "title": "Free hiking guide to Mount Parnes trails",
-                "provider": "Phyle Mountain Club",
-                "codeHash": "9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d"
-            },
-            "id": 266
-        },
-        {
-            "name": "Paeania - Demosthenes' Birthplace",
-            "lat": 37.958506,
-            "lng": 23.8552995,
-            "image": "images/paeania_deme.jpg",
-            "description": "The ancient deme on the eastern slopes of Mount Hymettus, birthplace of Demosthenes, the greatest orator of ancient Greece.",
-            "audioText": "You are in Paeania, an ancient deme on the eastern side of Mount Hymettus, famous as the birthplace of Demosthenes, the greatest orator in Greek history. Born here in 384 BC, Demosthenes overcame a speech impediment through rigorous training—famously practicing with pebbles in his mouth and reciting speeches over the roar of the sea. He became Athens' fiercest defender against the rising power of Macedon under Philip II and his son Alexander. His powerful 'Philippic' orations warned Athenians of the threat to their freedom, though ultimately Philip conquered Greece. Paeania was actually divided into two parts: Upper Paeania and Lower Paeania, both belonging to the tribe Pandionis. The area was prosperous, with fertile land for farming and easy access to both Athens and the coast. Archaeological remains include house foundations on terraces and inscriptions documenting the deme's civic life. The modern town of Paiania preserves the ancient name and is famous today for its beautiful Koutouki Cave.",
-            "quiz": {
-                "question": "What is Paeania most famous for in ancient history?",
-                "options": [
-                    "Being the birthplace of the orator Demosthenes",
-                    "The site of a major battle",
-                    "A temple to Zeus",
-                    "The first democracy in Greece"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Demosthenes, born in Paeania in 384 BC, became Athens' greatest orator and defender against Macedonian expansion."
-            },
-            "reward": {
-                "title": "Free entry to Vorres Museum of Folk Art",
-                "provider": "Paiania Cultural Center",
-                "codeHash": "0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e"
-            },
-            "id": 267
-        },
-        {
-            "name": "Ancient Salamis and Naval Battle Site",
-            "lat": 37.95,
-            "lng": 23.57,
-            "image": "images/salamis_ancient_city.jpg",
-            "description": "The ancient city and harbor where the Greek fleet gathered before defeating the Persians in the most decisive naval battle of antiquity in 480 BC.",
-            "audioText": "You are on the island of Salamis, site of one of the most consequential battles in human history. In September 480 BC, the narrow straits between this island and the mainland witnessed the Battle of Salamis, where the outnumbered Greek fleet decisively defeated the massive Persian navy of Xerxes. The Greek commander Themistocles brilliantly lured the Persian ships into these confined waters where their numbers became a disadvantage. The Greeks, fighting for their homes and freedom, destroyed 200 Persian vessels while losing only 40 of their own. The Persian king Xerxes watched in horror from a golden throne on Mount Aegaleos as his fleet was annihilated. This victory saved Greece from conquest and allowed the flowering of classical Greek civilization. The ancient city of Salamis, whose ruins lie in Ampelakia Bay, was the legendary birthplace of the hero Ajax and the playwright Euripides. Today, Salamis is home to the Greek Navy's headquarters, continuing the island's 2,500-year naval tradition.",
-            "quiz": {
-                "question": "Why was the Battle of Salamis so decisive?",
-                "options": [
-                    "The Greek victory saved Greece from Persian conquest",
-                    "It was the first naval battle in history",
-                    "The Spartans defeated Athens",
-                    "Alexander the Great began his conquests"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Salamis was the turning point that prevented Persian domination and preserved Greek independence and culture."
-            },
-            "reward": {
-                "title": "Ferry ride discount to Salamis Island",
-                "provider": "Salamis Ferry Services",
-                "codeHash": "1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f"
-            },
-            "id": 268
-        },
-        {
-            "name": "Dekeleia - Spartan Stronghold",
-            "lat": 38.1100,
-            "lng": 23.7786,
-            "image": "images/dekeleia_fortress.jpg",
-            "description": "The strategic fortress captured by Sparta in 413 BC that crippled Athens throughout the final decade of the Peloponnesian War.",
-            "audioText": "You are at Dekeleia, a site that changed the course of the Peloponnesian War. In 413 BC, on the advice of the Athenian traitor Alcibiades, the Spartan king Agis II seized and fortified this strategic deme just 120 stadia from Athens. From this base, the Spartans could ravage the Attic countryside year-round, forcing the Athenians to abandon their farms and cutting off their access to the silver mines of Laurion and the land route to the grain port of Oropos. Over 20,000 Athenian slaves, many skilled craftsmen, escaped to the Spartans here. The occupation of Dekeleia was more damaging to Athens than all the previous invasions combined, as Thucydides tells us. It was visible from Athens itself—a constant reminder of Sparta's presence. The fortress remained in Spartan hands until Athens' final defeat in 404 BC. The ancient Dekeleians had enjoyed special privileges in Sparta since helping the Dioscuri rescue Helen from Theseus, and they maintained these rights even after this painful occupation.",
-            "quiz": {
-                "question": "How did Dekeleia's occupation damage Athens?",
-                "options": [
-                    "Year-round raids, loss of mines, escape of slaves, and cut supply routes",
-                    "It was the site of Athens' final surrender",
-                    "The Spartans burned the Parthenon",
-                    "It blocked Athens' access to the sea"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The permanent Spartan garrison at Dekeleia inflicted continuous economic and psychological damage on Athens throughout the war's final phase."
-            },
-            "reward": {
-                "title": "Historical walking tour of Tatoi Estate",
-                "provider": "Tatoi Heritage Foundation",
-                "codeHash": "2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a"
-            },
-            "id": 269
-        },
-        {
-            "name": "Ancient Walls of Piraeus",
-            "lat": 37.947500,
-            "lng": 23.651200,
-            "image": "images/piraeus_ancient_walls.jpg",
-            "description": "The mighty fortifications built by Themistocles and Conon that protected Athens' port and the famous Long Walls connecting it to the city.",
-            "audioText": "You are standing at the ancient fortifications of Piraeus, some of the finest examples of Greek military architecture surviving today. After the Persian Wars, the visionary statesman Themistocles recognized that Athens' future lay in sea power. He fortified Piraeus with massive walls and connected it to Athens with the Long Walls—twin fortification lines running five kilometers that created a secure corridor allowing Athens to receive supplies by sea even when enemies controlled the countryside. These walls were about 60 feet high and broad enough for two carts to pass. After Athens' defeat in 404 BC, the Spartans tore down the Long Walls amid celebration, but in 394 BC, Conon rebuilt them and added the impressive coastal fortifications you see preserved here. The walls are built in the emplekton technique: two parallel faces of large squared limestone blocks with rubble fill between them. Over 2.5 kilometers of these walls survive along the peninsula, including several towers. Their preservation is remarkable, making this one of the best places to understand ancient Greek fortification engineering.",
-            "quiz": {
-                "question": "What were the Long Walls and why were they important?",
-                "options": [
-                    "Walls connecting Athens to Piraeus, securing supply lines by sea",
-                    "The perimeter walls around the Acropolis",
-                    "The walls of the Parthenon temple",
-                    "Defensive walls between Athens and Sparta"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The Long Walls ensured Athens could never be starved out as long as it controlled the sea."
-            },
-            "reward": {
-                "title": "Harbor cruise with historical narration",
-                "provider": "Piraeus Port Authority",
-                "codeHash": "3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b"
-            },
-            "id": 270
-        },
-        {
-            "name": "Aphidna - Where Helen Was Hidden",
-            "lat": 38.187100,
-            "lng": 23.879200,
-            "image": "images/aphidna_fortress.jpg",
-            "description": "One of the twelve original townships of Attica, famous in myth as where Theseus hid Helen of Troy before the Dioscuri rescued her.",
-            "audioText": "You are at Aphidna, one of the legendary twelve ancient towns that Theseus unified to create Athens. This site is forever linked to one of Greek mythology's most famous stories: the abduction of Helen. According to legend, before Helen became the cause of the Trojan War, the hero Theseus kidnapped the young Helen and brought her here to Aphidna, entrusting her to his friend Aphidnus. When Helen's brothers, the Dioscuri—Castor and Pollux—came searching for her, the people of neighboring Dekeleia revealed where she was hidden. The Dioscuri stormed Aphidna, rescued their sister, and in gratitude granted the Dekeleians eternal privileges in Sparta. Archaeological reality shows that Aphidna was indeed important: a Middle Bronze Age tumulus with rich burials dates to 2000-1600 BC, and a Classical fortress crowned the Kotroni hill, guarding the northern approaches to Athens. Recent surveys have revealed extensive remains of the ancient settlement on the hillside terraces, showing this was a substantial community controlling a strategic position near the Marathon reservoir.",
-            "quiz": {
-                "question": "Why is Aphidna famous in Greek mythology?",
-                "options": [
-                    "Theseus hid Helen here before her brothers rescued her",
-                    "It was the birthplace of Zeus",
-                    "The Trojan Horse was built here",
-                    "Hercules completed one of his labors here"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The myth of Helen's rescue from Aphidna by the Dioscuri was famous throughout ancient Greece."
-            },
-            "reward": {
-                "title": "Free visit to Marathon Dam and Lake viewpoint",
-                "provider": "EYDAP Water Company",
-                "codeHash": "4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c"
-            },
-            "id": 271
-        },
-        {
-            "name": "Naval Base of Sounion",
-            "lat": 37.6524,
-            "lng": 24.0228,
-            "image": "images/sounion_naval_base.jpg",
-            "description": "Ancient rock-cut ship sheds where Athenian warships were maintained, protecting the vital sea lanes to the silver mines and Athens.",
-            "audioText": "You are at the naval base of Sounion, a fascinating example of ancient Greek maritime infrastructure. Cut directly into the bedrock on the northwestern side of Cape Sounion are two parallel ship sheds that housed light patrol vessels called triremes. The main chamber measures 20.5 meters long and 11.5 meters wide, with two slanting trenches carved into the floor where ships could be hauled up for maintenance and storage. A smaller single slipway lies nearby, now partially submerged beneath the rising sea. This naval base was part of Athens' strategic defense network, positioned to guard the approaches to Piraeus and the vital silver-mining region of Laurion. Fast patrol ships based here could intercept pirates or enemy raiders threatening Athenian commerce. The rock-cut construction was difficult and expensive, requiring skilled stoneworkers, but it created permanent facilities that needed no wooden structures to rot or burn. These installations were incorporated into the fortress walls of Sounion and remained in use throughout the Classical and Hellenistic periods. Underwater surveys have revealed submerged walls and structures that once lined the ancient harbor.",
-            "quiz": {
-                "question": "What were ship sheds used for in ancient Greek naval bases?",
-                "options": [
-                    "Hauling warships out of water for maintenance and storage",
-                    "Training new sailors in rowing techniques",
-                    "Building new warships from scratch",
-                    "Storing grain and supplies for the fleet"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Ship sheds protected expensive warships from marine organisms and weather when not in use."
-            },
-            "reward": {
-                "title": "Scuba diving intro session in Sounion bay",
-                "provider": "Cape Sounion Dive Center",
-                "codeHash": "5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d"
-            },
-            "id": 272
-        },
-        {
-            "name": "Anagyrous - Southern Coastal Deme",
-            "lat": 37.83,
-            "lng": 23.7976,
-            "image": "images/anagyrous_deme.jpg",
-            "description": "An ancient fishing deme near Cape Zoster with a sanctuary to the Mother of the Gods, famous for its seafood in antiquity.",
-            "audioText": "You are at Anagyrous, an ancient coastal deme situated in southern Attica near the promontory called Zoster. This was primarily a fishing community, and ancient sources tell us that Anagyrous was especially celebrated for its excellent seafood and fisheries. Pausanias mentions that there was a temple here dedicated to the Mother of the Gods, a deity associated with fertility and protection. The deme's coastal location made it prosperous but also vulnerable to pirate raids and enemy fleets. Archaeological excavations on Lathouriza hill have revealed a substantial settlement from the Archaic and Classical periods, including a sanctuary with a double temple, a circular platform, houses, and an enclosure wall. Rich grave offerings from the area, now in the National Archaeological Museum, show that wealthy families lived here in the 7th and 6th centuries BC. The modern area of Vari and Varkiza preserves something of the ancient character—still known for beaches and seafood restaurants. The name Anagyrous itself comes from a thorny shrub that grew abundantly in the area and had an unpleasant smell when disturbed—giving rise to the Greek proverb about 'stirring up Anagyrous' when someone made trouble unnecessarily.",
-            "quiz": {
-                "question": "What was Anagyrous particularly famous for in ancient times?",
-                "options": [
-                    "Its excellent fisheries and seafood",
-                    "Silver mining operations",
-                    "Marble quarries",
-                    "Wine production"
-                ],
-                "answer": 0,
-                "feedback": "Correct! As a coastal deme, Anagyrous was renowned for its fishing and was celebrated for the quality of its seafood."
-            },
-            "reward": {
-                "title": "Fresh fish lunch at seaside taverna",
-                "provider": "Vari Seafood Restaurant",
-                "codeHash": "6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e"
-            },
-            "id": 273
-        },
-        {
-            "name": "Mount Lycabettus",
-            "lat": 37.97778,
-            "lng": 23.74167,
-            "image": "images/mount_lycabettus.jpg",
-            "description": "The highest point in Athens at 277 meters, crowned with the Chapel of St. George built on the site of an ancient altar to Zeus.",
-            "audioText": "You are standing on Mount Lycabettus—the Mountain of Wolves—the highest point in central Athens at 277 meters above sea level. The name comes from ancient times when wolves still roamed this hill seeking refuge from hunters. In antiquity, an altar to Zeus Akraios stood at the summit, though little remains of it today. According to myth, the goddess Athena was carrying this rock to build the Acropolis when she heard disturbing news and dropped it here in shock, which is why the hill stands isolated in the plain. In reality, Lycabettus is a Late Cretaceous limestone formation that predates human civilization by millions of years. During Ottoman times, a Christian chapel stood here, which was replaced in the late 18th century by the beautiful white Chapel of St. George you see now, with its distinctive tall bell tower gifted by Queen Olga. The views from the summit are spectacular—you can see the entire Athens basin, the Saronic Gulf, the mountains of the Peloponnese, and on clear days, the distant islands. The hill has been reforested with pine trees over the past century and is now a beloved green space in the heart of the urban sprawl.",
-            "quiz": {
-                "question": "Why is the mountain called Lycabettus?",
-                "options": [
-                    "From the Greek word for wolf, as wolves once sought refuge here",
-                    "After the hero Lycabas who died here",
-                    "It was sacred to the wolf-god Apollo Lykaios",
-                    "The shape of the hill resembles a wolf"
-                ],
-                "answer": 0,
-                "feedback": "Correct! 'Lycabettus' means 'Mountain of Wolves,' referring to the wolves that once roamed its slopes."
-            },
-            "reward": {
-                "title": "Funicular railway round-trip ticket",
-                "provider": "Athens Urban Transport",
-                "codeHash": "7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f"
-            },
-            "id": 274
-        },
-        {
-            "name": "Mount Pentelikon Marble Quarries",
-            "lat": 38.08083,
-            "lng": 23.89972,
-            "image": "images/pentelikon_quarries.jpg",
-            "description": "The ancient quarries that provided the flawless white marble for the Parthenon and most of Athens' greatest monuments.",
-            "audioText": "You are at the ancient marble quarries of Mount Pentelikon, the source of the finest building stone in classical Greece. Pentelic marble is famous for its flawless white color with a very faint golden tint caused by trace iron oxide, which makes it glow with a warm honey color in sunlight. These quarries were first exploited on a large scale in the 5th century BC for Pericles' building program, providing marble for the Parthenon, the Propylaea, the Erechtheion, and most of the great monuments on the Acropolis. The marble was so prized that it was exported throughout the Roman Empire—the historian Pausanias records that Herodes Atticus nearly exhausted the quarries in the 2nd century AD for his lavish building projects. The ancient roadway used to transport massive marble blocks down to Athens has been traced by archaeologists—it's a continuous downhill route that follows the natural terrain. Today, the quarries are protected by law and are only worked to obtain material for the Acropolis Restoration Project. When you pick up a chip of marble here, you're touching the same stone that Phidias and Ictinus shaped into eternal beauty 2,500 years ago.",
-            "quiz": {
-                "question": "What makes Pentelic marble special?",
-                "options": [
-                    "Flawless white with golden tint that glows in sunlight",
-                    "It is the hardest marble in the world",
-                    "It changes color in rain",
-                    "It is naturally carved into blocks"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The iron oxide traces in Pentelic marble give it a warm golden glow that makes monuments built from it especially beautiful."
-            },
-            "reward": {
-                "title": "Guided geological tour of Pentelikon",
-                "provider": "Penteli Municipality Cultural Center",
-                "codeHash": "8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a"
-            },
-            "id": 275
-        },
-        {
-            "name": "Oinoe Fortress - Border Stronghold",
-            "lat": 38.168,
-            "lng": 23.449,
-            "image": "images/oinoe_fortress.jpg",
-            "description": "The fortified border deme guarding the pass through Mount Cithaeron, famously besieged by Spartans at the start of the Peloponnesian War.",
-            "audioText": "You are at Oinoe, one of the most remote frontier demes of Attica, guarding the narrow pass through Mount Cithaeron that connected Athens with Thebes and Plataea. The fortress you see, known today as Ghyftokastro or 'Gypsy Castle,' occupies a commanding height on the Attic side of the pass. In 431 BC, at the very outbreak of the Peloponnesian War, the Spartan king Archidamus led his army into Attica and laid siege to Oinoe. Though it was just a small frontier fort, the Spartans wasted precious time trying to take it, giving the Athenians crucial extra days to evacuate their farms and retreat behind Athens' walls. Thucydides describes the siege machines they brought against it, but Oinoe held firm. The fortress was eventually captured by the Boeotians in 411 BC, though Athens recovered it afterward. The rectangular circuit wall, about 3.9 meters thick, has seven visible towers—four on the north side, two on the east, and one on the west. The south wall has been confirmed by excavations but is not visible. The location meant that whoever held Oinoe controlled movement between Attica and Boeotia, making it strategically vital far beyond its size.",
-            "quiz": {
-                "question": "Why was Oinoe strategically important?",
-                "options": [
-                    "It controlled the pass between Attica and Boeotia through Mount Cithaeron",
-                    "It was the largest city in northern Attica",
-                    "It contained the royal treasury",
-                    "All Athenian soldiers trained there"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Oinoe's position guarding the mountain pass gave it strategic importance far beyond its small size."
-            },
-            "reward": {
-                "title": "Mountain hiking trail map and compass",
-                "provider": "Mazi Archaeological Project",
-                "codeHash": "9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b"
-            },
-            "id": 276
-        },
-        {
-            "name": "Aixone - Coastal Fishing Deme",
-            "lat": 37.866334,
-            "lng": 23.7548945,
-            "image": "images/aixone_deme.jpg",
-            "description": "An ancient seaside deme with a sanctuary to Hebe, goddess of youth, located in what is now the suburb of Glyfada.",
-            "audioText": "You are in Aixone, an ancient coastal deme that occupied the area of modern Glyfada, one of Athens' most fashionable southern suburbs. In ancient times, Aixone was celebrated for its fisheries—being on the coast between Halimus and Cape Zoster meant abundant fishing opportunities. The deme belonged to the Kekropis tribe and was home to a sanctuary of Hebe, the goddess of youth who served as cupbearer to the gods on Mount Olympus. Archaeological excavations have revealed the deme center near the Church of Agios Nikolaos, with finds including deme decrees, inscriptions, and evidence of Classical and Hellenistic settlement. A remarkable discovery has been a wealthy cemetery dating to the Late Geometric and Archaic periods, which produced some of the finest early Attic black-figure pottery now displayed in the National Archaeological Museum. These elaborate funeral offerings show that at least one rich aristocratic family made Aixone their home in the 7th and 6th centuries BC. To the west of the settlement lay the port and ancient salt pits where salt was extracted from seawater—another source of the deme's prosperity. The name persists in the area called Voula-Varkiza nearby.",
-            "quiz": {
-                "question": "What goddess had a sanctuary at Aixone?",
-                "options": [
-                    "Hebe, goddess of youth and cupbearer of the gods",
-                    "Athena, goddess of wisdom",
-                    "Artemis, goddess of the hunt",
-                    "Demeter, goddess of agriculture"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Hebe, daughter of Zeus and Hera, was honored at Aixone with her own sanctuary."
-            },
-            "reward": {
-                "title": "Beach club day pass with lunch",
-                "provider": "Glyfada Beach Resort",
-                "codeHash": "0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c"
-            },
-            "id": 277
-        },
-        {
-            "name": "Prasiae - Ancient Port Settlement",
-            "lat": 37.8652,
-            "lng": 24.0376,
-            "image": "images/prasiae_port.jpg",
-            "description": "An eastern coastal deme with an excellent natural harbor, departure point for sacred processions to Delos, now called Porto Rafti.",
-            "audioText": "You are at Prasiae, an ancient port settlement occupying the shores of one of the best natural harbors on the eastern coast of Attica—the bay now called Porto Rafti. The harbor is deep and capacious, over a mile wide at its entrance, and protected by several islands including the rocky islet that gives the modern name Porto Rafti, or 'Tailor's Port,' from a large Roman-era marble statue that vaguely resembles a seated tailor. In ancient times, Prasiae was important as the departure point for the Theoria, the sacred procession that sailed from here to the sanctuary of Apollo on Delos. Pausanias mentions a temple of Apollo here, as well as the tomb of Erysichthon, son of King Cecrops, who died at this spot on his return from Delos. The bay's strategic value was recognized in Hellenistic times when the fortified peninsula of Koroni, jutting into the bay, was garrisoned—possibly by Ptolemaic forces during the Chremonidean War. Archaeological surveys continue to reveal remains of the ancient deme settlement on the northern and southern shores of the bay. The harbor remained important through Byzantine and Venetian times and even served as a haven for Greek ships during the War of Independence.",
-            "quiz": {
-                "question": "What was the Theoria that departed from Prasiae?",
-                "options": [
-                    "The sacred procession that sailed to Apollo's sanctuary on Delos",
-                    "The annual Olympic Games delegation",
-                    "A military expedition against Persia",
-                    "A trading fleet to Egypt"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The Theoria was the sacred delegation that Athens sent regularly to honor Apollo at his birthplace on Delos."
-            },
-            "reward": {
-                "title": "Sailing lesson in Porto Rafti bay",
-                "provider": "Porto Rafti Sailing Club",
-                "codeHash": "1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d"
-            },
-            "id": 278
-        },
-        {
-            "name": "Aegosthena - Fortress with Tallest Towers",
-            "lat": 38.14750,
-            "lng": 23.22861,
-            "image": "images/aegosthena_fortress.jpg",
-            "description": "A fortified port of Megaris with some of the tallest and best-preserved defensive towers in ancient Greece, overlooking the Corinthian Gulf.",
-            "audioText": "You are at Aegosthena, also known as Porto Germeno, one of the most impressive ancient fortresses surviving in Greece. Though technically part of Megaris rather than Attica, this coastal stronghold at the foot of Mount Cithaeron is so close to the Attic border and so spectacular that it demands attention. Aegosthena is famous for preserving several of the tallest defensive towers from ancient Greece—the southeastern tower was recently restored and stands over 10 meters high. The fortress consists of a hilltop citadel and a lower walled town extending down to the sea, with massive fortification walls punctuated by eight artillery towers. These fortifications date to the Classical and Hellenistic periods and showcase sophisticated military architecture. The site guards the eastern approaches to the Corinthian Gulf and the mountain passes into Boeotia. In 2026, the site made headlines when it survived a major wildfire with only minor damage, thanks to vegetation clearance work. Inside the fortress are Byzantine and post-Byzantine chapels, including an 11th-century church dedicated to the Virgin Mary built with ancient architectural fragments, showing that this strategic location remained important for centuries. The modern village of Porto Germeno at the foot of the fortress is a charming seaside resort.",
-            "quiz": {
-                "question": "What is Aegosthena famous for preserving?",
-                "options": [
-                    "Some of the tallest defensive towers in ancient Greece",
-                    "The oldest temple to Zeus",
-                    "Ancient mosaics depicting sea battles",
-                    "The largest ancient harbor in Greece"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Aegosthena's towers are exceptionally well-preserved examples of ancient Greek military architecture, with some standing over 10 meters high."
-            },
-            "reward": {
-                "title": "Swimming and picnic at Porto Germeno beach",
-                "provider": "Aegosthena Visitor Center",
-                "codeHash": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e"
-            },
-            "id": 279
-        },
-        {
-            "name": "Theatre of Thorikos - World's Oldest",
-            "lat": 37.73806,
-            "lng": 24.05375,
-            "image": "images/theatre_thorikos.jpg",
-            "description": "The oldest known stone theater in the world (525-480 BC) with a unique elongated shape, serving the ancient silver mining community.",
-            "audioText": "You are standing at the Theatre of Thorikos, the oldest known stone theater in the world, dating to approximately 525-480 BC. This makes it even older than the great Theatre of Dionysus in Athens! What makes Thorikos truly unique is its shape—unlike the familiar semicircular Greek theaters, this one is elongated and rectangular, with a linear central section and curved ends. This unusual shape reflects the fact that it was built before the standard theatrical form was established, making it a fascinating window into the evolution of theater architecture. Thorikos was the center of an important deme in southern Attica, closely tied to the silver mines of Laurion that funded Athens' naval power. The theater served multiple purposes: it was used for dramatic performances, public assemblies, religious festivals, and sacrifices. With seating for up to 3,200 spectators arranged in three tiers, this was where the mining community gathered for civic and cultural life. The orchestra area measures 16 by 30 meters. The theater went through several construction phases, with expansions in the 4th century BC. Today, the weathered stone seats sit much as they were found, offering an authentic and atmospheric archaeological experience.",
-            "quiz": {
-                "question": "What makes the Theatre of Thorikos unique among ancient Greek theaters?",
-                "options": [
-                    "It is the oldest known stone theater with an elongated, not semicircular, shape",
-                    "It was the largest theater in ancient Greece",
-                    "It was built entirely of marble",
-                    "It was used exclusively for gladiator games"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Thorikos predates standardized theater design and has a unique elongated shape from the Archaic period."
-            },
-            "reward": {
-                "title": "Guided tour of ancient Thorikos archaeological site",
-                "provider": "Lavreotiki Cultural Association",
-                "codeHash": "3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f"
-            },
-            "id": 280
-        },
-        {
-            "name": "Theatre of Ikarion - Birthplace of Tragedy",
-            "lat": 38.095558,
-            "lng": 23.900489,
-            "image": "images/theatre_ikarion.jpg",
-            "description": "The legendary birthplace of Greek tragedy, where Thespis created the first actor and transformed dithyramb into drama in the 6th century BC.",
-            "audioText": "Welcome to Ikarion, the legendary birthplace of Greek tragedy and one of the most historically significant sites in the history of Western theater. According to ancient tradition, it was here in the 6th century BC that Thespis—the first tragic actor whose name gives us the word 'thespian'—revolutionized performance by stepping out of the chorus to speak as an individual character. This innovation transformed the choral dithyramb honoring Dionysus into true drama. The theater you see is small and austere, with a rectangular orchestra limited on one side by five stone seats of honor called prohedriai and on the other by a terrace. Despite its modest size, inscriptions prove that organized dramatic festivals were held here as early as the 5th century BC. The site also includes a Pythion temple dedicated to Apollo, and a semicircular monument honoring the choregoi who funded performances. The myth tells that the local hero Ikarios welcomed the god Dionysus and was taught the cultivation of grapes and wine-making. American excavations in 1888-89 revealed the inscription 'The Pythion of the Ikarians,' confirming this as the deme's civic and religious center. Standing here, you can almost hear the earliest tragic verses echoing across 2,500 years.",
-            "quiz": {
-                "question": "Who was Thespis and why is Ikarion significant?",
-                "options": [
-                    "Thespis was the first tragic actor who created individual character performance here",
-                    "Thespis was a god worshipped at this theater",
-                    "Thespis built the Parthenon",
-                    "Thespis founded the Olympic Games"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Thespis revolutionized theater by introducing the first actor, transforming choral performance into drama."
-            },
-            "reward": {
-                "title": "Free entry to Dionysos Municipal Cultural Center",
-                "provider": "Municipality of Dionysos",
-                "codeHash": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a"
-            },
-            "id": 281
-        },
-        {
-            "name": "Plato's Academy - First University",
-            "lat": 37.99250,
-            "lng": 23.70806,
-            "image": "images/plato_academy.jpg",
-            "description": "Founded by Plato in 387 BC, this was the first institution of higher learning in the Western world, where Aristotle studied for 20 years.",
-            "audioText": "You are at one of the most important intellectual sites in human history—the location of Plato's Academy, the first institution of higher learning in the Western world. Founded by the philosopher Plato around 387 BC, the Academy was named after the hero Akademos and was located in a sacred grove with gymnasium facilities about 1.5 kilometers outside Athens' Dipylon gates. Here, Plato taught philosophy, mathematics, astronomy, and what we would call physics for forty years until his death in 347 BC. His most famous student was Aristotle, who studied here for nearly twenty years before founding his own school, the Lyceum. The Academy continued under Plato's successors for centuries—the original Academy lasted until 86 BC when it was destroyed by the Roman general Sulla, and a Neoplatonist revival operated from the 5th century AD until Emperor Justinian closed it in 529 AD. The archaeological park you see today preserves remains from the Geometric period including the 'Sacred House' dating to around 800 BC, as well as ruins of the gymnasium complex where students exercised both body and mind. The very word 'academy' comes from this place and has been used ever since to denote centers of advanced learning.",
-            "quiz": {
-                "question": "What makes Plato's Academy historically significant?",
-                "options": [
-                    "It was the first institution of higher learning in the Western world",
-                    "It was where the Olympic Games began",
-                    "It was Athens' largest military fortress",
-                    "It was the first democracy in Greece"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Founded in 387 BC, the Academy pioneered institutional higher education and trained philosophers for centuries."
-            },
-            "reward": {
-                "title": "Philosophy walking tour of ancient Athens",
-                "provider": "Academy Archaeological Park",
-                "codeHash": "5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b"
-            },
-            "id": 282
-        },
-        {
-            "name": "Aristotle's Lyceum - Peripatetic School",
-            "lat": 37.9740750,
-            "lng": 23.7435028,
-            "image": "images/aristotle_lyceum.jpg",
-            "description": "The school founded by Aristotle in 335 BC where he taught while walking with students, pioneering the scientific method and empirical research.",
-            "audioText": "You are at Aristotle's Lyceum, discovered remarkably recently in 1996 during construction for a modern art museum. This was the school founded by Aristotle in 335 BC after he returned from tutoring Alexander the Great in Macedonia. The name 'Lyceum' comes from the nearby temple of Apollo Lyceus. What made Aristotle's school revolutionary was his emphasis on empirical observation and systematic research—he essentially invented the scientific method. The school was called 'Peripatetic' from the Greek word for 'walking around,' because Aristotle taught while strolling with his students through the gardens and covered walkways. Here he established one of the ancient world's first great libraries and research collections, with specimens, maps, and manuscripts gathered from across the known world. The archaeological site shows the remains of a gymnasium with a palaestra for wrestling and athletic training, as well as lecture halls and stoas. Aristotle taught here for twelve years, until anti-Macedonian sentiment after Alexander's death forced him to flee Athens in 323 BC. The school continued under his successors until Sulla's destruction of Athens' philosophical schools in 86 BC. The site was only opened to the public in 2009, making it one of Athens' newest ancient monuments.",
-            "quiz": {
-                "question": "Why was Aristotle's school called 'Peripatetic'?",
-                "options": [
-                    "Because he taught while walking around with his students",
-                    "Because it was located on a mountain path",
-                    "Because students had to travel there from far away",
-                    "Because it focused on studying walking animals"
-                ],
-                "answer": 0,
-                "feedback": "Correct! 'Peripatetic' means 'walking around,' reflecting Aristotle's teaching method of philosophical discussion while strolling."
-            },
-            "reward": {
-                "title": "Scientific method workshop at Lyceum site",
-                "provider": "Hellenic Scientific Society",
-                "codeHash": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c"
-            },
-            "id": 283
-        },
-        {
-            "name": "Church of Agioi Theodoroi",
-            "lat": 37.9772,
-            "lng": 23.7320,
-            "image": "images/agioi_theodoroi.jpg",
-            "description": "One of Athens' most important Byzantine monuments, built in 1049-1065 by the Byzantine official Nikolaos Kalomalos, near Klathmonos Square.",
-            "audioText": "You are at the Church of Agioi Theodoroi, one of the most important and beautiful Byzantine monuments in central Athens. Located near Klathmonos Square, this church stands as a testament to middle Byzantine architectural excellence. According to inscriptions preserved on the western wall, the church was erected by the spatharocandidatus Nikolaos Kalomalos—a Byzantine official whose title indicates he was a member of the palace guard. A second inscription gives us the foundation date of either 1049 or 1065, placing it firmly in the golden age of Byzantine Athens. The church is a classic example of the cross-in-square type with a dome, featuring the elegant proportions and refined details characteristic of 11th-century Constantinopolitan style. The masonry uses the cloisonné technique—alternating courses of brick and stone—with decorative brick patterns creating visual interest on the exterior walls. When King Otto brought the Bavarian architect Leo von Klenze to plan the new Athens after Greek independence, many Byzantine churches were threatened with demolition to make way for modern streets. The Church of Agioi Theodoroi was saved thanks to the intervention of King Otto himself and Queen Amalia, who recognized its historical and artistic value. Restoration works in the 19th century preserved this jewel for future generations. The church remains active today, its ancient stones witnessing the daily life of modern Athens flowing around it.",
-            "quiz": {
-                "question": "Who built the Church of Agioi Theodoroi and when?",
-                "options": [
-                    "Byzantine official Nikolaos Kalomalos in 1049-1065",
-                    "Emperor Constantine in 330 AD",
-                    "King Otto in 1834",
-                    "Pericles in the 5th century BC"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The spatharocandidatus Nikolaos Kalomalos built this church in the mid-11th century, as documented by inscriptions."
-            },
-            "reward": {
-                "title": "Byzantine Athens walking tour guidebook",
-                "provider": "Hellenic Ministry of Culture",
-                "codeHash": "7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d"
-            },
-            "id": 284
-        },
-        {
-            "name": "Church of Soteira Lykodemou (Russian Church)",
-            "lat": 37.9753,
-            "lng": 23.7330,
-            "image": "images/soteira_lykodemou_russian.jpg",
-            "description": "The largest surviving Byzantine church in Athens (11th century), now serving the Russian Orthodox community. Famous copy of Hosios Loukas monastery.",
-            "audioText": "You are at the Church of Soteira Lykodemou, also known as the Russian Church or Church of the Holy Trinity—the largest surviving Byzantine church in Athens. Built in the first half of the 11th century, with inscriptions dating to 1031, this magnificent church originally served as the katholikon of a large convent. The name 'Soteira Lykodemou' means 'the Virgin Saviouress of Lykodemos,' with Lykodemos probably being the family name of one of its founders. What makes this church architecturally extraordinary is that it is clearly the earliest and most faithful copy of the great katholikon of the Hosios Loukas monastery—one of the masterpieces of Byzantine architecture. The Athenian church features measurements almost exactly three-quarters those of Hosios Loukas, replicating its design, proportions, and decorative program. The church follows the typically middle Byzantine cross-in-square plan, with a dome resting on an octagonal base supported by eight piers. The masonry is of exceptional quality, with dressed stones separated by double courses of bricks. The exterior is decorated with pseudo-Kufic brick designs similar to those at Hosios Loukas, some placed individually and others forming a continuous frieze on three sides. In 1778, the Ottoman governor Hadji Ali Haseki demolished the rest of the convent to build city walls. After Greek independence, the church fell into ruins until 1847, when Tsar Nicholas I acquired it for Athens' Russian community. The reconstruction in 1850-55 largely preserved the original Byzantine design, and today it remains the spiritual center for Russian Orthodox worshippers in Athens.",
-            "quiz": {
-                "question": "What makes Soteira Lykodemou architecturally significant?",
-                "options": [
-                    "It is the largest Byzantine church in Athens and a copy of Hosios Loukas monastery",
-                    "It was the first church built in Greece",
-                    "It contains the throne of the Byzantine Emperor",
-                    "It was designed by Leonardo da Vinci"
-                ],
-                "answer": 0,
-                "feedback": "Correct! This 11th-century church is Athens' largest Byzantine monument and faithfully replicates the famous Hosios Loukas."
-            },
-            "reward": {
-                "title": "Russian Orthodox heritage tour and concert",
-                "provider": "Holy Trinity Russian Church",
-                "codeHash": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e"
-            },
-            "id": 285
-        },
-        {
-            "name": "Brauron Sanctuary of Artemis",
-            "lat": 37.92611,
-            "lng": 23.99361,
-            "image": "images/brauron_sanctuary.jpg",
-            "description": "The most important sanctuary of Artemis in Greece, where young Athenian girls performed the Arkteia ritual, 'playing the bear' in sacred dances.",
-            "audioText": "You are at Brauron, the most important sanctuary of Artemis in all of ancient Greece. This was the center of one of antiquity's most fascinating and mysterious rituals—the Arkteia, where young Athenian girls aged five to ten came every four years to serve the goddess by 'playing the bear.' These girls, called arktoi, wore saffron-colored robes and performed sacred dances, races, and sacrifices as a rite of passage preparing them for womanhood and marriage. The ritual's origin was explained by myth: a sacred bear of Artemis was killed, and the goddess demanded that girls imitate bears to atone for this sacrilege. The sanctuary was in use from the 8th century BC to the 3rd century BC and includes a beautiful stoa where the girls stayed, a temple platform, altars, and a sacred spring where valuable offerings were thrown. One of the site's remarkable features is Greece's only surviving Classical-period stone bridge. The small museum displays unique pottery called krateriskoi showing girls running and dancing, some depicted nude, giving us rare glimpses of these ancient ceremonies. Brauron was also one of the legendary twelve townships unified by Theseus to create Athens. The site's location near a small inlet made it both a religious center and a natural harbor until the area silted up.",
-            "quiz": {
-                "question": "What was the Arkteia ritual at Brauron?",
-                "options": [
-                    "Young girls 'playing the bear' in dances as a coming-of-age ceremony for Artemis",
-                    "A battle reenactment performed by soldiers",
-                    "An oracle consultation ceremony",
-                    "A harvest festival for Demeter"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The Arkteia was a unique rite where girls served Artemis through bear-imitation dances before marriage."
-            },
-            "reward": {
-                "title": "Free admission to Brauron Archaeological Museum",
-                "provider": "Hellenic Ministry of Culture",
-                "codeHash": "9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f"
-            },
-            "id": 286
-        },
-        {
-            "name": "Ancient Oropos - Border Harbor City",
-            "lat": 38.319500,
-            "lng": 23.790000,
-            "image": "images/oropos_city.jpg",
-            "description": "A strategic border town and harbor constantly contested by Athens and Thebes, serving as the vital crossing point to Euboea.",
-            "audioText": "You are at ancient Oropos, a town whose geographic position made it one of the most contested places in ancient Greece. Situated on the border between Attica and Boeotia, overlooking the narrow strait to Euboea, Oropos controlled a vital crossing point and the direct road to Athens through Dekeleia—one of Athens' main supply routes. The harbor called Delphinion lay at the mouth of the Asopos River, while the city itself stood at what is now Skala Oropou. Because of this strategic importance, control of Oropos passed back and forth between Athens and Thebes throughout the Classical period. When Athens held it, the grain and cattle crossing from Euboea were secure; when Thebes took it, Athens was cut off from these vital supplies. The territory was important enough that there were even periods when Oropos enjoyed brief autonomy as a buffer state. Archaeological excavations have revealed an important Early Iron Age settlement that may have been the Homeric Graia, along with Hellenistic and Roman remains now buried under the modern town. The nearby Amphiareion sanctuary brought religious pilgrims and healing seekers, adding to Oropos' importance. Inscriptions and tomb monuments reused in local churches attest to the town's long prosperity despite its constantly shifting political allegiance.",
-            "quiz": {
-                "question": "Why was Oropos constantly fought over by Athens and Thebes?",
-                "options": [
-                    "It controlled the vital crossing to Euboea and Athens' supply route",
-                    "It had the richest silver mines in Greece",
-                    "It was the birthplace of Zeus",
-                    "It contained the Olympic Games stadium"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Oropos' strategic position controlling access to Euboea and the road to Athens made it highly contested."
-            },
-            "reward": {
-                "title": "Ferry discount to Eretria, Euboea",
-                "provider": "Oropos Port Authority",
-                "codeHash": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a"
-            },
-            "id": 287
-        },
-        {
-            "name": "Ancient Megara - Dorian Rival City",
-            "lat": 37.99639,
-            "lng": 23.34444,
-            "image": "images/ancient_megara.jpg",
-            "description": "A powerful Dorian city-state that founded the colonies of Byzantium and Chalcedon, rival of Athens with impressive Theagenes Fountain.",
-            "audioText": "You are in Megara, one of the great Dorian city-states that rivaled Athens in the Archaic period. Though the modern town overlies most ancient remains, this was once a powerful maritime state that punched far above its weight. During the age of colonization in the 8th and 7th centuries BC, Megara founded some of the most important Greek colonies: Megara Hyblaea in Sicily, Selinus in Sicily, Chalcedon on the Asian side of the Bosporus, and most famously Byzantium—the future Constantinople and Istanbul. The city occupied a strategic buffer position between Attica and Corinth, with harbors on both the Saronic and Corinthian Gulfs. Megara experienced a tyranny under Theagenes in the 7th century BC and later came into bitter conflict with Athens over control of the island of Salamis. The most visible ancient monument is the Theagenes Fountain, a remarkable 5th-century BC structure with a large rectangular cistern supported by rows of octagonal columns—perhaps designed by the famous engineer Eupalinos who also built Samos' aqueduct. The city had two acropolises on the hills of Alkathos and Karia. Megara's rivalry with Athens was so intense that in 432 BC, Pericles issued the Megarian Decree excluding them from Athenian markets, one of the triggers of the Peloponnesian War.",
-            "quiz": {
-                "question": "What was Megara most famous for in the Archaic period?",
-                "options": [
-                    "Founding major colonies including Byzantium and Chalcedon",
-                    "Inventing democracy",
-                    "Building the Parthenon",
-                    "Defeating the Persians at Marathon"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Megara was a major colonizing power, founding cities that became hugely important, especially Byzantium."
-            },
-            "reward": {
-                "title": "Guided tour of Theagenes Fountain archaeological site",
-                "provider": "Megara Archaeological Museum",
-                "codeHash": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b"
-            },
-            "id": 288
-        },
-        {
-            "name": "Theatre at Amphiareion",
-            "lat": 38.291581,
-            "lng": 23.845344,
-            "image": "images/amphiareion_theatre.jpg",
-            "description": "A well-preserved ancient theater at the healing sanctuary where dramatic and musical contests were held during the Greater Amphiareia festival.",
-            "audioText": "You are at the remarkably well-preserved theater of the Amphiareion sanctuary. Built into the hillside beside the ravine, this theater hosted dramatic and musical contests every four years as part of the Greater Amphiareia festival, established in 332 BC. Unlike the main sanctuary's focus on healing and oracular dreams, the theater provided entertainment and cultural competition that drew visitors from across Greece. The theater's stone seats are exceptionally well-preserved, allowing you to sit exactly where ancient spectators sat over 2,300 years ago. The orchestra area and lower seating tiers remain largely intact. Theater performances were an integral part of ancient Greek religious festivals—the arts of tragedy, comedy, and music were offerings to the gods as much as sacrifices and processions. Here at the Amphiareion, theatrical contests honored the hero Amphiaraos while providing respite for the sick and weary who came seeking healing. Inscriptions found at the site record the names of victorious actors and musicians, showing that competitions here attracted serious performers. The theater's location in this peaceful wooded glen, with the sacred spring and temple nearby, made attending performances a complete sensory and spiritual experience. The acoustics remain excellent, so if you speak or clap from the orchestra, you'll hear how sound carried to the upper rows.",
-            "quiz": {
-                "question": "What was the purpose of the theater at the Amphiareion?",
-                "options": [
-                    "Hosting dramatic and musical contests during the Greater Amphiareia festival",
-                    "Training gladiators for Roman games",
-                    "Holding political assemblies only",
-                    "Serving as a marketplace"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The theater was part of the sanctuary's festival program, with dramatic contests held every four years."
-            },
-            "reward": {
-                "title": "Ancient drama performance ticket discount",
-                "provider": "Amphiareion Cultural Foundation",
-                "codeHash": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"
-            },
-            "id": 289
-        },
-        {
-            "name": "Church of Metamorphosis Sotiros (Transfiguration)",
-            "lat": 37.9726,
-            "lng": 23.7279,
-            "image": "images/metamorphosis_sotiros.jpg",
-            "description": "A beautiful small 11th-century Byzantine church in the picturesque Anafiotika neighborhood, on the northern foothills of the Acropolis.",
-            "audioText": "You are at the Church of Metamorphosis Sotiros, the Church of the Transfiguration of Christ, nestled in the charming Anafiotika district on the northern slopes of the Acropolis. This is one of the most atmospheric locations in Athens—a neighborhood of whitewashed houses that feels like a Cycladic island village transported to the heart of the capital. The church dates from the third quarter of the 11th century, making it one of Athens' oldest Byzantine monuments. It is a small, intimate church belonging to the simple cross-in-square type without a narthex. From its original 11th-century form, the north side and the elegant dome survive beautifully. The other sides were altered during later expansions to enlarge the interior space for the growing congregation. Even during the Ottoman occupation (1456-1833), modifications were made—the pointed arch on the northern side is a characteristic feature of Ottoman-era architecture. The church's walls are built with the classic cloisonné system of masonry, with alternating courses of brick and stone. The exterior is decorated with charming ceramic elements including pseudo-Kufic designs (imitations of Arabic letters), diamond shapes, and zigzag patterns. The dome is the typical 'Athenian' type—octagonal, elegant, and tall, with marble columns at the corners and lobed windows. On the southern side, a rectangular chapel carved into the living rock adds to the site's unique character. The church celebrates on August 6th, the Feast of the Transfiguration. Finding this little jewel tucked among the houses of Anafiotika feels like discovering a secret treasure.",
-            "quiz": {
-                "question": "What makes the location of Metamorphosis Sotiros special?",
-                "options": [
-                    "It is nestled in the Anafiotika neighborhood that resembles a Cycladic island village",
-                    "It is the tallest church in Athens",
-                    "It floats on water",
-                    "It was built by Alexander the Great"
-                ],
-                "answer": 0,
-                "feedback": "Correct! This 11th-century church sits in the picturesque Anafiotika, a unique neighborhood with island-style architecture on the Acropolis slopes."
-            },
-            "reward": {
-                "title": "Anafiotika neighborhood walking tour",
-                "provider": "Athens Cultural Center",
-                "codeHash": "9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f"
-            },
-            "id": 290
-        },
-        {
-            "name": "Church of Agios Georgios (Omorfokklisia - Beautiful Church)",
-            "lat": 37.9750,
-            "lng": 23.7190,
-            "image": "images/omorfokklisia.jpg",
-            "description": "Known as the 'Beautiful Church' (Omorfokklisia), this 11th-12th century Byzantine church near the Ancient Agora exemplifies elegant Athenian architecture.",
-            "audioText": "You are at the Church of Agios Georgios, affectionately known as Omorfokklisia—literally 'the Beautiful Church'—and indeed, it lives up to its name. Located in the Thiseio area near the Ancient Agora and with views toward the Acropolis, this Byzantine gem dates from the 11th to 12th centuries. The church earned its popular name from its harmonious proportions and refined architectural details that capture the essence of Athenian Byzantine style. It follows the classic cross-in-square plan with a dome, displaying the elegant simplicity and mathematical precision that characterized middle Byzantine church architecture. The exterior showcases well-preserved decorative brickwork—the cloisonné masonry technique with alternating courses of brick and stone, punctuated by ornamental brick patterns that create visual rhythm across the facades. These decorative elements, including meander patterns, sawtooth courses, and dog-tooth friezes, demonstrate the sophistication of Byzantine builders who turned functional construction into an art form. The church's location is particularly evocative, standing in a neighborhood where ancient, Byzantine, and modern Athens intersect. Just steps away lie the ruins of the Ancient Agora where Socrates once walked, while the Acropolis rises majestically in the background. The church remains active in the life of the local community, continuing a tradition of worship that spans nearly a millennium. Its name—'Beautiful Church'—reflects not just aesthetic appreciation but also the affection Athenians have felt for this graceful building through the centuries.",
-            "quiz": {
-                "question": "Why is this church called 'Omorfokklisia'?",
-                "options": [
-                    "Because its harmonious proportions and elegant architecture earned it the name 'Beautiful Church'",
-                    "Because it was painted in beautiful colors",
-                    "Because it was built by someone named Omorfo",
-                    "Because it has the most expensive decorations"
-                ],
-                "answer": 0,
-                "feedback": "Correct! 'Omorfokklisia' means 'Beautiful Church' in Greek, reflecting the building's elegant Byzantine proportions and refined details."
-            },
-            "reward": {
-                "title": "Byzantine architecture photography workshop",
-                "provider": "Athens Photography Society",
-                "codeHash": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a"
-            },
-            "id": 291
-        },
-        {
-            "name": "Hagia Triada Cathedral, Piraeus",
-            "lat": 37.9443,
-            "lng": 23.6453,
-            "image": "images/hagia_triada_piraeus.jpg",
-            "description": "The largest church in Piraeus and metropolitan seat. Neo-Byzantine cathedral (1979) with capacity for 3,100, featuring a massive dome and ornate marble iconostasis.",
-            "audioText": "You are at the Hagia Triada Cathedral, the Sacred Cathedral Temple of the Holy Trinity, the largest and most important church in Piraeus. As the metropolitan seat of the Holy Metropolis of Piraeus, this magnificent Neo-Byzantine structure serves as the spiritual heart of Greece's historic port city. Though the current building was completed in 1979, a church has stood on this site since 1839. The story of this cathedral is one of destruction and resurrection—during World War II, on January 11, 1944, Allied bombing demolished the earlier church, tragically burying refugees who had sought shelter within its walls. Yet from these ruins arose an even grander vision. The present cathedral was designed by Georgios Nomikos and consecrated in 1964, with final completion in 1979. Archaeological excavations during construction revealed the ancient Emporium beneath—pottery, gold coins, mosaics, and inscriptions from Piraeus' illustrious past. These precious finds are now displayed in the chapel of Saints Cyril and Methodius, literally incorporating ancient history into the sacred space. The cathedral follows Byzantine architectural principles: a three-aisled church with the central aisle dedicated to the Holy Trinity, the right to Saints Peter and Paul, and the left to Saint Skepi. The massive dome, resting on eight spherical triangles and eight arches, spans 40 meters in diameter with 40 windows flooding the interior with divine light. The cathedral can accommodate 3,100 worshippers. Every surface speaks of craftsmanship—the external doors are forged brass, the iconostasis is intricate marble work by the Afon Doukas brothers, and the wood-carved iconostasis doors are by Theofilos Nomikos. The cathedral serves not only religious functions but also hosts concerts and cultural events.",
-            "quiz": {
-                "question": "What makes Hagia Triada Cathedral significant in Piraeus?",
-                "options": [
-                    "It is the largest church and metropolitan seat, rebuilt after WWII bombing with 3,100 capacity",
-                    "It is the oldest church in Greece",
-                    "It was built by Alexander the Great",
-                    "It houses the Olympic flame"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Hagia Triada is Piraeus' largest church and metropolitan seat, rebuilt in grand Neo-Byzantine style after WWII destruction."
-            },
-            "reward": {
-                "title": "Concert ticket at Hagia Triada Cathedral",
-                "provider": "Metropolis of Piraeus",
-                "codeHash": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b"
-            },
-            "id": 292
-        },
-        {
-            "name": "Agios Spyridon Church, Piraeus",
-            "lat": 37.9420,
-            "lng": 23.6472,
-            "image": "images/agios_spyridon_piraeus.jpg",
-            "description": "The patron saint church of Piraeus, tracing origins to 11th-12th century monastery. Historic site of Greek War of Independence resistance.",
-            "audioText": "You are at the Church of Agios Spyridon, dedicated to the patron saint of Piraeus. This church traces back to the 11th or 12th century, when a fortified monastery stood here on the northeastern side of Porto Draco. During Frankish and Ottoman rule, this was a defensive monastery with walls and defenders who repeatedly repelled pirate raids. The monastery accommodated up to 70 guests. During the Greek War of Independence in 1821, it became a refuge for the homeless but was captured by Turkish-Albanian leader Omer Vryonis. Allied bombardment in 1826 led to liberation but also destruction. Governor Kapodistrias arrived in 1828, and monks returned to rebuild. Piraeus' reconstruction began around this monastery. The renowned architect Cleanthes designed a grand church with two bell towers and 1,000-person capacity. Today, Agios Spyridon remains Piraeus' spiritual patron, embodying centuries of resilience and faith through occupation, war, and rebirth.",
-            "quiz": {
-                "question": "What role did Agios Spyridon monastery play in 1821?",
-                "options": [
-                    "Refuge during Greek War of Independence before being captured and destroyed",
-                    "First democracy in Greece",
-                    "Olympic Games stadium",
-                    "Roman fortress"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The monastery sheltered people during the 1821 revolution but was captured and destroyed in the liberation fighting."
-            },
-            "reward": {
-                "title": "Piraeus maritime history tour",
-                "provider": "Church of Agios Spyridon",
-                "codeHash": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"
-            },
-            "id": 293
-        },
-        {
-            "name": "Saint Nikolaos Church, Piraeus",
-            "lat": 37.9405,
-            "lng": 23.6410,
-            "image": "images/st_nikolaos_piraeus.jpg",
-            "description": "Impressive 19th century neoclassical Orthodox church designed by I. Lazarimos, architect of Piraeus Municipal Theater. Patron saint of sailors.",
-            "audioText": "You are at the Church of Saint Nicholas in Piraeus, an impressive neoclassical Orthodox church built in the late 19th century. The architect was I. Lazarimos, the same visionary who designed the Piraeus Municipal Theater, and you can see his elegant sensibility in every line of this building. Saint Nicholas, the patron saint of sailors, is the perfect dedicatee for a church in Greece's greatest port city. For centuries, sailors departing from Piraeus have sought Saint Nicholas' blessing before venturing onto the Aegean. The church stands in the square of the same name, directly opposite the Piraeus Port Authority exhibition center and the customs office—a location that keeps it at the heart of the city's maritime life. The neoclassical style was the architectural language of the newly independent Greek state in the 19th century, consciously evoking the glory of ancient Greece while embracing European modernity. The church's proportions, columns, and pediments echo classical temples while clearly serving Christian worship. Inside, traditional Orthodox iconography adorns the walls, while the liturgical life continues uninterrupted, connecting modern Piraeus to its Byzantine heritage.",
-            "quiz": {
-                "question": "Who designed Saint Nikolaos Church and why is it significant?",
-                "options": [
-                    "I. Lazarimos, architect of Municipal Theater, in neoclassical style for sailors' patron",
-                    "Alexander the Great for military purposes",
-                    "A Roman emperor as a pagan temple",
-                    "Modern architects in 2000s"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Lazarimos created this neoclassical masterpiece honoring Saint Nicholas, patron of sailors in Greece's greatest port."
-            },
-            "reward": {
-                "title": "Port of Piraeus historical tour",
-                "provider": "Piraeus Cultural Foundation",
-                "codeHash": "3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d"
-            },
-            "id": 294
-        },
-        {
-            "name": "Cathedral of Panagia Pantovasilissa, Rafina",
-            "lat": 38.0238,
-            "lng": 24.0119,
-            "image": "images/pantovasilissa_rafina.jpg",
-            "description": "Modern metropolitan cathedral in Rafina, dedicated to the Virgin Mary as 'Queen of All.' Center of Orthodox life in the coastal port town.",
-            "audioText": "You are at the Cathedral of Panagia Pantovasilissa in Rafina, the Virgin Mary as 'Queen of All.' This modern Orthodox cathedral serves as the spiritual heart of Rafina, one of Attica's important port towns. Rafina has grown dramatically from a small fishing village into a major port connecting Athens to the Cycladic islands. As the town expanded, so did the need for a grand cathedral worthy of its growing community. The Pantovasilissa serves as the metropolitan cathedral for the region, hosting major feast days and celebrations. The title 'Pantovasilissa' —Queen of All—reflects the Orthodox understanding of the Virgin Mary as the highest of all created beings, second only to Christ himself. The cathedral's architecture follows contemporary Orthodox design while incorporating traditional Byzantine elements. On feast days, especially August 15th for the Dormition and the church's patronal feast, the entire community gathers here. The cathedral also includes a chapel dedicated to the Dormition (Koimisis), affectionately called 'Panagiitsa' by locals, located near the cemetery. Rafina's transformation from fishing village to bustling port mirrors the church's growth from modest chapel to grand cathedral.",
-            "quiz": {
-                "question": "What does 'Pantovasilissa' mean?",
-                "options": [
-                    "Queen of All, reflecting Virgin Mary's exalted status in Orthodox theology",
-                    "Port of Ships",
-                    "Ancient Harbor",
-                    "Mountain Church"
-                ],
-                "answer": 0,
-                "feedback": "Correct! 'Pantovasilissa' means 'Queen of All,' honoring the Virgin Mary's supreme position among created beings."
-            },
-            "reward": {
-                "title": "Ferry discount to Cyclades islands from Rafina",
-                "provider": "Cathedral Parish Office",
-                "codeHash": "4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e"
-            },
-            "id": 295
-        },
-        {
-            "name": "Church of Agios Ioannis Theologian, Pallini",
-            "lat": 38.0025,
-            "lng": 23.8975,
-            "image": "images/st_john_theologian_pallini.jpg",
-            "description": "12th-13th century Byzantine church in Gerakas. Cross-in-square with dome, incorporating ancient stones from Temple of Athena Pallenis. Early 13th century frescoes.",
-            "audioText": "You are at the Church of Agios Ioannis the Theologian in Gerakas, Pallini, one of the finest Byzantine monuments in eastern Attica's Mesogaia plain. Dating to the 12th-13th century, this church represents the classic Byzantine architectural type: a compact cross-in-square plan with a dome. Until the early 20th century, the octagonal dome was fully preserved, but today only the two western spherical triangles remain, testament to time's passage. What makes this church archaeologically fascinating is its construction material—the rough stones, bricks, and mortar incorporate ancient architectural elements, possibly from the significant Temple of Athena Pallenis that once dominated this area. The ancient goddess's sanctuary stones were literally built into the Christian church, a common Byzantine practice symbolizing Christianity's triumph over paganism. Inside, remarkably preserved frescoes from the early 13th century still adorn the walls, their colors and forms speaking across 800 years. A newly built church now stands beside the Byzantine structure, allowing the ancient monument to be preserved while serving the modern parish's needs. This church is one of the rare Byzantine monuments in Attica preserved without significant later additions.",
-            "quiz": {
-                "question": "What makes the Church of Agios Ioannis Theologian archaeologically significant?",
-                "options": [
-                    "It incorporates ancient stones from Temple of Athena Pallenis and preserves 13th-century frescoes",
-                    "It was built last year",
-                    "It is made entirely of gold",
-                    "It floats in the air"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The church reused ancient temple stones and preserves exceptional Byzantine frescoes from the early 13th century."
-            },
-            "reward": {
-                "title": "Byzantine Mesogaia heritage trail map",
-                "provider": "Municipality of Pallini",
-                "codeHash": "5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f"
-            },
-            "id": 296
-        },
-        {
-            "name": "Church of Hagios Petros, Kalyvia Thorikou",
-            "lat": 37.9650,
-            "lng": 23.9350,
-            "image": "images/hagios_petros_kalyvia.jpg",
-            "description": "12th-13th century two-columned cross-in-square church in Ennea Pyrgoi area. Famous for frescoes including a halo-portrait of Bishop Michael Choniates.",
-            "audioText": "You are at the Church of Hagios Petros in the Ennea Pyrgoi (Nine Towers) area of Kalyvia Thorikou, about 40 kilometers southeast of Athens. This 12th-13th century Byzantine church is a two-columned cross-in-square design, measuring 9.82 by 6.88 meters. The church incorporates many fragments of older buildings and tombstones in its rubble masonry, creating a palimpsest of Mesogaia's history. The wall paintings are contemporary with the church and include a remarkable feature: a sanctified portrait of Michael Choniates, the celebrated Bishop of Athens (1182-1204), shown in a halo! This unique fresco confirms the folk worship of this intellectual and spiritual leader whose activities and personality left an indelible mark on medieval Athens. In the north arch of the cross, you can see frescoes of Saints Mamas and Triphon, saints associated with agrarian production, cattle-breeding, and viniculture—entirely appropriate for the agricultural character of the Mesogaia plain. According to an inscription in the narthex, a group of artists decorated the church. The sanctified portrait of Michael Choniates represents a fascinating type of local veneration of a historic bishop.",
-            "quiz": {
-                "question": "What unique feature appears in Hagios Petros frescoes?",
-                "options": [
-                    "A halo-portrait of Bishop Michael Choniates, showing local folk veneration",
-                    "A painting of the Olympic Games",
-                    "A portrait of Alexander the Great",
-                    "Modern graffiti"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The church contains a rare sanctified portrait of the famous medieval Bishop Michael Choniates with a halo."
-            },
-            "reward": {
-                "title": "Ennea Pyrgoi Byzantine monuments tour",
-                "provider": "Kalyvia Cultural Center",
-                "codeHash": "6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a"
-            },
-            "id": 297
-        },
-        {
-            "name": "Church of Panagia Mesosporitissa, Kalyvia",
-            "lat": 37.9645,
-            "lng": 23.9345,
-            "image": "images/mesosporitissa_kalyvia.jpg",
-            "description": "11th-12th century single-aisled basilica near Hagios Petros. Virgin Mary as 'protector of sowing,' celebrated November 21st. Athenian dome with cloisonné masonry.",
-            "audioText": "You are at the Church of Panagia Mesosporitissa, the Presentation of the Virgin Mary, located one kilometer west of Kalyvia in the Ennea Pyrgoi area, close to the Church of Hagios Petros. The church celebrates on November 21st, the Presentation of the Virgin Mary, and gets its special epithet 'Mesosporitissa' because the Virgin Mary protected the sowing (sporos in Greek) that took place during that month in the agricultural calendar. This is a single-aisled basilica to which a barrel-vaulted narthex and a chapel were later added on the western and northern sides. Scholars date it to the 11th or 12th century. The dome is the characteristic 'Athenian' type—elegant, octagonal, and tall. The masonry combines rubble construction with the refined cloisonné technique (alternating brick and stone courses) in the apse and dome. The church features a low entrance and a stone arched shrine, a style encountered in many Attic churches including Hagios Petros, the chapel of Agios Nikolaos in Pentelis Cave, and others. Though most frescoes have been destroyed, some 18th-century paintings survive in the chapel. The Virgin Mary's role as protector of agriculture made this church vital to the farming communities of Mesogaia.",
-            "quiz": {
-                "question": "Why is the Virgin Mary called 'Mesosporitissa' at this church?",
-                "options": [
-                    "She protected the sowing that occurred during her feast in November",
-                    "She lived in this village",
-                    "The church is in the middle of a field",
-                    "It means 'beautiful building'"
-                ],
-                "answer": 0,
-                "feedback": "Correct! 'Mesosporitissa' means she protected the sowing (sporos), as her feast day falls during the planting season."
-            },
-            "reward": {
-                "title": "Mesogaia agricultural heritage tour",
-                "provider": "Kalyvia Historical Society",
-                "codeHash": "7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b"
-            },
-            "id": 298
-        },
-        {
-            "name": "Monastery of Saint Catherine, Pallini",
-            "lat": 38.0053,
-            "lng": 23.8994,
-            "image": "images/st_catherine_pallini.jpg",
-            "description": "Modern monastery (2024) housing largest church in Attica dedicated to Saint Paisios the Athonite. Cross-in-square with dome. Male monastic community.",
-            "audioText": "You are at the Holy Monastery of Saint Catherine in Pallini, one of the newest monastic foundations in Attica, with a katholikon completed in 2024. Founded in 1993 during the tenure of Metropolitan Agathonikos, the monastery began when nun Aikaterini Pavlea donated funds for construction. Initially, only a guesthouse was completed and briefly operated as an orphanage, while the katholikon remained an unfinished concrete frame for years. As a parish congregation developed in a basement chapel, the community's desire to complete the monastery grew. In 2020, Metropolitan Nikolaos of Mesogaia and Lavreotiki secured funding from Athanasios and Marina Martinos through AEGEAS to complete the project. The katholikon is a classic cross-in-square church with dome and narthex, redesigned to enhance the complex and connect spaces. The Holy Metropolis dedicated the katholikon to Saint Paisios the Athonite, making it the largest church in Attica dedicated to this recently canonized saint, while the basement chapel honors Saint Catherine. The monastery has operated as a male monastic community since 2013. Despite its modern construction, it follows traditional Byzantine architectural principles and serves as a vibrant center of contemporary monasticism.",
-            "quiz": {
-                "question": "What makes the Monastery of Saint Catherine's katholikon unique?",
-                "options": [
-                    "It is the largest church in Attica dedicated to recently canonized Saint Paisios, completed 2024",
-                    "It is the oldest church in Greece",
-                    "It was built by Romans",
-                    "It contains the Olympic flame"
-                ],
-                "answer": 0,
-                "feedback": "Correct! This modern monastery houses Attica's largest church dedicated to the beloved contemporary saint Paisios the Athonite."
-            },
-            "reward": {
-                "title": "Monastery spiritual retreat program",
-                "provider": "Monastery of Saint Catherine",
-                "codeHash": "8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c"
-            },
-            "id": 299
-        },
-        {
-            "name": "Early Christian Basilica of Vravrona",
-            "lat": 37.9263,
-            "lng": 23.9941,
-            "image": "images/basilica_vravrona.jpg",
-            "description": "5th-6th century early Christian basilica ruins near the ancient Sanctuary of Artemis. Marks the transition from pagan to Christian worship in Attica.",
-            "audioText": "You are at the ruins of the Early Christian Basilica of Vravrona, a 5th-6th century church built near the ancient Sanctuary of Artemis. This basilica represents one of history's most profound transitions—the transformation from pagan worship to Christian faith. For centuries, this area was sacred to Artemis, where young Athenian girls performed the mysterious Arkteia ritual, 'playing the bear' as a rite of passage. When Christianity became the Roman Empire's official religion in the 4th century, pagan sanctuaries were gradually abandoned or converted. Here at Vravrona, early Christians built their basilica adjacent to the ancient sanctuary, both honoring and superseding what came before. The basilica follows the classic early Christian architectural form: a rectangular building divided into three aisles by rows of columns, with a semicircular apse at the eastern end housing the altar. Though now in ruins, you can still trace the foundations, see fragments of column bases, and imagine the mosaic floors that once decorated the sacred space. Archaeological excavations have revealed the basilica's plan and construction techniques. Standing here, you witness the continuity of sacred space—this ground has been holy for over 2,500 years, from the Bronze Age cult of Artemis through early Christianity to the Byzantine period.",
-            "quiz": {
-                "question": "What historical transition does Vravrona's early Christian basilica represent?",
-                "options": [
-                    "The shift from pagan Artemis worship to Christianity in the 5th-6th centuries",
-                    "The invention of democracy",
-                    "The start of the Olympic Games",
-                    "The building of the Parthenon"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The basilica marks the profound religious transformation as Christianity replaced the ancient cult of Artemis."
-            },
-            "reward": {
-                "title": "Combined ticket: Vravrona Sanctuary & Museum",
-                "provider": "Hellenic Ministry of Culture",
-                "codeHash": "9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d"
-            },
-            "id": 300
-        },
-        {
-            "name": "Monastery of Kleiston, Mount Parnitha",
-            "lat": 38.1500,
-            "lng": 23.7100,
-            "image": "images/kleiston_parnitha.jpg",
-            "description": "Women's monastery 'enclosed' by mountain peaks on southern Parnitha slopes. Dedicated to Assumption of Virgin Mary. Gorge views, forest setting.",
-            "audioText": "You are at the Monastery of Kleiston on Mount Parnitha, a women's monastery whose name means 'enclosed' or 'shut in'—perfectly describing its dramatic location surrounded by mountain peaks. Situated 4 kilometers from Fyli on the southern slopes of Parnitha, the monastery stands above the entrance to the spectacular Keladona or Gouras Gorge, through which the Giannoula stream flows. The monastery is dedicated to the Dormition (Assumption) of the Mother of God and serves as an active center of female monasticism. The view from the monastery across the gorge to the opposite hillside is breathtaking. The forested setting creates a sense of profound peace and isolation, perfect for monastic contemplation. The monastery complex includes the katholikon, monastic cells, and support buildings arranged around a courtyard. Despite its remote location, the monastery is accessible and welcomes pilgrims, especially on its feast day of August 15th. The surrounding Parnitha National Park offers hiking trails, springs, and waterfalls. Just 500 meters from the forestry authority stop, a small waterfall creates a natural miracle—pilgrims fill their bottles from this pure mountain water. The monastery represents the continuation of Orthodox monastic tradition in modern Greece.",
-            "quiz": {
-                "question": "Why is the monastery called 'Kleiston'?",
-                "options": [
-                    "Because it is 'enclosed' or 'shut in' by the surrounding mountain peaks",
-                    "Because it was always locked",
-                    "Because it was built by someone named Kleistos",
-                    "Because it is underground"
-                ],
-                "answer": 0,
-                "feedback": "Correct! 'Kleiston' means 'enclosed,' referring to the monastery's dramatic location surrounded by Parnitha's peaks."
-            },
-            "reward": {
-                "title": "Parnitha National Park hiking map",
-                "provider": "Monastery of Kleiston",
-                "codeHash": "0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e"
-            },
-            "id": 301
-        },
-        {
-            "name": "Chapel of Saint Marina, Mount Parnitha",
-            "lat": 38.1850,
-            "lng": 23.6950,
-            "image": "images/st_marina_parnitha.jpg",
-            "description": "Remote 12th century chapel behind Avlona village on northern Parnitha. Built in 1117 at cave where miraculous icon was found. Pilgrimage site July 17th.",
-            "audioText": "You are at the remote Chapel of Saint Marina on the northern slopes of Mount Parnitha, behind the village of Avlona in the Vountima area near the river Martheza. This 12th-century chapel sits in a densely forested setting that evokes the beautiful landscapes of Mount Athos or Ireland—a true hidden sanctuary. According to local tradition, in the early 12th century a shepherd had a vision indicating the location of a cave containing a hidden miraculous icon of Saint Marina. After finding the icon, people risked their lives for three months to build this remote chapel in 1117 AD, next to the very cave where the icon was discovered. To enter the cave, one must climb forty stairs. The icon itself, depicting Saint Marina as a mature 15-year-old girl striking a demon with a hammer, is no longer at this remote location. During the Greek Civil War, recognizing the icon's value and its vulnerability, it was moved to the Chapel of Prophet Elias in Avlona, but even there it was stolen. Despite the icon's absence, pilgrims still make the difficult journey every year on July 16th for Great Vespers and July 17th for Divine Liturgy to celebrate Saint Marina's feast. The chapel's location in this pristine forest creates an atmosphere of profound spiritual isolation.",
-            "quiz": {
-                "question": "How was the Chapel of Saint Marina's location chosen?",
-                "options": [
-                    "A shepherd's vision led to discovery of a miraculous icon in a cave in early 12th century",
-                    "It was randomly selected",
-                    "Romans built it as a fortress",
-                    "It marks where Alexander the Great camped"
-                ],
-                "answer": 0,
-                "feedback": "Correct! A shepherd's vision revealed the cave with Saint Marina's miraculous icon, leading to the chapel's construction in 1117."
-            },
-            "reward": {
-                "title": "Guided forest pilgrimage to Saint Marina",
-                "provider": "Village of Avlona",
-                "codeHash": "1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f"
-            },
-            "id": 302
-        },
-        {
-            "name": "Church of Agia Triada, Mount Parnitha",
-            "lat": 38.1559,
-            "lng": 23.7203,
-            "image": "images/agia_triada_parnitha.jpg",
-            "description": "12th century church near Parnitha summit at 1,000m altitude. Dependency of Petraki Monastery. Three layers of wall paintings. Fir forest setting.",
-            "audioText": "You are at the Church of Agia Triada, the Holy Trinity, near the summit of Mount Parnitha at approximately 1,000 meters altitude, deep within the zone of fir forest. This 12th-century church was a dependency of the Monastery of Petraki in Athens, which controlled several mountain monasteries. Almost nothing remains of the original monastery complex, but the church itself is thought to be quite early, dating from Byzantine times, as evidenced by its three layers of wall paintings from different periods. The church is small and simple, befitting its remote mountain location where monks sought isolation for prayer and contemplation. The setting is spectacular—surrounded by towering firs, with mountain air and silence broken only by wind and birds. During the Ottoman period, such remote mountain monasteries served as refuges for Greek culture and Orthodox faith. After Greek independence, many mountain dependencies were abandoned as monks moved to larger communities. Today, the church stands renovated, maintained by the Church, serving as a destination for hikers and pilgrims who climb Parnitha. The journey to reach Agia Triada is itself a form of pilgrimage, requiring commitment and physical effort that mirrors the spiritual ascent.",
-            "quiz": {
-                "question": "What indicates the Church of Agia Triada's early Byzantine origin?",
-                "options": [
-                    "Three layers of wall paintings from different historical periods",
-                    "It was built last year",
-                    "It is made of plastic",
-                    "It contains modern computers"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The three distinct layers of frescoes from different eras prove the church's ancient Byzantine origins and long use."
-            },
-            "reward": {
-                "title": "Mount Parnitha summit hiking certificate",
-                "provider": "Greek Mountaineering Federation",
-                "codeHash": "2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a"
-            },
-            "id": 303
-        },
-        {
-            "name": "Monastery of Saint Ephraim, Nea Makri",
-            "lat": 38.0769,
-            "lng": 23.9528,
-            "image": "images/st_ephraim_nea_makri.jpg",
-            "description": "10th century women's monastery on Mount Amomon. Dedicated to Annunciation of Theotokos. Celebrates Saint Ephraim's relics (Jan 3), martyrdom (May 5), Annunciation (Mar 25).",
-            "audioText": "You are at the Monastery of Saint Ephraim on Mount Amomon in Attica, east of Mount Pentelicus, in the Xilokeriza area near Nea Makri. This women's monastery traces its origins to the 10th century, when many hermitages were established on what was then known as the 'mountain of the pure.' An older male monastery existed here before the current women's community. The monastery is dedicated to the Annunciation of the Theotokos and celebrates three main feast days: January 3rd marks the discovery of the relics of Saint Ephraim, March 25th honors the Annunciation, and May 5th commemorates Saint Ephraim's martyrdom. Saint Ephraim was a martyr whose holy relics are housed here, making the monastery a pilgrimage destination. The monastery falls under the jurisdiction of the Metropolis of Kifissia, Amaroussion, and Oropos. The courtyard contains the tomb of the renowned 20th-century artist Fotis Kontoglou, the iconographer who revived Byzantine painting techniques in modern Greece. His presence here links contemporary Greek art to ancient Orthodox tradition. The abbess, Nun Makaria the Second, leads a vibrant monastic community dedicated to prayer, hospitality, and preserving Orthodox tradition.",
-            "quiz": {
-                "question": "What makes the Monastery of Saint Ephraim significant?",
-                "options": [
-                    "10th-century origins, houses Saint Ephraim's relics, tomb of artist Fotis Kontoglou",
-                    "It was built last month",
-                    "It contains the Olympic flame",
-                    "Alexander the Great lived there"
-                ],
-                "answer": 0,
-                "feedback": "Correct! This ancient monastery houses a martyr's relics and connects to modern Greek art through Fotis Kontoglou's tomb."
-            },
-            "reward": {
-                "title": "Icon painting workshop at monastery",
-                "provider": "Monastery of Saint Ephraim",
-                "codeHash": "3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b"
-            },
-            "id": 304
-        },
-        {
-            "name": "Metropolitan Cathedral of Megara",
-            "lat": 37.9964,
-            "lng": 23.3444,
-            "image": "images/cathedral_megara.jpg",
-            "description": "Seat of the Metropolis of Megara and Salamis. Episcopal center of the historic Dorian city that founded Byzantium. Traditional Orthodox cathedral.",
-            "audioText": "You are at the Metropolitan Cathedral of Megara, the episcopal seat of the Holy Metropolis of Megara and Salamis. Megara is one of the most historically significant cities in Greece—a powerful Dorian city-state in antiquity that founded some of the most important Greek colonies, including Byzantium (modern Istanbul) and Chalcedon. The cathedral serves as the spiritual center for all of Megara and the island of Salamis. The Metropolis of Megara and Salamis was established in 1974 when the larger Metropolis of Attica and Megaridos was divided. The cathedral hosts the metropolitan throne and serves as the venue for major ecclesiastical events, ordinations, and celebrations. The surrounding area includes the metropolitan offices, library, school of Byzantine music, choir facilities, parish centers, and lecture theaters. Megara's ecclesiastical heritage is rich—the city boasts numerous monasteries under the metropolis, including several for monks and many for nuns. The cathedral's architecture follows traditional Orthodox design, creating a sacred space that connects modern Megara to its Byzantine past and ancient glory as a colonizing power that shaped the Mediterranean world.",
-            "quiz": {
-                "question": "Why is Megara historically significant?",
-                "options": [
-                    "Dorian city-state that founded Byzantium (Constantinople) and other major colonies",
-                    "It was built last year",
-                    "It invented the Olympic Games",
-                    "It contains ancient Egyptian pyramids"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Megara founded Byzantium, one of history's most important cities, making it a major ancient colonizing power."
-            },
-            "reward": {
-                "title": "Byzantine music concert at cathedral",
-                "provider": "Metropolis of Megara and Salamis",
-                "codeHash": "4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c"
-            },
-            "id": 305
-        },
-        {
-            "name": "Monastery of Holy Trinity, Mirini",
-            "lat": 38.0050,
-            "lng": 23.3200,
-            "image": "images/holy_trinity_mirini.jpg",
-            "description": "Active men's monastery in Mirini, Megara region. Traditional Orthodox monastic complex with katholikon, cells, and courtyard. Under Metropolis of Megara.",
-            "audioText": "You are at the Monastery of the Holy Trinity in Mirini, one of the active men's monasteries under the Metropolis of Megara and Salamis. This traditional Orthodox monastery follows the classic monastic layout: a katholikon (main church) at the center, surrounded by monks' cells, refectory, kitchen, and support buildings arranged around a peaceful courtyard. The monastery is dedicated to the Holy Trinity, the foundational Christian doctrine of God as Father, Son, and Holy Spirit—three persons in one essence. The monastic life here follows the ancient rhythms established by the Desert Fathers: communal prayer in the katholikon multiple times daily, manual work, hospitality to pilgrims, and private prayer in cells. The monks support themselves through various activities while maintaining their primary focus on prayer and spiritual life. The monastery serves as a spiritual refuge not just for the monks but for laypeople seeking guidance, confession, or simply a break from the world's noise. The location in the Megara region provides a rural setting conducive to contemplation. Visitors are welcome to attend services, venerate icons, and experience Orthodox monasticism's living tradition.",
-            "quiz": {
-                "question": "What is the primary purpose of Orthodox monasteries like Holy Trinity?",
-                "options": [
-                    "Prayer, spiritual life, and maintaining ancient Christian monastic traditions",
-                    "Running hotels for tourists",
-                    "Manufacturing products",
-                    "Political activities"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Orthodox monasteries center on prayer and spiritual life, following traditions from the early Christian Desert Fathers."
-            },
-            "reward": {
-                "title": "Monastery guest house accommodation",
-                "provider": "Monastery of Holy Trinity",
-                "codeHash": "5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d"
-            },
-            "id": 306
-        },
-        {
-            "name": "Monastery of Saint Vlasios",
-            "lat": 38.0100,
-            "lng": 23.3150,
-            "image": "images/st_vlasios_monastery.jpg",
-            "description": "Men's monastery dedicated to Saint Blaise, patron of animals and livestock. Rural monastery in Megara region serving agricultural communities.",
-            "audioText": "You are at the Monastery of Saint Vlasios (Saint Blaise), a men's monastery in the Megara region. Saint Vlasios is one of the most beloved saints in Greek Orthodoxy, venerated as the patron of animals, livestock, and throat ailments. According to tradition, Saint Blaise was a 4th-century bishop and physician in Armenia who performed many miraculous healings, including saving a boy from choking on a fishbone—hence his association with throat blessings. The custom of blessing throats on Saint Blaise's feast day (February 11th) continues in Orthodox churches worldwide. His patronage of animals made him especially important to the agricultural and pastoral communities of rural Greece. This monastery serves the farming regions around Megara, where livestock and agriculture have been the economic foundation for millennia. The monastic complex provides spiritual services to the surrounding villages, hosts feast day celebrations, and maintains the Orthodox presence in rural areas. The monks' life combines prayer with agricultural work, embodying the ancient monastic principle of 'ora et labora' (pray and work). The monastery's rural setting allows visitors to experience authentic Greek countryside spirituality.",
-            "quiz": {
-                "question": "Why is Saint Vlasios (Blaise) important to rural communities?",
-                "options": [
-                    "He is patron saint of animals, livestock, and throat healings, vital to farming areas",
-                    "He invented farming",
-                    "He was a Roman emperor",
-                    "He built the Parthenon"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Saint Vlasios' patronage of animals and healing made him beloved in agricultural communities throughout Greece."
-            },
-            "reward": {
-                "title": "Traditional Greek farm products from monastery",
-                "provider": "Monastery of Saint Vlasios",
-                "codeHash": "6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e"
-            },
-            "id": 307
-        },
-        {
-            "name": "Monastery of Saint Paraskevi, Mazi",
-            "lat": 38.0125,
-            "lng": 23.3275,
-            "image": "images/st_paraskevi_mazi.jpg",
-            "description": "Men's monastery in Mazi dedicated to Saint Paraskevi, popular martyr saint. Western Attica monastic center with peaceful rural setting.",
-            "audioText": "You are at the Monastery of Saint Paraskevi in Mazi, a men's monastery in western Attica. Saint Paraskevi is one of the most popular saints in Greek Orthodoxy, a 3rd-century martyr whose name means 'Preparation' or 'Friday' in Greek. According to tradition, she was born on a Friday and her parents named her Paraskevi in honor of Christ's Preparation Day (Friday, when Christ was crucified). She became a Christian missionary and miracle-worker, eventually martyred for refusing to worship pagan gods. Saint Paraskevi is especially venerated as the patron saint of eye ailments and blindness, and countless churches and holy springs bear her name across Greece. The monastery in Mazi serves as an important spiritual center for the region, hosting pilgrims especially on her feast day, July 26th. The monastic complex follows traditional architecture with the katholikon, cells, and support buildings arranged for communal life. The monks maintain the grounds, welcome visitors, and preserve the liturgical tradition. The peaceful rural setting allows the monks to combine prayer with agricultural work, supporting themselves while maintaining their spiritual focus. The monastery represents the continuity of Orthodox monasticism from ancient times to the present day.",
-            "quiz": {
-                "question": "What is Saint Paraskevi especially known for?",
-                "options": [
-                    "Patronage of eye ailments and miraculous healings, martyred in 3rd century",
-                    "Building the Acropolis",
-                    "Inventing democracy",
-                    "Founding the Olympic Games"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Saint Paraskevi is beloved as patron of eye healing and one of Greece's most popular martyr saints."
-            },
-            "reward": {
-                "title": "Blessed oil from Saint Paraskevi shrine",
-                "provider": "Monastery of Saint Paraskevi",
-                "codeHash": "7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f"
-            },
-            "id": 308
-        },
-        {
-            "name": "Monastery of Panagia Galaktotrofoussa",
-            "lat": 38.0175,
-            "lng": 23.3325,
-            "image": "images/galaktotrofoussa_monastery.jpg",
-            "description": "Men's monastery dedicated to Virgin Mary as 'Milk-Giver.' Miraculous icon venerated by mothers. Traditional monastery in western Attica countryside.",
-            "audioText": "You are at the Monastery of Panagia Galaktotrofoussa, a men's monastery in the Megara region. The epithet 'Galaktotrofoussa' means 'Milk-Giver' or 'Milk-Nourisher,' referring to the Virgin Mary's role in nourishing the infant Christ. This iconographic type shows the Theotokos in her maternal aspect, emphasizing her humanity and the reality of Christ's incarnation. The Galaktotrofoussa icon has been especially venerated by mothers throughout Orthodox history, who pray for abundant milk to feed their children and for the health of infants. The monastery's dedication to this aspect of the Virgin reflects the deep connection between Orthodox spirituality and everyday life—the sacred interpenetrating the ordinary concerns of family and child-rearing. The monastic complex serves the surrounding communities, offering spiritual guidance, hosting feast day celebrations, and maintaining a place of prayer. The monks follow the traditional pattern of communal prayer, manual work, and hospitality. The rural setting allows for agricultural work that supports the monastery. Pilgrims visit especially on Marian feast days, bringing petitions for children's health and family well-being. The monastery demonstrates how Orthodox faith addresses all aspects of human life, from the most exalted mysteries to the most intimate family concerns.",
-            "quiz": {
-                "question": "What does 'Galaktotrofoussa' mean and who especially venerates this icon?",
-                "options": [
-                    "'Milk-Giver' Virgin Mary icon, especially venerated by mothers for children's health",
-                    "A type of food",
-                    "A military fortress",
-                    "An ancient philosopher"
-                ],
-                "answer": 0,
-                "feedback": "Correct! 'Galaktotrofoussa' shows Mary nourishing Christ, beloved by mothers praying for their children's well-being."
-            },
-            "reward": {
-                "title": "Blessed bread (prosphoro) from monastery",
-                "provider": "Monastery of Panagia Galaktotrofoussa",
-                "codeHash": "8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a"
-            },
-            "id": 309
-        },
-        {
-            "name": "Monastery of Saint Ierotheos, Megara",
-            "lat": 37.9950,
-            "lng": 23.3425,
-            "image": "images/st_ierotheos_megara.jpg",
-            "description": "Women's monastery dating to 12th century Byzantine period. Dedicated to Saint Hierotheos, early Bishop of Athens. Historic female monastic center.",
-            "audioText": "You are at the Monastery of Saint Ierotheos (Hierotheos) in Megara, a women's monastery with roots in the 12th-century Byzantine period. Saint Hierotheos was one of the earliest Bishops of Athens, a disciple of Saint Paul the Apostle and companion of Saint Dionysius the Areopagite. According to tradition, Hierotheos was present at the Dormition of the Virgin Mary and composed the first hymns sung at her funeral. This makes him one of the most ancient and venerated figures in Athenian Christian history. The monastery dedicated to him serves as an important center of female monasticism in the Megara region. The nuns follow the cenobitic (communal) rule, gathering for prayer multiple times daily in the katholikon, sharing meals in the refectory, and working together to support the monastery. Women's monasteries have played a crucial role in Greek Orthodox tradition, providing spaces for spiritual dedication outside marriage while also serving surrounding communities through hospitality, education, and charitable work. The monastery preserves Byzantine architectural elements and maintains ancient liturgical traditions. The peaceful atmosphere allows the nuns to dedicate themselves fully to prayer, manual work, and the preservation of Orthodox spirituality.",
-            "quiz": {
-                "question": "Who was Saint Ierotheos (Hierotheos)?",
-                "options": [
-                    "Early Bishop of Athens, disciple of Paul, present at Virgin Mary's Dormition",
-                    "A Roman emperor",
-                    "Inventor of democracy",
-                    "Olympic athlete"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Saint Hierotheos was among the earliest Christian bishops, connected to both Saint Paul and the Virgin Mary."
-            },
-            "reward": {
-                "title": "Handmade monastery crafts",
-                "provider": "Monastery of Saint Ierotheos",
-                "codeHash": "9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b"
-            },
-            "id": 310
-        },
-        {
-            "name": "Monastery of Faneromeni, Salamis",
-            "lat": 37.9833,
-            "lng": 23.4667,
-            "image": "images/faneromeni_salamis.jpg",
-            "description": "Women's monastery on Salamis island founded by Saint Laurentius who walked on water following Virgin Mary's vision. Historic island convent.",
-            "audioText": "You are at the Monastery of Panagia Faneromeni on Salamis island, founded by Saint Laurentius (Lavrentios) following a miraculous vision. The monastery's location in the Faneromeni area on the northwestern part of the island is itself the result of divine intervention. Saint Laurentius, born Lampros Kanellos, lived in Megara. The Virgin Mary appeared to him three times, persistently directing him to travel to Salamis to find her icon. Following her instructions, he crossed the sea by walking on his cape as the Panagia had shown him. He then went to the ruins of an earlier church, where he found the icon. With the help of local inhabitants, he built the Church of Panagia Faneromeni—meaning 'the Revealed One'—became a monk, and founded a male monastery. Later in life, he retreated to a small hermitage on the mountain, which still survives. Today his tomb and holy relics rest before the altar in the church. The monastery later transitioned to a women's community. The name 'Faneromeni' celebrates how the Virgin Mary revealed herself and her icon to Saint Laurentius, making this a place of divine manifestation. The island setting adds to the monastery's special character.",
-            "quiz": {
-                "question": "How did Saint Laurentius reach Salamis to find the Virgin's icon?",
-                "options": [
-                    "He walked on water across the sea on his cape, as the Virgin Mary instructed",
-                    "He swam across",
-                    "He took a modern ferry",
-                    "He flew by airplane"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Saint Laurentius miraculously walked on his cape across the water following the Virgin's triple vision."
-            },
-            "reward": {
-                "title": "Salamis island monastery tour",
-                "provider": "Monastery of Faneromeni",
-                "codeHash": "0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c"
-            },
-            "id": 311
-        },
-        {
-            "name": "Monastery of Saint Meletios, Kithairona",
-            "lat": 38.1000,
-            "lng": 23.2500,
-            "image": "images/st_meletios_kithairona.jpg",
-            "description": "Women's monastery on Mount Kithairon. Remote mountain hermitage for female monasticism. Wilderness setting on legendary mountain from Greek mythology.",
-            "audioText": "You are at the Monastery of Saint Meletios on Mount Kithairon, one of the most remote and atmospheric women's monasteries in Attica. Mount Kithairon is steeped in Greek mythology—this is the mountain where the infant Oedipus was exposed, where the Bacchae held their frenzied rites to Dionysus, and where the tragic events of many ancient myths unfolded. The Christian monastery transformed this mythological landscape into a place of prayer and asceticism. Saint Meletios the Confessor was a 4th-century defender of Orthodox theology during the Arian controversy, eventually becoming Patriarch of Antioch. The monastery dedicated to him provides a wilderness setting ideal for female monasticism's contemplative life. The nuns live in isolation, following the ancient rhythms of monastic prayer, fasting, and manual work. The mountain location requires physical hardship to reach, making it a true ascetic environment. This remoteness protects the monastic life from worldly distractions. The monastery serves as a spiritual fortress where the nuns can dedicate themselves completely to God. Pilgrims who make the difficult journey to visit experience the authentic spirit of desert monasticism transplanted to the Greek mountains.",
-            "quiz": {
-                "question": "What makes Mount Kithairon historically significant?",
-                "options": [
-                    "Legendary mountain from Greek mythology, now home to Christian monastery",
-                    "It was built last year",
-                    "It contains shopping malls",
-                    "It is underwater"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Kithairon was central to Greek myths including Oedipus, now transformed into a place of Christian asceticism."
-            },
-            "reward": {
-                "title": "Mountain hiking pilgrimage blessing",
-                "provider": "Monastery of Saint Meletios",
-                "codeHash": "1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d"
-            },
-            "id": 312
-        },
-        {
-            "name": "Monastery of Saint Gerasimos, Salamis",
-            "lat": 37.9700,
-            "lng": 23.5000,
-            "image": "images/st_gerasimos_salamis.jpg",
-            "description": "Women's monastery on Salamis island. Female monastic community in the Saronic Gulf. Island convent under Metropolis of Megara and Salamis.",
-            "audioText": "You are at the Monastery of Saint Gerasimos on Salamis island, a women's monastery serving the island's spiritual needs. Saint Gerasimos of the Jordan was a 5th-century monk who lived in asceticism in the Judean desert near the Jordan River. According to his life story, he removed a thorn from a lion's paw, and the grateful lion became his companion, helping him with monastery tasks. This beautiful story of harmony between saint and nature has made Gerasimos beloved in Orthodox tradition. The monastery on Salamis provides a monastic community for women drawn to dedicated religious life. Island monasteries have a special character—the surrounding sea creates natural separation from the world while the island community remains close-knit. The nuns support themselves through various crafts and agricultural work while maintaining their prayer schedule. Salamis, famous as the site of the great naval battle where the Greeks defeated the Persians in 480 BC, now hosts several monasteries, showing how the island transformed from military glory to spiritual peace. The monastery welcomes pilgrims, especially on Saint Gerasimos' feast day, March 4th, celebrating the desert monk's example of simplicity and prayer.",
-            "quiz": {
-                "question": "What is Saint Gerasimos famous for?",
-                "options": [
-                    "Desert monk who befriended a lion after removing a thorn from its paw",
-                    "Building the Parthenon",
-                    "Inventing ships",
-                    "Olympic athlete"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Saint Gerasimos' gentle relationship with a grateful lion shows harmony between holiness and nature."
-            },
-            "reward": {
-                "title": "Monastery handcrafted icons",
-                "provider": "Monastery of Saint Gerasimos",
-                "codeHash": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e"
-            },
-            "id": 313
-        },
-        {
-            "name": "Monastery of Saint John the Successor, Makrinos",
-            "lat": 38.0200,
-            "lng": 23.3400,
-            "image": "images/st_john_makrinos.jpg",
-            "description": "Women's monastery in Makrinos, Megara region. Female convent in rural Attica. Orthodox monastic community under metropolitan oversight.",
-            "audioText": "You are at the Monastery of Saint John the Successor in Makrinos, a women's monastery in the Megara region. The title 'Successor' (Diadochos in Greek) refers to Saint John Climacus, the 6th-century monk and abbot of Saint Catherine's Monastery on Mount Sinai, author of 'The Ladder of Divine Ascent'—one of the most important spiritual texts in Orthodox Christianity. This work describes thirty steps of spiritual ascent toward union with God, each corresponding to a year of Christ's hidden life before his ministry. Saint John Climacus earned the title 'of the Ladder' (Klimakos) from this work, and 'Successor' because he succeeded previous great spiritual fathers. The monastery dedicated to him provides a contemplative environment for nuns following his spiritual teachings. The rural location in Makrinos offers the peace necessary for the monastic life's interior work. The nuns follow a daily schedule of communal prayer, private meditation, manual labor, and study. The monastery preserves ancient monastic traditions while serving modern spiritual seekers. Women visitors can stay in the guest house, attend services, and receive spiritual guidance. The monastery demonstrates how Byzantine monastic tradition continues vibrantly in contemporary Greece.",
-            "quiz": {
-                "question": "What is Saint John the Successor (Climacus) famous for?",
-                "options": [
-                    "Writing 'The Ladder of Divine Ascent,' a foundational Orthodox spiritual text",
-                    "Building the Acropolis",
-                    "Inventing democracy",
-                    "Discovering America"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Saint John Climacus' 'Ladder' describes thirty steps of spiritual ascent, profoundly influencing Orthodox monasticism."
-            },
-            "reward": {
-                "title": "Spiritual retreat weekend at monastery",
-                "provider": "Monastery of Saint John",
-                "codeHash": "3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f"
-            },
-            "id": 314
-        },
-        {
-            "name": "Monastery of Prophet Elias, Villia",
-            "lat": 38.1833,
-            "lng": 23.6667,
-            "image": "images/prophet_elias_villia.jpg",
-            "description": "Women's monastery on mountain peak in northern Attica near Villia village. Prophet Elijah hermitage site. Female monastic community in mountain setting.",
-            "audioText": "You are at the Monastery of Prophet Elias in Villia, a women's monastery occupying a mountain peak in northern Attica. Prophet Elijah is one of the greatest figures of the Old Testament—the prophet who called down fire from heaven, who was fed by ravens in the wilderness, and who was taken up to heaven in a chariot of fire. In Orthodox tradition, Elijah represents the prophetic tradition and ascetic life, making him the perfect patron for mountaintop monasteries. Throughout Greece, the highest peaks are crowned with chapels or monasteries dedicated to Prophet Elias, symbolizing his ascent to heaven and the spiritual heights monks seek to attain. This monastery near Villia village provides an authentic mountain monastic experience. The nuns live in simplicity, following ancient ascetic practices while welcoming pilgrims who climb to this elevated sanctuary. The Prophet Elias feast day, July 20th, draws crowds who make the pilgrimage to celebrate with Divine Liturgy and festivities. The mountain location offers spectacular views across northern Attica and Boeotia, creating a sense of being suspended between earth and heaven—the proper atmosphere for contemplating divine mysteries.",
-            "quiz": {
-                "question": "Why are mountaintop monasteries often dedicated to Prophet Elias?",
-                "options": [
-                    "He ascended to heaven in a chariot of fire, symbolizing spiritual heights",
-                    "He lived in the sea",
-                    "He built the Parthenon",
-                    "He invented elevators"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Prophet Elijah's heavenly ascent makes him the perfect patron for monasteries on spiritual and physical heights."
-            },
-            "reward": {
-                "title": "Prophet Elias feast day celebration invitation",
-                "provider": "Monastery of Prophet Elias",
-                "codeHash": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a"
-            },
-            "id": 315
-        },
-        {
-            "name": "Monastery of Panagia Gorgoepikoos, Mandra",
-            "lat": 38.0700,
-            "lng": 23.4950,
-            "image": "images/gorgoepikoos_mandra.jpg",
-            "description": "Women's monastery in Mandra dedicated to Virgin Mary as 'Quick-to-Hear' prayers. Female convent in western Attica serving local communities.",
-            "audioText": "You are at the Monastery of Panagia Gorgoepikoos in Mandra, a women's monastery dedicated to the Virgin Mary under the title 'Quick-to-Hear' or 'Swift-to-Hearken.' This epithet reflects the Orthodox belief that the Theotokos is especially responsive to prayers, swiftly interceding with her Son on behalf of those who call upon her. The Gorgoepikoos icon type shows the Virgin Mary and Christ Child in a tender embrace, emphasizing her maternal love and accessibility. This makes her especially beloved to Orthodox faithful who feel confident approaching her with their needs and troubles. The monastery in Mandra serves the surrounding western Attica communities, providing a place of prayer, retreat, and spiritual counsel. The nuns follow the traditional monastic rule, gathering for services multiple times daily while also engaging in manual work to support the monastery. They welcome women seeking spiritual guidance or respite from life's pressures. The monastery hosts special celebrations on Marian feast days, especially August 15th (Dormition) and March 25th (Annunciation). The community demonstrates how female monasticism continues to thrive in modern Greece, adapting to contemporary needs while preserving ancient traditions.",
-            "quiz": {
-                "question": "What does 'Gorgoepikoos' mean?",
-                "options": [
-                    "'Quick-to-Hear' or 'Swift-to-Hearken,' showing Mary's responsiveness to prayers",
-                    "A type of food",
-                    "A military rank",
-                    "An ancient city"
-                ],
-                "answer": 0,
-                "feedback": "Correct! 'Gorgoepikoos' emphasizes the Virgin Mary's swift and compassionate response to those who pray to her."
-            },
-            "reward": {
-                "title": "Blessed icon of Panagia Gorgoepikoos",
-                "provider": "Monastery of Panagia Gorgoepikoos",
-                "codeHash": "5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b"
-            },
-            "id": 316
-        },
-        {
-            "name": "Monastery of Saint Nicholas, Salamis",
-            "lat": 37.9550,
-            "lng": 23.5100,
-            "image": "images/st_nicholas_salamis.jpg",
-            "description": "Women's monastery on Salamis island dedicated to Saint Nicholas, patron of sailors. Island convent serving maritime communities of Saronic Gulf.",
-            "audioText": "You are at the Monastery of Saint Nicholas on Salamis island, a women's monastery dedicated to the patron saint of sailors. Saint Nicholas of Myra, the 4th-century bishop whose generosity inspired the Santa Claus tradition, is universally beloved in Greek Orthodoxy, especially by seafaring communities. Every Greek ship carries an icon of Saint Nicholas, and coastal churches almost invariably honor him. On Salamis—the island famous for the great naval battle of 480 BC—Saint Nicholas' patronage is especially appropriate. The monastery serves both the monastic community and the island's inhabitants. The nuns maintain the traditional liturgical cycle, pray for sailors' safety, and welcome pilgrims who arrive by ferry from Piraeus. Island monasteries have a unique quality—the surrounding sea creates natural separation from mainland concerns while fostering close bonds within the island community. The monastery celebrates Saint Nicholas' feast day on December 6th with special services and traditional festivities. Salamis, strategically located in the Saronic Gulf, has transformed from ancient naval power to a place of spiritual peace, with its monasteries providing continuity from Byzantine times to the present. The monastery demonstrates how Orthodox faith remains woven into maritime Greek life.",
-            "quiz": {
-                "question": "Why is Saint Nicholas especially venerated on Salamis?",
-                "options": [
-                    "As patron saint of sailors, he protects the island's maritime community",
-                    "He built the Parthenon",
-                    "He invented ships",
-                    "He was born on Salamis"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Saint Nicholas' patronage of sailors makes him beloved on this historic naval island in the Saronic Gulf."
-            },
-            "reward": {
-                "title": "Saint Nicholas icon and maritime blessing",
-                "provider": "Monastery of Saint Nicholas",
-                "codeHash": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c"
-            },
-            "id": 317
-        },
-        {
-            "name": "Church of Panagia, Salamis Town",
-            "lat": 37.9644,
-            "lng": 23.4975,
-            "image": "images/panagia_salamis_town.jpg",
-            "description": "Main parish church of Salamis town dedicated to Virgin Mary. Central Orthodox church serving island community in Saronic Gulf.",
-            "audioText": "You are at the Church of Panagia in Salamis town, the main parish church serving the island's central community. Salamis has been inhabited continuously for over 3,000 years, and Orthodox churches have stood on this island since early Byzantine times. As the principal parish church, this serves as the spiritual heart of Salamis town, where locals gather for Sunday liturgies, feast days, baptisms, weddings, and funerals—marking every stage of life with sacred ritual. The church is dedicated simply to the Panagia, the All-Holy Virgin Mary, reflecting her central role in Orthodox piety. Salamis' history is extraordinary—this is where the outnumbered Greek fleet decisively defeated the Persian invasion in 480 BC, saving Greece and Western civilization. The narrow straits where Themistocles' strategy triumphed are visible from the island. Today, Salamis is a peaceful place where ferries connect it to Piraeus, and the church serves a community that blends ancient heritage with modern life. The church's architecture follows traditional Orthodox design with an iconostasis separating the nave from the sanctuary. The parish maintains Greek Orthodox traditions while adapting to contemporary island life, embodying how Orthodoxy remains central to Greek identity.",
-            "quiz": {
-                "question": "What makes Salamis island historically significant?",
-                "options": [
-                    "Site of 480 BC naval battle where Greeks defeated Persian invasion",
-                    "It was built last year",
-                    "It contains pyramids",
-                    "It is made of gold"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The Battle of Salamis was one of history's most decisive naval victories, saving Greece from Persian conquest."
-            },
-            "reward": {
-                "title": "Salamis historical sites tour ticket",
-                "provider": "Church of Panagia Parish",
-                "codeHash": "7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d"
-            },
-            "id": 318
-        },
-        {
-            "name": "Cathedral of Lavrio",
-            "lat": 37.7167,
-            "lng": 24.0564,
-            "image": "images/cathedral_lavrio.jpg",
-            "description": "Modern Orthodox cathedral in Lavrio, historic silver mining town. Episcopal center serving southern Attica coastal communities and port.",
-            "audioText": "You are at the Orthodox Cathedral of Lavrio (Laurion), the episcopal center of this historic mining town in southern Attica. Lavrio's history stretches back to ancient times when its silver mines funded Athens' golden age and powered the fleet that defeated Persia at Salamis. The mines made Athens wealthy enough to build the Parthenon and maintain its democracy. Modern Lavrio grew dramatically in the late 19th century when French and Greek companies reopened the ancient mines, bringing workers from across Greece and creating a cosmopolitan industrial town. The cathedral serves this community, providing spiritual anchor for a population shaped by mining, maritime trade, and now ferry connections to the Cyclades. The church's architecture reflects modern Orthodox design while maintaining traditional elements. As a regional cathedral, it hosts not only weekly liturgies but also major celebrations, episcopal visits, and community gatherings. Lavrio's transformation from ancient mining center to modern port city mirrors many Greek towns' evolution, and the cathedral represents continuity of faith through all these changes. The coastal location means many parishioners are involved in maritime trades, making the church a gathering place for sailors, miners, and their families.",
-            "quiz": {
-                "question": "What made ancient Lavrio (Laurion) historically important?",
-                "options": [
-                    "Silver mines that funded Athens' golden age and fleet that defeated Persia",
-                    "It was built last year",
-                    "It contains pyramids",
-                    "It invented democracy"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Lavrio's silver mines were crucial to Athens' wealth, power, and victory over the Persian invasion."
-            },
-            "reward": {
-                "title": "Lavrio mining museum and port tour",
-                "provider": "Cathedral Parish Office",
-                "codeHash": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e"
-            },
-            "id": 319
-        },
-        {
-            "name": "Church of Agios Nikolaos, Koropi",
-            "lat": 37.8978,
-            "lng": 23.8750,
-            "image": "images/st_nikolaos_koropi.jpg",
-            "description": "Regional parish church in Koropi, Mesogaia. Saint Nicholas Orthodox church serving farming community in eastern Attica plains.",
-            "audioText": "You are at the Church of Agios Nikolaos in Koropi, a regional parish church serving this important town in the Mesogaia plain. Koropi has been a significant agricultural center for millennia, benefiting from the fertile soil and water resources of eastern Attica. The church dedicated to Saint Nicholas serves a community traditionally involved in farming, olive cultivation, and vineyards. While Saint Nicholas is universally known as patron of sailors, he is also venerated as protector of travelers, merchants, and those in need—making him appropriate for this inland agricultural town. The church functions as the community's spiritual center, hosting weekly Divine Liturgies, feast day celebrations, and the sacramental life that marks every stage from baptism to funeral. Koropi's proximity to Athens International Airport has transformed it from purely agricultural village to a more diverse community, but the church remains the heart of local identity. The architecture follows traditional Orthodox patterns with icons, chandeliers, and an iconostasis. The parish maintains Greek customs and traditions while serving a modernizing population. The church demonstrates how Orthodox faith continues to anchor Greek communities even as economic and social life evolves.",
-            "quiz": {
-                "question": "What traditional economic activity has shaped Koropi's community?",
-                "options": [
-                    "Agriculture, especially olive cultivation and vineyards in the fertile Mesogaia plain",
-                    "Ship building",
-                    "Mining",
-                    "Tourism"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Koropi has been an agricultural center for millennia, blessed with fertile soil in the Mesogaia region."
-            },
-            "reward": {
-                "title": "Local olive oil and wine tasting",
-                "provider": "Church Parish Community",
-                "codeHash": "9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f"
-            },
-            "id": 320
-        },
-        {
-            "name": "Church of Panagia, Markopoulo",
-            "lat": 37.8850,
-            "lng": 23.9333,
-            "image": "images/panagia_markopoulo.jpg",
-            "description": "Regional pilgrimage site in Markopoulo Mesogaias. Virgin Mary church with festival celebrations. Traditional Orthodox church in wine-producing region.",
-            "audioText": "You are at the Church of Panagia in Markopoulo Mesogaias, a regional pilgrimage site in the heart of Attica's wine country. Markopoulo is famous for its vineyards, especially the indigenous Savatiano grape that produces the distinctive retsina wine. The church dedicated to the Panagia serves not just as a parish church but as a pilgrimage destination, especially during major Marian feast days. The most important celebration is August 15th, the Dormition of the Virgin, when the church hosts a grand panegyri (festival) with liturgy, procession, music, dancing, and traditional food. These celebrations maintain ancient customs, connecting modern Greeks to their Byzantine and even pagan festival heritage. The church's role extends beyond Sunday liturgies to mark the agricultural calendar—prayers for successful harvest, blessing of new wine, thanksgiving after grape-picking. This integration of sacred and agricultural life shows how Orthodoxy remains woven into everyday existence. The church preserves traditional iconography, liturgical practices, and the sense of the sacred pervading all aspects of life. Visitors experience authentic Greek village spirituality, where church, community, and land form an inseparable whole.",
-            "quiz": {
-                "question": "What makes Markopoulo's Church of Panagia significant?",
-                "options": [
-                    "Regional pilgrimage site in wine country, hosting major festivals blending faith and agriculture",
-                    "It was built last week",
-                    "It contains modern art galleries",
-                    "It is underground"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The church integrates Orthodox devotion with agricultural life, especially grape harvest and wine production traditions."
-            },
-            "reward": {
-                "title": "Traditional panegyri festival invitation",
-                "provider": "Church of Panagia Parish",
-                "codeHash": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a"
-            },
-            "id": 321
-        },
-        {
-            "name": "Church of Panagia, Porto Rafti",
-            "lat": 37.8833,
-            "lng": 24.0167,
-            "image": "images/panagia_porto_rafti.jpg",
-            "description": "Coastal parish church in Porto Rafti seaside town. Virgin Mary church serving fishing village and beach resort community on Attica's east coast.",
-            "audioText": "You are at the Church of Panagia in Porto Rafti, a coastal parish church serving this charming seaside town on Attica's east coast. Porto Rafti takes its name from the 'Tailor' (raftis in Greek)—a large ancient statue on a small island in the bay, probably representing a priest or deity. The town has evolved from a quiet fishing village to a popular beach resort while maintaining its traditional character. The church dedicated to the Panagia serves both year-round residents and summer visitors, creating a unique parish that swells during vacation season. Maritime communities have always shown special devotion to the Virgin Mary, seeing her as protector of those who venture onto the sea. The church hosts not just regular liturgies but also special services for Dormition (August 15), celebrated with particular enthusiasm in coastal towns. Porto Rafti's beautiful natural harbor has been used since ancient times, and archaeological remains dot the area. The church represents continuity—from ancient seafarers to Byzantine sailors to modern fishermen and tourists, this coastline has remained a place where people gather, work, and pray. The seaside location creates a special atmosphere where the sound of waves blends with liturgical chanting.",
-            "quiz": {
-                "question": "Why is the Virgin Mary especially venerated in coastal towns like Porto Rafti?",
-                "options": [
-                    "Maritime communities see her as protector of those who venture onto the sea",
-                    "She invented fishing",
-                    "She built the harbor",
-                    "She was born there"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Coastal communities traditionally seek the Virgin Mary's protection for fishermen and all who depend on the sea."
-            },
-            "reward": {
-                "title": "Seaside blessing ceremony participation",
-                "provider": "Church of Panagia Parish",
-                "codeHash": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b"
-            },
-            "id": 322
-        },
-        {
-            "name": "Church of Prophet Elias, Avlona",
-            "lat": 38.1900,
-            "lng": 23.6900,
-            "image": "images/prophet_elias_avlona.jpg",
-            "description": "Mountain chapel in Avlona village, northern Attica. Prophet Elijah hilltop church with panoramic views. Traditional feast day celebrations July 20th.",
-            "audioText": "You are at the Church of Prophet Elias in Avlona village, a mountain chapel in northern Attica near the foothills of Mount Parnitha. Following Greek tradition, this church to Prophet Elijah occupies an elevated position, symbolizing both the prophet's ascent to heaven and the spiritual heights believers strive to reach. From this vantage point, you can see across northern Attica toward Boeotia, creating a sense of standing between earth and sky. The chapel serves the village of Avlona and surrounding areas, but truly comes alive on the Prophet Elias feast day, July 20th, when crowds climb to celebrate with Divine Liturgy followed by traditional festivities—music, dancing, food, and fellowship. These mountaintop celebrations maintain customs stretching back to Byzantine times, blending Christian devotion with echoes of ancient mountain worship. The church is simple but beloved, embodying the Greek connection between natural landscape and sacred space. During the Greek Civil War, an icon from the remote Chapel of Saint Marina was temporarily kept here for safekeeping. Today, the church remains a spiritual landmark for the region, marking the agricultural calendar and bringing the community together on its patron feast.",
-            "quiz": {
-                "question": "Why are Prophet Elias churches traditionally built on hilltops?",
-                "options": [
-                    "To symbolize Prophet Elijah's ascent to heaven and spiritual heights believers seek",
-                    "Because flat land is expensive",
-                    "To serve as military fortresses",
-                    "Because he lived on mountains"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Mountaintop locations honor Elijah's ascension and represent the spiritual elevation sought through prayer."
-            },
-            "reward": {
-                "title": "July 20 feast day celebration invitation",
-                "provider": "Village of Avlona",
-                "codeHash": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"
-            },
-            "id": 323
-        },
-        {
-            "name": "Church of Agios Nikolaos, Keratea",
-            "lat": 37.7850,
-            "lng": 23.9867,
-            "image": "images/st_nikolaos_keratea.jpg",
-            "description": "Regional church in Keratea, southern Mesogaia. Saint Nicholas Orthodox church serving village community in southeastern Attica.",
-            "audioText": "You are at the Church of Agios Nikolaos in Keratea, a village church in southern Mesogaia, southeastern Attica. Keratea occupies a strategic position between the coast and interior, historically serving as a waypoint for travelers and merchants moving between Athens and the ports of southeastern Attica. Saint Nicholas, patron of travelers, merchants, and those in need, is the perfect dedicatee for a church in such a location. The church serves the local community, marking the rhythm of life through liturgical celebrations. Keratea maintains its traditional character despite proximity to Athens, and the church remains central to village identity. The parish gathers here for Sunday liturgies, major feast days like December 6th (Saint Nicholas' day), and the sacramental events that punctuate family life. The church preserves Orthodox liturgical tradition while adapting to modern needs. The iconostasis displays traditional iconography, and the liturgical cycle follows the ancient pattern. Village churches like this one embody the intimate scale of Orthodox parish life, where priest and parishioners know each other personally, and the church building itself carries memories of generations. This intimate spirituality contrasts with great cathedrals but offers its own profound experience of community and continuity.",
-            "quiz": {
-                "question": "Why is Saint Nicholas an appropriate patron for Keratea's church?",
-                "options": [
-                    "As patron of travelers and merchants, he protects a waypoint village between coast and interior",
-                    "He built the village",
-                    "He invented roads",
-                    "He was born in Keratea"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Saint Nicholas' patronage of travelers fits Keratea's historical role as a strategic crossroads village."
-            },
-            "reward": {
-                "title": "Village hiking trail map and local products",
-                "provider": "Church Parish Community",
-                "codeHash": "3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d"
-            },
-            "id": 324
-        },
-        {
-            "name": "Church of Saint Dionysios, Piraeus",
-            "lat": 37.9480,
-            "lng": 23.6520,
-            "image": "images/st_dionysios_piraeus.jpg",
-            "description": "Modern Orthodox church in Piraeus dedicated to Saint Dionysius the Areopagite. Contemporary cathedral serving port city neighborhoods.",
-            "audioText": "You are at the Church of Saint Dionysios in Piraeus, dedicated to Saint Dionysius the Areopagite—one of the most significant figures in early Christian Athens. According to the Acts of the Apostles, Dionysius was a member of the Areopagus (Athens' high court) who converted to Christianity after hearing Saint Paul preach on Mars Hill around 51 AD. He became the first Bishop of Athens, making him the founding father of Athenian Christianity. Later tradition attributed to him mystical theological writings that profoundly influenced Christian thought. The church in Piraeus honors this connection between Athens and early Christianity. As a modern church serving Piraeus neighborhoods, it demonstrates how new parishes continue to be established to serve Greece's urban populations. The architecture follows contemporary Orthodox design while maintaining traditional liturgical function. The parish provides not just Sunday liturgies but also catechism classes, youth programs, charitable work, and community services. Urban parishes like this one face unique challenges—serving transient populations, competing with secular entertainment, and maintaining Orthodox identity in cosmopolitan settings. Yet they also show Orthodoxy's continuing relevance to modern Greek life, adapting ancient tradition to contemporary needs.",
-            "quiz": {
-                "question": "Who was Saint Dionysius the Areopagite?",
-                "options": [
-                    "Member of Athens high court converted by Saint Paul, first Bishop of Athens",
-                    "A Roman emperor",
-                    "Inventor of democracy",
-                    "Olympic athlete"
-                ],
-                "answer": 0,
-                "feedback": "Correct! Saint Dionysius was Athens' first Christian convert from the elite, becoming the city's first bishop."
-            },
-            "reward": {
-                "title": "Early Christianity in Athens lecture",
-                "provider": "Church of Saint Dionysios",
-                "codeHash": "4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e"
-            },
-            "id": 325
-        },
-        {
-            "name": "Church of Prophet Elias, Piraeus",
-            "lat": 37.9535,
-            "lng": 23.6335,
-            "image": "images/prophet_elias_piraeus.jpg",
-            "description": "Hill church in Piraeus with panoramic port views. Prophet Elijah chapel overlooking maritime city and Saronic Gulf. Traditional hilltop sanctuary.",
-            "audioText": "You are at the Church of Prophet Elias on a hill in Piraeus, overlooking the port and the Saronic Gulf. This elevated location follows the Greek tradition of placing churches dedicated to Prophet Elijah on high ground, symbolizing his ascent to heaven in a chariot of fire and the spiritual heights believers aspire to reach. From this vantage point, you command spectacular views across Greece's greatest port—the commercial harbor, passenger terminals, naval base, and yacht marina spread below, with ships departing for Greek islands and beyond. The church serves both as a neighborhood parish and as a pilgrimage destination, especially on the Prophet Elias feast day, July 20th, when Piraeans climb the hill to celebrate with liturgy and festivities. The maritime setting creates a unique atmosphere—the sound of ship horns blending with church bells, the sight of vessels entering and leaving harbor visible during services. Prophet Elijah, though an Old Testament figure, is deeply woven into Greek maritime culture. Sailors and fishermen seek his protection alongside Saint Nicholas. The church demonstrates how Orthodox faith pervades all aspects of Greek life, from mountaintops to seaports, connecting ancient prophetic tradition to contemporary urban existence.",
-            "quiz": {
-                "question": "What makes this hilltop location significant for a Prophet Elias church?",
-                "options": [
-                    "Elevated position symbolizes Elijah's heavenly ascent and offers panoramic port views",
-                    "It was the cheapest land",
-                    "It contains buried treasure",
-                    "It is closest to the sea"
-                ],
-                "answer": 0,
-                "feedback": "Correct! The hilltop honors Elijah's ascension while providing commanding views of Piraeus' maritime activities."
-            },
-            "reward": {
-                "title": "Sunset port viewing and blessing",
-                "provider": "Church of Prophet Elias",
-                "codeHash": "5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f"
-            },
-        "id": 326
+        "name": "Megaron Athens Concert Hall",
+        "lat": 37.9806,
+        "lng": 23.7533,
+        "description": "A world-class performing arts venue with exceptional acoustics.",
+        "audioText": "Welcome to Megaron, the Athens Concert Hall. Inaugurated in 1991, this venue boasts some of the best acoustics in the world. It hosts classical music, opera, ballet, and major conferences. The Megaron has become a focal point for the performing arts in Greece, elevating Athens to the ranks of major global cultural capitals.",
+        "quiz": {
+            "question": "In what year was the Megaron Athens Concert Hall inaugurated?",
+            "options": [
+                "1991",
+                "1985",
+                "2004",
+                "1975"
+            ],
+            "answer": 0,
+            "feedback": "Correct! It opened its doors to the public in 1991."
+        },
+        "reward": {
+            "title": "Free guided tour of the Concert Hall",
+            "provider": "Megaron Info Desk",
+            "codeHash": "1dd384eddfc986e12edd55005d64d24644a51a0f97c7cb8a3bb4e15e73a2ed38"
+        },
+        "id": 181
+    },
+    {
+        "name": "Hellenic Maritime Museum",
+        "lat": 37.9317,
+        "lng": 23.6447,
+        "description": "The largest maritime museum in Greece, exploring the nation's rich naval history.",
+        "audioText": "Explore the Hellenic Maritime Museum located at the Zea Marina in Piraeus. This museum traces the naval history of the Greeks from prehistoric times to the present day. You can see models of ancient triremes, navigational instruments, and artifacts from the Greek War of Independence, highlighting the unbreakable bond between the Greeks and the sea.",
+        "quiz": {
+            "question": "Where is the Hellenic Maritime Museum located?",
+            "options": [
+                "Zea Marina in Piraeus",
+                "Syntagma Square",
+                "Cape Sounion",
+                "Flisvos Marina"
+            ],
+            "answer": 0,
+            "feedback": "Correct! It is located at Zea Marina, a historic harbor in Piraeus."
+        },
+        "reward": {
+            "title": "20% off admission",
+            "provider": "Hellenic Maritime Museum",
+            "codeHash": "a3fc148796d351f28299a550c3518af6048794cb74e33147e91f47da16a57976"
+        },
+        "id": 182
+    },
+    {
+        "name": "Averof Battleship Museum",
+        "lat": 37.9332,
+        "lng": 23.6841,
+        "description": "A legendary armored cruiser that served as the flagship of the Hellenic Navy.",
+        "audioText": "You are looking at the Georgios Averof, a legendary armored cruiser that served as the flagship of the Hellenic Navy. It played a crucial role in the Balkan Wars of 1912 to 1913, helping Greece secure naval dominance in the Aegean Sea. Remarkably, it is one of the only active museum ships in the world that is still technically in commission.",
+        "quiz": {
+            "question": "During which major conflict did the Averof secure Greek naval dominance?",
+            "options": [
+                "The Balkan Wars",
+                "World War II",
+                "The Greek War of Independence",
+                "The Cold War"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Averof was instrumental during the Balkan Wars (1912-1913)."
+        },
+        "reward": {
+            "title": "Free commemorative postcard",
+            "provider": "Averof Gift Shop",
+            "codeHash": "9c333912dc86c7393b21407c30cf6121983ff81c2609a017c7be17dfa61275a1"
+        },
+        "id": 183
+    },
+    {
+        "name": "Benaki Museum of Islamic Art",
+        "lat": 37.9774,
+        "lng": 23.7198,
+        "description": "A stunning collection of Islamic art spanning from India to Spain.",
+        "audioText": "Welcome to the Benaki Museum of Islamic Art. Located in the historical center of Athens, this museum houses over 8,000 works of art from the Middle East, Iran, Turkey, North Africa, and India. The collection spans from the dawn of Islam up to the 19th century, featuring exquisite ceramics, textiles, and woodcarvings. Don't miss the 17th-century reception room from a Cairo mansion.",
+        "quiz": {
+            "question": "Which specific 17th-century room is a highlight of the museum?",
+            "options": [
+                "A reception room from a Cairo mansion",
+                "A bathhouse from Istanbul",
+                "A royal tent from Persia",
+                "A courtyard from Cordoba"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The museum features a spectacular reconstructed reception room from 17th-century Cairo."
+        },
+        "reward": {
+            "title": "10% off museum publications",
+            "provider": "Benaki Museum Shop",
+            "codeHash": "7dac42358373540988d0a694bb1642639db19da81206d4bef10a205981419224"
+        },
+        "id": 184
+    },
+    {
+        "name": "Kotsanas Museum of Ancient Greek Technology",
+        "lat": 37.9789,
+        "lng": 23.738,
+        "description": "An interactive exhibition of the incredible technological inventions of the ancient Greeks.",
+        "audioText": "Discover the high-tech world of antiquity at the Kotsanas Museum of Ancient Greek Technology. This unique museum features fully functional models of ancient inventions, from the automatic doors of Heron to the alarm clock of Plato and the analog computer known as the Antikythera Mechanism. It proves that ancient Greek technology was far more advanced than most people realize.",
+        "quiz": {
+            "question": "Which ancient philosopher's alarm clock is featured in the museum?",
+            "options": [
+                "Plato",
+                "Aristotle",
+                "Socrates",
+                "Pythagoras"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The museum features a working model of Plato's hydraulic alarm clock."
+        },
+        "reward": {
+            "title": "15% off a DIY ancient invention kit",
+            "provider": "Kotsanas Museum Shop",
+            "codeHash": "08c1384c3dae481c189ba4f561b0b2acd8cfa963697ebdcc73bbad8be08f94ff"
+        },
+        "id": 185
+    },
+    {
+        "name": "Ilias Lalaounis Jewelry Museum",
+        "lat": 37.9692,
+        "lng": 23.7275,
+        "description": "A museum dedicated to the art of jewelry and the decorative arts.",
+        "audioText": "You are at the Ilias Lalaounis Jewelry Museum, founded by the renowned Greek jeweler Ilias Lalaounis. The museum showcases over 4,000 pieces of jewelry and micro-sculptures inspired by ancient Greek, Byzantine, and various global cultures. Lalaounis was famous for reviving ancient gold-smithing techniques like granulation and filigree to create modern masterpieces.",
+        "quiz": {
+            "question": "Which ancient gold-smithing technique did Ilias Lalaounis famously revive?",
+            "options": [
+                "Granulation and filigree",
+                "Electroplating",
+                "Diamond cutting",
+                "Lost-wax casting"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Lalaounis revived intricate ancient techniques like granulation and filigree."
+        },
+        "reward": {
+            "title": "Free exhibition guide",
+            "provider": "Lalaounis Museum Desk",
+            "codeHash": "b21ac344ffb9d6030632d2d88ad2a5a39161ca0da7ceb4ed732630db46e6704a"
+        },
+        "id": 186
+    },
+    {
+        "name": "Museum of Greek Folk Musical Instruments",
+        "lat": 37.9744,
+        "lng": 23.7275,
+        "description": "A delightful collection of traditional Greek musical instruments spanning three centuries.",
+        "audioText": "Welcome to the Museum of Greek Folk Musical Instruments, located in an 1840s mansion in Plaka. The collection displays 1,200 popular musical instruments dating from the 18th century to the present. You can listen to the authentic sounds of bouzoukis, lyras, and gaidas (bagpipes) through headphones at the display cases, experiencing the soul of Greek folk traditions.",
+        "quiz": {
+            "question": "What is the 'gaida' displayed in this museum?",
+            "options": [
+                "A traditional Greek bagpipe",
+                "A stringed lute",
+                "A type of drum",
+                "A wooden flute"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The gaida is a traditional Greek bagpipe."
+        },
+        "reward": {
+            "title": "10% off traditional music CDs",
+            "provider": "Folk Museum Shop",
+            "codeHash": "a4b38ea51527c57a6552eff3262e8d4362da5824d479967450b0008d5c088558"
+        },
+        "id": 187
+    },
+    {
+        "name": "Basil & Elise Goulandris Foundation",
+        "lat": 37.9693,
+        "lng": 23.7432,
+        "description": "A spectacular museum showcasing world-class modern and contemporary art.",
+        "audioText": "You are at the Basil and Elise Goulandris Foundation in Pagrati. This extraordinary museum houses one of the most important private collections of modern and contemporary art in the world. Visitors can admire masterpieces by Picasso, Van Gogh, Monet, Degas, and Rodin, alongside prominent Greek artists like Tsarouchis and Moralis, all beautifully displayed in a state-of-the-art facility.",
+        "quiz": {
+            "question": "Which of these famous artists has works displayed at the Goulandris Foundation?",
+            "options": [
+                "Vincent Van Gogh",
+                "Leonardo da Vinci",
+                "Michelangelo",
+                "Rembrandt"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The museum features an incredible collection including works by Van Gogh, Picasso, and Monet."
+        },
+        "reward": {
+            "title": "10% off at the Museum Cafe",
+            "provider": "Goulandris Cafe",
+            "codeHash": "81f99851beb8b252d809b7b07c7e6bdf5460c20c035afe952bbd55f86d598c61"
+        },
+        "id": 188
+    },
+    {
+        "name": "Goulandris Natural History Museum",
+        "lat": 38.0733,
+        "lng": 23.8164,
+        "description": "A leading institution dedicated to the study, conservation, and protection of the natural environment.",
+        "audioText": "Welcome to the Goulandris Natural History Museum in Kifissia. Founded in 1964, the museum is dedicated to educating the public about the rich biodiversity of Greece and the Mediterranean. Its striking exhibits include massive botanical, zoological, geological, and paleontological collections, including impressive full-scale dinosaur replicas and prehistoric fossils found in Greek soil.",
+        "quiz": {
+            "question": "In what year was the Goulandris Natural History Museum founded?",
+            "options": [
+                "1964",
+                "1980",
+                "1950",
+                "2001"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The museum was established in 1964 to promote environmental awareness."
+        },
+        "reward": {
+            "title": "Free botanical bookmark",
+            "provider": "Goulandris Museum Shop",
+            "codeHash": "fda956b3a58c402ecd23f2ab08e784f3923989fb98575ec80ce7f61fca040c56"
+        },
+        "id": 189
+    },
+    {
+        "name": "Epigraphic Museum",
+        "lat": 37.9885,
+        "lng": 23.7324,
+        "description": "The largest museum in the world dedicated to ancient inscriptions.",
+        "audioText": "You are standing at the Epigraphic Museum, the largest of its kind in the world. It houses over 14,000 ancient inscriptions, mostly in Greek, carved on stone. These inscribed slabs are the primary documents of ancient history, recording laws, decrees, treaties, and public accounts. It is a true archive of the ancient world, preserving the very words of the Athenians.",
+        "quiz": {
+            "question": "Approximately how many ancient inscriptions are housed in the Epigraphic Museum?",
+            "options": [
+                "Over 14,000",
+                "About 5,000",
+                "Under 1,000",
+                "Exactly 50,000"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The museum safeguards over 14,000 ancient stone inscriptions."
+        },
+        "reward": {
+            "title": "10% off history books",
+            "provider": "Museum Bookstore",
+            "codeHash": "2f6d176393b882c4763fedb87cc062734afcbf39c1267d1bbe3e78f17eb52795"
+        },
+        "id": 190
+    },
+    {
+        "name": "Herakleidon Museum",
+        "lat": 37.9767,
+        "lng": 23.7176,
+        "description": "A museum blending art, mathematics, and science through interactive exhibits.",
+        "audioText": "Welcome to the Herakleidon Museum in Thissio. Originally focused on fine arts and artists like M.C. Escher, the museum now specializes in the intersection of science, art, and mathematics. Its interactive exhibitions explore themes like 'Eureka: Science, Art and Technology of the Ancient Greeks', making complex scientific principles accessible and fun for visitors of all ages.",
+        "quiz": {
+            "question": "Which famous artist, known for his mathematically inspired woodcuts, was heavily featured in the museum's early years?",
+            "options": [
+                "M.C. Escher",
+                "Pablo Picasso",
+                "Salvador Dali",
+                "Jackson Pollock"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The museum was originally famous for its extensive M.C. Escher exhibitions."
+        },
+        "reward": {
+            "title": "15% off an interactive puzzle",
+            "provider": "Herakleidon Gift Shop",
+            "codeHash": "7a918cef981a308dad13f108aff2140277a4695e804b3c73d69c3b0f7e98ad30"
+        },
+        "id": 191
+    },
+    {
+        "name": "Vorres Museum",
+        "lat": 37.954,
+        "lng": 23.8643,
+        "description": "A beautiful cultural foundation showcasing Greek contemporary art and folk tradition.",
+        "audioText": "You are visiting the Vorres Museum in Paiania. Divided into two main sections, the museum features a gallery of contemporary Greek art, and a complex of traditional village houses, showcasing folk art, antique furniture, and historical artifacts. The beautiful gardens seamlessly blend modern sculptures with traditional Greek architecture, creating a peaceful cultural oasis.",
+        "quiz": {
+            "question": "What are the two main sections of the Vorres Museum?",
+            "options": [
+                "Contemporary Art and Folk Tradition",
+                "Ancient History and Space Exploration",
+                "Maritime History and Botany",
+                "Numismatics and Epigraphy"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The museum contrasts a modern art gallery with traditional Greek folk houses."
+        },
+        "reward": {
+            "title": "10% off local art prints",
+            "provider": "Vorres Museum Shop",
+            "codeHash": "4ba61fd3307c7499cb484879d48941a71bb29d1b2105c6bff8971cb3da0bc461"
+        },
+        "id": 192
+    },
+    {
+        "name": "Mineralogical Museum of Lavrion",
+        "lat": 37.7139,
+        "lng": 24.0531,
+        "description": "A showcase of the stunning and rare minerals from the Lavrion mining district.",
+        "audioText": "Welcome to the Mineralogical Museum of Lavrion. The Lavrion region is world-famous among geologists for its incredibly diverse and colorful minerals, many of which are unique to this area. The museum displays hundreds of rare specimens, including beautiful crystals of smithsonite, azurite, and annabergite, reflecting the rich geological wealth that funded ancient Athens.",
+        "quiz": {
+            "question": "Why is the Lavrion region famous among geologists worldwide?",
+            "options": [
+                "Its highly diverse and rare mineral crystals",
+                "Its large diamond deposits",
+                "Its active volcanoes",
+                "Its dinosaur fossils"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Lavrion is renowned for having over 600 different types of minerals, some found nowhere else on Earth."
+        },
+        "reward": {
+            "title": "Free mineral identification card",
+            "provider": "Museum Desk",
+            "codeHash": "14e609e025b9314d8ee7deb43054437a57823abe74023014a7334f218e6b22ee"
+        },
+        "id": 193
+    },
+    {
+        "name": "Lavrion Technological and Cultural Park",
+        "lat": 37.718,
+        "lng": 24.0558,
+        "description": "An industrial heritage site built on the ruins of the historic French Mining Company.",
+        "audioText": "You are at the Lavrion Technological and Cultural Park. This site preserves the impressive industrial facilities of the French Mining Company, which operated here from 1873 to 1989. Today, the park is a hub for research, education, and culture. Walking among the restored industrial buildings and old machinery provides a fascinating look into the industrial revolution in Greece.",
+        "quiz": {
+            "question": "Which foreign mining company operated the facilities preserved at this park from 1873 to 1989?",
+            "options": [
+                "The French Mining Company",
+                "The British Mining Guild",
+                "The German Industrial Corp",
+                "The Italian Excavation Society"
+            ],
+            "answer": 0,
+            "feedback": "Correct! It was operated by the French Mining Company of Lavrion."
+        },
+        "reward": {
+            "title": "15% off guided industrial tour",
+            "provider": "Park Information Center",
+            "codeHash": "ace48c7c08b41d99b9da7691fd0efab684700bc84158619365574afdc8572e3d"
+        },
+        "id": 194
+    },
+    {
+        "name": "Archaeological Museum of Marathon",
+        "lat": 38.1213,
+        "lng": 23.9482,
+        "description": "A museum preserving the artifacts from the famed Battle of Marathon and nearby ancient sites.",
+        "audioText": "Welcome to the Archaeological Museum of Marathon. This museum houses artifacts from the legendary Battle of Marathon in 490 BC, including weapons and pottery found in the Tomb of the Athenians. It also features beautiful statues and finds from the nearby Sanctuary of the Egyptian Gods and the Cave of Pan, offering a comprehensive look at the history of the Marathon plain.",
+        "quiz": {
+            "question": "In what year did the famous Battle of Marathon take place?",
+            "options": [
+                "490 BC",
+                "480 BC",
+                "323 BC",
+                "146 BC"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Battle of Marathon, a decisive Greek victory against the Persians, occurred in 490 BC."
+        },
+        "reward": {
+            "title": "Free bookmark of Miltiades",
+            "provider": "Marathon Museum Shop",
+            "codeHash": "c1f30e06a1eb724aa09e514a4f82048377a87d50a31c65298c19041badb7c817"
+        },
+        "id": 195
+    },
+    {
+        "name": "Archaeological Museum of Lavrion",
+        "lat": 37.7144,
+        "lng": 24.056,
+        "description": "Displays antiquities from the ancient silver mining region of Lavreotiki.",
+        "audioText": "You are visiting the Archaeological Museum of Lavrion. The museum highlights the ancient silver mining industry that powered the Athenian Empire. Exhibits include ancient mining tools, lead ingots, and beautiful pottery found in the local settlements and cemeteries. It tells the story of the thousands of slaves who lived and worked in the mines to extract silver for the Athenian owls.",
+        "quiz": {
+            "question": "What precious metal was primarily mined in the Lavrion region during antiquity?",
+            "options": [
+                "Silver",
+                "Gold",
+                "Copper",
+                "Iron"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Lavrion was famous for its rich silver mines."
+        },
+        "reward": {
+            "title": "10% off museum replicas",
+            "provider": "Lavrion Museum Shop",
+            "codeHash": "855a03274fe36351ebaa9186986f01b869a06166eb119b2c325823cb53a3d725"
+        },
+        "id": 196
+    },
+    {
+        "name": "Archaeological Museum of Brauron",
+        "lat": 37.9254,
+        "lng": 23.9934,
+        "description": "A delightful museum dedicated to the cult of Artemis and the young girls who served her.",
+        "audioText": "Welcome to the Archaeological Museum of Brauron, located near the Sanctuary of Artemis. The museum displays beautiful statues of little boys and girls known as 'arktoi' or little bears. In ancient times, young Athenian girls were sent to Brauron to serve Artemis before they reached marriageable age. The museum's collection gives a touching glimpse into the lives of children in ancient Greece.",
+        "quiz": {
+            "question": "What animal were the young girls serving Artemis at Brauron referred to as?",
+            "options": [
+                "Little bears (Arktoi)",
+                "Little owls",
+                "Little deer",
+                "Little doves"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The young girls were called 'Arktoi', meaning little bears, in honor of Artemis."
+        },
+        "reward": {
+            "title": "Free postcard of an Arktoi statue",
+            "provider": "Brauron Museum Shop",
+            "codeHash": "6c5fcaf041a5b2d62dba06e6545137bd7697a2aada9dd69300f646c272162e24"
+        },
+        "id": 197
+    },
+    {
+        "name": "Sanctuary of the Egyptian Gods (Brexiza)",
+        "lat": 38.1182,
+        "lng": 23.9782,
+        "description": "An impressive Roman-era sanctuary built by Herodes Atticus dedicated to Isis and Serapis.",
+        "audioText": "You are standing at the Sanctuary of the Egyptian Gods in the marshy area of Brexiza, near Marathon. This unique sanctuary was built in the 2nd century AD by the wealthy Athenian benefactor Herodes Atticus. It was dedicated to the Egyptian deities Isis and Serapis. The site features a stepped pyramid-like structure and was originally adorned with large statues exhibiting a blend of Egyptian and Greek artistic styles.",
+        "quiz": {
+            "question": "Which wealthy Athenian benefactor built this sanctuary?",
+            "options": [
+                "Herodes Atticus",
+                "Pericles",
+                "Hadrian",
+                "Themistocles"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Herodes Atticus built the sanctuary on his vast estate in Marathon."
+        },
+        "reward": {
+            "title": "15% off guidebooks on Roman Greece",
+            "provider": "Local Tourism Office",
+            "codeHash": "1edeb003cfd5c7f96c651ce619cefc6a54c9ade79f0aa09b8fb186a2d441da74"
+        },
+        "id": 198
+    },
+    {
+        "name": "Temple of Artemis at Loutsa",
+        "lat": 37.9644,
+        "lng": 24.0041,
+        "description": "The coastal ruins of an ancient Doric temple dedicated to Artemis Tauropolos.",
+        "audioText": "Welcome to the coastal ruins of the Temple of Artemis Tauropolos in modern-day Loutsa. According to myth, this is where Orestes and Iphigenia landed after escaping from Tauris, carrying the sacred wooden statue of Artemis. The Doric temple was built in the 5th century BC right on the shoreline. Today, its foundations lie peacefully next to the sea, offering a serene glimpse into ancient coastal worship.",
+        "quiz": {
+            "question": "According to myth, who brought the sacred wooden statue of Artemis to this location?",
+            "options": [
+                "Orestes and Iphigenia",
+                "Theseus and Ariadne",
+                "Jason and Medea",
+                "Odysseus and Penelope"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Myth says Orestes and his sister Iphigenia brought the statue here from Tauris."
+        },
+        "reward": {
+            "title": "10% off seafood at nearby tavernas",
+            "provider": "Loutsa Beach Restaurants",
+            "codeHash": "9f97a7ad41dd77262623660a1fefaafef77b97bbdb0e0a9901e9d5ed5620a15d"
+        },
+        "id": 199
+    },
+    {
+        "name": "Municipal Theatre of Piraeus",
+        "lat": 37.9431,
+        "lng": 23.6473,
+        "description": "A magnificent neoclassical building that serves as the cultural heart of Piraeus.",
+        "audioText": "You are looking at the Municipal Theatre of Piraeus, a stunning neoclassical masterpiece completed in 1895. Designed by architect Ioannis Lazarimos, the building features a monumental propylon with four Corinthian columns. It is considered one of the leading theatrical stages in Greece and remains the cultural epicenter of the port city of Piraeus, hosting plays, concerts, and major events.",
+        "quiz": {
+            "question": "What architectural style is the Municipal Theatre of Piraeus built in?",
+            "options": [
+                "Neoclassical",
+                "Gothic",
+                "Baroque",
+                "Brutalist"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The theatre is a prime example of Greek Neoclassical architecture."
+        },
+        "reward": {
+            "title": "10% off theatre tickets",
+            "provider": "Piraeus Box Office",
+            "codeHash": "202c13a068b2bf0cd7106f226eefb775cb8049dee10ecb0dfa7162da888b38d7"
+        },
+        "id": 200
+    },
+    {
+        "name": "Kastella Hill / Profitis Ilias",
+        "lat": 37.9388,
+        "lng": 23.6558,
+        "description": "A picturesque hill in Piraeus offering sweeping panoramic views of the Saronic Gulf.",
+        "audioText": "Climb up Kastella Hill, historically known as Munichia. Topped by the church of Profitis Ilias, this elegant neighborhood features beautiful 19th-century neoclassical mansions and steep, narrow streets. From the summit, you are rewarded with a breathtaking panoramic view of the Saronic Gulf, the ports of Mikrolimano and Zea, and the entire Athenian coastline spreading out below you.",
+        "quiz": {
+            "question": "What was the ancient name of Kastella Hill?",
+            "options": [
+                "Munichia",
+                "Phaleron",
+                "Salamis",
+                "Aegina"
+            ],
+            "answer": 0,
+            "feedback": "Correct! In antiquity, the hill and its adjacent harbor were known as Munichia."
+        },
+        "reward": {
+            "title": "Free coffee with any dessert",
+            "provider": "Kastella Hilltop Cafe",
+            "codeHash": "35b1e473fae68daca71f6a767a29962afa947cf4cb16e1554c5375694fd04397"
+        },
+        "id": 201
+    },
+    {
+        "name": "Diomedes Botanical Garden",
+        "lat": 38.0108,
+        "lng": 23.6494,
+        "description": "The largest botanical garden in Greece and the Eastern Mediterranean.",
+        "audioText": "Welcome to the Diomedes Botanical Garden in Haidari. Spanning nearly 1,900 stremmata, it is the largest botanical garden in Greece. It is home to thousands of plant species from around the world. A unique highlight is the 'Historic Plants' section, which features flora mentioned in ancient Greek mythology and the Bible, such as the hemlock that poisoned Socrates and the mythical mandrake.",
+        "quiz": {
+            "question": "Which notorious plant, used to execute Socrates, is featured in the Historic Plants section?",
+            "options": [
+                "Hemlock",
+                "Nightshade",
+                "Oleander",
+                "Wolfsbane"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Conium maculatum, or poison hemlock, is grown in the historic section."
+        },
+        "reward": {
+            "title": "Free seed packet of Greek herbs",
+            "provider": "Botanical Garden Kiosk",
+            "codeHash": "f25d90ff5e0e36b58be59ab32ef5755421684bcc36fccc1fe9749e41e233915b"
+        },
+        "id": 202
+    },
+    {
+        "name": "Attica Zoological Park",
+        "lat": 37.9818,
+        "lng": 23.9103,
+        "description": "Greece's premier zoological park, home to over 2,000 animals.",
+        "audioText": "You are at the Attica Zoological Park in Spata. Founded in 2000, it is the only large-scale zoo in Greece. It houses over 2,000 animals representing 290 species from all five continents. The zoo places a strong emphasis on the conservation of endangered species and educating the public about global biodiversity, featuring expansive habitats for big cats, primates, and marine mammals.",
+        "quiz": {
+            "question": "In what year did the Attica Zoological Park open to the public?",
+            "options": [
+                "2000",
+                "1990",
+                "2010",
+                "1985"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The park opened its doors in the year 2000."
+        },
+        "reward": {
+            "title": "15% off zoo entry",
+            "provider": "Attica Zoo Ticketing",
+            "codeHash": "d7b178f5f82045ef1d7efe61c8a51121bdcb687871c3d4db1a0d503da6c985bf"
+        },
+        "id": 203
+    },
+    {
+        "name": "Schinias Olympic Rowing Centre",
+        "lat": 38.1517,
+        "lng": 24.0136,
+        "description": "The stunning rowing and canoeing venue constructed for the 2004 Athens Olympics.",
+        "audioText": "Welcome to the Schinias Olympic Rowing and Canoeing Centre. Built for the 2004 Athens Olympic Games, this massive 2,250-meter-long artificial lake is integrated into the beautiful Schinias National Park. Despite initial environmental concerns, the facility was designed to help restore the surrounding wetlands. Today, it remains an active training facility for athletes and a quiet retreat for nature lovers.",
+        "quiz": {
+            "question": "For which major event was the Schinias Rowing Centre constructed?",
+            "options": [
+                "2004 Athens Olympics",
+                "1896 First Modern Olympics",
+                "1997 World Athletics Championships",
+                "2010 European Games"
+            ],
+            "answer": 0,
+            "feedback": "Correct! It was custom-built for the 2004 Olympic Games."
+        },
+        "reward": {
+            "title": "10% off kayak rentals",
+            "provider": "Schinias Water Sports",
+            "codeHash": "e58fdf2ec753546afe39d1d83caaab737ee75696491b9455fde6495435370890"
+        },
+        "id": 204
+    },
+    {
+        "name": "Mikrolimano Marina",
+        "lat": 37.9385,
+        "lng": 23.6592,
+        "description": "A charming, lively marina famous for its seafood restaurants and elegant yachts.",
+        "audioText": "Stroll along the docks of Mikrolimano, meaning 'Little Port' in Greek. Known in antiquity as the port of Munichia, today it is a bustling, picturesque marina in Piraeus. The waterfront is lined with premium seafood restaurants and cafes, where visitors sit to enjoy fresh fish and ouzo while watching the luxurious yachts and small fishing boats bob gently in the Aegean waters.",
+        "quiz": {
+            "question": "What does the name 'Mikrolimano' translate to in English?",
+            "options": [
+                "Little Port",
+                "Blue Bay",
+                "Fisherman's Cove",
+                "Ancient Harbor"
+            ],
+            "answer": 0,
+            "feedback": "Correct! 'Mikro' means little, and 'limano' means port."
+        },
+        "reward": {
+            "title": "Free meze platter with any seafood order",
+            "provider": "Mikrolimano Tavernas",
+            "codeHash": "db3320c0fd6a8b3e3e012b0dfa7c1dc8808d1bdbe45448b433515e9f0a771083"
+        },
+        "id": 205
+    },
+    {
+        "name": "Flisvos Marina",
+        "lat": 37.9318,
+        "lng": 23.6852,
+        "description": "Athens' premier mega-yacht destination, featuring high-end shopping and dining.",
+        "audioText": "Welcome to Flisvos Marina in Palaio Faliro. Upgraded significantly for the 2004 Olympics, Flisvos is now the ultimate mega-yacht destination in Greece. Featuring a wide promenade, upscale boutiques, and stylish seaside bars, it offers a cosmopolitan atmosphere. It is the perfect place to watch a magnificent Athenian sunset over the Saronic Gulf.",
+        "quiz": {
+            "question": "What type of vessels is Flisvos Marina primarily known for hosting today?",
+            "options": [
+                "Mega-yachts",
+                "Commercial cargo ships",
+                "Traditional wooden fishing boats",
+                "Naval destroyers"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Flisvos Marina is highly regarded as a top-tier mega-yacht destination."
+        },
+        "reward": {
+            "title": "10% off at Flisvos Marina Cafes",
+            "provider": "Marina Dining",
+            "codeHash": "df2fd51052a3b0e1208b1f9c4b3d7518c69708257d3ccb6fcc51fe98b8c1cb42"
+        },
+        "id": 206
+    },
+    {
+        "name": "Monastery of Saint Ephraim",
+        "lat": 38.0933,
+        "lng": 23.9575,
+        "description": "A highly revered Orthodox monastery in Nea Makri, attracting thousands of pilgrims.",
+        "audioText": "You are visiting the Monastery of Saint Ephraim in Nea Makri. The monastery, originally built in the 10th century, is dedicated to Saint Ephraim, a martyr who lived and died here during the Ottoman occupation. Today, it is one of the most important pilgrimage sites in Attica. Inside, the saint's holy relics are preserved, and believers flock here to pray for healing and miracles.",
+        "quiz": {
+            "question": "What is the primary reason thousands of believers visit this monastery?",
+            "options": [
+                "To pray at the holy relics of Saint Ephraim for miracles",
+                "To see ancient Greek statues",
+                "To view the first printed Greek Bible",
+                "To admire Byzantine mosaics"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Pilgrims visit to venerate the relics of Saint Ephraim, seeking healing."
+        },
+        "reward": {
+            "title": "Free religious icon card",
+            "provider": "Monastery Gift Shop",
+            "codeHash": "0d0e0700c95a44dd9508ec5b7da6c6b29f12cd8149fdd32c7e7552733dcd09d7"
+        },
+        "id": 207,
+        "image": "images/st_ephraim_nea_makri.jpg"
+    },
+    {
+        "name": "Penteli Monastery",
+        "lat": 38.0568,
+        "lng": 23.8824,
+        "description": "A historic 16th-century monastery nestled in the pine forests of Mount Pentelicus.",
+        "audioText": "Welcome to the Holy Monastery of the Dormition of the Virgin Mary, commonly known as Penteli Monastery. Founded in 1578 by Saint Timotheos, it is surrounded by the lush pine forests of Mount Pentelicus. During the Ottoman occupation, it served as a secret school, teaching Greek language and history. The monastery played a significant intellectual and spiritual role in preserving Greek identity.",
+        "quiz": {
+            "question": "What secret activity took place at the Penteli Monastery during the Ottoman occupation?",
+            "options": [
+                "It operated a secret school teaching Greek",
+                "It forged weapons for the revolution",
+                "It minted illegal currency",
+                "It housed a printing press"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The monastery famously hosted a 'Krifo Scholio' (secret school) to preserve the Greek language."
+        },
+        "reward": {
+            "title": "15% off local mountain honey",
+            "provider": "Monastery Produce Shop",
+            "codeHash": "5a27b2af3f783867defa480bf61534786484e750a7ee5f87d431bb3129c5d61d"
+        },
+        "id": 208
+    },
+    {
+        "name": "Monastery of Saint Nectarios",
+        "lat": 37.7475,
+        "lng": 23.483,
+        "description": "A massive, beautiful monastery dedicated to one of the most widely known modern Orthodox saints.",
+        "audioText": "Welcome to the Monastery of Agios Nektarios. Saint Nektarios, who lived from 1846 to 1920, is one of the most recently canonized saints in the Greek Orthodox Church, known as a great miracle worker and healer. This vast, modern church and monastery complex is one of the largest in the Balkans and attracts thousands of pilgrims daily seeking spiritual comfort and physical healing.",
+        "quiz": {
+            "question": "For what specific spiritual grace is Saint Nectarios primarily known by the faithful?",
+            "options": [
+                "As a miracle worker and healer",
+                "As the patron saint of sailors",
+                "As the protector of lost objects",
+                "As a warrior saint"
+            ],
+            "answer": 0,
+            "feedback": "Correct! He is highly venerated as a miraculous healer."
+        },
+        "reward": {
+            "title": "Free holy oil vial",
+            "provider": "Monastery Kiosk",
+            "codeHash": "2ce641aaa30699b6e29fee4c62ac53d36602e2bd5a9a2dfd5d67a22177694ba7"
+        },
+        "id": 209
+    },
+    {
+        "name": "Cave of Euripides",
+        "lat": 37.8864,
+        "lng": 23.4619,
+        "description": "A secluded cave on the island of Salamis where the great tragedian wrote his masterpieces.",
+        "audioText": "Welcome to the Cave of Euripides, located high on a hillside in southern Salamis overlooking the Saronic Gulf. The famous Athenian playwright Euripides retreated to this peaceful, secluded cave to write his great tragedies, far from the bustling noise of the city. Archaeological excavations here in 1997 actually uncovered a skyphos—a wine cup—with letters spelling out his name, confirming the legend.",
+        "quiz": {
+            "question": "What remarkable artifact was found here in 1997 proving Euripides used this cave?",
+            "options": [
+                "A wine cup bearing his name",
+                "A golden mask of tragedy",
+                "A marble statue of Apollo",
+                "The original manuscript of Medea"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Archaeologists found a black-glazed skyphos with part of his name inscribed."
+        },
+        "reward": {
+            "title": "Free dramatic arts bookmark",
+            "provider": "Salamis Tourist Info",
+            "codeHash": "29a5439194542dd8a9e7bfa92e2f17f43cb4de95ef8cfdd6a4deeb3fa51f2b19"
+        },
+        "id": 210
+    },
+    {
+        "name": "Monastery of Faneromeni",
+        "lat": 37.9866,
+        "lng": 23.4281,
+        "description": "A historic 17th-century monastery featuring exquisite frescoes of the Last Judgment.",
+        "audioText": "You are visiting the Monastery of Panagia Faneromeni on the northwest coast of Salamis. Founded in the 17th century by Saint Laurentios, the monastery played a vital role during the 1821 Greek Revolution, serving as a hospital and a secret meeting place for freedom fighters. Its katholikon (main church) is renowned for its incredible, sprawling frescoes covering almost every inch of the interior, including a vivid depiction of the Last Judgment.",
+        "quiz": {
+            "question": "What role did the Monastery of Faneromeni play during the 1821 Greek Revolution?",
+            "options": [
+                "It served as a hospital and secret meeting place",
+                "It was a naval base",
+                "It operated a gunpowder mill",
+                "It minted revolutionary coins"
+            ],
+            "answer": 0,
+            "feedback": "Correct! It was a safe haven and hospital for Greek revolutionaries."
+        },
+        "reward": {
+            "title": "10% off beeswax candles",
+            "provider": "Monastery Shop",
+            "codeHash": "73fc59be455fb2c2c5c05c0c0c925317826938b72b5667da7f8101e767e61ae5"
+        },
+        "id": 211,
+        "image": "images/faneromeni_salamis.jpg"
+    },
+    {
+        "name": "Sanctuary of Poseidon at Kalaureia",
+        "lat": 37.5255,
+        "lng": 23.4735,
+        "description": "The ruins of the ancient religious center of the Kalaurian amphictyony on the island of Poros.",
+        "audioText": "Welcome to the Sanctuary of Poseidon, located in the hills of Kalaureia on the island of Poros. In antiquity, this was the center of a powerful maritime league known as an amphictyony. It is perhaps most famous as the place where the great Athenian orator Demosthenes sought asylum from the Macedonians in 322 BC. Rather than surrender to Antipater's men, Demosthenes committed suicide here by drinking poison.",
+        "quiz": {
+            "question": "Which famous Athenian orator committed suicide at this sanctuary to avoid capture by the Macedonians?",
+            "options": [
+                "Demosthenes",
+                "Pericles",
+                "Socrates",
+                "Cicero"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Demosthenes drank poison from his pen here rather than be captured."
+        },
+        "reward": {
+            "title": "Free panoramic postcard",
+            "provider": "Poros Port Kiosk",
+            "codeHash": "f98b01e2225a229aafc4b6dbefaaf772dca88d87c4d8a565eb9faa1b66bcd8e0"
+        },
+        "id": 212
+    },
+    {
+        "name": "Poros Clock Tower",
+        "lat": 37.4988,
+        "lng": 23.4542,
+        "description": "The iconic landmark of Poros, built on the highest peak of the town.",
+        "audioText": "You are standing at the base of the iconic Clock Tower of Poros. Built in 1927, this landmark sits atop the volcanic rock of Sphaeria, the rocky outcrop where the town of Poros is built. The short climb through the charming, narrow streets filled with neoclassical mansions is rewarded with a spectacular view of the narrow strait separating the island from the mountains of the Peloponnese.",
+        "quiz": {
+            "question": "In what year was the iconic Poros Clock Tower built?",
+            "options": [
+                "1927",
+                "1821",
+                "1950",
+                "1896"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The tower was constructed relatively recently, in 1927."
+        },
+        "reward": {
+            "title": "15% off lemonade at the port",
+            "provider": "Poros Cafe",
+            "codeHash": "abb9a05c701874f45dfe5980163795e2c1b523aa94603b2de822bba344eaa551"
+        },
+        "id": 213
+    },
+    {
+        "name": "Historical Archives Museum of Hydra",
+        "lat": 37.3503,
+        "lng": 23.4665,
+        "description": "A museum showcasing the immense wealth and naval power of Hydra during the Greek Revolution.",
+        "audioText": "Welcome to the Historical Archives Museum of Hydra. Located right by the picturesque port, this museum documents the island's incredible maritime history. Before and during the 1821 Revolution, Hydra was incredibly wealthy and boasted a massive, privately owned commercial fleet. When the war broke out, the Hydriot merchants converted their merchant ships into powerful warships, playing a decisive role in liberating Greece.",
+        "quiz": {
+            "question": "How did the wealthy Hydriot merchants contribute to the Greek Revolution?",
+            "options": [
+                "By converting their merchant ships into warships",
+                "By fighting as cavalry on the mainland",
+                "By building a massive land fortress",
+                "By purchasing foreign mercenaries"
+            ],
+            "answer": 0,
+            "feedback": "Correct! They turned their massive commercial fleet into an unstoppable navy."
+        },
+        "reward": {
+            "title": "10% off naval history books",
+            "provider": "Museum Shop",
+            "codeHash": "3cfeb2bd57d6a7c237288960ab321cb26adbee3e2a1a0efb9c9317891642123b"
+        },
+        "id": 214
+    },
+    {
+        "name": "Lazaros Koundouriotis Historical Mansion",
+        "lat": 37.3481,
+        "lng": 23.465,
+        "description": "The striking yellow mansion of a wealthy shipowner who financed the Greek War of Independence.",
+        "audioText": "You are looking at the Lazaros Koundouriotis Historical Mansion, easily recognizable by its vibrant yellow color standing high above the port of Hydra. Lazaros Koundouriotis was one of the wealthiest shipowners of his time, and he famously spent his entire fortune financing the Greek Revolution. Today, the mansion operates as a branch of the National Historical Museum, preserving the elegant lifestyle of the 19th-century Greek maritime aristocracy.",
+        "quiz": {
+            "question": "What is visually distinctive about the Koundouriotis Mansion on the hillside of Hydra?",
+            "options": [
+                "Its vibrant yellow color",
+                "It is painted entirely black",
+                "It has a large glass dome",
+                "It is built underground"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The bright yellow ochre color makes it stand out against the rocky landscape."
+        },
+        "reward": {
+            "title": "Free entrance to the upper gallery",
+            "provider": "Koundouriotis Mansion",
+            "codeHash": "3f9e23577832a13b6de29811f4848313be63e5ebf318d8fab988b8396e2e5125"
+        },
+        "id": 215
+    },
+    {
+        "name": "Bouboulina's Museum",
+        "lat": 37.2655,
+        "lng": 23.161,
+        "description": "The ancestral home of Laskarina Bouboulina, the legendary female naval commander of the Greek Revolution.",
+        "audioText": "Welcome to the Bouboulina Museum on the island of Spetses. This was the home of Laskarina Bouboulina, a heroine of the Greek War of Independence and the first woman in world naval history to achieve the rank of Admiral. She used her massive fortune to build ships, including her flagship the Agamemnon, and personally led naval blockades against the Ottoman Empire.",
+        "quiz": {
+            "question": "What was the name of Laskarina Bouboulina's famous flagship?",
+            "options": [
+                "Agamemnon",
+                "Argo",
+                "Averof",
+                "Olympia"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Her flagship, the Agamemnon, was one of the largest Greek warships of the time."
+        },
+        "reward": {
+            "title": "15% off local Spetses sweets (amygdalota)",
+            "provider": "Spetses Bakery",
+            "codeHash": "88f6271cdd0df1ed545c6d5eea144b16877f35e48b19069cf69b08ff1107acbc"
+        },
+        "id": 216
+    },
+    {
+        "name": "Fountain of Theagenes",
+        "lat": 37.9942,
+        "lng": 23.3422,
+        "description": "A remarkably well-preserved ancient water reservoir and fountain house in the city of Megara.",
+        "audioText": "You are exploring the Fountain of Theagenes in Megara. Constructed in the 5th century BC, it is one of the largest and most impressive ancient fountain houses in Greece. Its massive roof was supported by 35 octagonal Doric pillars, and it featured a sophisticated plumbing system to draw water from the nearby mountains. It highlights the advanced civic engineering of ancient Greek city-states.",
+        "quiz": {
+            "question": "How many octagonal Doric pillars were used to support the roof of the reservoir?",
+            "options": [
+                "35",
+                "10",
+                "100",
+                "4"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The roof was supported by 35 impressive octagonal pillars."
+        },
+        "reward": {
+            "title": "Free map of Ancient Megara",
+            "provider": "Megara Tourism Kiosk",
+            "codeHash": "e43700a6580ffeb84c34d6a131773d2e24990c9573c2c47f721f46305065b420"
+        },
+        "id": 217
+    },
+    {
+        "name": "Museum of the City of Athens",
+        "lat": 37.9796,
+        "lng": 23.7317,
+        "description": "Housed in the former royal palace of King Otto, this museum chronicles the modern history of Athens.",
+        "audioText": "You are visiting the Museum of the City of Athens, housed in two interconnected mansions on Klafthmonos Square. The older mansion was actually the first residence of King Otto and Queen Amalia when Athens became the capital in 1834. The museum features beautiful period furniture, royal memorabilia, and a spectacular model of Athens from 1842, showing just how small the city once was.",
+        "quiz": {
+            "question": "Who were the first royal residents of the older mansion that houses the museum?",
+            "options": [
+                "King Otto and Queen Amalia",
+                "King George I and Queen Olga",
+                "Emperor Hadrian",
+                "Lord Byron"
+            ],
+            "answer": 0,
+            "feedback": "Correct! It was the temporary palace for Greece's first modern King, Otto."
+        },
+        "reward": {
+            "title": "Free historic city map",
+            "provider": "Museum Desk",
+            "codeHash": "2575f0a74f01d0e929fe4b8ebfc394ef3dc81512bdfa71b5908d423b63c91e31"
+        },
+        "id": 218
+    },
+    {
+        "name": "B. & M. Theocharakis Foundation",
+        "lat": 37.9765,
+        "lng": 23.7369,
+        "description": "A cultural center dedicated to music and the visual arts, located opposite the Greek Parliament.",
+        "audioText": "Welcome to the B. & M. Theocharakis Foundation for the Fine Arts and Music. Located in a beautifully restored 1920s eclectic building right across from the National Gardens, the foundation hosts temporary exhibitions of modern art, classical music concerts, and educational workshops. The café on the upper floors offers a splendid view of the Greek Parliament and Syntagma Square.",
+        "quiz": {
+            "question": "What two artistic disciplines is the Theocharakis Foundation primarily dedicated to?",
+            "options": [
+                "Fine Arts and Music",
+                "Cinema and Theater",
+                "Photography and Dance",
+                "Sculpture and Architecture"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The foundation focuses on the visual arts and music."
+        },
+        "reward": {
+            "title": "10% off at Café Merlin",
+            "provider": "Theocharakis Foundation",
+            "codeHash": "bcba4ea12665d153aad80dc7e9a2742226698060936dfda28905973a36fb81e4"
+        },
+        "id": 219
+    },
+    {
+        "name": "Athens Olympic Museum",
+        "lat": 38.0402,
+        "lng": 23.7891,
+        "description": "A modern museum celebrating the global history of the Olympic Games, focusing on Greece's foundational role.",
+        "audioText": "You are at the Athens Olympic Museum, a striking modern facility connected to the Golden Hall. The museum takes visitors on a chronological journey from the ancient Olympic Games in Olympia, to the revival of the modern Games in Athens in 1896, right up to the triumphant return of the Olympics to Athens in 2004. It features authentic torches, medals, and interactive athletic exhibits.",
+        "quiz": {
+            "question": "In what year were the first modern Olympic Games held in Athens?",
+            "options": [
+                "1896",
+                "1904",
+                "1888",
+                "1924"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The modern Olympics were successfully revived in Athens in 1896."
+        },
+        "reward": {
+            "title": "15% off official Olympic merchandise",
+            "provider": "Olympic Museum Shop",
+            "codeHash": "ad9260aa6ca433b7500c6778e864ede5e7ca0bc4cdb084ceac097bcc03bd3266"
+        },
+        "id": 220
+    },
+    {
+        "name": "Tatoi Royal Palace",
+        "lat": 38.1633,
+        "lng": 23.7938,
+        "description": "The abandoned, forested summer estate of the former Greek Royal Family.",
+        "audioText": "Welcome to Tatoi, the sprawling former summer estate of the Greek Royal Family, located on the densely forested slopes of Mount Parnitha. Acquired by King George I in 1871, this 10,000-acre estate features the royal palace, beautiful gardens, and the royal cemetery where many Greek kings are buried. Today, the estate is being slowly restored as a major cultural and environmental park.",
+        "quiz": {
+            "question": "Which Greek King initially acquired the Tatoi estate in 1871?",
+            "options": [
+                "King George I",
+                "King Otto",
+                "King Constantine II",
+                "King Alexander"
+            ],
+            "answer": 0,
+            "feedback": "Correct! King George I purchased the estate to serve as a summer retreat."
+        },
+        "reward": {
+            "title": "Free map of the Tatoi hiking trails",
+            "provider": "Tatoi Friends Association",
+            "codeHash": "0cdecec0562865006ad456697fe860668648b3fd94fa7761481be38e7d20469c"
+        },
+        "id": 221,
+        "image": "images/tatoi_forest.jpg"
+    },
+    {
+        "name": "Lake Beletsi",
+        "lat": 38.1762,
+        "lng": 23.7689,
+        "description": "A picturesque, small artificial lake hidden in the pine forests of Mount Parnitha.",
+        "audioText": "You are at Lake Beletsi, a hidden gem nestled at an altitude of 600 meters on the eastern slopes of Mount Parnitha. This small artificial lake was created accidentally in the 1970s during infrastructure work. Today, it has become a vital wetland surrounded by dense pine forest, serving as a sanctuary for migratory birds, swans, and a massive population of turtles.",
+        "quiz": {
+            "question": "How was Lake Beletsi formed?",
+            "options": [
+                "Accidentally during infrastructure work in the 1970s",
+                "By a massive earthquake",
+                "It is an ancient volcanic crater",
+                "It was dug by the ancient Athenians"
+            ],
+            "answer": 0,
+            "feedback": "Correct! It was inadvertently created when debris blocked a mountain stream."
+        },
+        "reward": {
+            "title": "Free bag of duck feed",
+            "provider": "Lake Beletsi Kiosk",
+            "codeHash": "a5806b5388e042055fdc289d76921492d9285f383ea31fb519f5ddfe9e127b15"
+        },
+        "id": 222,
+        "image": "images/lake_beletsi.jpg"
+    },
+    {
+        "name": "Mpafi Refuge",
+        "lat": 38.1682,
+        "lng": 23.7228,
+        "description": "A popular mountain refuge offering stunning views and traditional food high up in Parnitha National Park.",
+        "audioText": "Welcome to the Mpafi Refuge, located at an altitude of 1,161 meters in the heart of the Parnitha National Park. Operated by the Hellenic Alpine Club of Athens, it serves as the ultimate starting point for hikers exploring the mountain's dense fir forests. Here, you can enjoy traditional bean soup and warm tea while observing the majestic red deer that frequently roam right up to the refuge.",
+        "quiz": {
+            "question": "What large wild animal is frequently spotted roaming near the Mpafi Refuge?",
+            "options": [
+                "Red deer",
+                "Brown bears",
+                "Wild horses",
+                "Wolves"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Parnitha is famous for its thriving population of wild red deer."
+        },
+        "reward": {
+            "title": "10% off traditional bean soup (fasolada)",
+            "provider": "Mpafi Refuge Kitchen",
+            "codeHash": "dda4a401b7b4e1a1c0852bf0eb6605b181b6e8c13b2eb870ed61a305c390f5ad"
+        },
+        "id": 223,
+        "image": "images/bafi_refuge.jpg"
+    },
+    {
+        "name": "Davelis Cave",
+        "lat": 38.0722,
+        "lng": 23.8761,
+        "description": "A massive, mysterious cave on Mount Pentelicus famous for paranormal legends and ancient worship.",
+        "audioText": "You are standing at the entrance of Davelis Cave on the southwestern slopes of Mount Pentelicus. In antiquity, this cave was a sanctuary dedicated to the god Pan and the Nymphs. In the 19th century, it was famously used as a hideout by the notorious bandit Davelis. Today, the cave is shrouded in modern urban legends involving paranormal activity and electromagnetic anomalies.",
+        "quiz": {
+            "question": "Which ancient deities were worshipped in this cave long before it became a bandit's hideout?",
+            "options": [
+                "Pan and the Nymphs",
+                "Zeus and Hera",
+                "Ares and Athena",
+                "Hades and Persephone"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The cave served as a sanctuary to Pan and the Nymphs in antiquity."
+        },
+        "reward": {
+            "title": "Free headlamp rental",
+            "provider": "Penteli Spelunking Club",
+            "codeHash": "a490d02eee64ebfc290bcd598ccfee9fa03778ae3d4ab0278403749bd73449b4"
+        },
+        "id": 224,
+        "image": "images/davelis_cave.jpg"
+    },
+    {
+        "name": "Syngrou Estate",
+        "lat": 38.0664,
+        "lng": 23.8114,
+        "description": "A vast, beautiful forest estate spanning 950 acres in the northern suburbs of Athens.",
+        "audioText": "Welcome to the Syngrou Estate in Kifissia. Bequeathed to the Greek Agricultural Society by Iphigenia Syngrou in 1921, this massive 950-acre park is the only surviving natural forest within the Athens basin. It features a spectacular neo-Gothic Orthodox church, the only one of its kind in Greece, and miles of peaceful walking and cycling trails through dense pine and almond trees.",
+        "quiz": {
+            "question": "What unique architectural style is the Orthodox church within the estate built in?",
+            "options": [
+                "Neo-Gothic",
+                "Byzantine",
+                "Neoclassical",
+                "Brutalist"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Church of St. Andrew is the only neo-Gothic Orthodox church in Greece."
+        },
+        "reward": {
+            "title": "15% off bicycle rental",
+            "provider": "Syngrou Park Bikes",
+            "codeHash": "1ec4a1b466f0082d440d7f2ab6aa9c8146f7ee3a7aaa3bc40ccab57dd0bc6902"
+        },
+        "id": 225
+    },
+    {
+        "name": "OAKA Olympic Athletic Center of Athens",
+        "lat": 38.0378,
+        "lng": 23.7844,
+        "description": "The massive, futuristic stadium complex redesigned by Santiago Calatrava for the 2004 Olympics.",
+        "audioText": "Welcome to OAKA, the Olympic Athletic Center of Athens. Originally built in 1982, the complex was radically redesigned by world-renowned architect Santiago Calatrava for the 2004 Athens Olympics. Its defining feature is the breathtaking glass and steel roof structure over the main stadium, weighing 18,000 tons. Today, it remains the largest sporting venue in Greece.",
+        "quiz": {
+            "question": "Which famous architect designed the spectacular steel and glass roof over the main stadium?",
+            "options": [
+                "Santiago Calatrava",
+                "Renzo Piano",
+                "Zaha Hadid",
+                "Frank Gehry"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The visionary Spanish architect Santiago Calatrava designed the roof."
+        },
+        "reward": {
+            "title": "15% off guided architectural tour",
+            "provider": "OAKA Info Center",
+            "codeHash": "e8eb696ad65c0ab030fecf3cdf5cb499994afb1f7d36b18f08f036c501550a30"
+        },
+        "id": 226
+    },
+    {
+        "name": "AEK OPAP Arena (Agia Sophia Stadium)",
+        "lat": 38.0411,
+        "lng": 23.7411,
+        "description": "The spectacular, newly built home stadium of AEK Athens F.C., featuring Byzantine-inspired architecture.",
+        "audioText": "You are looking at the OPAP Arena, the stunning new home of AEK Athens F.C. in Nea Filadelfeia. Opened in 2022, the stadium's unique architecture is heavily inspired by the Byzantine Empire, featuring fortress-like walls, arches, and a monumental double-headed eagle statue at the entrance. It serves as both a world-class football venue and a monument to the Greek refugees of Asia Minor.",
+        "quiz": {
+            "question": "What historical empire heavily inspired the architecture of the OPAP Arena?",
+            "options": [
+                "The Byzantine Empire",
+                "The Roman Empire",
+                "The Ottoman Empire",
+                "The Persian Empire"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The arches, towers, and double-headed eagle all symbolize the Byzantine Empire."
+        },
+        "reward": {
+            "title": "10% off at the AEK FC Store",
+            "provider": "AEK Official Store",
+            "codeHash": "6406f6948a238a4265a312dbb78389ff098059aaf91661055ccbce2171c43e44"
+        },
+        "id": 227
+    },
+    {
+        "name": "Pedion tou Areos",
+        "lat": 37.9933,
+        "lng": 23.7344,
+        "description": "One of the largest public parks in Athens, designed in honor of the heroes of the 1821 Revolution.",
+        "audioText": "Welcome to Pedion tou Areos, or the 'Field of Ares'. Designed in 1934 to honor the heroes of the Greek War of Independence, it is one of the largest public parks in Athens. The park's main avenue features 21 marble busts of revolutionary heroes, and the impressive equestrian statue of King Constantine I stands at the main entrance, welcoming Athenians seeking a green escape.",
+        "quiz": {
+            "question": "What is the English translation of 'Pedion tou Areos'?",
+            "options": [
+                "Field of Ares",
+                "Garden of Athena",
+                "Valley of the Gods",
+                "Park of Peace"
+            ],
+            "answer": 0,
+            "feedback": "Correct! It translates to the 'Field of Ares', the Greek god of war."
+        },
+        "reward": {
+            "title": "Free coffee at the park kiosk",
+            "provider": "Alsos Cafe",
+            "codeHash": "f6e6cbfec69579fca0432501b8b9aae3279b304b804a795469e3719998b45fca"
+        },
+        "id": 228
+    },
+    {
+        "name": "Museum of Illusions Athens",
+        "lat": 37.9768,
+        "lng": 23.7214,
+        "description": "A wildly popular, interactive museum filled with mind-bending optical illusions.",
+        "audioText": "Welcome to the Museum of Illusions in the Monastiraki neighborhood. This interactive space is designed to trick your senses and challenge your perception. Featuring mind-bending optical illusions, holograms, the dizzying Vortex Tunnel, and the famous Infinity Room, the museum provides a fun, educational experience about vision, perception, and the human brain's fascinating flaws.",
+        "quiz": {
+            "question": "Which of the following is a famous interactive exhibit at the Museum of Illusions?",
+            "options": [
+                "The Vortex Tunnel",
+                "The Tunnel of Love",
+                "The Echo Chamber",
+                "The Hall of Mirrors"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Vortex Tunnel challenges your balance and visual perception."
+        },
+        "reward": {
+            "title": "15% off mind-bending puzzles",
+            "provider": "Museum of Illusions Shop",
+            "codeHash": "32c0f2f634cff4183c61fa45ffcd285c3277ba5d5f95d6f9315e71f6070c94e4"
+        },
+        "id": 229
+    },
+    {
+        "name": "Hellenic IT Museum",
+        "lat": 37.9542,
+        "lng": 23.6811,
+        "description": "The first and only museum in Greece dedicated to the history of Information Technology.",
+        "audioText": "You are visiting the Hellenic IT Museum in Moschato. Established in 2008, it is the only museum in Greece dedicated exclusively to the history of computing. Its vast collection features over 4,000 artifacts from the 1970s to the 1990s, including rare mainframe components, vintage Apple and IBM personal computers, floppy disks, and the clunky mobile phones that started the digital revolution.",
+        "quiz": {
+            "question": "What specific era of computing does the Hellenic IT Museum primarily focus on?",
+            "options": [
+                "The 1970s to the 1990s",
+                "The 1800s to the 1920s",
+                "The 2000s to the present",
+                "Ancient Greek computing mechanisms"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The museum preserves the pivotal early decades of modern personal computing."
+        },
+        "reward": {
+            "title": "Free retro computer sticker pack",
+            "provider": "IT Museum Desk",
+            "codeHash": "7523269980c77676f0561014cf63f8cb68d28fe36265f39a1435f0a153b86e98"
+        },
+        "id": 230
+    },
+    {
+        "name": "Maria Callas Museum",
+        "lat": 37.9765,
+        "lng": 23.7305,
+        "description": "A beautiful new museum honoring the life and career of the legendary Greek soprano.",
+        "audioText": "Welcome to the Maria Callas Museum, situated in a beautifully restored neoclassical building on Mitropoleos Street. Opened in 2023, the museum is dedicated to 'La Divina', the greatest opera singer of the 20th century. Through interactive audio exhibits, rare recordings, personal letters, and spectacular stage costumes, visitors can intimately experience the dramatic life and unparalleled voice of Maria Callas.",
+        "quiz": {
+            "question": "By what famous Italian nickname was Maria Callas widely known?",
+            "options": [
+                "La Divina",
+                "La Prima Donna",
+                "La Soprano",
+                "La Voce"
+            ],
+            "answer": 0,
+            "feedback": "Correct! She was famously referred to as 'La Divina' (The Divine One)."
+        },
+        "reward": {
+            "title": "10% off opera recordings",
+            "provider": "Callas Museum Shop",
+            "codeHash": "38c1fb82d067052fc1ff4be707771a504354211624b7196cde5d0a037f8d99ab"
+        },
+        "id": 231
+    },
+    {
+        "name": "OTE Telecommunications Museum",
+        "lat": 38.0931,
+        "lng": 23.8055,
+        "description": "A fascinating journey through the history of telecommunications in Greece.",
+        "audioText": "You are at the OTE Telecommunications Museum in Nea Erythraia. Operated by the Hellenic Telecommunications Organization, the museum traces the history of human communication. Exhibits range from ancient Greek fire-beacons and the hydraulic telegraph of Aeneas, to 19th-century Morse code transmitters, early rotary dial telephones, and the massive switchboards operated by the first female telephone operators.",
+        "quiz": {
+            "question": "Which ancient method of communication is featured in the museum's exhibits?",
+            "options": [
+                "The hydraulic telegraph of Aeneas",
+                "The homing pigeon network",
+                "The bronze megaphone",
+                "The solar mirror relay"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The museum explores early methods like the ingenious hydraulic telegraph."
+        },
+        "reward": {
+            "title": "Free vintage telephone postcard",
+            "provider": "OTE Museum Desk",
+            "codeHash": "e4770295be1c47b9b9ccd19ac6dac54a6b107a0aa71bfe57139740a5b15edb74"
+        },
+        "id": 232
+    },
+    {
+        "name": "Jewish Museum of Greece",
+        "lat": 37.9733,
+        "lng": 23.7328,
+        "description": "A poignant museum documenting the 2,300-year history of the Jewish communities in Greece.",
+        "audioText": "Welcome to the Jewish Museum of Greece, located near Syntagma Square. This highly impactful museum documents the rich 2,300-year history of the Romaniote and Sephardic Jewish communities in Greece. The exhibits feature religious artifacts, traditional costumes, and reconstructed synagogue interiors, alongside a deeply moving section dedicated to the Greek Jews who perished during the Holocaust.",
+        "quiz": {
+            "question": "What are the two primary Jewish communities historically present in Greece?",
+            "options": [
+                "Romaniote and Sephardic",
+                "Ashkenazi and Hasidic",
+                "Beta Israel and Yemenite",
+                "Karaite and Bukharan"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Romaniote (Greek-speaking) and Sephardic (Ladino-speaking) are the historic communities of Greece."
+        },
+        "reward": {
+            "title": "10% off history publications",
+            "provider": "Jewish Museum Shop",
+            "codeHash": "90a27f8a047227808f2c31db27b52c0f285ed78432164bd67e190148f10ccd0e"
+        },
+        "id": 233
+    },
+    {
+        "name": "Mycenaean Tholos Tomb at Thorikos",
+        "lat": 37.739,
+        "lng": 24.054,
+        "image": "images/mycenaean_tholos_thorikos.jpg",
+        "description": "A monumental Bronze Age beehive-shaped burial chamber (1600-1200 BC) that served as the final resting place for Mycenaean elite.",
+        "audioText": "You are standing near one of the most impressive Mycenaean tholos tombs in Attica, carved into Velatouri Hill during the Bronze Age between 1600 and 1200 BC. This beehive-shaped burial chamber was built using the corbelling technique, where limestone blocks were carefully stacked in overlapping circles to form a magnificent dome. Such monumental tombs were reserved for the ruling elite of Mycenaean society. The tomb's location near ancient silver mines suggests that the wealth buried here came from mining operations that made Thorikos prosperous for millennia.",
+        "quiz": {
+            "question": "What construction technique was used to build the dome of the Mycenaean tholos tomb?",
+            "options": [
+                "Corbelling with overlapping stone circles",
+                "Concrete poured into wooden molds",
+                "Mud bricks with timber supports",
+                "Carved from a single massive rock"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The corbelling technique created the distinctive beehive shape by stacking stones in progressively smaller circles."
+        },
+        "reward": {
+            "title": "Free postcard of Mycenaean architecture",
+            "provider": "Thorikos Visitor Center",
+            "codeHash": "60303ae22b998861bce3b28f33eec1be758a213c86c93c076dbe9f558c11c752"
+        },
+        "id": 234
+    },
+    {
+        "name": "Sanctuary of Artemis at Brauron",
+        "lat": 37.92611,
+        "lng": 23.99361,
+        "image": "images/sanctuary_artemis_brauron.jpg",
+        "description": "One of Greece's most sacred sites, where young girls served as 'bears' in rituals honoring Artemis, goddess of the hunt and wilderness.",
+        "audioText": "You have arrived at Brauron, one of ancient Greece's most important religious sanctuaries, dedicated to Artemis, the goddess of hunting, wilderness, and childbirth. This sacred site was active from the 8th century BC until flooding forced its abandonment in the 3rd century BC. The most fascinating aspect of Brauron was the Arkteia festival, where young Athenian girls aged 5 to 10, dressed in saffron robes, performed ritual dances as 'bears' to honor the goddess. The impressive Pi-shaped stoa you see had dining rooms where these girls lived during their service. The Classical Doric temple stood on a platform above a sacred spring, where countless votive offerings were deposited over the centuries.",
+        "quiz": {
+            "question": "What was the Arkteia festival at Brauron?",
+            "options": [
+                "A ritual where young girls served as 'bears' honoring Artemis",
+                "An annual hunting competition for warriors",
+                "A dramatic performance celebrating Zeus",
+                "A harvest festival for farmers"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Young Athenian girls performed as ritual 'bears' in this unique coming-of-age ceremony dedicated to Artemis."
+        },
+        "reward": {
+            "title": "Free entry to Brauron Archaeological Museum",
+            "provider": "Ministry of Culture - Brauron",
+            "codeHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "id": 235
+    },
+    {
+        "name": "Sacred Spring of Brauron",
+        "lat": 37.9261,
+        "lng": 23.9937,
+        "image": "images/sacred_spring_brauron.jpg",
+        "description": "The ancient holy water source at the heart of Brauron, where worshippers left offerings to Artemis from the 8th century BC onward.",
+        "audioText": "You are at the Sacred Spring of Brauron, the very heart and earliest focus of worship at this sanctuary. Water has always been sacred in Greek religion, and this natural spring drew worshippers from at least the 8th century BC. Excavations have revealed countless votive offerings thrown into the spring waters over centuries—mirrors, jewelry, figurines, and pottery—all gifts to Artemis seeking her protection in childbirth, successful hunts, or safe passage through adolescence. The spring's constant flow of pure water represented the life-giving power of the goddess herself. The temple and later buildings were all positioned around this holy fountain, the spiritual center from which the entire sanctuary grew.",
+        "quiz": {
+            "question": "Why was the Sacred Spring so important to the sanctuary?",
+            "options": [
+                "It was the earliest focus of worship and symbolized Artemis's life-giving power",
+                "It was the only source of drinking water in the region",
+                "It flowed with wine instead of water during festivals",
+                "It was believed to grant immortality"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The sacred spring was the spiritual heart of Brauron, representing the goddess's vital, life-giving essence."
+        },
+        "reward": {
+            "title": "Complimentary herbal tea at Vravrona Café",
+            "provider": "Vravrona Traditional Café",
+            "codeHash": "3c59dc048e8850243be8079a5c74d079e0b6c2cde5e7c24b2d1c18db0d9c3e4a"
+        },
+        "id": 236
+    },
+    {
+        "name": "Sanctuary of Athena Pallenis",
+        "lat": 38,
+        "lng": 23.89,
+        "image": "images/sanctuary_athena_pallenis.jpg",
+        "description": "A mid-5th century BC Doric temple where the federation of Attic townships met, similar in design to the famous Hephaestus temple.",
+        "audioText": "Welcome to the Sanctuary of Athena Pallenis, an important federal sanctuary in the Mesogeia plain. This mid-5th century BC Doric hexastyle temple, meaning it had six columns across the front, served as a meeting place for the ancient federation of Attic townships. The temple's design closely resembles the well-preserved Hephaestus temple in Athens, with its harmonious proportions and limestone foundations. Archaeological excavations have uncovered inscribed statue bases and votive reliefs that tell us this was a center of regional political and religious life. The citizens of Pallene and surrounding demes gathered here to honor Athena as their protector and to make collective decisions affecting their communities.",
+        "quiz": {
+            "question": "What does 'hexastyle' mean in temple architecture?",
+            "options": [
+                "A temple with six columns across its front",
+                "A temple dedicated to six gods",
+                "A temple with six interior chambers",
+                "A temple built in six months"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Hexastyle describes a temple façade with six columns, a common classical Greek design."
+        },
+        "reward": {
+            "title": "10% discount at Pallini History Museum shop",
+            "provider": "Pallini Cultural Foundation",
+            "codeHash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"
+        },
+        "id": 237
+    },
+    {
+        "name": "Ancient Deme of Sphettos",
+        "lat": 37.8962,
+        "lng": 23.874,
+        "image": "images/deme_sphettos_koropi.jpg",
+        "description": "One of the twelve original townships unified by Theseus, with remains on the Kastro tou Christou hill in modern Koropi.",
+        "audioText": "You are exploring Sphettos, one of the twelve ancient townships, or demes, that according to legend were unified by the hero Theseus to form the city of Athens. Located on the Kastro tou Christou hill in what is now Koropi, Sphettos was an important community in the fertile Mesogeia plain. Archaeological investigations have uncovered stone foundations of houses, public buildings, and numerous inscribed statue bases and votive reliefs that document the civic and religious life of this deme through the classical and Hellenistic periods. As a deme, Sphettos had its own assembly, officials, and local cults, giving its citizens a strong sense of local identity even while they were part of greater Athens.",
+        "quiz": {
+            "question": "What is a 'deme' in ancient Greek society?",
+            "options": [
+                "A township or local district with its own assembly and officials",
+                "A military fortress guarding the frontier",
+                "A temple dedicated to multiple gods",
+                "A trading post on the coast"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Demes were the basic units of Athenian democracy, each with local governance and identity."
+        },
+        "reward": {
+            "title": "Free map of ancient Attic demes",
+            "provider": "Koropi Historical Society",
+            "codeHash": "7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069"
+        },
+        "id": 238
+    },
+    {
+        "name": "Ore Washeries at Souriza Valley",
+        "lat": 37.71,
+        "lng": 24.03,
+        "image": "images/ore_washeries_souriza.jpg",
+        "description": "Sophisticated ancient ore processing facilities with stone basins and channels where silver ore was washed and separated.",
+        "audioText": "You are visiting the ore washeries of Souriza Valley, remarkable examples of ancient industrial technology. After silver ore was extracted from the mines, it had to be processed to separate the valuable metal from worthless rock. Here at Souriza, you can see the remains of hydraulic washing installations from the Classical period, with stone basins and carefully engineered channels that used flowing water to separate lighter waste rock from heavier silver-bearing ore. This ancient beneficiation process required sophisticated understanding of water management and ore properties. Multiple washeries operated simultaneously in this valley, processing tons of ore to feed the nearby smelting furnaces. These industrial sites are as much a testament to Greek engineering genius as their famous temples.",
+        "quiz": {
+            "question": "What was the purpose of the ore washeries?",
+            "options": [
+                "To use water to separate valuable silver ore from waste rock",
+                "To provide drinking water for mine workers",
+                "To wash the silver coins after minting",
+                "To clean the miners' tools and equipment"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The washeries used water flow to separate heavier silver ore from lighter worthless rock."
+        },
+        "reward": {
+            "title": "Free silver jewelry cleaning at Lavrio Artisan Shop",
+            "provider": "Lavrio Silver Workshop",
+            "codeHash": "cc0cdd8b88d73f670e97c0e7bb4e0b2a3e3f4c2e0be3e5d7e3b3f5a7c0cc7e0c"
+        },
+        "id": 239
+    },
+    {
+        "name": "Fortified Acropolis of Thorikos",
+        "lat": 37.739,
+        "lng": 24.0545,
+        "image": "images/acropolis_thorikos.jpg",
+        "description": "A prehistoric hilltop settlement fortified from the Neolithic period through the Bronze Age, commanding views of the Aegean.",
+        "audioText": "You have climbed to the Fortified Acropolis of Thorikos, perched on the summit of Velatouri Hill with panoramic views of the Aegean Sea. This hilltop was continuously inhabited from the Neolithic period around 3200 BC through the Late Bronze Age until about 1050 BC. The defensive walls you see fragments of protected a thriving prehistoric community that controlled the valuable mineral resources of this region. Archaeological excavations have revealed houses, storage facilities, and artifacts spanning over two millennia. The strategic location allowed the settlement to monitor sea approaches and protect the mining operations below. After the Bronze Age collapse, the population moved down the hillside, but this acropolis remained a symbol of Thorikos's ancient origins.",
+        "quiz": {
+            "question": "How long was the Acropolis of Thorikos continuously inhabited?",
+            "options": [
+                "Over 2,000 years, from around 3200 to 1050 BC",
+                "Only during the Classical period",
+                "About 100 years in the Bronze Age",
+                "It was never permanently inhabited"
+            ],
+            "answer": 0,
+            "feedback": "Correct! This acropolis had an extraordinarily long occupation from the Neolithic through the end of the Bronze Age."
+        },
+        "reward": {
+            "title": "Panoramic photo print at Thorikos viewpoint",
+            "provider": "Thorikos Heritage Site",
+            "codeHash": "d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2d2"
+        },
+        "id": 240
+    },
+    {
+        "name": "Temple of Demeter at Thorikos",
+        "lat": 37.737,
+        "lng": 24.052,
+        "image": "images/temple_demeter_thorikos.jpg",
+        "description": "A Classical period sanctuary with a monumental Doric stoa dedicated to Demeter, goddess of agriculture and the harvest.",
+        "audioText": "Welcome to the Temple of Demeter at Thorikos, a sanctuary honoring the goddess of agriculture, grain, and the harvest. Located on the Adami plain below the acropolis, this Classical period sanctuary featured a monumental Doric stoa—a long colonnaded building with limestone columns and foundations that can still be traced today. Demeter was vital to ancient communities because she controlled the fertility of the earth and the success of crops. The sanctuary would have been especially important in a mining town like Thorikos, where farmers worked the fields around the mines and needed the goddess's blessing for good harvests. Ritual offerings and communal feasts in honor of Demeter brought the community together in gratitude and hope.",
+        "quiz": {
+            "question": "Who was Demeter in Greek mythology?",
+            "options": [
+                "The goddess of agriculture, grain, and the harvest",
+                "The goddess of wisdom and warfare",
+                "The goddess of the hunt and wilderness",
+                "The goddess of love and beauty"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Demeter was the goddess who controlled the fertility of the earth and the success of crops."
+        },
+        "reward": {
+            "title": "Free sample of local honey at Thorikos Farm Shop",
+            "provider": "Lavreotiki Agricultural Cooperative",
+            "codeHash": "8e35c2cd3bf6641bdb0e2050b76932cbb2e6034a0ddacc1d9bea82a6ba57f7f0"
+        },
+        "id": 241
+    },
+    {
+        "name": "Acharnae - Largest Ancient Deme",
+        "lat": 38.08194,
+        "lng": 23.73147,
+        "image": "images/acharnae_deme.jpg",
+        "description": "The largest deme of ancient Attica, famous for its charcoal burners and fierce warriors, immortalized in Aristophanes' comedy 'The Acharnians'.",
+        "audioText": "Welcome to Acharnae, the largest and most populous of all Athenian demes, located in the northwestern Attic plain near Mount Parnes. At the start of the Peloponnesian War, Acharnae could field 3,000 hoplites—a tenth of Athens' entire infantry! The Acharnians were famous as charcoal burners who supplied Athens with fuel from the oak forests of Parnes, but they were also renowned as fierce and hot-tempered warriors. The playwright Aristophanes chose them as the subject of his comedy 'The Acharnians,' where he portrays them as tough, rough country folk eager for war against Sparta. The area has yielded rich archaeological finds, including a magnificent Mycenaean tholos tomb known as the Tomb of Menidi, which contained gold jewelry and fine pottery showing that this region was important even in the Bronze Age. The Spartans deliberately ravaged Acharnae during their invasions, knowing it would most enrage the Athenians. Today, the modern suburb of Acharnes preserves the ancient name.",
+        "quiz": {
+            "question": "What made Acharnae the largest deme of ancient Attica?",
+            "options": [
+                "Its large population that could field 3,000 hoplites",
+                "Its geographic size covering most of Attica",
+                "Its wealthy aristocratic families",
+                "Its position as the capital before Athens"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Acharnae's ability to contribute one-tenth of Athens' infantry demonstrates its exceptional population size."
+        },
+        "reward": {
+            "title": "Traditional charcoal-grilled souvlaki voucher",
+            "provider": "Acharnes Traditional Taverna",
+            "codeHash": "8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c"
+        },
+        "id": 242
+    },
+    {
+        "name": "Paeania - Demosthenes' Birthplace",
+        "lat": 37.958506,
+        "lng": 23.8552995,
+        "image": "images/paeania_deme.jpg",
+        "description": "The ancient deme on the eastern slopes of Mount Hymettus, birthplace of Demosthenes, the greatest orator of ancient Greece.",
+        "audioText": "You are in Paeania, an ancient deme on the eastern side of Mount Hymettus, famous as the birthplace of Demosthenes, the greatest orator in Greek history. Born here in 384 BC, Demosthenes overcame a speech impediment through rigorous training—famously practicing with pebbles in his mouth and reciting speeches over the roar of the sea. He became Athens' fiercest defender against the rising power of Macedon under Philip II and his son Alexander. His powerful 'Philippic' orations warned Athenians of the threat to their freedom, though ultimately Philip conquered Greece. Paeania was actually divided into two parts: Upper Paeania and Lower Paeania, both belonging to the tribe Pandionis. The area was prosperous, with fertile land for farming and easy access to both Athens and the coast. Archaeological remains include house foundations on terraces and inscriptions documenting the deme's civic life. The modern town of Paiania preserves the ancient name and is famous today for its beautiful Koutouki Cave.",
+        "quiz": {
+            "question": "What is Paeania most famous for in ancient history?",
+            "options": [
+                "Being the birthplace of the orator Demosthenes",
+                "The site of a major battle",
+                "A temple to Zeus",
+                "The first democracy in Greece"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Demosthenes, born in Paeania in 384 BC, became Athens' greatest orator and defender against Macedonian expansion."
+        },
+        "reward": {
+            "title": "Free entry to Vorres Museum of Folk Art",
+            "provider": "Paiania Cultural Center",
+            "codeHash": "0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e"
+        },
+        "id": 243
+    },
+    {
+        "name": "Ancient Salamis and Naval Battle Site",
+        "lat": 37.95,
+        "lng": 23.57,
+        "image": "images/salamis_ancient_city.jpg",
+        "description": "The ancient city and harbor where the Greek fleet gathered before defeating the Persians in the most decisive naval battle of antiquity in 480 BC.",
+        "audioText": "You are on the island of Salamis, site of one of the most consequential battles in human history. In September 480 BC, the narrow straits between this island and the mainland witnessed the Battle of Salamis, where the outnumbered Greek fleet decisively defeated the massive Persian navy of Xerxes. The Greek commander Themistocles brilliantly lured the Persian ships into these confined waters where their numbers became a disadvantage. The Greeks, fighting for their homes and freedom, destroyed 200 Persian vessels while losing only 40 of their own. The Persian king Xerxes watched in horror from a golden throne on Mount Aegaleos as his fleet was annihilated. This victory saved Greece from conquest and allowed the flowering of classical Greek civilization. The ancient city of Salamis, whose ruins lie in Ampelakia Bay, was the legendary birthplace of the hero Ajax and the playwright Euripides. Today, Salamis is home to the Greek Navy's headquarters, continuing the island's 2,500-year naval tradition.",
+        "quiz": {
+            "question": "Why was the Battle of Salamis so decisive?",
+            "options": [
+                "The Greek victory saved Greece from Persian conquest",
+                "It was the first naval battle in history",
+                "The Spartans defeated Athens",
+                "Alexander the Great began his conquests"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Salamis was the turning point that prevented Persian domination and preserved Greek independence and culture."
+        },
+        "reward": {
+            "title": "Ferry ride discount to Salamis Island",
+            "provider": "Salamis Ferry Services",
+            "codeHash": "1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f"
+        },
+        "id": 244
+    },
+    {
+        "name": "Dekeleia - Spartan Stronghold",
+        "lat": 38.11,
+        "lng": 23.7786,
+        "image": "images/dekeleia_fortress.jpg",
+        "description": "The strategic fortress captured by Sparta in 413 BC that crippled Athens throughout the final decade of the Peloponnesian War.",
+        "audioText": "You are at Dekeleia, a site that changed the course of the Peloponnesian War. In 413 BC, on the advice of the Athenian traitor Alcibiades, the Spartan king Agis II seized and fortified this strategic deme just 120 stadia from Athens. From this base, the Spartans could ravage the Attic countryside year-round, forcing the Athenians to abandon their farms and cutting off their access to the silver mines of Laurion and the land route to the grain port of Oropos. Over 20,000 Athenian slaves, many skilled craftsmen, escaped to the Spartans here. The occupation of Dekeleia was more damaging to Athens than all the previous invasions combined, as Thucydides tells us. It was visible from Athens itself—a constant reminder of Sparta's presence. The fortress remained in Spartan hands until Athens' final defeat in 404 BC. The ancient Dekeleians had enjoyed special privileges in Sparta since helping the Dioscuri rescue Helen from Theseus, and they maintained these rights even after this painful occupation.",
+        "quiz": {
+            "question": "How did Dekeleia's occupation damage Athens?",
+            "options": [
+                "Year-round raids, loss of mines, escape of slaves, and cut supply routes",
+                "It was the site of Athens' final surrender",
+                "The Spartans burned the Parthenon",
+                "It blocked Athens' access to the sea"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The permanent Spartan garrison at Dekeleia inflicted continuous economic and psychological damage on Athens throughout the war's final phase."
+        },
+        "reward": {
+            "title": "Historical walking tour of Tatoi Estate",
+            "provider": "Tatoi Heritage Foundation",
+            "codeHash": "2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a"
+        },
+        "id": 245
+    },
+    {
+        "name": "Ancient Walls of Piraeus",
+        "lat": 37.9475,
+        "lng": 23.6512,
+        "image": "images/piraeus_ancient_walls.jpg",
+        "description": "The mighty fortifications built by Themistocles and Conon that protected Athens' port and the famous Long Walls connecting it to the city.",
+        "audioText": "You are standing at the ancient fortifications of Piraeus, some of the finest examples of Greek military architecture surviving today. After the Persian Wars, the visionary statesman Themistocles recognized that Athens' future lay in sea power. He fortified Piraeus with massive walls and connected it to Athens with the Long Walls—twin fortification lines running five kilometers that created a secure corridor allowing Athens to receive supplies by sea even when enemies controlled the countryside. These walls were about 60 feet high and broad enough for two carts to pass. After Athens' defeat in 404 BC, the Spartans tore down the Long Walls amid celebration, but in 394 BC, Conon rebuilt them and added the impressive coastal fortifications you see preserved here. The walls are built in the emplekton technique: two parallel faces of large squared limestone blocks with rubble fill between them. Over 2.5 kilometers of these walls survive along the peninsula, including several towers. Their preservation is remarkable, making this one of the best places to understand ancient Greek fortification engineering.",
+        "quiz": {
+            "question": "What were the Long Walls and why were they important?",
+            "options": [
+                "Walls connecting Athens to Piraeus, securing supply lines by sea",
+                "The perimeter walls around the Acropolis",
+                "The walls of the Parthenon temple",
+                "Defensive walls between Athens and Sparta"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Long Walls ensured Athens could never be starved out as long as it controlled the sea."
+        },
+        "reward": {
+            "title": "Harbor cruise with historical narration",
+            "provider": "Piraeus Port Authority",
+            "codeHash": "3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b"
+        },
+        "id": 246
+    },
+    {
+        "name": "Aphidna - Where Helen Was Hidden",
+        "lat": 38.1871,
+        "lng": 23.8792,
+        "image": "images/aphidna_fortress.jpg",
+        "description": "One of the twelve original townships of Attica, famous in myth as where Theseus hid Helen of Troy before the Dioscuri rescued her.",
+        "audioText": "You are at Aphidna, one of the legendary twelve ancient towns that Theseus unified to create Athens. This site is forever linked to one of Greek mythology's most famous stories: the abduction of Helen. According to legend, before Helen became the cause of the Trojan War, the hero Theseus kidnapped the young Helen and brought her here to Aphidna, entrusting her to his friend Aphidnus. When Helen's brothers, the Dioscuri—Castor and Pollux—came searching for her, the people of neighboring Dekeleia revealed where she was hidden. The Dioscuri stormed Aphidna, rescued their sister, and in gratitude granted the Dekeleians eternal privileges in Sparta. Archaeological reality shows that Aphidna was indeed important: a Middle Bronze Age tumulus with rich burials dates to 2000-1600 BC, and a Classical fortress crowned the Kotroni hill, guarding the northern approaches to Athens. Recent surveys have revealed extensive remains of the ancient settlement on the hillside terraces, showing this was a substantial community controlling a strategic position near the Marathon reservoir.",
+        "quiz": {
+            "question": "Why is Aphidna famous in Greek mythology?",
+            "options": [
+                "Theseus hid Helen here before her brothers rescued her",
+                "It was the birthplace of Zeus",
+                "The Trojan Horse was built here",
+                "Hercules completed one of his labors here"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The myth of Helen's rescue from Aphidna by the Dioscuri was famous throughout ancient Greece."
+        },
+        "reward": {
+            "title": "Free visit to Marathon Dam and Lake viewpoint",
+            "provider": "EYDAP Water Company",
+            "codeHash": "4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c"
+        },
+        "id": 247
+    },
+    {
+        "name": "Naval Base of Sounion",
+        "lat": 37.6524,
+        "lng": 24.0228,
+        "image": "images/sounion_naval_base.jpg",
+        "description": "Ancient rock-cut ship sheds where Athenian warships were maintained, protecting the vital sea lanes to the silver mines and Athens.",
+        "audioText": "You are at the naval base of Sounion, a fascinating example of ancient Greek maritime infrastructure. Cut directly into the bedrock on the northwestern side of Cape Sounion are two parallel ship sheds that housed light patrol vessels called triremes. The main chamber measures 20.5 meters long and 11.5 meters wide, with two slanting trenches carved into the floor where ships could be hauled up for maintenance and storage. A smaller single slipway lies nearby, now partially submerged beneath the rising sea. This naval base was part of Athens' strategic defense network, positioned to guard the approaches to Piraeus and the vital silver-mining region of Laurion. Fast patrol ships based here could intercept pirates or enemy raiders threatening Athenian commerce. The rock-cut construction was difficult and expensive, requiring skilled stoneworkers, but it created permanent facilities that needed no wooden structures to rot or burn. These installations were incorporated into the fortress walls of Sounion and remained in use throughout the Classical and Hellenistic periods. Underwater surveys have revealed submerged walls and structures that once lined the ancient harbor.",
+        "quiz": {
+            "question": "What were ship sheds used for in ancient Greek naval bases?",
+            "options": [
+                "Hauling warships out of water for maintenance and storage",
+                "Training new sailors in rowing techniques",
+                "Building new warships from scratch",
+                "Storing grain and supplies for the fleet"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Ship sheds protected expensive warships from marine organisms and weather when not in use."
+        },
+        "reward": {
+            "title": "Scuba diving intro session in Sounion bay",
+            "provider": "Cape Sounion Dive Center",
+            "codeHash": "5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d"
+        },
+        "id": 248
+    },
+    {
+        "name": "Anagyrous - Southern Coastal Deme",
+        "lat": 37.83,
+        "lng": 23.7976,
+        "image": "images/anagyrous_deme.jpg",
+        "description": "An ancient fishing deme near Cape Zoster with a sanctuary to the Mother of the Gods, famous for its seafood in antiquity.",
+        "audioText": "You are at Anagyrous, an ancient coastal deme situated in southern Attica near the promontory called Zoster. This was primarily a fishing community, and ancient sources tell us that Anagyrous was especially celebrated for its excellent seafood and fisheries. Pausanias mentions that there was a temple here dedicated to the Mother of the Gods, a deity associated with fertility and protection. The deme's coastal location made it prosperous but also vulnerable to pirate raids and enemy fleets. Archaeological excavations on Lathouriza hill have revealed a substantial settlement from the Archaic and Classical periods, including a sanctuary with a double temple, a circular platform, houses, and an enclosure wall. Rich grave offerings from the area, now in the National Archaeological Museum, show that wealthy families lived here in the 7th and 6th centuries BC. The modern area of Vari and Varkiza preserves something of the ancient character—still known for beaches and seafood restaurants. The name Anagyrous itself comes from a thorny shrub that grew abundantly in the area and had an unpleasant smell when disturbed—giving rise to the Greek proverb about 'stirring up Anagyrous' when someone made trouble unnecessarily.",
+        "quiz": {
+            "question": "What was Anagyrous particularly famous for in ancient times?",
+            "options": [
+                "Its excellent fisheries and seafood",
+                "Silver mining operations",
+                "Marble quarries",
+                "Wine production"
+            ],
+            "answer": 0,
+            "feedback": "Correct! As a coastal deme, Anagyrous was renowned for its fishing and was celebrated for the quality of its seafood."
+        },
+        "reward": {
+            "title": "Fresh fish lunch at seaside taverna",
+            "provider": "Vari Seafood Restaurant",
+            "codeHash": "6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e"
+        },
+        "id": 249
+    },
+    {
+        "name": "Oinoe Fortress - Border Stronghold",
+        "lat": 38.168,
+        "lng": 23.449,
+        "image": "images/oinoe_fortress.jpg",
+        "description": "The fortified border deme guarding the pass through Mount Cithaeron, famously besieged by Spartans at the start of the Peloponnesian War.",
+        "audioText": "You are at Oinoe, one of the most remote frontier demes of Attica, guarding the narrow pass through Mount Cithaeron that connected Athens with Thebes and Plataea. The fortress you see, known today as Ghyftokastro or 'Gypsy Castle,' occupies a commanding height on the Attic side of the pass. In 431 BC, at the very outbreak of the Peloponnesian War, the Spartan king Archidamus led his army into Attica and laid siege to Oinoe. Though it was just a small frontier fort, the Spartans wasted precious time trying to take it, giving the Athenians crucial extra days to evacuate their farms and retreat behind Athens' walls. Thucydides describes the siege machines they brought against it, but Oinoe held firm. The fortress was eventually captured by the Boeotians in 411 BC, though Athens recovered it afterward. The rectangular circuit wall, about 3.9 meters thick, has seven visible towers—four on the north side, two on the east, and one on the west. The south wall has been confirmed by excavations but is not visible. The location meant that whoever held Oinoe controlled movement between Attica and Boeotia, making it strategically vital far beyond its size.",
+        "quiz": {
+            "question": "Why was Oinoe strategically important?",
+            "options": [
+                "It controlled the pass between Attica and Boeotia through Mount Cithaeron",
+                "It was the largest city in northern Attica",
+                "It contained the royal treasury",
+                "All Athenian soldiers trained there"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Oinoe's position guarding the mountain pass gave it strategic importance far beyond its small size."
+        },
+        "reward": {
+            "title": "Mountain hiking trail map and compass",
+            "provider": "Mazi Archaeological Project",
+            "codeHash": "9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b"
+        },
+        "id": 250
+    },
+    {
+        "name": "Aixone - Coastal Fishing Deme",
+        "lat": 37.866334,
+        "lng": 23.7548945,
+        "image": "images/aixone_deme.jpg",
+        "description": "An ancient seaside deme with a sanctuary to Hebe, goddess of youth, located in what is now the suburb of Glyfada.",
+        "audioText": "You are in Aixone, an ancient coastal deme that occupied the area of modern Glyfada, one of Athens' most fashionable southern suburbs. In ancient times, Aixone was celebrated for its fisheries—being on the coast between Halimus and Cape Zoster meant abundant fishing opportunities. The deme belonged to the Kekropis tribe and was home to a sanctuary of Hebe, the goddess of youth who served as cupbearer to the gods on Mount Olympus. Archaeological excavations have revealed the deme center near the Church of Agios Nikolaos, with finds including deme decrees, inscriptions, and evidence of Classical and Hellenistic settlement. A remarkable discovery has been a wealthy cemetery dating to the Late Geometric and Archaic periods, which produced some of the finest early Attic black-figure pottery now displayed in the National Archaeological Museum. These elaborate funeral offerings show that at least one rich aristocratic family made Aixone their home in the 7th and 6th centuries BC. To the west of the settlement lay the port and ancient salt pits where salt was extracted from seawater—another source of the deme's prosperity. The name persists in the area called Voula-Varkiza nearby.",
+        "quiz": {
+            "question": "What goddess had a sanctuary at Aixone?",
+            "options": [
+                "Hebe, goddess of youth and cupbearer of the gods",
+                "Athena, goddess of wisdom",
+                "Artemis, goddess of the hunt",
+                "Demeter, goddess of agriculture"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Hebe, daughter of Zeus and Hera, was honored at Aixone with her own sanctuary."
+        },
+        "reward": {
+            "title": "Beach club day pass with lunch",
+            "provider": "Glyfada Beach Resort",
+            "codeHash": "0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c"
+        },
+        "id": 251
+    },
+    {
+        "name": "Prasiae - Ancient Port Settlement",
+        "lat": 37.8652,
+        "lng": 24.0376,
+        "image": "images/prasiae_port.jpg",
+        "description": "An eastern coastal deme with an excellent natural harbor, departure point for sacred processions to Delos, now called Porto Rafti.",
+        "audioText": "You are at Prasiae, an ancient port settlement occupying the shores of one of the best natural harbors on the eastern coast of Attica—the bay now called Porto Rafti. The harbor is deep and capacious, over a mile wide at its entrance, and protected by several islands including the rocky islet that gives the modern name Porto Rafti, or 'Tailor's Port,' from a large Roman-era marble statue that vaguely resembles a seated tailor. In ancient times, Prasiae was important as the departure point for the Theoria, the sacred procession that sailed from here to the sanctuary of Apollo on Delos. Pausanias mentions a temple of Apollo here, as well as the tomb of Erysichthon, son of King Cecrops, who died at this spot on his return from Delos. The bay's strategic value was recognized in Hellenistic times when the fortified peninsula of Koroni, jutting into the bay, was garrisoned—possibly by Ptolemaic forces during the Chremonidean War. Archaeological surveys continue to reveal remains of the ancient deme settlement on the northern and southern shores of the bay. The harbor remained important through Byzantine and Venetian times and even served as a haven for Greek ships during the War of Independence.",
+        "quiz": {
+            "question": "What was the Theoria that departed from Prasiae?",
+            "options": [
+                "The sacred procession that sailed to Apollo's sanctuary on Delos",
+                "The annual Olympic Games delegation",
+                "A military expedition against Persia",
+                "A trading fleet to Egypt"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Theoria was the sacred delegation that Athens sent regularly to honor Apollo at his birthplace on Delos."
+        },
+        "reward": {
+            "title": "Sailing lesson in Porto Rafti bay",
+            "provider": "Porto Rafti Sailing Club",
+            "codeHash": "1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d"
+        },
+        "id": 252
+    },
+    {
+        "name": "Theatre of Ikarion - Birthplace of Tragedy",
+        "lat": 38.095558,
+        "lng": 23.900489,
+        "image": "images/theatre_ikarion.jpg",
+        "description": "The legendary birthplace of Greek tragedy, where Thespis created the first actor and transformed dithyramb into drama in the 6th century BC.",
+        "audioText": "Welcome to Ikarion, the legendary birthplace of Greek tragedy and one of the most historically significant sites in the history of Western theater. According to ancient tradition, it was here in the 6th century BC that Thespis—the first tragic actor whose name gives us the word 'thespian'—revolutionized performance by stepping out of the chorus to speak as an individual character. This innovation transformed the choral dithyramb honoring Dionysus into true drama. The theater you see is small and austere, with a rectangular orchestra limited on one side by five stone seats of honor called prohedriai and on the other by a terrace. Despite its modest size, inscriptions prove that organized dramatic festivals were held here as early as the 5th century BC. The site also includes a Pythion temple dedicated to Apollo, and a semicircular monument honoring the choregoi who funded performances. The myth tells that the local hero Ikarios welcomed the god Dionysus and was taught the cultivation of grapes and wine-making. American excavations in 1888-89 revealed the inscription 'The Pythion of the Ikarians,' confirming this as the deme's civic and religious center. Standing here, you can almost hear the earliest tragic verses echoing across 2,500 years.",
+        "quiz": {
+            "question": "Who was Thespis and why is Ikarion significant?",
+            "options": [
+                "Thespis was the first tragic actor who created individual character performance here",
+                "Thespis was a god worshipped at this theater",
+                "Thespis built the Parthenon",
+                "Thespis founded the Olympic Games"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Thespis revolutionized theater by introducing the first actor, transforming choral performance into drama."
+        },
+        "reward": {
+            "title": "Free entry to Dionysos Municipal Cultural Center",
+            "provider": "Municipality of Dionysos",
+            "codeHash": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a"
+        },
+        "id": 253
+    },
+    {
+        "name": "Church of Agioi Theodoroi",
+        "lat": 37.9772,
+        "lng": 23.732,
+        "image": "images/agioi_theodoroi.jpg",
+        "description": "One of Athens' most important Byzantine monuments, built in 1049-1065 by the Byzantine official Nikolaos Kalomalos, near Klathmonos Square.",
+        "audioText": "You are at the Church of Agioi Theodoroi, one of the most important and beautiful Byzantine monuments in central Athens. Located near Klathmonos Square, this church stands as a testament to middle Byzantine architectural excellence. According to inscriptions preserved on the western wall, the church was erected by the spatharocandidatus Nikolaos Kalomalos—a Byzantine official whose title indicates he was a member of the palace guard. A second inscription gives us the foundation date of either 1049 or 1065, placing it firmly in the golden age of Byzantine Athens. The church is a classic example of the cross-in-square type with a dome, featuring the elegant proportions and refined details characteristic of 11th-century Constantinopolitan style. The masonry uses the cloisonné technique—alternating courses of brick and stone—with decorative brick patterns creating visual interest on the exterior walls. When King Otto brought the Bavarian architect Leo von Klenze to plan the new Athens after Greek independence, many Byzantine churches were threatened with demolition to make way for modern streets. The Church of Agioi Theodoroi was saved thanks to the intervention of King Otto himself and Queen Amalia, who recognized its historical and artistic value. Restoration works in the 19th century preserved this jewel for future generations. The church remains active today, its ancient stones witnessing the daily life of modern Athens flowing around it.",
+        "quiz": {
+            "question": "Who built the Church of Agioi Theodoroi and when?",
+            "options": [
+                "Byzantine official Nikolaos Kalomalos in 1049-1065",
+                "Emperor Constantine in 330 AD",
+                "King Otto in 1834",
+                "Pericles in the 5th century BC"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The spatharocandidatus Nikolaos Kalomalos built this church in the mid-11th century, as documented by inscriptions."
+        },
+        "reward": {
+            "title": "Byzantine Athens walking tour guidebook",
+            "provider": "Hellenic Ministry of Culture",
+            "codeHash": "7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d"
+        },
+        "id": 254
+    },
+    {
+        "name": "Church of Soteira Lykodemou (Russian Church)",
+        "lat": 37.9753,
+        "lng": 23.733,
+        "image": "images/soteira_lykodemou_russian.jpg",
+        "description": "The largest surviving Byzantine church in Athens (11th century), now serving the Russian Orthodox community. Famous copy of Hosios Loukas monastery.",
+        "audioText": "You are at the Church of Soteira Lykodemou, also known as the Russian Church or Church of the Holy Trinity—the largest surviving Byzantine church in Athens. Built in the first half of the 11th century, with inscriptions dating to 1031, this magnificent church originally served as the katholikon of a large convent. The name 'Soteira Lykodemou' means 'the Virgin Saviouress of Lykodemos,' with Lykodemos probably being the family name of one of its founders. What makes this church architecturally extraordinary is that it is clearly the earliest and most faithful copy of the great katholikon of the Hosios Loukas monastery—one of the masterpieces of Byzantine architecture. The Athenian church features measurements almost exactly three-quarters those of Hosios Loukas, replicating its design, proportions, and decorative program. The church follows the typically middle Byzantine cross-in-square plan, with a dome resting on an octagonal base supported by eight piers. The masonry is of exceptional quality, with dressed stones separated by double courses of bricks. The exterior is decorated with pseudo-Kufic brick designs similar to those at Hosios Loukas, some placed individually and others forming a continuous frieze on three sides. In 1778, the Ottoman governor Hadji Ali Haseki demolished the rest of the convent to build city walls. After Greek independence, the church fell into ruins until 1847, when Tsar Nicholas I acquired it for Athens' Russian community. The reconstruction in 1850-55 largely preserved the original Byzantine design, and today it remains the spiritual center for Russian Orthodox worshippers in Athens.",
+        "quiz": {
+            "question": "What makes Soteira Lykodemou architecturally significant?",
+            "options": [
+                "It is the largest Byzantine church in Athens and a copy of Hosios Loukas monastery",
+                "It was the first church built in Greece",
+                "It contains the throne of the Byzantine Emperor",
+                "It was designed by Leonardo da Vinci"
+            ],
+            "answer": 0,
+            "feedback": "Correct! This 11th-century church is Athens' largest Byzantine monument and faithfully replicates the famous Hosios Loukas."
+        },
+        "reward": {
+            "title": "Russian Orthodox heritage tour and concert",
+            "provider": "Holy Trinity Russian Church",
+            "codeHash": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e"
+        },
+        "id": 255
+    },
+    {
+        "name": "Ancient Oropos - Border Harbor City",
+        "lat": 38.3195,
+        "lng": 23.79,
+        "image": "images/oropos_city.jpg",
+        "description": "A strategic border town and harbor constantly contested by Athens and Thebes, serving as the vital crossing point to Euboea.",
+        "audioText": "You are at ancient Oropos, a town whose geographic position made it one of the most contested places in ancient Greece. Situated on the border between Attica and Boeotia, overlooking the narrow strait to Euboea, Oropos controlled a vital crossing point and the direct road to Athens through Dekeleia—one of Athens' main supply routes. The harbor called Delphinion lay at the mouth of the Asopos River, while the city itself stood at what is now Skala Oropou. Because of this strategic importance, control of Oropos passed back and forth between Athens and Thebes throughout the Classical period. When Athens held it, the grain and cattle crossing from Euboea were secure; when Thebes took it, Athens was cut off from these vital supplies. The territory was important enough that there were even periods when Oropos enjoyed brief autonomy as a buffer state. Archaeological excavations have revealed an important Early Iron Age settlement that may have been the Homeric Graia, along with Hellenistic and Roman remains now buried under the modern town. The nearby Amphiareion sanctuary brought religious pilgrims and healing seekers, adding to Oropos' importance. Inscriptions and tomb monuments reused in local churches attest to the town's long prosperity despite its constantly shifting political allegiance.",
+        "quiz": {
+            "question": "Why was Oropos constantly fought over by Athens and Thebes?",
+            "options": [
+                "It controlled the vital crossing to Euboea and Athens' supply route",
+                "It had the richest silver mines in Greece",
+                "It was the birthplace of Zeus",
+                "It contained the Olympic Games stadium"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Oropos' strategic position controlling access to Euboea and the road to Athens made it highly contested."
+        },
+        "reward": {
+            "title": "Ferry discount to Eretria, Euboea",
+            "provider": "Oropos Port Authority",
+            "codeHash": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a"
+        },
+        "id": 256
+    },
+    {
+        "name": "Ancient Megara - Dorian Rival City",
+        "lat": 37.99639,
+        "lng": 23.34444,
+        "image": "images/ancient_megara.jpg",
+        "description": "A powerful Dorian city-state that founded the colonies of Byzantium and Chalcedon, rival of Athens with impressive Theagenes Fountain.",
+        "audioText": "You are in Megara, one of the great Dorian city-states that rivaled Athens in the Archaic period. Though the modern town overlies most ancient remains, this was once a powerful maritime state that punched far above its weight. During the age of colonization in the 8th and 7th centuries BC, Megara founded some of the most important Greek colonies: Megara Hyblaea in Sicily, Selinus in Sicily, Chalcedon on the Asian side of the Bosporus, and most famously Byzantium—the future Constantinople and Istanbul. The city occupied a strategic buffer position between Attica and Corinth, with harbors on both the Saronic and Corinthian Gulfs. Megara experienced a tyranny under Theagenes in the 7th century BC and later came into bitter conflict with Athens over control of the island of Salamis. The most visible ancient monument is the Theagenes Fountain, a remarkable 5th-century BC structure with a large rectangular cistern supported by rows of octagonal columns—perhaps designed by the famous engineer Eupalinos who also built Samos' aqueduct. The city had two acropolises on the hills of Alkathos and Karia. Megara's rivalry with Athens was so intense that in 432 BC, Pericles issued the Megarian Decree excluding them from Athenian markets, one of the triggers of the Peloponnesian War.",
+        "quiz": {
+            "question": "What was Megara most famous for in the Archaic period?",
+            "options": [
+                "Founding major colonies including Byzantium and Chalcedon",
+                "Inventing democracy",
+                "Building the Parthenon",
+                "Defeating the Persians at Marathon"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Megara was a major colonizing power, founding cities that became hugely important, especially Byzantium."
+        },
+        "reward": {
+            "title": "Guided tour of Theagenes Fountain archaeological site",
+            "provider": "Megara Archaeological Museum",
+            "codeHash": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b"
+        },
+        "id": 257
+    },
+    {
+        "name": "Theatre at Amphiareion",
+        "lat": 38.291581,
+        "lng": 23.845344,
+        "image": "images/amphiareion_theatre.jpg",
+        "description": "A well-preserved ancient theater at the healing sanctuary where dramatic and musical contests were held during the Greater Amphiareia festival.",
+        "audioText": "You are at the remarkably well-preserved theater of the Amphiareion sanctuary. Built into the hillside beside the ravine, this theater hosted dramatic and musical contests every four years as part of the Greater Amphiareia festival, established in 332 BC. Unlike the main sanctuary's focus on healing and oracular dreams, the theater provided entertainment and cultural competition that drew visitors from across Greece. The theater's stone seats are exceptionally well-preserved, allowing you to sit exactly where ancient spectators sat over 2,300 years ago. The orchestra area and lower seating tiers remain largely intact. Theater performances were an integral part of ancient Greek religious festivals—the arts of tragedy, comedy, and music were offerings to the gods as much as sacrifices and processions. Here at the Amphiareion, theatrical contests honored the hero Amphiaraos while providing respite for the sick and weary who came seeking healing. Inscriptions found at the site record the names of victorious actors and musicians, showing that competitions here attracted serious performers. The theater's location in this peaceful wooded glen, with the sacred spring and temple nearby, made attending performances a complete sensory and spiritual experience. The acoustics remain excellent, so if you speak or clap from the orchestra, you'll hear how sound carried to the upper rows.",
+        "quiz": {
+            "question": "What was the purpose of the theater at the Amphiareion?",
+            "options": [
+                "Hosting dramatic and musical contests during the Greater Amphiareia festival",
+                "Training gladiators for Roman games",
+                "Holding political assemblies only",
+                "Serving as a marketplace"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The theater was part of the sanctuary's festival program, with dramatic contests held every four years."
+        },
+        "reward": {
+            "title": "Ancient drama performance ticket discount",
+            "provider": "Amphiareion Cultural Foundation",
+            "codeHash": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"
+        },
+        "id": 258
+    },
+    {
+        "name": "Church of Metamorphosis Sotiros (Transfiguration)",
+        "lat": 37.9726,
+        "lng": 23.7279,
+        "image": "images/metamorphosis_sotiros.jpg",
+        "description": "A beautiful small 11th-century Byzantine church in the picturesque Anafiotika neighborhood, on the northern foothills of the Acropolis.",
+        "audioText": "You are at the Church of Metamorphosis Sotiros, the Church of the Transfiguration of Christ, nestled in the charming Anafiotika district on the northern slopes of the Acropolis. This is one of the most atmospheric locations in Athens—a neighborhood of whitewashed houses that feels like a Cycladic island village transported to the heart of the capital. The church dates from the third quarter of the 11th century, making it one of Athens' oldest Byzantine monuments. It is a small, intimate church belonging to the simple cross-in-square type without a narthex. From its original 11th-century form, the north side and the elegant dome survive beautifully. The other sides were altered during later expansions to enlarge the interior space for the growing congregation. Even during the Ottoman occupation (1456-1833), modifications were made—the pointed arch on the northern side is a characteristic feature of Ottoman-era architecture. The church's walls are built with the classic cloisonné system of masonry, with alternating courses of brick and stone. The exterior is decorated with charming ceramic elements including pseudo-Kufic designs (imitations of Arabic letters), diamond shapes, and zigzag patterns. The dome is the typical 'Athenian' type—octagonal, elegant, and tall, with marble columns at the corners and lobed windows. On the southern side, a rectangular chapel carved into the living rock adds to the site's unique character. The church celebrates on August 6th, the Feast of the Transfiguration. Finding this little jewel tucked among the houses of Anafiotika feels like discovering a secret treasure.",
+        "quiz": {
+            "question": "What makes the location of Metamorphosis Sotiros special?",
+            "options": [
+                "It is nestled in the Anafiotika neighborhood that resembles a Cycladic island village",
+                "It is the tallest church in Athens",
+                "It floats on water",
+                "It was built by Alexander the Great"
+            ],
+            "answer": 0,
+            "feedback": "Correct! This 11th-century church sits in the picturesque Anafiotika, a unique neighborhood with island-style architecture on the Acropolis slopes."
+        },
+        "reward": {
+            "title": "Anafiotika neighborhood walking tour",
+            "provider": "Athens Cultural Center",
+            "codeHash": "9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f"
+        },
+        "id": 259
+    },
+    {
+        "name": "Church of Agios Georgios (Omorfokklisia - Beautiful Church)",
+        "lat": 37.975,
+        "lng": 23.719,
+        "image": "images/omorfokklisia.jpg",
+        "description": "Known as the 'Beautiful Church' (Omorfokklisia), this 11th-12th century Byzantine church near the Ancient Agora exemplifies elegant Athenian architecture.",
+        "audioText": "You are at the Church of Agios Georgios, affectionately known as Omorfokklisia—literally 'the Beautiful Church'—and indeed, it lives up to its name. Located in the Thiseio area near the Ancient Agora and with views toward the Acropolis, this Byzantine gem dates from the 11th to 12th centuries. The church earned its popular name from its harmonious proportions and refined architectural details that capture the essence of Athenian Byzantine style. It follows the classic cross-in-square plan with a dome, displaying the elegant simplicity and mathematical precision that characterized middle Byzantine church architecture. The exterior showcases well-preserved decorative brickwork—the cloisonné masonry technique with alternating courses of brick and stone, punctuated by ornamental brick patterns that create visual rhythm across the facades. These decorative elements, including meander patterns, sawtooth courses, and dog-tooth friezes, demonstrate the sophistication of Byzantine builders who turned functional construction into an art form. The church's location is particularly evocative, standing in a neighborhood where ancient, Byzantine, and modern Athens intersect. Just steps away lie the ruins of the Ancient Agora where Socrates once walked, while the Acropolis rises majestically in the background. The church remains active in the life of the local community, continuing a tradition of worship that spans nearly a millennium. Its name—'Beautiful Church'—reflects not just aesthetic appreciation but also the affection Athenians have felt for this graceful building through the centuries.",
+        "quiz": {
+            "question": "Why is this church called 'Omorfokklisia'?",
+            "options": [
+                "Because its harmonious proportions and elegant architecture earned it the name 'Beautiful Church'",
+                "Because it was painted in beautiful colors",
+                "Because it was built by someone named Omorfo",
+                "Because it has the most expensive decorations"
+            ],
+            "answer": 0,
+            "feedback": "Correct! 'Omorfokklisia' means 'Beautiful Church' in Greek, reflecting the building's elegant Byzantine proportions and refined details."
+        },
+        "reward": {
+            "title": "Byzantine architecture photography workshop",
+            "provider": "Athens Photography Society",
+            "codeHash": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a"
+        },
+        "id": 260
+    },
+    {
+        "name": "Hagia Triada Cathedral, Piraeus",
+        "lat": 37.9443,
+        "lng": 23.6453,
+        "image": "images/hagia_triada_piraeus.jpg",
+        "description": "The largest church in Piraeus and metropolitan seat. Neo-Byzantine cathedral (1979) with capacity for 3,100, featuring a massive dome and ornate marble iconostasis.",
+        "audioText": "You are at the Hagia Triada Cathedral, the Sacred Cathedral Temple of the Holy Trinity, the largest and most important church in Piraeus. As the metropolitan seat of the Holy Metropolis of Piraeus, this magnificent Neo-Byzantine structure serves as the spiritual heart of Greece's historic port city. Though the current building was completed in 1979, a church has stood on this site since 1839. The story of this cathedral is one of destruction and resurrection—during World War II, on January 11, 1944, Allied bombing demolished the earlier church, tragically burying refugees who had sought shelter within its walls. Yet from these ruins arose an even grander vision. The present cathedral was designed by Georgios Nomikos and consecrated in 1964, with final completion in 1979. Archaeological excavations during construction revealed the ancient Emporium beneath—pottery, gold coins, mosaics, and inscriptions from Piraeus' illustrious past. These precious finds are now displayed in the chapel of Saints Cyril and Methodius, literally incorporating ancient history into the sacred space. The cathedral follows Byzantine architectural principles: a three-aisled church with the central aisle dedicated to the Holy Trinity, the right to Saints Peter and Paul, and the left to Saint Skepi. The massive dome, resting on eight spherical triangles and eight arches, spans 40 meters in diameter with 40 windows flooding the interior with divine light. The cathedral can accommodate 3,100 worshippers. Every surface speaks of craftsmanship—the external doors are forged brass, the iconostasis is intricate marble work by the Afon Doukas brothers, and the wood-carved iconostasis doors are by Theofilos Nomikos. The cathedral serves not only religious functions but also hosts concerts and cultural events.",
+        "quiz": {
+            "question": "What makes Hagia Triada Cathedral significant in Piraeus?",
+            "options": [
+                "It is the largest church and metropolitan seat, rebuilt after WWII bombing with 3,100 capacity",
+                "It is the oldest church in Greece",
+                "It was built by Alexander the Great",
+                "It houses the Olympic flame"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Hagia Triada is Piraeus' largest church and metropolitan seat, rebuilt in grand Neo-Byzantine style after WWII destruction."
+        },
+        "reward": {
+            "title": "Concert ticket at Hagia Triada Cathedral",
+            "provider": "Metropolis of Piraeus",
+            "codeHash": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b"
+        },
+        "id": 261
+    },
+    {
+        "name": "Agios Spyridon Church, Piraeus",
+        "lat": 37.942,
+        "lng": 23.6472,
+        "image": "images/agios_spyridon_piraeus.jpg",
+        "description": "The patron saint church of Piraeus, tracing origins to 11th-12th century monastery. Historic site of Greek War of Independence resistance.",
+        "audioText": "You are at the Church of Agios Spyridon, dedicated to the patron saint of Piraeus. This church traces back to the 11th or 12th century, when a fortified monastery stood here on the northeastern side of Porto Draco. During Frankish and Ottoman rule, this was a defensive monastery with walls and defenders who repeatedly repelled pirate raids. The monastery accommodated up to 70 guests. During the Greek War of Independence in 1821, it became a refuge for the homeless but was captured by Turkish-Albanian leader Omer Vryonis. Allied bombardment in 1826 led to liberation but also destruction. Governor Kapodistrias arrived in 1828, and monks returned to rebuild. Piraeus' reconstruction began around this monastery. The renowned architect Cleanthes designed a grand church with two bell towers and 1,000-person capacity. Today, Agios Spyridon remains Piraeus' spiritual patron, embodying centuries of resilience and faith through occupation, war, and rebirth.",
+        "quiz": {
+            "question": "What role did Agios Spyridon monastery play in 1821?",
+            "options": [
+                "Refuge during Greek War of Independence before being captured and destroyed",
+                "First democracy in Greece",
+                "Olympic Games stadium",
+                "Roman fortress"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The monastery sheltered people during the 1821 revolution but was captured and destroyed in the liberation fighting."
+        },
+        "reward": {
+            "title": "Piraeus maritime history tour",
+            "provider": "Church of Agios Spyridon",
+            "codeHash": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"
+        },
+        "id": 262
+    },
+    {
+        "name": "Saint Nikolaos Church, Piraeus",
+        "lat": 37.9405,
+        "lng": 23.641,
+        "image": "images/st_nikolaos_piraeus.jpg",
+        "description": "Impressive 19th century neoclassical Orthodox church designed by I. Lazarimos, architect of Piraeus Municipal Theater. Patron saint of sailors.",
+        "audioText": "You are at the Church of Saint Nicholas in Piraeus, an impressive neoclassical Orthodox church built in the late 19th century. The architect was I. Lazarimos, the same visionary who designed the Piraeus Municipal Theater, and you can see his elegant sensibility in every line of this building. Saint Nicholas, the patron saint of sailors, is the perfect dedicatee for a church in Greece's greatest port city. For centuries, sailors departing from Piraeus have sought Saint Nicholas' blessing before venturing onto the Aegean. The church stands in the square of the same name, directly opposite the Piraeus Port Authority exhibition center and the customs office—a location that keeps it at the heart of the city's maritime life. The neoclassical style was the architectural language of the newly independent Greek state in the 19th century, consciously evoking the glory of ancient Greece while embracing European modernity. The church's proportions, columns, and pediments echo classical temples while clearly serving Christian worship. Inside, traditional Orthodox iconography adorns the walls, while the liturgical life continues uninterrupted, connecting modern Piraeus to its Byzantine heritage.",
+        "quiz": {
+            "question": "Who designed Saint Nikolaos Church and why is it significant?",
+            "options": [
+                "I. Lazarimos, architect of Municipal Theater, in neoclassical style for sailors' patron",
+                "Alexander the Great for military purposes",
+                "A Roman emperor as a pagan temple",
+                "Modern architects in 2000s"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Lazarimos created this neoclassical masterpiece honoring Saint Nicholas, patron of sailors in Greece's greatest port."
+        },
+        "reward": {
+            "title": "Port of Piraeus historical tour",
+            "provider": "Piraeus Cultural Foundation",
+            "codeHash": "3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d"
+        },
+        "id": 263
+    },
+    {
+        "name": "Cathedral of Panagia Pantovasilissa, Rafina",
+        "lat": 38.0238,
+        "lng": 24.0119,
+        "image": "images/pantovasilissa_rafina.jpg",
+        "description": "Modern metropolitan cathedral in Rafina, dedicated to the Virgin Mary as 'Queen of All.' Center of Orthodox life in the coastal port town.",
+        "audioText": "You are at the Cathedral of Panagia Pantovasilissa in Rafina, the Virgin Mary as 'Queen of All.' This modern Orthodox cathedral serves as the spiritual heart of Rafina, one of Attica's important port towns. Rafina has grown dramatically from a small fishing village into a major port connecting Athens to the Cycladic islands. As the town expanded, so did the need for a grand cathedral worthy of its growing community. The Pantovasilissa serves as the metropolitan cathedral for the region, hosting major feast days and celebrations. The title 'Pantovasilissa' —Queen of All—reflects the Orthodox understanding of the Virgin Mary as the highest of all created beings, second only to Christ himself. The cathedral's architecture follows contemporary Orthodox design while incorporating traditional Byzantine elements. On feast days, especially August 15th for the Dormition and the church's patronal feast, the entire community gathers here. The cathedral also includes a chapel dedicated to the Dormition (Koimisis), affectionately called 'Panagiitsa' by locals, located near the cemetery. Rafina's transformation from fishing village to bustling port mirrors the church's growth from modest chapel to grand cathedral.",
+        "quiz": {
+            "question": "What does 'Pantovasilissa' mean?",
+            "options": [
+                "Queen of All, reflecting Virgin Mary's exalted status in Orthodox theology",
+                "Port of Ships",
+                "Ancient Harbor",
+                "Mountain Church"
+            ],
+            "answer": 0,
+            "feedback": "Correct! 'Pantovasilissa' means 'Queen of All,' honoring the Virgin Mary's supreme position among created beings."
+        },
+        "reward": {
+            "title": "Ferry discount to Cyclades islands from Rafina",
+            "provider": "Cathedral Parish Office",
+            "codeHash": "4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e"
+        },
+        "id": 264
+    },
+    {
+        "name": "Church of Agios Ioannis Theologian, Pallini",
+        "lat": 38.0025,
+        "lng": 23.8975,
+        "image": "images/st_john_theologian_pallini.jpg",
+        "description": "12th-13th century Byzantine church in Gerakas. Cross-in-square with dome, incorporating ancient stones from Temple of Athena Pallenis. Early 13th century frescoes.",
+        "audioText": "You are at the Church of Agios Ioannis the Theologian in Gerakas, Pallini, one of the finest Byzantine monuments in eastern Attica's Mesogaia plain. Dating to the 12th-13th century, this church represents the classic Byzantine architectural type: a compact cross-in-square plan with a dome. Until the early 20th century, the octagonal dome was fully preserved, but today only the two western spherical triangles remain, testament to time's passage. What makes this church archaeologically fascinating is its construction material—the rough stones, bricks, and mortar incorporate ancient architectural elements, possibly from the significant Temple of Athena Pallenis that once dominated this area. The ancient goddess's sanctuary stones were literally built into the Christian church, a common Byzantine practice symbolizing Christianity's triumph over paganism. Inside, remarkably preserved frescoes from the early 13th century still adorn the walls, their colors and forms speaking across 800 years. A newly built church now stands beside the Byzantine structure, allowing the ancient monument to be preserved while serving the modern parish's needs. This church is one of the rare Byzantine monuments in Attica preserved without significant later additions.",
+        "quiz": {
+            "question": "What makes the Church of Agios Ioannis Theologian archaeologically significant?",
+            "options": [
+                "It incorporates ancient stones from Temple of Athena Pallenis and preserves 13th-century frescoes",
+                "It was built last year",
+                "It is made entirely of gold",
+                "It floats in the air"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The church reused ancient temple stones and preserves exceptional Byzantine frescoes from the early 13th century."
+        },
+        "reward": {
+            "title": "Byzantine Mesogaia heritage trail map",
+            "provider": "Municipality of Pallini",
+            "codeHash": "5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f"
+        },
+        "id": 265
+    },
+    {
+        "name": "Church of Hagios Petros, Kalyvia Thorikou",
+        "lat": 37.965,
+        "lng": 23.935,
+        "image": "images/hagios_petros_kalyvia.jpg",
+        "description": "12th-13th century two-columned cross-in-square church in Ennea Pyrgoi area. Famous for frescoes including a halo-portrait of Bishop Michael Choniates.",
+        "audioText": "You are at the Church of Hagios Petros in the Ennea Pyrgoi (Nine Towers) area of Kalyvia Thorikou, about 40 kilometers southeast of Athens. This 12th-13th century Byzantine church is a two-columned cross-in-square design, measuring 9.82 by 6.88 meters. The church incorporates many fragments of older buildings and tombstones in its rubble masonry, creating a palimpsest of Mesogaia's history. The wall paintings are contemporary with the church and include a remarkable feature: a sanctified portrait of Michael Choniates, the celebrated Bishop of Athens (1182-1204), shown in a halo! This unique fresco confirms the folk worship of this intellectual and spiritual leader whose activities and personality left an indelible mark on medieval Athens. In the north arch of the cross, you can see frescoes of Saints Mamas and Triphon, saints associated with agrarian production, cattle-breeding, and viniculture—entirely appropriate for the agricultural character of the Mesogaia plain. According to an inscription in the narthex, a group of artists decorated the church. The sanctified portrait of Michael Choniates represents a fascinating type of local veneration of a historic bishop.",
+        "quiz": {
+            "question": "What unique feature appears in Hagios Petros frescoes?",
+            "options": [
+                "A halo-portrait of Bishop Michael Choniates, showing local folk veneration",
+                "A painting of the Olympic Games",
+                "A portrait of Alexander the Great",
+                "Modern graffiti"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The church contains a rare sanctified portrait of the famous medieval Bishop Michael Choniates with a halo."
+        },
+        "reward": {
+            "title": "Ennea Pyrgoi Byzantine monuments tour",
+            "provider": "Kalyvia Cultural Center",
+            "codeHash": "6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a"
+        },
+        "id": 266
+    },
+    {
+        "name": "Church of Panagia Mesosporitissa, Kalyvia",
+        "lat": 37.9645,
+        "lng": 23.9345,
+        "image": "images/mesosporitissa_kalyvia.jpg",
+        "description": "11th-12th century single-aisled basilica near Hagios Petros. Virgin Mary as 'protector of sowing,' celebrated November 21st. Athenian dome with cloisonné masonry.",
+        "audioText": "You are at the Church of Panagia Mesosporitissa, the Presentation of the Virgin Mary, located one kilometer west of Kalyvia in the Ennea Pyrgoi area, close to the Church of Hagios Petros. The church celebrates on November 21st, the Presentation of the Virgin Mary, and gets its special epithet 'Mesosporitissa' because the Virgin Mary protected the sowing (sporos in Greek) that took place during that month in the agricultural calendar. This is a single-aisled basilica to which a barrel-vaulted narthex and a chapel were later added on the western and northern sides. Scholars date it to the 11th or 12th century. The dome is the characteristic 'Athenian' type—elegant, octagonal, and tall. The masonry combines rubble construction with the refined cloisonné technique (alternating brick and stone courses) in the apse and dome. The church features a low entrance and a stone arched shrine, a style encountered in many Attic churches including Hagios Petros, the chapel of Agios Nikolaos in Pentelis Cave, and others. Though most frescoes have been destroyed, some 18th-century paintings survive in the chapel. The Virgin Mary's role as protector of agriculture made this church vital to the farming communities of Mesogaia.",
+        "quiz": {
+            "question": "Why is the Virgin Mary called 'Mesosporitissa' at this church?",
+            "options": [
+                "She protected the sowing that occurred during her feast in November",
+                "She lived in this village",
+                "The church is in the middle of a field",
+                "It means 'beautiful building'"
+            ],
+            "answer": 0,
+            "feedback": "Correct! 'Mesosporitissa' means she protected the sowing (sporos), as her feast day falls during the planting season."
+        },
+        "reward": {
+            "title": "Mesogaia agricultural heritage tour",
+            "provider": "Kalyvia Historical Society",
+            "codeHash": "7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b"
+        },
+        "id": 267
+    },
+    {
+        "name": "Monastery of Saint Catherine, Pallini",
+        "lat": 38.0053,
+        "lng": 23.8994,
+        "image": "images/st_catherine_pallini.jpg",
+        "description": "Modern monastery (2024) housing largest church in Attica dedicated to Saint Paisios the Athonite. Cross-in-square with dome. Male monastic community.",
+        "audioText": "You are at the Holy Monastery of Saint Catherine in Pallini, one of the newest monastic foundations in Attica, with a katholikon completed in 2024. Founded in 1993 during the tenure of Metropolitan Agathonikos, the monastery began when nun Aikaterini Pavlea donated funds for construction. Initially, only a guesthouse was completed and briefly operated as an orphanage, while the katholikon remained an unfinished concrete frame for years. As a parish congregation developed in a basement chapel, the community's desire to complete the monastery grew. In 2020, Metropolitan Nikolaos of Mesogaia and Lavreotiki secured funding from Athanasios and Marina Martinos through AEGEAS to complete the project. The katholikon is a classic cross-in-square church with dome and narthex, redesigned to enhance the complex and connect spaces. The Holy Metropolis dedicated the katholikon to Saint Paisios the Athonite, making it the largest church in Attica dedicated to this recently canonized saint, while the basement chapel honors Saint Catherine. The monastery has operated as a male monastic community since 2013. Despite its modern construction, it follows traditional Byzantine architectural principles and serves as a vibrant center of contemporary monasticism.",
+        "quiz": {
+            "question": "What makes the Monastery of Saint Catherine's katholikon unique?",
+            "options": [
+                "It is the largest church in Attica dedicated to recently canonized Saint Paisios, completed 2024",
+                "It is the oldest church in Greece",
+                "It was built by Romans",
+                "It contains the Olympic flame"
+            ],
+            "answer": 0,
+            "feedback": "Correct! This modern monastery houses Attica's largest church dedicated to the beloved contemporary saint Paisios the Athonite."
+        },
+        "reward": {
+            "title": "Monastery spiritual retreat program",
+            "provider": "Monastery of Saint Catherine",
+            "codeHash": "8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c"
+        },
+        "id": 268
+    },
+    {
+        "name": "Early Christian Basilica of Vravrona",
+        "lat": 37.9263,
+        "lng": 23.9941,
+        "image": "images/basilica_vravrona.jpg",
+        "description": "5th-6th century early Christian basilica ruins near the ancient Sanctuary of Artemis. Marks the transition from pagan to Christian worship in Attica.",
+        "audioText": "You are at the ruins of the Early Christian Basilica of Vravrona, a 5th-6th century church built near the ancient Sanctuary of Artemis. This basilica represents one of history's most profound transitions—the transformation from pagan worship to Christian faith. For centuries, this area was sacred to Artemis, where young Athenian girls performed the mysterious Arkteia ritual, 'playing the bear' as a rite of passage. When Christianity became the Roman Empire's official religion in the 4th century, pagan sanctuaries were gradually abandoned or converted. Here at Vravrona, early Christians built their basilica adjacent to the ancient sanctuary, both honoring and superseding what came before. The basilica follows the classic early Christian architectural form: a rectangular building divided into three aisles by rows of columns, with a semicircular apse at the eastern end housing the altar. Though now in ruins, you can still trace the foundations, see fragments of column bases, and imagine the mosaic floors that once decorated the sacred space. Archaeological excavations have revealed the basilica's plan and construction techniques. Standing here, you witness the continuity of sacred space—this ground has been holy for over 2,500 years, from the Bronze Age cult of Artemis through early Christianity to the Byzantine period.",
+        "quiz": {
+            "question": "What historical transition does Vravrona's early Christian basilica represent?",
+            "options": [
+                "The shift from pagan Artemis worship to Christianity in the 5th-6th centuries",
+                "The invention of democracy",
+                "The start of the Olympic Games",
+                "The building of the Parthenon"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The basilica marks the profound religious transformation as Christianity replaced the ancient cult of Artemis."
+        },
+        "reward": {
+            "title": "Combined ticket: Vravrona Sanctuary & Museum",
+            "provider": "Hellenic Ministry of Culture",
+            "codeHash": "9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d"
+        },
+        "id": 269
+    },
+    {
+        "name": "Chapel of Saint Marina, Mount Parnitha",
+        "lat": 38.185,
+        "lng": 23.695,
+        "image": "images/st_marina_parnitha.jpg",
+        "description": "Remote 12th century chapel behind Avlona village on northern Parnitha. Built in 1117 at cave where miraculous icon was found. Pilgrimage site July 17th.",
+        "audioText": "You are at the remote Chapel of Saint Marina on the northern slopes of Mount Parnitha, behind the village of Avlona in the Vountima area near the river Martheza. This 12th-century chapel sits in a densely forested setting that evokes the beautiful landscapes of Mount Athos or Ireland—a true hidden sanctuary. According to local tradition, in the early 12th century a shepherd had a vision indicating the location of a cave containing a hidden miraculous icon of Saint Marina. After finding the icon, people risked their lives for three months to build this remote chapel in 1117 AD, next to the very cave where the icon was discovered. To enter the cave, one must climb forty stairs. The icon itself, depicting Saint Marina as a mature 15-year-old girl striking a demon with a hammer, is no longer at this remote location. During the Greek Civil War, recognizing the icon's value and its vulnerability, it was moved to the Chapel of Prophet Elias in Avlona, but even there it was stolen. Despite the icon's absence, pilgrims still make the difficult journey every year on July 16th for Great Vespers and July 17th for Divine Liturgy to celebrate Saint Marina's feast. The chapel's location in this pristine forest creates an atmosphere of profound spiritual isolation.",
+        "quiz": {
+            "question": "How was the Chapel of Saint Marina's location chosen?",
+            "options": [
+                "A shepherd's vision led to discovery of a miraculous icon in a cave in early 12th century",
+                "It was randomly selected",
+                "Romans built it as a fortress",
+                "It marks where Alexander the Great camped"
+            ],
+            "answer": 0,
+            "feedback": "Correct! A shepherd's vision revealed the cave with Saint Marina's miraculous icon, leading to the chapel's construction in 1117."
+        },
+        "reward": {
+            "title": "Guided forest pilgrimage to Saint Marina",
+            "provider": "Village of Avlona",
+            "codeHash": "1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f"
+        },
+        "id": 270
+    },
+    {
+        "name": "Church of Agia Triada, Mount Parnitha",
+        "lat": 38.1559,
+        "lng": 23.7203,
+        "image": "images/agia_triada_parnitha.jpg",
+        "description": "12th century church near Parnitha summit at 1,000m altitude. Dependency of Petraki Monastery. Three layers of wall paintings. Fir forest setting.",
+        "audioText": "You are at the Church of Agia Triada, the Holy Trinity, near the summit of Mount Parnitha at approximately 1,000 meters altitude, deep within the zone of fir forest. This 12th-century church was a dependency of the Monastery of Petraki in Athens, which controlled several mountain monasteries. Almost nothing remains of the original monastery complex, but the church itself is thought to be quite early, dating from Byzantine times, as evidenced by its three layers of wall paintings from different periods. The church is small and simple, befitting its remote mountain location where monks sought isolation for prayer and contemplation. The setting is spectacular—surrounded by towering firs, with mountain air and silence broken only by wind and birds. During the Ottoman period, such remote mountain monasteries served as refuges for Greek culture and Orthodox faith. After Greek independence, many mountain dependencies were abandoned as monks moved to larger communities. Today, the church stands renovated, maintained by the Church, serving as a destination for hikers and pilgrims who climb Parnitha. The journey to reach Agia Triada is itself a form of pilgrimage, requiring commitment and physical effort that mirrors the spiritual ascent.",
+        "quiz": {
+            "question": "What indicates the Church of Agia Triada's early Byzantine origin?",
+            "options": [
+                "Three layers of wall paintings from different historical periods",
+                "It was built last year",
+                "It is made of plastic",
+                "It contains modern computers"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The three distinct layers of frescoes from different eras prove the church's ancient Byzantine origins and long use."
+        },
+        "reward": {
+            "title": "Mount Parnitha summit hiking certificate",
+            "provider": "Greek Mountaineering Federation",
+            "codeHash": "2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a"
+        },
+        "id": 271
+    },
+    {
+        "name": "Metropolitan Cathedral of Megara",
+        "lat": 37.9964,
+        "lng": 23.3444,
+        "image": "images/cathedral_megara.jpg",
+        "description": "Seat of the Metropolis of Megara and Salamis. Episcopal center of the historic Dorian city that founded Byzantium. Traditional Orthodox cathedral.",
+        "audioText": "You are at the Metropolitan Cathedral of Megara, the episcopal seat of the Holy Metropolis of Megara and Salamis. Megara is one of the most historically significant cities in Greece—a powerful Dorian city-state in antiquity that founded some of the most important Greek colonies, including Byzantium (modern Istanbul) and Chalcedon. The cathedral serves as the spiritual center for all of Megara and the island of Salamis. The Metropolis of Megara and Salamis was established in 1974 when the larger Metropolis of Attica and Megaridos was divided. The cathedral hosts the metropolitan throne and serves as the venue for major ecclesiastical events, ordinations, and celebrations. The surrounding area includes the metropolitan offices, library, school of Byzantine music, choir facilities, parish centers, and lecture theaters. Megara's ecclesiastical heritage is rich—the city boasts numerous monasteries under the metropolis, including several for monks and many for nuns. The cathedral's architecture follows traditional Orthodox design, creating a sacred space that connects modern Megara to its Byzantine past and ancient glory as a colonizing power that shaped the Mediterranean world.",
+        "quiz": {
+            "question": "Why is Megara historically significant?",
+            "options": [
+                "Dorian city-state that founded Byzantium (Constantinople) and other major colonies",
+                "It was built last year",
+                "It invented the Olympic Games",
+                "It contains ancient Egyptian pyramids"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Megara founded Byzantium, one of history's most important cities, making it a major ancient colonizing power."
+        },
+        "reward": {
+            "title": "Byzantine music concert at cathedral",
+            "provider": "Metropolis of Megara and Salamis",
+            "codeHash": "4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c"
+        },
+        "id": 272
+    },
+    {
+        "name": "Monastery of Holy Trinity, Mirini",
+        "lat": 38.005,
+        "lng": 23.32,
+        "image": "images/holy_trinity_mirini.jpg",
+        "description": "Active men's monastery in Mirini, Megara region. Traditional Orthodox monastic complex with katholikon, cells, and courtyard. Under Metropolis of Megara.",
+        "audioText": "You are at the Monastery of the Holy Trinity in Mirini, one of the active men's monasteries under the Metropolis of Megara and Salamis. This traditional Orthodox monastery follows the classic monastic layout: a katholikon (main church) at the center, surrounded by monks' cells, refectory, kitchen, and support buildings arranged around a peaceful courtyard. The monastery is dedicated to the Holy Trinity, the foundational Christian doctrine of God as Father, Son, and Holy Spirit—three persons in one essence. The monastic life here follows the ancient rhythms established by the Desert Fathers: communal prayer in the katholikon multiple times daily, manual work, hospitality to pilgrims, and private prayer in cells. The monks support themselves through various activities while maintaining their primary focus on prayer and spiritual life. The monastery serves as a spiritual refuge not just for the monks but for laypeople seeking guidance, confession, or simply a break from the world's noise. The location in the Megara region provides a rural setting conducive to contemplation. Visitors are welcome to attend services, venerate icons, and experience Orthodox monasticism's living tradition.",
+        "quiz": {
+            "question": "What is the primary purpose of Orthodox monasteries like Holy Trinity?",
+            "options": [
+                "Prayer, spiritual life, and maintaining ancient Christian monastic traditions",
+                "Running hotels for tourists",
+                "Manufacturing products",
+                "Political activities"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Orthodox monasteries center on prayer and spiritual life, following traditions from the early Christian Desert Fathers."
+        },
+        "reward": {
+            "title": "Monastery guest house accommodation",
+            "provider": "Monastery of Holy Trinity",
+            "codeHash": "5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d"
+        },
+        "id": 273
+    },
+    {
+        "name": "Monastery of Saint Vlasios",
+        "lat": 38.01,
+        "lng": 23.315,
+        "image": "images/st_vlasios_monastery.jpg",
+        "description": "Men's monastery dedicated to Saint Blaise, patron of animals and livestock. Rural monastery in Megara region serving agricultural communities.",
+        "audioText": "You are at the Monastery of Saint Vlasios (Saint Blaise), a men's monastery in the Megara region. Saint Vlasios is one of the most beloved saints in Greek Orthodoxy, venerated as the patron of animals, livestock, and throat ailments. According to tradition, Saint Blaise was a 4th-century bishop and physician in Armenia who performed many miraculous healings, including saving a boy from choking on a fishbone—hence his association with throat blessings. The custom of blessing throats on Saint Blaise's feast day (February 11th) continues in Orthodox churches worldwide. His patronage of animals made him especially important to the agricultural and pastoral communities of rural Greece. This monastery serves the farming regions around Megara, where livestock and agriculture have been the economic foundation for millennia. The monastic complex provides spiritual services to the surrounding villages, hosts feast day celebrations, and maintains the Orthodox presence in rural areas. The monks' life combines prayer with agricultural work, embodying the ancient monastic principle of 'ora et labora' (pray and work). The monastery's rural setting allows visitors to experience authentic Greek countryside spirituality.",
+        "quiz": {
+            "question": "Why is Saint Vlasios (Blaise) important to rural communities?",
+            "options": [
+                "He is patron saint of animals, livestock, and throat healings, vital to farming areas",
+                "He invented farming",
+                "He was a Roman emperor",
+                "He built the Parthenon"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Saint Vlasios' patronage of animals and healing made him beloved in agricultural communities throughout Greece."
+        },
+        "reward": {
+            "title": "Traditional Greek farm products from monastery",
+            "provider": "Monastery of Saint Vlasios",
+            "codeHash": "6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e"
+        },
+        "id": 274
+    },
+    {
+        "name": "Monastery of Saint Paraskevi, Mazi",
+        "lat": 38.0125,
+        "lng": 23.3275,
+        "image": "images/st_paraskevi_mazi.jpg",
+        "description": "Men's monastery in Mazi dedicated to Saint Paraskevi, popular martyr saint. Western Attica monastic center with peaceful rural setting.",
+        "audioText": "You are at the Monastery of Saint Paraskevi in Mazi, a men's monastery in western Attica. Saint Paraskevi is one of the most popular saints in Greek Orthodoxy, a 3rd-century martyr whose name means 'Preparation' or 'Friday' in Greek. According to tradition, she was born on a Friday and her parents named her Paraskevi in honor of Christ's Preparation Day (Friday, when Christ was crucified). She became a Christian missionary and miracle-worker, eventually martyred for refusing to worship pagan gods. Saint Paraskevi is especially venerated as the patron saint of eye ailments and blindness, and countless churches and holy springs bear her name across Greece. The monastery in Mazi serves as an important spiritual center for the region, hosting pilgrims especially on her feast day, July 26th. The monastic complex follows traditional architecture with the katholikon, cells, and support buildings arranged for communal life. The monks maintain the grounds, welcome visitors, and preserve the liturgical tradition. The peaceful rural setting allows the monks to combine prayer with agricultural work, supporting themselves while maintaining their spiritual focus. The monastery represents the continuity of Orthodox monasticism from ancient times to the present day.",
+        "quiz": {
+            "question": "What is Saint Paraskevi especially known for?",
+            "options": [
+                "Patronage of eye ailments and miraculous healings, martyred in 3rd century",
+                "Building the Acropolis",
+                "Inventing democracy",
+                "Founding the Olympic Games"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Saint Paraskevi is beloved as patron of eye healing and one of Greece's most popular martyr saints."
+        },
+        "reward": {
+            "title": "Blessed oil from Saint Paraskevi shrine",
+            "provider": "Monastery of Saint Paraskevi",
+            "codeHash": "7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f"
+        },
+        "id": 275
+    },
+    {
+        "name": "Monastery of Panagia Galaktotrofoussa",
+        "lat": 38.0175,
+        "lng": 23.3325,
+        "image": "images/galaktotrofoussa_monastery.jpg",
+        "description": "Men's monastery dedicated to Virgin Mary as 'Milk-Giver.' Miraculous icon venerated by mothers. Traditional monastery in western Attica countryside.",
+        "audioText": "You are at the Monastery of Panagia Galaktotrofoussa, a men's monastery in the Megara region. The epithet 'Galaktotrofoussa' means 'Milk-Giver' or 'Milk-Nourisher,' referring to the Virgin Mary's role in nourishing the infant Christ. This iconographic type shows the Theotokos in her maternal aspect, emphasizing her humanity and the reality of Christ's incarnation. The Galaktotrofoussa icon has been especially venerated by mothers throughout Orthodox history, who pray for abundant milk to feed their children and for the health of infants. The monastery's dedication to this aspect of the Virgin reflects the deep connection between Orthodox spirituality and everyday life—the sacred interpenetrating the ordinary concerns of family and child-rearing. The monastic complex serves the surrounding communities, offering spiritual guidance, hosting feast day celebrations, and maintaining a place of prayer. The monks follow the traditional pattern of communal prayer, manual work, and hospitality. The rural setting allows for agricultural work that supports the monastery. Pilgrims visit especially on Marian feast days, bringing petitions for children's health and family well-being. The monastery demonstrates how Orthodox faith addresses all aspects of human life, from the most exalted mysteries to the most intimate family concerns.",
+        "quiz": {
+            "question": "What does 'Galaktotrofoussa' mean and who especially venerates this icon?",
+            "options": [
+                "'Milk-Giver' Virgin Mary icon, especially venerated by mothers for children's health",
+                "A type of food",
+                "A military fortress",
+                "An ancient philosopher"
+            ],
+            "answer": 0,
+            "feedback": "Correct! 'Galaktotrofoussa' shows Mary nourishing Christ, beloved by mothers praying for their children's well-being."
+        },
+        "reward": {
+            "title": "Blessed bread (prosphoro) from monastery",
+            "provider": "Monastery of Panagia Galaktotrofoussa",
+            "codeHash": "8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a"
+        },
+        "id": 276
+    },
+    {
+        "name": "Monastery of Saint Ierotheos, Megara",
+        "lat": 37.995,
+        "lng": 23.3425,
+        "image": "images/st_ierotheos_megara.jpg",
+        "description": "Women's monastery dating to 12th century Byzantine period. Dedicated to Saint Hierotheos, early Bishop of Athens. Historic female monastic center.",
+        "audioText": "You are at the Monastery of Saint Ierotheos (Hierotheos) in Megara, a women's monastery with roots in the 12th-century Byzantine period. Saint Hierotheos was one of the earliest Bishops of Athens, a disciple of Saint Paul the Apostle and companion of Saint Dionysius the Areopagite. According to tradition, Hierotheos was present at the Dormition of the Virgin Mary and composed the first hymns sung at her funeral. This makes him one of the most ancient and venerated figures in Athenian Christian history. The monastery dedicated to him serves as an important center of female monasticism in the Megara region. The nuns follow the cenobitic (communal) rule, gathering for prayer multiple times daily in the katholikon, sharing meals in the refectory, and working together to support the monastery. Women's monasteries have played a crucial role in Greek Orthodox tradition, providing spaces for spiritual dedication outside marriage while also serving surrounding communities through hospitality, education, and charitable work. The monastery preserves Byzantine architectural elements and maintains ancient liturgical traditions. The peaceful atmosphere allows the nuns to dedicate themselves fully to prayer, manual work, and the preservation of Orthodox spirituality.",
+        "quiz": {
+            "question": "Who was Saint Ierotheos (Hierotheos)?",
+            "options": [
+                "Early Bishop of Athens, disciple of Paul, present at Virgin Mary's Dormition",
+                "A Roman emperor",
+                "Inventor of democracy",
+                "Olympic athlete"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Saint Hierotheos was among the earliest Christian bishops, connected to both Saint Paul and the Virgin Mary."
+        },
+        "reward": {
+            "title": "Handmade monastery crafts",
+            "provider": "Monastery of Saint Ierotheos",
+            "codeHash": "9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b"
+        },
+        "id": 277
+    },
+    {
+        "name": "Monastery of Saint Meletios, Kithairona",
+        "lat": 38.1,
+        "lng": 23.25,
+        "image": "images/st_meletios_kithairona.jpg",
+        "description": "Women's monastery on Mount Kithairon. Remote mountain hermitage for female monasticism. Wilderness setting on legendary mountain from Greek mythology.",
+        "audioText": "You are at the Monastery of Saint Meletios on Mount Kithairon, one of the most remote and atmospheric women's monasteries in Attica. Mount Kithairon is steeped in Greek mythology—this is the mountain where the infant Oedipus was exposed, where the Bacchae held their frenzied rites to Dionysus, and where the tragic events of many ancient myths unfolded. The Christian monastery transformed this mythological landscape into a place of prayer and asceticism. Saint Meletios the Confessor was a 4th-century defender of Orthodox theology during the Arian controversy, eventually becoming Patriarch of Antioch. The monastery dedicated to him provides a wilderness setting ideal for female monasticism's contemplative life. The nuns live in isolation, following the ancient rhythms of monastic prayer, fasting, and manual work. The mountain location requires physical hardship to reach, making it a true ascetic environment. This remoteness protects the monastic life from worldly distractions. The monastery serves as a spiritual fortress where the nuns can dedicate themselves completely to God. Pilgrims who make the difficult journey to visit experience the authentic spirit of desert monasticism transplanted to the Greek mountains.",
+        "quiz": {
+            "question": "What makes Mount Kithairon historically significant?",
+            "options": [
+                "Legendary mountain from Greek mythology, now home to Christian monastery",
+                "It was built last year",
+                "It contains shopping malls",
+                "It is underwater"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Kithairon was central to Greek myths including Oedipus, now transformed into a place of Christian asceticism."
+        },
+        "reward": {
+            "title": "Mountain hiking pilgrimage blessing",
+            "provider": "Monastery of Saint Meletios",
+            "codeHash": "1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d"
+        },
+        "id": 278
+    },
+    {
+        "name": "Monastery of Saint Gerasimos, Salamis",
+        "lat": 37.97,
+        "lng": 23.5,
+        "image": "images/st_gerasimos_salamis.jpg",
+        "description": "Women's monastery on Salamis island. Female monastic community in the Saronic Gulf. Island convent under Metropolis of Megara and Salamis.",
+        "audioText": "You are at the Monastery of Saint Gerasimos on Salamis island, a women's monastery serving the island's spiritual needs. Saint Gerasimos of the Jordan was a 5th-century monk who lived in asceticism in the Judean desert near the Jordan River. According to his life story, he removed a thorn from a lion's paw, and the grateful lion became his companion, helping him with monastery tasks. This beautiful story of harmony between saint and nature has made Gerasimos beloved in Orthodox tradition. The monastery on Salamis provides a monastic community for women drawn to dedicated religious life. Island monasteries have a special character—the surrounding sea creates natural separation from the world while the island community remains close-knit. The nuns support themselves through various crafts and agricultural work while maintaining their prayer schedule. Salamis, famous as the site of the great naval battle where the Greeks defeated the Persians in 480 BC, now hosts several monasteries, showing how the island transformed from military glory to spiritual peace. The monastery welcomes pilgrims, especially on Saint Gerasimos' feast day, March 4th, celebrating the desert monk's example of simplicity and prayer.",
+        "quiz": {
+            "question": "What is Saint Gerasimos famous for?",
+            "options": [
+                "Desert monk who befriended a lion after removing a thorn from its paw",
+                "Building the Parthenon",
+                "Inventing ships",
+                "Olympic athlete"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Saint Gerasimos' gentle relationship with a grateful lion shows harmony between holiness and nature."
+        },
+        "reward": {
+            "title": "Monastery handcrafted icons",
+            "provider": "Monastery of Saint Gerasimos",
+            "codeHash": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e"
+        },
+        "id": 279
+    },
+    {
+        "name": "Monastery of Saint John the Successor, Makrinos",
+        "lat": 38.02,
+        "lng": 23.34,
+        "image": "images/st_john_makrinos.jpg",
+        "description": "Women's monastery in Makrinos, Megara region. Female convent in rural Attica. Orthodox monastic community under metropolitan oversight.",
+        "audioText": "You are at the Monastery of Saint John the Successor in Makrinos, a women's monastery in the Megara region. The title 'Successor' (Diadochos in Greek) refers to Saint John Climacus, the 6th-century monk and abbot of Saint Catherine's Monastery on Mount Sinai, author of 'The Ladder of Divine Ascent'—one of the most important spiritual texts in Orthodox Christianity. This work describes thirty steps of spiritual ascent toward union with God, each corresponding to a year of Christ's hidden life before his ministry. Saint John Climacus earned the title 'of the Ladder' (Klimakos) from this work, and 'Successor' because he succeeded previous great spiritual fathers. The monastery dedicated to him provides a contemplative environment for nuns following his spiritual teachings. The rural location in Makrinos offers the peace necessary for the monastic life's interior work. The nuns follow a daily schedule of communal prayer, private meditation, manual labor, and study. The monastery preserves ancient monastic traditions while serving modern spiritual seekers. Women visitors can stay in the guest house, attend services, and receive spiritual guidance. The monastery demonstrates how Byzantine monastic tradition continues vibrantly in contemporary Greece.",
+        "quiz": {
+            "question": "What is Saint John the Successor (Climacus) famous for?",
+            "options": [
+                "Writing 'The Ladder of Divine Ascent,' a foundational Orthodox spiritual text",
+                "Building the Acropolis",
+                "Inventing democracy",
+                "Discovering America"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Saint John Climacus' 'Ladder' describes thirty steps of spiritual ascent, profoundly influencing Orthodox monasticism."
+        },
+        "reward": {
+            "title": "Spiritual retreat weekend at monastery",
+            "provider": "Monastery of Saint John",
+            "codeHash": "3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f"
+        },
+        "id": 280
+    },
+    {
+        "name": "Monastery of Prophet Elias, Villia",
+        "lat": 38.1833,
+        "lng": 23.6667,
+        "image": "images/prophet_elias_villia.jpg",
+        "description": "Women's monastery on mountain peak in northern Attica near Villia village. Prophet Elijah hermitage site. Female monastic community in mountain setting.",
+        "audioText": "You are at the Monastery of Prophet Elias in Villia, a women's monastery occupying a mountain peak in northern Attica. Prophet Elijah is one of the greatest figures of the Old Testament—the prophet who called down fire from heaven, who was fed by ravens in the wilderness, and who was taken up to heaven in a chariot of fire. In Orthodox tradition, Elijah represents the prophetic tradition and ascetic life, making him the perfect patron for mountaintop monasteries. Throughout Greece, the highest peaks are crowned with chapels or monasteries dedicated to Prophet Elias, symbolizing his ascent to heaven and the spiritual heights monks seek to attain. This monastery near Villia village provides an authentic mountain monastic experience. The nuns live in simplicity, following ancient ascetic practices while welcoming pilgrims who climb to this elevated sanctuary. The Prophet Elias feast day, July 20th, draws crowds who make the pilgrimage to celebrate with Divine Liturgy and festivities. The mountain location offers spectacular views across northern Attica and Boeotia, creating a sense of being suspended between earth and heaven—the proper atmosphere for contemplating divine mysteries.",
+        "quiz": {
+            "question": "Why are mountaintop monasteries often dedicated to Prophet Elias?",
+            "options": [
+                "He ascended to heaven in a chariot of fire, symbolizing spiritual heights",
+                "He lived in the sea",
+                "He built the Parthenon",
+                "He invented elevators"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Prophet Elijah's heavenly ascent makes him the perfect patron for monasteries on spiritual and physical heights."
+        },
+        "reward": {
+            "title": "Prophet Elias feast day celebration invitation",
+            "provider": "Monastery of Prophet Elias",
+            "codeHash": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a"
+        },
+        "id": 281
+    },
+    {
+        "name": "Monastery of Panagia Gorgoepikoos, Mandra",
+        "lat": 38.07,
+        "lng": 23.495,
+        "image": "images/gorgoepikoos_mandra.jpg",
+        "description": "Women's monastery in Mandra dedicated to Virgin Mary as 'Quick-to-Hear' prayers. Female convent in western Attica serving local communities.",
+        "audioText": "You are at the Monastery of Panagia Gorgoepikoos in Mandra, a women's monastery dedicated to the Virgin Mary under the title 'Quick-to-Hear' or 'Swift-to-Hearken.' This epithet reflects the Orthodox belief that the Theotokos is especially responsive to prayers, swiftly interceding with her Son on behalf of those who call upon her. The Gorgoepikoos icon type shows the Virgin Mary and Christ Child in a tender embrace, emphasizing her maternal love and accessibility. This makes her especially beloved to Orthodox faithful who feel confident approaching her with their needs and troubles. The monastery in Mandra serves the surrounding western Attica communities, providing a place of prayer, retreat, and spiritual counsel. The nuns follow the traditional monastic rule, gathering for services multiple times daily while also engaging in manual work to support the monastery. They welcome women seeking spiritual guidance or respite from life's pressures. The monastery hosts special celebrations on Marian feast days, especially August 15th (Dormition) and March 25th (Annunciation). The community demonstrates how female monasticism continues to thrive in modern Greece, adapting to contemporary needs while preserving ancient traditions.",
+        "quiz": {
+            "question": "What does 'Gorgoepikoos' mean?",
+            "options": [
+                "'Quick-to-Hear' or 'Swift-to-Hearken,' showing Mary's responsiveness to prayers",
+                "A type of food",
+                "A military rank",
+                "An ancient city"
+            ],
+            "answer": 0,
+            "feedback": "Correct! 'Gorgoepikoos' emphasizes the Virgin Mary's swift and compassionate response to those who pray to her."
+        },
+        "reward": {
+            "title": "Blessed icon of Panagia Gorgoepikoos",
+            "provider": "Monastery of Panagia Gorgoepikoos",
+            "codeHash": "5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b"
+        },
+        "id": 282
+    },
+    {
+        "name": "Monastery of Saint Nicholas, Salamis",
+        "lat": 37.955,
+        "lng": 23.51,
+        "image": "images/st_nicholas_salamis.jpg",
+        "description": "Women's monastery on Salamis island dedicated to Saint Nicholas, patron of sailors. Island convent serving maritime communities of Saronic Gulf.",
+        "audioText": "You are at the Monastery of Saint Nicholas on Salamis island, a women's monastery dedicated to the patron saint of sailors. Saint Nicholas of Myra, the 4th-century bishop whose generosity inspired the Santa Claus tradition, is universally beloved in Greek Orthodoxy, especially by seafaring communities. Every Greek ship carries an icon of Saint Nicholas, and coastal churches almost invariably honor him. On Salamis—the island famous for the great naval battle of 480 BC—Saint Nicholas' patronage is especially appropriate. The monastery serves both the monastic community and the island's inhabitants. The nuns maintain the traditional liturgical cycle, pray for sailors' safety, and welcome pilgrims who arrive by ferry from Piraeus. Island monasteries have a unique quality—the surrounding sea creates natural separation from mainland concerns while fostering close bonds within the island community. The monastery celebrates Saint Nicholas' feast day on December 6th with special services and traditional festivities. Salamis, strategically located in the Saronic Gulf, has transformed from ancient naval power to a place of spiritual peace, with its monasteries providing continuity from Byzantine times to the present. The monastery demonstrates how Orthodox faith remains woven into maritime Greek life.",
+        "quiz": {
+            "question": "Why is Saint Nicholas especially venerated on Salamis?",
+            "options": [
+                "As patron saint of sailors, he protects the island's maritime community",
+                "He built the Parthenon",
+                "He invented ships",
+                "He was born on Salamis"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Saint Nicholas' patronage of sailors makes him beloved on this historic naval island in the Saronic Gulf."
+        },
+        "reward": {
+            "title": "Saint Nicholas icon and maritime blessing",
+            "provider": "Monastery of Saint Nicholas",
+            "codeHash": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c"
+        },
+        "id": 283
+    },
+    {
+        "name": "Church of Panagia, Salamis Town",
+        "lat": 37.9644,
+        "lng": 23.4975,
+        "image": "images/panagia_salamis_town.jpg",
+        "description": "Main parish church of Salamis town dedicated to Virgin Mary. Central Orthodox church serving island community in Saronic Gulf.",
+        "audioText": "You are at the Church of Panagia in Salamis town, the main parish church serving the island's central community. Salamis has been inhabited continuously for over 3,000 years, and Orthodox churches have stood on this island since early Byzantine times. As the principal parish church, this serves as the spiritual heart of Salamis town, where locals gather for Sunday liturgies, feast days, baptisms, weddings, and funerals—marking every stage of life with sacred ritual. The church is dedicated simply to the Panagia, the All-Holy Virgin Mary, reflecting her central role in Orthodox piety. Salamis' history is extraordinary—this is where the outnumbered Greek fleet decisively defeated the Persian invasion in 480 BC, saving Greece and Western civilization. The narrow straits where Themistocles' strategy triumphed are visible from the island. Today, Salamis is a peaceful place where ferries connect it to Piraeus, and the church serves a community that blends ancient heritage with modern life. The church's architecture follows traditional Orthodox design with an iconostasis separating the nave from the sanctuary. The parish maintains Greek Orthodox traditions while adapting to contemporary island life, embodying how Orthodoxy remains central to Greek identity.",
+        "quiz": {
+            "question": "What makes Salamis island historically significant?",
+            "options": [
+                "Site of 480 BC naval battle where Greeks defeated Persian invasion",
+                "It was built last year",
+                "It contains pyramids",
+                "It is made of gold"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The Battle of Salamis was one of history's most decisive naval victories, saving Greece from Persian conquest."
+        },
+        "reward": {
+            "title": "Salamis historical sites tour ticket",
+            "provider": "Church of Panagia Parish",
+            "codeHash": "7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d"
+        },
+        "id": 284
+    },
+    {
+        "name": "Cathedral of Lavrio",
+        "lat": 37.7167,
+        "lng": 24.0564,
+        "image": "images/cathedral_lavrio.jpg",
+        "description": "Modern Orthodox cathedral in Lavrio, historic silver mining town. Episcopal center serving southern Attica coastal communities and port.",
+        "audioText": "You are at the Orthodox Cathedral of Lavrio (Laurion), the episcopal center of this historic mining town in southern Attica. Lavrio's history stretches back to ancient times when its silver mines funded Athens' golden age and powered the fleet that defeated Persia at Salamis. The mines made Athens wealthy enough to build the Parthenon and maintain its democracy. Modern Lavrio grew dramatically in the late 19th century when French and Greek companies reopened the ancient mines, bringing workers from across Greece and creating a cosmopolitan industrial town. The cathedral serves this community, providing spiritual anchor for a population shaped by mining, maritime trade, and now ferry connections to the Cyclades. The church's architecture reflects modern Orthodox design while maintaining traditional elements. As a regional cathedral, it hosts not only weekly liturgies but also major celebrations, episcopal visits, and community gatherings. Lavrio's transformation from ancient mining center to modern port city mirrors many Greek towns' evolution, and the cathedral represents continuity of faith through all these changes. The coastal location means many parishioners are involved in maritime trades, making the church a gathering place for sailors, miners, and their families.",
+        "quiz": {
+            "question": "What made ancient Lavrio (Laurion) historically important?",
+            "options": [
+                "Silver mines that funded Athens' golden age and fleet that defeated Persia",
+                "It was built last year",
+                "It contains pyramids",
+                "It invented democracy"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Lavrio's silver mines were crucial to Athens' wealth, power, and victory over the Persian invasion."
+        },
+        "reward": {
+            "title": "Lavrio mining museum and port tour",
+            "provider": "Cathedral Parish Office",
+            "codeHash": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e"
+        },
+        "id": 285
+    },
+    {
+        "name": "Church of Agios Nikolaos, Koropi",
+        "lat": 37.8978,
+        "lng": 23.875,
+        "image": "images/st_nikolaos_koropi.jpg",
+        "description": "Regional parish church in Koropi, Mesogaia. Saint Nicholas Orthodox church serving farming community in eastern Attica plains.",
+        "audioText": "You are at the Church of Agios Nikolaos in Koropi, a regional parish church serving this important town in the Mesogaia plain. Koropi has been a significant agricultural center for millennia, benefiting from the fertile soil and water resources of eastern Attica. The church dedicated to Saint Nicholas serves a community traditionally involved in farming, olive cultivation, and vineyards. While Saint Nicholas is universally known as patron of sailors, he is also venerated as protector of travelers, merchants, and those in need—making him appropriate for this inland agricultural town. The church functions as the community's spiritual center, hosting weekly Divine Liturgies, feast day celebrations, and the sacramental life that marks every stage from baptism to funeral. Koropi's proximity to Athens International Airport has transformed it from purely agricultural village to a more diverse community, but the church remains the heart of local identity. The architecture follows traditional Orthodox patterns with icons, chandeliers, and an iconostasis. The parish maintains Greek customs and traditions while serving a modernizing population. The church demonstrates how Orthodox faith continues to anchor Greek communities even as economic and social life evolves.",
+        "quiz": {
+            "question": "What traditional economic activity has shaped Koropi's community?",
+            "options": [
+                "Agriculture, especially olive cultivation and vineyards in the fertile Mesogaia plain",
+                "Ship building",
+                "Mining",
+                "Tourism"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Koropi has been an agricultural center for millennia, blessed with fertile soil in the Mesogaia region."
+        },
+        "reward": {
+            "title": "Local olive oil and wine tasting",
+            "provider": "Church Parish Community",
+            "codeHash": "9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f"
+        },
+        "id": 286
+    },
+    {
+        "name": "Church of Panagia, Markopoulo",
+        "lat": 37.885,
+        "lng": 23.9333,
+        "image": "images/panagia_markopoulo.jpg",
+        "description": "Regional pilgrimage site in Markopoulo Mesogaias. Virgin Mary church with festival celebrations. Traditional Orthodox church in wine-producing region.",
+        "audioText": "You are at the Church of Panagia in Markopoulo Mesogaias, a regional pilgrimage site in the heart of Attica's wine country. Markopoulo is famous for its vineyards, especially the indigenous Savatiano grape that produces the distinctive retsina wine. The church dedicated to the Panagia serves not just as a parish church but as a pilgrimage destination, especially during major Marian feast days. The most important celebration is August 15th, the Dormition of the Virgin, when the church hosts a grand panegyri (festival) with liturgy, procession, music, dancing, and traditional food. These celebrations maintain ancient customs, connecting modern Greeks to their Byzantine and even pagan festival heritage. The church's role extends beyond Sunday liturgies to mark the agricultural calendar—prayers for successful harvest, blessing of new wine, thanksgiving after grape-picking. This integration of sacred and agricultural life shows how Orthodoxy remains woven into everyday existence. The church preserves traditional iconography, liturgical practices, and the sense of the sacred pervading all aspects of life. Visitors experience authentic Greek village spirituality, where church, community, and land form an inseparable whole.",
+        "quiz": {
+            "question": "What makes Markopoulo's Church of Panagia significant?",
+            "options": [
+                "Regional pilgrimage site in wine country, hosting major festivals blending faith and agriculture",
+                "It was built last week",
+                "It contains modern art galleries",
+                "It is underground"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The church integrates Orthodox devotion with agricultural life, especially grape harvest and wine production traditions."
+        },
+        "reward": {
+            "title": "Traditional panegyri festival invitation",
+            "provider": "Church of Panagia Parish",
+            "codeHash": "0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a"
+        },
+        "id": 287
+    },
+    {
+        "name": "Church of Panagia, Porto Rafti",
+        "lat": 37.8833,
+        "lng": 24.0167,
+        "image": "images/panagia_porto_rafti.jpg",
+        "description": "Coastal parish church in Porto Rafti seaside town. Virgin Mary church serving fishing village and beach resort community on Attica's east coast.",
+        "audioText": "You are at the Church of Panagia in Porto Rafti, a coastal parish church serving this charming seaside town on Attica's east coast. Porto Rafti takes its name from the 'Tailor' (raftis in Greek)—a large ancient statue on a small island in the bay, probably representing a priest or deity. The town has evolved from a quiet fishing village to a popular beach resort while maintaining its traditional character. The church dedicated to the Panagia serves both year-round residents and summer visitors, creating a unique parish that swells during vacation season. Maritime communities have always shown special devotion to the Virgin Mary, seeing her as protector of those who venture onto the sea. The church hosts not just regular liturgies but also special services for Dormition (August 15), celebrated with particular enthusiasm in coastal towns. Porto Rafti's beautiful natural harbor has been used since ancient times, and archaeological remains dot the area. The church represents continuity—from ancient seafarers to Byzantine sailors to modern fishermen and tourists, this coastline has remained a place where people gather, work, and pray. The seaside location creates a special atmosphere where the sound of waves blends with liturgical chanting.",
+        "quiz": {
+            "question": "Why is the Virgin Mary especially venerated in coastal towns like Porto Rafti?",
+            "options": [
+                "Maritime communities see her as protector of those who venture onto the sea",
+                "She invented fishing",
+                "She built the harbor",
+                "She was born there"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Coastal communities traditionally seek the Virgin Mary's protection for fishermen and all who depend on the sea."
+        },
+        "reward": {
+            "title": "Seaside blessing ceremony participation",
+            "provider": "Church of Panagia Parish",
+            "codeHash": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b"
+        },
+        "id": 288
+    },
+    {
+        "name": "Church of Prophet Elias, Avlona",
+        "lat": 38.19,
+        "lng": 23.69,
+        "image": "images/prophet_elias_avlona.jpg",
+        "description": "Mountain chapel in Avlona village, northern Attica. Prophet Elijah hilltop church with panoramic views. Traditional feast day celebrations July 20th.",
+        "audioText": "You are at the Church of Prophet Elias in Avlona village, a mountain chapel in northern Attica near the foothills of Mount Parnitha. Following Greek tradition, this church to Prophet Elijah occupies an elevated position, symbolizing both the prophet's ascent to heaven and the spiritual heights believers strive to reach. From this vantage point, you can see across northern Attica toward Boeotia, creating a sense of standing between earth and sky. The chapel serves the village of Avlona and surrounding areas, but truly comes alive on the Prophet Elias feast day, July 20th, when crowds climb to celebrate with Divine Liturgy followed by traditional festivities—music, dancing, food, and fellowship. These mountaintop celebrations maintain customs stretching back to Byzantine times, blending Christian devotion with echoes of ancient mountain worship. The church is simple but beloved, embodying the Greek connection between natural landscape and sacred space. During the Greek Civil War, an icon from the remote Chapel of Saint Marina was temporarily kept here for safekeeping. Today, the church remains a spiritual landmark for the region, marking the agricultural calendar and bringing the community together on its patron feast.",
+        "quiz": {
+            "question": "Why are Prophet Elias churches traditionally built on hilltops?",
+            "options": [
+                "To symbolize Prophet Elijah's ascent to heaven and spiritual heights believers seek",
+                "Because flat land is expensive",
+                "To serve as military fortresses",
+                "Because he lived on mountains"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Mountaintop locations honor Elijah's ascension and represent the spiritual elevation sought through prayer."
+        },
+        "reward": {
+            "title": "July 20 feast day celebration invitation",
+            "provider": "Village of Avlona",
+            "codeHash": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"
+        },
+        "id": 289
+    },
+    {
+        "name": "Church of Agios Nikolaos, Keratea",
+        "lat": 37.785,
+        "lng": 23.9867,
+        "image": "images/st_nikolaos_keratea.jpg",
+        "description": "Regional church in Keratea, southern Mesogaia. Saint Nicholas Orthodox church serving village community in southeastern Attica.",
+        "audioText": "You are at the Church of Agios Nikolaos in Keratea, a village church in southern Mesogaia, southeastern Attica. Keratea occupies a strategic position between the coast and interior, historically serving as a waypoint for travelers and merchants moving between Athens and the ports of southeastern Attica. Saint Nicholas, patron of travelers, merchants, and those in need, is the perfect dedicatee for a church in such a location. The church serves the local community, marking the rhythm of life through liturgical celebrations. Keratea maintains its traditional character despite proximity to Athens, and the church remains central to village identity. The parish gathers here for Sunday liturgies, major feast days like December 6th (Saint Nicholas' day), and the sacramental events that punctuate family life. The church preserves Orthodox liturgical tradition while adapting to modern needs. The iconostasis displays traditional iconography, and the liturgical cycle follows the ancient pattern. Village churches like this one embody the intimate scale of Orthodox parish life, where priest and parishioners know each other personally, and the church building itself carries memories of generations. This intimate spirituality contrasts with great cathedrals but offers its own profound experience of community and continuity.",
+        "quiz": {
+            "question": "Why is Saint Nicholas an appropriate patron for Keratea's church?",
+            "options": [
+                "As patron of travelers and merchants, he protects a waypoint village between coast and interior",
+                "He built the village",
+                "He invented roads",
+                "He was born in Keratea"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Saint Nicholas' patronage of travelers fits Keratea's historical role as a strategic crossroads village."
+        },
+        "reward": {
+            "title": "Village hiking trail map and local products",
+            "provider": "Church Parish Community",
+            "codeHash": "3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d"
+        },
+        "id": 290
+    },
+    {
+        "name": "Church of Saint Dionysios, Piraeus",
+        "lat": 37.948,
+        "lng": 23.652,
+        "image": "images/st_dionysios_piraeus.jpg",
+        "description": "Modern Orthodox church in Piraeus dedicated to Saint Dionysius the Areopagite. Contemporary cathedral serving port city neighborhoods.",
+        "audioText": "You are at the Church of Saint Dionysios in Piraeus, dedicated to Saint Dionysius the Areopagite—one of the most significant figures in early Christian Athens. According to the Acts of the Apostles, Dionysius was a member of the Areopagus (Athens' high court) who converted to Christianity after hearing Saint Paul preach on Mars Hill around 51 AD. He became the first Bishop of Athens, making him the founding father of Athenian Christianity. Later tradition attributed to him mystical theological writings that profoundly influenced Christian thought. The church in Piraeus honors this connection between Athens and early Christianity. As a modern church serving Piraeus neighborhoods, it demonstrates how new parishes continue to be established to serve Greece's urban populations. The architecture follows contemporary Orthodox design while maintaining traditional liturgical function. The parish provides not just Sunday liturgies but also catechism classes, youth programs, charitable work, and community services. Urban parishes like this one face unique challenges—serving transient populations, competing with secular entertainment, and maintaining Orthodox identity in cosmopolitan settings. Yet they also show Orthodoxy's continuing relevance to modern Greek life, adapting ancient tradition to contemporary needs.",
+        "quiz": {
+            "question": "Who was Saint Dionysius the Areopagite?",
+            "options": [
+                "Member of Athens high court converted by Saint Paul, first Bishop of Athens",
+                "A Roman emperor",
+                "Inventor of democracy",
+                "Olympic athlete"
+            ],
+            "answer": 0,
+            "feedback": "Correct! Saint Dionysius was Athens' first Christian convert from the elite, becoming the city's first bishop."
+        },
+        "reward": {
+            "title": "Early Christianity in Athens lecture",
+            "provider": "Church of Saint Dionysios",
+            "codeHash": "4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e"
+        },
+        "id": 291
+    },
+    {
+        "name": "Church of Prophet Elias, Piraeus",
+        "lat": 37.9535,
+        "lng": 23.6335,
+        "image": "images/prophet_elias_piraeus.jpg",
+        "description": "Hill church in Piraeus with panoramic port views. Prophet Elijah chapel overlooking maritime city and Saronic Gulf. Traditional hilltop sanctuary.",
+        "audioText": "You are at the Church of Prophet Elias on a hill in Piraeus, overlooking the port and the Saronic Gulf. This elevated location follows the Greek tradition of placing churches dedicated to Prophet Elijah on high ground, symbolizing his ascent to heaven in a chariot of fire and the spiritual heights believers aspire to reach. From this vantage point, you command spectacular views across Greece's greatest port—the commercial harbor, passenger terminals, naval base, and yacht marina spread below, with ships departing for Greek islands and beyond. The church serves both as a neighborhood parish and as a pilgrimage destination, especially on the Prophet Elias feast day, July 20th, when Piraeans climb the hill to celebrate with liturgy and festivities. The maritime setting creates a unique atmosphere—the sound of ship horns blending with church bells, the sight of vessels entering and leaving harbor visible during services. Prophet Elijah, though an Old Testament figure, is deeply woven into Greek maritime culture. Sailors and fishermen seek his protection alongside Saint Nicholas. The church demonstrates how Orthodox faith pervades all aspects of Greek life, from mountaintops to seaports, connecting ancient prophetic tradition to contemporary urban existence.",
+        "quiz": {
+            "question": "What makes this hilltop location significant for a Prophet Elias church?",
+            "options": [
+                "Elevated position symbolizes Elijah's heavenly ascent and offers panoramic port views",
+                "It was the cheapest land",
+                "It contains buried treasure",
+                "It is closest to the sea"
+            ],
+            "answer": 0,
+            "feedback": "Correct! The hilltop honors Elijah's ascension while providing commanding views of Piraeus' maritime activities."
+        },
+        "reward": {
+            "title": "Sunset port viewing and blessing",
+            "provider": "Church of Prophet Elias",
+            "codeHash": "5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f"
+        },
+        "id": 292
     },
     {
         "name": "Vouliagmeni Beach",
@@ -8151,32 +7322,7 @@ const POIs = [
             "provider": "Vouliagmeni Beach Complex",
             "codeHash": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b"
         },
-        "id": 327
-    },
-    {
-        "name": "Lake Vouliagmeni (Thermal Lake)",
-        "lat": 37.8086,
-        "lng": 23.7812,
-        "image": "images/lake_vouliagmeni.jpg",
-        "description": "A rare natural wonder: a brackish thermal lake fed by underground mineral springs, maintaining a constant 22-29°C temperature year-round, perfect for therapeutic swimming.",
-        "audioText": "You are at Lake Vouliagmeni, one of the most unique natural swimming spots in all of Greece—a geological marvel where geothermal activity creates an eternal spa. This is not a typical lake. It is a brackish thermal lagoon, meaning the water is a mix of seawater and freshwater from underground springs, heated by geothermal vents deep below the earth. The temperature never drops below 22 degrees Celsius and reaches 29 degrees in summer, making it comfortable for swimming every single day of the year, even in the coldest winters. The lake formed about 2,000 years ago when the roof of an underground cavern collapsed, creating this stunning kidney-shaped pool surrounded by limestone cliffs draped with greenery. The water is incredibly mineral-rich—containing sulfur, calcium, potassium, and other therapeutic minerals that have drawn healers and health-seekers for millennia. Ancient Greeks believed the lake had healing powers, and modern science confirms its benefits for skin conditions, arthritis, and stress relief. The water is crystal clear, allowing visibility to the rocky bottom where small fish called Garra rufa—the famous 'doctor fish'—nibble dead skin from swimmers' feet, providing a natural exfoliation treatment. The lake is fed by an underwater cave system that remains largely unexplored; divers have mapped only the first 3,000 meters before encountering passages too dangerous to navigate. The lake is now a protected natural monument and operates as a spa facility with admission fees, changing rooms, showers, a cafe, and sun loungers around the perimeter. Swimming here feels surreal: you float effortlessly in the warm, slightly salty water while surrounded by vertical rock walls and lush vegetation, with the Aegean Sea visible just beyond a narrow channel. In winter, when Athens experiences occasional cold snaps, locals flock here to swim in water that feels like a heated pool, steam rising into the crisp air. If you only have time for one natural swimming experience near Athens, make it Lake Vouliagmeni—it's truly one of a kind.",
-        "quiz": {
-            "question": "What makes Lake Vouliagmeni so unusual?",
-            "options": [
-                "It is a year-round thermal lake (22-29°C) fed by geothermal springs with therapeutic minerals and doctor fish",
-                "It is the deepest lake in Greece",
-                "It is a freshwater lake on a mountaintop",
-                "It freezes in winter"
-            ],
-            "answer": 0,
-            "feedback": "Correct! Lake Vouliagmeni is a rare thermal brackish lake with constant warm temperatures, mineral-rich water with healing properties, and Garra rufa fish that provide natural skin treatments."
-        },
-        "reward": {
-            "title": "Discounted entry to Lake Vouliagmeni Thermal Spa",
-            "provider": "Lake Vouliagmeni Natural Spa",
-            "codeHash": "2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c"
-        },
-        "id": 328
+        "id": 293
     },
     {
         "name": "Varkiza Beach",
@@ -8201,11 +7347,11 @@ const POIs = [
             "provider": "Varkiza Beach Sports Center",
             "codeHash": "3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d"
         },
-        "id": 329
+        "id": 294
     },
     {
         "name": "Limanakia Coves",
-        "lat": 37.8120,
+        "lat": 37.812,
         "lng": 23.7845,
         "image": "images/limanakia_coves.jpg",
         "description": "A chain of dramatic rocky coves with crystal-clear deep water, perfect for cliff jumping, snorkeling, and adventurous swimming—Athens' hidden coastal gems.",
@@ -8226,32 +7372,7 @@ const POIs = [
             "provider": "Athens Riviera Water Sports",
             "codeHash": "4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e"
         },
-        "id": 330
-    },
-    {
-        "name": "Schinias Beach & National Park",
-        "lat": 38.1172,
-        "lng": 23.9827,
-        "image": "images/schinias_beach.jpg",
-        "description": "Widely considered Athens' most beautiful beach: 5 kilometers of golden sand backed by a rare coastal pine forest within a protected national park.",
-        "audioText": "Welcome to Schinias Beach, the beach that makes Athenians say, 'Wait, are we on an island?' Located 50 kilometers northeast of Athens near the historic Marathon battlefield, Schinias is a protected natural treasure that combines pristine sandy beaches with ecological significance. The beach stretches over 5 kilometers along a gently curving bay, offering some of the finest golden sand in mainland Greece. But what makes Schinias truly special is the forest behind you—a rare coastal pine forest that comes right down to the beach, providing natural shade, a unique ecosystem, and that pine-scented air that Greeks associate with summer paradise. This is part of the Schinias-Marathon National Park, protected since 2008 to preserve its biodiversity: the wetlands behind the dunes are home to over 200 bird species, including rare herons, flamingos, and migratory waterfowl. The beach itself offers something for every preference. At the northern end, you'll find organized sections with sun loungers, beach bars, and water sports facilities—this was the Olympic rowing venue during Athens 2004, and the Olympic rowing center still stands nearby. The central sections are mostly free and undeveloped, where you can spread your towel directly on the sand under the pines. The southern end features quieter coves and rockier sections favored by locals in the know. The water at Schinias is consistently excellent: shallow enough for children to wade safely, warm by mid-June, and remarkably clean thanks to the protective bay and absence of nearby development. On windy days, the northern end attracts windsurfers and kitesurfers who take advantage of the conditions. Getting here requires a car or bus—there's no direct train—but the journey is part of the experience, passing through historic Marathon, past the ancient burial mound where 192 Athenian warriors lie, and through landscapes where mythology and history intersect. Bring supplies: while there are a few beach bars, much of Schinias remains undeveloped. Pack a picnic, rent a bicycle to explore the trails through the pine forest, and plan to stay all day. Greeks consider Schinias among the best mainland beaches in the country, a place where nature still feels wild and unspoiled despite being so close to Europe's most historic capital.",
-        "quiz": {
-            "question": "What makes Schinias Beach environmentally significant?",
-            "options": [
-                "It's part of a protected national park with 5km of sandy beach backed by rare coastal pine forest and 200+ bird species",
-                "It's the only beach in Greece with sharks",
-                "It has underwater hotels",
-                "It's made of black volcanic sand"
-            ],
-            "answer": 0,
-            "feedback": "Correct! Schinias is a protected national park combining pristine beaches with ecological importance—rare coastal pines, wetlands, diverse birdlife, and the 2004 Olympic rowing venue."
-        },
-        "reward": {
-            "title": "Free bike rental at Schinias National Park",
-            "provider": "Marathon National Park Authority",
-            "codeHash": "5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f"
-        },
-        "id": 331
+        "id": 295
     },
     {
         "name": "Lagonisi Beach",
@@ -8276,7 +7397,7 @@ const POIs = [
             "provider": "Kolpiskos Beach Café",
             "codeHash": "6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a"
         },
-        "id": 332
+        "id": 296
     },
     {
         "name": "Glyfada Beach",
@@ -8301,7 +7422,7 @@ const POIs = [
             "provider": "Balux Beach Bar",
             "codeHash": "7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b"
         },
-        "id": 333
+        "id": 297
     },
     {
         "name": "Sounion Beach",
@@ -8326,7 +7447,7 @@ const POIs = [
             "provider": "Hellenic Ministry of Culture",
             "codeHash": "8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c"
         },
-        "id": 334
+        "id": 298
     },
     {
         "name": "Anavyssos Beach",
@@ -8351,7 +7472,7 @@ const POIs = [
             "provider": "Anavyssos Water Sports School",
             "codeHash": "9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d"
         },
-        "id": 335
+        "id": 299
     },
     {
         "name": "Kavouri Beach",
@@ -8376,57 +7497,7 @@ const POIs = [
             "provider": "Kavouri Beach Café",
             "codeHash": "0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e"
         },
-        "id": 336
-    },
-    {
-        "name": "Koutouki Cave, Paiania",
-        "lat": 37.9460,
-        "lng": 23.8287,
-        "image": "images/koutouki_cave.jpg",
-        "description": "The largest and most spectacular show cave in Attica, featuring impressive stalactites, stalagmites, and illuminated chambers at 510m altitude on Mount Hymettus.",
-        "audioText": "Welcome to Koutouki Cave, also known as Peania Cave, the most impressive underground wonder in the greater Athens area. Located on the eastern slopes of Mount Hymettus near Athens International Airport, this limestone cave has been welcoming visitors since its systematic exploration in 1954 by the renowned Greek speleologist Anna Petrocheilou. The cave is one of 60 known caves in Attica, but it is by far the largest and most developed for tourism. Koutouki is a vertical cave, meaning its entrance drops 38.5 meters down a shaft into a massive central chamber measuring 60 by 60 meters—roughly the size of a football field. But unlike most caves that feel claustrophobic and dark, Koutouki opens into a grand subterranean palace filled with some of the finest speleothems—cave formations—in Greece. As you descend the modern staircase and walkways installed for visitors, you'll see why early explorers gave poetic names to the formations: the Olympic Tower, a massive stalagmite rising from the floor; the Owl, a formation that looks uncannily like the bird of Athena; the Armor, resembling ancient Greek battle gear; and the Red Falls, curtains of flowstone stained rust-red by iron oxides. The stalactites hanging from the ceiling took hundreds of thousands of years to form, growing at rates of just millimeters per century as mineral-rich water dripped and deposited calcium carbonate. The cave maintains a constant temperature of 17 degrees Celsius year-round, with 90% humidity—bring a light jacket even in summer. Guided tours last about 30 minutes and follow a 350-meter route through the main chamber. The lighting is theatrical, designed to highlight the most spectacular formations with colored lights and even music during special occasions. The cave was formed by the dissolving action of rainwater on limestone, a process ongoing for millions of years. The karst geology of Mount Hymettus is riddled with such caves, though most are too small or dangerous for public access. Beyond its geological significance, Koutouki has ecological importance as home to various troglobite species—creatures adapted to permanent cave life, including rare blind insects and cave-dwelling spiders. The cave is easily accessible, just 4 kilometers from Paiania village and well-signposted. Combine your visit with the nearby ancient quarries, the picturesque village of Paiania where the orator Demosthenes was born, or a hike on Mount Hymettus. For anyone who's never experienced a proper show cave, Koutouki is an unforgettable introduction to the hidden world beneath Greece's mountains.",
-        "quiz": {
-            "question": "What makes Koutouki Cave scientifically and touristically significant?",
-            "options": [
-                "It's Attica's largest show cave with a 38.5m shaft opening into a 60x60m chamber filled with spectacular stalactites and stalagmites",
-                "It's the deepest cave in the world",
-                "It has ancient human remains from 10,000 BC",
-                "It contains a underground river leading to the sea"
-            ],
-            "answer": 0,
-            "feedback": "Correct! Koutouki is a vertical cave with impressive dimensions and formations like the Olympic Tower and Owl, maintained at constant 17°C with guided tours through 350 meters of passages."
-        },
-        "reward": {
-            "title": "Discounted cave entry + Mount Hymettus hiking map",
-            "provider": "Koutouki Cave Visitors Center",
-            "codeHash": "1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f"
-        },
-        "id": 337
-    },
-    {
-        "name": "Davelis Cave (Penteli Cave)",
-        "lat": 38.0764,
-        "lng": 23.8695,
-        "image": "images/davelis_cave.jpg",
-        "description": "A mysterious cave on Mount Penteli featuring ancient marble quarries, Byzantine chapels, and frescoes—where history, geology, and legend intersect at 700m altitude.",
-        "audioText": "You stand before Davelis Cave, one of the most atmospheric and historically layered sites in Attica—a place where ancient quarries, Byzantine faith, bandit legends, and geological wonder converge in a single dramatic location. Located on the southwestern slope of Mount Penteli at 700 meters altitude, this is no ordinary cave. It was formed naturally but expanded by human hands over millennia. The ancient Greeks discovered it while quarrying Pentelic marble—the luminous white stone with a faint golden hue that built the Parthenon, the Erechtheion, and Athens' greatest monuments. You can still see the chisel marks on the quarry walls, and partially extracted column drums abandoned mid-work, frozen in time. The cave system includes a main chamber 112 meters long with a dramatic 15-meter vertical chasm, and an entrance so grand it could be the gateway to the underworld. In the Byzantine period, Christian hermits and monks converted this pagan quarry site into a sacred space. They built two small churches right at the cave entrance: the Chapel of Saint Spyridon and the Chapel of Saint Nicholas. Both contain frescoes dating to the 13th century—faded now but still visible, depicting Christ, saints, and scenes from the Gospels painted onto the cave rock itself. These hermitages were part of a tradition of ascetic monasticism, where holy men sought isolation in caves and mountains to dedicate themselves to prayer and contemplation away from the distractions of the world. The cave gets its popular name from Christos Davelis, a notorious 19th-century Greek brigand who supposedly used these passages as a hideout during his banditry career, though historians debate whether he actually knew of its existence. The legend has persisted, and locals still call it Davelis Cave. In the 1970s-80s, the Greek military used parts of the cave for reasons that remain partially classified, leading to additional legends about secret installations and paranormal activity—none of which have been confirmed but all of which add to the site's mystique. Today, the cave entrance and chapels are accessible, though the deeper passages are closed for safety. The site is popular with hikers, climbers (the cliff walls attract rock climbers), and those seeking an off-the-beaten-path historical experience. Bring a flashlight if you want to peek into the darker recesses, and be prepared for uneven footing. The surrounding area offers excellent hiking trails through Penteli's pine forests and past more ancient quarries. Davelis Cave is a reminder that Greece's historical landscape is endlessly layered—ancient industry, Byzantine devotion, modern legend, all inscribed onto living rock.",
-        "quiz": {
-            "question": "What makes Davelis Cave historically unique?",
-            "options": [
-                "It combines ancient Pentelic marble quarries with Byzantine chapels and 13th-century frescoes, plus bandit legends and military history",
-                "It's the only cave in Greece with electric lighting",
-                "It's a modern artificial cave built in 1990",
-                "It's filled with gold treasures from Alexander the Great"
-            ],
-            "answer": 0,
-            "feedback": "Correct! Davelis Cave layers 2,400 years of history: ancient Parthenon marble extraction, Byzantine hermit churches with frescoes, 19th-century brigand legends, and modern military use."
-        },
-        "reward": {
-            "title": "Guided Penteli marble quarries hiking tour",
-            "provider": "Mount Penteli Cultural Association",
-            "codeHash": "2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a"
-        },
-        "id": 338
+        "id": 300
     },
     {
         "name": "Mount Parnitha Summit (1,413m)",
@@ -8451,7 +7522,7 @@ const POIs = [
             "provider": "Hellenic Mountaineering Club",
             "codeHash": "3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b"
         },
-        "id": 339
+        "id": 301
     },
     {
         "name": "Mount Penteli Summit (1,109m)",
@@ -8476,7 +7547,7 @@ const POIs = [
             "provider": "Holy Monastery of Penteli",
             "codeHash": "4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c"
         },
-        "id": 340
+        "id": 302
     },
     {
         "name": "Mount Hymettus Summit (1,026m)",
@@ -8501,108 +7572,7 @@ const POIs = [
             "provider": "Hymettus Beekeepers Cooperative",
             "codeHash": "5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d"
         },
-        "id": 341
-    },
-    {
-        "name": "Bafi Mountain Refuge, Parnitha",
-        "lat": 38.1493,
-        "lng": 23.7207,
-        "image": "images/bafi_refuge.jpg",
-        "description": "A traditional mountain refuge and restaurant on Parnitha at 1,100m, serving hearty Greek mountain food and serving as base camp for summit hikes and nature trails.",
-        "audioText": "Welcome to Bafi Refuge, one of the most beloved mountain huts in Greece and the traditional base camp for exploring Mount Parnitha. Perched at 1,100 meters altitude on the southern slopes of Parnitha, surrounded by dense fir forest, Bafi is where hikers, climbers, and nature lovers gather to rest, eat, plan their routes, and share stories of the mountain. The refuge was established decades ago by the Athens Excursion Club and has been operated by the same family for generations, maintaining the tradition of mountain hospitality—offering shelter, warmth, and sustenance to anyone who arrives, regardless of weather or hour. The stone building blends into its forest setting, with a large outdoor terrace where tables fill with groups on weekends and holidays. The interior features a cozy dining room with a fireplace that roars in winter, walls covered with hiking maps and summit photos, and an atmosphere that feels removed from the modern world despite being just 45 minutes from Athens. The menu is exactly what you want after a mountain hike: hearty stews, grilled meats, village sausages, fried potatoes, bean soup, local cheese, and fresh bread, all served in generous portions at reasonable prices. The kitchen sources ingredients locally when possible, and the recipes are traditional Greek mountain cooking—nothing fancy, just satisfying and delicious. In summer, the terrace offers respite from Athens' heat; in winter, arriving at Bafi after a cold hike feels like salvation. The refuge serves as the starting point for several of Parnitha's best hikes. The summit of Karavola (1,413m) is about a 3-4 hour round trip from here, climbing through fir forest then across rocky upper slopes to the peak. Other trails lead to Skipiza Spring, the Goura Gorge, and the series of fountains and viewpoints that make Parnitha famous among Greek hikers. Trail maps are available, and the staff can advise on conditions, routes, and difficulty levels. Bafi is accessible by car via a paved road from Acharnes, or on foot via several hiking trails. On winter weekends, when Athens gets its rare snowfalls, families drive up to Bafi to play in the snow—building snowmen, having snowball fights, and warming up with hot chocolate and soup inside. The refuge also offers basic overnight accommodation in dormitory-style rooms for hikers who want to start early or finish late. The mountain refuge culture is important in Greek outdoor tradition: these huts serve not just as logistical support but as social centers where urban Greeks reconnect with nature, wilderness, and a slower pace of life. Bafi embodies this tradition perfectly—unpretentious, welcoming, and deeply tied to the mountain it serves. Whether you're an experienced mountaineer or a family seeking a Sunday nature outing, Bafi Refuge welcomes you with the spirit of 'philoxenia'—the Greek love of strangers.",
-        "quiz": {
-            "question": "What role does Bafi Refuge play on Mount Parnitha?",
-            "options": [
-                "It's a traditional mountain hut at 1,100m serving Greek mountain food, providing trail info, and base camp for summit hikes",
-                "It's a luxury five-star hotel with spa and pool",
-                "It's an ancient temple dedicated to Zeus",
-                "It's a ski resort with chairlifts"
-            ],
-            "answer": 0,
-            "feedback": "Correct! Bafi is a family-run mountain refuge offering hearty meals, trail guidance, overnight accommodation, and the spirit of Greek mountain hospitality at the heart of Parnitha National Park."
-        },
-        "reward": {
-            "title": "Free mountain stew meal at Bafi Refuge",
-            "provider": "Bafi Mountain Refuge",
-            "codeHash": "6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e"
-        },
-        "id": 342
-    }
-,
-    {
-        "name": "Tatoi Forest & Former Royal Estate",
-        "lat": 38.1348,
-        "lng": 23.7951,
-        "image": "images/tatoi_forest.jpg",
-        "description": "The former summer residence of the Greek Royal Family, featuring shaded forest trails, streams, palace ruins, and a unique blend of history and natural beauty.",
-        "audioText": "Welcome to Tatoi, the former summer estate of Greece's royal family and now a public park offering one of the most unusual forest experiences near Athens. Located on the northeastern slopes of Mount Parnitha at 500-700 meters altitude, Tatoi is where palace history meets Mediterranean woodland, where aristocratic leisure grounds have become democratic public space. The estate was acquired by the Greek royal family in 1871 and developed into a summer retreat with a palace, stables, vineyards, and extensive grounds. King George I loved Tatoi, and subsequent royals continued to develop it, planting exotic trees alongside native species—you'll find cedars from Lebanon, sequoias from California, palms, cypresses, all growing among Greek pines and oaks. The royal family was exiled in the 1960s and never returned; the estate fell into decay, and the palace itself—a neoclassical building with Art Nouveau elements—became a romantic ruin. Today, the palace remains closed to the public, its windows boarded, its once-grand rooms empty and deteriorating, though there are ongoing plans for restoration. But the grounds are open, and they're spectacular: 4,200 acres of forested parkland crisscrossed with walking and cycling paths, shaded by tall trees, cooled by streams and small waterfalls. The temperature here is noticeably lower than Athens—often 5-10 degrees cooler—making it a favorite escape on scorching summer days. As you walk the trails, you'll encounter remnants of royal life: old carriage roads, stone bridges, the chapel where several royal family members are buried, stables, workshops, and agricultural buildings. There's a small museum displaying royal family memorabilia and old photographs showing Tatoi in its glory days. The estate had its own dairy, winery, and farms that supplied the royal household. The forest itself is beautiful: dense, green, alive with birdsong, and filled with dappled light filtering through the canopy. Streams trickle through ravines, and picnic areas with tables and benches invite families to spread out for the day. On weekends, you'll see locals jogging, families cycling, children playing in the streams—a democratic use of space once reserved for royalty. Tatoi also holds a dark chapter in modern Greek history: in 1957, King Paul survived an assassination attempt here, and the estate witnessed various political intrigues during Greece's turbulent 20th century. But today's Tatoi is all about nature, history, and public recreation. It's accessible by car from northern Athens in about 30 minutes. Combine your visit with a hike on Parnitha or lunch at Bafi Refuge. Bring a picnic, rent bicycles, or just walk the shaded paths and imagine a time when kings and queens strolled these very trails. Tatoi proves that even royal estates, given time and democracy, can become beloved public spaces where everyone is welcome.",
-        "quiz": {
-            "question": "What is historically and naturally unique about Tatoi?",
-            "options": [
-                "Former Greek royal summer estate (1871) now public forest park with palace ruins, exotic trees, cool streams, and 4,200 acres of trails",
-                "It's the tallest building in Greece",
-                "It's a beach resort on an island",
-                "It's a modern shopping center built in 2020"
-            ],
-            "answer": 0,
-            "feedback": "Correct! Tatoi blends royal history with natural beauty—a once-exclusive estate now offering cool forested trails, remnants of palace life, and democratic public recreation on Mount Parnitha's slopes."
-        },
-        "reward": {
-            "title": "Free bicycle rental at Tatoi Forest entrance",
-            "provider": "Tatoi Estate Visitors Center",
-            "codeHash": "7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f"
-        },
-        "id": 343
-    },
-    {
-        "name": "Ancient Penteli Marble Quarries",
-        "lat": 38.0695,
-        "lng": 23.8751,
-        "image": "images/penteli_quarries.jpg",
-        "description": "The historic marble extraction sites where Pentelic marble for the Parthenon was quarried, displaying ancient tool marks, abandoned column drums, and engineering marvels.",
-        "audioText": "You are standing in the ancient marble quarries of Mount Penteli, the industrial heart of classical Athens' greatest architectural achievements. This is where the Parthenon was born—not as a building, but as massive blocks of luminous white marble extracted from living rock by skilled craftsmen 2,400 years ago. The quarries are scattered across the southern and eastern faces of Penteli, at elevations between 600 and 1,000 meters. The main quarries—called the Spilia quarries after a nearby cave—are the most accessible and impressive. As you walk among the exposed rock faces, you're seeing a frozen moment in ancient industry. The quarry walls still bear the marks of ancient tools: the rectangular slots where bronze and iron wedges were hammered to split the stone, the chisel marks showing how workers shaped blocks, the grooves where ropes guided massive pieces down the mountainside. Some column drums sit abandoned, half-extracted, left in place when flaws were discovered or when demand shifted. These ghostly forms—cylinders of marble emerging from bedrock—offer rare insights into ancient engineering. The Greeks didn't have explosives or modern machinery; they used knowledge of the stone's natural bedding planes, water, wooden wedges, bronze tools, and sheer human labor to extract blocks weighing many tons. Quarry workers would drill a line of holes along a bedding plane, insert wooden wedges, soak the wood with water, and wait for the expansion to crack the stone along a clean line. Once freed, blocks were roughly shaped at the quarry to reduce weight, then lowered down the mountain on wooden sledges along paved roads, some sections of which survive. From the quarry to the Acropolis is about 20 kilometers—imagine the logistics of transporting multi-ton blocks over that distance using only ropes, pulleys, oxen, and human muscle. Pentelic marble is unique: pure white calcite with trace iron that gives it a warm, faintly golden hue, especially when exposed to sunlight and weathering. This 'patina of time' is one reason the Parthenon seems to glow in the afternoon light. The geologist's term is 'micrite,' an extremely fine-grained limestone recrystallized into marble by metamorphic heat and pressure deep underground, then uplifted by tectonic forces and exposed by erosion—a process taking millions of years to create stone perfect for sculpture and architecture. The quarries operated from the 6th century BC through the Roman period and were revived during the Byzantine era and even in the 19th century for neoclassical buildings. Each period left its mark. Modern quarrying equipment sits abandoned near older extraction sites, and you can trace the evolution of stone-working technology across millennia. Hiking through the quarries is a pilgrimage for architecture students, archaeologists, and anyone who loves the Parthenon. It's one thing to admire the finished building; it's another to see where it came from, to touch the same stone still in the mountain, to understand the physical reality behind architectural beauty. Combine your visit with a hike to Penteli's summit or a stop at Penteli Monastery. Bring sturdy shoes—the quarry floors are uneven, with scattered marble fragments—and a sense of awe for the ancient craftsmen who turned mountain into monument.",
-        "quiz": {
-            "question": "Why are the Penteli quarries archaeologically and architecturally important?",
-            "options": [
-                "They're where Parthenon marble was extracted 2,400 years ago; ancient tool marks and abandoned column drums reveal Greek engineering methods",
-                "They're the world's first gold mines",
-                "They're where paper was invented",
-                "They're modern concrete factories"
-            ],
-            "answer": 0,
-            "feedback": "Correct! The Penteli quarries show the origins of the Parthenon and classical architecture, preserving ancient extraction techniques, tool marks, and partially-completed marble pieces frozen in time."
-        },
-        "reward": {
-            "title": "Small Pentelic marble fragment + certificate",
-            "provider": "Penteli Archaeological Society",
-            "codeHash": "8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a"
-        },
-        "id": 344
-    },
-    {
-        "name": "Marathon Lake & Dam",
-        "lat": 38.1549,
-        "lng": 23.8944,
-        "image": "images/marathon_lake.jpg",
-        "description": "A scenic artificial reservoir built in 1920s with neoclassical Pentelic marble dam, offering lakeside hiking, recreation, and historic water infrastructure surrounded by forest.",
-        "audioText": "Welcome to Marathon Lake, officially known as the Marathon Reservoir—a beautiful artificial lake that combines practical infrastructure with architectural elegance and natural scenery. Created in 1926 by damming the Charadros stream, the lake was built to supply drinking water to Athens, addressing the capital's chronic water shortage. But this is no ordinary concrete dam. The dam itself is a neoclassical masterpiece, faced entirely with Pentelic marble—the same luminous stone that built the Parthenon. It was designed by architect Garoufallou to harmonize with Greece's classical heritage, featuring marble facades, decorative elements, and even a small chapel. The result is perhaps the world's most beautiful water engineering structure—a dam that looks like it could be an ancient monument rather than a 20th-century utility. The reservoir holds up to 41 million cubic meters of water, forming a lake roughly 2 kilometers long and 300 meters wide at its broadest. The surrounding landscape is forested with pines and plane trees, and the lake is embraced by the slopes of Mount Penteli to the south and Mount Agrieliki to the north. The scenery changes with the seasons: lush and full in spring after winter rains, lower and more contemplative in late summer, occasionally frosted with snow in the rare cold winters. The lake and its surroundings have become a popular recreational area. A paved road runs along parts of the shoreline, and hiking trails branch off into the surrounding hills. You'll see joggers, cyclists, families picnicking, and photographers capturing the lake's serene beauty. The area is particularly lovely in late afternoon when the marble dam catches the golden light. Birdwatchers appreciate the lake for its waterfowl: herons, cormorants, ducks, and migratory species stop here. The lake is also historically connected to the ancient Marathon battlefield just 5 kilometers to the east—the site where 9,000 Athenian hoplites defeated a larger Persian force in 490 BC, one of history's most consequential battles. The area's name comes from the wild fennel plant called 'marathon' that grew abundantly here in antiquity. Modern Marathon is a quiet town nearby, with the archaeological museum housing finds from the battlefield and burial mound. Visiting Marathon Lake can easily be combined with other sites: the Schinias Beach is just 15 minutes north, the Marathon battlefield and burial mound are 10 minutes east, and you're also close to Mount Penteli's hiking trails. Bring a picnic, walk along the lake, photograph the marble dam, and enjoy one of Attica's most peaceful spots—a place where human engineering and natural beauty coexist in rare harmony. The lake reminds us that even utilitarian infrastructure can aspire to beauty, that water is precious in Mediterranean climates, and that Athens' survival has always depended on the watersheds of its surrounding mountains.",
-        "quiz": {
-            "question": "What makes Marathon Lake's dam architecturally unique?",
-            "options": [
-                "It's entirely faced with Pentelic marble in neoclassical style (1926), making it the world's most beautiful water infrastructure",
-                "It's made of solid gold",
-                "It's the oldest dam in human history",
-                "It's invisible and underground"
-            ],
-            "answer": 0,
-            "feedback": "Correct! Marathon Dam is a rare example of infrastructure as art—a functional reservoir dam designed with neoclassical elegance and clad in the same Pentelic marble as the Parthenon."
-        },
-        "reward": {
-            "title": "Marathon Lake guided nature walk + bird guide",
-            "provider": "Marathon Environmental Association",
-            "codeHash": "9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b"
-        },
-        "id": 345
+        "id": 303
     },
     {
         "name": "Rapentosa Waterfall, Mount Penteli",
@@ -8627,59 +7597,8 @@ const POIs = [
             "provider": "Athens Hiking Club",
             "codeHash": "0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c"
         },
-        "id": 346
+        "id": 304
     },
-    {
-        "name": "Parnitha National Park",
-        "lat": 38.1551,
-        "lng": 23.7295,
-        "image": "images/parnitha_national_park.jpg",
-        "description": "Greece's largest protected area near Athens, offering 250km² of dense fir forests, diverse wildlife including red deer and wolves, and extensive hiking trails.",
-        "audioText": "You are in Parnitha National Park, the crown jewel of Attica's protected natural areas and the only National Park within easy reach of a major European capital. Spanning 250 square kilometers across the mountain range that bears its name, Parnitha represents Greece's commitment to preserving wilderness even as Athens expands around it. The park was officially designated in 1961 and encompasses a remarkable diversity of ecosystems: dense coniferous forests dominated by Greek fir (Abies cephalonica) and black pine, mountain meadows, rocky peaks, deep gorges, over 200 caves, and 45 natural springs. The biodiversity here is exceptional for the Mediterranean: over 800 plant species, including rare orchids, wild tulips, and herbs; 40 mammal species including red deer (reintroduced in the 1960s and now thriving), foxes, wild boars, badgers, and a recently returned wolf population; and over 100 bird species including golden eagles, peregrine falcons, buzzards, woodpeckers, and numerous songbirds. Parnitha is a living laboratory where ecologists study Mediterranean mountain ecosystems and conservation strategies. The park's hiking trail network is extensive, with routes ranging from easy forest walks suitable for families to technical summit climbs requiring mountaineering skills. The trails are generally well-marked with colored signs, though serious hikers should bring proper maps. Popular routes include the Bafi-to-summit trail, the fountains circuit, the Goura Gorge traverse, and the Black Forest trail through particularly tall, straight conifers. The park's highest point is Karavola peak at 1,413 meters, offering panoramic views across Attica and beyond. Geologically, Parnitha is complex limestone and marble uplifted by tectonic forces, creating the dramatic topography of peaks, cliffs, sinkholes, and caves that characterizes the landscape. The mountain's hydrology is rich—all those springs feed streams that eventually supply Athens' water, reminding visitors that the park serves practical as well as recreational and ecological functions. The park faced its greatest threat in 2007 when a massive wildfire burned approximately 20% of the forested area, particularly on the southeastern slopes. The recovery has been ongoing, with a mix of natural regeneration and human reforestation. Today, you can see the contrast between fire-damaged zones slowly recovering and the untouched old-growth forests—a testament to both nature's resilience and fragility. Parnitha offers facilities for visitors: the Bafi and Flampouri refuges provide food, shelter, and trail information; there are picnic areas with tables and benches; and the park administration maintains trails and signage. Access is via several paved roads from surrounding towns, and parking is available at key trailheads. The park is busiest on weekends and holidays when Athenians escape the city for mountain air and nature, but weekdays can be remarkably quiet. Whether you're a serious hiker seeking summit challenges, a family wanting a forest picnic, a wildlife photographer, or simply someone who needs to remember that wilderness still exists close to urban centers, Parnitha National Park welcomes you. It's proof that even cities need their mountains, that protected areas can coexist with modern life, and that Greeks' ancient reverence for nature continues in contemporary conservation efforts.",
-        "quiz": {
-            "question": "What makes Parnitha National Park ecologically important for Athens?",
-            "options": [
-                "It's the only National Park near a major European capital, protecting 250km² of fir forest, 800+ plant species, red deer, wolves, and 200+ caves",
-                "It's a shopping mall with no nature",
-                "It's underwater in the Mediterranean Sea",
-                "It's a desert with no vegetation"
-            ],
-            "answer": 0,
-            "feedback": "Correct! Parnitha is a unique urban-adjacent National Park preserving wilderness, biodiversity, water resources, and recreation opportunities just 30 minutes from Athens."
-        },
-        "reward": {
-            "title": "Annual Parnitha National Park hiking pass",
-            "provider": "Hellenic National Parks Authority",
-            "codeHash": "1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d"
-        },
-        "id": 347
-    },
-    {
-        "name": "Schinias National Park (Pine Forest)",
-        "lat": 38.1207,
-        "lng": 23.9850,
-        "image": "images/schinias_park.jpg",
-        "description": "A protected coastal park combining 5km of pristine sandy beach with rare coastal pine forest and wetlands hosting 200+ bird species near Marathon.",
-        "audioText": "Welcome to Schinias-Marathon National Park, a unique protected area where sandy beaches, coastal pine forest, and wetland ecosystems converge to create one of Greece's most valuable natural reserves. Located along the northeastern coast of Attica near Marathon, about 45 kilometers from Athens, the park was officially designated in 2008 to protect this rare combination of coastal habitats. The most visually striking feature is the pine forest that comes right down to the beach—a rare coastal Aleppo pine (Pinus halepensis) forest that provides natural shade and creates a microclimate unique among Greek beaches. These pines are wind-sculpted, their branches bent and twisted by the sea breezes, creating a landscape that feels both Mediterranean and almost Nordic. Walking through the forest on a hot summer day, with the scent of pine resin and sea salt mixing in the air, is a sensory experience that defines Greek coastal nature. Behind the dunes and forest lies the park's ecological heart: the Marathon wetlands, a freshwater marsh fed by streams from surrounding mountains. These wetlands are a critical stopover and nesting site for over 200 bird species, including rare and endangered species like the little bittern, purple heron, ferruginous duck, and various migratory waterfowl that use the Mediterranean flyway. During spring and autumn migration periods, birdwatchers flock here with binoculars and cameras to document species passing through. The wetlands are also home to amphibians, reptiles (including the Balkan green lizard and dice snake), and a diversity of aquatic plants. The beach itself stretches for about 5 kilometers, offering some of the finest sand in mainland Greece—soft, golden, and comfortable underfoot. The water is shallow, warm by mid-summer, and remarkably clean thanks to the protective bay and good circulation. The northern section hosted the rowing and canoeing events during the Athens 2004 Olympics, and the Olympic Rowing Center still operates here, its distinctive white building visible from the beach. The park faces conservation challenges: balancing public access and recreation with ecosystem protection, managing development pressure, addressing pollution from nearby roads, and adapting to climate change impacts on coastal habitats. The park administration has implemented zoning—areas for intensive recreation, areas for controlled access, and core conservation zones closed to the public to protect sensitive habitats and nesting sites. Visiting Schinias National Park offers multiple experiences: you can swim at one of Athens' best beaches, hike or cycle through the pine forest on marked trails, birdwatch from observation platforms overlooking the wetlands, learn about coastal ecosystems at the park's information center, or simply enjoy a picnic under the pines. The park is accessible by car or bus from Athens, and facilities include parking areas, beach bars (in designated zones), and basic amenities. Combine your visit with nearby historical sites: the Marathon battlefield and burial mound are just 5 kilometers away, and the Marathon Archaeological Museum houses remarkable finds including the Marathon Boy bronze statue. Schinias represents what conservation can achieve—protecting natural beauty and biodiversity while still allowing people to enjoy and appreciate these precious landscapes. It's a place where you can swim in the morning, birdwatch in the afternoon, and leave with a deeper appreciation for Greece's natural heritage.",
-        "quiz": {
-            "question": "What ecosystems make Schinias National Park ecologically unique?",
-            "options": [
-                "It combines rare coastal pine forest, 5km of sandy beach, and wetlands hosting 200+ bird species including endangered waterfowl",
-                "It's entirely covered in ice and snow",
-                "It's an underground cave system with no surface",
-                "It's a volcanic caldera with no vegetation"
-            ],
-            "answer": 0,
-            "feedback": "Correct! Schinias is a protected coastal park preserving the rare combination of Aleppo pine forest, pristine beaches, and freshwater marshes critical for Mediterranean biodiversity."
-        },
-        "reward": {
-            "title": "Guided wetlands birdwatching tour + bird checklist",
-            "provider": "Schinias National Park Authority",
-            "codeHash": "2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e"
-        },
-        "id": 348
-    }
-,
     {
         "name": "Kaisariani Forest, Mount Hymettus",
         "lat": 37.9646,
@@ -8703,57 +7622,7 @@ const POIs = [
             "provider": "Byzantine Museum of Athens",
             "codeHash": "3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f"
         },
-        "id": 349
-    },
-    {
-        "name": "Lake Beletsi, Mount Parnitha",
-        "lat": 38.1762,
-        "lng": 23.7689,
-        "image": "images/lake_beletsi.jpg",
-        "description": "A small, scenic mountain lake on Parnitha's eastern slopes at 950m, offering peaceful hiking destination, forest setting, and rare alpine lake atmosphere near Athens.",
-        "audioText": "Welcome to Lake Beletsi, a hidden gem tucked into the eastern slopes of Mount Parnitha at 950 meters altitude—a small mountain lake that offers a taste of alpine tranquility just an hour from Athens. In a region where water bodies are rare and often artificial, discovering a natural mountain lake surrounded by forest feels like stumbling into a fairy tale. Lake Beletsi is not large—roughly 200 meters long and 100 meters wide at its maximum—but its setting is enchanting. The lake sits in a natural depression, fed by springs and seasonal runoff, surrounded by mixed forest of pines, oaks, and deciduous trees that turn golden and red in autumn. The water level fluctuates seasonally, fullest in spring after snowmelt and winter rains, lower in late summer. The lake's surface reflects the surrounding trees and sky, creating mirror-like scenes beloved by photographers. The area around Lake Beletsi is peaceful and relatively undeveloped compared to other Parnitha destinations. A dirt road provides vehicle access from the village of Thrakomakedones, but many hikers prefer to reach the lake on foot via forest trails from other Parnitha trailheads, making the journey part of the experience. Near the lake, you'll find a simple stone shelter (a small chapel dedicated to the Virgin Mary) and a few picnic tables, but facilities are minimal—this is nature at its least developed. The lake attracts diverse visitors: families seeking a quiet picnic spot, hikers incorporating it into longer Parnitha routes, birdwatchers hoping to spot waterfowl and woodland birds, and mountain bikers exploring Parnitha's network of dirt roads. In winter, when Athens gets its rare snowfalls, the lake area transforms into a winter wonderland, with snow covering the forest and ice sometimes forming on the water's surface—creating scenes that feel more Alpine than Mediterranean. The ecological value of Lake Beletsi lies in its rarity: small mountain lakes are uncommon in the Mediterranean climate, and this one provides habitat for amphibians (frogs and salamanders), aquatic insects, and the animals and birds that depend on this water source. The surrounding forest shelters Parnitha's typical fauna: red deer sometimes come to drink here, foxes hunt the meadow edges, and owls nest in the old trees. Visiting Lake Beletsi works well as a destination hike—reaching the lake, having lunch, exploring the surrounding forest, and returning—or as a waypoint on longer Parnitha routes connecting to the summit, Bafi Refuge, or other landmarks. The lake is particularly beautiful in early morning when mist rises from the water, in autumn when the foliage reflects in vibrant colors, and after fresh snowfall in winter. Bring food and water (there are no facilities), respect the natural environment (pack out all trash), and enjoy the rare experience of an alpine lake atmosphere within reach of one of Europe's largest cities. Lake Beletsi reminds us that even well-explored mountains like Parnitha still hold quiet corners where nature's rhythms continue undisturbed, where the only sounds are wind in the trees, birdsong, and perhaps the distant laughter of fellow hikers appreciating this peaceful refuge.",
-        "quiz": {
-            "question": "What makes Lake Beletsi special on Mount Parnitha?",
-            "options": [
-                "It's a rare small mountain lake at 950m offering peaceful alpine atmosphere, forest setting, and seasonal beauty near Athens",
-                "It's the largest lake in Europe",
-                "It's a saltwater ocean bay",
-                "It's an indoor swimming pool"
-            ],
-            "answer": 0,
-            "feedback": "Correct! Lake Beletsi is a hidden natural mountain lake on Parnitha, providing a rare alpine lake experience with seasonal changes, wildlife, and tranquility close to Athens."
-        },
-        "reward": {
-            "title": "Parnitha forest ecology guidebook",
-            "provider": "Parnitha National Park",
-            "codeHash": "4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a"
-        },
-        "id": 350
-    },
-    {
-        "name": "Valanaris Waterfall, Drafi",
-        "lat": 38.0956,
-        "lng": 23.8845,
-        "image": "images/valanaris_waterfall.jpg",
-        "description": "A seasonal waterfall near Drafi on Mount Penteli's foothills, offering easy hiking through pine forest and stream-side trails—a family-friendly nature escape.",
-        "audioText": "Welcome to Valanaris Waterfall, a charming seasonal cascade nestled in the foothills of Mount Penteli near the village of Drafi. While not as dramatic as some waterfalls, Valanaris embodies the intimate beauty of Attica's small natural wonders—modest in scale but rich in atmosphere, easily accessible, and perfect for families seeking a gentle introduction to nature hiking. The name 'Valanaris' refers to the small ravine and stream that feeds this waterfall, flowing strongest from late winter through spring when rainfall and snowmelt combine to create a consistent flow. By summer's end, the waterfall often reduces to a trickle or stops entirely, so timing your visit matters. March through May offers the best experience: full water flow, lush greenery, wildflowers blooming along the trail, and comfortable temperatures for hiking. The trail to Valanaris begins near Drafi village and follows the stream valley through pine forest and Mediterranean scrubland. The path is well-worn and relatively easy, suitable for children and less experienced hikers—about 30-45 minutes of walking each way, with gentle elevation gain. The trail crosses the stream several times (bring water-resistant footwear or be prepared for wet feet), passes through shaded sections under tall pines, and offers glimpses of birds and butterflies attracted to the water. As you approach the waterfall, the sound of falling water grows louder, and the vegetation becomes lusher. Ferns, mosses, and plane trees thrive in the moist microclimate created by the waterfall's spray. The fall itself drops about 6-8 meters over layered rock, creating a small pool at its base. The pool is shallow and cold—fed by mountain runoff—but refreshing for those brave enough for a quick dip or just to wade and cool off. The surrounding rocks provide natural seating where hikers rest, eat snacks, and enjoy the peaceful ambiance. Valanaris is popular with local families who treat it as a weekend nature outing. You'll often find parents with young children exploring the stream, teenagers taking photos, and older hikers who appreciate the ease of access combined with genuine natural beauty. The site remains relatively uncrowded outside peak spring weekends, and there's a sense of shared stewardship among visitors—most people pack out their trash and respect the environment. The waterfall area is also a good spot for nature observation: dragonflies and butterflies gather near the water, small fish dart in the pool, birds come to drink and bathe, and wildflowers like poppies, irises, and orchids bloom along the stream banks in spring. Photographers appreciate the combination of water, forest, and natural light that creates appealing compositions. Visiting Valanaris can easily be combined with other Penteli activities: the ancient marble quarries are accessible via connecting trails, Penteli's summit is a more ambitious extension, and the nearby villages of Drafi and Pikermi offer traditional tavernas for post-hike meals. The waterfall is about 25-30 minutes by car from central Athens, making it a practical half-day excursion. Bring snacks and water, wear shoes suitable for wet rocks, and consider bringing a lightweight towel if you plan to wade. Valanaris Waterfall may not be grand by international standards, but it delivers exactly what Athenians treasure: a nearby, accessible natural retreat where water, greenery, and the sound of a stream create a temporary escape from urban life. It's proof that you don't need wilderness expeditions to find nature's restorative power—sometimes a small waterfall, a short hike, and the company of family or friends are exactly enough.",
-        "quiz": {
-            "question": "When is the best season to visit Valanaris Waterfall?",
-            "options": [
-                "March through May when water flow is strongest, wildflowers bloom, and temperatures are comfortable for the stream-side hike",
-                "Late summer when it's completely dry",
-                "Only during winter blizzards",
-                "Year-round as it's an indoor attraction"
-            ],
-            "answer": 0,
-            "feedback": "Correct! Valanaris is a seasonal waterfall best visited in spring when rainfall creates good flow, vegetation is lush, and the easy family-friendly trail is most enjoyable."
-        },
-        "reward": {
-            "title": "Drafi taverna meal discount coupon",
-            "provider": "Valanaris Trail Association",
-            "codeHash": "5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b"
-        },
-        "id": 351
+        "id": 305
     },
     {
         "name": "Goura Gorge, Mount Parnitha",
@@ -8778,7 +7647,7 @@ const POIs = [
             "provider": "Athens Mountaineering Club",
             "codeHash": "6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c"
         },
-        "id": 352
+        "id": 306
     },
     {
         "name": "Skipiza Spring, Mount Parnitha",
@@ -8803,7 +7672,7 @@ const POIs = [
             "provider": "Hellenic Hiking Federation",
             "codeHash": "7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d"
         },
-        "id": 353
+        "id": 307
     },
     {
         "name": "Panos Cave, Mount Parnitha",
@@ -8828,9 +7697,8 @@ const POIs = [
             "provider": "Hellenic Speleological Society",
             "codeHash": "8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e"
         },
-        "id": 354
+        "id": 308
     }
-
 ];
 
 let map;

@@ -47,11 +47,11 @@ function uniqueSlugs(pois) {
     });
 }
 
-function marketingNav(active, prefix) {
+function marketingNav(active, prefix, siteCount) {
     const links = [
         ["index.html", "Open app", false],
         ["about.html", "About", true],
-        ["sites/index.html", "355 sites", true],
+        ["sites/index.html", `${siteCount} sites`, true],
         ["blog/index.html", "Guide", true],
         ["press.html", "Press", true]
     ];
@@ -64,7 +64,7 @@ function marketingNav(active, prefix) {
         .join("");
 }
 
-function pageShell({ title, description, canonical, active, prefix, extraHead, body, hero }) {
+function pageShell({ title, description, canonical, active, prefix, extraHead, body, hero, siteCount }) {
     const heroHtml = hero
         ? `<section class="hero" style="${hero.image ? `background-image:linear-gradient(180deg,rgba(13,47,100,.5),rgba(18,24,36,.82)),url('${hero.image}')` : ""}">
         <div class="wrap hero-inner">
@@ -100,14 +100,14 @@ function pageShell({ title, description, canonical, active, prefix, extraHead, b
                 <span class="brand-kicker">ECHOES</span>
                 <span class="brand-sub">of Athens</span>
             </a>
-            <nav class="nav">${marketingNav(active, prefix)}</nav>
+            <nav class="nav">${marketingNav(active, prefix, siteCount)}</nav>
         </div>
     </header>
     ${heroHtml}
     ${body}
     <footer class="site-footer">
         <div class="site-footer-inner">
-            <p>Echoes of Athens is a free, privacy-first audio guide to 355 places in Attica.</p>
+            <p>Echoes of Athens is a free, privacy-first audio guide to ${siteCount} places in Attica.</p>
             <p><a href="${prefix}index.html">Open the app</a> · <a href="${prefix}about.html">About</a> · <a href="${prefix}press.html">Press kit</a></p>
         </div>
     </footer>
@@ -121,7 +121,7 @@ function writeFile(filePath, contents) {
     fs.writeFileSync(filePath, contents);
 }
 
-function poiPage({ poi, slug }) {
+function poiPage({ poi, slug, siteCount }) {
     const prefix = "../";
     const canonical = `${BASE}/sites/${slug}.html`;
     const desc = (poi.description || "").slice(0, 160);
@@ -147,7 +147,7 @@ function poiPage({ poi, slug }) {
     };
     const body = `<main class="section">
         <article class="wrap prose">
-            <p class="meta"><a href="../sites/index.html">All sites</a> · POI ${poi.id + 1} of 355</p>
+            <p class="meta"><a href="../sites/index.html">All sites</a> · POI ${poi.id + 1} of ${siteCount}</p>
             <h1 class="page-title">${escapeHtml(poi.name)}</h1>
             <img src="${escapeHtml(image)}" alt="${escapeHtml(poi.name)}" width="1200" height="800">
             <p>${escapeHtml(poi.description || "")}</p>
@@ -167,11 +167,12 @@ function poiPage({ poi, slug }) {
         active: "sites/index.html",
         prefix,
         extraHead: `<script type="application/ld+json">${JSON.stringify(schema)}</script>`,
-        body
+        body,
+        siteCount
     });
 }
 
-function directoryPage(entries) {
+function directoryPage(entries, siteCount) {
     const cards = entries
         .slice()
         .sort((a, b) => a.poi.name.localeCompare(b.poi.name))
@@ -184,7 +185,7 @@ function directoryPage(entries) {
         .join("\n");
     const body = `<main class="section">
         <div class="wrap">
-            <h1 class="page-title">355 sites across Athens and Attica</h1>
+            <h1 class="page-title">${siteCount} sites across Athens and Attica</h1>
             <p class="muted">Ancient temples, Byzantine monasteries, caves, beaches, forests, and neighborhood landmarks. Tap any card for the story, or open it inside the live map.</p>
             <input class="search" id="site-filter" type="search" placeholder="Search temples, beaches, monasteries…" aria-label="Search sites">
             <div class="site-grid" id="site-grid">${cards}</div>
@@ -199,12 +200,13 @@ function directoryPage(entries) {
     });
     </script>`;
     return pageShell({
-        title: "355 historical sites in Attica | Echoes of Athens",
-        description: "Directory of 355 temples, ruins, monasteries, beaches, and natural sites in Athens and Attica, each with a free GPS audio guide.",
+        title: `${siteCount} historical sites in Attica | Echoes of Athens`,
+        description: `Directory of ${siteCount} temples, ruins, monasteries, beaches, and natural sites in Athens and Attica, each with a free GPS audio guide.`,
         canonical: `${BASE}/sites/index.html`,
         active: "sites/index.html",
         prefix: "../",
-        body
+        body,
+        siteCount
     });
 }
 
@@ -246,22 +248,37 @@ ${urls}
 `;
 }
 
+function cleanStaleSitePages(dir, keepSlugs) {
+    if (!fs.existsSync(dir)) return;
+    fs.readdirSync(dir).forEach((file) => {
+        if (!file.endsWith(".html") || file === "index.html") return;
+        const slug = file.replace(/\.html$/, "");
+        if (!keepSlugs.has(slug)) {
+            fs.unlinkSync(path.join(dir, file));
+        }
+    });
+}
+
 function main() {
     const pois = extractPOIs();
+    const siteCount = pois.length;
     const entries = uniqueSlugs(pois);
+    const keepSlugs = new Set(entries.map((entry) => entry.slug));
     const sitemap = buildSitemap(entries);
     writeFile(path.join(ROOT, "sitemap.xml"), sitemap);
-    writeFile(path.join(ROOT, "sites", "index.html"), directoryPage(entries));
+    writeFile(path.join(ROOT, "sites", "index.html"), directoryPage(entries, siteCount));
     entries.forEach((entry) => {
-        writeFile(path.join(ROOT, "sites", `${entry.slug}.html`), poiPage(entry));
+        writeFile(path.join(ROOT, "sites", `${entry.slug}.html`), poiPage({ ...entry, siteCount }));
     });
+    cleanStaleSitePages(path.join(ROOT, "sites"), keepSlugs);
 
     if (fs.existsSync(DIST)) {
         writeFile(path.join(DIST, "sitemap.xml"), sitemap);
-        writeFile(path.join(DIST, "sites", "index.html"), directoryPage(entries));
+        writeFile(path.join(DIST, "sites", "index.html"), directoryPage(entries, siteCount));
         entries.forEach((entry) => {
-            writeFile(path.join(DIST, "sites", `${entry.slug}.html`), poiPage(entry));
+            writeFile(path.join(DIST, "sites", `${entry.slug}.html`), poiPage({ ...entry, siteCount }));
         });
+        cleanStaleSitePages(path.join(DIST, "sites"), keepSlugs);
         console.log(`SEO: wrote sitemap + ${entries.length} site pages (source + dist)`);
     } else {
         console.log(`SEO: wrote sitemap and ${entries.length} site pages under sites/`);
